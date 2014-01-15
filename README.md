@@ -26,17 +26,17 @@ In order to accept design contributions, we ask that you
 - include source files whenever possible
 - use open, standard source formats as much as possible. Good examples are: svg, xcf, ora, odt, and odp
 
-You can see upcoming development and feature work on the (public OpenShift Origin UI backlog)[https://trello.com/b/M0rP0aLj], and you can follow current design work on (the mailing list)[http://lists.openshift.redhat.com/openshiftmm/listinfo].
+You can see upcoming development and feature work on the [public OpenShift Origin UI backlog](https://trello.com/b/M0rP0aLj), and you can follow current design work on [the mailing list](http://lists.openshift.redhat.com/openshiftmm/listinfo).
 
 ### Usability testing
-Usability testing is a great way to help out if you aren't a designer (or even if you are). If you're interested in helping us test our designs, please read our comprehensive (User testing manual) [#]. (TODO)
+Usability testing is a great way to help out if you aren't a designer (or even if you are). If you're interested in helping us test our designs, please read our comprehensive [User testing manual] (#). (TODO)
 
 License
 -------
 
-All files in this repository are released as (Apache License 2.0)[http://www.apache.org/licenses/LICENSE-2.0.html] unless otherwise noted. 
+All files in this repository are released as [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) unless otherwise noted. 
 
 Questions
 ---------
 
-For questions or comments, you can contact the (mailing list)[http://lists.openshift.redhat.com/openshiftmm/listinfo] or ping either Emichan or rhamilto on the UI dev IRC channel: (#openshift-dev-ui@Freenode.net)[http://webchat.freenode.net/?randomnick=1&channels=openshift-dev-ui&uio=d4].
+For questions or comments, you can contact the [mailing list](http://lists.openshift.redhat.com/openshiftmm/listinfo) or ping either Emichan or rhamilto on the UI dev IRC channel: [#openshift-dev-ui@Freenode.net](http://webchat.freenode.net/?randomnick=1&channels=openshift-dev-ui&uio=d4).
