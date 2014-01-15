@@ -17,7 +17,7 @@ Contributing
 ------------
 
 ### Feedback
-We welcome constructive criticism. The best place to comment on ongoing design work is (the public mailing lists)[http://lists.openshift.redhat.com/openshiftmm/listinfo].
+We welcome constructive criticism. The best place to comment on ongoing design work is [the public mailing lists](http://lists.openshift.redhat.com/openshiftmm/listinfo).
 
 ### Design work
 In order to accept design contributions, we ask that you
@@ -29,7 +29,7 @@ In order to accept design contributions, we ask that you
 You can see upcoming development and feature work on the [public OpenShift Origin UI backlog](https://trello.com/b/M0rP0aLj), and you can follow current design work on [the mailing list](http://lists.openshift.redhat.com/openshiftmm/listinfo).
 
 ### Usability testing
-Usability testing is a great way to help out if you aren't a designer (or even if you are). If you're interested in helping us test our designs, please read our comprehensive [User testing manual] (#). (TODO)
+Usability testing is a great way to help out if you aren't a designer (and especially if you are). If you're interested in helping us test our designs, please read our comprehensive [User testing manual] (#). (TODO)
 
 License
 -------
