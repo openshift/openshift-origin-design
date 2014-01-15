@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg3211"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="myAccount.svg"
+   inkscape:export-filename="/home/emily/Devel/libra/Site 2.0/redhat-ux/Products/openshift/console/myAccount.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs3213" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.7787434"
+     inkscape:cx="277.44306"
+     inkscape:cy="1163.1653"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1364"
+     inkscape:window-height="714"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3216">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="61"
+       y="59.362183"
+       id="text3219"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3221"
+         x="61"
+         y="59.362183"
+         style="-inkscape-font-specification:Overpass;font-family:Overpass;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">MY ACCOUNT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:33.47801971px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="65.469582"
+       y="125.59509"
+       id="text3223"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3225"
+         x="65.469582"
+         y="125.59509"
+         style="font-size:26.7824173px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Overpass;-inkscape-font-specification:Overpass">Personal Information</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20.08681297px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="105.64321"
+       y="166.60567"
+       id="text3227"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3229"
+         x="105.64321"
+         y="166.60567"
+         style="font-size:20.08681297px;font-weight:bold;-inkscape-font-specification:Sans Bold">Email</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20.08681297px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="124.05612"
+       y="210.08368"
+       id="text3231"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3233"
+         x="124.05612"
+         y="210.08368" /><tspan
+         sodipodi:role="line"
+         x="124.05612"
+         y="235.1922"
+         id="tspan3235" /><tspan
+         sodipodi:role="line"
+         x="124.05612"
+         y="260.30072"
+         id="tspan3237">account@provider.tld</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.06510925px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="124.05612"
+       y="196.73589"
+       id="text3239"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="124.05612"
+         y="196.73589"
+         id="tspan3243">We will only use your email account for important information about your </tspan><tspan
+         sodipodi:role="line"
+         x="124.05612"
+         y="215.56728"
+         id="tspan3798">account. We do not share it with third parties.</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3264"
+       y="305.82214"
+       x="105.64321"
+       style="font-size:20.08681297px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:20.08681297px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+         y="305.82214"
+         x="105.64321"
+         id="tspan3266"
+         sodipodi:role="line">Password</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3276"
+       y="366.36218"
+       x="135"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         id="tspan3280"
+         y="366.36218"
+         x="135"
+         sodipodi:role="line" /></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3284"
+       width="129.72733"
+       height="25.945467"
+       x="127.40392"
+       y="313.90897"
+       rx="16.266893"
+       ry="16.266893" />
+    <text
+       xml:space="preserve"
+       style="font-size:23.43461418px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Overpass;-inkscape-font-specification:Overpass Bold"
+       x="162.48326"
+       y="344.92941"
+       id="text3010"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3012"
+         x="162.48326"
+         y="344.92941">Edit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20.08681297px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff8d00;fill-opacity:1;stroke:none;font-family:Overpass;-inkscape-font-specification:Overpass Bold"
+       x="130.75172"
+       y="340.97406"
+       id="text3014"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3016"
+         x="130.75172"
+         y="340.97406">Edit...</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3012"
+       y="403.41925"
+       x="65.469582"
+       style="font-size:33.47801971px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:26.7824173px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Overpass;-inkscape-font-specification:Overpass"
+         y="403.41925"
+         x="65.469582"
+         id="tspan3014"
+         sodipodi:role="line">Namespace</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.06510925px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="106.48016"
+       y="431.87558"
+       id="text3034"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="106.48016"
+         y="431.87558"
+         id="tspan3054">Your namespace is unique to you, and makes up part of the default urls we assign </tspan><tspan
+         sodipodi:role="line"
+         x="106.48016"
+         y="450.70697"
+         id="tspan3056">to your cartridges. You can also assign custom urls to any of your cartridges. </tspan><tspan
+         sodipodi:role="line"
+         x="106.48016"
+         y="469.53836"
+         id="tspan3806">See <tspan
+   style="font-size:15.06510925px;fill:#0093d9"
+   id="tspan3058">this help topic</tspan> for more information.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20.08681297px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="106.48016"
+       y="514.59229"
+       id="text3060"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3062"
+         x="106.48016"
+         y="514.59229"><tspan
+   style="font-size:20.08681297px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+   id="tspan3064">myns</tspan>.rh<tspan
+   style="font-size:20.08681297px"
+   id="tspan3068">c</tspan>loud.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20.08681297px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff8d00;fill-opacity:1;stroke:none;font-family:Overpass;-inkscape-font-specification:Overpass Bold"
+       x="344.76337"
+       y="514.59229"
+       id="text3014-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3016-4"
+         x="344.76337"
+         y="514.59229">Edit...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:33.47801971px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="65.469582"
+       y="587.54834"
+       id="text3735"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3737"
+         x="65.469582"
+         y="587.54834"
+         style="font-size:26.7824173px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Overpass;-inkscape-font-specification:Overpass">Public Keys</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3739"
+       y="616.0047"
+       x="106.48016"
+       style="font-size:15.06510925px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="616.0047"
+         x="106.48016"
+         sodipodi:role="line"
+         id="tspan3768">OpenShift uses public keys to securely encrypt the connection between your local </tspan><tspan
+         y="634.83606"
+         x="106.48016"
+         sodipodi:role="line"
+         id="tspan3772">machine and your application. You need to create a keypair on your local machine, </tspan><tspan
+         y="653.66748"
+         x="106.48016"
+         sodipodi:role="line"
+         id="tspan3774">and give us the public key before you can connect to your applications' Git repos.</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3749"
+       y="706.15607"
+       x="106.48016"
+       style="font-size:20.08681297px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="706.15607"
+         x="106.48016"
+         id="tspan3751"
+         sodipodi:role="line"
+         style="font-size:20.08681297px;font-weight:bold;-inkscape-font-specification:Sans Bold">Primary</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3757"
+       y="704.48218"
+       x="528.89246"
+       style="font-size:20.08681297px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff8d00;fill-opacity:1;stroke:none;font-family:Overpass;-inkscape-font-specification:Overpass Bold"
+       xml:space="preserve"><tspan
+         y="704.48218"
+         x="528.89246"
+         id="tspan3759"
+         sodipodi:role="line">Edit...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20.08681297px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="223.60994"
+       y="705.49579"
+       id="text3776"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3778"
+         x="223.60994"
+         y="705.49579">ssh-rsa AAAAB...mWhwB </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20.08681297px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="106.48016"
+       y="739.63409"
+       id="text3780"
+       sodipodi:linespacing="125%"><tspan
+         style="font-size:20.08681297px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+         sodipodi:role="line"
+         id="tspan3782"
+         x="106.48016"
+         y="739.63409">Work</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20.08681297px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff8d00;fill-opacity:1;stroke:none;font-family:Overpass;-inkscape-font-specification:Overpass Bold"
+       x="528.89246"
+       y="737.96021"
+       id="text3784"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3786"
+         x="528.89246"
+         y="737.96021">Edit...</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3788"
+       y="738.97382"
+       x="223.60994"
+       style="font-size:20.08681297px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="738.97382"
+         x="223.60994"
+         id="tspan3790"
+         sodipodi:role="line">ssh-rsa AAAAB...mWhwB </tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3792"
+       y="737.96021"
+       x="612.58752"
+       style="font-size:20.08681297px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#cc0000;fill-opacity:1;stroke:none;font-family:Overpass;-inkscape-font-specification:Overpass Bold"
+       xml:space="preserve"><tspan
+         y="737.96021"
+         x="612.58752"
+         id="tspan3794"
+         sodipodi:role="line">Delete...</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4007"
+       y="867.54834"
+       x="65.469582"
+       style="font-size:33.47801971px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:26.7824173px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Overpass;-inkscape-font-specification:Overpass"
+         y="867.54834"
+         x="65.469582"
+         id="tspan4009"
+         sodipodi:role="line">Public Keys</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.06510925px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="106.48016"
+       y="896.0047"
+       id="text4011"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4013"
+         sodipodi:role="line"
+         x="106.48016"
+         y="896.0047">OpenShift uses public keys to securely encrypt the connection between your local </tspan><tspan
+         id="tspan4015"
+         sodipodi:role="line"
+         x="106.48016"
+         y="914.83606">machine and your application. You need to create a keypair on your local machine, </tspan><tspan
+         id="tspan4017"
+         sodipodi:role="line"
+         x="106.48016"
+         y="933.66748">and give us the public key before you can connect to your applications' Git repos.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="49.29985"
+       y="823.9668"
+       id="text4047"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4049"
+         x="49.29985"
+         y="823.9668">No keys yet:</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000"
+       id="rect4051"
+       width="513.85614"
+       height="77.742073"
+       x="102.39199"
+       y="986.51624"
+       rx="16.266893"
+       ry="16.266893" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="106.18429"
+       y="978.93164"
+       id="text4053"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4055"
+         x="106.18429"
+         y="978.93164">Paste your public key</tspan></text>
+    <rect
+       style="fill:#0093d9;stroke:none;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4057"
+       width="511.95959"
+       height="32.236042"
+       x="102.39198"
+       y="1075.116"
+       rx="16.266893"
+       ry="15.169901" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4069"
+       y="1102.073"
+       x="326.70529"
+       style="font-size:27.85629845px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#003d6e;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       xml:space="preserve"><tspan
+         y="1102.073"
+         x="326.70529"
+         id="tspan4071"
+         sodipodi:role="line">Save</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:27.85629845px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="325.82968"
+       y="1101.1973"
+       id="text4059"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4061"
+         x="325.82968"
+         y="1101.1973">Save</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="754.46521"
+       y="1032.1232"
+       id="text4073"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4075"
+         x="754.46521"
+         y="1032.1232">shorter textarea, </tspan><tspan
+         sodipodi:role="line"
+         x="754.46521"
+         y="1082.1232"
+         id="tspan4077">button styling from console</tspan></text>
+  </g>
+</svg>

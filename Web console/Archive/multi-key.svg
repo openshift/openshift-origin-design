@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="multi-key.svg"
+   inkscape:export-filename="/home/emily/Devel/libra/Site 2.0/redhat-ux/Products/openshift/console/multi-key.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4361"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4359"
+       effect="spiro" />
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path3785"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3009"
+       is_visible="true" />
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3785-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3009-0"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.77678307"
+     inkscape:cx="783.65323"
+     inkscape:cy="-909.92254"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="714"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <rect
+       style="fill:#808080;stroke:none"
+       id="rect4239"
+       width="648.82977"
+       height="480.18552"
+       x="323.12753"
+       y="511.67072"
+       rx="3.4130566"
+       ry="3.4130566" />
+    <rect
+       style="fill:#ffffff;stroke:none"
+       id="rect4241"
+       width="612.78369"
+       height="432.42276"
+       x="338.57587"
+       y="535.20917"
+       rx="3.4130566"
+       ry="3.4130566" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="342.2908"
+       y="364.13916"
+       id="text2985"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987"
+         x="342.2908"
+         y="364.13916">SSH PUBLIC KEYS (<tspan
+   style="fill:#008080"
+   id="tspan4436">what's this?</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="20.027655"
+       y="125.62801"
+       id="text2989"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2991"
+         x="20.027655"
+         y="125.62801" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="32.772518"
+       y="362.31845"
+       id="text2993"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2995"
+         x="32.772518"
+         y="362.31845">No SSH Key:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="49.158787"
+       y="154.75914"
+       id="text2997"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2999"
+         x="49.158787"
+         y="154.75914" /></text>
+    <rect
+       style="fill:#008080;stroke:none"
+       id="rect3001"
+       width="269.46298"
+       height="60.082962"
+       x="345.93222"
+       y="391.44962"
+       rx="12.424582"
+       ry="12.424582" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="440.60837"
+       y="436.96701"
+       id="text3003"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3005"
+         x="440.60837"
+         y="436.96701">Add</tspan></text>
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 491.27523,454.19924 -1.8207,54.62087"
+       id="path3007"
+       inkscape:path-effect="#path-effect3009"
+       inkscape:original-d="m 491.27523,454.19924 -1.8207,54.62087"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#ffffff;stroke:#000000"
+       id="rect4223"
+       width="547.12817"
+       height="287.08136"
+       x="357.88626"
+       y="586.33759"
+       rx="12.424582"
+       ry="12.424582" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="360.461"
+       y="581.18817"
+       id="text4225"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4227"
+         x="360.461"
+         y="581.18817">Public key</tspan></text>
+    <rect
+       style="fill:#cccccc;stroke:none"
+       id="rect4229"
+       width="23.172493"
+       height="265.19629"
+       x="872.83057"
+       y="596.63647"
+       rx="12.424582"
+       ry="12.424582" />
+    <rect
+       style="fill:#808080;stroke:none"
+       id="rect4231"
+       width="28.320564"
+       height="20.090889"
+       x="870.2558"
+       y="610.03021"
+       rx="3.4130566"
+       ry="3.4130566" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="374.62195"
+       y="622.38373"
+       id="text4233"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4235"
+         x="374.62195"
+         y="622.38373">ssh-rsa</tspan><tspan
+         sodipodi:role="line"
+         x="374.62195"
+         y="672.38373"
+         id="tspan4237">AAAAB3nzdia....</tspan></text>
+    <rect
+       style="fill:#008080;stroke:none"
+       id="rect4243"
+       width="548.41565"
+       height="41.195541"
+       x="364.32309"
+       y="890.15472"
+       rx="24.459854"
+       ry="24.459856" />
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="597.33533"
+       y="922.33875"
+       id="text4245"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4247"
+         x="597.33533"
+         y="922.33875">Save</tspan></text>
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 492.19326,991.58037 -1.8207,54.62083"
+       id="path3007-1"
+       inkscape:path-effect="#path-effect3009-0"
+       inkscape:original-d="m 492.19326,991.58037 -1.8207,54.62083"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="330.66751"
+       y="1091.4562"
+       id="text2985-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987-2"
+         x="330.66751"
+         y="1091.4562">SSH PUBLIC KEYS (<tspan
+   style="fill:#008080"
+   id="tspan4438">what's this?</tspan>)</tspan></text>
+    <g
+       id="g4316"
+       transform="translate(0,84)">
+      <rect
+         ry="12.424582"
+         rx="12.424582"
+         y="1118.7666"
+         x="334.30893"
+         height="60.082962"
+         width="269.46298"
+         id="rect3001-1"
+         style="fill:#008080;stroke:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3003-2"
+         y="1164.2841"
+         x="428.98508"
+         style="font-size:40px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         xml:space="preserve"><tspan
+           y="1164.2841"
+           x="428.98508"
+           id="tspan3005-0"
+           sodipodi:role="line">Add</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4306"
+       y="1098.3185"
+       x="26.772518"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="1098.3185"
+         x="26.772518"
+         id="tspan4308"
+         sodipodi:role="line">One SSH Key:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="337.28851"
+       y="1159.351"
+       id="text4321"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4323"
+         x="337.28851"
+         y="1159.351"><tspan
+   style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+   id="tspan4434">Primary </tspan>     ssh-rsa AAAAB3NzaC1...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1063.3599"
+       y="1159.351"
+       id="text4325"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4327"
+         x="1063.3599"
+         y="1159.351"
+         style="fill:#008080">Edit      Copy</tspan></text>
+    <rect
+       ry="3.4130566"
+       rx="3.4130566"
+       y="1321.6707"
+       x="323.12753"
+       height="575.4502"
+       width="648.82977"
+       id="rect4329"
+       style="fill:#808080;stroke:none" />
+    <rect
+       ry="3.4130566"
+       rx="3.4130566"
+       y="1349.879"
+       x="338.57587"
+       height="518.21173"
+       width="612.78369"
+       id="rect4331"
+       style="fill:#ffffff;stroke:none" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 491.27523,1264.1992 -1.8207,54.6209"
+       inkscape:path-effect="#path-effect4359"
+       id="path4333"
+       d="m 491.27523,1264.1992 -1.8207,54.6209"
+       style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)" />
+    <rect
+       ry="12.424582"
+       rx="12.424582"
+       y="1494.3376"
+       x="357.88626"
+       height="287.08136"
+       width="547.12817"
+       id="rect4335"
+       style="fill:#ffffff;stroke:#000000" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4337"
+       y="1489.1882"
+       x="360.461"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="1489.1882"
+         x="360.461"
+         id="tspan4339"
+         sodipodi:role="line">Public key</tspan></text>
+    <rect
+       ry="12.424582"
+       rx="12.424582"
+       y="1504.6365"
+       x="872.83057"
+       height="265.19629"
+       width="23.172493"
+       id="rect4341"
+       style="fill:#cccccc;stroke:none" />
+    <rect
+       ry="3.4130566"
+       rx="3.4130566"
+       y="1518.0303"
+       x="870.2558"
+       height="20.090889"
+       width="28.320564"
+       id="rect4343"
+       style="fill:#808080;stroke:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4345"
+       y="1530.3838"
+       x="374.62195"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="1530.3838"
+         x="374.62195"
+         id="tspan4347"
+         sodipodi:role="line">ssh-rsa</tspan><tspan
+         id="tspan4349"
+         y="1580.3838"
+         x="374.62195"
+         sodipodi:role="line">AAAAB3nzdia....</tspan></text>
+    <rect
+       ry="24.459856"
+       rx="24.459854"
+       y="1798.1548"
+       x="364.32309"
+       height="41.195541"
+       width="548.41565"
+       id="rect4351"
+       style="fill:#008080;stroke:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4353"
+       y="1830.3386"
+       x="597.33533"
+       style="font-size:36px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       xml:space="preserve"><tspan
+         y="1830.3386"
+         x="597.33533"
+         id="tspan4355"
+         sodipodi:role="line">Save</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 496.05534,1895.5578 -1.8207,54.6208"
+       inkscape:path-effect="#path-effect4361"
+       id="path4357"
+       d="m 496.05534,1895.5578 -1.8207,54.6208"
+       style="fill:#ffffff;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="360.461"
+       y="1085.2451"
+       id="text4363"
+       sodipodi:linespacing="125%"
+       transform="translate(0,308.2677)"><tspan
+         sodipodi:role="line"
+         id="tspan4365"
+         x="360.461"
+         y="1085.2451">Name</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000"
+       id="rect4367"
+       width="535.54205"
+       height="41.195541"
+       x="361.74835"
+       y="1096.8313"
+       transform="translate(0,308.2677)"
+       rx="3.4130566"
+       ry="3.4130566" />
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="368.18515"
+       y="1435.9957"
+       id="text4369"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4371"
+         x="368.18515"
+         y="1435.9957">Work</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="26.772518"
+       y="1098.3185"
+       id="text4373"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4375"
+         x="26.772518"
+         y="1098.3185">One SSH Key:</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4377"
+       y="1991.4562"
+       x="330.66751"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="1991.4562"
+         x="330.66751"
+         id="tspan4379"
+         sodipodi:role="line">SSH PUBLIC KEYS (<tspan
+   style="fill:#008080"
+   id="tspan4440">what's this?</tspan>)</tspan></text>
+    <g
+       transform="translate(0,1044)"
+       id="g4381">
+      <rect
+         style="fill:#008080;stroke:none"
+         id="rect4383"
+         width="269.46298"
+         height="60.082962"
+         x="334.30893"
+         y="1118.7666"
+         rx="12.424582"
+         ry="12.424582" />
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         x="428.98508"
+         y="1164.2841"
+         id="text4385"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4387"
+           x="428.98508"
+           y="1164.2841">Add</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="26.772518"
+       y="1998.3185"
+       id="text4389"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4391"
+         x="26.772518"
+         y="1998.3185">Two SSH Keys:</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4393"
+       y="2059.3511"
+       x="337.28851"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="2059.3511"
+         x="337.28851"
+         id="tspan4395"
+         sodipodi:role="line"><tspan
+   style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+   id="tspan4432">Primary</tspan>      ssh-rsa AAAAB3NzaC1...</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4397"
+       y="2059.3511"
+       x="1063.3599"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="fill:#008080"
+         y="2059.3511"
+         x="1063.3599"
+         id="tspan4399"
+         sodipodi:role="line">Edit  </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="337.28851"
+       y="2115.3511"
+       id="text4405"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4407"
+         x="337.28851"
+         y="2115.3511">Work           ssh-rsa AAAAB3NzaC1...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1063.3599"
+       y="2115.3511"
+       id="text4409"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4411"
+         x="1063.3599"
+         y="2115.3511"
+         style="fill:#008080">Edit    Delete</tspan></text>
+  </g>
+</svg>

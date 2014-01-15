@@ -1,0 +1,16 @@
+General pattern
+---------------
+
+rhc <object> configure [--[no-]option] [--key=value]
+alias: rhc configure-<object> 
+
+Examples
+--------
+
+[~]$ rhc configure-app --no-auto-deploy --keep-deployments=2
+
+Notes
+-----
+
+- Number of <objects> should be kept minimal--the fewer places there are to configure things, the better. Expected <objects> are `app`, `domain`, and `account`
+- Using switches for the configuration options allows for autocomplete of the options
