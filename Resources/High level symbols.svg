@@ -14,7 +14,7 @@
    height="1400"
    id="svg11823"
    version="1.1"
-   inkscape:version="0.49 r12742"
+   inkscape:version="0.91 r12937"
    sodipodi:docname="High level symbols.svg"
    viewBox="0 0 1000 1400">
   <defs
@@ -337,6 +337,19 @@
        y1="73.569458"
        x2="-218.50002"
        y2="86.287849" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter21783"
+       x="-0.084012278"
+       width="1.1680246"
+       y="-0.083987726"
+       height="1.1679755">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.0118453"
+         id="feGaussianBlur21785" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -345,9 +358,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.0705451"
-     inkscape:cx="197.28709"
-     inkscape:cy="639.89339"
+     inkscape:zoom="2.3023779"
+     inkscape:cx="671.86033"
+     inkscape:cy="785.72682"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1315,19 +1328,6 @@
            id="tspan11553"
            sodipodi:role="line">Enter text here</tspan></text>
     </g>
-    <use
-       x="0"
-       y="0"
-       xlink:href="#g11596"
-       id="use15431" />
-    <use
-       id="use15449"
-       xlink:href="#g11596"
-       transform="translate(-18.549415,-69.313444)"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%" />
     <g
        transform="translate(163.60618,65.844216)"
        id="g10882">
@@ -1359,6 +1359,21 @@
                y="68.986313">Can't push me</tspan></text>
         </g>
       </g>
+    </g>
+    <g
+       id="g21787">
+      <path
+         style="fill:#505050;stroke:#505050;stroke-width:2.4247911;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter21783)"
+         d="m 684.75671,279.16796 -2.75312,-3.76797 0,-13.45774 5.83756,-2.91948 0,9.11257 0,-17.88147 5.83931,0 0,17.88147 0,-12.21174 5.83856,1.2668 0,8.28452 0,-7.19619 5.50679,1.12422 0,6.07197 0,-5.36443 5.88342,1.28606 0,14.00344 -2.35336,3.76797 z"
+         id="path21737"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccccccccccccc" />
+      <path
+         sodipodi:nodetypes="ccccccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path6537"
+         d="m 683.75671,278.16796 -2.75312,-3.76797 0,-13.45774 5.83756,-2.91948 0,9.11257 0,-17.88147 5.83931,0 0,17.88147 0,-12.21174 5.83856,1.2668 0,8.28452 0,-7.19619 5.50679,1.12422 0,6.07197 0,-5.36443 5.88342,1.28606 0,14.00344 -2.35336,3.76797 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:2.4247911;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
   </g>
 </svg>
