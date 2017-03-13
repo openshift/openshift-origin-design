@@ -1,11 +1,14 @@
-OpenShift Origin UI Design
-==========================
+## Web Console
+Access documentation for specific sections by clicking on the links below
 
-This repository contains design documents for the various user interfaces of OpenShift Origin.
-
-Repository Structure
---------------------
-
-The repository is organized by interface and in some cases further divided by feature.
-
-- **Web console** refers to the web-based interface available to users
+1. [Homepage](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/overview)
+  - [Catalog](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/catalog)
+  - [Building Experience](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/experience)
+  - [Project Panel](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/project-panel)
+  - [Search](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/search)
+1. [Projects Page](http://openshift.github.io/openshift-origin-design/web-console/2-projects-page/overview)
+1. [Project Details](http://openshift.github.io/openshift-origin-design/web-console/3-project-details/overview)
+1. Web Console Patterns
+  - [Binding](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/bind)
+  - [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead)
+  - [Overlay Panel](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel)
