@@ -1,52 +1,18 @@
-*******************************
-Things you may want to include in this file
-toolbar
-Card view
-List view
+
+# Overview
+- TBD  
+
+## Current Configuration
+
+## Future Work - NOT MVP
+- Add a "last updated" date to the project cards and sort by most recently updated, not by created date
+
+### List View
+![template](img/OpenShiftMall_Day1-ProjectsBar-4.png)
 
 
-*******************************
+### Card View
 
-# Template
-
-- This is a description of the section and where it is located/how to get to it
-- This is a description of what this section is for
-
-
-## Use Case 1 (e.g. Browse for service)
-
-![template](img/template-01.png)
-- description of what is happening in this wireframe
-
-#### Implementation Details
-  - Note PatternFly design patterns
-  - Note icon references
-
-![template](img/template-02.png)
-- description of what is happening in this wireframe
-
-#### Implementation Details
-  - Note PatternFly design patterns
-  - Note icon references
-
-#### Customer Feedback (if applicable)
-- Customer Feedback Received
-  - Overview of customer feedback received
-- Necessary Customer Feedback
-  - Questions to follow up with customers
-
-
-## Use Case 2
-
-![template](img/template-03.png)
-- description of what is happening in this wireframe
-
-#### Implementation Details
-  - Note PatternFly design patterns
-  - Note icon references
-
-![template](img/template-04.png)
-- description of what is happening in this wireframe
 
 #### Implementation Details
   - Note PatternFly design patterns
