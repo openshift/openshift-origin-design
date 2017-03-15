@@ -3,7 +3,7 @@ Access documentation for specific sections by clicking on the links below
 
 1. [Homepage](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/overview)
   - [Catalog](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/catalog)
-  - [Building Experience](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/experience)
+  - [SaaS Offerings](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/offerings)
   - [Project Panel](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/project-panel)
   - [Search](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/search)
 1. [Projects Page](http://openshift.github.io/openshift-origin-design/web-console/2-projects-page/overview)
