@@ -4,7 +4,7 @@
 - This component enables users to enter a query and receive a list of results.
 
 
-## Search for Service
+## Search Catalog
 
 ![search](img/search-01.png)
 - Deploy Image and Import YAML/JSON buttons are available next to the search bar and trigger the relevant [overlay panel actions](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel).
@@ -14,11 +14,11 @@
 
 ![search](img/search-02.png)
 - Entering a search term brings up a list of the first five matches.
-  - Clicking on a match will trigger the order flow for that service on the [overlay panel](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel).
+  - Clicking on a match will trigger the order flow for that catalog item on the [overlay panel](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel).
 
 #### Implementation Details
-  - Services will initially be able to be searched only by name and description
-  - Services with a matching name should be prioritized over those with a matching description
+  - Catalog items will initially be able to be searched only by name and description
+  - Catalog items with a matching name should be prioritized over those with a matching description
   - If possible and practical, the search results panel should be updated as the user enters their search term.
 
 **********
@@ -27,11 +27,11 @@
 
 ![search](img/search-02B.png)
 - Entering a search term brings up a list of the first five matches along with an option to view the entire set of matches.
-  - Clicking on a match will trigger the order flow for that service on the [overlay panel](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel).
+  - Clicking on a match will trigger the order flow for that catalog item on the [overlay panel](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel).
 
 #### Implementation Details
-  - Services should be searchable by name, tag, and description
-  - Services with a matching name or description should be prioritized over those with a matching tag
+  - Catalog items should be searchable by name, tag, and description
+  - Catalog items with a matching name or description should be prioritized over those with a matching tag
   - If possible and practical, the search results panel should be updated as the user enters their search term.
 
 ![search](img/search-03.png)
