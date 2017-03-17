@@ -10,3 +10,14 @@
   - [SaaS Offerings](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/offerings)
   - [Catalog](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/catalog)
   - [Project Panel](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/project-panel)
+
+
+
+## Responsive Designs
+
+![Homepage](img/overview-02.png)
+- As the page gets narrower, the projects column should remain the same width.
+- The SaaS Offerings and Catalog sections may change size to fit the screen.
+
+![Homepage](img/overview-03.png)
+- On very small screens, the Projects sections should move below the other two sections.
