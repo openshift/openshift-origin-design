@@ -1,55 +1,54 @@
-*******************************
-Things you may want to include in this file
-secondary masthead bar
-[overlay panel]
-[bind flow]
 
-*******************************
 
-# Template
+# Project Details
 
-- This is a description of the section and where it is located/how to get to it
+- The project details view is where users inspect or take action on individual projects.
 - This is a description of what this section is for
 
 
-## Use Case 1 (e.g. Browse for service)
+## MVP
 
-![template](img/template-01.png)
-- description of what is happening in this wireframe
-
-#### Implementation Details
-  - Note PatternFly design patterns
-  - Note icon references
-
-![template](img/template-02.png)
-- description of what is happening in this wireframe
+![template](img/project_details_mvp.png)
+- For MVP the current project details is maintained with minor tweaks
 
 #### Implementation Details
-  - Note PatternFly design patterns
-  - Note icon references
+  - A link to the projects list page is added to the project selection dropdown
 
-#### Customer Feedback (if applicable)
-- Customer Feedback Received
-  - Overview of customer feedback received
-- Necessary Customer Feedback
-  - Questions to follow up with customers
-
-
-## Use Case 2
-
-![template](img/template-03.png)
-- description of what is happening in this wireframe
+![template](img/project_details_mvp_add.png)
+- The Add to project action is changed to a dropdown
 
 #### Implementation Details
-  - Note PatternFly design patterns
-  - Note icon references
+  - Dropdown options are: Browse Catalog, Deploy Image and Import YAML/JSON
+  - For MVP, "Browse catalog" directs users to the landing page.
+  - "Deploy image" and "Import YAML/JSON" direct users to dedicated pages within the project.
 
-![template](img/template-04.png)
-- description of what is happening in this wireframe
+
+## Future
+
+### Secondary Masthead
+![template](img/secondary_masthead.png)
+  - The "crawl" phase will introduce a secondary masthead underneath the main masthead for project-related items.
+
 
 #### Implementation Details
-  - Note PatternFly design patterns
-  - Note icon references
+  - The secondary masthead includes the project selection dropdown and the add to project dropdown.
+
+![template](img/project_dropdown.png)
+  - The project selection dropdown should include a search/filter function when the user has ten or more projects.
+
+
+### Quick Add Search
+![template](img/quick_add.png)
+- In the "walk" phase, a "quick add" search box will be added to the secondary masthead.
+
+#### Implementation Details
+  - The "quick add" feature will behave like [search](https://github.com/openshift/openshift-origin-design/blob/master/web-console/1-homepage/search.m) on the landing page.
+
+  ![template](img/quick_add_search.png)
+  - In the "walk" phase, a "quick add" search box will be added to the secondary masthead.
+
+#### Implementation Details
+  - Selecting an item from the "quick add" search will initiate the ordering flow on the [overlay panel](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel) on the projects detail page.
 
 #### Customer Feedback (if applicable)
 - Customer Feedback Received
