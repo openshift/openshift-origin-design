@@ -26,10 +26,10 @@
 
 ### Quick Add
 ![template](img/order_flow.png)
-  - Selecting an item from the quick add search will initiate an ordering flow.
+  - Selecting an item from the [quick add search](overview.md/#quick-add-search) will initiate an ordering flow.
 
 #### Implementation Details
-  - The ordering flow can skip the step step where a user chooses where to add the service.
+  - The ordering flow can skip the step step where a user chooses the project to which to add the service.
 
 
 #### Customer Feedback (if applicable)

@@ -3,13 +3,13 @@
 # Project Details
 
 - The project details view is where users inspect or take action on individual projects.
-- This is a description of what this section is for
+
 
 
 ## MVP
 
 ![template](img/project_details_mvp.png)
-- For MVP the current project details is maintained with minor tweaks
+- For MVP the current project details is maintained with minor tweaks to the project selection dropdown and the Add to Project action.
 
 #### Implementation Details
   - A link to the projects list page is added to the project selection dropdown
@@ -28,6 +28,7 @@
 ### Secondary Masthead
 ![template](img/secondary_masthead.png)
   - The "crawl" phase will introduce a secondary masthead underneath the main masthead for project-related items.
+  - The top [masthead](https://github.com/openshift/openshift-origin-design/blob/master/web-console/4-patterns/masthead.md) will be consistent between the landing page and project details page.
 
 
 #### Implementation Details
