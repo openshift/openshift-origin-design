@@ -14,6 +14,7 @@
 - The default create project button will open an overlay panel with a three-field form inside. See implementation details for more info.
 - Once the user has at least one project created, the "My Projects" section will appear at the top of the panel. The Create Project button (if being used) will move down under "My Projects".
 
+### Project Empty State
 ![template](img/OpenShiftMall_Day1-ProjectsBar-3B.png)
 
 - Once created, the project will be listed as a card at the top of the projects list, in an "empty state."
@@ -102,13 +103,17 @@
 ## Future Work - NOT MVP
 - Add a "last updated" date to the project cards and sort by most recently updated, not by created date
 
-### Single Project
+### Projects - Card View
 ![template](img/OpenShiftMall_Day1-ProjectsBar-4.png)
 - Once a project has at least one resource, utilization metrics (CPU, Memory and Network) should be added to the project card along with the corresponding trendlines.
 
-### Multiple Projects
 ![template](img/OpenShiftMall_Day1-ProjectsBar-6.png)
 - The utilization metrics should be shown on the project cards as space permits (2 projects max).
+
+### Projects - List View
+![template](img/OpenShiftMall_Day1-ProjectsBar-7.png)
+- The Projects view should change to a list to conserve vertical space once there are more than two projects.
+- The summary panel should include a summary of warnings and allow direct link access to a filtered list on the projects page.
 
 ### Kebab Actions
 - TBD
