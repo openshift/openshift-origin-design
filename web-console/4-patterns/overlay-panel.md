@@ -1,59 +1,34 @@
-*******************************
-Things you may want to include in this file
-Order flow
-Import YAML
-Deploy Image
+# Overlay Panel Pattern
 
-*******************************
+## Overview
 
+The overlay panel is a common component which will be used in multiple areas in the OpenShift Web Console.
 
-# Template
-
-- This is a description of the section and where it is located/how to get to it
-- This is a description of what this section is for
-
-
-## Use Case 1 (e.g. Browse for service)
-
-![template](img/template-01.png)
-- description of what is happening in this wireframe
-
-#### Implementation Details
-  - Note PatternFly design patterns
-  - Note icon references
-
-![template](img/template-02.png)
-- description of what is happening in this wireframe
-
-#### Implementation Details
-  - Note PatternFly design patterns
-  - Note icon references
-
-#### Customer Feedback (if applicable)
-- Customer Feedback Received
-  - Overview of customer feedback received
-- Necessary Customer Feedback
-  - Questions to follow up with customers
+## Who will use this?
+- Ordering Experience
+Selecting an item from the Catalog Browser will present a flow in the overlay panel
+- Selecting an item from the Catalog Search results from the landing page
+- Selecting an item from the Catalog Search results from within a project
+- Import YAML in context (from within a project)
+- Bind in context (from within a project)
+- Deploy  Image in context (from within a project)
 
 
-## Use Case 2
+## Implementation Details
+- Panel has 2 height options
+- Panel should have a close button in the top right corner
+- Panel should have a maximum width and should be centered
+- Panel transitions down from the masthead when opening
+When the panel is open, the rest of the UI should not be accessible (behaves like a modal)
+- Scrolling should not be handled by this component since there are different layout options.
 
-![template](img/template-03.png)
-- description of what is happening in this wireframe
+
+## Design
+### Width
+- Width of the overlay shouldn’t be full browser width ( maybe 20-30 px margin on left/right ) with a maximum of 1200px
+### Height
+- Regular Height
+![template](img/overlay-panel.png)
 
-#### Implementation Details
-  - Note PatternFly design patterns
-  - Note icon references
-
-![template](img/template-04.png)
-- description of what is happening in this wireframe
-
-#### Implementation Details
-  - Note PatternFly design patterns
-  - Note icon references
-
-#### Customer Feedback (if applicable)
-- Customer Feedback Received
-  - Overview of customer feedback received
-- Necessary Customer Feedback
-  - Questions to follow up with customers
+- Long Panel
+![template](img/overlay-panel-long.png)
