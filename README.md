@@ -12,3 +12,6 @@ Access documentation for specific sections by clicking on the links below
   - [Binding](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/bind)
   - [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead)
   - [Overlay Panel](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel)
+1. Web Console Components
+  - [Order From Catalog](http://openshift.github.io/openshift-origin-design/web-console/5-patterns/order-from-catalog)
+  
