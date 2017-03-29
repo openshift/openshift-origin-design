@@ -2,6 +2,8 @@
 
 - This page is the first thing that a user encounters after signing in to the web console.
 - It provides quick access to the various sections of the web console and serves as a landing page for users.
+- This page has a default background image, but customers are able to override this image if desired.
+- To account for any issues with the background image loading, there should be a default background color for the SaaS offerings area. The default background is: #3ca2c9
 
 
 ![Homepage](img/overview-01.png)
