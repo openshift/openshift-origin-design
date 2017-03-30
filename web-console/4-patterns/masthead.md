@@ -10,9 +10,20 @@ The [Masthead](http://www.patternfly.org/pattern-library/application-framework/m
 
 ## Implementation Details
 
-![Full Masthead](img/OpenShift-Navbar-Black.png)
+### System Alerts
+- If system alerts exist, a warning icon will appear in the masthead as the left-most icon in the group (OpenShift Online ONLY)
 
-**NOTE:** For the MVP, the notification drawer is not yet implemented. When the notification drawer is implemented in the future, it should be added to the masthead to the left of the Launcher.
+![Full Masthead](img/OpenShift-Navbar-1.png)
+
+- System alerts pertain to the infrastructure on which OpenShift is running. They are used to communicate system status to online users. (https://status.openshift.com/)
+- System alerts are implemented via a javascript config extension point, so users are able to customize their OpenShift instance to override the warning icon and use the space as desired.
+
+### Notification Drawer
+
+![Full Masthead](img/OpenShift-Navbar-2.png)
+
+- **NOTE:** The [Notification Drawer](http://www.patternfly.org/pattern-library/communication/notification-drawer/#/design) is not yet implemented for MVP, but once it is implemented, a bell icon should be added to the masthead, directly to the left of the Launcher.
+- When system alerts exist, they may still show up in the masthead, to the left of the notification drawer.
 
 ## Responsive Designs
 - For the MVP, the responsive design will not change. On smaller viewports, all masthead actions/options will drop into the hamburger menu located in the top left corner.
