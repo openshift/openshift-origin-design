@@ -33,31 +33,40 @@
 
 ### Getting Started - Guided Tour
 - A button labeled "Start Guided Tour" should be displayed under the Getting Started heading. The button launches a quick tutorial to identify key sections of the interface. This button can be optionally hidden.
-- The guided tour should automatically begin when a new user logs into Openshift for the first time.
+- The guided tour should automatically begin when a new user logs into OpenShift for the first time.
 - Users should be able to manually start the guided tour by clicking the button on the right panel.
 - Once users have more than one project created, the guided tour button will be hidden from the right panel, but should still be accessible under the help menu in the masthead.
+
+![template](img/Tour-03.png)
+- The menu item will be called "Guided Tour" and should come after "documentation" in the dropdown.
 - Admin users can customize the guided tour by overwriting the title and description for any of the steps included.
 
-![template](img/OpenShiftMall_Guided-Tour1.png)
+![template](img/Tour-01.png)
 
-![template](img/OpenShiftMall_GuidedTour2.png)
+![template](img/Tour-02.png)
 
-- All steps should include a cancel button.
+- All steps should include a cancel button. Users can cancel the tour at any time by clicking the x in the top right corner of a step.
 - All steps, except for the final one, should include a next button. On the final step, the next button should turn into a "Done" button and will end the tour.
 - All steps, except for the first one, should include a back button.
 - The current step should point to the corresponding area of the interface.
-- Clicking on the dark background will cancel the tour.
 - If any of the items are hidden from the UI (such as the create project button), the tour should bypass that step and the numbers should update accordingly.
 - The default steps include the following:
-  1. **Create Project:** Highlight the action button on the right panel.
-  2. **Search Resources:** Highlight the search bar.
-  3. **Build Applications:** Highlight the Red Hat Experience catalog including the "What do you want to build" heading.
-  4. **Browse Catalog:** Be sure the "All" category is selected and highlight the entire catalog.
-  5. **Browse by Category:** Open the Languages section and select a subcatagory. Highlight the entire catalog.
-  6. **Filter Resources:** Open the filter panel and highlight this dropdown.
-  7. **Configure a Resource:** Open the ordering panel for a particular catalog item and highlight this panel.
-  8. **Additional Help:** Point to the Resources section on the right panel and highlight the botton potion of the right panel.
-- Descriptions for each step are TBD.
+  1. **Create Project:** Point to the action button on the right panel.
+    - Description: Projects allow you to organize and manage your content. Projects require a unique name, and optionally can include a display name, and description.  
+  2. **Search Resources:** Point to the search bar.
+      - Description: Search by name, description, keyword, or label to quickly locate items in the catalog that you want to add to your project
+  3. **Build Applications:** Point to the Red Hat Experience catalog, "What do you want to build" section.
+      - Description: TBD
+  4. **Browse Catalog:** Select and point to the "All" category in the catalog.
+      - Description: If you don’t know exactly what you are looking for, you can browse all available catalog items under the first tab in the catalog.
+  5. **Browse by Category:** A secondary level of categorization is available to further narrow your search.
+  Filter Catalog.
+  6. **Filter Resources:** Open the filter panel and point to the dropdown.
+      - Description: TBD
+  7. **Configure a Resource:** Open the ordering panel for the first catalog item and point to this overlay panel.
+      - Description: Clicking on a catalog item will open a panel allowing you to configure and create within a project.
+  8. **Additional Help:** Point to the Resources section on the right panel.
+      - Description: Additional resources can be found here or you can always access the help icon in the masthead for more information.
 - Low Fidelity Prototype: https://redhat.invisionapp.com/share/6ZAVH8RHW
 
 ### Recently Viewed
