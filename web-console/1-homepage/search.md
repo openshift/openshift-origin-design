@@ -6,15 +6,20 @@
 
 ## Search Catalog
 
-![search](img/search-01.png)
-- Deploy Image and Import YAML/JSON buttons are available next to the search bar and trigger the relevant [overlay panel actions](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel).
+![search](img/OpenShift-Next-Homepage-AllCat-GettingStarted.png)
+- The search bar is sticky at the top of the page.
+- As the user scrolls, the search will remain at the top with a portion of the background image still visible.
+
+![search](img/OpenShift-Next-Homepage-ScrolledUp.png)
 
 #### Implementation Details
-  - Import YAML/JSON link may not be necessary on this page
 
-![search](img/search-02.png)
+![search](img/OpenShift-Next-Homepage-SearchResults.png)
+
 - Entering a search term brings up a list of the first five matches.
+- The matches display the catalog item icon, name and any relevant tags.
   - Clicking on a match will trigger the order flow for that catalog item on the [overlay panel](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel).
+  - The link at the bottom titled "View All x Results" will not be implemented for MVP.
 
 #### Implementation Details
   - Catalog items will initially be able to be searched only by name and description
