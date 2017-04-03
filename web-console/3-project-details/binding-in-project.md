@@ -28,14 +28,14 @@
 ### General -- MVP
 ![template](img/bind_steps.png)
   - The wizard is two steps regardless whether you start from a provisioned service or from an application:
-    1. Choose service (or application)
-    2. Confirmation
+    1. Service or application (depending on what the user is choosing)
+    2. Results
 
 ### Step 1 -- MVP
 ![template](img/bind_wizard_1.png)
   - For MVP, it is only possible to select one resource to bind to, regardless whether you're binding from a deployment or from a service.
   - Available resources should be listed with radio buttons. The first resource should be selected by a default.
-  - The primary action is "Bind" and "cancel" should be available as a secondary action.
+  - The primary action is "Bind" and "Cancel" should be available as a secondary action.
 
 #### Implementation Details
   - Step one should be labeled "Choose Service" or "Choose Application" depending on the type of resource the user is choosing.
@@ -60,13 +60,22 @@
 
 ![template](img/unbind_1.png)
 - Available resources should be listed with radio buttons. The first resource should be selected by a default.
-- The primary action is "Un-bind" and "cancel" should be available as a secondary action.
+- The primary action is "Unbind" and "Cancel" should be available as a secondary action.
 
 ![template](img/unbind_2.png)
 - The success message should name both the application and the provisioned service that were bound.
 - There should be a note alerting users that changes will not take effect until they redeploy their pods.
 - The only action button is "Close."
 
+## Deprovisioning
+  - The "Deprovision" action is available in the kebab regardless whether or not a service has any bindings.
+  - Clicking the "Deprovision" action brings up a strong warning.
+  
+![template](img/deprovision_warning.png)
+
+  - If a service has bindings, alert user that s/he will have to delete bindings before deprovisioning.
+
+![template](img/deprovision_with_bindings.png)
 
 
 
