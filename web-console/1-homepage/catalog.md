@@ -22,6 +22,9 @@
 - Deploy Image and Import YAML are highlighted in a lighter blue on hover.
 - Hovering over a catalog item will highlighted the item in a circle and change the item name to blue.
 
+### Responsive State
+On smaller viewport sizes, the catalog tabs should stack. ![hover](img/OpenShift-Next-Mobile-V2-scrolledup.png)
+
 ### Implementation Details
 - Administrators should have the ability to determine which catalog items are available to users.      
 - Disabled catalog items should not appear.    

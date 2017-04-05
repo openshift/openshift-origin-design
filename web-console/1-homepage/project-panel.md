@@ -91,9 +91,7 @@
 ## Responsive Behavior/ Mobile View
 - On a mobile device, the right panel should disappear and move to the bottom of the screen, below the catalog content.
 
-![template](img/Projects-Mobile.png)
-
-![template](img/Projects-Mobile2.png)
+![template](img/OpenShift-Next-Mobile-V2-scrolledmore.png)
 
 - Selecting View All will display the full projects lists on a new screen with the back button available.
 - Selecting create project will show a full screen with the form and two action buttons, cancel and create at the bottom.
