@@ -6,7 +6,7 @@
 
 ## Search Catalog
 
-![search](img/OpenShift-Next-Homepage-AllCat-GettingStarted.png)
+![search](img/OpenShift-Next-Homepage-AllCat-Getting-Started.png)
 - The search bar is sticky at the top of the page.
 - As the user scrolls, the search will remain at the top with a portion of the background image still visible.
 
