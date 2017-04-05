@@ -6,7 +6,7 @@
 
 ## Browse Catalog
 
-![catalog](img/OpenShift-Next-Homepage-AllCat-GettingStarted.png)
+![catalog](img/OpenShift-Next-Homepage-AllCat-Getting-Started.png)
 
 - Initially, upon arriving on the page, the `All` section is highlighted, underlined and expanded, with the catalog items sorted alphabetically by name.
 - Deploy Image and Import YAML/JSON links are available on the right side of the catalog primary categories bar.
@@ -21,6 +21,9 @@
 - Primary categories are highlighted in a lighter blue on hover.
 - Deploy Image and Import YAML are highlighted in a lighter blue on hover.
 - Hovering over a catalog item will highlighted the item in a circle and change the item name to blue.
+
+### Responsive State
+On smaller viewport sizes, the catalog tabs should stack. ![hover](img/OpenShift-Next-Mobile-V2-scrolledup.png)
 
 ### Implementation Details
 - Administrators should have the ability to determine which catalog items are available to users.      

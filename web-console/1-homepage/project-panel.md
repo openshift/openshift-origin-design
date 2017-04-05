@@ -72,7 +72,7 @@
 ### Recently Viewed
 - Once the user has viewed at least one item in the catalog, a "Recently Viewed" section will appear at the bottom of the panel.
 - The Resources section should be removed at this point and the content should be accessible through the help menu in the masthead.
-- Recently Viewed items should visually match the way they are represented in the catalog with a name and icon.
+- Recently Viewed items should visually match the way they are represented in the catalog with a name and icon. They should also have the same hover treatment as they do inside the catalog.
 
 ### Projects List (More than 2)
 ![template](img/OpenShiftMall_Day1-ProjectsBar-7B.png)
@@ -91,9 +91,7 @@
 ## Responsive Behavior/ Mobile View
 - On a mobile device, the right panel should disappear and move to the bottom of the screen, below the catalog content.
 
-![template](img/Projects-Mobile.png)
-
-![template](img/Projects-Mobile2.png)
+![template](img/OpenShift-Next-Mobile-V2-scrolledmore.png)
 
 - Selecting View All will display the full projects lists on a new screen with the back button available.
 - Selecting create project will show a full screen with the form and two action buttons, cancel and create at the bottom.

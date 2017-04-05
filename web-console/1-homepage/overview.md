@@ -25,3 +25,5 @@
 ![Homepage](img/overview-03.png)
 - On very small screens, the Projects sections should move below the other two sections.
 - A hamburger menu should appear in the top left corner to account for the actions/options in the masthead.
+
+![Homepage](img/OpenShift-Next-Mobile-V1.png)

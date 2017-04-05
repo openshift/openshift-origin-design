@@ -20,5 +20,5 @@
 ## Responsive designs
 - As the screen narrows, Saas Offering tiles may shift to take up a second row.
 
-![offerings](img/Mobile.png)
+![offerings 2](img/Mobile.png)
 - On mobile devices, SaaS Offering tiles should have the descriptions removed and be stacked vertically in a list.
