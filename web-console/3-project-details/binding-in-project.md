@@ -33,13 +33,14 @@
 
 ### Step 1 -- MVP
 ![template](img/bind_wizard_1.png)
+  - The initial step should include some text to describe to the user what it means to create a binding.
   - For MVP, it is only possible to select one resource to bind to, regardless whether you're binding from a deployment or from a service.
   - Available resources should be listed with radio buttons. The first resource should be selected by a default.
   - The primary action is "Bind" and "Cancel" should be available as a secondary action.
 
 #### Implementation Details
-  - Step one should be labeled "Choose Service" or "Choose Application" depending on the type of resource the user is choosing.
-  - Likewise, the text in the main body of the wizard should indicate the type of resource (service or application) the user is choosing.
+  - Services are listed using the service class display name, with the service instance name in lighter text underneath.
+  - If a provisioned service is not yet available, a warning triangle with the text "service not ready" should appear inline with the service name.
 
 ### Step 2 -- MVP
 
@@ -70,7 +71,7 @@
 ## Deprovisioning
   - The "Deprovision" action is available in the kebab regardless whether or not a service has any bindings.
   - Clicking the "Deprovision" action brings up a strong warning.
-  
+
 ![template](img/deprovision_warning.png)
 
   - If a service has bindings, alert user that s/he will have to delete bindings before deprovisioning.
