@@ -32,7 +32,7 @@
     2. Results
 
 ### Step 1 -- MVP
-![template](img/bind_wizard_1.png)
+![template](img/bind_to_service_select.png)
   - The initial step should include some text to describe to the user what it means to create a binding.
   - For MVP, it is only possible to select one resource to bind to, regardless whether you're binding from a deployment or from a service.
   - Available resources should be listed with radio buttons. The first resource should be selected by a default.
@@ -44,7 +44,7 @@
 
 ### Step 2 -- MVP
 
-![template](img/bind_wizard_2.png)
+![template](img/bind_to_service_results.png)
   - The success message should name both the application and the provisioned service that were bound.
   - There is a note indicating that the binding operation created a configuration.
   - Include an action to "View configuration" which would take the user to the page for that secret.
