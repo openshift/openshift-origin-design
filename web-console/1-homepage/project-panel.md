@@ -35,10 +35,7 @@
 - A button labeled "Start Guided Tour" should be displayed under the Getting Started heading. The button launches a quick tutorial to identify key sections of the interface. This button can be optionally hidden.
 - The guided tour should automatically begin when a new user logs into OpenShift for the first time.
 - Users should be able to manually start the guided tour by clicking the button on the right panel.
-- Once users have more than one project created, the guided tour button will be hidden from the right panel, but should still be accessible under the help menu in the masthead.
-
-![template](img/Tour-03.png)
-- The menu item will be called "Guided Tour" and should come after "documentation" in the dropdown.
+- Once users have more than one project created, the guided tour button will be hidden from the right panel, but should still be accessible under the help menu in the [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead).
 - Admin users can customize the guided tour by overwriting the title and description for any of the steps included.
 
 ![template](img/Tour-01.png)
@@ -71,7 +68,6 @@
 
 ### Resources
 - The resources section is a subheading under the Getting Started section.
-- Resources should be removed from the right panel once the guided tour is removed (when more than one project exists).
 - The initial paragraph is a general blurb about OpenShift, followed by reference links.
 - Link labels and URLs include the following:
   - Documentation - reference "window.OPENSHIFT_CONSTANTS.HELP" from the help menu link to pull the correct version of docs
@@ -80,6 +76,8 @@
   - Local Development -  https://www.openshift.org/minishift/
   - YouTube - https://www.youtube.com/user/rhopenshift
   - Blog - https://blog.openshift.com
+- Resources should be removed from the right panel at the same time the guided tour is removed (when more than one project exists).
+- Resources should be accessible from the help menu in the [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead).
 
 
 ### Recently Viewed
