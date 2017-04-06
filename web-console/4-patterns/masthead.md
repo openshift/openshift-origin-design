@@ -10,6 +10,13 @@ The [Masthead](http://www.patternfly.org/pattern-library/application-framework/m
 
 ## Implementation Details
 
+### Help
+- The guided tour and the resources should always  be accessible under the help menu in the masthead.
+![template](img/Navbar-2.png)
+- The menu item will be called "Guided Tour" and should come after "documentation" in the dropdown.
+- Resources should be below the guided tour in the list and a flyout menu should appear with the 6 links available.
+- **Note:** If customers have hidden the resource links from the homepage, they should not be displayed in the masthead either.
+
 ### Regions
 - Users will have the ability to view and change their cluster region.
 - For MVP, the cluster region will be listed as a fly-out option under the user menu in the masthead.  

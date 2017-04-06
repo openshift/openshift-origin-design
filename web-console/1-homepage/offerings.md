@@ -18,7 +18,7 @@
 
 
 ## Responsive designs
-- As the screen narrows, Saas Offering tiles may shift to take up a second row.
+- As the screen narrows, Saas Offerings should drop the descriptions and shrink the size of the icon and text.
+![offerings 2](img/Mobile-V2.png)
 
-![offerings 2](img/Mobile.png)
-- On mobile devices, SaaS Offering tiles should have the descriptions removed and be stacked vertically in a list.
+- If more than 2 offerings exist in this section, an arrow should be added to accommodate for viewing more offerings to the right rather than adding a second row of offerings.

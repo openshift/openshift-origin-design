@@ -19,11 +19,11 @@
 
 - Once created, the project will be listed as a card at the top of the projects list, in an "empty state."
 - The empty state is defined as a new project which does not have any items and only has a name, date, and description.
-- **Kebab Actions:** There are three actions under the kebab menu for projects: edit details, edit membership, and delete.
+- **Kebab Actions:** There are three actions under the kebab menu for projects: edit membership, edit project and delete project.
   - These actions should function as they currently behave today.
   - The delete action opens a confirmation modal and edit will function similar to the create function.
   - The membership action will navigate to another page.
-- Once a project has at least one resource, the card is not longer in the empty state.
+- Once a project has at least one resource, the card is no longer in the empty state.
 
 ![template](img/OpenShiftMall_Day1-ProjectsBar-4B.png)
 - Any new projects will be added to the top of the project list and will remain in the empty state until items are added.
@@ -35,10 +35,7 @@
 - A button labeled "Start Guided Tour" should be displayed under the Getting Started heading. The button launches a quick tutorial to identify key sections of the interface. This button can be optionally hidden.
 - The guided tour should automatically begin when a new user logs into OpenShift for the first time.
 - Users should be able to manually start the guided tour by clicking the button on the right panel.
-- Once users have more than one project created, the guided tour button will be hidden from the right panel, but should still be accessible under the help menu in the masthead.
-
-![template](img/Tour-03.png)
-- The menu item will be called "Guided Tour" and should come after "documentation" in the dropdown.
+- Once users have more than one project created, the guided tour button will be hidden from the right panel, but should still be accessible under the help menu in the [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead).
 - Admin users can customize the guided tour by overwriting the title and description for any of the steps included.
 
 ![template](img/Tour-01.png)
@@ -56,7 +53,7 @@
   2. **Search Resources:** Point to the search bar.
       - Description: Search by name, description, keyword, or label to quickly locate items in the catalog that you want to add to your project
   3. **Build Applications:** Point to the Red Hat Experience catalog, "What do you want to build" section.
-      - Description: TBD
+      - Description: Build applications from a quickstart or popular framework.
   4. **Browse Catalog:** Select and point to the "All" category in the catalog.
       - Description: If you don’t know exactly what you are looking for, you can browse all available catalog items under the first tab in the catalog.
   5. **Browse by Category:** A secondary level of categorization is available to further narrow your search.
@@ -69,10 +66,27 @@
       - Description: Additional resources can be found here or you can always access the help icon in the masthead for more information.
 - Low Fidelity Prototype: https://redhat.invisionapp.com/share/6ZAVH8RHW
 
+### Resources
+- The resources section is a subheading under the Getting Started section.
+- The initial paragraph is a general blurb about OpenShift, followed by reference links.
+- Link labels and URLs include the following:
+  - Documentation - reference "window.OPENSHIFT_CONSTANTS.HELP" from the help menu link to pull the correct version of docs
+  - Developer Portal - https://developers.openshift.com/
+  - Interactive Learning Portal -  https://openshift.katacoda.com/
+  - Local Development -  https://www.openshift.org/minishift/
+  - YouTube - https://www.youtube.com/user/rhopenshift
+  - Blog - https://blog.openshift.com
+- Resources should be removed from the right panel at the same time the guided tour is removed (when more than one project exists).
+- Resources should be accessible from the help menu in the [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead).
+
+
 ### Recently Viewed
+![template](img/OpenShiftMall_Day1-ProjectsBar-4B2.png)
+
 - Once the user has viewed at least one item in the catalog, a "Recently Viewed" section will appear at the bottom of the panel.
-- The Resources section should be removed at this point and the content should be accessible through the help menu in the masthead.
 - Recently Viewed items should visually match the way they are represented in the catalog with a name and icon. They should also have the same hover treatment as they do inside the catalog.
+- Recently viewed items should be left aligned when they do not take up the entire row across.
+- Clicking on a catalog item from the recently viewed section will open the Overlay Panel for ordering.
 
 ### Projects List (More than 2)
 ![template](img/OpenShiftMall_Day1-ProjectsBar-7B.png)
