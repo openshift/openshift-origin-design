@@ -22,9 +22,6 @@
 - Deploy Image and Import YAML are highlighted in a lighter blue on hover.
 - Hovering over a catalog item will highlighted the item in a circle and change the item name to blue.
 
-### Responsive State
-On smaller viewport sizes, the catalog tabs should stack. ![hover](img/OpenShift-Next-Mobile-V2-scrolledup.png)
-
 ### Implementation Details
 - Administrators should have the ability to determine which catalog items are available to users.      
 - Disabled catalog items should not appear.    
@@ -36,9 +33,28 @@ On smaller viewport sizes, the catalog tabs should stack. ![hover](img/OpenShift
 - For secondary levels of categorization, there should again be an `Other` category if there are items to display (not shown in mockup).
 - Clicking on a subcategory will open a scrollable panel that contains the catalog items.
 
+### Responsive State
+![mobile-1](img/OpenShift-Next-Mobile-V2-scrolledup.png)
+
+- On smaller viewport sizes, the catalog tabs should stack with arrows to the right.
+- Deploy Image and Import YAML should be displayed below all primary categories and should have a different visual treatment from the tabs.
+
+![mobile-2](img/OpenShift-Next-Mobile-subcategories.png)
+
+- If subcategories exist, selecting the primary category will bring users to another screen to view subcategories as tiles.
+- Clicking back will bring users back to the home page with all primary tabs listed.
+
+![mobile-3](img/OpenShift-Next-Mobile-subcategoryselected-V2.png)
+
+- Selecting a subcategory tile will bring users to another screen to view catalog items by scrolling.
+- The category title will be listed with a dropdown option to switch to another subcategory without first navigating back a screen.
+- **Note:** When subcategories do not exist for a tab, selecting a primary category will bring the user directly to a screen like this (without a dropdown option at the top).
 
 
-**********
+
+
+
+******************************
 
 # Future Use Cases
 
