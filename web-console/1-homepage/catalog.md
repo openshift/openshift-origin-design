@@ -47,7 +47,11 @@
 ![mobile-3](img/OpenShift-Next-Mobile-subcategoryselected-V2.png)
 
 - Selecting a subcategory tile will bring users to another screen to view catalog items by scrolling.
-- The category title will be listed with a dropdown option to switch to another subcategory without first navigating back a screen.
+
+![mobile-4](img/OpenShift-Next-Mobile-subcategorydropdown.png)
+- The category title will be listed with a dropdown option to switch to another subcategory without navigating back to tiles.
+- The current selection will be highlighted with the icon in full color. All other images are muted.
+- Clicking "back" from this screen will navigate back to the initial Home Page (skipping the subcategory tile view).
 - **Note:** When subcategories do not exist for a tab, selecting a primary category will bring the user directly to a screen like this (without a dropdown option at the top).
 
 
