@@ -7,8 +7,8 @@
 
 ### Inside the Console
 ![Navigation 1](img/NAVIGATION-3.png)
-- Once a user navigates to a specific project inside the console, the hamburger menu will show up in the top left corner of the masthead and a second horizontal bar will appear below the masthead.
-  - This bar will hold (1) the project switcher, and (2) the "quick add" feature that allows users to navigate back to the catalog or quickly add a catalog item to their project.
+- Once a user navigates to a specific project inside the console, a second horizontal bar will appear below the masthead and the hamburger menu will show up in the left corner of this second bar.
+  - This bar will also hold (1) the project switcher, and (2) the "quick add" feature that allows users to navigate back to the catalog or quickly add a catalog item to their project.
   - Visit the [Project Details](http://openshift.github.io/openshift-origin-design/web-console/3-project-details/overview) page for details on these features.
 - Below the two horizontal bars, a vertical navigation will display the primary menu options.
 - The active page will be indicated visually by highlighting that primary navigation item.
@@ -37,14 +37,16 @@
 - **Note:** the logout option is pulled out from the user menu in this case.
 - For secondary and tertiary levels of navigation, the left navigation panel should be replaced, as described in the Responsive State section of the [Vertical Navigation](http://www.patternfly.org/pattern-library/navigation/vertical-navigation/#/design) pattern.
 
-![Navigation 1](img/NAVIGATION-1C.png)
-
-- Selecting the Product Launcher option will load the secondary navigation with all product options that are available.
-
-![Navigation 1](img/NAVIGATION-1B.png)
+![Navigation 1](img/Nav-help-1.png)
+![Navigation 1](img/Nav-help-2.png)
+![Navigation 1](img/Nav-help-3.png)
 
 - Selecting the Help option will load the secondary navigation with all available resources and help links.
 - The resource links that are initially shown on the landing page project panel should be included in this help menu and would load a tertiary level of navigation.
+
+![Navigation 1](img/NAVIGATION-1C.png)
+
+- Selecting the Product Launcher option will load the secondary navigation with all product options that are available.
 
 ![Navigation 1](img/NAVIGATION-1.png)
 
@@ -54,7 +56,7 @@
 
 ### Inside the Console
 
-![Navigation 1](img/NAVIGATION-2.png)
+![Navigation 1](img/NAVIGATION-2B-New.png)
 
 - Inside the console, the primary navigation options display in a vertical nav so the order of items inside the hamburger menu will change here.
 - The hamburger menu will scroll if needed.
@@ -70,7 +72,9 @@
   - [username]
   - Logout (no icon)
 
-![Navigation 1](img/NAVIGATION-2B.png)
+![Navigation 1](img/NAVIGATION-2-New.png)
+
+![Navigation 1](img/NAVIGATION-2C-New.png)
 - The project name option will allow users to navigate to a different project or go back to the full projects page.
 
 ![Navigation 1](img/NAVIGATION-2C.png)
