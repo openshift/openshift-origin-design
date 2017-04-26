@@ -8,7 +8,7 @@
 ## Future
 
 ### Import YAML/JSON
-![template](img/import_yaml.png)
+![template](img/Import_yaml.png)
   - This option brings down an overlay panel with the option to browse for a file, or add a file to an editable text area.
 
 
