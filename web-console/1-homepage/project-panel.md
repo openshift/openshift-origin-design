@@ -17,8 +17,7 @@
 ### Project Empty State
 ![template](img/OpenShiftMall_Day1-ProjectsBar-3B.png)
 
-- Once created, the project will be listed as a card at the top of the projects list, in an "empty state."
-- The empty state is defined as a new project which does not have any items and only has a name, date, and description.
+- Once created, the project will be listed as a card at the top of the projects list.
 - **Kebab Actions:** There are three actions under the kebab menu for projects: edit membership, edit project and delete project.
   - These actions should function as they currently behave today.
   - The delete action opens a confirmation modal and edit will function similar to the create function.
@@ -26,13 +25,13 @@
 - Once a project has at least one resource, the card is no longer in the empty state.
 
 ![template](img/OpenShiftMall_Day1-ProjectsBar-4B.png)
-- Any new projects will be added to the top of the project list and will remain in the empty state until items are added.
+- Any new projects will be added to the top of the project list.
 - Clicking a project will bring the user directly to the project overview page for the particular project.
 
 ![template](img/OpenShiftMall_Day1-ProjectsBar-5B.png)
 
 ### Getting Started - Guided Tour
-- A button labeled "Start Guided Tour" should be displayed under the Getting Started heading. The button launches a quick tutorial to identify key sections of the interface. This button can be optionally hidden.
+- A button labeled "Home Page Tour" should be displayed under the Getting Started heading. The button launches a quick tutorial to identify key sections of the interface. This button can be optionally hidden.
 - The guided tour should automatically begin when a new user logs into OpenShift for the first time.
 - Users should be able to manually start the guided tour by clicking the button on the right panel.
 - Once users have more than one project created, the guided tour button will be hidden from the right panel, but should still be accessible under the help menu in the [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead).
@@ -66,9 +65,8 @@
       - Description: Additional resources can be found here or you can always access the help icon in the masthead for more information.
 - Low Fidelity Prototype: https://redhat.invisionapp.com/share/6ZAVH8RHW
 
-### Resources
-- The resources section is a subheading under the Getting Started section.
-- The initial paragraph is a general blurb about OpenShift, followed by reference links.
+### Resource Links
+- A list of resource links should be listed as bullets under the guided tour button.
 - Link labels and URLs include the following:
   - Documentation - reference "window.OPENSHIFT_CONSTANTS.HELP" from the help menu link to pull the correct version of docs
   - Developer Portal - https://developers.openshift.com/
@@ -76,7 +74,7 @@
   - Local Development -  https://www.openshift.org/minishift/
   - YouTube - https://www.youtube.com/user/rhopenshift
   - Blog - https://blog.openshift.com
-- Resources should be removed from the right panel at the same time the guided tour is removed (when more than one project exists).
+- Resource links should be removed from the right panel at the same time the guided tour is removed (when more than one project exists).
 - Resources should be accessible from the help menu in the [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead).
 
 
@@ -84,6 +82,7 @@
 ![template](img/OpenShiftMall_Day1-ProjectsBar-4B2.png)
 
 - Once the user has viewed at least one item in the catalog, a "Recently Viewed" section will appear at the bottom of the panel.
+- The most recently viewed item will appear as the left most item in the row.
 - Recently Viewed items should visually match the way they are represented in the catalog with a name and icon. They should also have the same hover treatment as they do inside the catalog.
 - Recently viewed items should be left aligned when they do not take up the entire row across.
 - Clicking on a catalog item from the recently viewed section will open the Overlay Panel for ordering.
