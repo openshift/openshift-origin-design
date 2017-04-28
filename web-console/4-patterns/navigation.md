@@ -37,9 +37,7 @@
 - **Note:** the logout option is pulled out from the user menu in this case.
 - For secondary and tertiary levels of navigation, the left navigation panel should be replaced, as described in the Responsive State section of the [Vertical Navigation](http://www.patternfly.org/pattern-library/navigation/vertical-navigation/#/design) pattern.
 
-![Navigation 1](img/Nav-help-1.png)
-![Navigation 1](img/Nav-help-2.png)
-![Navigation 1](img/Nav-help-3.png)
+![Navigation 1](img/NAVIGATION-6.png)
 
 - Selecting the Help option will load the secondary navigation with all available resources and help links.
 - The resource links that are initially shown on the landing page project panel should be included in this help menu and would load a tertiary level of navigation.
@@ -56,8 +54,6 @@
 
 ### Inside the Console
 
-![Navigation 1](img/NAVIGATION-2B-New.png)
-
 - Inside the console, the primary navigation options display in a vertical nav so the order of items inside the hamburger menu will change here.
 - The hamburger menu will scroll if needed.
 - On smaller viewports, the masthead icons shown from left to right should still be placed in the hamburger menu from top to bottom, but they will be placed after all primary navigation items.
@@ -72,9 +68,7 @@
   - [username]
   - Logout (no icon)
 
-![Navigation 1](img/NAVIGATION-2-New.png)
-
-![Navigation 1](img/NAVIGATION-2C-New.png)
+![Navigation 1](img/NAVIGATION-7.png)
 - The project name option will allow users to navigate to a different project or go back to the full projects page.
 
 ![Navigation 1](img/NAVIGATION-2C.png)
