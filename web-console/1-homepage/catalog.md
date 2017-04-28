@@ -36,7 +36,7 @@
 ### Responsive State
 ![mobile-1](img/OpenShift-Next-Mobile-V2-scrolledup.png)
 
-- On smaller viewport sizes, the catalog tabs should stack with arrows to the right.
+- On mobile, the catalog tabs should stack with arrows to the right.
 - Deploy Image and Import YAML should be displayed below all primary categories and should have a different visual treatment from the tabs.
 
 ![mobile-2](img/OpenShift-Next-Mobile-subcategories.png)
