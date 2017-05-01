@@ -2,11 +2,13 @@
 
 ![Masthead](img/OS-masthead-02.png)  
 
-The [Masthead](http://www.patternfly.org/pattern-library/application-framework/masthead/#/design) should follow PatternFly standards on masthead designs and in this case should include the following from left to right:
+The PatternFly [Masthead](http://www.patternfly.org/pattern-library/application-framework/masthead/#/design) design should be followed for the and in this case the masthead should include the following from left to right:
   1. **Name and Branding** Red Hat OpenShift or OpenShift Online
   2. **Launcher:** Follow the PF [Launcher](http://www.patternfly.org/pattern-library/application-framework/launcher/#/design) pattern, allowing users to switch to another application.
   3. **Help:** This menu should include documentation, about, and command line tools, and guided tours.
   4. **User:** The username should be listed to the right of the icon. The "Log Out" option should be available in this dropdown menu, as well as any other user settings available (depending on the version) such as "My Account".
+
+**Note:** For full screen widths, the masthead does not include the hamburger menu on the landing page. Once the user navigates to a specific project inside the console, vertical navigation appears and the hamburger menu will show up in the top left corner of the masthead. See [Navigation](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/navigation) design details for more information.
 
 ## Implementation Details
 
@@ -36,7 +38,7 @@ The [Masthead](http://www.patternfly.org/pattern-library/application-framework/m
 
 ![Full Masthead](img/OpenShift-Navbar-2.png)
 
-- **NOTE:** The [Notification Drawer](http://www.patternfly.org/pattern-library/communication/notification-drawer/#/design) is not yet implemented for MVP, but once it is implemented, a bell icon should be added to the masthead, directly to the left of the Launcher.
+- **NOTE:** The PatternFly [Notification Drawer](http://www.patternfly.org/pattern-library/communication/notification-drawer/#/design) is not yet implemented for MVP, but once it is implemented, a bell icon should be added to the masthead, directly to the left of the Launcher.
 - When system alerts exist, they may still show up in the masthead, to the left of the notification drawer.
 
 ## Responsive Designs
