@@ -3,10 +3,10 @@
 ![Masthead](img/OS-masthead-02.png)  
 
 The PatternFly [Masthead](http://www.patternfly.org/pattern-library/application-framework/masthead/#/design) design should be followed for the and in this case the masthead should include the following from left to right:
-  1. **Name and Branding** Red Hat OpenShift or OpenShift Online
-  2. **Launcher:** Follow the PF [Launcher](http://www.patternfly.org/pattern-library/application-framework/launcher/#/design) pattern, allowing users to switch to another application.
-  3. **Help:** This menu should include documentation, about, and command line tools, and guided tours.
-  4. **User:** The username should be listed to the right of the icon. The "Log Out" option should be available in this dropdown menu, as well as any other user settings available (depending on the version) such as "My Account".
+1. **Name and Branding** Red Hat OpenShift or OpenShift Online
+1. **Launcher:** Follow the PF [Launcher](http://www.patternfly.org/pattern-library/application-framework/launcher/#/design) pattern, allowing users to switch to another application.
+1. **Help:** This menu should include documentation, about, and command line tools, and guided tours.
+1. **User:** The username should be listed to the right of the icon. The "Log Out" option should be available in this dropdown menu, as well as any other user settings available (depending on the version) such as "My Account".
 
 **Note:** For full screen widths, the masthead does not include the hamburger menu on the landing page. Once the user navigates to a specific project inside the console, vertical navigation appears and the hamburger menu will show up in the top left corner of the masthead. See [Navigation](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/navigation) design details for more information.
 
@@ -14,7 +14,9 @@ The PatternFly [Masthead](http://www.patternfly.org/pattern-library/application-
 
 ### Help
 - The guided tour and the resources should always  be accessible under the help menu in the masthead.
+
 ![template](img/Navbar-2.png)
+
 - The menu item will be called "Guided Tour" and should come after "documentation" in the dropdown.
 - Resources should be below the guided tour in the list and a flyout menu should appear with the 6 links available.
 - **Note:** If customers have hidden the resource links from the homepage, they should not be displayed in the masthead either.

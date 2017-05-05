@@ -18,7 +18,8 @@
 
 
 ## Responsive designs
-- As the screen narrows, Saas Offerings should drop the descriptions and shrink the size of the icon and text.
-![offerings 2](img/Mobile-V2.png)
 
+- As the screen narrows, Saas Offerings should drop the descriptions and shrink the size of the icon and text.
+
+![offerings 2](img/Mobile-V2.png)
 - If more than 2 offerings exist in this section, an arrow should be added to accommodate for viewing more offerings to the right rather than adding a second row of offerings.

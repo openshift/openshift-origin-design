@@ -5,11 +5,11 @@
 $font-size-base: 14;
 
 body {
+  background-color: #292e34;
+  color: #363636;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: $font-size-base;
   line-height: 1.66666667;
-  color: #363636;
-  background-color: #292e34;
 }
 a {
   color: #0088ce;
@@ -24,18 +24,19 @@ a:focus {
   outline-offset: -2px;
 }
 h1, h2, h3, h4, h5, h6 {
+  background: none;
+  color: inherit;
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
-  background: none;
 }
 h1, h2, h3 {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 h4, h5, h6 {
-  margin-top: 10px;
+  font-weight: 600;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 h1 {
@@ -70,11 +71,32 @@ code, kbd, pre, samp {
   font-family: Menlo, Monaco, Consolas, monospace;
 }
 code {
-  padding: 2px 4px;
-  font-size: 90%;
-  color: #004368;
   background-color: #def3ff;
   border-radius: 1px;
+  color: #004368;
+  font-size: 90%;
+  padding: 2px 4px;
+}
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 11px;
+  line-height: 1.66666667;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #363636;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+}
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
 }
 img {
   max-width: 1000px;
@@ -82,6 +104,9 @@ img {
   @media screen and (max-width: 1000px) {
     max-width: 100%;
   }
+}
+#main_content_wrap {
+  background: #fafafa;
 }
 #header_wrap {
   background-color: #030303;
@@ -97,8 +122,8 @@ img {
 }
 
 #project_title a {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color: #fff;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-weight: 300;
 }
