@@ -19,9 +19,9 @@
 
 - Once created, the project will be listed as a card at the top of the projects list.
 - **Kebab Actions:** There are three actions under the kebab menu for projects: edit membership, edit project and delete project.
-  - These actions should function as they currently behave today.
-  - The delete action opens a confirmation modal and edit will function similar to the create function.
-  - The membership action will navigate to another page.
+	- These actions should function as they currently behave today.
+	- The delete action opens a confirmation modal and edit will function similar to the create function.
+	- The membership action will navigate to another page.
 - Once a project has at least one resource, the card is no longer in the empty state.
 
 ![template](img/OpenShiftMall_Day1-ProjectsBar-4B.png)
@@ -47,40 +47,39 @@
 - The current step should point to the corresponding area of the interface.
 - If any of the items are hidden from the UI (such as the create project button), the tour should bypass that step and the numbers should update accordingly.
 - The default steps include the following:
-  1. **Create Project:** Point to the action button on the right panel.
-    - Description: Projects allow you to organize and manage your content. Projects require a unique name, and optionally can include a display name, and description.  
-  2. **Search Resources:** Point to the search bar.
-      - Description: Search by name, description, keyword, or label to quickly locate items in the catalog that you want to add to your project
-  3. **Build Applications:** Point to the Red Hat Experience catalog, "What do you want to build" section.
-      - Description: Build applications from a quickstart or popular framework.
-  4. **Browse Catalog:** Select and point to the "All" category in the catalog.
-      - Description: If you don’t know exactly what you are looking for, you can browse all available catalog items under the first tab in the catalog.
-  5. **Browse by Category:** A secondary level of categorization is available to further narrow your search.
-  Filter Catalog.
-  6. **Filter Resources:** Open the filter panel and point to the dropdown.
-      - Description: TBD
-  7. **Configure a Resource:** Open the ordering panel for the first catalog item and point to this overlay panel.
-      - Description: Clicking on a catalog item will open a panel allowing you to configure and create within a project.
-  8. **Additional Help:** Point to the Resources section on the right panel.
-      - Description: Additional resources can be found here or you can always access the help icon in the masthead for more information.
+	1. **Create Project:** Point to the action button on the right panel.
+		- Description: Projects allow you to organize and manage your content. Projects require a unique name, and optionally can include a display name, and description.  
+	2. **Search Resources:** Point to the search bar.
+		- Description: Search by name, description, keyword, or label to quickly locate items in the catalog that you want to add to your project
+	3. **Build Applications:** Point to the Red Hat Experience catalog, "What do you want to build" section.
+		- Description: Build applications from a quickstart or popular framework.
+	4. **Browse Catalog:** Select and point to the "All" category in the catalog.
+		- Description: If you don’t know exactly what you are looking for, you can browse all available catalog items under the first tab in the catalog.
+	5. **Browse by Category:** A secondary level of categorization is available to further narrow your search.
+	Filter Catalog.
+	6. **Filter Resources:** Open the filter panel and point to the dropdown.
+		- Description: TBD
+	7. **Configure a Resource:** Open the ordering panel for the first catalog item and point to this overlay panel.
+		- Description: Clicking on a catalog item will open a panel allowing you to configure and create within a project.
+	8. **Additional Help:** Point to the Resources section on the right panel.
+		- Description: Additional resources can be found here or you can always access the help icon in the masthead for more information.
 - Low Fidelity Prototype: https://redhat.invisionapp.com/share/6ZAVH8RHW
 
 ### Resource Links
 - A list of resource links should be listed as bullets under the guided tour button.
 - Link labels and URLs include the following:
-  - Documentation - reference "window.OPENSHIFT_CONSTANTS.HELP" from the help menu link to pull the correct version of docs
-  - Developer Portal - https://developers.openshift.com/
-  - Interactive Learning Portal -  https://openshift.katacoda.com/
-  - Local Development -  https://www.openshift.org/minishift/
-  - YouTube - https://www.youtube.com/user/rhopenshift
-  - Blog - https://blog.openshift.com
+	- Documentation - reference "window.OPENSHIFT_CONSTANTS.HELP" from the help menu link to pull the correct version of docs
+	- Developer Portal - https://developers.openshift.com/
+	- Interactive Learning Portal -  https://openshift.katacoda.com/
+	- Local Development -  https://www.openshift.org/minishift/
+	- YouTube - https://www.youtube.com/user/rhopenshift
+	- Blog - https://blog.openshift.com
 - Resource links should be removed from the right panel at the same time the guided tour is removed (when more than one project exists).
 - Resources should be accessible from the help menu in the [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead).
 
 
 ### Recently Viewed
 ![template](img/OpenShiftMall_Day1-ProjectsBar-4B2.png)
-
 - Once the user has viewed at least one item in the catalog, a "Recently Viewed" section will appear at the bottom of the panel.
 - The most recently viewed item will appear as the left most item in the row.
 - Recently Viewed items should visually match the way they are represented in the catalog with a name and icon. They should also have the same hover treatment as they do inside the catalog.
@@ -89,7 +88,6 @@
 
 ### Projects List (More than 2)
 ![template](img/OpenShiftMall_Day1-ProjectsBar-7B.png)
-
 - Once there are more than two projects, they should display as a list view to save vertical space.
 - **NOTE:** In the FUTURE, a summary card will be placed above the beginning of the list to show the total number of projects along with the alerts/status summary.
 - Show as many projects as space permits on this page.
@@ -105,7 +103,6 @@
 - On a mobile device, the right panel should disappear and move to the bottom of the screen, below the catalog content.
 
 ![template](img/OpenShift-Next-Mobile-V2-scrolledmore.png)
-
 - Selecting View All will display the full projects lists on a new screen with the back button available.
 - Selecting create project will show a full screen with the form and two action buttons, cancel and create at the bottom.
 

@@ -8,13 +8,11 @@
 
 ![Homepage](img/overview-01.png)
 - The Web Console home page has five major sections
-  - [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead)
-  - [Search](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/search)
-  - [SaaS Offerings](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/offerings)
-  - [Catalog](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/catalog)
-  - [Project Panel](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/project-panel)
-
-
+	- [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead)
+	- [Search](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/search)
+	- [SaaS Offerings](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/offerings)
+	- [Catalog](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/catalog)
+	- [Project Panel](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/project-panel)
 
 ## Responsive Designs
 

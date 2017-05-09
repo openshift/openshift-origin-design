@@ -24,8 +24,10 @@ When the panel is open, the rest of the UI should not be accessible (behaves lik
 
 
 ## Design
+
 ### Width
 - Width of the overlay shouldn’t be full browser width ( maybe 20-30 px margin on left/right ) with a maximum of 1200px
+
 ### Height
 - Regular Height
 ![template](img/overlay-panel.png)

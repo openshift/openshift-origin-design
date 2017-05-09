@@ -8,8 +8,8 @@
 ### Inside the Console
 ![Navigation 1](img/NAVIGATION-3.png)
 - Once a user navigates to a specific project inside the console, a second horizontal bar will appear below the masthead and the hamburger menu will show up in the left corner of this second bar.
-  - This bar will also hold (1) the project switcher, and (2) the "quick add" feature that allows users to navigate back to the catalog or quickly add a catalog item to their project.
-  - Visit the [Project Details](http://openshift.github.io/openshift-origin-design/web-console/3-project-details/overview) page for details on these features.
+	- This bar will also hold (1) the project switcher, and (2) the "quick add" feature that allows users to navigate back to the catalog or quickly add a catalog item to their project.
+	- Visit the [Project Details](http://openshift.github.io/openshift-origin-design/web-console/3-project-details/overview) page for details on these features.
 - Below the two horizontal bars, a vertical navigation will display the primary menu options.
 - The active page will be indicated visually by highlighting that primary navigation item.
 
@@ -29,11 +29,11 @@
 ### Landing Page
 - On smaller viewports, the icons shown from left to right in the masthead should be placed in the hamburger menu from top to bottom.
 - The labels are as follows: (with icons to the left of the labels)
-  - Notification Drawer
-  - Launcher
-  - Help
-  - [username]
-  - Logout (no icon)
+	- Notification Drawer
+	- Launcher
+	- Help
+	- [username]
+	- Logout (no icon)
 - **Note:** the logout option is duplicated below the user menu for easier access, but it still remains part of the user menu as well.
 - **Note:** "Launcher" is a configurable label.
 - For secondary and tertiary levels of navigation, the left navigation panel should be replaced, as described in the Responsive State section of the [Vertical Navigation](http://www.patternfly.org/pattern-library/navigation/vertical-navigation/#/design) pattern.
@@ -61,14 +61,14 @@
 - On smaller viewports, the masthead icons shown from left to right should still be placed in the hamburger menu from top to bottom, but they will be placed after all primary navigation items.
 - Because there is also a secondary "masthead" or horizontal bar, those options will be considered part of the primary nav and should be displayed first in the hamburger menu.
 - The labels are as follows from top to bottom: (with icons to the left of the labels)
-  - [Project Name] (ability to change projects
-  - Add to Project
-  - **All Primary Navigation Items**
-  - Notification Drawer
-  - Launcher
-  - Help
-  - [username]
-  - Logout (no icon)
+	- [Project Name] (ability to change projects
+	- Add to Project
+	- **All Primary Navigation Items**
+	- Notification Drawer
+	- Launcher
+	- Help
+	- [username]
+	- Logout (no icon)
 
 ![Navigation 1](img/NAVIGATION-7.png)
 - The project name option will allow users to navigate to a different project or go back to the full projects page.

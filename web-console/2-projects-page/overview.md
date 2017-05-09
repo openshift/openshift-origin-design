@@ -5,8 +5,8 @@
 
 ## Details
 - The title and action button should be changed to match labels used on the homepage.
-  - Projects should change to "My Projects"
-  - New Project should change to "+ Create Project"
+	- Projects should change to "My Projects"
+	- New Project should change to "+ Create Project"
 
 ![template](img/Current_Projects_Page.png)
 - The Create project button should open the shared component used on the homepage.
@@ -36,12 +36,12 @@
 
 #### Implementation Details
 - **PatternFly design patterns:**
-  - List View: http://www.patternfly.org/pattern-library/content-views/card-view/#/design
-  - Card View: http://www.patternfly.org/pattern-library/content-views/list-view/#/design
+	- List View: http://www.patternfly.org/pattern-library/content-views/card-view/#/design
+	- Card View: http://www.patternfly.org/pattern-library/content-views/list-view/#/design
 - **Icon References:**
-  - Memory: TBD
-  - CPU: pficon-cpu
-  - Network: pficon-network
+	- Memory: TBD
+	- CPU: pficon-cpu
+	- Network: pficon-network
 
-#### Customer Feedback 
+#### Customer Feedback
 - TBD
