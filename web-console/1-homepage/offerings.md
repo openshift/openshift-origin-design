@@ -18,6 +18,7 @@
 
 ![offerings](img/DESKTOP-2.png)
 - In the expanded state, the arrow should point up, giving the opportunity to collapse this section back to a single row. The text should read "Show Less" with this arrow.   
+- In the expanded state, the entire page will scroll if necessary. There will not be a separate scrollbar inside the SaaS area. 
 
 
 #### Implementation Details
