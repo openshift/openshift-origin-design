@@ -13,6 +13,7 @@ Access documentation for specific sections by clicking on the links below
 	- [Provisioned Services](http://openshift.github.io/openshift-origin-design/web-console/3-project-details/provisioned-services)
 1. Web Console Patterns
 	- [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead)
+	- [Navigation](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/navigation)
 	- [Overlay Panel](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel)
 1. Web Console Components
 	- [Order From Catalog](http://openshift.github.io/openshift-origin-design/web-console/5-components/order-from-catalog)
