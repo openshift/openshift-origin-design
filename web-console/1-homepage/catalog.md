@@ -15,7 +15,7 @@
 - Any tabs that have subcategories of catalog items will have those subcategories displayed as tiles.
 - These tabs should also contain an a `All` tile for catalog items from all subcategories.
 - Clicking on a subcategory tile will open a panel that contains the catalog items.
-- By default, the `All` tile should be expanded.
+- By default, the `All` tile should be collapsed.
 
 ![catalog](img/Browse-2.png)
 - Clicking on an expanded tile should collapse that tile.
