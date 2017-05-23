@@ -29,11 +29,12 @@
 
 ## View All Results
 ![search](img/search-04.png)
-- Clicking on the `View all results` link scrolls the user down to the [catalog](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/catalog) on the `All Categories` tab with an active "Keyword" filter for the search term.
+- Clicking on the `View All [n] Results for Keyword:[searchterm]` link scrolls the user down to the [catalog](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/catalog) on the `All Categories` tab with an active "Keyword" filter for the search term.
 
 #### Implementation Details
 - All active filters are cleared when the main search box is used so that it always produces a "fresh" page of results.
-- Additional keyword filters may be added by using the keyword filter box (see below for details)
+- Additional keyword filters may be added by using the keyword filter box (see below for details).
+- Navigating to a different tab will clear the active keyword filter.
 
 #### Customer Feedback (if applicable)
 - Necessary Customer Feedback
@@ -46,6 +47,12 @@
 - Differences from main search bar
 	- Filters are applied to the currently active page rather than taking the user to the `All` category page.
 	- Typing a new term into this box will add a new keyword filter to the current page with an AND relationship to the previous keyword filter
+
+## Rules for active filters
+- Filters exist only within the scope of the currently selected category and subcategory and their behavior reflects this:
+	- Filters do not persist when a different category or subcategory tab is selected.
+	- Filters are not saved on the page for when the user navigates back to a category or subcategory tab (Using the browser's back button should restore the state of the previous page including filters, however).
+	- An active filter that yields 0 results in a given category or subcategory must not cause the tab to disappear. This is true for the currently selected tab as well as other tabs.
 
 **********
 
@@ -63,8 +70,9 @@
 - Filters available on this page will be the same ones that would be available from the All Categories tab under normal circumstances
 - If it is possible to determine that the current keyword filter constrains the page's contents to a single other category or subcategory, filters for that category should be shown instead.
 - In the short term, standard PatternFly filter token styling may be used.
-	- Ultimately, these tokens should be updated to match the above mockup
+	- Ultimately, these tokens should be updated to match the below mockup
 
+![search](img/OpenShift-Next-Homepage-AllLang-SingleEmptyCard.png)
 #### Filterable Data
 - Certification/support level
 - Provider
