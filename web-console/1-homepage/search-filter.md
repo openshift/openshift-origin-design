@@ -4,7 +4,7 @@
 - This component enables users to enter a query and receive a list of results.
 
 
-![search](img/OpenShift-Next-Homepage-AllCat-Getting-Started.png)
+![search](img/search-01.png)
 - The search bar is sticky at the top of the page.
 
 ![search](img/search-02.png)

@@ -9,7 +9,7 @@
 - Users may click on an offering to launch the associated service in another tab.
 
 
-- We will never show more than a single row of SaaS offerings. Regardless of the screen resolution, the SaaS offerings should never wrap.
+- On initial load, we will never show more than a single row of SaaS offerings (at most show 4 per row on largest screen sizes). Regardless of the screen resolution, the SaaS offerings should never wrap.
 - Instead of wrapping, when a second row is needed, an arrow icon (fa-angle-down) with "Show More" text should be added to the bottom of the SaaS area, allowing users to expand to see the FULL set of offerings.
 
 ![offerings](img/DESKTOP.png)
@@ -18,7 +18,7 @@
 
 ![offerings](img/DESKTOP-2.png)
 - In the expanded state, the arrow icon (fa-angle-up) should be used, giving the opportunity to collapse this section back to a single row. The text should read "Show Less" with this angle up arrow.   
-- In the expanded state, the entire page will scroll if necessary. There will not be a separate scrollbar inside the SaaS area. 
+- In the expanded state, the entire page will scroll if necessary. There will not be a separate scrollbar inside the SaaS area.
 
 
 #### Implementation Details
