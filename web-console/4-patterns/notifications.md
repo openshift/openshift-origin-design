@@ -17,7 +17,7 @@
 
 - The bell icon is in the [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead) and provides access to the notification drawer.
 - **The fa-bell icon should always be used here. A blue badge will be shown to the top right corner of the bell to indicate when "New" notifications exist.**
-- A "New" notification is displayed with bold text because it is an unread notification. **Notifications are marked as read by clicking on the cell to unbold the text.**
+- A "New" notification is displayed with bold text because it is an unread notification. **Notifications are marked as read by either clicking on the cell to unbold the text, or clicking the "Mark All Read" link at the bottom of the accordion section.**
 - **Users can clear notifications individually or by clicking the clear all button to remove all notifications from the currently open accordion section.**
 - There are two types of notifications that will be surfaced, System Alerts and Events.
 - An accordion style is used inside the drawer for opening and closing one section at a time.
