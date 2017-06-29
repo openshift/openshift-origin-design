@@ -16,6 +16,9 @@
 - These tabs should also contain an a `All` tile for catalog items from all subcategories.
 - Clicking on a subcategory tile will open a panel that contains the catalog items.
 - By default, the `All` tile should be collapsed.
+- If a category contains only a single subcategory
+	- The subcategory should be expanded by default
+	- No `All` tile should exist for that category
 
 ![catalog](img/Browse-2.png)
 - Clicking on an expanded tile should collapse that tile.
@@ -30,7 +33,7 @@
 - On hover, catalog items will have a blue circle around the icon and  blue text.
 
 ### Implementation Details
-- Administrators should have the ability to determine which catalog items are available to users.      
+- Administrators should have the ability to determine which catalog items are available to users.
 - Disabled catalog items should not appear.    
 - The `All` category should be the first primary category and it should always be displayed.
 - For remaining primary category tabs, if no catalog items exist, the tab should be hidden.
@@ -44,12 +47,12 @@
 
 ![catalog](img/Browse-5.png)
 
-![catalog](img/Browse-6.png)
-
-![catalog](img/Browse-7.png)
+![catalog](img/Browse-6A.png)
 
 - On smaller viewports the tiles may need to wrap.
 - Expanding a tile will always display the white caret with the catalog contents below the tile.
+
+![catalog](img/Browse-7A.png)
 
 #### Mobile
 - On mobile, the catalog tabs should stack with arrows to the right.
