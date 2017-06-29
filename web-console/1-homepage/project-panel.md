@@ -14,17 +14,15 @@
 - The default create project button will open an overlay panel with a three-field form inside.
 - Once the user has at least one project created, the "My Projects" section will appear at the top of the panel, moving the "Getting Started" section down. The Create Project button (if being used) will remain in the top right corner.
 
-### Project Empty State
+### Project List
 ![template](img/OpenShiftMall_Day1-ProjectsBar-3B.png)
 
-- Once created, the project will be listed as a card at the top of the projects list.
+- Once created, the project will be listed at the top of the projects list.
 - **Kebab Actions:** There are three actions under the kebab menu for projects: edit membership, edit project and delete project.
 	- These actions should function as they currently behave today.
-	- The delete action opens a confirmation modal and edit will function similar to the create function.
+	- The delete action opens a confirmation modal
+	- The edit action will function similar to the create function.
 	- The membership action will navigate to another page.
-- Once a project has at least one resource, the card is no longer in the empty state.
-
-![template](img/OpenShiftMall_Day1-ProjectsBar-4B.png)
 - Any new projects will be added to the top of the project list.
 - Clicking a project will bring the user directly to the project overview page for the particular project.
 
@@ -32,8 +30,8 @@
 
 ### Getting Started - Guided Tour
 - A button labeled "Home Page Tour" should be displayed under the Getting Started heading. The button launches a quick tutorial to identify key sections of the interface. This button can be optionally hidden.
-- The guided tour should automatically begin when a new user logs into OpenShift for the first time.
-- Users should be able to manually start the guided tour by clicking the button on the right panel.
+- The guided tour will not auto-start by default, but on premise admins may wish to turn the auto-start option on configure so the tour automatically launches for first time users.
+- Users can manually start the guided tour by clicking the button on the right panel.
 - Once users have more than one project created, the guided tour button will be hidden from the right panel, but should still be accessible under the help menu in the [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead).
 - Admin users can customize the guided tour by overwriting the title and description for any of the steps included.
 
@@ -67,6 +65,7 @@
 
 ### Resource Links
 - A list of resource links should be listed as bullets under the guided tour button.
+- Resource links are customizable as on premise admins may wish to include different labels and URLs.
 - Link labels and URLs include the following:
 	- Documentation - reference "window.OPENSHIFT_CONSTANTS.HELP" from the help menu link to pull the correct version of docs
 	- Developer Portal - https://developers.openshift.com/
@@ -88,11 +87,10 @@
 
 ### Projects List (More than 2)
 ![template](img/OpenShiftMall_Day1-ProjectsBar-7B.png)
-- Once there are more than two projects, they should display as a list view to save vertical space.
-- **NOTE:** In the FUTURE, a summary card will be placed above the beginning of the list to show the total number of projects along with the alerts/status summary.
-- Show as many projects as space permits on this page.
+- New projects will appear at the top of the list.
+- Show up to 5 projects on this page (based on the most recently accessed).
 - At the top of the list, include a count (the number shown out of the total) along with a "view all" link to navigate to the full projects page.
-- Users can navigate to a full projects page via the "View All" link on the homepage or by clicking on the "My Projects" heading.
+- At any time, users can navigate to a full projects page via the "View All" link on the homepage or by clicking on the "My Projects" heading.
 
 ### Implementation Details
 - The **Guided Tour** will use the [Hopscotch framework](http://linkedin.github.io/hopscotch/)
