@@ -28,9 +28,10 @@ Once a user navigates to a specific project inside the console, a second horizon
 ## Responsive States
 
 ### Landing Page
-- On smaller viewports, the icons shown from left to right in the masthead should be placed in the hamburger menu from top to bottom.
+- On smaller viewports, the icons shown from left to right in the masthead should be placed in the hamburger menu from top to bottom with the exception of the notification drawer.
+- The bell icon will remain in the top right corner of the masthead for easy access to the notification drawer.
+- The drawer should follow PatternFly standards for the responsive behavior as detailed in the [Notification Drawer](http://www.patternfly.org/pattern-library/communication/notification-drawer/#/design) pattern.
 - The labels are as follows: (with icons to the left of the labels)
-	- Notification Drawer
 	- Launcher
 	- Help
 	- [username]
@@ -60,12 +61,12 @@ Once a user navigates to a specific project inside the console, a second horizon
 - Inside the console, the primary navigation options display in a vertical nav so the order of items inside the hamburger menu will change here.
 - The hamburger menu will scroll if needed.
 - On smaller viewports, the masthead icons shown from left to right should still be placed in the hamburger menu from top to bottom, but they will be placed after all primary navigation items.
+- The notification drawer will remain in the top right corner of the masthead.
 - Because there is also a secondary "masthead" or horizontal bar, those options will be considered part of the primary nav and should be displayed first in the hamburger menu.
 - The labels are as follows from top to bottom: (with icons to the left of the labels)
 	- [Project Name] (ability to change projects
 	- Add to Project
 	- **All Primary Navigation Items**
-	- Notification Drawer
 	- Launcher
 	- Help
 	- [username]

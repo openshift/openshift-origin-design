@@ -8,18 +8,21 @@
 - Do we want to try to keep events around longer than the current 2 hour timeframe?
 - Can we get date/time info for events?
   - Note: Designs below assume yes.
+- Do events have actions associated? How do we want to display those actions?
+- Specifically what items will end up in the notification drawer and for how long?
+  - Events, toast notification items, inline notification items?
 
 ## Design
 
 ![Notifications](img/Catalog_Drawer-1.png)
 
-**NOTE:** Sections below in **Bold** indicate design details that stray from the PatternFly [Notification Drawer](http://www.patternfly.org/pattern-library/communication/notification-drawer/) pattern.
-
-- The bell icon is in the [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead) and provides access to the notification drawer.
-- **The fa-bell icon should always be used here. A blue badge will be shown to the top right corner of the bell to indicate when "New" notifications exist.**
-- A "New" notification is displayed with bold text because it is an unread notification. **Notifications are marked as read by either clicking on the cell to unbold the text, or clicking the "Mark All Read" link at the bottom of the accordion section.**
-- **Users can clear notifications individually or by clicking the clear all button to remove all notifications from the currently open accordion section.**
-- There are two types of notifications that will be surfaced, System Alerts and Events.
+- The notification drawer is accessible via the bell icon, as described in the  [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead) design details.
+- The [PatternFly Notification Drawer](http://www.patternfly.org/pattern-library/communication/notification-drawer/) pattern should be applied to this design.
+- A blue badge will be shown when "New" notifications exist.
+- A "New" notification is displayed with bold text because it is unread.
+- Notifications are marked as read by either clicking on the cell to unbold the text, or clicking the "Mark All Read" link.
+- Users can clear notifications individually or by clicking the clear all button to remove all notifications from the currently open accordion section.
+- There are two types of notifications that will be surfaced, **System Alerts** (<- name?) and Events.
 - An accordion style is used inside the drawer for opening and closing one section at a time.
 - If the drawer is closed and reopened, your last opened section will remain open.
 
@@ -42,19 +45,18 @@
 
 ![Notifications](img/Catalog_Drawer-4.png)
 - When a Project is created, a new accordion section will be added to the top of the drawer (under System Alerts if they exist).
-- **When on the homepage, opening the Notification Drawer for the first time will open the section for the most recent Project created (unless new system alerts exist).**
-- **The label showing the number of new notifications will only be displayed for the Project section that is currently open.**
-
-  [IMAGE]
-- **There may be a delay while the notifications load for a specific project (a spinner icon should be displayed while waiting).**
+- When on the homepage, opening the Notification Drawer for the first time will open the section for the most recent Project created (unless new system alerts exist).
+- The label showing the number of new notifications will only be displayed for the Project section that is currently open.
+- There may be a delay while the notifications load for a specific project (a spinner icon should be displayed while waiting).
 
 #### Inside the Console
 
 ![Notifications](img/Console_Drawer-1.png)
-- **When first opening the drawer inside the console, the open accordion section should default to the current Project the user is working in.**
+- When first opening the drawer inside the console, the open accordion section should default to the current Project the user is working in.
 - The badge will appear when the current Project, (in this case, Sample Project Name) has a New notification.
-- **Other Projects will not get updated when new notifications come in because their accordion section is not open (notice there is no label below “Project B”).**
+- Other Projects will not get updated when new notifications come in because their accordion section is not open (notice there is no label below “Project B”).
 - Users can check other Projects for notifications by opening another section in the accordion.
+  **Note: We may want to add a field level help note to be more clear and indicate this behavior.**
 
 ![Notifications](img/Console_Drawer-2.png)
 - If the user remains in Sample Project Name, (with the notification drawer open for Project B), they will continue to receive alerts regarding Sample Project Name via badge updates and toast notifications.
