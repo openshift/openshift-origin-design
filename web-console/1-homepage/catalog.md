@@ -8,8 +8,6 @@
 
 ![catalog](img/Browse-1.png)
 - Initially, upon arriving on the page, the `All` section is highlighted, underlined and expanded, with the catalog items sorted alphabetically by name.
-- Deploy Image and Import YAML/JSON links are available on the right side of the catalog primary categories bar.
-- Clicking either link will trigger the relevant [overlay panel actions](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel).
 
 ![catalog](img/Browse-3.png)
 - Any tabs that have subcategories of catalog items will have those subcategories displayed as tiles.
@@ -22,6 +20,20 @@
 
 ![catalog](img/Browse-2.png)
 - Clicking on an expanded tile should collapse that tile.
+
+- Deploy Image and Import YAML/JSON links are available on the right side of the catalog primary categories bar.
+
+### Deploy Image and Import YAML
+- These two options are available to the far right of the  "Browse Catalog" row and displayed in white text.
+- Clicking either link will trigger the relevant [overlay panel actions](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel).
+- Deploy Image will bring down an overlay panel with the option to specify image stream tags, or to search for and add an image by name.
+
+![Deploy](img/Deploy.png)
+- Import YAML will bring down an overlay panel with the option to browse for a file, or add a file to an editable text area.
+
+![Import](img/Import.png)
+
+- **Note:** Both Deploy Image and Import YAML are available options from inside the console as well, but when launching either from the homepage, there will include a "Add to Project" selection at the top to determine where to add the item.
 
 ### Selection and Hover States
 ![hover](img/Browse-4.png)
@@ -56,7 +68,6 @@
 
 #### Mobile
 - On mobile, the catalog tabs should stack with arrows to the right.
-- Deploy Image and Import YAML should be displayed below all primary categories and should have a different visual treatment from the tabs.
 - If subcategories exist, selecting the primary category will bring users to another screen to view subcategories.
 - On mobile, the subcategories will have the same visual representation as the primary categories.
 - Clicking back will bring users back to the home page with all primary tabs listed.
