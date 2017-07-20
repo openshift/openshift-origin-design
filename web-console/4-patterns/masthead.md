@@ -8,7 +8,24 @@ The PatternFly [Masthead](http://www.patternfly.org/pattern-library/application-
 1. **Help:** This menu should include documentation, about, and command line tools, and guided tours.
 1. **User:** The username should be listed to the right of the icon. The "Log Out" option should be available in this dropdown menu, as well as any other user settings available (depending on the version) such as "My Account".
 
-**Note:** For full screen widths, the masthead does not include the hamburger menu on the landing page. Once the user navigates to a specific project inside the console, vertical navigation appears and the hamburger menu will show up in the top left corner of the masthead. See [Navigation](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/navigation) design details for more information.
+**Note:** For full screen widths, the masthead does not include the hamburger menu on the landing page. Once the user navigates to a specific project inside the console, vertical navigation appears and the hamburger menu will show up in the top left corner of the masthead.
+
+
+### Primary Masthead
+![Navigation 1](img/PrimaryMasthead.png)  
+On the landing page, the only navigation available is the Primary Masthead.
+
+### Secondary Masthead
+![Navigation 1](img/SecondaryMasthead.png)  
+- Once a user navigates to a specific project inside the console, a second horizontal bar will appear below the primary masthead.
+- The secondary masthead should meet the following requirements:
+	- Height: 40px
+	- Color: #383f47
+	- Border: 1px, #030303 (PF Black)
+- The secondary masthead includes the following components:
+ 1. **Hamburger Icon:** In the far left corner the hamburger icon will be available for collapsing and expanding the vertical nav. (This is moved to the primary masthead on mobile).
+ 2. **Project Switcher:** Next to the hamburger icon is the name of the current project with a caret icon indicating users can switch to another project using the dropdown menu. At the bottom of the menu the "View All Projects" option should be listed as a blue link, taking users to the full projects list. The current project name should be displayed as 16px in Open Sans regular font.
+ 3. **Quick Add:** On the far right side there is a dropdown labeled "Add to Project" which allows users to either (1)Browse Catalog, (2) Deploy Image or (3) Import YAML. Option (1) will bring users back to the homepage and options (2) and (3) will bring up an overlay panel.
 
 ## Implementation Details
 
@@ -30,18 +47,9 @@ The PatternFly [Masthead](http://www.patternfly.org/pattern-library/application-
 
 ### System Alerts
 - If system alerts exist, a warning icon will appear in the masthead as the left-most icon in the group (OpenShift Online ONLY)
+- Note the notification drawer has not yet been implemented.
 
 ![Full Masthead](img/OpenShift-Navbar-1.png)
 
 - System alerts pertain to the infrastructure on which OpenShift is running. They are used to communicate system status to online users. (https://status.openshift.com/)
 - System alerts are implemented via a javascript config extension point, so users are able to customize their OpenShift instance to override the warning icon and use the space as desired.
-
-### Notification Drawer
-
-![Full Masthead](img/OpenShift-Navbar-2.png)
-
-- **NOTE:** The PatternFly [Notification Drawer](http://www.patternfly.org/pattern-library/communication/notification-drawer/#/design) is not yet implemented for MVP, but once it is implemented, a bell icon should be added to the masthead, directly to the left of the Launcher.
-- When system alerts exist, they may still show up in the masthead, to the left of the notification drawer.
-
-## Responsive Designs
-- For the MVP, the responsive design will not change. On smaller viewports, all masthead actions/options will drop into the hamburger menu.
