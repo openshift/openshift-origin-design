@@ -2,26 +2,11 @@
 
 ### Primary Masthead
 ![Navigation 1](img/PrimaryMasthead.png)  
-
-- On the landing page, the only navigation available is the Primary [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead).
+On the landing page, the only navigation available is the Primary [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead).
 
 ### Secondary Masthead
 ![Navigation 1](img/SecondaryMasthead.png)  
-- In the "crawl" phase, once a user navigates to a specific project inside the console, a second horizontal bar will appear below the primary masthead.
-- The secondary masthead should meet the following requirements:
-	- Height: 40px
-	- Color: #383f47
-	- Border: 1px, #030303 (PF Black)
-- The secondary masthead includes the following components:
- 1. **Hamburger Icon:** In the far left corner the hamburger icon will be available for collapsing and expanding the vertical nav. (This is moved to the primary masthead on mobile).
- 2. **Project Switcher:** Next to the hamburger icon is the name of the current project with a caret icon indicating users can switch to another project using the dropdown menu. At the bottom of the menu the "View All Projects" option should be listed as a blue link, taking users to the full projects list. The current project name should be displayed as 16px in Open Sans regular font.
- 3. **Quick Add:** On the far right side there is a dropdown labeled "Add to Project" which allows users to either (1)Browse Catalog, (2) Deploy Image or (3) Import YAML. Option (1) will bring users back to the homepage and options (2) and (3) will bring up an overlay panel.
-
-#### Secondary Masthead - Future
-![template](img/QuickSearch.png)
-- In the "walk" phase, a search box will be added to the secondary masthead to the left of the "Quick Add" dropdown.
-- This search feature will behave like [Search](https://github.com/openshift/openshift-origin-design/blob/master/web-console/1-homepage/search.m) on the landing page.
-- Selecting an item from the search will initiate the ordering flow on the [Overlay Panel](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel) on the projects detail page.
+Once a user navigates to a specific project inside the console, a second horizontal bar will appear below the Primary [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead).
 
 ### Vertical Navigation
 ![Navigation 1](img/NAVIGATION-3.png)
