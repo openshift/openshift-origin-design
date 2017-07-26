@@ -41,33 +41,25 @@
 - Is it clear that the keyword filter is a direct result of entering a search term?
 
 ## Filtering within a page
-![search](img/search-05.png)
-- Users may narrow the items displayed on a catalog page by using the keyword filter box.
-- The filter box creates or edits an active keyword filter which displays only items with a name, tag, or description that matches the keyword
-- Differences from main search bar
-	- Filters are applied to the currently active page rather than taking the user to the `All` category page.
-	- Typing a new term into this box will add a new keyword filter to the current page with an AND relationship to the previous keyword filter
+![search](img/search-06.png)
+- Users may narrow the items displayed on a catalog page by applying additional filters from the filter dropdown.
+- The keyword filter box creates an active keyword filter which displays only items with a name, tag, or description that matches the keyword.
+	- Unlike the main search bar, Filters are applied to the currently active page rather than taking the user to the `All` category page.
+	- Typing a new term into this box will add a new keyword filter to the current page with an AND relationship to the previous keyword filter.
+- Filter checkboxes enable users to quickly add and remove filters within different categories
+	- Filters added from separate sections are combined with an AND relationship.
+	- Filters within the same section are combined with an OR relationship (e.g. show me services that are free OR billed monthly).
+- Clicking outside of the filter dropdown should close the dropdown.
 
 ## Rules for active filters
+![search](img/search-07.png)
 - Filters exist only within the scope of the currently selected category and subcategory and their behavior reflects this:
 	- Filters do not persist when a different category or subcategory tab is selected.
 	- Filters are not saved on the page for when the user navigates back to a category or subcategory tab (Using the browser's back button should restore the state of the previous page including filters, however).
 	- An active filter that yields 0 results in a given category or subcategory must not cause the tab to disappear. This is true for the currently selected tab as well as other tabs.
 
-**********
-
-# Future Use Cases
-
-## Additional Filters
-![search](img/search-06.png)
-- When additional filters become available, the keyword filter box will be moved into a filter dropdown along with the rest of the filters.
-
-![search](img/search-07.png)
-- Additional filters may be added as normal and stack with the keyword filter in an OR relationship
-- Filters within the same section are combined with an AND relationship (e.g. free AND paid options are available)
-
 #### Implementation Details
-- Filters available on this page will be the same ones that would be available from the All Categories tab under normal circumstances
+- If it is possible to determine the number of items that match a given filter, that number should be displayed next to each filter in a list.
 - If it is possible to determine that the current keyword filter constrains the page's contents to a single other category or subcategory, filters for that category should be shown instead.
 - In the short term, standard PatternFly filter token styling may be used.
 	- Ultimately, these tokens should be updated to match the below mockup
@@ -78,9 +70,5 @@
 - Provider
 - Pricing options
 	- Free
-	- Paid
-- Permissions
-	- No Permissions Required
-	- Syslog Drain
-	- Route Forwarding
-	- Volume Mount
+	- List of pricing plans taken from service data
+- Health Index or user rating
