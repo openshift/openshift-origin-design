@@ -49,6 +49,7 @@
 - Filter checkboxes enable users to quickly add and remove filters within different categories
 	- Filters added from separate sections are combined with an AND relationship.
 	- Filters within the same section are combined with an OR relationship (e.g. show me services that are free OR billed monthly).
+	- If possible, filter categories should only show up to five filters at a time with a `show more` link to reveal the rest of the list.
 - Clicking outside of the filter dropdown should close the dropdown.
 
 ## Rules for active filters
