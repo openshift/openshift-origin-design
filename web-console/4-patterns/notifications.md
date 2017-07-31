@@ -1,70 +1,62 @@
 # Notification Drawer
 
 ## Open Questions
-- Can we bring System Alerts (Online Only) into the notification drawer?
-  - Note: Designs below assume yes.
-- Should we have an additional section for Homepage Notifications/ general catalog alerts?
-  Note: Designs below assume no.
-- Do we want to try to keep events around longer than the current 2 hour timeframe?
-- Can we get date/time info for events?
-  - Note: Designs below assume yes.
-- Do events have actions associated? How do we want to display those actions?
-- Specifically what items will end up in the notification drawer and for how long?
-  - Events, toast notification items, inline notification items?
+- What items will be in the notification drawer?
+  - Events and toast notification items
+  - For phase 1, will all events be in the drawer or just a subset of reason codes?
+
 
 ## Design
 
-![Notifications](img/Catalog_Drawer-1.png)
+### Homepage
+![Notifications](img/Phase1-01.png)
 
-- The notification drawer is accessible via the bell icon, as described in the  [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead) design details.
+- The notification drawer will not be accessible from the homepage so the bell will be hidden from this view.
+
+### Inside the Console
+
+![Notifications 2](img/Phase1-03.png)
+- Once in the context of a specific project inside the console, the notification drawer will be accessible via the bell icon, in the  [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead).
 - The [PatternFly Notification Drawer](http://www.patternfly.org/pattern-library/communication/notification-drawer/) pattern should be applied to this design.
-- A blue badge will be shown when "New" notifications exist.
-- A "New" notification is displayed with bold text because it is unread.
-- Notifications are marked as read by either clicking on the cell to unbold the text, or clicking the "Mark All Read" link.
-- Users can clear notifications individually or by clicking the clear all button to remove all notifications from the currently open accordion section.
-- There are two types of notifications that will be surfaced, **System Alerts** (<- name?) and Events.
-- An accordion style is used inside the drawer for opening and closing one section at a time.
-- If the drawer is closed and reopened, your last opened section will remain open.
+- At the top of the drawer the project name will appear with the number of unread notifications below.
+- To the right of the project name will be a link to view all Events which will take the user directly to the 'Monitoring >> Events' full page view. Below this link is the rollup info currently inside the events area.
+  - **Note:** A section header with project name and summary information should always be displayed at the top of the drawer and this section will always remain open. The accordion arrow shown in PatternFly should be hidden because there will never be more than one project section displayed at one time.
+- The blue badge appears when "unread" notifications exist for the current project.
+- Unread notifications are displayed with bold text until they are marked as read
+- A notification will be marked as read when a user clicks anywhere on that row in the drawer, clicks on the corresponding toast notification action, or clicks the "Mark All Read" link.
 
-### System Alerts (OpenShift ONLINE Only)
-- For OpenShift Online, the first accordion section should always be the "System Alerts."
-- Previously System Alerts were shown as a warning icon directly in the masthead.
-- For any new System Alerts, badges will be shown until the message is marked as read.
-- **Anytime there are unread System Alerts, this section of the accordion should default to open when users open the notification drawer.**
-  - This would stray from PatternFly, but would call attention to System Alerts to be sure users saw them.
-- The "xx New" label will always be displayed for the System Alerts section.
+![Notifications 3](img/Phase1-06.png)
 
-### Events
-- Each Project will receive its own accordion section below the System Alerts (if present).
-- Within a Project, the Events can be of two types, either Warnings or Informational.
-- Toast notifications will also show for the majority of events that occur.
+- The notification drawer will be in the empty state when there are no notifications to display for the current project.
 
-![Notifications](img/Catalog_Drawer-3.png)
-- When there are no Projects created, the notification drawer will be in the empty state
-- Note: for OpenShift Online, the System Alerts section would be displayed at the top.
+#### Events
 
-![Notifications](img/Catalog_Drawer-4.png)
-- When a Project is created, a new accordion section will be added to the top of the drawer (under System Alerts if they exist).
-- When on the homepage, opening the Notification Drawer for the first time will open the section for the most recent Project created (unless new system alerts exist).
-- The label showing the number of new notifications will only be displayed for the Project section that is currently open.
-- There may be a delay while the notifications load for a specific project (a spinner icon should be displayed while waiting).
+![Notifications 4](img/Phase1-05.png)
 
-#### Inside the Console
+- Events and toast notifications will show up in the drawer as they occur
+- Events can be of two types, either Warnings or Informational.
+- Each event will show up as a new row in the drawer with the icon and reason code presented first, followed by the instance kind and name.  
+- Below the error/type/name information should be the timestamp info, first showing "x times in x hours" if the event has occurred more than once, followed by the actual time and date information.
 
-![Notifications](img/Console_Drawer-1.png)
-- When first opening the drawer inside the console, the open accordion section should default to the current Project the user is working in.
-- The badge will appear when the current Project, (in this case, Sample Project Name) has a New notification.
-- Other Projects will not get updated when new notifications come in because their accordion section is not open (notice there is no label below “Project B”).
-- Users can check other Projects for notifications by opening another section in the accordion.
-  **Note: We may want to add a field level help note to be more clear and indicate this behavior.**
+![Notifications 5](img/Phase1-07.png)
 
-![Notifications](img/Console_Drawer-2.png)
-- If the user remains in Sample Project Name, (with the notification drawer open for Project B), they will continue to receive alerts regarding Sample Project Name via badge updates and toast notifications.
-- **The badges will update for the console project only, regardless of the accordion section that is open.**
+- When a user interacts with the actions inside of a toast notification, the message should automatically be marked as read inside the drawer.
+- When events expire from the events page, they should also expire from the notification drawer. ("time to live" information should be used here)
+- Users can clear notifications individually or by clicking the clear all button to remove all notifications from the drawer of the current project.
+- When notifications are cleared from the drawer they should also be cleared from the events page.
+
+#### Switching Projects
+
+![Notifications6](img/Phase1-10.png)
+
+- When a user switches to a different project, the drawer should automatically be in the closed state until reopened by the user.
+- When opened, the project name and summary at the top of the drawer will reflect the new selected project.
+- Notifications will only be shown and tracked for the currently selected project inside the console and switching projects is the only way to receive notifications regarding another project.
 
 
-### Expand Functionality  
+#### Expand Functionality  
 
-![Notifications](img/Catalog_Drawer-2.png)
+![Notifications6](img/Phase1-11.png)
 
 - The user can choose to expand/ collapse the drawer to see more details as needed.
+- When in the expanded state, the full message should be displayed as is the case in the expanded state of the event details page.
