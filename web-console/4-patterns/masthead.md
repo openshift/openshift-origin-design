@@ -45,11 +45,15 @@ On the landing page, the only navigation available is the Primary Masthead.
 
 ![Full Masthead](img/OpenShift-Regions.png)
 
-### System Alerts
-- If system alerts exist, a warning icon will appear in the masthead as the left-most icon in the group (OpenShift Online ONLY)
-- Note the notification drawer has not yet been implemented.
+### Notification Drawer
 
-![Full Masthead](img/OpenShift-Navbar-1.png)
+- The [Notification Drawer](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/notifications) can be accessed through the bell icon in the masthead, which is directly to the left of the Launcher.
 
+#### System Alerts
+- If system alerts exist, a warning icon will appear in the masthead as the left-most icon in the group (OpenShift Online ONLY) to the left of the bell.
 - System alerts pertain to the infrastructure on which OpenShift is running. They are used to communicate system status to online users. (https://status.openshift.com/)
 - System alerts are implemented via a javascript config extension point, so users are able to customize their OpenShift instance to override the warning icon and use the space as desired.
+
+## Responsive Designs
+- Masthead actions will drop into the hamburger menu with the exception of the system alerts and notification drawer.
+- The notification drawer will remain in the top right corner of the UI, with the system alert warning icon to the left of the bell when needed for Online.
