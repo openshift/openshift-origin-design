@@ -3,7 +3,7 @@
 
 
 ##  On Application Pages
-- Applications pages for resources that have pods (e.g. Applications/deployments/mongodb) should include a Bindings section on the Configuration tab.
+- Applications pages for resources that have pods (e.g. Applications/Deployments/mongodb) should include a Bindings section on the Configuration tab.
 - Pages for specific replication controllers (e.g. Applications/Deployments/mongodb/#3) should include a section for Bindings on their Details tab.
 - Pages for pods (e.g. Applications/Pods/mongodb-3-deploy) should include a section for Bindings on their Details tab.
 
@@ -17,6 +17,7 @@
 	- The parameters section should be indented.
 	- Show a parameters heading with actions to reveal values and edit parameters.
 	- Parameter keys are shown but values should be obfuscated by default.
+	- If there are more than five parameters, only the first five are shown with a "Show More" action.
 - The binding section should always include a "Create Binding" action if there is a bindable service in the namespace, even if there are no bindings.
 
 ![template](img/service-bindings.png)
@@ -40,6 +41,7 @@
 	- The parameters section should be indented.
 	- Show a parameters heading with actions to reveal values and edit parameters.
 	- Parameter keys are shown but values should be obfuscated by default.
+	- If there are more than five parameters, only the first five are shown with a "Show More" action.
 - The binding section should always include a "Create Binding" action.
 
 
@@ -48,8 +50,8 @@
 ## Expanded State on the Overview
 ### Applications
 - The bindings section is only shown for applications if bindings exist for that application.
-- The information is the same as on [Applications pages](#on-applications-pages) with the exception that parameters are not shown in the overview.
+- The information is the same as on [Applications pages](#on-application-pages) with the exception that parameters are not shown in the overview.
 
 ### Provisioned Services
 - Provisioned services always include the bindings section.
-- Binding information is the same as on [Provisioned Service detail pages](#on-provisioned-service-details-pages) with the exception that parameters are not shown in the overview. 
+- Binding information is the same as on [Provisioned Service detail pages](#on-provisioned-service-details-pages) with the exception that parameters are not shown in the overview.
