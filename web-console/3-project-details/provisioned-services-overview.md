@@ -9,35 +9,34 @@
 
 ## Collapsed State
 
-![template](img/provisioned_service_collapsed_1.png)
+![template](img/provisioned-service-collapsed.png)
+- Provisioned Services should have their own category heading in all views of the overview (i.e. view by: application, pipeline and resource).
 - In the collapsed state, show the display name for the service class with the service instance name underneath.
+- The display name should link to a details page for that service instance.
 - If the provision service has a binding, it is listed under the label "Bindings."
-- If the service has nothing bound to it, indicate that and include an action to create a binding.
+- If the service has nothing bound to it, the bindings section should be replaced by a create binding action.
 
 
 #### Implementation Details
-- Provisioned Services should have their own category heading in all views of the overview (i.e. view by application, pipeline and resource).
-
-
 ![template](img/provisioned_service_use_cases.png)
 - If a provisioned service has more than one thing bound to it, show the first item by name followed by “n others,” which expands the row.
 - If a service has been provisioned, but is not yet available, that should be indicated between the name and bindings area on desktop. Other warnings or alerts would be placed similarly.
-- The View Console action should open the link in a new browser window/tab.
+- For services that have an external console, the View Console action should be included and should open the link in a new browser window/tab.
 - The indication that a service is not yet available should be followed by an animated ellipsis.
 
 
 ![template](img/provisioned_service_fail.png)
-- If the provisioning is in a permanently failed state, we should include an action to delete it.
+- If the provisioning is in a permanently failed state, a delete service action should be provided.
 - The placement of warnings on Provisioned Services should be similar to that of other resources in the Overview.
 
 
 ## Expanded State
 
-![template](img/provisioned_service_expanded_state_1.png)
+![template](img/provisioned-service-expanded.png)
 - In the expanded view there may be two sections: Description and Bindings.
 - The Description includes the service class description if one exists, as well as a link to documentation.
-- The Bindings section includes the option to create a binding.
-- Configuration details for individual bindings are not shown in this view, but should be available from a details page.
+- The Bindings section includes a listing of any bindings as well as the option to create a binding. See [documentation for binding details](http://openshift.github.io/openshift-origin-design/web-console/5-components/binding-details).
+- Configuration details for individual bindings are not shown in this view, but should be available from the provisioned service details page.
 
 
 #### Implementation Details
@@ -49,7 +48,6 @@
 
 ![template](img/provisioned_service_kebab.png)
 - The kebab menu should include actions for create binding, delete binding and deprovision.
-
 
 ## Unbindable Services
 
