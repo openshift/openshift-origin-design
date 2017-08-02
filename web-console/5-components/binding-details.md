@@ -2,7 +2,7 @@
 - The binding details would be shown in the expanded state in the overview as well as on details pages for applications, pods and provisioned services.
 
 
-##  On Application Pages
+##  On Application (Deployments and Pods) Details Pages
 - Applications pages for resources that have pods (e.g. Applications/Deployments/mongodb) should include a Bindings section on the Configuration tab.
 - Pages for specific replication controllers (e.g. Applications/Deployments/mongodb/#3) should include a section for Bindings on their Details tab.
 - Pages for pods (e.g. Applications/Pods/mongodb-3-deploy) should include a section for Bindings on their Details tab.
@@ -48,10 +48,10 @@
 ![template](img/application-bindings.png)
 
 ## Expanded State on the Overview
-### Applications
+### Applications (Deployments and Pods)
 - The bindings section is only shown for applications if bindings exist for that application.
-- The information is the same as on [Applications pages](#on-application-pages) with the exception that parameters are not shown in the overview.
+- The information is the same as on [Application (Deployments and Pods) details pages](#on-application-pages) with the exception that parameters are not shown in the overview.
 
 ### Provisioned Services
 - Provisioned services always include the bindings section.
-- Binding information is the same as on [Provisioned Service detail pages](#on-provisioned-service-details-pages) with the exception that parameters are not shown in the overview.
+- Binding information is the same as on [Provisioned Service details pages](#on-provisioned-service-details-pages) with the exception that parameters are not shown in the overview.

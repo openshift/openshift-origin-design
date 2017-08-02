@@ -14,7 +14,7 @@
 - In the collapsed state, show the display name for the service class with the service instance name underneath.
 - The display name should link to a details page for that service instance.
 - If the provision service has a binding, it is listed under the label "Bindings."
-- If the service has nothing bound to it, the bindings section should be replaced by a create binding action.
+- If the service has nothing bound to it, the bindings section should be replaced by a create binding action. The pficon-add-circle-o icon should be shown in front of the "Create Binding" link.
 
 
 #### Implementation Details
@@ -33,8 +33,9 @@
 ## Expanded State
 
 ![template](img/provisioned-service-expanded.png)
-- In the expanded view there may be two sections: Description and Bindings.
+- In the expanded view there may be three sections: Description, Plan, and Bindings.
 - The Description includes the service class description if one exists, as well as a link to documentation.
+- If a plan exists, the name of the plan should be listed in the expanded state of the overview below the documentation. If additional plan details/ features exist, they will only be shown on the details page.
 - The Bindings section includes a listing of any bindings as well as the option to create a binding. See [documentation for binding details](http://openshift.github.io/openshift-origin-design/web-console/5-components/binding-details).
 - Configuration details for individual bindings are not shown in this view, but should be available from the provisioned service details page.
 
@@ -46,8 +47,11 @@
 
 ## Kebab Actions
 
-![template](img/provisioned_service_kebab.png)
-- The kebab menu should include actions for create binding, delete binding and deprovision.
+![template](img/provisioned-service-kebab.png)
+- The kebab menu should include actions for Edit, Create Binding, Delete Binding, and Delete.
+- The "Edit" action will bring up the wizard for the provisioned service and allow a user to update Plan and Configuration information as desired.
+	- For **Implementation Details** on editing the plan or configuration, visit the [Provisioned Service Details](http://openshift.github.io/openshift-origin-design/web-console/3-project-details/provisioned-service-details) page, as the same edit functionality is available there. Additionally, the edit binding action is available on the details page.
+
 
 ## Unbindable Services
 
@@ -56,14 +60,4 @@
 
 ![template](img/unbindable_epxanded.png)
 - The expanded state maintains the "Bindings" section, but that section includes a message that the service is unbindable,Why as well as a link to relevant documentation.
-
-![template](img/unbindable_kebab.png)
 - The "Create binding" and "Delete binding" actions are disabled in the kebab menu.
-
-
-
-#### Customer Feedback (if applicable)
-- Customer Feedback Received
-	- Overview of customer feedback received
-- Necessary Customer Feedback
-	- Questions to follow up with customers

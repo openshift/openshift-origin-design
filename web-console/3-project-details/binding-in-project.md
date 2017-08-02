@@ -10,17 +10,11 @@
 
 ## Initiating the bind flow
 
-![template](img/bind_kebab.png)
 - A user can initiate a binding from the kebab menus of provisioned services, or from other resources in the overview that can be bound to (anything with pods).
-
-![template](img/bind_create_unbound.png)
 - For provisioned services that do not have any bindings, there is a "Create binding" action in the collapsed state.
-
-![template](img/bind_create_expanded.png)
-- The "Create binding" action is always available for Provisioned Services in the expanded state.
-
-![template](img/bind_application_expanded.png)
+- The "+ Create binding" action is always available for Provisioned Services in the expanded state.
 - A binding can also be initiated from a deployment config (or similar) in the expanded view IF that deployment is already bound to another service. The “Service Bindings” section does not appear in the overview if there are no bindings.
+- **Note:** Once a binding has been created it will show up on the overview and details pages for Deployments, Pods, Provisioned Services, etc. [View Binding Details]((http://openshift.github.io/openshift-origin-design/web-console/5-components/binding-details) for info on how Bindings should be displayed.
 
 
 ## Bind flow
