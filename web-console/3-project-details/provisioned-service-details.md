@@ -9,7 +9,7 @@
 - **Note:** The icon for Provisioned Services is TBD and screenshots currently include a placeholder icon that will not be used.
 - There will be a landing page for a list of all Provisioned Services, where users can select from the list of Names to enter into the Details view of a particular provisioned service. will Selecting the a provisioned service from the
 - The standard landing page filter should be available at the top of the table.
-- The columns included are the Instance Name (link to details page), number of bindings, status, created date/time, and the Web Interface URL.
+- The columns included are the name (link to details page), instance name, number of bindings, status, created date/time, and the Web Interface URL.
 
 ![template](img/v2-03.png)
 - Users can also jump directly to a specific provisioned service by clicking on the link available in the list view on the Project Overview.
@@ -17,7 +17,7 @@
 
 ## Details Page
 ![template](img/v2-04.png)
-- The top of the provisioned service details page should have the standard breadcrumbs, large service name, and any tags that correspond to the service.
+- The top of the provisioned service details page should have the standard breadcrumbs, large service name and smaller instance name in grey, as well as any tags that correspond to the service below the name.
 - The tabs available will be Details, Events, and Status.
 - On the Details tab, sections will include:
   1. Plan: Display the name of the plan followed by any description and feature information below.
