@@ -19,17 +19,15 @@
 
 ## Bind flow
 
-### General -- MVP
-![template](img/bind_steps.png)
-- The wizard is two steps regardless whether you start from a provisioned service or from an application:
-	1. Service or application (depending on what the user is choosing)
-	2. Results
+### General
+- The wizard may be two or three steps depending on whether the service takes binding parameters or not.
+- If there are no parameters, the steps are "Binding" and "Results".
+- For bindings that take parameters, and additional "Parameters" step is added as step two.
 
-### Step 1 -- MVP
+### Binding Step
 #### Binding an Application to a Service
-![template](img/bind_to_service_select.png)
+![template](img/bind-to-service-select.png)
 - The initial step should include some text to describe to the user what it means to create a binding.
-- For MVP, it is only possible to select one resource to bind to, regardless whether you're binding from a deployment or from a service.
 - Available resources should be listed with radio buttons. The first resource should be selected by a default.
 - The primary action is "Bind" and "Cancel" should be available as a secondary action.
 
@@ -38,7 +36,7 @@
 - If a provisioned service is not yet available, a warning triangle with the text "service not ready" should appear inline with the service name.
 
 #### Binding a Service to an Application
-![template](img/bind_to_application_select.png)
+![template](img/bind-to-app-select.png)
 - User may select from two different binding options:
 	1. Bind to an application
 	2. Create a secret in my project
@@ -51,39 +49,46 @@
 
 ![template](img/bind_to_service_warning.png)
 
-### Step 2 -- MVP
+### Results Step
 
-![template](img/bind_to_service_results.png)
+![template](img/bind-results.png)
 - The success message should name both the application and the provisioned service that were bound.
-	- The success message for the "Create a secret in my project" option should say "Binding created successfully"
-- There is a note indicating that the binding operation created a configuration.
+- The success message for the "Create a secret in my project" option should say "Binding created successfully"
+- There is a note indicating that binding operation created a secret with a link to the secret.
 - Include an action to "View configuration" which would take the user to the page for that secret.
 - There should be a note alerting users that changes will not take effect until they redeploy their pods.
-- The only action button is "Close."
+- The only action is "Close."
 
 #### Implementation Details
 - Following the "View configuration" link would dismiss the overlay panel.
 
+### Parameters Step
+![template](img/bind-parameters.png)
+- When binding from a service that takes bind parameters to an application, the wizard will display three steps: Binding, Parameters, Results.
+- When binding from an application, if the service selected in the Binding step takes parameters, an additional "Parameters" step is dynamically added to the wizard.
+- Parameters are shown similarly to the Configuration step of the [Ordering Experience](http://openshift.github.io/openshift-origin-design/web-console/5-components/order-from-catalog)
+- The primary action action for step 1 is "Next" and the primary action for step two is "Bind".
+- A secondary action "Back" is added but is only active on step 2.
 
-## Unbinding
-- Unbinding would work similarly to binding, following the same two-step process:
+## Delete Binding
+- Delete Binding would work similarly to binding, following the same two-step process:
 	1. Choose the thing to unbind from
 	2. Confirmation
 
-![template](img/unbind_1.png)
+![template](img/delete-binding-select.png)
 - Available resources should be listed with radio buttons. The first resource should be selected by a default.
 - The primary action is "Unbind" and "Cancel" should be available as a secondary action.
 
-![template](img/unbind_2.png)
+![template](img/delete-binding-confirm.png)
 - The success message should name both the application and the provisioned service that were bound.
 - There should be a note alerting users that changes will not take effect until they redeploy their pods.
 - The only action button is "Close."
 
-## Deprovisioning
-- The "Deprovision" action is available in the kebab regardless whether or not a service has any bindings.
-- Clicking the "Deprovision" action brings up a strong warning.
+## Delete Service
+- The "Delete" action is available in the kebab regardless whether or not a service has any bindings.
+- Clicking the "Delete" action brings up a dialog with a strong warning.
 
-![template](img/deprovision_warning.png)
+![template](img/delete-warning.png)
 
 - If a service has bindings, alert user that s/he will have to delete bindings before deprovisioning.
 
