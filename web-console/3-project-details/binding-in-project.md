@@ -68,6 +68,7 @@
 - When binding from an application, if the service selected in the Binding step takes parameters, an additional "Parameters" step is dynamically added to the wizard.
 - Parameters are shown similarly to the Configuration step of the [Ordering Experience](http://openshift.github.io/openshift-origin-design/web-console/5-components/order-from-catalog)
 - The primary action action for step 1 is "Next" and the primary action for step two is "Bind".
+- If the parameters are required, the "Bind" button is disabled until the required fields have been filled.
 - A secondary action "Back" is added but is only active on step 2.
 
 ## Delete Binding
