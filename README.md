@@ -21,3 +21,4 @@ Access documentation for specific sections by clicking on the links below
 1. Web Console Components
 	- [Order From Catalog](http://openshift.github.io/openshift-origin-design/web-console/5-components/order-from-catalog)
 	- [Binding Details](http://openshift.github.io/openshift-origin-design/web-console/5-components/binding-details)
+	- [Add to Application](http://openshift.github.io/openshift-origin-design/web-console/3-project-details/add-to-application)	
