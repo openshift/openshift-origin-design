@@ -28,23 +28,33 @@
 ### Deploy Image,  Import YAML, and Select from Project
 - These three options are available to the far right of the  "Browse Catalog" row and displayed in white text.
 - Clicking either link will trigger the relevant [overlay panel actions](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel).
-- Deploy Image will bring down an overlay panel with the option to specify image stream tags, or to search for and add an image by name.
+- **Note:** When adding from the catalog through one of these methods, users are prompted to select which project to add to. This option does not appear when adding from the console
+
+#### Deploy Image
 
 ![Deploy](img/Deploy.png)
-- Import YAML will bring down an overlay panel with the option to browse for a file, or add a file to an editable text area.
+
+- Deploy Image will bring down an overlay panel with the option to specify image stream tags, or to search for and add an image by name.
+
+#### Import YAML/JSON
 
 ![Import](img/Import.png)
 
-- Select from project will bring down an overlay panel with the option to select a project
+- Import YAML will bring down an overlay panel with the option to browse for a file, or add a file to an editable text area.
+
+#### Select from Project
 
 ![Select](img/Select-02.png)
 
-- Once a project has been selected, the user can choose a builder image or template from that project to order as usual.
+- Select from project will bring down an overlay panel with the option to select a project
+
+![Select](img/Select-03.png)
+
+- If the selected project has no templates or images, an empty state pattern will be shown.
 
 ![Select](img/Select-04.png)
 
-
-- **Note:** Deploy Image,  Import YAML, and Select from Project are available options from inside the console as well, but when launched from there, they do not include an "Add to Project" field at the top of the form.
+- Once a project has been selected, the user can choose a builder image or template from that project to order as usual.
 
 ### Selection and Hover States
 ![hover](img/Browse-4.png)
