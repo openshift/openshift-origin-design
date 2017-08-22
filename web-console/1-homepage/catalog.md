@@ -21,19 +21,40 @@
 ![catalog](img/Browse-2.png)
 - Clicking on an expanded tile should collapse that tile.
 
-- Deploy Image and Import YAML/JSON links are available on the right side of the catalog primary categories bar.
+![catalog](img/Select-01.png)
 
-### Deploy Image and Import YAML
-- These two options are available to the far right of the  "Browse Catalog" row and displayed in white text.
+- Deploy Image,  Import YAML, and Select from Project links are available on the right side of the catalog primary categories bar. These links are collapsed into a dropdown on smaller viewports
+
+### Deploy Image,  Import YAML, and Select from Project
+- These three options are available to the far right of the  "Browse Catalog" row and displayed in white text.
 - Clicking either link will trigger the relevant [overlay panel actions](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel).
-- Deploy Image will bring down an overlay panel with the option to specify image stream tags, or to search for and add an image by name.
+- **Note:** When adding from the catalog through one of these methods, users are prompted to select which project to add to. This option does not appear when adding from the console
+
+#### Deploy Image
 
 ![Deploy](img/Deploy.png)
-- Import YAML will bring down an overlay panel with the option to browse for a file, or add a file to an editable text area.
+
+- Deploy Image will bring down an overlay panel with the option to specify image stream tags, or to search for and add an image by name.
+
+#### Import YAML/JSON
 
 ![Import](img/Import.png)
 
-- **Note:** Both Deploy Image and Import YAML are available options from inside the console as well, but when launching either from the homepage, there will include a "Add to Project" selection at the top to determine where to add the item.
+- Import YAML will bring down an overlay panel with the option to browse for a file, or add a file to an editable text area.
+
+#### Select from Project
+
+![Select](img/Select-02.png)
+
+- Select from project will bring down an overlay panel with the option to select a project
+
+![Select](img/Select-03.png)
+
+- If the selected project has no templates or images, an empty state pattern will be shown.
+
+![Select](img/Select-04.png)
+
+- Once a project has been selected, the user can choose a builder image or template from that project to order as usual.
 
 ### Selection and Hover States
 ![hover](img/Browse-4.png)
