@@ -10,7 +10,7 @@
 - Toasts and notification drawer messages should include a kebab menu with options to:
   - View Quotas
   - Don't Show Me Again
-  - Close notification
+  - Clear notification
 
 ### Don't Show Me Again option
 - Option should be specific to each quota/limit.
