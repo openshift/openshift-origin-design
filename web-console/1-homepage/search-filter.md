@@ -19,9 +19,12 @@
 
 
 #### Implementation Details
-- Catalog items will be able to be searched by name, tag, and description
-- Catalog items with a matching name should be prioritized over those with a matching tag, which are higher priority than those with a matching description.
-- Elements with more matches should be prioritized over those with fewer.
+- Catalog items will be able to be searched by (in descending order of importance):
+	1. Display name
+	2. Tag
+	3. Description (short and long)
+	4. The category/subcategory to which the item belongs.
+- The five results shown underneath the search bar should be weighted to show the most relevant results first.
 - No results will be highlighted until the up or down arrow key is pressed.
 - Pressing the `Enter` key while no results are selected will trigger the `View all results` action (see below for details)
 - If possible and practical, the search results panel should be updated as the user enters their search term.
@@ -43,7 +46,7 @@
 ## Filtering within a page
 ![search](img/search-06.png)
 - Users may narrow the items displayed on a catalog page by applying additional filters from the filter dropdown.
-- The keyword filter box creates an active keyword filter which displays only items with a name, tag, or description that matches the keyword.
+- The keyword filter box creates an active keyword filter which displays only items with a Display Name, Tag, or Description (short or long) that matches the keyword.
 	- Unlike the main search bar, Filters are applied to the currently active page rather than taking the user to the `All` category page.
 	- Typing a new term into this box will add a new keyword filter to the current page with an AND relationship to the previous keyword filter.
 - Filter checkboxes enable users to quickly add and remove filters within different categories
