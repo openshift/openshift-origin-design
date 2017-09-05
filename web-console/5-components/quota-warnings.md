@@ -33,18 +33,17 @@
 
 ### At quota for compute-resource
 - User should be alerted via an informational message.
-- If the user takes an action that brings her to the quota, she should see a toast notification.
+- *FUTURE* If the user takes an action that brings her to the quota, she should see a toast notification.
 - Otherwise if the user logs into the system and it’s at quota, skip the toast, but put a message in the notification drawer.
 - Message should include:
   - The resource in question
   - The total percentage requested (to avoid confusion with units) and max plus units.
   - Information/link to help the user take action if action is needed.
   - Link to quota page.
-- Since the quota doesn't represent actual utilization, the verb "requested" should be used in the message rather than "used".
 - The message should be customizable.
-- “Your project is requesting 97% of 2 cores CPU. Upgrade to OpenShift Pro if you need additional resources. View Quotas”
+- “Your project is using 97% of 2 cores CPU. Upgrade to OpenShift Pro if you need additional resources. View Quotas”
 
-## On Add to Project
+## *FUTURE* On Add to Project
 - If Add to Project fails due to insufficient quota, the Results step of the wizard should give information about the quotas and suggestions to address the issue (e.g. upgrade to Pro, Add More Storage, etc)
 - It would be useful to know before attempting to provision (and entering config information) if add to project is going to fail due to insufficient quota.
 
