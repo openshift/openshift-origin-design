@@ -16,7 +16,7 @@ Once a user navigates to a specific project inside the console, a second horizon
 - Colors are defined below:
 	- Background Color Default: pf-black-900, #292e34
 	- Background Color Hover/Selected State: #383f47
-	- Vertical Nav Icons Default: pf-black-600, #383f47
+	- Vertical Nav Icons Default: pf-black-600, #72767b 
 	- Vertical Nav Icons Selected State: pf-blue-300, #39a5dc
 
 ![Navigation 1](img/openshift-origin-content.png)

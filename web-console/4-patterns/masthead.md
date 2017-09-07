@@ -33,13 +33,6 @@ The PatternFly [Masthead](http://www.patternfly.org/pattern-library/application-
 
 ### User
 
-#### Regions
-- Users will have the ability to view and change their cluster region.
-
-![Full Masthead](img/Region.png)
-- For MVP, the cluster region will be listed as a fly-out option under the user menu in the masthead.  
-- The current region will be displayed in the dropdown.
-
 #### Set Home Page
 - Users will have the ability to view and change their home page. This setting will determine what page will be displayed upon initial login.
 
@@ -57,6 +50,13 @@ The PatternFly [Masthead](http://www.patternfly.org/pattern-library/application-
 - The project overview option will require the user to select the specific project from a dropdown before the Save button will be enabled.
 - This saved home page setting will be configured on a per browser, per user basis and will not span across browsers.
 
+#### Regions (OpenShift Online ONLY)
+- Users will have the ability to view and change their cluster region.
+
+![Full Masthead](img/Region.png)
+- For MVP, the cluster region will be listed as a fly-out option under the user menu in the masthead.  
+- The current region will be displayed in the dropdown.
+
 ### Help
 - The guided tour and the resources should always  be accessible under the help menu in the masthead.
 
@@ -66,8 +66,8 @@ The PatternFly [Masthead](http://www.patternfly.org/pattern-library/application-
 - Resources should be below the guided tour in the list and a flyout menu should appear with the 6 links available.
 - **Note:** If customers have hidden the resource links from the homepage, they should not be displayed in the masthead either.
 
-### System Alerts
-- If system alerts exist, a warning icon will appear in the masthead as the left-most icon in the group (OpenShift Online ONLY) to the left of the notifications bell.
+### System Alerts (OpenShift Online ONLY)
+- If system alerts exist, a warning icon will appear in the masthead as the left-most icon in the group to the left of the notifications bell.
 - System alerts pertain to the infrastructure on which OpenShift is running. They are used to communicate system status to online users. (https://status.openshift.com/)
 - System alerts are implemented via a javascript config extension point, so users are able to customize their OpenShift instance to override the warning icon and use the space as desired.
 
