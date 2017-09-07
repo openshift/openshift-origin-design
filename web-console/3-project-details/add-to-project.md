@@ -11,6 +11,16 @@
 - Selecting an item from the search will initiate the ordering flow on the [Overlay Panel](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel) on the projects detail page.
 - The Project selection step should be hidden from the ordering panel in this case since the user is adding from within the console and we know what Project.
 
+### Browse Catalog
+![project browse](img/project-browse-01.png)
+- Selecting `Browse Catalog` from the dropdown or clicking the link to view more search results will bring up a version of the catalog in a modal.
+- A filtered view of the catalog will be brought up if the quick search bar is used to trigger the catalog.
+- Selecting a catalog item should replace the browse modal with the ordering overlay.
+- Clicking the X button, or the `Return to Project` link will close the modal and take the user back to where they were when they opened the catalog.
+- Closing the ordering overlay should cancel the `Browse Catalog` action.
+
+
+
 ### Import YAML/JSON
 ![template](img/Import_yaml.png)
 - This option brings down an overlay panel with the option to browse for a file, or add a file to an editable text area.
