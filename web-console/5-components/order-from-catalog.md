@@ -51,11 +51,11 @@ Post 3.6, an additional Bind Step will be implemented.
 ![template](img/information-step.png)
 
 1. Catalog Item Icon
-	- metadata.imageURL from ![OpenServiceBroker Service Metadata](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#service-metadata-fields)
+	- metadata.imageURL from [OpenServiceBroker Service Metadata](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#service-metadata-fields)
 1. Catalog Item Name
-	- metadata.displayName from ![OpenServiceBroker Service Metadata](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#service-metadata-fields)
-1. Vendor (Optional)
-	- metadata.providerDisplayName from ![OpenServiceBroker Service Metadata](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#service-metadata-fields)
+	- metadata.displayName from [OpenServiceBroker Service Metadata](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#service-metadata-fields)
+1. Provider (Optional)
+	- metadata.providerDisplayName from [OpenServiceBroker Service Metadata](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#service-metadata-fields)
 1. List of tags (Optional)
 1. Short description (Optional)
 1. Long description (Optional)
@@ -71,16 +71,16 @@ This step should be shown if there are 1+ plans.
 ![template](img/plan-step.png)
 
 For each plan, display:
-- Plan title
-	- metadata.displayName from ![Plan Metadata Fields](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#plan-metadata-fields)
-- Optional description
-- Features
+1. Plan title
+	- metadata.displayName from [Plan Metadata Fields](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#plan-metadata-fields)
+1. Optional description
+1. Features
 	- if the plan has 1+ features, show a **Features** title following by a list of features
-	- metadata.bullets from ![Plan Metadata Fields](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#plan-metadata-fields)
-- Pricing
+	- metadata.bullets from [Plan Metadata Fields](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#plan-metadata-fields)
+1. Pricing
 	- if the plan has 1+ pricing options, show a **Pricing** title following by a list of costs
-	- amount from ![Cost Object of the Plan Metadata Fields](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#plan-metadata-fields)
-	- unit from ![Cost Object of the Plan Metadata Fields](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#plan-metadata-fields)
+	- amount from [Cost Object of the Plan Metadata Fields](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#plan-metadata-fields)
+	- unit from [Cost Object of the Plan Metadata Fields](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#plan-metadata-fields)
 
 - Buttons associated with this step
 	- Cancel, Back & Next buttons should be displayed & enabled
@@ -126,6 +126,7 @@ For each plan, display:
 
 #### Form Layout - Mobile :iphone:
 - On mobile displays, labels are displayed above the input widgets
+
 	<img src="img/configuration-step-mobile.png" alt="alt text" width="200">
 
 #### Catalog item shows advanced options
