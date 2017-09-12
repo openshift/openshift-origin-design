@@ -21,7 +21,6 @@ The catalog will include builder images, templates and items from the Broker API
 #### Steps Visualization when there are 6 plus steps
 - All step numbers are shown
 - Only the current step name is shown
-![template](img/wizardstepsbehavior-6-plus.png)
 
 ![template](img/wizardstepsbehavior-6-plus-resized.png)
 
@@ -42,11 +41,15 @@ The button panel includes navigation buttons: Cancel, Back and Next/Create/Close
 - The Next button should become enabled once all required information has been entered for the current step and/or sub-step. The Next button will move the user through any sub-steps before it moves the user to the next main step. The Back button will also behave the same way.  
 
 ## Possible Steps
-There are 3 possible steps in this process: Plan, Configuration and Results.
+The following steps may be part of the this process:
+1. Information
+1. Plan (optional)
+1. Configuration
+1. Bind (optional)
+1. Parameters (optional)
+1. Results
 
-Post 3.6, an additional Bind Step will be implemented.
-
-### Information Step
+### 1 - Information Step
 
 ![template](img/information-step.png)
 
@@ -59,12 +62,12 @@ Post 3.6, an additional Bind Step will be implemented.
 1. List of tags (Optional)
 1. Short description (Optional)
 1. Long description (Optional)
-	- metadata.longDescription from ![OpenServiceBroker Service Metadata](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#service-metadata-fields)
+	- metadata.longDescription from [OpenServiceBroker Service Metadata](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#service-metadata-fields)
 1. Image dependencies : Includes an **Image Dependencies** title following by a list of dependencies.  Each image name is preceded by an image icon (note the PF icon)
 1. **View documentation** link which will open a new browser/tab linking to the Documentation URL (Optional)
-	- metadata.documentationUrl from ![OpenServiceBroker Service Metadata](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#service-metadata-fields)
+	- metadata.documentationUrl from [OpenServiceBroker Service Metadata](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#service-metadata-fields)
 
-### Plan Step (Optional)
+### 2 - Plan Step (Optional)
 This step should be shown if there are 1+ plans.
 
 #### Single Plan
@@ -93,7 +96,7 @@ For each plan, display:
 - The first plan should be selected by default.
 
 
-### Configuration Step
+### 3 - Configuration Step
 
 #### Implementation Details
 - This step is mandatory
@@ -138,13 +141,13 @@ For each plan, display:
 #### User creates a new project in context of this flow
 ![template](img/config-step-create-project.png)
 
-### Bind Step (Optional)
+### 4 - Bind Step (Optional)
 This step is only valid if the selected project is not new / has items that can be bound to.
 Automatically show this step if the service/image is bindable.
 
-### Parameters Step (Optional & Future)
+### 5 - Parameters Step (Optional & Future)
 
-### Results Step
+### 6 - Results Step
 
 #### Request has been submitted, and is in progress
 	** Missing mock **
@@ -171,10 +174,11 @@ Automatically show this step if the service/image is bindable.
 	- Create should be enabled IF all mandatory fields have been input
 
 
-## Future
+## Future Considerations
 
 ### Review Panel
 Should we have a Review panel which then has the action button and then the content will turn to the Results & Create turns to Close?
+
 ### Field Level Help versus Field Hints
 - For now, we will leave the same as currently implemented (field hints)
 - Question as to whether we go with Option A (less cluttered & cleaner) or Option B (user sees field level hints up front).
