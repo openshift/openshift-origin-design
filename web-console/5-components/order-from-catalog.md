@@ -12,7 +12,6 @@ The catalog will include builder images, templates and items from the Broker API
 - The Catalog Item Name is displayed as the title of the overlay panel
 - The main steps of the wizard are shown under the title
 - This panel “sticky”, thus if the content panel scrolls, the top panel will not
-![template](img/top-panel.png)
 
 #### Steps Visualization when there are 5 or less steps
 - All step numbers and associated step names are shown
