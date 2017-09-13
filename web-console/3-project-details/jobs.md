@@ -7,16 +7,17 @@
 - This documentation uses "Job" to refer to both Jobs and Cron Jobs, except when Cron Jobs are called out specifically.
 
 ## Overview
-- Jobs and Cron Jobs would be listed under a "Jobs" heading in the Application and Resource views of the Overview.
+- Jobs and Cron Jobs would be listed under a "Jobs" heading in the list by Resource Type view of the Overview.
+- Jobs and Cron Jobs would be listed under Other Resources in the Application and Pipleine views, unless they are part of an application or pipeline. In that case, they would be grouped with the appropriate application or pipeline.  
 - The heading over individual Job names would specify if it is a Job or Cron Job.
-- Jobs (and Cron Jobs) that have an app label should be grouped with that application in the Application view.
+
 
 ### Collapsed State
 ![jobs overview collapsed](img/jobs-overview-collapsed.png)
 - Jobs are listed on the Overview page similarly to deployments.
 - Currently running jobs have the pod donut donut.
 - For Jobs that are not running, the pod donut is replaced by a "Start Job" button which would initiate a job run.
-- The kebab includes the following actions: "View Logs", "Edit" and "Delete".
+- The kebab includes the following actions: "View Logs", "Edit YAML" and "Delete".
 
 
 ### Expanded State
@@ -28,13 +29,14 @@
 - There is a separate section for "Job Runs"
 - Run number and status are shown on the left.
 - Status for completed jobs includes the duration.
-- Logs for a running pod are shown in this view similar to builds, with a link to the full logs.
+- Logs for a single running pod are shown in this view similar to builds, with a link to the full logs. If that pod finishes, but the job has other pods that need to run, logs for another pod should be shown.
 - Clicking on the run number takes the user to the details page for that job run.
 
 #### Not Running
 ![jobs overview expanded not running](img/jobs-overview-expanded-not-running.png)
-- For jobs that are not running, the pod donut is replaced by an action button to "Start Job"
-- The last N completed pods should be shown in the Job Runs area.
+- For jobs that are not running, the pod donut is replaced by an action button to "Start Job".
+- When the user activates the "Start Job" button, that button should be immediately replaced by an indication that the job is running and what its status is, for example a blank pod donut. 
+- The last completed run should be shown in the Job Runs area.
 
 #### Cron Jobs
 ![cron jobs overview expanded not running](img/cron-job-expanded.png)
