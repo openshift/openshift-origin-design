@@ -35,12 +35,13 @@
 #### Not Running
 ![jobs overview expanded not running](img/jobs-overview-expanded-not-running.png)
 - For jobs that are not running, the pod donut is replaced by an action button to "Start Job".
-- When the user activates the "Start Job" button, that button should be immediately replaced by an indication that the job is running and what its status is, for example a blank pod donut. 
+- When the user activates the "Start Job" button, that button should be immediately replaced by an indication that the job is running and what its status is, for example a blank pod donut.
 - The last completed run should be shown in the Job Runs area.
 
 #### Cron Jobs
 ![cron jobs overview expanded not running](img/cron-job-expanded.png)
 - Cron Jobs add an indication of how often they run, eg. every hour in top section.
+- The cron format on the YAML should be translated into something human readable. See https://cronexpressiondescriptor.azurewebsites.net/ for an example.
 - When a Cron Job is not running, the Job Runs section includes an entry for the next scheduled run, with the time that run should start.
 
 ## Details Pages
