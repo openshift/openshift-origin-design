@@ -101,8 +101,7 @@ For each plan, display:
 - This step is mandatory
 - Content panel includes:
 	- Optional version selection
-		- If there aren’t more than one plan, and there are more than one version available, include a Version list.
-		- If >1 plan, Version is not included.
+		- Include a Version list if there are multiple versions
 	- “Add to Project” selection
 		- “Add to Project” list includes the existing projects the user has access to
 		- “Create Project”
