@@ -1,13 +1,5 @@
 # Notification Drawer
 
-## Open Questions
-- What items will be in the notification drawer?
-  - Events and toast notification items
-  - For phase 1, will all events be in the drawer or just a subset of reason codes?
-
-
-## Design
-
 ### Homepage
 ![Notifications](img/Phase1-01.png)
 
@@ -19,7 +11,7 @@
 - Once in the context of a specific project inside the console, the notification drawer will be accessible via the bell icon, in the  [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead).
 - The [PatternFly Notification Drawer](http://www.patternfly.org/pattern-library/communication/notification-drawer/) pattern should be applied to this design.
 - At the top of the drawer the project name will appear with the number of unread notifications below.
-- To the right of the project name will be a link to view all Events which will take the user directly to the 'Monitoring >> Events' full page view. Below this link is the rollup info currently inside the events area.
+- To the right of the project name will be a link to view all Events which will take the user directly to the 'Monitoring >> Events' full page view.
   - **Note:** A section header with project name and summary information should always be displayed at the top of the drawer and this section will always remain open. The accordion arrow shown in PatternFly should be hidden because there will never be more than one project section displayed at one time.
 - The blue badge appears when "unread" notifications exist for the current project.
 - Unread notifications are displayed with bold text until they are marked as read

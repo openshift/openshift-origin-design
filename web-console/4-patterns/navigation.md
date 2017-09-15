@@ -8,11 +8,21 @@ On the landing page, the only navigation available is the Primary [Masthead](htt
 ![Navigation 1](img/SecondaryMasthead.png)  
 Once a user navigates to a specific project inside the console, a second horizontal bar will appear below the Primary [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead).
 
-### Vertical Navigation
-![Navigation 1](img/NAVIGATION-3.png)
 
+### Vertical Navigation
+![Navigation 1](img/openshift-origin-content-1.png)
 - Below the two horizontal bars, a vertical navigation will display the primary menu options.
 - The active page will be indicated visually by highlighting that primary navigation item.
+- Colors are defined below:
+	- Background Color Default: pf-black-900, #292e34
+	- Background Color Hover/Selected State: #383f47
+	- Vertical Nav Icons Default: pf-black-600, #72767b 
+	- Vertical Nav Icons Selected State: pf-blue-300, #39a5dc
+
+![Navigation 1](img/openshift-origin-content.png)
+- **Note:** The Vertical Navigation should be persistent throughout the console, including when users are on edit screens.
+
+![Navigation 1](img/NAVIGATION-3.png)
 
 ![Navigation 1](img/NAVIGATION-4.png)
 
@@ -45,37 +55,24 @@ Once a user navigates to a specific project inside the console, a second horizon
 - Selecting the Help option will load the secondary navigation with all available resources and help links.
 - The resource links that are initially shown on the landing page project panel should be included in this help menu and would load a tertiary level of navigation.
 
-![Navigation 1](img/NAVIGATION-1C.png)
+#### Launcher
 
 - Selecting the Launcher option will load the secondary navigation with all link options that are available.
 - **Note:** All options under the Launcher menu are configurable.  
 
-![Navigation 1](img/NAVIGATION-1.png)
+#### User
 
-- Selecting the username should show the account options, region selector, and logout.
+- Selecting the username should show the account options, region selector, set home page, and logout.
 - The Region selector should be included in this user menu and would load a tertiary level of navigation, allowing a user to change the Region they are viewing.
 - **Note:** The Logout option is duplicated underneath the user menu for easier access.
 
 ### Inside the Console
 
-- Inside the console, the primary navigation options display in a vertical nav so the order of items inside the hamburger menu will change here.
-- The hamburger menu will scroll if needed.
-- On smaller viewports, the masthead icons shown from left to right should still be placed in the hamburger menu from top to bottom, but they will be placed after all primary navigation items.
-- The notification drawer will remain in the top right corner of the masthead.
-- Because there is also a secondary "masthead" or horizontal bar, those options will be considered part of the primary nav and should be displayed first in the hamburger menu.
-- The labels are as follows from top to bottom: (with icons to the left of the labels)
-	- [Project Name] (ability to change projects
-	- Add to Project
-	- **All Primary Navigation Items**
-	- Launcher
-	- Help
-	- [username]
-	- Logout (no icon)
-
-![Navigation 1](img/NAVIGATION-7.png)
+- Inside the console, the primary and secondary mastheads should remain in view.
+- The project name should be displayed on the left side of the secondary masthead with the Quick Add option on the right side and condensed into a + icon.
 - The project name option will allow users to navigate to a different project or go back to the full projects page.
-- This list should only show the projects shown on the Homepage projects panel (5 projects max). After these projects, there should be a horizontal line and a link to navigate to the full projects page to see more.
-- View All Projects should be a blue link to distinguish it from the project names listed.
+- Vertical nav options will be accessible through the hamburger menu, followed by the masthead options.
+- The hamburger menu will scroll if needed.
+- The notification drawer will not be placed into the hamburger menu and will remain in the top right corner of the primary masthead.
 
-![Navigation 1](img/NAVIGATION-2C.png)
-- The add to project option will allow users to go back to the catalog, import YAML, or Deploy images directly into this project.
+![Navigation 1](img/NAVIGATION-07.png)
