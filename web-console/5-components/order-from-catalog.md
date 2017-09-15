@@ -70,7 +70,7 @@ The following steps may be part of the this process:
 This step should be shown if there are 1+ plans.
 
 #### Single Plan
-![template](img/plan-step.png)
+![template](img/plan-singleplan-step.png)
 
 For each plan, display:
 1. Plan title
@@ -84,13 +84,14 @@ For each plan, display:
 	- amount from [Cost Object of the Plan Metadata Fields](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#plan-metadata-fields)
 	- unit from [Cost Object of the Plan Metadata Fields](https://github.com/openservicebrokerapi/servicebroker/blob/master/profile.md#plan-metadata-fields)
 
+
 - Buttons associated with this step
 	- Cancel, Back & Next buttons should be displayed & enabled
 
 
 #### Multiple Plans
 
-![template](img/plan-singleplan-step.png)
+![template](img/plan-step.png)
 - Each plan should be presented as a radio button option, by the plan title.  
 - The first plan should be selected by default.
 
