@@ -11,21 +11,20 @@
 
 - A `Manage Labels` link should be displayed below the applied labels
 - Clicking the link will open a modal, displaying the labels that are already applied, as well as an option to add new labels.
-- Clicking `Add` will display a new row with two empty fields for label Name and label Value.
+- Clicking `Add` will display a new row with two empty text fields for label Name and label Value.
 
 ![Label 1](img/new-labels-02-add.png)
 
-- Both empty fields should use the combobox component as users can either select an existing label or enter a new one.
-- The save button should not be enabled until selections are made.
+- The save button should not be enabled until valid entries are made.
 
 ![Label 1](img/new-labels-03-add.png)
 
-- The dropdown list should display all existing labels that have been applied elsewhere throughout the current project.
+- Invalid characters will result in a field level error once the user changes focus away from the particular field.
 
-#### Implementation Details
-- Label Names that have already been applied to the current object will not appear in the dropdown list as there cannot be duplicate values associated.
-  - For example, "app" and "openshift.io/deployment-config.name" are already applied and are not in the dropdown list.
-  - Users would need to edit the existing rows for those labels if desired.  
+![Label 1](img/new-labels-03B-add.png)
+
+- Label names cannot have more than one value associated.
+- Attempting to enter a label name that has already been applied with a value will result in a field level error as well.
 
 ![Label 1](img/new-labels-04-add.png)
 
@@ -33,22 +32,21 @@
 
 - Once the user clicks `Save` the new label should appear at the bottom of the list of labels on the Details tab.
 
-
 ## Edit Labels
 ![Label 1](img/new-labels-01-edit.png)
 
 - The same `Manage Labels` link will be used for editing existing labels.
-- Users can change a name or value as desired. All existing values for the current project will be listed in the dropdown.
+- Users can change a name or value as desired, as long as the name is not already associated with another value.
 
 #### Implementation Details
 - Values can be edited in this view, but only the current object will receive the label change. In order to bulk change labels for multiple items (Deployments in this case), users must go to the summary page and multi-select items.
-- If there are specific system defined or restricted labels that users are unable to change, the entire row should be disabled.
+- If there are any restricted labels that users are unable to change, the entire row should be disabled.
 
 ## Remove Labels
 ![Label 1](img/new-labels-01-delete.png)
 
 - The same `Manage Labels` link will be used for removing existing labels.
-- Clicking the trash icon next to a label will remove that row and enable the save button.
+- Clicking the x icon next to a label will remove that row and enable the save button.
 - Applying these changes will only remove the label from this specific object, not from the system entirely.
 
 ![Label 1](img/new-labels-02-delete.png)
@@ -65,20 +63,25 @@
 - Users can multi-select using the checkboxes provided and a `Manage Labels` button should be available in the top right corner of the page.
 - The `Manage Labels` button will open a modal for any add, edit, or remove actions to take place.
   - The top of the modal should summarize the selections to reiterate the number of objects that will be affected by the label changes. Intro text detailed below:
-  - "You have selected 'x' 'Object-Type.' The following changes will be applied to all selections. Note: bulk edits can only be made for objects with common labels."
+  - "You have selected 'x' 'Object-Type.' The following changes will be applied to all selections.
 
 ### Add
 ![Label 1](img/new-labels-02-manage.png)
 
 - Users can add a single label or multiple labels to all selected objects.
-- If the selected objects have any labels in common, the labels would be listed in rows above the empty one. If not, an empty row will be presented alone, with the option to add more labels.
+- If the selected objects have any labels in common, the labels will be listed in rows above the empty one. If not, an empty row will be presented alone, with the option to add more labels.
 - Adding the new label and clicking `Save` will close the modal and initiate a toast notification to confirm the changes have been applied to all objects.
+
+![Label 1](img/new-labels-02C-manage.png)
+- If users select objects without first filtering for common labels, some changes may overwrite existing label values.
+- When this is the case, clicking save will replace the modal contents with a warning and confirmation message to inform users that the label change will overwrite an existing label value.
+- Users must confirm the changes by clicking `Apply` before changes will be saved.
 
 ### Edit
 ![Label 1](img/new-labels-03-manage.png)
 
 - The same `Manage Labels` button will be used for bulk editing any existing labels.
-- Users can filter by label before using the multi-select to ensure selections do have common labels because if the items selected do not have any labels in common, edit actions will not be available.
+- Users can filter by label before using the multi-select to ensure selections have common labels that can be displayed in the modal.
 
 ![Label 1](img/new-labels-04-manage.png)
 
@@ -89,9 +92,11 @@
 - A toast notification should be displayed once changes have been made to a label.
 - If there is a filter applied, it should be updated to reflect the label changes.
 
+- **Note:** When there is no filter applied, some label edits may overwrite existing label values. A warning message will be presented when this is the case and users must confirm before changes are saved.
+
 ### Remove
 - The same `Manage Labels` button will be used for removing existing labels.
-- Clicking the trash icon next to a label will remove that row and enable the save button.
+- Clicking the x icon next to a label will remove that row and enable the save button.
 - Applying these changes will only remove the label from the selected objects, not from the system entirely and a toast notification should confirm the changes.
 
 ### Notifications
