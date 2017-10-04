@@ -19,12 +19,12 @@
 
 ![Label 1](img/new-labels-03-add.png)
 
-- Invalid characters will result in a field level error once the user changes focus away from the particular field.
+- Invalid characters will result in a field level error once the user changes focus away from the particular field. The error message should be explicit, stating the characters that will be accepted. 
 
 ![Label 1](img/new-labels-03B-add.png)
 
 - Label names cannot have more than one value associated.
-- Attempting to enter a label name that has already been applied with a value will result in a field level error as well.
+- Attempting to enter a label name that has already been applied with a value will result in a field level error explaining that label name already exists.
 
 ![Label 1](img/new-labels-04-add.png)
 
@@ -56,6 +56,7 @@
 ![Label 1](img/new-labels-01-manage.png)
 
 - Summary lists are provided for each major section such as Deployments, Pods, Builds, Images, Storage, etc.
+- **Note:** In the future there may be cases or object types that require label actions to be hidden and labels placed in read-only mode.
 - Currently users can filter those lists based on their applied labels, in order to narrow the results.
 - Filtering by label should remain, but checkboxes should be added to the left side of each row to allow for multi-select and bulk actions from the summary page.
 
@@ -75,7 +76,7 @@
 ![Label 1](img/new-labels-02C-manage.png)
 - If users select objects without first filtering for common labels, some changes may overwrite existing label values.
 - When this is the case, clicking save will replace the modal contents with a warning and confirmation message to inform users that the label change will overwrite an existing label value.
-- Users must confirm the changes by clicking `Apply` before changes will be saved.
+- Users must confirm the changes by clicking `Apply` in order for changes to be saved/applied.
 
 ### Edit
 ![Label 1](img/new-labels-03-manage.png)
