@@ -19,7 +19,7 @@
 
 ![Label 1](img/new-labels-03-add.png)
 
-- Invalid characters will result in a field level error once the user changes focus away from the particular field. The error message should be explicit, stating the characters that will be accepted. 
+- Invalid characters will result in a field level error once the user changes focus away from the particular field. The error message should be explicit, stating the characters that will be accepted.
 
 ![Label 1](img/new-labels-03B-add.png)
 
@@ -36,11 +36,11 @@
 ![Label 1](img/new-labels-01-edit.png)
 
 - The same `Manage Labels` link will be used for editing existing labels.
-- Users can change a name or value as desired, as long as the name is not already associated with another value.
+- Users can change a name or value, as long as the name is not already associated with another value.
 
 #### Implementation Details
 - Values can be edited in this view, but only the current object will receive the label change. In order to bulk change labels for multiple items (Deployments in this case), users must go to the summary page and multi-select items.
-- If there are any restricted labels that users are unable to change, the entire row should be disabled.
+- In the future, if there are restricted labels that users are unable to change, the entire row should be disabled.
 
 ## Remove Labels
 ![Label 1](img/new-labels-01-delete.png)
@@ -55,8 +55,7 @@
 
 ![Label 1](img/new-labels-01-manage.png)
 
-- Summary lists are provided for each major section such as Deployments, Pods, Builds, Images, Storage, etc.
-- **Note:** In the future there may be cases or object types that require label actions to be hidden and labels placed in read-only mode.
+- Summary lists are provided for each major object type such as Deployments, Pods, Builds, Images, Storage, etc. **Note:** In the future there may be cases or object types that require label actions to be hidden and labels placed in read-only mode.
 - Currently users can filter those lists based on their applied labels, in order to narrow the results.
 - Filtering by label should remain, but checkboxes should be added to the left side of each row to allow for multi-select and bulk actions from the summary page.
 
