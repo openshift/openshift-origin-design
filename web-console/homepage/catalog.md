@@ -27,7 +27,7 @@
 
 ### Deploy Image,  Import YAML, and Select from Project
 - These three options are available to the far right of the  "Browse Catalog" row and displayed in white text.
-- Clicking either link will trigger the relevant [overlay panel actions](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel).
+- Clicking either link will trigger the relevant [overlay panel actions](http://openshift.github.io/openshift-origin-design/web-console/patterns/overlay-panel).
 - **Note:** When adding from the catalog through one of these methods, users are prompted to select which project to add to. This option does not appear when adding from the console
 
 #### Deploy Image

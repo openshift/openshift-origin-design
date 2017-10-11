@@ -15,7 +15,7 @@
 ![search](img/search-03.png)
 - Entering a search term brings up a list of the first five matches.
 - The matches display the catalog item icon, name and any relevant tags.
-	- Clicking on a match will trigger the order flow for that catalog item on the [overlay panel](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel).
+	- Clicking on a match will trigger the order flow for that catalog item on the [overlay panel](http://openshift.github.io/openshift-origin-design/web-console/patterns/overlay-panel).
 
 
 #### Implementation Details
@@ -32,7 +32,7 @@
 
 ## View All Results
 ![search](img/search-04.png)
-- Clicking on the `View All [n] Results for Keyword:[searchterm]` link scrolls the user down to the [catalog](http://openshift.github.io/openshift-origin-design/web-console/1-homepage/catalog) on the `All Categories` tab with an active "Keyword" filter for the search term.
+- Clicking on the `View All [n] Results for Keyword:[searchterm]` link scrolls the user down to the [catalog](http://openshift.github.io/openshift-origin-design/web-console/homepage/catalog) on the `All Categories` tab with an active "Keyword" filter for the search term.
 
 #### Implementation Details
 - All active filters are cleared when the main search box is used so that it always produces a "fresh" page of results.
