@@ -3,7 +3,7 @@
 # Binding in Context
 
 - Users may bind Provisioned Services to other applications in their project and vice versa.
-- The binding flow will use the [Overlay Panel Pattern](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/overlay-panel) and employ a similar wizard experience to the [ordering experience](http://openshift.github.io/openshift-origin-design/web-console/5-components/order-from-catalog).
+- The binding flow will use the [Overlay Panel Pattern](http://openshift.github.io/openshift-origin-design/web-console/patterns/overlay-panel) and employ a similar wizard experience to the [ordering experience](http://openshift.github.io/openshift-origin-design/web-console/patterns/order-from-catalog).
 
 
 
@@ -14,7 +14,7 @@
 - For provisioned services that do not have any bindings, there is a "Create binding" action in the collapsed state.
 - The "+ Create binding" action is always available for Provisioned Services in the expanded state.
 - A binding can also be initiated from a deployment config (or similar) in the expanded view IF that deployment is already bound to another service. The “Service Bindings” section does not appear in the overview if there are no bindings.
-- **Note:** Once a binding has been created it will show up on the overview and details pages for Deployments, Pods, Provisioned Services, etc. [View Binding Details](http://openshift.github.io/openshift-origin-design/web-console/5-components/binding-details) for info on how Bindings should be displayed.
+- **Note:** Once a binding has been created it will show up on the overview and details pages for Deployments, Pods, Provisioned Services, etc. [View Binding Details](http://openshift.github.io/openshift-origin-design/web-console/project-details/binding-details) for info on how Bindings should be displayed.
 
 
 ## Bind flow
@@ -66,7 +66,7 @@
 ![template](img/bind-parameters.png)
 - When binding from a service that takes bind parameters to an application, the wizard will display three steps: Binding, Parameters, Results.
 - When binding from an application, if the service selected in the Binding step takes parameters, an additional "Parameters" step is dynamically added to the wizard.
-- Parameters are shown similarly to the Configuration step of the [Ordering Experience](http://openshift.github.io/openshift-origin-design/web-console/5-components/order-from-catalog)
+- Parameters are shown similarly to the Configuration step of the [Ordering Experience](http://openshift.github.io/openshift-origin-design/web-console/patterns/order-from-catalog)
 - The primary action action for step 1 is "Next" and the primary action for step two is "Bind".
 - If the parameters are required, the "Bind" button is disabled until the required fields have been filled.
 - A secondary action "Back" is added but is only active on step 2.

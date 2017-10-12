@@ -32,7 +32,7 @@
 - A button labeled "Home Page Tour" should be displayed under the Getting Started heading. The button launches a quick tutorial to identify key sections of the interface. This button can be optionally hidden.
 - The guided tour will not auto-start by default, but on premise admins may wish to turn the auto-start option on configure so the tour automatically launches for first time users.
 - Users can manually start the guided tour by clicking the button on the right panel.
-- Once users have more than one project created, the guided tour button will be hidden from the right panel, but should still be accessible under the help menu in the [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead).
+- Once users have more than one project created, the guided tour button will be hidden from the right panel, but should still be accessible under the help menu in the [Masthead](http://openshift.github.io/openshift-origin-design/web-console/patterns/masthead).
 - Admin users can customize the guided tour by overwriting the title and description for any of the steps included.
 
 ![template](img/Tour-01.png)
@@ -74,7 +74,7 @@
 	- YouTube - https://www.youtube.com/user/rhopenshift
 	- Blog - https://blog.openshift.com
 - Resource links should be removed from the right panel at the same time the guided tour is removed (when more than one project exists).
-- Resources should be accessible from the help menu in the [Masthead](http://openshift.github.io/openshift-origin-design/web-console/4-patterns/masthead).
+- Resources should be accessible from the help menu in the [Masthead](http://openshift.github.io/openshift-origin-design/web-console/patterns/masthead).
 
 
 ### Recently Viewed

@@ -36,7 +36,7 @@
 - In the expanded view there may be three sections: Description, Plan, and Bindings.
 - The Description includes the service class description if one exists, as well as a link to documentation.
 - If a plan exists, the name of the plan should be listed in the expanded state of the overview below the documentation. If additional plan details/ features exist, they will only be shown on the details page.
-- The Bindings section includes a listing of any bindings as well as the option to create a binding. See [documentation for binding details](http://openshift.github.io/openshift-origin-design/web-console/5-components/binding-details).
+- The Bindings section includes a listing of any bindings as well as the option to create a binding. See [documentation for binding details](http://openshift.github.io/openshift-origin-design/web-console/project-details/binding-details).
 - Configuration details for individual bindings are not shown in this view, but should be available from the provisioned service details page.
 
 
@@ -50,7 +50,7 @@
 ![template](img/provisioned-service-kebab.png)
 - The kebab menu should include actions for Edit, Create Binding, Delete Binding, and Delete.
 - The "Edit" action will bring up the wizard for the provisioned service and allow a user to update Plan and Configuration information as desired.
-	- For **Implementation Details** on editing the plan or configuration, visit the [Provisioned Service Details](http://openshift.github.io/openshift-origin-design/web-console/3-project-details/provisioned-service-details) page, as the same edit functionality is available there. Additionally, the edit binding action is available on the details page.
+	- For **Implementation Details** on editing the plan or configuration, visit the [Provisioned Service Details](http://openshift.github.io/openshift-origin-design/web-console/project-details/provisioned-service-details) page, as the same edit functionality is available there. Additionally, the edit binding action is available on the details page.
 
 
 ## Unbindable Services
