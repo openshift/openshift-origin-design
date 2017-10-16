@@ -148,6 +148,16 @@ Automatically show this step if the service/image is bindable.
 
 ### 6 - Results Step
 
+See [Wizard Results documentation](https://github.com/openshift/openshift-origin-design/blob/master/web-console/5-components/wizard-results.md)
+
+#### Expanded Log Section
+![template](img/results-expanded-logs.png)
+
+
+
+
+
+
 #### Request has been submitted, and is in progress
 	** Missing mock **
 
