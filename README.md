@@ -7,6 +7,7 @@ Access documentation for specific sections by clicking on the links below
 	- [Notifications](http://openshift.github.io/openshift-origin-design/web-console/patterns/notifications)
 	- [Overlay Panel](http://openshift.github.io/openshift-origin-design/web-console/patterns/overlay-panel)
 	- [Order From Catalog](http://openshift.github.io/openshift-origin-design/web-console/patterns/order-from-catalog)
+	- [Wizard Results](http://openshift.github.io/openshift-origin-design/web-console/patterns/wizard-results)
 1. [Homepage](http://openshift.github.io/openshift-origin-design/web-console/homepage/homepage)
 	- [Catalog](http://openshift.github.io/openshift-origin-design/web-console/homepage/catalog)
 	- [SaaS Offerings](http://openshift.github.io/openshift-origin-design/web-console/homepage/offerings)
@@ -24,3 +25,4 @@ Access documentation for specific sections by clicking on the links below
 	- [Add to Application](http://openshift.github.io/openshift-origin-design/web-console/project-details/add-to-application)
 	- [Quota Warnings](http://openshift.github.io/openshift-origin-design/web-console/project-details/quota-warnings)
 	- [Labels](http://openshift.github.io/openshift-origin-design/web-console/project-details/labels)
+	- [Jobs](http://openshift.github.io/openshift-origin-design/web-console/project-details/jobs)
