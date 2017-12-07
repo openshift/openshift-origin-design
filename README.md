@@ -24,3 +24,4 @@ Access documentation for specific sections by clicking on the links below
 	- [Add to Application](http://openshift.github.io/openshift-origin-design/web-console/project-details/add-to-application)
 	- [Quota Warnings](http://openshift.github.io/openshift-origin-design/web-console/project-details/quota-warnings)
 	- [Labels](http://openshift.github.io/openshift-origin-design/web-console/project-details/labels)
+	- [In-project Catalog](http://openshift.github.io/openshift-origin-design/web-console/project-details/in-project-catalog)
