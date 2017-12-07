@@ -71,6 +71,7 @@ The PatternFly [Masthead](http://www.patternfly.org/pattern-library/application-
 - Clicking About will open a modal displaying relevant information for the user that is signed in.
 - The [About Modal](http://www.patternfly.org/pattern-library/communication/about-modal/) should follow PatternFly standards.
 - Both the upstream and downstream versions of the About modal will match the black masthead color and will include the corresponding logo in the bottom right corner.
+- **Note:** The top header should display the full product name, for example: OpenShift Origin, OpenShift Container Platform, or OpenShift Online. For the downstream versions, "Red Hat" would be added to the beginning of the product names.
 
 **Downstream Version:**
 ![down](img/Openshift-Downstream.png)
