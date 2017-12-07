@@ -26,3 +26,4 @@ Access documentation for specific sections by clicking on the links below
 	- [Quota Warnings](http://openshift.github.io/openshift-origin-design/web-console/project-details/quota-warnings)
 	- [Labels](http://openshift.github.io/openshift-origin-design/web-console/project-details/labels)
 	- [Jobs](http://openshift.github.io/openshift-origin-design/web-console/project-details/jobs)
+	- [In-project Catalog](http://openshift.github.io/openshift-origin-design/web-console/project-details/in-project-catalog)
