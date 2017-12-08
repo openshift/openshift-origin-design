@@ -2,7 +2,7 @@
 # In-project Catalog
 ![Catalog inside of a project](img/in-project-catalog.png)
 - Users with permission to add to a project will see a `Catalog` option in the main navigation.
-  - The Catalog menu should use `pficon-service-catalog`.
+  - The Catalog menu should use `fa-book`.
 - Selecting `Catalog` navigates the user to a catalog of services that may be added to the current project.
 - Users may also navigate to the Catalog via the `Browse Catalog` option in the [Add to Project](http://openshift.github.io/openshift-origin-design/web-console/project-details/add-to-project) dropdown menu.
 - The look and behavior of the catalog categories and sub-categories are identical to the [Catalog](http://openshift.github.io/openshift-origin-design/web-console/homepage/catalog#browse-catalog) on the [Landing Page](http://openshift.github.io/openshift-origin-design/web-console/homepage/homepage).  
