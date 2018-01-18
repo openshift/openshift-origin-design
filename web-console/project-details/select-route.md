@@ -9,12 +9,12 @@
 ## Design
 ![change route action](img/route-action.png)
 
-- For applications that have more than one route associated with them, an action link using `pficon-edit` appears to the right of the displayed route.
+- For applications that have more than one route associated with them, a pencil icon `pficon-edit` appears to the right of the displayed route.
 - On hover, a tooltip gives gives the user more information about the action, e.g. "Choose a different route to display for this application."
 
 ![change route dialog](img/route-dialog.png)
 
-- Clicking the "Change" action brings up a modal dialog with the instruction "Choose route to display for application [application-name]."
+- Clicking the pencil icon brings up a modal dialog with the instruction "Choose route to display for application [application-name]."
 - The URLs for routes associated with that application are enumerated and are selectable via radio button.
 - The radio button for the currently displayed route should be selected by default.
 - "Save" is the main action and "Cancel" is a secondary action.
