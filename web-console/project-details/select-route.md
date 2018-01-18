@@ -9,7 +9,7 @@
 ## Design
 ![change route action](img/route-action.png)
 
-- For applications that have more than one route associated with them, an action link "Change" appears to the right of the displayed route.
+- For applications that have more than one route associated with them, an action link using `pficon-edit` appears to the right of the displayed route.
 - On hover, a tooltip gives gives the user more information about the action, e.g. "Choose a different route to display for this application."
 
 ![change route dialog](img/route-dialog.png)
