@@ -27,3 +27,4 @@ Access documentation for specific sections by clicking on the links below
 	- [Labels](http://openshift.github.io/openshift-origin-design/web-console/project-details/labels)
 	- [Jobs](http://openshift.github.io/openshift-origin-design/web-console/project-details/jobs)
 	- [In-project Catalog](http://openshift.github.io/openshift-origin-design/web-console/project-details/in-project-catalog)
+	- [Select Route to Display](http://openshift.github.io/openshift-origin-design/web-console/project-details/select-route)
