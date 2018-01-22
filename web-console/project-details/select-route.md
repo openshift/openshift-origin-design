@@ -10,7 +10,11 @@
 ![change route action](img/route-action.png)
 
 - For applications that have more than one route associated with them, a pencil icon `pficon-edit` appears to the right of the displayed route.
-- On hover, a tooltip gives gives the user more information about the action, e.g. "Choose a different route to display for this application."
+
+![change route action hover](img/route-action-hover.png)
+
+- The icon should be color `#252525` by default and `#0088ce` on hover.
+- Also on hover, a tooltip gives gives the user more information about the action, e.g. "Choose a different route to display for this application."
 
 ![change route dialog](img/route-dialog.png)
 
