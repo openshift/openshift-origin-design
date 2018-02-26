@@ -4,7 +4,7 @@
 - What should the entry for capacity consumed be called? I'm using "Used" in these mocks, but should it be "Capacity Consumed"? Something else?
 - What would we want the thresholds for the donut chart to be? Are the defaults ok?
 - Will these storage metrics be tied to any events or warnings so that we can proactively inform users of any storage problems?
-- Is `--` how we want to show that data is not available? Should we add a tooltip to that as well?
+- Is `N/A` how we want to show that the metric doesn't exist? Should we add a tooltip to that as well?
 - Is the order of the fields ok for the PVC details page?
 
 ## Storage List Page
@@ -14,8 +14,7 @@
 - Add a column **Used** between the **Status** and **Capacity** columns.
 - The units should match between the **Used** and **Capacity** columns for easy comparison.
 - Because it's possible that not all storage classes will have the capacity consumed metric, field-level help should be used in the column header to explain why some rows may not have an entry in that column.
-- If that metric is not available for a PVC, two dashes `--` should appear in the **Used** column for that row.
-
+- If that metric is not available for a storage class, `N/A` should appear in the **Used** column for that row.
 
 
 ## Storage Details Page
@@ -56,7 +55,7 @@
 ![storage metrics on add storage pages](img/storage-metrics-on-add-storage.png)
 - A column should be added indicating the amount of capacity *available* for each claim, when the storage class supports the metric.
 - This may give a user some indication of which PVCs are being consumed by other applications.
-- Two dashes `--` should appear in that column if the metric is not available.
+- `N/A` should appear in that column if the metric is not available.
 - If none of the claims listed support the metric, that column should not appear.
 
 ## *Future* Warnings and Notifications
@@ -64,3 +63,4 @@
 - We should indicate those situations on the Storage list page as well as on details pages.
 - At the deployment level, we should warn users if storage claims their applications are consuming are nearing or at their storage capacity. Warnings should be visible on the Overview, deployments list and deployment details pages.
 - Warnings about storage usage should appear inline rather than in the notification drawer so that they are not missed.  
+- May be useful to have time-based metrics so that users will be able to predict when they might need to take action on their storage.
