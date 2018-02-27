@@ -4,7 +4,7 @@
 - What should the entry for capacity consumed be called? I'm using "Used" in these mocks, but should it be "Capacity Consumed"? Something else?
 - What would we want the thresholds for the donut chart to be? Are the defaults ok?
 - Will these storage metrics be tied to any events or warnings so that we can proactively inform users of any storage problems?
-- Is `N/A` how we want to show that the metric doesn't exist? Should we add a tooltip to that as well?
+- Is `NA` how we want to show that the metric doesn't exist? Should we add a tooltip to that as well?
 - Is the order of the fields ok for the PVC details page?
 
 ## Storage List Page
@@ -14,7 +14,7 @@
 - Add a column **Used** between the **Status** and **Capacity** columns.
 - The units should match between the **Used** and **Capacity** columns for easy comparison.
 - Because it's possible that not all storage classes will have the capacity consumed metric, field-level help should be used in the column header to explain why some rows may not have an entry in that column.
-- If that metric is not available for a storage class, `N/A` should appear in the **Used** column for that row.
+- If that metric is not available for a storage class, `NA` should appear in the **Used** column for that row.
 
 
 ## Storage Details Page
@@ -33,14 +33,9 @@
 - The label in the center of the donut should give the capacity used in the fomat "x of y GiB", with the x value in large type.
 - Hovering on either the used or unused sections of the chart should give the amount used or available (as the case may be) in a tooltip.
 
-#### Donut for an Unbound Claim
-![storage donut unbound claim](img/storage-donut-unbound.png)
-- If a storage class supports the capacity consumed metric, but the claim is unbound, an empty, unshaded donut should be used.
-- Because the size of the volume is unknown at this point, the text "Waiting for x GiB allocation" should be used, where x is the requested capacity.
-
 ### Mobile
 ![storage details mobile](img/storage-details-mobile.png)
-- The donut should appear about the other details at smaller viewport widths.
+- The donut should appear above the other details at smaller viewport widths.
 - This is similar to the behavior of RC pages.
 
 ## Deployment and Pod Pages
@@ -55,7 +50,7 @@
 ![storage metrics on add storage pages](img/storage-metrics-on-add-storage.png)
 - A column should be added indicating the amount of capacity *available* for each claim, when the storage class supports the metric.
 - This may give a user some indication of which PVCs are being consumed by other applications.
-- `N/A` should appear in that column if the metric is not available.
+- `NA` should appear in that column if the metric is not available.
 - If none of the claims listed support the metric, that column should not appear.
 
 ## *Future* Warnings and Notifications
