@@ -1,11 +1,9 @@
 # Storage usage Metrics
 
 ## Open Questions
-- What should the entry for capacity consumed be called? I'm using "Used" in these mocks, but should it be "Capacity Consumed"? Something else?
 - What would we want the thresholds for the donut chart to be? Are the defaults ok?
 - Will these storage metrics be tied to any events or warnings so that we can proactively inform users of any storage problems?
-- Is `NA` how we want to show that the metric doesn't exist? Should we add a tooltip to that as well?
-- Is the order of the fields ok for the PVC details page?
+- Is `NA` indeed how we want to show that the metric doesn't exist? Should we add a tooltip to that as well?
 
 ## Storage List Page
 
@@ -19,18 +17,20 @@
 
 ## Storage Details Page
 ![storage details](img/storage-details.png)
-- When the capacity consumed metric is available for a PVC, a utilization donut chart is added to the details page to show the capacity consumed.
+- When the capacity consumed metric is available for a PVC, a utilization donut chart is added to the details page to show the capacity consumed, with a label indicating the available storage capacity.
 - A **Used** entry should appear in the details list and the units should match the units for **Capacity**.
 - If the PVC has a storage class, that should be shown on the details page regardless whether metrics are available or not.
+- *FUTURE* May be useful to have time-based view of storage consumption so that users will be able to predict when they might need to take action on their storage.
 
 
 #### Storage Donut Chart
 - Use [PatternFly Donut Chart](http://www.patternfly.org/pattern-library/data-visualization/donut-chart/#design).
+- The colored portion of the chart should show the amount of storage **used**.
 - The chart should be color coded according to thresholds. The default thresholds are:
   - Green (`#3f9c35`) if < 75%
   - Gold (`#ec7a08`) between 75-89%
   - Red (`#cc0000`) >= 90%
-- The label in the center of the donut should give the capacity used in the fomat "x of y GiB", with the x value in large type.
+- The label in the center of the donut should give the capacity **available** in the format "x GiB Available", with the x value in large type.
 - Hovering on either the used or unused sections of the chart should give the amount used or available (as the case may be) in a tooltip.
 
 ### Mobile
@@ -53,9 +53,8 @@
 - `NA` should appear in that column if the metric is not available.
 - If none of the claims listed support the metric, that column should not appear.
 
-## *Future* Warnings and Notifications
+## *FUTURE* Warnings and Notifications
 - We should be able to proactively warn users when they are nearing their storage capacity.
 - We should indicate those situations on the Storage list page as well as on details pages.
 - At the deployment level, we should warn users if storage claims their applications are consuming are nearing or at their storage capacity. Warnings should be visible on the Overview, deployments list and deployment details pages.
 - Warnings about storage usage should appear inline rather than in the notification drawer so that they are not missed.  
-- May be useful to have time-based metrics so that users will be able to predict when they might need to take action on their storage.
