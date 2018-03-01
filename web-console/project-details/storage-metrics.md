@@ -31,7 +31,7 @@
   - Gold (`#ec7a08`) between 75-89%
   - Red (`#cc0000`) >= 90%
 - The label in the center of the donut should give the capacity **available** in the format "x GiB Available", with the x value in large type.
-- Hovering on either the used or unused sections of the chart should give the amount used or available (as the case may be) in a tooltip.
+- Hovering on either the used or unused sections of the chart should give the amount used or available (as the case may be) in a tooltip. For example, "x of y GiB used."
 
 ### Mobile
 ![storage details mobile](img/storage-details-mobile.png)
