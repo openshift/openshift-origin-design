@@ -12,5 +12,4 @@
   - Manage and take action on VMs in my project
 
 ## Design
-- The following Invision prototype includes designs and flows for the use cases described above.
-- https://redhat.invisionapp.com/share/XJG2HURDMEF
+- [The Invision prototype linked here includes designs and flows for the use cases described above.](https://redhat.invisionapp.com/share/XJG2HURDMEF)
