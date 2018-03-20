@@ -23,7 +23,6 @@
 	1. Display name
 	2. Tag
 	3. Description (short and long)
-	4. The category/subcategory to which the item belongs.
 - The five results shown underneath the search bar should be weighted to show the most relevant results first.
 - No results will be highlighted until the up or down arrow key is pressed.
 - Pressing the `Enter` key while no results are selected will trigger the `View all results` action (see below for details)
