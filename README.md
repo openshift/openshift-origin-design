@@ -28,6 +28,7 @@ Access documentation for specific sections by clicking on the links below
 	- [Jobs](http://openshift.github.io/openshift-origin-design/web-console/project-details/jobs)
 	- [In-project Catalog](http://openshift.github.io/openshift-origin-design/web-console/project-details/in-project-catalog)
 	- [Select Route to Display](http://openshift.github.io/openshift-origin-design/web-console/project-details/select-route)
+	- [Membership](http://openshift.github.io/openshift-origin-design/web-console/project-details/membership)
 	- [Edit YAML](http://openshift.github.io/openshift-origin-design/web-console/project-details/edit-yaml)
 1. Conceptual Designs
 	- [Mobile Integration](http://openshift.github.io/openshift-origin-design/web-console/conceptual-designs/mobile)
