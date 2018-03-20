@@ -32,3 +32,4 @@ Access documentation for specific sections by clicking on the links below
 1. Conceptual Designs
 	- [Mobile Integration](http://openshift.github.io/openshift-origin-design/web-console/conceptual-designs/mobile)
 	- [CNV Integration](http://openshift.github.io/openshift-origin-design/web-console/conceptual-designs/cnv)
+	- [Create Pull Secret](http://openshift.github.io/openshift-origin-design/web-console/conceptual-designs/pull-secret)
