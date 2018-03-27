@@ -29,16 +29,31 @@
 - It would be good to inform users upfront which application(s) would be affected by this change.
 - Should we allow users to snapshot or otherwise backup their data before expanding? Or provide some
 
+![cns expand create backup](https://redhat.invisionapp.com/static-signed/live-embed/126032072/287699481/1/latest/RlEYLUL7Vl8jRRzlEYnoAlEW42hm1bPlEzJCeED5KuvlE2RXpjb3lE9GJnYrfAdvMqfE1vIXOabxjVguyToSlqEHt0FAlE/CNS-expand-1.manual.png)
+- If we cannot create a snapshot, we should provide instructions on how to manually create a backup.
+- Better: Create the correct `oc rsync` command that the user can copy.
+- Even better: Allow the user to create the backup through the UI so thy don't have to go to the CLI.
+
 ![cns expand 2](https://redhat.invisionapp.com/static-signed/live-embed/126032072/287441525/1/latest/IRhWBlE2JcV4KlETUJZfVIMQuhevzZL5qHWrizjILDVspCteNHCf3T0jHVKWZG03UGZJwSL0PqAeuvbOvfIOzdZAlE/CNS-expand-2.png)
-![cns expand 3](https://redhat.invisionapp.com/static-signed/live-embed/126032072/287441526/1/latest/E0taFDXGur437WDjLztAWh8App87buCYislhp1vkAgQQOVt8I8EbTzY8klzG7lykdYMOZTMEvOW40vasDMLXIQlE/CNS-expand-3.png)
+![cns expand and snapshot](https://redhat.invisionapp.com/static-signed/live-embed/126032072/287699483/1/latest/3dEgicWCslEpUlEw66ZsmcmECFa871tHOCpOfsRwdq6rpos9JAB20i60rHGkhlIZRYVqwTCEMXDlET9NQMZCyuAbAlE/CNS-expand-3.snapshot.png)
+
+
+#### Expand fails
+![cns expand fails](https://redhat.invisionapp.com/static-signed/live-embed/126032072/287699482/1/latest/yaBfus0voKglE7KFlEf8oZi1WMjNhQUf8RbOcuk6cJ3Ngw3mUYNdZmqqb6OdvwSkZK639O3RClEnntLHWiqc0WATwlE/CNS-expand-3.restore.png)
+
+- If expansion fails, users should be given the information they need to restore from a backup/snapshot created on Step 1.
+- Ideally there would be an action that helps them restore.
+- At the least we should give them the appropriate instructions.
 
 ### Other Providers
 - For providers other than CNS, pods that have the PVC mounted will need to be deleted and recreated.
 
 ![generic expand 1](https://redhat.invisionapp.com/static-signed/live-embed/126032072/287441527/1/latest/s13xgbaQjIvma5GvEzMfy9QQ3LvsMFheCD111o1HxKZ86oqEqtDsrfm07LE4lne9hK9HlvhZj75TJU1SzdKQvglE/Generic-expand-1.png)
 ![generic expand 2](https://redhat.invisionapp.com/static-signed/live-embed/126032072/287441528/1/latest/04z5JJCo979USgyYyq9xxGjtWzPKDko7ZeIheAzHTMn9HcqMCnSlE7Kr53CbInFrLty9z0tr59rYJzoEMDRxbGglE/Generic-expand-2.png)
+
 - Could we use generic triggers to recreate pods automatically, if a user chose to do so?
 
 ![generic expand 3](https://redhat.invisionapp.com/static-signed/live-embed/126032072/287441529/1/latest/xDkE2iFPwAotorblEqlExpLrlEwvI6DyZoxCVYrahkG8IM1TlEuIjcsO0GpgepctgHsPOPLjfkx5DSmMHrFoPNVe0wlE/Generic-expand-3.png)
+
 - We should communicate at this point which applications will require new pods.
 - Would we want to give users the option to take that action from this screen?
