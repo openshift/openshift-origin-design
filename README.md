@@ -29,6 +29,7 @@ Access documentation for specific sections by clicking on the links below
 	- [In-project Catalog](http://openshift.github.io/openshift-origin-design/web-console/project-details/in-project-catalog)
 	- [Select Route to Display](http://openshift.github.io/openshift-origin-design/web-console/project-details/select-route)
 	- [Edit YAML](http://openshift.github.io/openshift-origin-design/web-console/project-details/edit-yaml)
+	- [Storage Metrics](http://openshift.github.io/openshift-origin-design/web-console/project-details/storage-metrics)
 1. Conceptual Designs
 	- [Mobile Integration](http://openshift.github.io/openshift-origin-design/web-console/conceptual-designs/mobile)
 	- [CNV Integration](http://openshift.github.io/openshift-origin-design/web-console/conceptual-designs/cnv)
