@@ -11,6 +11,8 @@
 - The units should match between the **Used** and **Capacity** columns for easy comparison.
 - Because it's possible that not all storage classes will have the capacity consumed metric, field-level help should be used in the column header to explain why some rows may not have an entry in that column.
 - If that metric is not available for a storage class, `--` should appear in the **Used** column for that row.
+- If the metric exists for a storage class, but the data is temporarily unavailable, `N/A` should be used in the table.
+- In either of the preceding scenarios (`--` and `N/A`) a tooltip should explain why those data are not available.
 
 
 ## Storage Details Page
