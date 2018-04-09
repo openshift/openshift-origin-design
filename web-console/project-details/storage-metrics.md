@@ -1,9 +1,7 @@
 # Storage usage Metrics
 
 ## Open Questions
-- What would we want the thresholds for the donut chart to be? Are the defaults ok?
 - Will these storage metrics be tied to any events or warnings so that we can proactively inform users of any storage problems?
-- Is `NA` indeed how we want to show that the metric doesn't exist? Should we add a tooltip to that as well?
 
 ## Storage List Page
 
@@ -12,7 +10,7 @@
 - Add a column **Used** between the **Status** and **Capacity** columns.
 - The units should match between the **Used** and **Capacity** columns for easy comparison.
 - Because it's possible that not all storage classes will have the capacity consumed metric, field-level help should be used in the column header to explain why some rows may not have an entry in that column.
-- If that metric is not available for a storage class, `NA` should appear in the **Used** column for that row.
+- If that metric is not available for a storage class, `--` should appear in the **Used** column for that row.
 
 
 ## Storage Details Page
