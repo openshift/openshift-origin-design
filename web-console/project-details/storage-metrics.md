@@ -1,6 +1,7 @@
 # Storage usage Metrics
 
 ## Open Questions
+- Will we actually be able to know the reason the metric is not shown in the PVC list? I.e. would we be able to discern whether the metric exists but the data are just unavailable versus the metric does not exist for a given provider?
 - Will these storage metrics be tied to any events or warnings so that we can proactively inform users of any storage problems?
 
 ## Storage List Page
@@ -15,6 +16,7 @@
 - In either of the preceding scenarios (`--` and `N/A`) a tooltip should explain why those data are not available.
 
 
+
 ## Storage Details Page
 ![storage details](img/storage-details.png)
 - When the capacity consumed metric is available for a PVC, a utilization donut chart is added to the details page to show the capacity consumed, with a label indicating the available storage capacity.
@@ -27,8 +29,8 @@
 - Use [PatternFly Donut Chart](http://www.patternfly.org/pattern-library/data-visualization/donut-chart/#design).
 - The colored portion of the chart should show the amount of storage **used**.
 - The chart should be color coded according to thresholds. The default thresholds are:
-  - Green (`#3f9c35`) if < 75%
-  - Gold (`#ec7a08`) between 75-89%
+  - Green (`#3f9c35`) if < 80%
+  - Gold (`#ec7a08`) between 80-89%
   - Red (`#cc0000`) >= 90%
 - The label in the center of the donut should give the capacity **available** in the format "x GiB Available", with the x value in large type.
 - Hovering on either the used or unused sections of the chart should give the amount used or available (as the case may be) in a tooltip. For example, "x of y GiB used."
