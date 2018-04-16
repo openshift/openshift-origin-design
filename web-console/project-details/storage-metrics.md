@@ -29,9 +29,9 @@
 - Use [PatternFly Donut Chart](http://www.patternfly.org/pattern-library/data-visualization/donut-chart/#design).
 - The colored portion of the chart should show the amount of storage **used**.
 - The chart should be color coded according to thresholds. The default thresholds are:
-  - Green (`#3f9c35`) if < 80%
-  - Gold (`#ec7a08`) between 80-89%
-  - Red (`#cc0000`) >= 90%
+  - Green (`pf-green-400` `#3f9c35`)if < 80%
+  - Orange (`pf-orange-400` `#ec7a08`) between 80-89%
+  - Red (`pf-red-100` `#cc0000`) >= 90%
 - The label in the center of the donut should give the capacity **available** in the format "x GiB Available", with the x value in large type.
 - Hovering on either the used or unused sections of the chart should give the amount used or available (as the case may be) in a tooltip. For example, "x of y GiB used."
 
@@ -52,7 +52,7 @@
 ![storage metrics on add storage pages](img/storage-metrics-on-add-storage.png)
 - A column should be added indicating the amount of capacity *available* for each claim, when the storage class supports the metric.
 - This may give a user some indication of which PVCs are being consumed by other applications.
-- `NA` should appear in that column if the metric is not available.
+- `N/A` should appear in that column if the metric is not available.
 - If none of the claims listed support the metric, that column should not appear.
 
 ## *FUTURE* Warnings and Notifications
