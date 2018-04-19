@@ -5,9 +5,9 @@
   - This includes object types such as Deployments, Services, Pods, Stateful Sets, Routes, Builds, Pipelines, Images, Config Maps, Secrets, Storage, and any others which are visible with the Edit YAML action.
 - The `Edit YAML` option can be removed from the actions menu.
 - Users can navigate to the YAML tab to edit contents directly in the editor.
-- Save and Revert buttons should be added to the bottom left of the page below the editor.
-  - Save should be on the left with Revert on the right.
-  - Revert should be disabled until changes are made and it becomes active as an option to cancel the changes.
+- Save and Reload buttons should be added to the bottom left of the page below the editor.
+  - Save should be on the left with Reload on the right.
+  - Reload should be disabled until changes are made and it becomes active as an option to cancel the changes and refresh the code back to where it started.
   - Save should be disabled until changes are made and it becomes as a primary action.
 ![yaml-1](https://redhat.invisionapp.com/static-signed/live-embed/123952085/282671561/3/latest/8HhvHg6llE9eyB6Mfb6QL24zcUpr7SNQ8FwdqP9l9e3OwvVa9eEULr9IkwT5RikPA2Er0zCwNMzlEkUtyEJy9pXQlE/Embedded-YAML-02A.png)
 
