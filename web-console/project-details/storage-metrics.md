@@ -1,9 +1,8 @@
 # Storage usage Metrics
 
 ## Open Questions
-- What would we want the thresholds for the donut chart to be? Are the defaults ok?
+- Will we actually be able to know the reason the metric is not shown in the PVC list? I.e. would we be able to discern whether the metric exists but the data are just unavailable versus the metric does not exist for a given provider?
 - Will these storage metrics be tied to any events or warnings so that we can proactively inform users of any storage problems?
-- Is `NA` indeed how we want to show that the metric doesn't exist? Should we add a tooltip to that as well?
 
 ## Storage List Page
 
@@ -12,7 +11,10 @@
 - Add a column **Used** between the **Status** and **Capacity** columns.
 - The units should match between the **Used** and **Capacity** columns for easy comparison.
 - Because it's possible that not all storage classes will have the capacity consumed metric, field-level help should be used in the column header to explain why some rows may not have an entry in that column.
-- If that metric is not available for a storage class, `NA` should appear in the **Used** column for that row.
+- If that metric is not available for a storage class, `--` should appear in the **Used** column for that row.
+- If the metric exists for a storage class, but the data is temporarily unavailable, `N/A` should be used in the table.
+- In either of the preceding scenarios (`--` and `N/A`) a tooltip should explain why those data are not available.
+
 
 
 ## Storage Details Page
@@ -27,9 +29,9 @@
 - Use [PatternFly Donut Chart](http://www.patternfly.org/pattern-library/data-visualization/donut-chart/#design).
 - The colored portion of the chart should show the amount of storage **used**.
 - The chart should be color coded according to thresholds. The default thresholds are:
-  - Green (`#3f9c35`) if < 75%
-  - Gold (`#ec7a08`) between 75-89%
-  - Red (`#cc0000`) >= 90%
+  - Green (`pf-green-400` `#3f9c35`)if < 80%
+  - Orange (`pf-orange-400` `#ec7a08`) between 80-89%
+  - Red (`pf-red-100` `#cc0000`) >= 90%
 - The label in the center of the donut should give the capacity **available** in the format "x GiB Available", with the x value in large type.
 - Hovering on either the used or unused sections of the chart should give the amount used or available (as the case may be) in a tooltip. For example, "x of y GiB used."
 
@@ -50,7 +52,7 @@
 ![storage metrics on add storage pages](img/storage-metrics-on-add-storage.png)
 - A column should be added indicating the amount of capacity *available* for each claim, when the storage class supports the metric.
 - This may give a user some indication of which PVCs are being consumed by other applications.
-- `NA` should appear in that column if the metric is not available.
+- `N/A` should appear in that column if the metric is not available.
 - If none of the claims listed support the metric, that column should not appear.
 
 ## *FUTURE* Warnings and Notifications
