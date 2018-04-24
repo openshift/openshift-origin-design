@@ -31,6 +31,10 @@ Access documentation for specific sections by clicking on the links below
 	- [Membership](http://openshift.github.io/openshift-origin-design/web-console/project-details/membership)
 	- [Edit YAML](http://openshift.github.io/openshift-origin-design/web-console/project-details/edit-yaml)
 	- [Storage Metrics](http://openshift.github.io/openshift-origin-design/web-console/project-details/storage-metrics)
+<<<<<<< HEAD
+	- [PVC Expand](http://openshift.github.io/openshift-origin-design/web-console/project-details/pvc-expand)
+=======
+>>>>>>> e1f9d1095a4c77065ddfbf2d1ac9d89ff5b3ecd6
 1. Conceptual Designs
 	- [Mobile Integration](http://openshift.github.io/openshift-origin-design/web-console/conceptual-designs/mobile)
 	- [CNV Integration](http://openshift.github.io/openshift-origin-design/web-console/conceptual-designs/cnv)
