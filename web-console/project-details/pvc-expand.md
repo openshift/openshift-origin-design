@@ -3,6 +3,7 @@
 ## Design
 ![expand pvc action](img/expand-pvc-action.png)
 - "Expand PVC" should appear in the `Actions` menu of the details page for PVCs that support expansion.
+- The "Expand PVC" action should **not** appear if expansion is not supported by the PVC's Storage Class.
 - Clicking the Expand PVC brings up a modal where the user can enter the desired PVC capacity.
 
 ### CNS Modal
@@ -34,6 +35,7 @@
 
 ![failure toast](img/expand-fail-toast.png)
 - If the expansion fails for some reason, it would be nice to be able to provide users with an easy-to-understand error message.
+- The failure event should also be added to the notification drawer.
 
 ## Experience Gaps
 - The fact that we cannot know what applications are consuming a given PVC is a gap in terms of the UX.
