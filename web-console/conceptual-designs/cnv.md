@@ -11,5 +11,7 @@
   - View VM specific details in OpenShift
   - Manage and take action on VMs in my project
 
-## Design
-- [The Invision prototype linked here includes designs and flows for the use cases described above.](https://redhat.invisionapp.com/share/XJG2HURDMEF)
+## Designs
+- [Enable KubeVirt](https://redhat.invisionapp.com/share/6AFQRI8K97S#/278079714_00)
+- [Create Virtual Machines](https://redhat.invisionapp.com/share/6AFQRI8K97S#/278078802_03)
+- [View and Manage Virtual Machines](https://redhat.invisionapp.com/share/PMK52XGFNQH#/300665462_No-Migration_Copy)
