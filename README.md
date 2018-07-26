@@ -1,9 +1,9 @@
 ## OpenShift 4.0 Designs
 Access documentation for specific sections by clicking on the links below
 - [Displaying Status](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/status)
-- [Code Editors](http://openshift.github.io/openshift-origin-design/web-cosnsole/4.0-designs/code-editors)
-- [Actions](http://openshift.github.io/openshift-origin-design/web-cosnsole/4.0-designs/actions)
-- [Labels](http://openshift.github.io/openshift-origin-design/web-cosnsole/4.0-designs/labels)
+- [Code Editors](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/code-editors)
+- [Actions](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/actions)
+- [Labels](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/labels)
 
 
 
