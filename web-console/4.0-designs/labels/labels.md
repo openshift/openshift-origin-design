@@ -36,7 +36,7 @@
 - Summary pages should have the ability to add bulk actions with an actions dropdown in the toolbar
 - Each row should have checkboxes on the left for bulk editing
 
-![pic 6](img/summary 2.png)
+![pic 6](img/summary-2.png)
 
 - When bulk editing, the edit modal will note the number of resources selected, with a summary of all labels associated with each selected resource below the edit area.
 - Users will only be able to bulk edit the labels shared by all selections.
