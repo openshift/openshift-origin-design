@@ -39,5 +39,5 @@
 
 ![Form Actions 2](img/7.png)
 
-* Actions beneath the tabs such as form actions should follow Patternfly guidelines (styled as a link with an associated icon to the left).
-* A line separator should be used to separate form actions.
+* Actions beneath the tabs such as form actions should follow PatternFly guidelines (styled as a link with an associated icon to the left).
+* A vertical separator should be used to separate form actions.
