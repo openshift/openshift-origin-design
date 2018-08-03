@@ -11,7 +11,6 @@
 * Actions dropdowns should be in the top right corner of the page, in line with the page title.
 * No icon should be used on the dropdown title.
 * Action items in the dropdown should not have ellipses at the end.
-* Page tabs should not appear as actions in the dropdown.
 * If there is a primary action, that action can be pulled out of the actions dropdown and displayed as a button to the left of the dropdown.
 
 
