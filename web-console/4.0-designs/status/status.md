@@ -11,6 +11,7 @@ Details Page
 Status can be displayed in a number of ways depending on the use case and page content. When displaying status in the console, use the following design recommendations regarding the visual treatment.
 
 Example Statuses
+
 ![status](img/status.png)
 
 #### Icons
