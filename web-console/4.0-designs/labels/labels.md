@@ -3,14 +3,14 @@
 ## Styles
 ![pic 0](img/styles.png)
 
-- Label text should match standard link text color, with the light grey background to differentiate from other links
+- Label text should match link text color (#0088CE), with a light grey background (#F5F5F5) to differentiate from other links. The grey border around the shape should be a darker grey (#EDEDED).
 - Label text color will not be matched to the corresponding resource badge color. All label colors will be the same across resource objects
-- All pod selectors will be standard black font and the same across resource objects
+- All pod selectors will also be standard blue link (#0088CE) font, but without a background.
 - Editing labels will be done in paragraph form, using the equal sign between the key and value. When editing, each label will also have an x to delete individual labels as needed.
 
 ## Detail Pages
 - Every resource detail page should include a section for “LABELS” just below name and namespace sections
-- Clicking a label will jump to a filtered view of the New 'All Resources' Page
+- Clicking a label will jump to a filtered view of the Search Page
 
 ![pic 1](img/Details-1.png)
 
@@ -30,23 +30,7 @@
 
 - **Open Question:** Are there specific resources where we should hide the Labels column? Is it not needed in some cases?
 
-![pic 5](img/summary.png)
+![pic 5](img/summary-expand.png)
 
 - Each row should have kebabs on the right for individual edits
-- Summary pages should have the ability to add bulk actions with an actions dropdown in the toolbar
-- Each row should have checkboxes on the left for bulk editing
-
-![pic 6](img/summary-2.png)
-
-- When bulk editing, the edit modal will note the number of resources selected, with a summary of all labels associated with each selected resource below the edit area.
-- Users will only be able to bulk edit the labels shared by all selections.
-
-## New 'All Resources' Page
-![pic 7](img/NEW-all-resources.png)
-
-- Rename the current “Search” page to "Search All Resources”
-- Add an ‘All Types’ option to the resource dropdown similar to events page
-- Each row should have a checkbox on the left for bulk edits across different resource types. An Actions dropdown should be added in the top right with all available bulk actions listed. (Delete, Edit Labels, etc)
-- Each row should have a kebab on the right for individual edits
-
-- **Open Question:** Should “All Types” be the default or is there a performance concern/ time to load?
+- List row heights should not exceed two lines of data, so Labels should be collapsed where needed, allowing users to expand to see remaining labels that are not visible by default.
