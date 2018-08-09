@@ -5,11 +5,12 @@
 ![pic 1](img/1.png)
 
 - The code area is borderless at the top and has the button bar at the bottom as a separator.
-- The Edit action can be removed from the Actions dropdown on every detail page. Users can access the tab as needed.
-- The Download and Expand links are sticky in the top right corner of the YAML editor, with a vertical separator between them. The icons belong to the left of each link.
-- Download will produce a YAML output for the user to view outside of OpenShift.
-- Expand will allow a user to view the code in fullscreen mode.
+- The Download, Expand, and View Samples links are sticky in the top right corner of the YAML editor, with vertical separators between them. The icons belong to the left of each link.
+  - Download will produce a YAML output for the user to view outside of OpenShift.
+  - Expand will allow a user to view the code in fullscreen mode.
+  - View Samples will open a panel for resources that have available templates.
 
+#### Expanded State
 ![pic 2](img/2.png)
 
 - When the editor is expanded, it takes up the entire screen, covering the console entirely (including navigation and masthead).
@@ -17,14 +18,11 @@
 - A new tab is not opened for the expanded view.
 - A collapse icon and link will be sticky in the top right corner of the expanded view for users to exit full-screen mode.
 
-![pic 2b](img/2b.png)
-
-- Some resources have additional YAML samples available for users to paste or download.
-- These samples will be accessible via a third link, "View Samples."
-- View Samples should use the help icon and should always be to the right of the Expand link.
-
+#### View Samples
 ![pic 2c](img/2c.png)
 
+- Some resources have additional YAML samples available for users to paste or download.
+- View Samples should use the help icon and should always be to the right of the Expand link.
 - Clicking the link will open a [modaless overlay](https://www.patternfly.org/pattern-library/forms-and-controls/modeless-overlay/) with the YAML samples provided. Users can close the panel using the X in the top right corner.
 
 
@@ -36,7 +34,7 @@
 ![pic 4](img/4.png)
 
 - If errors exist, an inline notification will appear below the editor summarizing the number of errors. Users can click the Show Details link to view all error details in one place.
-- The action bar is sticky at the bottom of the page and actions include Save, Reload, and Cancel.
+- The button bar is sticky at the bottom of the page and actions include Save, Reload, and Cancel.
 - The Save button is disabled if changes have not been made or if there are still errors to resolve.
 - The Reload button allows users to reload the code in the event that there was a change in the backend or they made a change that they would like to undo.
 - The Cancel button does not save changes and brings users back to the page they were on prior to the edit page.
@@ -59,5 +57,5 @@
 - Users are presented with a preloaded YAML sample with which they can create their object (primary way to create new).
 - Users may alternatively choose to browse their file directory and upload a file with which they can create their object (secondary way to create new). This would replace the original template contents.
 - The expand link and functionality is available on the create page.
-- The bottom button bar is sticky and actions are Create and Cancel. Both buttons are enabled unless there are errors detected, then create is hidden.
+- The bottom button bar is sticky and actions are Create and Cancel. Both buttons are enabled unless there are errors detected, then create is disabled.
 - Error handling is the same for both Create YAML and Edit YAML. See error handling above.
