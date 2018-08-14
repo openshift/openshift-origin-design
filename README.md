@@ -4,6 +4,7 @@ Access documentation for specific sections by clicking on the links below
 - [Code Editors](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/code-editors/code-editors)
 - [Actions](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/actions/actions)
 - [Labels](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/labels/labels)
+- [Empty States](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/empty-states/empty-states)
 
 
 
