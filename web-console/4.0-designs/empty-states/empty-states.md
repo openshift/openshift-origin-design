@@ -17,6 +17,7 @@
   * Exception: external links and “Clear All Filters” should be links rather than buttons, and pages where users have restricted access do not require a CTA
 * The empty state content should generally describe to the user why the page is empty and what they can do to populate the page
   * Empty state descriptions on object pages where nothing has been created yet should include information on what the object is and how it is useful to the user
+  * Exception: the filter empty state description is optional depending on the type or number of applied filters
 
 
 A feature is not installed
