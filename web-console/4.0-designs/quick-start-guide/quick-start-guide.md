@@ -4,7 +4,10 @@
 * The quick start guide will be displayed on the overview page.
 * Users can dismiss the guide by using the dismiss button in the top right corner of the guide.
   * If a user dismisses the guide, it will no longer show up on subsequent page loads.
-  * Users can access the quick start guide again by using the Quick Start Guide link under Additional Support.
+  * Users can access the quick start guide again by using the Quick Start Guide link under Additional Support on the overview page, or by accessing it from the help menu on any page.
+
+![help](img/HelpMenu.png)
+
 * The quick start guide will be displayed in a horizontal layout by default, but can be displayed in a vertical layout in a responsive view.
 * The quick start guide content should be divided into appropriate sections.
   * Separate each section with vertical keylines.
