@@ -6,6 +6,7 @@
   * When a page is empty because nothing has been created yet
   * When a page is empty because an applied filter results in a null set
   * When a page is empty because the user does not have access to any resources
+  * When a page is empty because the user does not have the correct project selection
 
 ## Design
 * The empty state pattern should be beneath the toolbar
@@ -31,3 +32,7 @@ An applied filter results in a null set
 
 The user does not have access to any resources
 ![access](img/ES_access.png)
+
+The user does not have the correct project selection
+![access](img/ES_overview.png)
+**Note**: Clicking the "Select a Project" button will open the project selector dropdown.
