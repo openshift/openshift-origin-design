@@ -24,13 +24,13 @@
 ![pic 3](img/Details-3.png)
 
 ## Summary Pages
-- Every summary page should allow filter by name or label
-- Every summary page should include a column titled “LABELS”
-- Currently most pages do include labels, but this column would need to be added to PVCs, Stateful Sets, Cron Jobs, Config Maps, Secrets, etc.
+- For now, the labels column should be hidden from the summary pages.
+- Each row should have kebabs on the right with the "Edit Labels" action present in the dropdown.
 
-- **Open Question:** Are there specific resources where we should hide the Labels column? Is it not needed in some cases?
 
-![pic 5](img/summary-expand.png)
+## Future Considerations
+- The "Labels" column could be added to summary pages across the board or as needed for specific resource types.
+- Filtering by label may be added to summary pages to enhance the current filter by name.
+- To save vertical space, a max of 2 labels could be shown, with a "more" popover to display the remaining labels for a row.
 
-- Each row should have kebabs on the right for individual edits
-- List row heights should not exceed two lines of data, so Labels should be collapsed where needed, allowing users to expand to see remaining labels that are not visible by default.
+![pic 5](img/summary-expand-4.png)
