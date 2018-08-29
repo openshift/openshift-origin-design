@@ -5,6 +5,7 @@ Access documentation for specific sections by clicking on the links below
 - [Actions](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/actions/actions)
 - [Labels](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/labels/labels)
 - [Navigation](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/navigation/navigation)
+- [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/quick-start-guide/quick-start-guide)
 
 
 
