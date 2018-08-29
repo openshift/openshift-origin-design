@@ -33,4 +33,4 @@
 - Filtering by label may be added to summary pages to enhance the current filter by name.
 - To save vertical space, a max of 2 labels could be shown, with a "more" popover to display the remaining labels for a row.
 
-![pic 5](img/summary-expand-4.png)
+![pic 5](img/expand-4.png)
