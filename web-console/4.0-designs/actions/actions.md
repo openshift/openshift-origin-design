@@ -1,5 +1,20 @@
 # Actions
 
+## Actions dropdown
+There is a single strategy for the order of actions in a Summary and Details view dropdown. Follow the below guidelines:
+
+* Primary Action(s)
+* Edit (if form exists, then go to YAML)
+* ––––––––––
+* Object actions (alphabetically)
+* Edit Labels
+* Edit Annotations
+* ––––––––––
+* Delete Object
+
+**Note**: Use a horizontal separator between sections of the dropdown.
+
+
 ## Design
 
 **Detail Page Actions**
