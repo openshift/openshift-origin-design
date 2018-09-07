@@ -50,3 +50,11 @@
 **Dropping**
 
 ![Summary Page Actions 1](img/EV-4.png)
+
+
+### Read-only Variables
+
+![Summary Page Actions 1](img/EV-2-readonly-2.png)
+- For resources with environment variables that cannot be edited from the Environment tab, all fields will be in the disabled state where users can view only.
+- When this occurs, an inline notification should be placed at the top of the page, informing the user that these variables can only be edited via the resource owner. A link to the owner should be provided.
+- The field level help icons should be hidden for this case.
