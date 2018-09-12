@@ -4,13 +4,13 @@ A Create from YAML button will be added to the project selector bar, making it a
 
 
 **Create from YAML button**
-![button](img/YAML-button.png)
+![button](img/YAML-Button.png)
 
 * The Create from YAML button will be in the project selector bar
 * The Create from YAML button opens the embedded YAML editor
 
 **Create page**
-![create](img/YAML-create.png)
+![create](img/YAML-Create.png)
 
 * Users can create resources using YAML or JSON by dragging and dropping a file, pasting in code, or browsing their directory to upload
 * The button bar allows users to Create or Cancel
@@ -18,7 +18,7 @@ A Create from YAML button will be added to the project selector bar, making it a
   * Cancel will bring the user back to the page they were previously on
 
 **Error example**
-![error](img/YAML-error.png)
+![error](img/YAML-Error.png)
 
 * If there are errors, the Create button will be disabled
 * Errors are shown with an icon on the corresponding line
@@ -27,6 +27,6 @@ A Create from YAML button will be added to the project selector bar, making it a
   * Users can click the Show Details link to view all error details in one place
 
 **Success page**
-![success](img/YAML-success.png)
+![success](img/YAML-Success.png)
 
 * When the resource is successfully created, the user is redirected to the overview page of the resource
