@@ -9,6 +9,7 @@ Access documentation for specific sections by clicking on the links below
 - [Navigation](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/navigation/navigation)
 - [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/quick-start-guide/quick-start-guide)
 - [Environment](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/environment/environment)
+- [Project Selector](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/project-selector/project-selector)
 
 
 ## OpenShift 3.10 Web Console
