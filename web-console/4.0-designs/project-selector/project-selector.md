@@ -12,6 +12,6 @@ The project selector will be accessible at all times from the secondary masthead
   * Pinned projects can be removed from the pinned list by clicking its black pin icon.
 * Default project
   * The default project is the automatically selected project when a user logs in and navigates to a project specific page.
-  * The default project is the first project in the list and has a yellow (pf-gold-300) star icon (fa-star).
+  * The default project is the first project in the list and has a yellow (pf-gold-300) star icon (fa-star) to the right of the project name.
   * Users may change the default project by clicking the grey (pf-black-300) star icon next to any of their favorite projects.
   * Only one project may be the default project at any given time.
