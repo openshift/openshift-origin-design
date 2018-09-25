@@ -1,6 +1,6 @@
 # Create from YAML
 
-The Create from YAML action will be accessible from the `Add to Project` dropdown in the project selector bar, making it accessible from every page within the console.
+The Create from YAML action will be accessible from the Add to Project dropdown in the project selector bar, making it accessible from every page within the console.
 
 
 **Create from YAML button**
@@ -24,6 +24,11 @@ The Create from YAML action will be accessible from the `Add to Project` dropdow
   * Users can hover over the icons to see details of each error
 * When a user tries to click Create when there are errors, an inline notification will appear below the editor summarizing the number of errors
   * Users can click the Show Details link to view all error details in one place
+
+**Template overlay**
+![template](img/YAML-Template.png)
+
+* When users click Create, they will be presented with a modal overlay giving them the option to process the template, save the template, or both
 
 **Summary page**
 ![success](img/YAML-Success.png)
