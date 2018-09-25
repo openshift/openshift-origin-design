@@ -10,6 +10,7 @@ Access documentation for specific sections by clicking on the links below
 - [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/quick-start-guide/quick-start-guide)
 - [Environment](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/environment/environment)
 - [Deploy Image](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/deploy-image/deploy-image)
+- [Help Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/help-menu/help-menu)
 
 
 ## OpenShift 3.10 Web Console
