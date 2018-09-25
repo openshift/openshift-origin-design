@@ -1,14 +1,13 @@
 # Deploy Image
 
-The deployment config page Create button will be a dropdown with two creation options: Create from Image and Create from YAML. The following documents how a user can create a deployment config from an image. In future, we may investigate whether this action should be available in additional places in the console.
-
-
+The Deploy Image action will be accessible from two places within the console: the deployment config page and the secondary masthead.
 
 **Deployment Config page**
 ![deployment config](img/Deployment-Config.png)
 
-* The Create button will be a dropdown with two options: From Image and From YAML
-* The Create from Image link opens the embedded deploy image creation page
+* The deployment config page Create button will be a dropdown with two creation options: Create from Image and Create from YAML
+  * Create from Image will open the Deploy Image creation page
+* The deploy image action will also be accessible through the Add to Project dropdown
 
 **Deploy Image**
 ![deploy image](img/Deploy-Image.png)
@@ -16,7 +15,13 @@ The deployment config page Create button will be a dropdown with two creation op
 * Users can deploy an existing image from an image stream tag or image registry
 * The button bar allows users to Deploy or Cancel
   * The Deploy button will be disabled until a user has completed the form without any errors
-  * Cancel will bring the user back to the Deployment Configs page
+  * Cancel will bring the user back to the page they were previously on
+
+**All Projects selected**
+![all projects](img/Deploy-Image-All-Projects.png)
+
+* If All Projects is selected in the project selector and a user begins the deploy image flow, a project dropdown will be at the top of the page
+* Users can select in which project they would like to deploy the image using the project dropdown
 
 **Error examples**
 ![warning](img/Deploy-Image-Warning.png)
@@ -29,4 +34,9 @@ The deployment config page Create button will be a dropdown with two creation op
 **Success page**
 ![success](img/Deploy-Image-Success.png)
 
-* When an image has successfully deployed, the user is redirected to the overview page of the deployment config they just created
+* After users click Create, they are redirected to the results summary page
+* The user will be able to see a list of the resources they created and in which project they were created
+* Successful creations will be displayed with the pficon-ok to the left
+  * The resource name for successful creations will link users to that resource's overview page
+* Failed creations will be displayed with the pficon-error-circle-o to the left and a recommendation on how the user can remedy the error
+* Users may also go to the project overview page using the link or go back to the page they were previously on using the Close button
