@@ -28,7 +28,7 @@ The Create from YAML action will be accessible from the Add to Project dropdown 
 **Template overlay**
 ![template](img/YAML-Template.png)
 
-* When users click Create, they will be presented with a modal overlay giving them the option to process the template, save the template, or both
+* If a user chooses to import a file, when they click Create they will be presented with a modal overlay giving them the option to process the code as a template, save a template, or both
 
 **Summary page**
 ![success](img/YAML-Success.png)
