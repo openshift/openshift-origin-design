@@ -13,6 +13,8 @@ Access documentation for specific sections by clicking on the links below
 - [Object Details](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/object-details/object-details)
 - [Project Selector](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/project-selector/project-selector)
 - [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/quick-start-guide/quick-start-guide)
+- [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/role-based-access-control/role-based-access-control)
+- [Storage](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/storage/storage)
 - [UHC: Clusters](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/uhc-clusters/uhc-clusters)
 
 
