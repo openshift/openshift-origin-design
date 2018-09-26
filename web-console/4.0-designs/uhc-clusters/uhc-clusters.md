@@ -9,12 +9,12 @@ Red Hat Unified Hybrid Cloud (UHC) provides the centralized set of services requ
 - The vertical navigation should be collapsible into an icon-only view, by clicking the hamburger icon on desktop. On mobile, this action would hide the vertical navigation entirely.
 - Clicking the icon again will re-open the navigation displaying the labels.
 
-![Epty 2](img/01.png)
+![Empty 2](img/01.png)
 
 ## Cluster Summary View
 
 ### Empty State
-- When there are no clusters to display for this view, am empty state should be shown with some text and a single primary action button, as displayed in the images above.
+- When there are no clusters to display for this view, an empty state should be shown with some text and a single primary action button, as displayed in the images above.
 - Toolbar components are greyed out while in the empty state.
 - The cluster badge should be used with the page title.
 
