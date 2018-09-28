@@ -4,7 +4,6 @@ Access documentation for specific sections by clicking on the links below
 - [Code Editors](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/code-editors/code-editors)
 - [Actions](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/actions/actions)
 - [Labels](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/labels/labels)
-- [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/breadcrumbs/breadcrumbs)
 - [Empty States](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/empty-states/empty-states)
 - [Navigation](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/navigation/navigation)
 - [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/quick-start-guide/quick-start-guide)
@@ -13,9 +12,12 @@ Access documentation for specific sections by clicking on the links below
 - [Create from YAML](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/create-from-YAML/create-from-YAML)
 - [Help Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/help-menu/help-menu)
 
+## Future Design Considerations
+The following designs are under consideration for use in future releases of OpenShift and are not yet final.
+- [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/breadcrumbs/breadcrumbs)
+- [More Actions](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/actions2/actions2)
 
 ## OpenShift 3.10 Web Console
-Access documentation for specific sections by clicking on the links below
 
 1. Common Patterns
 	- [Masthead](http://openshift.github.io/openshift-origin-design/web-console/patterns/masthead)
