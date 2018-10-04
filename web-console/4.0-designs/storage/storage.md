@@ -12,8 +12,11 @@
 - The `What should I enter here?` link should preferably direct the user to a list of parameters for the selected provisioner, but if that is not possible, linking to the Kubernetes documentation is acceptable.
 
 ![create storage class form](img/storage-class-parameters-2.png)
-- Rows can be added by clicking the `Add Parameter` button and removed with the minus button.
+- Parameter rows can be added by clicking the `Add Parameter` button and removed with the minus button.
 - Rows are not draggable.
+
+![dynamic parameter fields](img/storage-class-generated-fields.png)
+- If it is feasible, selecting a provisioner should dynamically create fields for parameters rather than requiring that users specify them. In this case, additional parameters could still be added as needed.
 
 ## Attach Storage
 
