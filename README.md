@@ -14,8 +14,8 @@ Access documentation for specific sections by clicking on the links below
 
 ## Future Design Considerations
 The following designs are under consideration for use in future releases of OpenShift and are not yet final.
-- [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/breadcrumbs/breadcrumbs)
-- [More Actions](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/actions2/actions2)
+- [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/futures/breadcrumbs/breadcrumbs)
+- [More Actions](http://openshift.github.io/openshift-origin-design/web-console/futures/actions2/actions2)
 
 ## OpenShift 3.10 Web Console
 
