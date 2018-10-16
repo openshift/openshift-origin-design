@@ -91,13 +91,17 @@
 
 ## Design
 
-* The default navigation background should be pf-black-900 (#292E34). When a primary navigation item is expanded, the section background should be pf-black-800 (#393F44).
+* The default navigation background should be pf-black-900 (#292E34). When a primary navigation item is hovered or selected, the section background should be pf-black-800 (#393F44).
 * Icons should be from the PatternFly library. See below for the complete list of icons.
-* The default icon color should be pf-black-600 (#72767B). When a primary navigation item is expanded, the associated icon should be pf-blue-300 (#39A5DC).
-* The default text color should be pf-black-300 (#D1D1D1). When a navigation item is selected, the text color should be white (#FFFFFF) and the text should be semibold.
+* The default icon color should be pf-black-600 (#72767B). When a primary navigation item is selected, the associated icon should be pf-blue-300 (#39A5DC).
+* The default text color should be pf-black-300 (#D1D1D1). When a navigation item is hovered or selected, the text color should be white (#FFFFFF) and the text should be semibold.
 * Primary navigation text should be size 14. Sub navigation text should be size 12.
-* The selected page in the navigation should have a vertical indicator on the left side in pf-blue-300 (#39A5DC).
 * Horizontal separators should be used to separate subsections within the same primary navigation section.
+* The selected page in the navigation should have a vertical indicator on the left side in pf-blue-300 (#39A5DC).
+  * When the nav item is collapsed (Ex: Workloads), the blue vertical indicator spans the entire nav item.
+  * When the primary nav item is expanded, the blue vertical indicator is shown only on the specific secondary nav item.
+* The fa-angle-down icon should be displayed for primary sections that are in the expanded state.
+* When hovering over a collapsed primary nav section, the fa-angle-right icon should be displayed to the right of the name,
 
 #### Icons
 | Navigation Item | Icon |
