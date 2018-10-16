@@ -12,11 +12,12 @@ Access documentation for specific sections by clicking on the links below
 - [Create from YAML](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/create-from-YAML/create-from-YAML)
 - [Help Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/help-menu/help-menu)
 - [Project Selector](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/project-selector/project-selector)
+- [UHC: Clusters](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/uhc-clusters/uhc-clusters)
 
 ## Future Design Considerations
 The following designs are under consideration for use in future releases of OpenShift and are not yet final.
-- [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/breadcrumbs/breadcrumbs)
-- [More Actions](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/actions2/actions2)
+- [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/futures/breadcrumbs/breadcrumbs)
+- [More Actions](http://openshift.github.io/openshift-origin-design/web-console/futures/actions2/actions2)
 
 ## OpenShift 3.10 Web Console
 
