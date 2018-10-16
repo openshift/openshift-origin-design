@@ -2,6 +2,7 @@
 Access documentation for specific sections by clicking on the links below
 - [Actions](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/actions/actions)
 - [Code Editors](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/code-editors/code-editors)
+- [Containers](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/containers/containers)
 - [Create from YAML](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/create-from-YAML/create-from-YAML)
 - [Deploy Image](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/deploy-image/deploy-image)
 - [Displaying Status](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/status/status)
