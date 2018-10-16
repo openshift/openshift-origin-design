@@ -1,17 +1,17 @@
 ## OpenShift 4.0 Designs
 Access documentation for specific sections by clicking on the links below
-- [Displaying Status](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/status/status)
-- [Code Editors](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/code-editors/code-editors)
 - [Actions](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/actions/actions)
-- [Labels](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/labels/labels)
-- [Empty States](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/empty-states/empty-states)
-- [Navigation](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/navigation/navigation)
-- [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/quick-start-guide/quick-start-guide)
-- [Environment](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/environment/environment)
-- [Deploy Image](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/deploy-image/deploy-image)
+- [Code Editors](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/code-editors/code-editors)
 - [Create from YAML](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/create-from-YAML/create-from-YAML)
+- [Deploy Image](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/deploy-image/deploy-image)
+- [Displaying Status](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/status/status)
+- [Empty States](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/empty-states/empty-states)
+- [Environment](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/environment/environment)
 - [Help Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/help-menu/help-menu)
+- [Labels](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/labels/labels)
+- [Navigation](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/navigation/navigation)
 - [Project Selector](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/project-selector/project-selector)
+- [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/quick-start-guide/quick-start-guide)
 - [UHC: Clusters](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/uhc-clusters/uhc-clusters)
 
 ## Future Design Considerations
