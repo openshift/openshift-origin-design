@@ -1,6 +1,7 @@
 ## OpenShift 4.0 Designs
 Access documentation for specific sections by clicking on the links below
 - [Actions](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/actions/actions)
+- [Binding](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/binding/binding)
 - [Code Editors](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/code-editors/code-editors)
 - [Create from YAML](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/create-from-YAML/create-from-YAML)
 - [Deploy Image](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/deploy-image/deploy-image)
