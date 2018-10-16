@@ -11,6 +11,7 @@ Access documentation for specific sections by clicking on the links below
 - [Deploy Image](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/deploy-image/deploy-image)
 - [Create from YAML](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/create-from-YAML/create-from-YAML)
 - [Help Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/help-menu/help-menu)
+- [UHC: Clusters](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/uhc-clusters/uhc-clusters)
 
 ## Future Design Considerations
 The following designs are under consideration for use in future releases of OpenShift and are not yet final.
