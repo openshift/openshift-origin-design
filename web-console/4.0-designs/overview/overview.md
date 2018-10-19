@@ -70,9 +70,8 @@
   * An icon to the left of the build number will indicate the build status.
   * A relative timestamp will be displayed after the status.
   * A `View Log` link will be available to access the full log for every build.
-* The builds will be listed in order of recency and will always show at least the one latest build.
+* The builds will be listed in order of recency and will always show at least the one latest build and any currently running builds. The max number of builds that will be displayed at a time is three.
 * Users may see a log snippet of any currently running builds.
-* Running builds will always be shown, unless there are more than three running at one time. In this case, only the three most recent builds will be displayed.
 
 **Services section**
 
