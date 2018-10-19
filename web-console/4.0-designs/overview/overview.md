@@ -24,7 +24,7 @@
 
 ![route](img/route.png)
 * Users may navigate to the application by clicking the route URL link (pf-blue-400, #0088CE) across from the application name. The icon fa-external-link (pf-blue-400, #0088CE) will be to the right of the URL to indicate that the link redirects users to an external location and opens a new browser tab.
-* Users may edit which route URL is displayed by clicking the black (pf-black-900, #292E34) pficon-edit icon. A popover will open where users may set their default route from a list of their routes. Users may also copy route URLs from this popover. Users may click Cancel or ‘x’ or click anywhere else on the screen to close the popover, or click Save to confirm their selection.
+* Users may edit which route URL is displayed by clicking the black (pf-black-900, #292E34) pficon-edit icon. A modal will open where users may set their default route from a list of their routes. Users may also copy route URLs from this modal. Users may click Cancel or ‘x’ to close the popover, or click Save to confirm their selection.
   * The default route will be set only for the current user.
 
 
@@ -39,7 +39,6 @@
 * The `Overview` tab is the default view, and the list view content is pushed to the left.
 * The selected row remains highlighted, and the metrics column is hidden.
 * When necessary, the resource name, notifications, and route URL will wrap.
-* The `Group by label` dropdown and filter bar are not accessible when the side panel is open.
 * Users can close the side panel by clicking the 'x' in the top right corner of the panel or hitting 'Escape' on their keyboard.
   * If a user closes the side panel, it will always reopen to the `Overview` tab.
   * If a user changes which resource they are viewing with the side panel open, the current tab should remain selected for the new resource.
