@@ -84,3 +84,13 @@
 * Routes are listed with their badge to the left and their URL below.
 * The icon fa-external-link (pf-blue-400, #0088CE) will be to the right of the URL to indicate that the link redirects users to an external location and opens a new browser tab.
 * If a URL is too long to fit within the designated area, a text fade should be used to indicate that the URL is longer than can fit.
+
+
+
+## Responsive views
+
+![responsive](img/responsive-views.png)
+* In a tablet view, the navigation and list view are still visible.
+  * When the list view is visible, always show at least two columns: the resource name and associated notifications.
+  * The name and notification columns may stack if needed.
+* In a smartphone view, the navigation and list view are not visible and the side panel will take up the entire screen.
