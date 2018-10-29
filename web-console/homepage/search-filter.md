@@ -15,7 +15,7 @@
 ![search](img/search-03.png)
 - Entering a search term brings up a list of the first five matches.
 - The matches display the catalog item icon, name and any relevant tags.
-	- Clicking on a match will trigger the order flow for that catalog item on the [overlay panel](http://openshift.github.io/openshift-origin-design/web-console/patterns/overlay-panel).
+	- Clicking on a match will trigger the order flow for that catalog item on the [overlay panel](../patterns/overlay-panel.md).
 
 
 #### Implementation Details

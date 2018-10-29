@@ -3,7 +3,7 @@
 # Binding in Context
 
 - Users may bind Provisioned Services to other applications in their project and vice versa.
-- The binding flow will use the [Overlay Panel Pattern](http://openshift.github.io/openshift-origin-design/web-console/patterns/overlay-panel) and employ a similar wizard experience to the [ordering experience](http://openshift.github.io/openshift-origin-design/web-console/patterns/order-from-catalog).
+- The binding flow will use the [Overlay Panel Pattern](../patterns/overlay-panel.md) and employ a similar wizard experience to the [ordering experience](../patterns/order-from-catalog.md).
 
 
 
@@ -66,7 +66,7 @@
 ![template](img/bind-parameters.png)
 - When binding from a service that takes bind parameters to an application, the wizard will display three steps: Binding, Parameters, Results.
 - When binding from an application, if the service selected in the Binding step takes parameters, an additional "Parameters" step is dynamically added to the wizard.
-- Parameters are shown similarly to the Configuration step of the [Ordering Experience](http://openshift.github.io/openshift-origin-design/web-console/patterns/order-from-catalog)
+- Parameters are shown similarly to the Configuration step of the [Ordering Experience](../patterns/order-from-catalog.md)
 - The primary action action for step 1 is "Next" and the primary action for step two is "Bind".
 - If the parameters are required, the "Bind" button is disabled until the required fields have been filled.
 - A secondary action "Back" is added but is only active on step 2.

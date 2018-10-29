@@ -8,7 +8,7 @@
 
 ![Homepage](img/overview-01.png)
 - The Web Console home page has five major sections
-	- [Masthead](http://openshift.github.io/openshift-origin-design/web-console/patterns/masthead)
+	- [Masthead](../patterns/masthead.md)
 	- [Search and Filter](./search-filter.md)
 	- [SaaS Offerings](./offerings.md)
 	- [Catalog](./catalog.md)

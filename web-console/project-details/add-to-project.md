@@ -2,13 +2,13 @@
 # Add to Project in Context
 ![Navigation 1](img/SecondaryMasthead.png)
 - Users can add items to the current project without changing contexts.
-- Adding to the project in context will leverage the [overlay panel component](http://openshift.github.io/openshift-origin-design/web-console/patterns/overlay-panel).
+- Adding to the project in context will leverage the [overlay panel component](../patterns/overlay-panel.md).
 
 ### Add To Projects with Quick Search
 ![template](img/QuickSearch.png)
 - A search box will be added to the secondary masthead to the left of the "Quick Add" dropdown.
 - This search feature will behave like [Search](https://github.com/openshift/openshift-origin-design/blob/master/web-console/homepage/search.m) on the landing page.
-- Selecting an item from the search will initiate the ordering flow on the [Overlay Panel](http://openshift.github.io/openshift-origin-design/web-console/homepage/search-filter#search-catalog) on the projects detail page.
+- Selecting an item from the search will initiate the ordering flow on the [Overlay Panel](../homepage/search-filter#search-catalog.md) on the projects detail page.
 - The Project selection step should be hidden from the ordering panel in this case since the user is adding from within the console and we know what Project.
 
 ### Browse Catalog

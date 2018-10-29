@@ -13,7 +13,7 @@ The help menu will be accessible at all times from the primary masthead. Users c
 **Quick Start Guide**
 ![Quick Start Guide](img/quick-start-guide.png)
 
-* The [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/quick-start-guide/quick-start-guide) landing page will have the quick start guide info, information regarding documentation and additional support links, and information about the oc client and command line tools
+* The [Quick Start Guide](../quick-start-guide/quick-start-guide.md) landing page will have the quick start guide info, information regarding documentation and additional support links, and information about the oc client and command line tools
 * A dismissible version of the first panel of this landing page will be displayed to first time users on the Status page
 
 **About**
