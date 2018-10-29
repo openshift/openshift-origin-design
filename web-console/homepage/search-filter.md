@@ -31,7 +31,7 @@
 
 ## View All Results
 ![search](img/search-04.png)
-- Clicking on the `View All [n] Results for Keyword:[searchterm]` link scrolls the user down to the [catalog](http://openshift.github.io/openshift-origin-design/web-console/homepage/catalog) on the `All Categories` tab with an active "Keyword" filter for the search term.
+- Clicking on the `View All [n] Results for Keyword:[searchterm]` link scrolls the user down to the [catalog](./catalog.md) on the `All Categories` tab with an active "Keyword" filter for the search term.
 
 #### Implementation Details
 - All active filters are cleared when the main search box is used so that it always produces a "fresh" page of results.

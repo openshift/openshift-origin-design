@@ -4,7 +4,7 @@
 
 The PatternFly [Masthead](http://www.patternfly.org/pattern-library/application-framework/masthead/#/design) design should be followed for the and in this case the masthead should include the following from left to right:
 1. **Name and Branding** Red Hat OpenShift or OpenShift Online
-1. **Notifications** The [Notification Drawer](http://openshift.github.io/openshift-origin-design/web-console/patterns/notifications) can be accessed through the bell icon in the masthead
+1. **Notifications** The [Notification Drawer](./notifications.md) can be accessed through the bell icon in the masthead
 1. **Launcher:** Follow the PF [Launcher](http://www.patternfly.org/pattern-library/application-framework/launcher/#/design) pattern, allowing users to switch to another application.
 1. **Help:** This menu should include documentation, about, and command line tools, and guided tours.
 1. **User:** The username should be listed to the right of the icon. The "Log Out" option should be available in this dropdown menu, as well as any other user settings available (depending on the version) such as "My Account".
@@ -88,4 +88,4 @@ The PatternFly [Masthead](http://www.patternfly.org/pattern-library/application-
 ## Responsive Designs
 - Masthead actions will drop into the hamburger menu with the exception of the system alerts and notification drawer.
 - The notification drawer will remain in the top right corner of the UI, with the system alert warning icon to the left of the bell when needed for Online.
-- Jump to the [Navigation](http://openshift.github.io/openshift-origin-design/web-console/patterns/navigation) design for details.
+- Jump to the [Navigation](./navigation.md) design for details.

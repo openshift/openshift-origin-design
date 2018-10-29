@@ -12,7 +12,7 @@
 - The Project selection step should be hidden from the ordering panel in this case since the user is adding from within the console and we know what Project.
 
 ### Browse Catalog
-- Selecting `Browse Catalog` from the dropdown or clicking the link to view more search results will navigate the user to the [Catalog](http://openshift.github.io/openshift-origin-design/web-console/project-details/in-project-catalog) inside that project.
+- Selecting `Browse Catalog` from the dropdown or clicking the link to view more search results will navigate the user to the [Catalog](./in-project-catalog.md) inside that project.
 - The catalog will be filtered by keyword if the quick search bar is used to trigger the catalog.
 
 

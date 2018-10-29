@@ -14,7 +14,7 @@
 - For provisioned services that do not have any bindings, there is a "Create binding" action in the collapsed state.
 - The "+ Create binding" action is always available for Provisioned Services in the expanded state.
 - A binding can also be initiated from a deployment config (or similar) in the expanded view IF that deployment is already bound to another service. The “Service Bindings” section does not appear in the overview if there are no bindings.
-- **Note:** Once a binding has been created it will show up on the overview and details pages for Deployments, Pods, Provisioned Services, etc. [View Binding Details](http://openshift.github.io/openshift-origin-design/web-console/project-details/binding-details) for info on how Bindings should be displayed.
+- **Note:** Once a binding has been created it will show up on the overview and details pages for Deployments, Pods, Provisioned Services, etc. [View Binding Details](./binding-details.md) for info on how Bindings should be displayed.
 
 
 ## Bind flow
