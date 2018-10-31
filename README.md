@@ -18,8 +18,13 @@ Access documentation for specific sections by clicking on the links below
 - [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/quick-start-guide/quick-start-guide)
 - [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/role-based-access-control/role-based-access-control)
 - [Storage](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/storage/storage)
-- [UHC: Clusters](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/uhc-clusters/uhc-clusters)
 
+
+## Multi-Cluster Manager
+This cluster management service supports OpenShift 4 and makes it easy for Red Hat to offer applications that are built from, or run on top of, OpenShift Container Platform.
+- [View Clusters](http://openshift.github.io/openshift-origin-design/web-console/multi-cluster/uhc-clusters/uhc-clusters)
+- [Create Clusters](http://openshift.github.io/openshift-origin-design/web-console/multi-cluster/uhc-create-cluster/uhc-create-cluster)
+- [Trial Version](http://openshift.github.io/openshift-origin-design/web-console/multi-cluster/trial/trial)
 
 ## Future Design Considerations
 The following designs are under consideration for use in future releases of OpenShift and are not yet final.
