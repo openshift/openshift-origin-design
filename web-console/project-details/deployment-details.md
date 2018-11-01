@@ -42,7 +42,7 @@ No change at this time.
 #### Implementation Details:
 - If a variable appears in both the top and bottom lists, the top standalone variable will take precedence over the bottom one (that is part of a secret). When this type of conflict occurs, upon clicking save, a warning notification should be displayed to explain which variable will be accepted.  
 - Save should be enabled as a blue primary button once the user has made changes that have not yet been saved. Clear changes should also appear as a link to the right of save.
-- **Note:** The new Environment From section is closely tied to the "Add to Application" action found on the Secrets and Config Maps pages. When a user performs the [Add to Application](http://openshift.github.io/openshift-origin-design/web-console/project-details/add-to-application) action, that Secret or Config Map should be displayed in the dropdown and added as a new row under "Environment From."
+- **Note:** The new Environment From section is closely tied to the "Add to Application" action found on the Secrets and Config Maps pages. When a user performs the [Add to Application](./add-to-application.md) action, that Secret or Config Map should be displayed in the dropdown and added as a new row under "Environment From."
 
 ## Events Tab
 No change at this time.

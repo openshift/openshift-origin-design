@@ -148,7 +148,7 @@ Automatically show this step if the service/image is bindable.
 
 ### 6 - Results Step
 
-See [Wizard Results documentation](http://openshift.github.io/openshift-origin-design/web-console/patterns/wizard-results)
+See [Wizard Results documentation](./wizard-results.md)
 
 #### Expanded Log Section
 ![template](img/results-expanded-logs.png)
