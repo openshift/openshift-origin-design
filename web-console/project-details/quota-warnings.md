@@ -22,7 +22,7 @@
 ### At quota for object-count
 - User should be alerted via an informational message.
 - If the user takes an action that brings her to quota, that informational message should be toasted.
-- If the user logs into the system and it is at quota, a message should appear in the [Notification drawer](http://openshift.github.io/openshift-origin-design/web-console/patterns/notifications) with no toast notification.
+- If the user logs into the system and it is at quota, a message should appear in the [Notification drawer](../patterns/notifications.md) with no toast notification.
 - The message should include
   - The resource in question
   - The total used and the max allowed.

@@ -2,11 +2,11 @@
 
 ### Primary Masthead
 ![Navigation 1](img/PrimaryMasthead.png)  
-On the landing page, the only navigation available is the Primary [Masthead](http://openshift.github.io/openshift-origin-design/web-console/patterns/masthead).
+On the landing page, the only navigation available is the Primary [Masthead](./masthead.md).
 
 ### Secondary Masthead
 ![Navigation 1](img/SecondaryMasthead.png)  
-Once a user navigates to a specific project inside the console, a second horizontal bar will appear below the Primary [Masthead](http://openshift.github.io/openshift-origin-design/web-console/patterns/masthead).
+Once a user navigates to a specific project inside the console, a second horizontal bar will appear below the Primary [Masthead](./masthead.md).
 
 
 ### Vertical Navigation

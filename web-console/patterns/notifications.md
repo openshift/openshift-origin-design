@@ -8,7 +8,7 @@
 ### Inside the Console
 
 ![Notifications 2](img/Phase1-03.png)
-- Once in the context of a specific project inside the console, the notification drawer will be accessible via the bell icon, in the  [Masthead](http://openshift.github.io/openshift-origin-design/web-console/patterns/masthead).
+- Once in the context of a specific project inside the console, the notification drawer will be accessible via the bell icon, in the  [Masthead](./masthead.md).
 - The [PatternFly Notification Drawer](http://www.patternfly.org/pattern-library/communication/notification-drawer/) pattern should be applied to this design.
 - At the top of the drawer the project name will appear with the number of unread notifications below.
 - To the right of the project name will be a link to view all Events which will take the user directly to the 'Monitoring >> Events' full page view.
