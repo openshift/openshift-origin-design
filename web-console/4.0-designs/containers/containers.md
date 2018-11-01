@@ -64,7 +64,6 @@
 
 - The Mounted Volumes section should include the following columns:
   - Name
-  - Ports
   - Mount Path
   - Subpath
   - Type (with a badge and link to the specific resource)
