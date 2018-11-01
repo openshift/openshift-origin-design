@@ -1,7 +1,7 @@
 # Provisioned Service Details
 
 - Provisioned Services are those services provisioned from the Service Catalog and should be displayed
-- Some Provisioned Service info will be shown on the Project Overview page. For details on  the collapsed and expanded list views see [Provisioned Services on the Overview](http://openshift.github.io/openshift-origin-design/web-console/project-details/provisioned-services-overview).
+- Some Provisioned Service info will be shown on the Project Overview page. For details on  the collapsed and expanded list views see [Provisioned Services on the Overview](./provisioned-services-overview.md).
 
 ## Navigating to Provisioned Service Details
 ![template](img/v2-02.png)
@@ -24,7 +24,7 @@
   2. Configuration: Display all configuration parameters with corresponding disguised values to the right.
     - **Implementation Details:** The Reveal Values link should be left aligned above the parameters and should function the same as the "Reveal Secrets" link works to show all hidden values below.
   3. Bindings:
-    - Visit [Binding Details](http://openshift.github.io/openshift-origin-design/web-console/project-details/binding-details) for more information on what to display in this section.
+    - Visit [Binding Details](./binding-details.md) for more information on what to display in this section.
     - **Note:** Bindings are shown to the right but for smaller viewports this section will fall below the Configuration section as needed.    
 
 ### Edit Plan/ Configuration
