@@ -20,6 +20,11 @@ Access documentation for specific sections by clicking on the links below
 - [Storage](./web-console/4.0-designs/storage/storage.md)
 - [UHC: Clusters](./web-console/4.0-designs/uhc-clusters/uhc-clusters.md)
 
+## Multi-Cluster Manager
+This cluster management service supports OpenShift 4 and makes it easy for Red Hat to offer applications that are built from, or run on top of, OpenShift Container Platform.
+- [View Clusters](./web-console/multi-cluster/uhc-clusters/uhc-clusters.md)
+- [Create Clusters](./web-console/multi-cluster/uhc-create-cluster/uhc-create-cluster.md)
+- [Trial Version](./web-console/multi-cluster/trial/trial.md)
 
 ## Future Design Considerations
 The following designs are under consideration for use in future releases of OpenShift and are not yet final.
