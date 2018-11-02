@@ -50,7 +50,7 @@
 ## Expanded State on the Overview
 ### Applications (Deployments and Pods)
 - The bindings section is only shown for applications if bindings exist for that application.
-- The information is the same as on [Application (Deployments and Pods) details pages](#on-application-pages) with the exception that parameters are not shown in the overview.
+- The information is the same as on [Application (Deployments and Pods) details pages](#on-application-deployments-and-pods-details-pages) with the exception that parameters are not shown in the overview.
 
 ### Provisioned Services
 - Provisioned services always include the bindings section.
