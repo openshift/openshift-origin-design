@@ -3,8 +3,9 @@ Access documentation for specific sections by clicking on the links below
 
 - [Actions](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/actions/actions)
 - [Annotations](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/annotations/annotations)
+- [Binding](http://openshift.github.io/openshift-origin-design//web-console/4.0-designs/binding/binding)
 - [Code Editors](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/code-editors/code-editors)
-- [Containers](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/containers/containers.md)
+- [Containers](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/containers/containers)
 - [Create from YAML](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/create-from-YAML/create-from-YAML)
 - [Deploy Image](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/deploy-image/deploy-image)
 - [Displaying Status](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/status/status)
@@ -14,23 +15,22 @@ Access documentation for specific sections by clicking on the links below
 - [Labels](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/labels/labels)
 - [Navigation](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/navigation/navigation)
 - [Object Details](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/object-details/object-details)
-- [Overview](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/overview/overview.md)
+- [Overview](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/overview/overview)
 - [Project Selector](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/project-selector/project-selector)
 - [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/quick-start-guide/quick-start-guide)
 - [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/role-based-access-control/role-based-access-control)
 - [Storage](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/storage/storage)
-- [UHC: Clusters](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/uhc-clusters/uhc-clusters)
 
 ## Multi-Cluster Manager
 This cluster management service supports OpenShift 4 and makes it easy for Red Hat to offer applications that are built from, or run on top of, OpenShift Container Platform.
-- [View Clusters](./web-console/multi-cluster/uhc-clusters/uhc-clusters.md)
-- [Create Clusters](./web-console/multi-cluster/uhc-create-cluster/uhc-create-cluster.md)
-- [Trial Version](./web-console/multi-cluster/trial/trial.md)
+- [View Clusters](http://openshift.github.io/openshift-origin-design/web-console/multi-cluster/uhc-clusters/uhc-clusters)
+- [Create Clusters](http://openshift.github.io/openshift-origin-design/web-console/multi-cluster/uhc-create-cluster/uhc-create-cluster)
+- [Trial Version](http://openshift.github.io/openshift-origin-design/web-console/multi-cluster/trial/trial)
 
 ## Future Design Considerations
 The following designs are under consideration for use in future releases of OpenShift and are not yet final.
-- [Breadcrumbs](./web-console/futures/breadcrumbs/breadcrumbs.md)
-- [More Actions](./web-console/futures/actions2/actions2.md)
+- [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/futures/breadcrumbs/breadcrumbs)
+- [More Actions](http://openshift.github.io/openshift-origin-design/web-console/futures/actions2/actions2)
 
 
 ## OpenShift 3.10 Web Console
