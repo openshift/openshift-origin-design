@@ -1,5 +1,7 @@
 # Overview
 
+# Resources View
+
 ## Collapsed list view
 
 ### General
@@ -93,3 +95,8 @@
   * When the list view is visible, always show at least two columns: the resource name and associated notifications.
   * The name and notification columns may stack if needed.
 * In a smartphone view, the navigation and list view are not visible and the side panel will take up the entire screen.
+
+
+# Dashboard View
+
+![status](img/status-page.png)
