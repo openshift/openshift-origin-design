@@ -1,4 +1,4 @@
-# Reqource Quota
+# Resource Quota
 
 ![](img/resource-quota-details.png)
 
@@ -12,11 +12,11 @@
 - Best Effort
   - `Affects pods that do not have resource limits set. These pods have a best effort quality of service.``
 - Not Best Effort
-  - `Affects pods that have at least one resource limit set. These pods do not have a best effort quality of service.``
+  - `Affects pods that have at least one resource limit set. These pods do not have a best effort quality of service.`
 - Terminating
-  - `Affects pods that have an active deadline. These pods usually include builds, deployers, and jobs.``
+  - `Affects pods that have an active deadline. These pods usually include builds, deployers, and jobs.`
 - Not Terminating
-  - `Affects pods that do not have an active deadline. These pods usually include your applications.``
+  - `Affects pods that do not have an active deadline. These pods usually include your applications.`
 
 ## Resource Quota Details
 ![](img/quota-details.png)
@@ -39,7 +39,7 @@ The capacity column should include an icon that corresponds to the utilization o
 
 ### Resource Quota Help
 ![](img/quota-details-help.png)
-Clicking the informational icon should display a brief description of requests and limits along with a link to the [relevant documentation](https://docs.openshift.com/container-platform/3.11/dev_guide/compute_resources.html#dev-compute-resources) (https://docs.openshift.com/container-platform/3.11/dev_guide/compute_resources.html#dev-compute-resources)
+Clicking the informational icon should display a brief description of requests and limits along with a link to the relevant documentation (https://docs.openshift.com/container-platform/3.11/dev_guide/compute_resources.html#dev-compute-resources)
 
     Requests are the amount of resources you expect to use. These are used when establishing if the cluster can fulfill your Request. 
 
