@@ -10,7 +10,7 @@
 ![](img/Scopes.png)
 - Each scope applied to the resource quota should be visible in the overview along with a short description below. Descriptions should be as follows:
 - Best Effort
-  - `Affects pods that do not have resource limits set. These pods have a best effort quality of service.``
+  - `Affects pods that do not have resource limits set. These pods have a best effort quality of service.`
 - Not Best Effort
   - `Affects pods that have at least one resource limit set. These pods do not have a best effort quality of service.`
 - Terminating
@@ -20,9 +20,6 @@
 
 ## Resource Quota Details
 ![](img/quota-details.png)
-
-### Type
-The type column should the type of quota for each resource. `Request` for compute resource requests, `Limit` for compute resource limits, and `Count` for object counts.
 
 ### Capacity
 The capacity column should include an icon that corresponds to the utilization of each resource (max / used)
