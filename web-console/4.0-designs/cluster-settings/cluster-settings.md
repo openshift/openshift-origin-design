@@ -8,7 +8,7 @@
 ![operators](img/operators.png)
 
 - The Cluster Operators tab shows a list view of operators with search and filter components at the top.
-- The list view columns include resource name and badge, update status, message details, and version. For now there are no inline kebab actions available, but these may be added to the rows once they become available.
+- The list view columns include resource name and badge, status, message details, and version. For now there are no inline kebab actions available, but these may be added to the rows once they become available.
 - The filter options are based on the possible status types: available, updating, failing, unknown.
 - The status column includes the following icons:
    - Available should use the pficon-ok	icon
