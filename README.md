@@ -4,6 +4,7 @@ Access documentation for specific sections by clicking on the links below
 - [Actions](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/actions/actions)
 - [Annotations](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/annotations/annotations)
 - [Binding](http://openshift.github.io/openshift-origin-design//web-console/4.0-designs/binding/binding)
+- [Cluster Settings](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/cluster-settings/cluster-settings)
 - [Code Editors](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/code-editors/code-editors)
 - [Containers](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/containers/containers)
 - [Create from YAML](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/create-from-YAML/create-from-YAML)
