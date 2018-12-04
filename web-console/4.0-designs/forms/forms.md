@@ -2,7 +2,7 @@
 
 ## Labels
 
-* Labels should be written in headline style.
+* Labels should be semi-bold and written in headline style.
 * Labels should be top-aligned.
 * Required fields should be identified with a red asterisk to the right of the label.
 
@@ -11,7 +11,7 @@
 ## Buttons
 
 * Button labels should be written in headline style.
-* In embedded forms, confirmation buttons should be left aligned at the bottom of the page. Cancel buttons should be to the right of confirmation buttons.
+* In embedded forms and side panel forms, confirmation buttons should be left aligned at the bottom of the page. Cancel buttons should be to the right of confirmation buttons.
 * In modal forms, confirmation buttons should be right aligned at the bottom of the modal. Cancel buttons should be to the left of confirmation buttons.
 * Submit, Save, and other confirmation buttons should always be enabled.
 
@@ -21,8 +21,8 @@
 
 ## Fields
 
-* Input fields in embedded forms should provide enough space for an appropriate input but should never span the full width of a page.
-* Input fields in modals or side panels may span the full width of the modal or panel.
+* Input fields and dropdowns in embedded forms should provide enough space for an appropriate input but should never span the full width of a page. The max width is 650px.
+* Input fields and dropdowns in modal or side panel forms may span the full width of the modal or panel.
 * Helper text should be below the input field.
 * Syntax hints should be used only for open text input fields. They should be inside the input field and disappear when users begin to type. They should not be a duplicate of the field name.
 * Horizontal separators should be used between fields only when there are separate and distinct sections of the form. Section headers can be used where appropriate, but should always appear above the form content rather than to the left.
