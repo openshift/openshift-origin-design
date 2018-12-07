@@ -14,7 +14,9 @@ Access documentation for specific sections by clicking on the links below
 - [Labels](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/labels/labels)
 - [Navigation](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/navigation/navigation)
 - [Object Details](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/object-details/object-details)
-- [Overview](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/overview/overview)
+- Status Page
+  * [Overview](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/overview/overview)
+  * [Dashboard](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/dashboard/dashboard)
 - [Resource Quota](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/resource-quota/resource-quota)
 - [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/role-based-access-control/role-based-access-control)
 - [Storage](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/storage/storage)
