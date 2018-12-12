@@ -7,10 +7,8 @@ Access documentation for specific sections by clicking on the links below
 - [Cluster Settings](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/cluster-settings/cluster-settings)
 - [Code Editors](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/code-editors/code-editors)
 - [Containers](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/containers/containers)
-- [Create from YAML](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/create-from-YAML/create-from-YAML)
 - [Deploy Image](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/deploy-image/deploy-image)
 - [Displaying Status](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/status/status)
-- [Empty States](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/empty-states/empty-states)
 - [Environment](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/environment/environment)
 - [Help Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/help-menu/help-menu)
 - [Labels](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/labels/labels)
@@ -19,11 +17,11 @@ Access documentation for specific sections by clicking on the links below
 - Status Page
   * [Overview](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/overview/overview)
   * [Dashboard](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/dashboard/dashboard)
-- [Project Selector](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/project-selector/project-selector)
-- [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/quick-start-guide/quick-start-guide)
 - [Resource Quota](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/resource-quota/resource-quota)
 - [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/role-based-access-control/role-based-access-control)
 - [Storage](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/storage/storage)
+- [YAML Editor](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/edit-yaml/edit-yaml)
+- [YAML Import](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/import-yaml/import-yaml)
 
 ## Multi-Cluster Manager
 This cluster management service supports OpenShift 4 and makes it easy for Red Hat to offer applications that are built from, or run on top of, OpenShift Container Platform.
@@ -34,7 +32,11 @@ This cluster management service supports OpenShift 4 and makes it easy for Red H
 ## Future Design Considerations
 The following designs are under consideration for use in future releases of OpenShift and are not yet final.
 - [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/futures/breadcrumbs/breadcrumbs)
-- [More Actions](http://openshift.github.io/openshift-origin-design/web-console/futures/actions2/actions2)
+- [Bulk Actions](http://openshift.github.io/openshift-origin-design/web-console/futures/bulk-actions/bulk-actions)
+- [Empty States](http://openshift.github.io/openshift-origin-design/web-console/futures/empty-states/empty-states)
+- [Project Favorites + Defaults](http://openshift.github.io/openshift-origin-design/web-console/futures/project-selector/project-selector)
+- [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/futures/quick-start-guide/quick-start-guide)
+- [YAML Editor Updates](http://openshift.github.io/openshift-origin-design/web-console/futures/code-editor-updates/code-editor-updates)
 
 
 ## OpenShift 3.10 Web Console

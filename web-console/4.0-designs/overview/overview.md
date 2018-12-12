@@ -10,8 +10,12 @@
 * The collapsed list view of the project overview will group items by app label (for example, `app=foo`) by default. Users may group by a different label by using the `Group by label` dropdown selector. The selector will be populated with existing labels.
   * If no resources have labels, items will be shown in a regular list view listed alphabetically by resource type and then name and the `Group by label` dropdown will be hidden.
 * On hover, the row will be highlighted (#EDF8FF) and the icon fa-angle-right (pf-blue-400, #0088CE) will appear at the end of the row. When a row is selected (#DEF3FF), the side panel will open with a summary of that resource's overview, pushing the content over to the left.
-* If a user is not in the context of a selected project, the user will be shown an [empty state](../empty-states/empty-states.md) until they select a project from the project dropdown.
+* If a user is not in the context of a selected project, the user will be shown an empty state until they select a project from the project dropdown.
 ![empty state](img/ES_overview.png)
+
+* If a user is in the context of a project, but does not yet have anything in their project, a different empty state will appear, prompting them to add items to the project. 
+they select a project from the project dropdown.
+![empty state](img/overview-empty.png)
 
 ### List columns
 
