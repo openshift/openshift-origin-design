@@ -5,7 +5,7 @@
 
 - Label text should match link text color (#0088CE), with a light grey background (#F5F5F5) to differentiate from other links. The grey border around the shape should be a darker grey (#EDEDED).
 - Label text color will not be matched to the corresponding resource badge color. All label colors will be the same across resource objects
-- All pod selectors will also be standard blue link (#0088CE) font, but without a background.
+- Selectors will remain in various link colors depending on the selector type. These do not have background colors in order to distinguish from labels.
 - Editing labels will be done in paragraph form, using the equal sign between the key and value. When editing, each label will also have an x to delete individual labels as needed.
 
 ## Detail Pages
