@@ -11,6 +11,7 @@ Access documentation for specific sections by clicking on the links below
 - [Displaying Status](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/status/status)
 - [Environment](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/environment/environment)
 - [Forms](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/forms/forms)
+- [Global Config](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/global-config/global-config)
 - [Help Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/help-menu/help-menu)
 - [Labels](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/labels/labels)
 - [Navigation](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/navigation/navigation)
