@@ -20,8 +20,8 @@ Access documentation for specific sections by clicking on the links below
   * [Overview](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/overview/overview)
   * [Dashboard](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/dashboard/dashboard)
 - [Resource Quota](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/resource-quota/resource-quota)
-- [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/role-based-access-control/role-based-access-control)
 - [Storage](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/storage/storage)
+- [User Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/user/user)
 - [YAML Editor](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/edit-yaml/edit-yaml)
 - [YAML Import](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/import-yaml/import-yaml)
 
@@ -38,6 +38,7 @@ The following designs are under consideration for use in future releases of Open
 - [Empty States](http://openshift.github.io/openshift-origin-design/web-console/futures/empty-states/empty-states)
 - [Project Favorites + Defaults](http://openshift.github.io/openshift-origin-design/web-console/futures/project-selector/project-selector)
 - [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/futures/quick-start-guide/quick-start-guide)
+- [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/futures/role-based-access-control/role-based-access-control)
 - [YAML Editor Updates](http://openshift.github.io/openshift-origin-design/web-console/futures/code-editor-updates/code-editor-updates)
 
 
