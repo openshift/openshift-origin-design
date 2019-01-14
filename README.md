@@ -5,7 +5,6 @@ Access documentation for specific sections by clicking on the links below
 - [Annotations](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/annotations/annotations)
 - [Binding](http://openshift.github.io/openshift-origin-design//web-console/4.0-designs/binding/binding)
 - [Cluster Settings](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/cluster-settings/cluster-settings)
-- [Code Editors](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/code-editors/code-editors)
 - [Containers](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/containers/containers)
 - [Deploy Image](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/deploy-image/deploy-image)
 - [Displaying Status](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/status/status)
