@@ -38,6 +38,7 @@ The following designs are under consideration for use in future releases of Open
 - [Empty States](http://openshift.github.io/openshift-origin-design/web-console/futures/empty-states/empty-states)
 - [Project Favorites + Defaults](http://openshift.github.io/openshift-origin-design/web-console/futures/project-selector/project-selector)
 - [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/futures/quick-start-guide/quick-start-guide)
+- [Taints and Tolerations](http://openshift.github.io/openshift-origin-design/web-console/futures/taints-tolerations/taints-tolerations)
 - [YAML Editor Updates](http://openshift.github.io/openshift-origin-design/web-console/futures/code-editor-updates/code-editor-updates)
 
 
