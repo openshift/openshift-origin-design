@@ -35,6 +35,7 @@ This cluster management service supports OpenShift 4 and makes it easy for Red H
 The following designs are under consideration for use in future releases of OpenShift and are not yet final.
 - [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/futures/breadcrumbs/breadcrumbs)
 - [Bulk Actions](http://openshift.github.io/openshift-origin-design/web-console/futures/bulk-actions/bulk-actions)
+- [Dashboard Errors](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/dashboard-errors/dashboard-errors)
 - [Empty States](http://openshift.github.io/openshift-origin-design/web-console/futures/empty-states/empty-states)
 - [Project Favorites + Defaults](http://openshift.github.io/openshift-origin-design/web-console/futures/project-selector/project-selector)
 - [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/futures/quick-start-guide/quick-start-guide)
