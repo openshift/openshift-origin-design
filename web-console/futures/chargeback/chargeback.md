@@ -2,6 +2,7 @@
 
 ## Reports
 ![](img/reports-list.png)
+- The chargeback page contains charts showing several cost metrics as well as a list of all chargeback reports
 
 ## Creating a Report
 ![](img/create-report.png)
@@ -17,6 +18,4 @@
 ![](img/report-details-instance-type.png)
 - Clicking on different tabs changes the report breakdown into different categories
 - Small charts showing relative size of each category are displayed for the currently sorted column
-
-![](img/report-details-dropdown.png)
-- A "display by:" selector could also be used in place of tabs to select the usage breakdown
+- Clicking on the `Download Report` action will download a RAW version of the report displayed below using the currently selected display and sort options.
