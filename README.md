@@ -5,13 +5,12 @@ Access documentation for specific sections by clicking on the links below
 - [Annotations](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/annotations/annotations)
 - [Binding](http://openshift.github.io/openshift-origin-design//web-console/4.0-designs/binding/binding)
 - [Cluster Settings](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/cluster-settings/cluster-settings)
-- [Code Editors](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/code-editors/code-editors)
 - [Containers](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/containers/containers)
 - [Deploy Image](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/deploy-image/deploy-image)
 - [Displaying Status](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/status/status)
 - [Environment](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/environment/environment)
 - [Forms](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/forms/forms)
-- [Global Config](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/global-config/global-config)
+- [Global Configuration](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/global-config/global-config)
 - [Help Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/help-menu/help-menu)
 - [Labels](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/labels/labels)
 - [Navigation](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/navigation/navigation)
@@ -20,8 +19,8 @@ Access documentation for specific sections by clicking on the links below
   * [Overview](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/overview/overview)
   * [Dashboard](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/dashboard/dashboard)
 - [Resource Quota](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/resource-quota/resource-quota)
-- [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/role-based-access-control/role-based-access-control)
 - [Storage](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/storage/storage)
+- [User Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/user/user)
 - [YAML Editor](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/edit-yaml/edit-yaml)
 - [YAML Import](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/import-yaml/import-yaml)
 
@@ -35,10 +34,13 @@ This cluster management service supports OpenShift 4 and makes it easy for Red H
 The following designs are under consideration for use in future releases of OpenShift and are not yet final.
 - [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/futures/breadcrumbs/breadcrumbs)
 - [Bulk Actions](http://openshift.github.io/openshift-origin-design/web-console/futures/bulk-actions/bulk-actions)
+- [Dashboard Errors](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/dashboard-errors/dashboard-errors)
 - [Empty States](http://openshift.github.io/openshift-origin-design/web-console/futures/empty-states/empty-states)
+- [OAuth Global Config](http://openshift.github.io/openshift-origin-design/web-console/futures/oauth/oauth)
 - [Project Favorites + Defaults](http://openshift.github.io/openshift-origin-design/web-console/futures/project-selector/project-selector)
 - [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/futures/quick-start-guide/quick-start-guide)
 - [Taints and Tolerations](http://openshift.github.io/openshift-origin-design/web-console/futures/taints-tolerations/taints-tolerations)
+- [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/futures/role-based-access-control/role-based-access-control)
 - [YAML Editor Updates](http://openshift.github.io/openshift-origin-design/web-console/futures/code-editor-updates/code-editor-updates)
 
 
