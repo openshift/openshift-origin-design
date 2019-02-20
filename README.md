@@ -39,6 +39,7 @@ The following designs are under consideration for use in future releases of Open
 - [OAuth Global Config](http://openshift.github.io/openshift-origin-design/web-console/futures/oauth/oauth)
 - [Project Favorites + Defaults](http://openshift.github.io/openshift-origin-design/web-console/futures/project-selector/project-selector)
 - [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/futures/quick-start-guide/quick-start-guide)
+- [Taints and Tolerations](http://openshift.github.io/openshift-origin-design/web-console/futures/taints-tolerations/taints-tolerations)
 - [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/futures/role-based-access-control/role-based-access-control)
 - [YAML Editor Updates](http://openshift.github.io/openshift-origin-design/web-console/futures/code-editor-updates/code-editor-updates)
 
