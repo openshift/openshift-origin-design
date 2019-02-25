@@ -1,6 +1,6 @@
 # OAuth Global Configuration
 
-- The [Global Configuration](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/global-config/global-config) list is shown as a tab on the [Cluster Settings](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/cluster-settings/cluster-settings) page.
+- The [Global Configuration](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/global-config/global-config) page can be found under the Administration section of the navigation.
 
 ![1](img/list.png)
 
