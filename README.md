@@ -1,5 +1,25 @@
+## OpenShift Designs - Post 4.0
+Access design documentation for features coming in future releases, post OpenShift 4.0.
+
+- [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/breadcrumbs/breadcrumbs)
+- [Chargeback](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/chargeback/chargeback)
+- [Machines](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/machines/machines)
+- [Nodes](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/nodes/nodes)
+- [OAuth Global Config](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/oauth/oauth)
+- [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/role-based-access-control/role-based-access-control)
+- [Taints and Tolerations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/taints-tolerations/taints-tolerations)
+- [YAML Editor Updates](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/code-editor-updates/code-editor-updates)
+
+## DevOps Perspective
+Access future design documentation specific to the DevOps perspective of OpenShift.
+
+
+## RHHI - Red Hat Hyperconverged Infrastructure
+Access future design documentation specific to the RHHI-related features in OpenShift.
+
+
 ## OpenShift 4.0 Designs
-Access documentation for specific sections by clicking on the links below
+Access design documentation for features slotted in the 4.0 release of OpenShift. Click links below for specific section details.
 
 - [Actions](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/actions/actions)
 - [Annotations](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/annotations/annotations)
@@ -32,53 +52,48 @@ This cluster management service supports OpenShift 4 and makes it easy for Red H
 
 ## Future Design Considerations
 The following designs are under consideration for use in future releases of OpenShift and are not yet final.
-- [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/futures/breadcrumbs/breadcrumbs)
-- [Bulk Actions](http://openshift.github.io/openshift-origin-design/web-console/futures/bulk-actions/bulk-actions)
-- [Dashboard Errors](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/dashboard-errors/dashboard-errors)
-- [Empty States](http://openshift.github.io/openshift-origin-design/web-console/futures/empty-states/empty-states)
-- [OAuth Global Config](http://openshift.github.io/openshift-origin-design/web-console/futures/oauth/oauth)
-- [Project Favorites + Defaults](http://openshift.github.io/openshift-origin-design/web-console/futures/project-selector/project-selector)
-- [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/futures/quick-start-guide/quick-start-guide)
-- [Taints and Tolerations](http://openshift.github.io/openshift-origin-design/web-console/futures/taints-tolerations/taints-tolerations)
-- [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/futures/role-based-access-control/role-based-access-control)
-- [YAML Editor Updates](http://openshift.github.io/openshift-origin-design/web-console/futures/code-editor-updates/code-editor-updates)
 
+- [Bulk Actions](http://openshift.github.io/openshift-origin-design/web-console/old/bulk-actions/bulk-actions)
+- [Dashboard Errors](http://openshift.github.io/openshift-origin-design/web-console/old/dashboard-errors/dashboard-errors)
+- [Empty States](http://openshift.github.io/openshift-origin-design/web-console/old/empty-states/empty-states)
+- [Project Favorites + Defaults](http://openshift.github.io/openshift-origin-design/web-console/old/project-selector/project-selector)
+- [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/old/quick-start-guide/quick-start-guide)
 
 ## OpenShift 3.10 Web Console
 
 1. Common Patterns
-	- [Masthead](./web-console/patterns/masthead.md)
-	- [Navigation](./web-console/patterns/navigation.md)
-	- [Notifications](./web-console/patterns/notifications.md)
-	- [Overlay Panel](./web-console/patterns/overlay-panel.md)
-	- [Order From Catalog](./web-console/patterns/order-from-catalog.md)
-	- [Wizard Results](./web-console/patterns/wizard-results.md)
-1. [Homepage](./web-console/homepage/homepage.md)
-	- [Catalog](./web-console/homepage/catalog.md)
-	- [SaaS Offerings](./web-console/homepage/offerings.md)
-	- [Project Panel](./web-console/homepage/project-panel.md)
-	- [Search and Filter](./web-console/homepage/search-filter.md)
-	- [View All Projects](./web-console/homepage/full-projects-list.md)
+	- [Masthead](./web-console/old/patterns/masthead.md)
+	- [Navigation](./web-console/old/patterns/navigation.md)
+	- [Notifications](./web-console/old/patterns/notifications.md)
+	- [Overlay Panel](./web-console/old/patterns/overlay-panel.md)
+	- [Order From Catalog](./web-console/old/patterns/order-from-catalog.md)
+	- [Wizard Results](./web-console/old/patterns/wizard-results.md)
+1. [Homepage](./web-console/old/homepage/homepage.md)
+	- [Catalog](./web-console/old/homepage/catalog.md)
+	- [SaaS Offerings](./web-console/old/homepage/offerings.md)
+	- [Project Panel](./web-console/old/homepage/project-panel.md)
+	- [Search and Filter](./web-console/old/homepage/search-filter.md)
+	- [View All Projects](./web-console/old/homepage/full-projects-list.md)
 1. Project Details
-	- [Add To Project](./web-console/project-details/add-to-project.md)
-	- [Create Binding](./web-console/project-details/binding-in-project.md)
-	- [Provisioned Services](./web-console/project-details/provisioned-services.md)
-		- [Overview](./web-console/project-details/provisioned-services-overview.md)
-		- [Details](./web-console/project-details/provisioned-service-details.md)
-	- [Deployments: Details](./web-console/project-details/deployment-details.md)
-	- [View Binding Details](./web-console/project-details/binding-details.md)
-	- [Add to Application](./web-console/project-details/add-to-application.md)
-	- [Quota Warnings](./web-console/project-details/quota-warnings.md)
-	- [Labels](./web-console/project-details/labels.md)
-	- [Jobs](./web-console/project-details/jobs.md)
-	- [In-project Catalog](./web-console/project-details/in-project-catalog.md)
-	- [Select Route to Display](./web-console/project-details/select-route.md)
-	- [Membership](./web-console/project-details/membership.md)
-	- [Edit YAML](./web-console/project-details/edit-yaml.md)
-	- [Storage Metrics](./web-console/project-details/storage-metrics.md)
-	- [PVC Expand](./web-console/project-details/pvc-expand.md)
+	- [Add To Project](./web-console/old/project-details/add-to-project.md)
+	- [Create Binding](./web-console/old/project-details/binding-in-project.md)
+	- [Provisioned Services](./web-console/old/project-details/provisioned-services.md)
+		- [Overview](./web-console/old/project-details/provisioned-services-overview.md)
+		- [Details](./web-console/old/project-details/provisioned-service-details.md)
+	- [Deployments: Details](./web-console/old/project-details/deployment-details.md)
+	- [View Binding Details](./web-console/old/project-details/binding-details.md)
+	- [Add to Application](./web-console/old/project-details/add-to-application.md)
+	- [Quota Warnings](./web-console/old/project-details/quota-warnings.md)
+	- [Labels](./web-console/old/project-details/labels.md)
+	- [Jobs](./web-console/old/project-details/jobs.md)
+	- [In-project Catalog](./web-console/old/project-details/in-project-catalog.md)
+	- [Select Route to Display](./web-console/old/project-details/select-route.md)
+	- [Membership](./web-console/old/project-details/membership.md)
+	- [Edit YAML](./web-console/old/project-details/edit-yaml.md)
+	- [Storage Metrics](./web-console/old/project-details/storage-metrics.md)
+	- [PVC Expand](./web-console/old/project-details/pvc-expand.md)
 1. Conceptual Designs
-	- [Mobile Integration](./web-console/conceptual-designs/mobile.md)
-	- [CNV Integration](./web-console/conceptual-designs/cnv.md)
-	- [Create Pull Secret](./web-console/conceptual-designs/pull-secret.md)
-	- [Topology View](./web-console/conceptual-designs/topology.md)
+	- [Mobile Integration](./web-console/old/conceptual-designs/mobile.md)
+	- [CNV Integration](./web-console/old/conceptual-designs/cnv.md)
+	- [Create Pull Secret](./web-console/old/conceptual-designs/pull-secret.md)
+	- [Topology View](./web-console/old/conceptual-designs/topology.md)
