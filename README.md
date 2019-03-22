@@ -1,4 +1,4 @@
-## OpenShift Designs - Post 4.0
+## OpenShift Designs 
 Access design documentation for features coming in future releases, post OpenShift 4.0.
 
 - [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/breadcrumbs/breadcrumbs)
@@ -10,8 +10,8 @@ Access design documentation for features coming in future releases, post OpenShi
 - [Taints and Tolerations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/taints-tolerations/taints-tolerations)
 - [YAML Editor Updates](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/code-editor-updates/code-editor-updates)
 
-## DevOps Perspective
-Access future design documentation specific to the DevOps perspective of OpenShift.
+## Developer Perspective
+Access future design documentation specific to the developer perspective of OpenShift.
 
 
 ## RHHI - Red Hat Hyperconverged Infrastructure
