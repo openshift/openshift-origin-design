@@ -19,10 +19,12 @@
 * The **Console Customizations** page should list out all instances of customizations with the columns `name`, `type`, and `created`.
 * The list of customizations should be filterable by name via text input, or by type via toggle filters.
 * _Open question:_ Is filtering actually necessary?
+
 ![customizations list](img/customizations-list.png)
 
 * Users will create new customizations by selecting the desired customization from the **Create** dropdown selector.
 * Specific customization options TBD.
+
 ![create selector](img/create-selector.png)
 
 * After selecting the customization from the dropdown selector, users will be presented with the YAML for that customization which they can then edit.
