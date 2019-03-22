@@ -12,7 +12,7 @@
 - The filter options are based on the possible status types: available, updating, failing, unknown.
 - The status column includes the following icons:
    - Available should use the pficon-ok	icon
-   - Updating should use the pficon-in-progress icon
+   - Updating should use the fa-refresh icon
    - Failing should use the pficon-error-circle-o	icon
    - Unknown should use the pficon-unknown icon
 - Message details can use up to two lines. Once a message exceeds two lines, the end should be truncated and users can click the cluster operator to see the full message.
@@ -24,10 +24,10 @@
 
 ## Overview
 
-![1](img/overview-up-to-date.png)
+![overview](img/overview.png)
 
 - The overview tab will always have a top highlighted area with remaining fields listed below.
-- The highlighted area shows the channel, update status, and version.
+- The highlighted area shows the channel, current version or last completed version, and update status.
 
 ### Channel
 
@@ -38,38 +38,36 @@
 
 ### Update Status
 
+The update status will be displayed in the box area beneath the tabs. Update information will be shown in both the `Current Version` box and the `Update Status` box.
+
 **Up to Date**
-![1](img/overview-up-to-date.png)
+![1](img/up-to-date.png)
 
-- For clusters on the latest version, the pficon-ok will be displayed to the left of the "Up to date" status.
-
-**Update in Progress**
-![2](img/overivew-updating.png)
-
-- For clusters on currently going through an update, the pficon-in-progress will be displayed to the left of the "Updating" status.
-- An informational inline notification will also appear at the top of the page telling the user the update is in progress.
-- The link at the end of the inline notification will bring users to the Cluster Operators tab where they can monitor progress more closely. 
-
-**Error Retrieving Updates**
-![3](img/overivew-error.png)
-
-- For clusters that failed to generate the update status, the pficon-error-circle-o will be displayed to the left of the "Error Retrieving" status.
-- A red error inline notification will also appear at the top of the page telling the user the system could not retrieve the updates.
+- For clusters on the latest version, the update status will be `Up to date` with a green pficon-ok displayed to the left.
 
 **Update Available**
-![4](img/overivew-has-update.png)
+![2](img/update-available.png)
 
-- For clusters with new updates available, a blue fa-arrow-circle-o-up will be displayed to the left of the "Update Available" link.
-- An informational inline notification will also appear at the top of the page telling the user the update is available with a link to "Update Now."
-- **Note** When an Update is available there will also be the same blue fa-arrow-circle-o-up icon in the masthead to inform users of this update. Clicking the icon will bring the user to this cluster settings overview page where they can take action.
+- For clusters with new updates available, the update status will be `Update available` with a blue fa-arrow-circle-o-up displayed to the left. A primary button will allow users to `Update now`.
 
-![5](img/overivew-has-update-2.png)
-
-- Clicking either link opens a modal with a dropdown of versions for the user to select from.
-- If users need documentation help regarding the versions, they can click the link in the instructions to view the release notes, which opens in a separate  window.
-- Once the user selects the version to update to, they can click save and the status should change shortly to in-progress.
-
-
-- If a user opens the about modal when an update is available, in addition to the blue masthead icon, users will get an inline notification below the "version" section to explain the update exists and link users directly to this cluster settings page to take action.
+![3](img/update-modal.png)
+- Clicking the `Update now` button opens a modal with a dropdown of versions for the user to select from.
+- If users need documentation help regarding the versions, they can click the link in the instructions to view the release notes, which opens in a separate window.
+- Once the user selects a new version, they can click Update to begin the update process.
+- **Note**: When an update is available there will also be the same blue fa-arrow-circle-o-up icon in the masthead to inform users of this update. Clicking the icon will bring the user to this cluster settings overview page where they can take action.
 
 ![about](img/upgrade.png)
+- If a user opens the about modal when an update is available, in addition to the blue masthead icon, users will get an inline notification below the Version section to explain an update exists and link users directly to the cluster settings page to take action.
+
+**Update in Progress**
+![4](img/update-in-progress.png)
+
+- For clusters with an update in progress, the update status will be `Working towards` and the new version. An fa-refresh icon will be displayed to the left. The percent completion will also be displayed here. The `View detailed progress` link will bring users to the Cluster Operators tab where they can monitor progress more closely.
+- The `Current Version` box will change to display `Last Completed Version`. Below the version, a link will allow users to update to another version. Clicking this link will open the modal with the dropdown of versions for the user to select from.
+
+
+**Error Retrieving Updates**
+![5](img/update-failing.png)
+
+- For clusters that are failing to update, the update status will be `Error retrieving` or a related error message, with a red pficon-error-circle-o displayed to the left. The `View detailed progress` link will bring users to the Cluster Operators tab where they can see details regarding the failure(s).
+- The `Current Version` box will continue to display the `Last Completed Version` with a link for users to update to another version.
