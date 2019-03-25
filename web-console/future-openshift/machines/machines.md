@@ -23,7 +23,7 @@
 - Clicking the `0 of 3 machines` link will bring users to the machines tab of the detail page, which has a filtered view of machines.
 
 ![5](img/Machine-Set-Details.png)
-- The overview tab will match the format of other detail pages with the addition of the pod detail box at the top of the page.
+- The overview tab will match the format of other detail pages with the addition of the machine detail box at the top of the page.
 - Users can scale the number of machines by clicking the edit action in the box.
 
 ## Machine Configs
@@ -41,4 +41,4 @@
 
 ![10](img/MCP-Details.png)
 - The machine config pool details page should include a link to all associated machine configs, as well as a filtered view of them on the machine configs tab.
-- The same detail box used at the top of the machine set detail pages should be used here, without the ability to edit. 
+- The same detail box used at the top of the machine set detail pages should be used here, without the ability to edit.
