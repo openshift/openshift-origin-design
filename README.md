@@ -1,4 +1,4 @@
-## OpenShift Designs 
+## OpenShift Designs
 Access design documentation for features coming in future releases, post OpenShift 4.0.
 
 - [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/breadcrumbs/breadcrumbs)
@@ -14,8 +14,8 @@ Access design documentation for features coming in future releases, post OpenShi
 Access future design documentation specific to the developer perspective of OpenShift.
 
 
-## RHHI - Red Hat Hyperconverged Infrastructure
-Access future design documentation specific to the RHHI-related features in OpenShift.
+## KNI and KubeVirt Designs
+Access future design documentation specific to the KNI and KubeVirt features in OpenShift.
 
 
 ## OpenShift 4.0 Designs
