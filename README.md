@@ -15,7 +15,22 @@ Access future design documentation specific to the developer perspective of Open
 
 
 ## KNI and KubeVirt Designs
-Access future design documentation specific to the KNI and KubeVirt features in OpenShift.
+Access design documentation specific to the KNI and KubeVirt features in OpenShift.
+
+### KNI (Kubernetes Native Infrastructure/OpenShift on Bare Metal)
+- Cluster Dashboard
+- Storage Dashboard
+- Add Bare Metal Host
+- Remove Bare Metal Host
+- Update Bare Metal Cluster
+
+### KubeVirt (Virtualization in OpenShift)
+- Create VM
+- Clone VM
+- Migrate VM
+- [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
+- VM Details
+- VM Console
 
 
 ## OpenShift 4.0 Designs
