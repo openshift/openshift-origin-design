@@ -1,4 +1,4 @@
-# Status Page
+# Showing Operators on Overview
 
 This documentation details how operators will be surfaced on the Status page. Rather than exposing CSV objects, the status page should now expose the CRs being managed by identified CSVs in designated groups.
 
