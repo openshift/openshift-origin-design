@@ -30,8 +30,15 @@
 
 ![customization yaml](img/customization-yaml.png)
 
+* Once the user has edited the example YAML, the create button will add the customization.
+
+![custom notification](img/custom-notification.png)
+
+* Users may edit or delete instances of customizations on the **Console Customizations** page.
+
 ### Multiple instances of customizations
 * Whether or not users may have multiple instances of a customization will be determined on a per customization basis.
   * For some customizations, like customizing the branding, it does not make sense to allow more than one option.
   * While for others, such as console notifications, it may be reasonable to have more than one.
 * Likewise, behavior and precedence will be determined per customization when there are multiple instances.
+ 
