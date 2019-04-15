@@ -3,6 +3,7 @@ Access design documentation for features coming in future releases, post OpenShi
 
 - [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/breadcrumbs/breadcrumbs)
 - [Chargeback](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/chargeback/chargeback)
+- [Command Line Tools](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/command-line-tools/command-line-tools)
 - [Machines](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/machines/machines)
 - [Nodes](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/nodes/nodes)
 - [OAuth Global Config](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/oauth/oauth)
