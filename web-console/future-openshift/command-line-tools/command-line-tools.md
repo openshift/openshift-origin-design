@@ -13,6 +13,7 @@ If users do not already have the `oc` command line tool, they can download the v
 ## Card view
 ![card](img/card-view.png)
 * When more tools are added, the command line tools page will be a full page card view. Each card will have the tool name, associated logo, and description.
+* **Note**: These descriptions are placeholder and will be reviewed and updated if and when the tools are added in future.
 
 ![panel](img/card-view-panel.png)
 * Users can click on a card to open the side panel and view more details about the command line tool.
