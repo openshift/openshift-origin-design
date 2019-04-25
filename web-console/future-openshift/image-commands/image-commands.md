@@ -14,7 +14,7 @@
 
 ![image stream prompt](img/image-stream-prompt.png)
 
-* Add the help prompt "Do you need to work with this Image Stream outside of OpenShift?" underneath the **Image Stream Overview** section.
+* Add the help prompt "Do you need to work with this Image Stream outside of the web console?" underneath the **Image Stream Overview** section.
 
 ![image stream popover ](img/image-stream-popover.png)
 
@@ -30,7 +30,7 @@
 
 ![image stream tag prompt](img/image-stream-tag-prompt.png)
 
-* Add the help prompt "Do you need to work with this image outside of OpenShift?" underneath the **Image Overview** section.
+* Add the help prompt "Do you need to work with this image outside of the web console?" underneath the **Image Overview** section.
 
 ![image stream popover ](img/image-stream-tag-popover.png)
 
