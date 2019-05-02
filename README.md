@@ -3,14 +3,17 @@ Access design documentation for features coming in future releases, post OpenShi
 
 - [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/breadcrumbs/breadcrumbs)
 - [Chargeback](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/chargeback/chargeback)
+- [Command Line Tools](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/command-line-tools/command-line-tools)
+- [Console Customizations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/console-customizations/console-customizations)
+- [Image Commands](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/image-commands/image-commands)
 - [Machines](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/machines/machines)
 - [Nodes](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/nodes/nodes)
 - [OAuth Global Config](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/oauth/oauth)
+- [Operators Overview](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/operators-overview/operators-overview)
 - [Pinning](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/pinning/pinning)
 - [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/role-based-access-control/role-based-access-control)
 - [Taints and Tolerations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/taints-tolerations/taints-tolerations)
 - [YAML Editor Updates](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/code-editor-updates/code-editor-updates)
-- [Console Customizations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/console-customizations/console-customizations)
 
 ## Developer Perspective
 Access future design documentation specific to the developer perspective of OpenShift.
