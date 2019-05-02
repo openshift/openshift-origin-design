@@ -4,15 +4,16 @@ Access design documentation for features coming in future releases, post OpenShi
 - [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/breadcrumbs/breadcrumbs)
 - [Chargeback](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/chargeback/chargeback)
 - [Command Line Tools](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/command-line-tools/command-line-tools)
+- [Console Customizations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/console-customizations/console-customizations)
+- [Image Commands](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/image-commands/image-commands)
 - [Machines](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/machines/machines)
 - [Nodes](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/nodes/nodes)
 - [OAuth Global Config](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/oauth/oauth)
 - [Operators Overview](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/operators-overview/operators-overview)
+- [Pinning](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/pinning/pinning)
 - [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/role-based-access-control/role-based-access-control)
 - [Taints and Tolerations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/taints-tolerations/taints-tolerations)
 - [YAML Editor Updates](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/code-editor-updates/code-editor-updates)
-- [Console Customizations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/console-customizations/console-customizations)
-- [Image Commands](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/image-commands/image-commands)
 
 ## Developer Perspective
 Access future design documentation specific to the developer perspective of OpenShift.
@@ -63,19 +64,12 @@ Access design documentation for features slotted in the 4.0 release of OpenShift
 - [YAML Editor](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/edit-yaml/edit-yaml)
 - [YAML Import](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/import-yaml/import-yaml)
 
-## Multi-Cluster Manager
-This cluster management service supports OpenShift 4 and makes it easy for Red Hat to offer applications that are built from, or run on top of, OpenShift Container Platform.
-- [View Clusters](http://openshift.github.io/openshift-origin-design/web-console/multi-cluster/uhc-clusters/uhc-clusters)
-- [Create Clusters](http://openshift.github.io/openshift-origin-design/web-console/multi-cluster/uhc-create-cluster/uhc-create-cluster)
-- [Trial Version](http://openshift.github.io/openshift-origin-design/web-console/multi-cluster/trial/trial)
-
 ## Future Design Considerations
 The following designs are under consideration for use in future releases of OpenShift and are not yet final.
 
 - [Bulk Actions](http://openshift.github.io/openshift-origin-design/web-console/old/bulk-actions/bulk-actions)
 - [Dashboard Errors](http://openshift.github.io/openshift-origin-design/web-console/old/dashboard-errors/dashboard-errors)
 - [Empty States](http://openshift.github.io/openshift-origin-design/web-console/old/empty-states/empty-states)
-- [Project Favorites + Defaults](http://openshift.github.io/openshift-origin-design/web-console/old/project-selector/project-selector)
 - [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/old/quick-start-guide/quick-start-guide)
 
 ## OpenShift 3.10 Web Console
