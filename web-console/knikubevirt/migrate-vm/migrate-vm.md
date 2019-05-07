@@ -1,6 +1,6 @@
 # Migrate VM
 
-Clicking the action button next to any Virtual Machine in the List will present the user with the option to migrate the VM to another host.
+Clicking the action button next to any Virtual Machine in the List will present the user with the option to migrate the VM to another node.
 
 ![Selecting a VM](img/1-0-list.png)
 
