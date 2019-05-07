@@ -6,9 +6,9 @@ Clicking the action button next to any Virtual Machine in the List will present 
 
 A modal will be presented where the user can choose which Node the VM should be migrated to. 
 
-![Modal view](img/1-1-modal-info.png)
-
 ![Modal migrate](img/1-2-modal-migrate.png)
+
+![Modal view](img/1-1-modal-info.png)
 
 After the migration is kicked off, the user will see a toast notification letting them know it has started. The state for the VM will also be reflected in the list view.
 
