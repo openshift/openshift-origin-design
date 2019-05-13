@@ -3,7 +3,7 @@
 ### Summary
 
 - VM-templates is located at the main side menu, in 'Workloads' under 'virtual machines'.
-- VM-templates displays a list view similar to VM list with minor changes in culoms and actions.
+- VM-templates displays a list view similar to VM list with minor changes in columns and actions.
 - From this List, the user can create a new template, create a virtual machine from a selected template, edit a selected template, or delete a selected template.
 - Clicking on a template will bring the user to the template’s Overview tab (TBD).
 Creating or editing a template will display a wizard similar to the “No Template state” wizard from Create VM but with slight adjustments.
