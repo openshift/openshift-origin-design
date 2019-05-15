@@ -26,24 +26,24 @@ TCP is connection oriented, whereas UDP (User Datagram Protocol) is connection-l
 UDP does not use acknowledgments at all, and is usually used for protocols where a few lost datagrams do not matter.
 
 
-![3 network types](img/Expose_04_b.png)
+![choosing protocols](img/Expose_04_b.png)
 
 The name is the only required field in the menu. All other parts can be predefined, meaning they will have a default value using kubernetes capabilities. 
 
 
-![3 network types](img/Expose_05a.png)
+![The service is now created](img/Expose_05a.png)
 
 The Service is ready for use. The user can see it in the services list
 
-![3 network types](img/Expose_05b.png)
+![The service is added to the list](img/Expose_05b.png)
 
 ## Expose From VM Page 
 
-![3 network types](img/Expose_06.png)
+![Expose from the VM page](img/Expose_06.png)
 
 The user would go through the same flow.
 The Service is ready for use,  and the user can see it in the services list. 
 ###Services on the Overview tab
-![Services](img/Expose_010Services.png)
+![Services on the overview tab](img/Expose_010Services.png)
 
 
