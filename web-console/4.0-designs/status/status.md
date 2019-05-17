@@ -49,3 +49,13 @@ Note: Icons should never be animated in a list view.
 * [Color](https://www.patternfly.org/styles/color-palette/)
   * **Black**: pf-black #030303
   * **Blue**: pf-blue-400 #0088CE (for links only)
+
+## Status Popovers
+
+If additional information about a status is available, a popover can be used to provide context and up to two suggested actions. Statuses with popovers should be styled in the same way as inline links to indicate interactivity.
+
+![Status popover in table](img/status-popover-table.png)
+
+Status popovers can include links, progress bars, and dynamically-updated content. Up to two contextual actions can be included in the footer of the popover.
+
+![Status popover examples](img/status-popover-examples.png)
