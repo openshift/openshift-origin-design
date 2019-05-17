@@ -52,7 +52,7 @@ Note: Icons should never be animated in a list view.
 
 ## Status Popovers
 
-If additional information about a status is available, a popover can be used to provide context and up to two suggested actions. Statuses with popovers should be styled in the same way as inline links to indicate interactivity.
+If additional information about a status is available, a popover should be used to provide context and up to two suggested actions. Statuses with popovers should be styled in the same way as inline links to indicate interactivity.
 
 ![Status popover in table](img/status-popover-table.png)
 
