@@ -10,10 +10,11 @@ A modal will be presented where the user can choose which Node the VM should be 
 
 ![Modal view](img/1-1-modal-info.png)
 
-After the migration is kicked off, the user will see a toast notification letting them know it has started. The state for the VM will also be reflected in the list view.
+After the migration is kicked off, the status of the VM showing that the migration has started will be reflected in the list view.
 
 ![Toast migration started](img/1-3-list-notification-started.png)
 
-On error or completion, the user will receive another notification with more details. Again, the state will be updated accordingly.
+On error or completion, the user will receive a toast notification. Again,the status will be updated accordingly.
+For a process that is not instantaneous, the user will be notified via toast when it completes. 
 
 ![Toast migration complete](img/1-4-list-notification-completed.png)
