@@ -64,7 +64,7 @@ Users can initiate the Create VM wizard from the actions menu of a VM template.
 
 ![Offline Template List View](img/1-3-1-create-template-from-template-list-modal.jpg)
 
-The template they choose is preselected and the Provision Source, OS, Flavor, and Workload Profiles are filled in. Refer to the Create VM Wizard for all other steps.
+The template they choose is preselected and the Provision Source, OS, Flavor, and Workload Profiles are filled in.
 
 
 
