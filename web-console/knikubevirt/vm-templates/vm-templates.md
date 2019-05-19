@@ -20,7 +20,7 @@ The user will be able to view a list of all templates that exist. From this list
 
 
 
-## Create template from primary button
+### Create template from primary button
 
 
 ![Offline Template List View](img/1-1-0-create-template.jpg)
@@ -44,6 +44,20 @@ Clicking “Create Template” will display a wizard similar to the “No Templa
 Everything else remains the same.
 
 
+## Create VM from template
+
+
+![Offline Template List View](img/1-3-0-create-template-from-template-list.jpg)
+
+Users can initiate the Create VM wizard from the actions menu of a VM template.
+
+![Offline Template List View](img/1-3-1-create-template-from-template-list-modal.jpg)
+
+The template they choose is preselected and the Provision Source, OS, Flavor, and Workload Profiles are filled in.
+
+After successfully working through the Create VM Template Wizard, user returns to the VM Templates page (no toast notifiaction).
+
+
 ## Create template from VM List
 
 
@@ -55,23 +69,12 @@ Users can also create templates based on existing VMs from the actions menu of a
 
 The VM they choose pre-fills the Provision Source, OS, Flavor, Workload Profile, and all other Networking, Storage, and Advanced settings of the Create Template wizard.
 
-## Create VM from another template
+[![Offline Template List View](img/1-2-2-create-template-from-vm-list-starting.jpg)
 
-
-![Offline Template List View](img/1-3-0-create-template-from-template-list.jpg)
-
-Users can initiate the Create VM wizard from the actions menu of a VM template.
-
-![Offline Template List View](img/1-3-1-create-template-from-template-list-modal.jpg)
-
-The template they choose is preselected and the Provision Source, OS, Flavor, and Workload Profiles are filled in.
+After successfully working through the Create VM Wizard, the user returns to VM list page.
 
 
 
-
-![Offline Template List View](img/1-2-2-create-template-from-vm-list-starting.jpg)
-
-After successfully working through the Create VM Wizard, the user would be taken to the Virtual Machine List View to show the new VM creation progress.
 
 ## Template details (coming soon)
 
