@@ -2,21 +2,8 @@
 
 The purpose of this document is to show what a VM would look like without the guest agent installed. 
 
-In the list view we show an “info” icon with the status with a tooltip that shows that the guest agent isn't installed. Further information can be provided in a tooltip.
-
-For the IP address, when the guest agent isn't installed, items will get “unavailable” text and a tooltip with more info on hover.
+In the list view we show the Running* status text in blue to indicate that it's clickabe. Clicking on it will show a popover with additional info and a "Learn more" action at the bottom-left corner, that would link to documentation about installing guest agent.
 
 ![vm list](img/guest-agent-1.png)
  
 ![vm list](img/guest-agent-2.png)
-
-![vm list](img/guest-agent-3.png)
-
-
-
-
-
-
-
-
-
