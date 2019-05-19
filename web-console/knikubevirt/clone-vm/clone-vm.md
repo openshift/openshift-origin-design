@@ -1,10 +1,10 @@
 # Clone VM
 
-![Offline VM in List View](img/3-0-vms.jpg)
+![Offline VM List View](img/3-0-vms.jpg)
 
 Cloning a VM allows the user to quickly create an identical copy of a virtual machine while powered off.
 
-![VM List View Clone option in kebab menu](img/3-1-vm-list.jpg)
+![VM List View - VM item in kebab menu options](img/3-1-vm-list.jpg)
 
 Cloning is accessed from the VM List View. all item filters should be turned off by default, ensuring that all VMs are shown to the user.
 
@@ -26,18 +26,19 @@ The user would then click “Clone Virtual Machine”.
 
 If the source VM fails to shut down properly, an error toast notification would be displayed. The user would then need to power off the VM manually and re-open the Clone modal to try again.
 
-![Clone VM started](img/3-4-0-vm-list-cloning.jpg)
+![VM item under cloning](img/3-4-0-vm-list-cloning.jpg)
 
-If the cloning process starts successfully, the newly-cloned VM will appear in the list and a toast notification will confirm that the cloning process has begun.
+If the cloning process starts successfully, the source VM will display a new status: "Off" icon followed by "Cloning (#%)".
 
-The clone's status should change to a spinner with a completion percentage next to it. The source VM's status should change to locked while it's being cloned. The clone does not have an IP address until after it boots.
+![Source VM popover](img/3-4-1-vm-list-cloning-source-popover.jpg)
+The VM status is clickable, displaying a popover specifying the upcoming clone name, progress bar and a "Stop Cloning" action
 
-If the “Transitioning” filter is inactive when the user clicks "Clone Virtual Machine", it should be activated automatically to ensure that the newly-cloned VM appears in the list. This filter matches all “in between” states, including powering up, shutting down, or paused.
+If the "In Process" filter is inactive when the user clicks "Clone Virtual Machine", it should be activated automatically to ensure that the newly-cloned VM appears in the list. This filter matches all “in between” states, including powering up, shutting down, or paused.
 
-![Clone VM Source Options](img/2-4-1-vm-list-cloning-source-options.png)
+![Source VM Options](img/3-4-2-vm-list-cloning-source-options.jpg)
 
-While the clone is in progress, the source VM's `Run` and `Delete` options are disabled. The user can still Edit the source VM's configuration (which will not be applied to the in-progress clone) or create another clone of the source VM.
+While the clone is in progress, the source VM's actions are all disabled, expect the clone which is doggled to `Stop Cloning`.
 
-![Clone VM Clone Options](img/2-4-2-vm-list-cloning-clone-options.png)
+![Stop Cloning confirmation modal](img/3-4-3-vm-list-cloning-source-stop.jpg)
 
-The in-progress clone only has one option available: to `Cancel cloning`. This will stop the cloning process and remove the clone from the VM list.
+'Stop Cloning' will be followed by a confirmation modal
