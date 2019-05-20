@@ -1,4 +1,4 @@
-# YAML Switcher and Samples
+# Resource Creation
 
 ## Overview
 * If a resource has a creation form (and YAML), the form will load on default.
@@ -8,6 +8,28 @@
 * Samples available in form will show a "Use this sample" button and will fill in form fields.
 * Changes made in YAML will be reflected when switching to form view, and vice versa.
   * An inline notification should appear on the form view notifying users that any additional fields they add in YAML will be saved.
+
+
+## Pages
+The follow documents which pages should have a YAML / form switcher and a samples panel. This list may be updated over time to reflect changes to our resource creation flows.
+
+**YAML / form switcher**
+* Create Key/Value Secret
+* Create Image Pull Secret
+* Create Source Secret
+* Create Webhook Secret
+* Create Route
+* Create Persistent Volume Claim
+* Create Storage Class
+
+**Samples**
+* Create Build Config
+* Create Resource Quota
+
+**Both switcher and samples**
+* Create Network Policy
+* Create Role
+* Create Rule
 
 
 ## Switcher
