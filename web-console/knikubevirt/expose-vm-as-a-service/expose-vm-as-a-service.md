@@ -7,7 +7,7 @@ In order for it to be actually useful, we need to bind it to a service.
 
 ![Expose From VM List](img/Expose_01.png)
 
-We added a new action called “Expose as Network Service”. Clicking on that will open the Expose as Network popup. 
+We added a new action called “Expose as Network Service”. Clicking on that will open the Expose as Network popup. IP is shown only if the Cluster IP is selected so it is a progressive disclosure case.
 
 ![Pop up](img/Expose_02.png)
 
