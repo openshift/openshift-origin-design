@@ -6,8 +6,10 @@
   * In the future, inline edit will be investigated as a way to allow users to edit fields in a form-like manner.
 * Samples available in YAML editor will show YAML code to be copied and pasted as well as a "Use this sample" button that will overwrite the YAML with the sample.
 * Samples available in form will show a "Use this sample" button and will fill in form fields.
-* Changes made in YAML will be reflected when switching to form view, and vice versa.
-  * An inline notification should appear on the form view notifying users that any additional fields they add in YAML will be saved.
+* If users switch from form view to YAML, they will not be able to switch back.
+  * In future, users may be allowed to switch back and forth using a toggle button.
+    * Changes made in YAML will be reflected when switching to form view, and vice versa.
+    * An inline notification should appear on the form view notifying users that any additional fields they add in YAML will be saved.
 
 
 ## Pages
@@ -37,12 +39,7 @@ The follow documents which pages should have a YAML / form switcher and a sample
 
 ![2](img/switcher-YAML.png)
 
-![3](img/switcher-form2.png)
-
-* When a resource has a creation form, users can switch back and forth between the YAML editor and the form using the toggle in the upper right hand corner.
-* Edits made in YAML will be reflected in form view and vice versa.
-* Users can add extra fields in YAML that do not necessarily have a related form field.
-  * An inline notification will be shown on the form view in these cases to inform users that their changes or additions to YAML will be saved.
+* When a resource has a creation form, users can switch to the YAML editor using the "Edit YAML" button in the upper right hand corner.
 
 
 ## Samples
