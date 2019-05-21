@@ -45,7 +45,7 @@ The hint pattern is similar to an informational inline notification, but with ad
 * There can optionally be external links within the body text
 * There can optionally be a primary action below the body text
 * Title, body text, and primary action are left aligned
-* For cases without a primary action, there can optionally be an X in the top right corner to dismiss the message
+* For cases without a primary action, there should be an X in the top right corner to dismiss the message.
 
 #### Colors
 * Font: `pf-blue-600`
@@ -82,4 +82,4 @@ There are two aspects of the Infopop pattern: the prompt and the popover.
 * If it is helpful to include a title, then the simple popover component may be used.
 * The content of the popover should be brief and instructive, informing users what information they need to accomplish the task without unnecessary background information.
 * A link to more comprehensive documentation can optionally be included.
-* The popover should not be the only source of data necessary to perform the task. In other words, an advanced user should be accomplish the task without needing to look at the popover.
+* The popover should not be the only source of data necessary to perform the task. In other words, an advanced user should be able to accomplish the task without needing to look at the popover.
