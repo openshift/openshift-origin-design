@@ -7,7 +7,7 @@ In order for it to be actually useful, we need to bind it to a service.
 
 ![Expose From VM List](img/Expose_01.png)
 
-We added a new action called “Expose as Network Service”. Clicking on that will open the Expose as Network popup. IP is shown only if the Cluster IP is selected so it is a progressive disclosure case.
+We added a new action called “Expose as Network Service”. Clicking on that will open the Expose as Network popup.
 
 ![Pop up](img/Expose_02.png)
 
@@ -16,7 +16,8 @@ We added a new action called “Expose as Network Service”. Clicking on that w
 The user can select between 3 Network Service types:
 -  Cluster IP (Default) - Exposing the VM to inside the Cluster 
 -  Load Balancer - Exposing the VM to the Internet 
--  Node Port - Exposes the Service to the Internet on the same port of each selected Node in the Cluster  
+-  Node Port - Exposes the Service to the Internet on the same port of each selected Node in the Cluster 
+Depending on which Type is chosen, then options will change (f.e. some indented options are only required when certain options are selected from the dropdown).
 
 ![3 Network types](img/Expose_04a.png)
 
