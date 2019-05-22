@@ -59,7 +59,7 @@ Access design documentation for features slotted in the 4.0 release of OpenShift
 - Status Page
   * [Overview](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/overview/overview)
   * [Dashboard](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/dashboard/dashboard)
-- [Resource Statuses](./web-console/4.0-designs/status/status)
+- [Resource Statuses](./web-console/4.0-designs/status/status.md)
 - [Resource Quota](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/resource-quota/resource-quota)
 - [Storage](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/storage/storage)
 - [User Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/user/user)
