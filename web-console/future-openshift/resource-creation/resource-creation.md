@@ -12,28 +12,6 @@
     * An inline notification should appear on the form view notifying users that any additional fields they add in YAML will be saved.
 
 
-## Pages
-The follow documents which pages should have a YAML / form switcher and a samples panel. This list may be updated over time to reflect changes to our resource creation flows.
-
-**YAML / form switcher**
-* Create Key/Value Secret
-* Create Image Pull Secret
-* Create Source Secret
-* Create Webhook Secret
-* Create Route
-* Create Persistent Volume Claim
-* Create Storage Class
-
-**Samples**
-* Create Build Config
-* Create Resource Quota
-
-**Both switcher and samples**
-* Create Network Policy
-* Create Role
-* Create Rule
-
-
 ## Switcher
 ![1](img/switcher-form.png)
 
@@ -70,3 +48,25 @@ The follow documents which pages should have a YAML / form switcher and a sample
 * Samples in form view will show a “Use this sample” button.
   * Clicking “Use this sample” will overwrite the fields in the form with the sample data.
 * When the sample panel is closed on form view, it will show the floating “View samples” link in the upper right hand corner.
+
+
+## Pages
+The follow documents which pages should have a YAML / form switcher and a samples panel. This list may be updated over time to reflect changes to our resource creation flows.
+
+**YAML / form switcher**
+* Create Key/Value Secret
+* Create Image Pull Secret
+* Create Source Secret
+* Create Webhook Secret
+* Create Route
+* Create Persistent Volume Claim
+* Create Storage Class
+
+**Samples**
+* Create Build Config
+* Create Resource Quota
+
+**Both switcher and samples**
+* Create Network Policy
+* Create Role
+* Create Rule
