@@ -1,7 +1,7 @@
 # Contextual Help
 The OpenShift web console has a couple of unique ways of giving users help, in addition to standard patterns like Field Level Help. The purpose of this document is to provide information about the Hint Pattern and the Infopop pattern, as well as guidance as to when it's appropriate to use each pattern.
 
-To provide contextual help about a status field (e.g. Error, Migrating, Cloning, etc.), the [Status Popover pattern](./web-console/4.0-designs/status/status.md#status-popover) should be used.
+To provide contextual help about a status field (e.g. Error, Migrating, Cloning, etc.), the [Status Popover pattern](/web-console/4.0-designs/status/status.md#status-popover) should be used.
 
 ## General Guidelines
 * Help should clarify or provide guidance on information/data already present in the UI.
@@ -62,7 +62,7 @@ The hint pattern is similar to an informational inline notification, but with ad
 ## Infopop Pattern
 The infopop pattern is a means of providing help on particular use cases in the UI. It is similar to Field Level Help, but rather than defining items in the UI, the infopop should instruct users how to use information/data that’s already shown in the UI to accomplish tasks which may not be obvious, or which may need to happen outside of the UI.
 
-The [Status Popover pattern](./web-console/4.0-designs/status/status.md#status-popover) utilizes the Infopop pattern when a status field contains additional information that could be helpful to the user.
+The [Status Popover pattern](/web-console/4.0-designs/status/status.md#status-popover) utilizes the Infopop pattern when a status field contains additional information that could be helpful to the user.
 
 ### Potential Use Cases
 
