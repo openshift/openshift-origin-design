@@ -19,6 +19,8 @@ When displaying status in the console, use the appropriate icon for the associat
 | pficon-unknown<br>![unknown](img/pficon-unknown.png) | Unknown |
 | fa-ban<br>![ban](img/fa-ban.png) | Expired<br>Cancelled<br>Not Ready<br>Terminating |
 | fa-refresh<br>![running](img/fa-refresh.png) | Running |
+| pficon-off<br>![offline](img/pficon-off.png) | Off<br>Offline |
+| pficon-maintenance<br>![maintenance](img/pficon-maintenance.png) | Under Maintenance |
 | fa-hourglass-1<br>![new](img/fa-hourglass-1.png) | New |
 | fa-hourglass-half<br>![pending](img/fa-hourglass-half.png) | Pending |
 
