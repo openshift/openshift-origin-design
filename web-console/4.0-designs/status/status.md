@@ -49,3 +49,17 @@ Note: Icons should never be animated in a list view.
 * [Color](https://www.patternfly.org/styles/color-palette/)
   * **Black**: pf-black #030303
   * **Blue**: pf-blue-400 #0088CE (for links only)
+
+## Status Popovers
+
+If additional information about a status is available, a popover should be used to provide context and one or more suggested actions. This is based on the [Infopop pattern](/web-console/future-openshift/contextual-help/contextual-help.md#infopop-pattern) that can be used to provide contextual help in other areas of the console.
+
+Statuses with popovers should be styled in the same way as inline link buttons to indicate interactivity.
+
+![Status popover in table](img/status-popover-table.png)
+
+Status popovers can include internal links, external links (with an external link icon), progress bars, and dynamically-updated content.
+
+Contextually relevant actions should generally be placed within the footer of the popover, but can be included within the body when it makes sense to do so.
+
+![Status popover examples](img/status-popover-examples.png)
