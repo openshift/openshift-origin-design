@@ -183,6 +183,7 @@ A description of each profile should appear in an info tooltip next to the field
 
 ## Step 2: Networking
 ## Step 3: Storage
-## Step 4: Review
+## Step 4: Advanced
+## Step 5: Review
 
 
