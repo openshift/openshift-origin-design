@@ -8,6 +8,6 @@ If this PR fixes an [issue](https://github.com/openshift/openshift-origin-design
 
 Optional team mentions (include any are related to this PR):
 
-@openshift/team-ux-review (Core UX team)
+@openshift/team-ux-review (Admin Console UX team)
 @openshift/team-devconsole-ux (Dev Console UX team)
 @openshift/team-kni-ux (KNI & KubeVirt UX team)
