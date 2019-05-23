@@ -42,6 +42,7 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 - [Link between PVC and VM Disk](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/link-between-PVC-VMdisk/link-between-PVC-VMdisk)
 - [Migrate VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/migrate-vm/migrate-vm)
 - [Create VM](web-console/knikubevirt/create-vm/create-vm)
+- [Create VM](web-console/knikubevirt/create-vm/create-vm.md)
 - Clone VM
 - Migrate VM
 - [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
