@@ -31,6 +31,17 @@ Access design documentation for features coming in future releases, post OpenShi
 - [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/role-based-access-control/role-based-access-control)
 - [YAML Editor Updates](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/code-editor-updates/code-editor-updates)
 
+<<<<<<< HEAD
+=======
+### KubeVirt (Virtualization in OpenShift)
+- Create VM
+- Clone VM
+- [Migrate VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/migrate-vm/migrate-vm)
+- [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
+- [VM Templates](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-templates/vm-templates)
+- [VM Details] (http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-details/vm-details)
+- VM Console
+>>>>>>> migrate vm update
 
 ## OpenShift 4.0 Designs
 Access design documentation for features slotted in the 4.0 release of OpenShift. Click links below for specific section details.
