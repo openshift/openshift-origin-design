@@ -1,21 +1,21 @@
 ## OpenShift Designs
 Access design documentation for features coming in future releases, post OpenShift 4.0.
 
-- [Breadcrumbs](web-console/future-openshift/breadcrumbs/breadcrumbs)
-- [Chargeback](web-console/future-openshift/chargeback/chargeback)
-- [Command Line Tools](web-console/future-openshift/command-line-tools/command-line-tools)
-- [Console Customizations](web-console/future-openshift/console-customizations/console-customizations)
-- [Contextual Help](web-console/future-openshift/contextual-help/contextual-help)
-- [Dashboards](web-console/future-openshift/dashboards/dashboards)
-- [Image Commands](web-console/future-openshift/image-commands/image-commands)
-- [Machines](web-console/future-openshift/machines/machines)
-- [Nodes](web-console/future-openshift/nodes/nodes)
-- [OAuth Global Config](web-console/future-openshift/oauth/oauth)
-- [Operators Overview](web-console/future-openshift/operators-overview/operators-overview)
-- [Pinning](web-console/future-openshift/pinning/pinning)
-- [Role Based Access Control](web-console/future-openshift/role-based-access-control/role-based-access-control)
-- [Taints and Tolerations](web-console/future-openshift/taints-tolerations/taints-tolerations)
-- [YAML Editor Updates](web-console/future-openshift/code-editor-updates/code-editor-updates)
+- [Breadcrumbs](web-console/future-openshift/breadcrumbs/breadcrumbs.md)
+- [Chargeback](web-console/future-openshift/chargeback/chargeback.md)
+- [Command Line Tools](web-console/future-openshift/command-line-tools/command-line-tools.md)
+- [Console Customizations](web-console/future-openshift/console-customizations/console-customizations.md)
+- [Contextual Help](web-console/future-openshift/contextual-help/contextual-help.md)
+- [Dashboards](web-console/future-openshift/dashboards/dashboards.md)
+- [Image Commands](web-console/future-openshift/image-commands/image-commands.md)
+- [Machines](web-console/future-openshift/machines/machines.md)
+- [Nodes](web-console/future-openshift/nodes/nodes.md)
+- [OAuth Global Config](web-console/future-openshift/oauth/oauth.md)
+- [Operators Overview](web-console/future-openshift/operators-overview/operators-overview.md)
+- [Pinning](web-console/future-openshift/pinning/pinning.md)
+- [Role Based Access Control](web-console/future-openshift/role-based-access-control/role-based-access-control.md)
+- [Taints and Tolerations](web-console/future-openshift/taints-tolerations/taints-tolerations.md)
+- [YAML Editor Updates](web-console/future-openshift/code-editor-updates/code-editor-updates.md)
 
 ## Developer Perspective
 Access future design documentation specific to the developer perspective of OpenShift.
@@ -33,11 +33,11 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 
 ### KubeVirt (Virtualization in OpenShift)
 - Create VM
-- [Clone VM] (web-console/knikubevirt/clone-vm/clone-vm)
-- [Migrate VM](web-console/knikubevirt/migrate-vm/migrate-vm)
-- [Guest Agent not Installed] (web-console/knikubevirt/guest-agent-not-installed/guest-agent-not-installed)
-- [VM List](web-console/knikubevirt/vm-list/vm-list)
-- [VM Templates] (web-console/knikubevirt/vm-templates/vm-templates)
+- [Clone VM](web-console/knikubevirt/clone-vm/clone-vm.md)
+- [Migrate VM](web-console/knikubevirt/migrate-vm/migrate-vm.md)
+- [Guest Agent not Installed](web-console/knikubevirt/guest-agent-not-installed/guest-agent-not-installed.md)
+- [VM List](web-console/knikubevirt/vm-list/vm-list.md)
+- [VM Templates](web-console/knikubevirt/vm-templates/vm-templates.md)
 - VM Details
 - VM Console
 
@@ -45,36 +45,36 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 ## OpenShift 4.0 Designs
 Access design documentation for features slotted in the 4.0 release of OpenShift. Click links below for specific section details.
 
-- [Actions](web-console/4.0-designs/actions/actions)
-- [Annotations](web-console/4.0-designs/annotations/annotations)
-- [Binding](/web-console/4.0-designs/binding/binding)
-- [Cluster Settings](web-console/4.0-designs/cluster-settings/cluster-settings)
-- [Containers](web-console/4.0-designs/containers/containers)
-- [Deploy Image](web-console/4.0-designs/deploy-image/deploy-image)
-- [Environment](web-console/4.0-designs/environment/environment)
-- [Forms](web-console/4.0-designs/forms/forms)
-- [Global Configuration](web-console/4.0-designs/global-config/global-config)
-- [Help Menu](web-console/4.0-designs/help-menu/help-menu)
-- [Labels](web-console/4.0-designs/labels/labels)
-- [Navigation](web-console/4.0-designs/navigation/navigation)
-- [Object Details](web-console/4.0-designs/object-details/object-details)
+- [Actions](web-console/4.0-designs/actions/actions.md)
+- [Annotations](web-console/4.0-designs/annotations/annotations.md)
+- [Binding](/web-console/4.0-designs/binding/binding.md)
+- [Cluster Settings](web-console/4.0-designs/cluster-settings/cluster-settings.md)
+- [Containers](web-console/4.0-designs/containers/containers.md)
+- [Deploy Image](web-console/4.0-designs/deploy-image/deploy-image.md)
+- [Environment](web-console/4.0-designs/environment/environment.md)
+- [Forms](web-console/4.0-designs/forms/forms.md)
+- [Global Configuration](web-console/4.0-designs/global-config/global-config.md)
+- [Help Menu](web-console/4.0-designs/help-menu/help-menu.md)
+- [Labels](web-console/4.0-designs/labels/labels.md)
+- [Navigation](web-console/4.0-designs/navigation/navigation.md)
+- [Object Details](web-console/4.0-designs/object-details/object-details.md)
 - Status Page
-  * [Overview](web-console/4.0-designs/overview/overview)
-  * [Dashboard](web-console/4.0-designs/dashboard/dashboard)
+  * [Overview](web-console/4.0-designs/overview/overview.md)
+  * [Dashboard](web-console/4.0-designs/dashboard/dashboard.md)
 - [Resource Statuses](./web-console/4.0-designs/status/status.md)
-- [Resource Quota](web-console/4.0-designs/resource-quota/resource-quota)
-- [Storage](web-console/4.0-designs/storage/storage)
-- [User Menu](web-console/4.0-designs/user/user)
-- [YAML Editor](web-console/4.0-designs/edit-yaml/edit-yaml)
-- [YAML Import](web-console/4.0-designs/import-yaml/import-yaml)
+- [Resource Quota](web-console/4.0-designs/resource-quota/resource-quota.md)
+- [Storage](web-console/4.0-designs/storage/storage.md)
+- [User Menu](web-console/4.0-designs/user/user.md)
+- [YAML Editor](web-console/4.0-designs/edit-yaml/edit-yaml.md)
+- [YAML Import](web-console/4.0-designs/import-yaml/import-yaml.md)
 
 ## Future Design Considerations
 The following designs are under consideration for use in future releases of OpenShift and are not yet final.
 
-- [Bulk Actions](web-console/old/bulk-actions/bulk-actions)
-- [Dashboard Errors](web-console/old/dashboard-errors/dashboard-errors)
-- [Empty States](web-console/old/empty-states/empty-states)
-- [Quick Start Guide](web-console/old/quick-start-guide/quick-start-guide)
+- [Bulk Actions](web-console/old/bulk-actions/bulk-actions.md)
+- [Dashboard Errors](web-console/old/dashboard-errors/dashboard-errors.md)
+- [Empty States](web-console/old/empty-states/empty-states.md)
+- [Quick Start Guide](web-console/old/quick-start-guide/quick-start-guide.md)
 
 ## OpenShift 3.10 Web Console
 
