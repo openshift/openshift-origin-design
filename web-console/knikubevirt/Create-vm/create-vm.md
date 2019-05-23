@@ -44,12 +44,18 @@ Template automatically loads the first (alphabetical) template and fills in the 
 
 Every template should be shown within the Template dropdown. If the selected template will not be able to run on the cluster (because the CPU family is incompatible or a Machine Type is unavailable) a warning message should be shown with a link to relevant documentation.
 
+### Template modified
+
+![template error](img/Step-1-basic-template-4.png)
+
+When a template has been modified the template field will reflect this by appending -modified to the template name.
+
 ### No Template State
 
 ![No template](img/Step-1-basic-no-template-chosen.png)
 
 
-If no templates are available the Templates field should be disabled with inner text of “No templates available”.
+If no templates are available the Templates field should be disabled with inner text of “No template available”.
 
 Because a Provision Source has not been chosen, the OS, Flavor, and Workload Profile dropdowns should be disabled.
 
@@ -59,21 +65,21 @@ As soon as the OS, Flavor, or Workload profile fields are modified, the “Creat
 
 ### Import
 
-![Import](img/Step-1-basic-import-1.png)
+![Import](img/Step-1-basic-import-0.png)
 
 Virtual machines can be imported from a curated list of supported providers.
 
 #### VMware vCenter
 
-![VMware](img/Step-1-basic-import-2.png)
+![VMware](img/Step-1-basic-import-1.png)
 
 The user chooses Import as the Provision Source and then selects VMware as the Provider.
 
-![vCenter](img/Step-1-basic-import-3.png)
+![vCenter](img/Step-1-basic-import-2.png)
 
 If VMware is chosen, a new “vCenter instance” field appears. The user clicks it to see a list of previously-connected vCenter instances that have been stored as Kubernetes Secrets. The user selects one.
 
-![vCenter-2](img/Step-1-basic-import-4.png)
+![vCenter-2](img/Step-1-basic-import-3.png)
 
 When a vCenter instance is selected, the first (alphabetical) virtual machine along with its OS, Flavor, and Workload Profile are automatically selected and filled in but remain disabled.
 
@@ -93,7 +99,7 @@ New fields for vCenter URL, vCenter Username, vCenter Password, and VM to import
 
 The vCenter URL field should include a syntax hint with the desired formatting. The user is likely to paste a variety of URLs, so any FQDN the user submits should be validated and automatically corrected before being used to communicate with vCenter’s API.
 
-When the user clicks the “Check” button a text string appears below the button with a spinner to indicate that the credentials are being checked.
+When the user clicks the “Check” button an spinner icon appears within the button to indicate that the credentials are being checked.
 
 ![vcenter connected](img/Step-1-basic-import-8.png)
 
