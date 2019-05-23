@@ -2,7 +2,7 @@
 
 ## Launching the Wizard
 
-![Create VM](img/create-vm.png)
+![Create VM](img/Create-vm.png)
 
 When no virtual machines exist, the Virtual Machines section of the UI will include quick access to the Create Virtual Machine wizard in its empty state.
 
@@ -21,12 +21,28 @@ Once a name is provided the user can create the VM via the "Create virtual machi
 
 If the user modifies the OS, Flavor, or Workload profile, the “Create new template from configuration” checkbox will no longer be disabled.
 
-## States
-### No Namespace State
+
+## Fields
+
+## Namespace field
 
 ![No namespace](img/Step-1-basic-namespace.png)
 
 If the user initializes this wizard while viewing “All Projects” without a specific namespace selected, a new required Namespace field should appear above the template dropdown.
+
+## Template Field
+
+### Template selected
+
+![template chosen](img/Step-1-basic-template.png)
+
+Template automatically loads the first (alphabetical) template and fills in the Provision Source, Operating System, Flavor, and Workload Profile. Only Flavor can be changed by the user between the template-defined default (Medium in this case) or Custom.
+
+### Template error
+
+![template error](img/Step-1-basic-template-2.png)
+
+Every template should be shown within the Template dropdown. If the selected template will not be able to run on the cluster (because the CPU family is incompatible or a Machine Type is unavailable) a warning message should be shown with a link to relevant documentation.
 
 ### No Template State
 
@@ -38,17 +54,6 @@ If no templates are available the Templates field should be disabled with inner 
 Because a Provision Source has not been chosen, the OS, Flavor, and Workload Profile dropdowns should be disabled.
 
 As soon as the OS, Flavor, or Workload profile fields are modified, the “Create new template from configuration” checkbox will no longer be disabled.
-## Fields
-
-### Template Field
-
-![template chosen](img/Step-1-basic-template.png)
-
-Template automatically loads the first (alphabetical) template and fills in the Provision Source, Operating System, Flavor, and Workload Profile. Only Flavor can be changed by the user between the template-defined default (Medium in this case) or Custom.
-
-![template error](img/Step-1-basic-template-2.png)
-
-Every template should be shown within the Template dropdown. If the selected template will not be able to run on the cluster (because the CPU family is incompatible or a Machine Type is unavailable) a warning message should be shown with a link to relevant documentation.
 
 ## Provision Source Field
 
