@@ -1,21 +1,21 @@
 ## OpenShift Designs
 Access design documentation for features coming in future releases, post OpenShift 4.0.
 
-- [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/breadcrumbs/breadcrumbs)
-- [Chargeback](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/chargeback/chargeback)
-- [Command Line Tools](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/command-line-tools/command-line-tools)
-- [Console Customizations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/console-customizations/console-customizations)
-- [Contextual Help](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/contextual-help/contextual-help)
-- [Dashboards](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/dashboards/dashboards)
-- [Image Commands](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/image-commands/image-commands)
-- [Machines](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/machines/machines)
-- [Nodes](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/nodes/nodes)
-- [OAuth Global Config](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/oauth/oauth)
-- [Operators Overview](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/operators-overview/operators-overview)
-- [Pinning](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/pinning/pinning)
-- [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/role-based-access-control/role-based-access-control)
-- [Taints and Tolerations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/taints-tolerations/taints-tolerations)
-- [YAML Editor Updates](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/code-editor-updates/code-editor-updates)
+- [Breadcrumbs](web-console/future-openshift/breadcrumbs/breadcrumbs)
+- [Chargeback](web-console/future-openshift/chargeback/chargeback)
+- [Command Line Tools](web-console/future-openshift/command-line-tools/command-line-tools)
+- [Console Customizations](web-console/future-openshift/console-customizations/console-customizations)
+- [Contextual Help](web-console/future-openshift/contextual-help/contextual-help)
+- [Dashboards](web-console/future-openshift/dashboards/dashboards)
+- [Image Commands](web-console/future-openshift/image-commands/image-commands)
+- [Machines](web-console/future-openshift/machines/machines)
+- [Nodes](web-console/future-openshift/nodes/nodes)
+- [OAuth Global Config](web-console/future-openshift/oauth/oauth)
+- [Operators Overview](web-console/future-openshift/operators-overview/operators-overview)
+- [Pinning](web-console/future-openshift/pinning/pinning)
+- [Role Based Access Control](web-console/future-openshift/role-based-access-control/role-based-access-control)
+- [Taints and Tolerations](web-console/future-openshift/taints-tolerations/taints-tolerations)
+- [YAML Editor Updates](web-console/future-openshift/code-editor-updates/code-editor-updates)
 
 ## Developer Perspective
 Access future design documentation specific to the developer perspective of OpenShift.
@@ -33,9 +33,11 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 
 ### KubeVirt (Virtualization in OpenShift)
 - Create VM
-- Clone VM
-- Migrate VM
-- [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
+- [Clone VM] (web-console/knikubevirt/clone-vm/clone-vm)
+- [Migrate VM](web-console/knikubevirt/migrate-vm/migrate-vm)
+- [Guest Agent not Installed] (web-console/knikubevirt/guest-agent-not-installed/guest-agent-not-installed)
+- [VM List](web-console/knikubevirt/vm-list/vm-list)
+- [VM Templates] (web-console/knikubevirt/vm-templates/vm-templates)
 - VM Details
 - VM Console
 
@@ -43,36 +45,36 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 ## OpenShift 4.0 Designs
 Access design documentation for features slotted in the 4.0 release of OpenShift. Click links below for specific section details.
 
-- [Actions](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/actions/actions)
-- [Annotations](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/annotations/annotations)
-- [Binding](http://openshift.github.io/openshift-origin-design//web-console/4.0-designs/binding/binding)
-- [Cluster Settings](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/cluster-settings/cluster-settings)
-- [Containers](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/containers/containers)
-- [Deploy Image](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/deploy-image/deploy-image)
-- [Environment](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/environment/environment)
-- [Forms](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/forms/forms)
-- [Global Configuration](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/global-config/global-config)
-- [Help Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/help-menu/help-menu)
-- [Labels](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/labels/labels)
-- [Navigation](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/navigation/navigation)
-- [Object Details](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/object-details/object-details)
+- [Actions](web-console/4.0-designs/actions/actions)
+- [Annotations](web-console/4.0-designs/annotations/annotations)
+- [Binding](/web-console/4.0-designs/binding/binding)
+- [Cluster Settings](web-console/4.0-designs/cluster-settings/cluster-settings)
+- [Containers](web-console/4.0-designs/containers/containers)
+- [Deploy Image](web-console/4.0-designs/deploy-image/deploy-image)
+- [Environment](web-console/4.0-designs/environment/environment)
+- [Forms](web-console/4.0-designs/forms/forms)
+- [Global Configuration](web-console/4.0-designs/global-config/global-config)
+- [Help Menu](web-console/4.0-designs/help-menu/help-menu)
+- [Labels](web-console/4.0-designs/labels/labels)
+- [Navigation](web-console/4.0-designs/navigation/navigation)
+- [Object Details](web-console/4.0-designs/object-details/object-details)
 - Status Page
-  * [Overview](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/overview/overview)
-  * [Dashboard](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/dashboard/dashboard)
+  * [Overview](web-console/4.0-designs/overview/overview)
+  * [Dashboard](web-console/4.0-designs/dashboard/dashboard)
 - [Resource Statuses](./web-console/4.0-designs/status/status.md)
-- [Resource Quota](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/resource-quota/resource-quota)
-- [Storage](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/storage/storage)
-- [User Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/user/user)
-- [YAML Editor](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/edit-yaml/edit-yaml)
-- [YAML Import](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/import-yaml/import-yaml)
+- [Resource Quota](web-console/4.0-designs/resource-quota/resource-quota)
+- [Storage](web-console/4.0-designs/storage/storage)
+- [User Menu](web-console/4.0-designs/user/user)
+- [YAML Editor](web-console/4.0-designs/edit-yaml/edit-yaml)
+- [YAML Import](web-console/4.0-designs/import-yaml/import-yaml)
 
 ## Future Design Considerations
 The following designs are under consideration for use in future releases of OpenShift and are not yet final.
 
-- [Bulk Actions](http://openshift.github.io/openshift-origin-design/web-console/old/bulk-actions/bulk-actions)
-- [Dashboard Errors](http://openshift.github.io/openshift-origin-design/web-console/old/dashboard-errors/dashboard-errors)
-- [Empty States](http://openshift.github.io/openshift-origin-design/web-console/old/empty-states/empty-states)
-- [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/old/quick-start-guide/quick-start-guide)
+- [Bulk Actions](web-console/old/bulk-actions/bulk-actions)
+- [Dashboard Errors](web-console/old/dashboard-errors/dashboard-errors)
+- [Empty States](web-console/old/empty-states/empty-states)
+- [Quick Start Guide](web-console/old/quick-start-guide/quick-start-guide)
 
 ## OpenShift 3.10 Web Console
 
