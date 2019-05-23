@@ -63,28 +63,29 @@ As soon as the OS, Flavor, or Workload profile fields are modified, the “Creat
 
 Virtual machines can be imported from a curated list of supported providers.
 
-#### VMWare vCenter
+#### VMware vCenter
 
-![VMWare](img/Step-1-basic-import-2.png)
+![VMware](img/Step-1-basic-import-2.png)
 
-The user chooses Import as the Provision Source and then selects VMWare as the Provider.
+The user chooses Import as the Provision Source and then selects VMware as the Provider.
 
 ![vCenter](img/Step-1-basic-import-3.png)
 
-If VMWare is chosen, a new “vCenter instance” field appears. The user clicks it to see a list of previously-connected vCenter instances that have been stored as Kubernetes Secrets. The user selects one.
+If VMware is chosen, a new “vCenter instance” field appears. The user clicks it to see a list of previously-connected vCenter instances that have been stored as Kubernetes Secrets. The user selects one.
 
 ![vCenter-2](img/Step-1-basic-import-4.png)
 
 When a vCenter instance is selected, the first (alphabetical) virtual machine along with its OS, Flavor, and Workload Profile are automatically selected and filled in but remain disabled.
 
-![vCenter Connection issues](img/Step-1-basic-import-5.png)
+![vCenter Connection issues](img/Step-1-basic-import-4.png)
 
 If the wizard cannot connect to the vCenter instance using the credentials stored within its Secret, an error message will be displayed. The user will need to fix the Secret’s credentials before continuing.
 
 
-![vCenter new instance](img/Step-1-basic-import-6.png)
+![vCenter new instance](img/Step-1-basic-import-5.png)
 
-The user can also connect to a new vCenter instance by clicking Connect to new instance from within the dropdown.
+The user can also connect to a new vCenter instance by clicking `Connect to new instance` from within the dropdown.
+![Check credentials](img/Step-1-basic-import-6.png)
 
 ![Checking credentials](img/Step-1-basic-import-7.png)
 
@@ -94,12 +95,9 @@ The vCenter URL field should include a syntax hint with the desired formatting. 
 
 When the user clicks the “Check” button a text string appears below the button with a spinner to indicate that the credentials are being checked.
 
-If the wizard fails to connect to vCenter using the provided credentials, an error similar to the one above for an invalid vCenter instance should be displayed directly below the vCenter Password field.
-
-
 ![vcenter connected](img/Step-1-basic-import-8.png)
 
-If the connection to vCenter succeeds, the first (alphabetical) VM along with its OS, Flavor, and Workload Profile are automatically selected and filled in as usual. The “Remember vCenter credentials” checkbox also becomes enabled to allow the user to save them as a new Kubernetes Secret.
+If the connection to vCenter succeeds, the user can choose from the available VMs. The “Remember vCenter credentials” checkbox also becomes enabled to allow the user to save them as a new Kubernetes Secret.
 
 With the target virtual machine selected, the user can either quickly skip to Step 5 “Review” by clicking the “Import Virtual Machine” secondary action button, or click “Next” to proceed through the rest of the wizard.
 
