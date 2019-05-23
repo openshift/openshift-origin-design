@@ -17,7 +17,7 @@ The first (alphabetical) template is selected by default if available. Provision
 
 The “Start virtual machine on creation” checkbox will do exactly that. The “Create new template from configuration” checkbox will be enabled if the user changes the Provision Source, OS, Flavor, or Workload Profile fields.
 
-The “Create Virtual Machine” button will be enabled once the user adds a name. Clicking this button will immediately bring them to the “Review” step and initiate the creation/import process.
+Once a name is provided the user can create the VM via the "create virtual machine" action. Clicking this button will immediately bring them to the “Review” step and initiate the creation/import process.
 
 If the user modifies the OS, Flavor, or Workload profile, the “Create new template from configuration” checkbox will no longer be disabled.
 
