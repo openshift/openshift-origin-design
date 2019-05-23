@@ -38,8 +38,9 @@ If no templates are available the Templates field should be disabled with inner 
 Because a Provision Source has not been chosen, the OS, Flavor, and Workload Profile dropdowns should be disabled.
 
 As soon as the OS, Flavor, or Workload profile fields are modified, the “Create new template from configuration” checkbox will no longer be disabled.
+## Fields
 
-## Template
+### Template Field
 
 ![template chosen](img/Step-1-basic-template.png)
 
@@ -49,7 +50,7 @@ Template automatically loads the first (alphabetical) template and fills in the 
 
 Every template should be shown within the Template dropdown. If the selected template will not be able to run on the cluster (because the CPU family is incompatible or a Machine Type is unavailable) a warning message should be shown with a link to relevant documentation.
 
-## Provision Sources
+## Provision Source Field
 
 ### Import
 
@@ -136,7 +137,7 @@ PXE enables the user to install an OS and configure it over a network. PXE depen
 
 If a PXE-capable NIC cannot be found, one will be automatically created with the name “PXE” and selected by default.
 
-## Operating System field
+## Operating System Field
 
 Recommended minor version editing
 
@@ -154,7 +155,7 @@ The latest recommended version should be pre-selected.
 
 If the user changes the minor OS version to something else, a warning appears with a link to relevant documentation about what functionality may not be supported in earlier versions of the OS.
 
-## Flavor field
+## Flavor Field
 
 ![Flavour](img/Step-1-basic-Flavour.png)
 
@@ -168,7 +169,7 @@ The user can choose from four flavors:
 
 The “Custom” flavor allows the user to define Memory and vCPU manually.
 
-## Workload Profile
+## Workload Profile Field
 
 ![OS](img/Step-1-basic-workload-profile.png)
 
