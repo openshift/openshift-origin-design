@@ -34,7 +34,7 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 ### KubeVirt (Virtualization in OpenShift)
 - Create VM
 - Clone VM
-- Migrate VM
+- [Migrate VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/migrate-vm/migrate-vm)
 - [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
 - VM Details
 - VM Console
