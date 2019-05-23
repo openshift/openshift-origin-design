@@ -13,7 +13,7 @@ When no virtual machines exist, the Virtual Machines section of the UI will incl
 
 The wizard has 5 steps: Basic, Networking, Storage, Advanced, and Review.
 
-The first (alphabetical) template is selected by default if available. Provision Source, Operating System, Flavor, and Workload Profile are pre-filled by the template, but only Flavor can be modified between either the predefined option or Custom. The user can switch to a different template, or choose a top-most “None” option to not use a template at all.
+The first (alphabetical) template is selected by default if available. Provision Source, Operating System, Flavor, and Workload Profile are pre-filled by the template, but only Flavor can be modified between either the predefined option or custom. The user can switch to a different template, or choose the top-most “None” option to not use a template at all.
 
 The “Start virtual machine on creation” checkbox will do exactly that. The “Create new template from configuration” checkbox will be enabled if the user changes the Provision Source, OS, Flavor, or Workload Profile fields.
 
