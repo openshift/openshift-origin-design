@@ -17,7 +17,7 @@ The first (alphabetical) template is selected by default if available. Provision
 
 The “Start virtual machine on creation” checkbox will do exactly that. The “Create new template from configuration” checkbox will be enabled if the user changes the Provision Source, OS, Flavor, or Workload Profile fields.
 
-Once a name is provided the user can create the VM via the "create virtual machine" action. Clicking this button will immediately bring them to the “Review” step and initiate the creation/import process.
+Once a name is provided the user can create the VM via the "Create virtual machine" action. Clicking this button will immediately bring them to the “Review” step and initiate the creation/import process.
 
 If the user modifies the OS, Flavor, or Workload profile, the “Create new template from configuration” checkbox will no longer be disabled.
 
@@ -26,7 +26,7 @@ If the user modifies the OS, Flavor, or Workload profile, the “Create new temp
 
 ![No namespace](img/Step-1-basic-namespace.png)
 
-If the user initializes this wizard while viewing “All Projects” without a specific Namespace selected, a new required Namespace field should appear above the template dropdown.
+If the user initializes this wizard while viewing “All Projects” without a specific namespace selected, a new required Namespace field should appear above the template dropdown.
 
 ### No Template State
 
@@ -39,7 +39,7 @@ Because a Provision Source has not been chosen, the OS, Flavor, and Workload Pro
 
 As soon as the OS, Flavor, or Workload profile fields are modified, the “Create new template from configuration” checkbox will no longer be disabled.
 
-## template
+## Template
 
 ![template chosen](img/Step-1-basic-template.png)
 
@@ -136,9 +136,9 @@ PXE enables the user to install an OS and configure it over a network. PXE depen
 
 If a PXE-capable NIC cannot be found, one will be automatically created with the name “PXE” and selected by default.
 
-## Operating System
+## Operating System field
 
-Recommended minor operating system version
+Recommended minor version editing
 
 ![OS](img/Step-1-basic-Operating-system-1.png)
 
@@ -146,7 +146,7 @@ Only major version numbers are shown in the OS dropdown. The user selects one.
 
 ![OS minor version](img/Step-1-basic-Operating-system-2.png)
 
-In situations where the minor OS version could be important (like versions of RHHI), a new dropdown for the minor version should appear next to the major version dropdown.
+In situations where the minor OS version could be important (like versions of RHEL), a new dropdown for the minor version should appear next to the major version dropdown.
 
 The latest recommended version should be pre-selected.
 
@@ -154,18 +154,17 @@ The latest recommended version should be pre-selected.
 
 If the user changes the minor OS version to something else, a warning appears with a link to relevant documentation about what functionality may not be supported in earlier versions of the OS.
 
-## Flavour
+## Flavor field
 
 ![Flavour](img/Step-1-basic-Flavour.png)
 
 The user can choose from four flavors:
 
-Small - 2 vCPU, 4 GB Memory
-Medium - 4 vCPU, 8 GB Memory
-Large - 8 vCPU, 16 GB Memory
-Custom
-
-(Note: There’s also a “tiny” flavor by default as well?)
+* Small - 2 vCPU, 4 GB Memory
+* Medium - 4 vCPU, 8 GB Memory
+* Large - 8 vCPU, 16 GB Memory
+* Custom
+* Tiny (default)
 
 The “Custom” flavor allows the user to define Memory and vCPU manually.
 
@@ -175,11 +174,9 @@ The “Custom” flavor allows the user to define Memory and vCPU manually.
 
 The user can choose from three workload profiles:
 
-High Performance
-Server
-Desktop
-
-A description of each profile should appear in an info tooltip next to the field.
+* High Performance
+* Server
+* Desktop
 
 ## Step 2: Networking
 ## Step 3: Storage
