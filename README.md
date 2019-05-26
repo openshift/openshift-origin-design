@@ -36,6 +36,7 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 - Clone VM
 - Migrate VM
 - [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
+- [VM Templates](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-templates/vm-templates)
 - VM Details
 - VM Console
 
