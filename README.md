@@ -52,6 +52,7 @@ Access design documentation for features slotted in the 4.0 release of OpenShift
 - [Environment](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/environment/environment)
 - [Forms](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/forms/forms)
 - [Global Configuration](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/global-config/global-config)
+- [Guset Agent Not Installed](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/guest-agent-not-installed/guest-agent-not-installed)
 - [Help Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/help-menu/help-menu)
 - [Labels](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/labels/labels)
 - [Navigation](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/navigation/navigation)
