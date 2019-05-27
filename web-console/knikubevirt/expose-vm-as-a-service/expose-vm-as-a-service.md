@@ -1,22 +1,22 @@
 # Expose VM as a Network Service
 
-The user should be able to expose VM as a Network Service. This means that they would be exposing some of the ports on its default interface to the cluster internally or to the outside world.
+The user should be able to expose VM as a Service. This means that they would be exposing some of the ports on its default interface to the cluster internally or to the outside world.
 In order for it to be actually useful, we need to bind it to a service.
 
 ## Expose From VM List
 
 ![Expose From VM List](img/Expose_01.png)
 
-We added a new action called “Expose as Network Service”. Clicking on that will open the Expose as Network popup.
+We added a new action called “Expose as Service”. Clicking on that will open the Expose as Service popup.
 
 ![Pop up](img/Expose_02.png)
 
 ![Pop up open types](img/Expose_03.png)
 
-The user can select between 3 Network Service types:
+The user can select between 3 Service types:
 -  Cluster IP (Default) - Exposing the VM to inside the Cluster 
 -  Load Balancer - Exposing the VM to the Internet 
--  Node Port - Exposes the Service to the Internet on the same port of each selected Node in the Cluster 
+-  Node Port - Exposes the Service to the Internet on the same port of each selected Node in the Cluster
 Depending on which Type is chosen, then options will change (f.e. some indented options are only required when certain options are selected from the dropdown).
 
 ![3 Network types](img/Expose_04a.png)
