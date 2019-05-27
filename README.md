@@ -16,7 +16,7 @@ Access design documentation for features coming in future releases, post OpenShi
 - [YAML Editor Updates](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/code-editor-updates/code-editor-updates)
 
 ## Developer Perspective
-Access future design documentation specific to the developer perspective of OpenShift.
+[Access future design documentation specific to the developer perspective of OpenShift.](http://openshift.github.io/openshift-origin-design/web-console/developer/developer)
 
 
 ## KNI and KubeVirt Designs
