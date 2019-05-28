@@ -34,7 +34,12 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 - Update Bare Metal Cluster
 
 ### KubeVirt (Virtualization in OpenShift)
-- [Create VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/create-vm/create-vm.md) 
+- Create VM 
+	- [Step 1 - General](web-console/knikubevirt/create-vm/create-vm.md)
+	- [Step 2 - Networking]
+	- [Step 3 - Storage]
+	- [Step 4 - Advanced]
+	- [Step 5 - Review]
 - Clone VM
 - Migrate VM
 - [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
