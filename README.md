@@ -13,6 +13,7 @@ Access design documentation for features coming in future releases, post OpenShi
 - [OAuth Global Config](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/oauth/oauth)
 - [Operators Overview](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/operators-overview/operators-overview)
 - [Pinning](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/pinning/pinning)
+- [Resource Statuses](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/status/status)
 - [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/role-based-access-control/role-based-access-control)
 - [Taints and Tolerations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/taints-tolerations/taints-tolerations)
 - [YAML Editor Updates](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/code-editor-updates/code-editor-updates)
@@ -59,7 +60,6 @@ Access design documentation for features slotted in the 4.0 release of OpenShift
 - Status Page
   * [Overview](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/overview/overview)
   * [Dashboard](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/dashboard/dashboard)
-- [Resource Statuses](./web-console/4.0-designs/status/status.md)
 - [Resource Quota](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/resource-quota/resource-quota)
 - [Storage](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/storage/storage)
 - [User Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/user/user)
