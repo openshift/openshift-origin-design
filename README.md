@@ -37,6 +37,7 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 - Migrate VM
 - [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
 - VM Details
+- [VM Snapshots](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/snapshots/snapshots)
 - VM Console
 
 
