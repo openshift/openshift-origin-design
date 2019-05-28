@@ -32,14 +32,15 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 - Update Bare Metal Cluster
 
 ### KubeVirt (Virtualization in OpenShift)
+- [Clone VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/clone-vm/clone-vm)
 - Create VM
-- Clone VM
+- Expose Secret, CM and SA as Disks
 - [Expose VM as a Service](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/expose-vm-as-a-service/expose-vm-as-a-service)
-- Migrate VM
+- Link between PVC and VM Disk
+- [Migrate VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/migrate-vm/migrate-vm)
 - [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
 - VM Details
 - VM Console
-
 
 ## OpenShift 4.0 Designs
 Access design documentation for features slotted in the 4.0 release of OpenShift. Click links below for specific section details.
