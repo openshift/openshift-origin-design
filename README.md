@@ -40,7 +40,6 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 - Link between PVC and VM Disk
 - [Migrate VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/migrate-vm/migrate-vm)
 - [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
-- [VM Sservices in overview](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/services-in-overview/services-in-overview)
 - VM Details
 - VM Console
 
