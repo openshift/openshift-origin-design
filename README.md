@@ -35,10 +35,12 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 - Create VM
 - Clone VM
 - [Migrate VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/migrate-vm/migrate-vm)
+- Expose Secret, CM and SA as Disks
+- [Expose VM as a Service](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/expose-vm-as-a-service/expose-vm-as-a-service)
+- Link between PVC and VM Disk
 - [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
 - VM Details
 - VM Console
-
 
 ## OpenShift 4.0 Designs
 Access design documentation for features slotted in the 4.0 release of OpenShift. Click links below for specific section details.
