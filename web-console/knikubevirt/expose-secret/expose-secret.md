@@ -27,7 +27,7 @@ The "Add to Workload" kebab menu action brings up the "Add to Workload" modal.
 
 ![add to workload popup open dropdown](img/add-to-workload-popup-open-dropdown.png)
 
-In Open Shift, there were two ways for attaching Secrets or Config Maps to a workload: 1) as an environment variable 2) as a volume.
+In OpenShift, there were two ways for attaching Secrets or Config Maps to a workload: 1) as an environment variable 2) as a volume.
 We added a third option to support VMs that is called “Disk”. This option will be available only when selecting a VM in the workload dropdown.
 
 ![add as disk open dropdown](img/add-as-open-dropdown.png)
