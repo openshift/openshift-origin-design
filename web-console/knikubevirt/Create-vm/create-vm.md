@@ -64,6 +64,7 @@ As soon as the OS, Flavor, or Workload profile fields are modified, the “Creat
 ## Provision Source Field
 
 ### Import
+Provision source tooltip content: Pull a virtual machine from a supported provider.
 
 ![Import](img/Step-1-basic-import-0.png)
 
@@ -108,7 +109,8 @@ If the connection to vCenter succeeds, the user can choose from the available VM
 With the target virtual machine selected, the user can either quickly skip to Step 5 “Review” by clicking the “Import Virtual Machine” secondary action button, or click “Next” to proceed through the rest of the wizard.
 
 
-### ISO
+### ISO (this is not implemented yet, but is planned)
+Provision source tooltip content: Use an optical disk image that contains installation media for an operating system.
 
 ![ISO](img/Step-1-basic-ISO.png)
 
@@ -118,33 +120,37 @@ ISO enables the user to install an Operating System from existing installation m
 
 The user must select an ISO and then manually specify the OS, Flavor, and Workload Profile. None of those fields can be automatically pre-filled.
 
-### Image
-
-![Image](img/Step-1-basic-Image-1.png)
-
-Image enables the user to deploy an appliance or OS from an existing OVF file from ContainerDisk.
-
-![Image selected](img/Step-1-basic-Image-2.png)
-
-With an OVF selected, the OS is automatically filled and locked. The user will still need to choose a Flavor and Workload Profile, and can customize the image via cloud-init.
-
-### Appliance
-
-![appliance](img/Step-1-basic-appliance-1.png)
-
-Appliance enables the user to deploy an appliance or OS from an existing Appliance within ContainerDisk.
-
-![appliance selected](img/Step-1-basic-appliance-2.png)
-
-With an appliance selected, the OS is automatically filled in and locked. The user will still need to choose a Flavor and Workload Profile.
 
 ### PXE
+Provision source tooltip content: Discover provisionable virtual machines over the network.
 
 ![PXE](img/Step-1-basic-PXE-1.png)
 
 PXE enables the user to install an OS and configure it over a network. PXE depends on DHCP to find the PXE Server on an L2 Network. If one is detected, it will automatically be selected in the Networking step (see Networking section) and a note will be displayed below Provision Source.
 
 If a PXE-capable NIC cannot be found, one will be automatically created with the name “PXE” and selected by default.
+
+### URL
+Provision source tooltip content: An external URL to the .iso, .img, .qcow2 or .raw that the virtual machine should be created from.
+
+![URL](img/Step-1-basic-url.png)
+
+
+### Container
+Provision source tooltip content: Ephemeral virtual machine disk image which will be pulled from container registry.
+
+Container allows the user to provide an image from container registry.
+
+The user must provide a container image and then manually specify the OS, Flavor, and Workload Profile. None of those fields can be automatically pre-filled.
+
+![Container](img/Step-1-basic-container.png)
+
+### Cloned Disk
+Provision source tooltip content: Select an existing disk in the storage step.
+
+When selecting Cloned disk the user will be prompted to select their existing disk in the storage step. They must manually specify the OS, Flavor, and Workload Profile. None of those fields can be automatically pre-filled.
+
+![cloned-disk](img/Step-1-basic-cloned-disk.png)
 
 ## Operating System Field
 
