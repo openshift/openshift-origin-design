@@ -25,8 +25,6 @@ In the disks field, the user will be able to decide if to include all disks or j
 Any virtual machine that has a snapshot in progress will show this in the state:
 When in this progress mode all actions would be disabled and the “Stop snapshot” would be available.
 
-![Offline Snapshotting status indication](img/1-07.jpg)
-A toast notification alerts that the snapshot process is complete
 
 ## VM page - snapshots tab
 
@@ -47,8 +45,7 @@ Clicking on the kebab menu on each row will open an action menu with several opt
 - Delete
 ![Offline Snapshot tab - restoring action](img/2-04.jpg)
 Restoring VM from snapshot modal. When clicking the restore option in the action menu it opens the restore popup. I tried keeping the restore popup similar to the cloning and template popups.
-![Offline Snapshot tab - vm restored from snapshot](img/2-05.jpg)
-After the restore process is finished, a toast notification will appear saying if the restore was finished properly and will offer the user to start or edit the VM.
+
 
 ## Scheduled snapshots
 
