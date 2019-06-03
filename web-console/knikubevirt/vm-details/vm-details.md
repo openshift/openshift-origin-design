@@ -16,53 +16,56 @@ TBD - should be inline with the rest of Openshift.
 
 ## Network Interfaces
 
-![VM-network intefaces](img/2-0-0.jpg)
+![VM-network intefaces - add NIC](img/2-0-0.jpg)
 This is Network Interfaces tab.
 
 
-![VM - add NIC](img/2-1-0.jpg)
-New NICs cannot be saved until the user fills out all required fields/dropdowns (including Name). The new NIC should always appear at the top of the list until the user saves it.
+![VM - add NIC modal](img/2-0-1.jpg)
+Default modal. The user is notified that activating this upcoming NIC requires a VM restart. 
 
-![VM - add NIC modal - default](img/2-2-0.jpg)
-The user can either cancel adding/modifying a NIC or confirm changes by clicking the primary action button.
+![VM - add NIC modal - filled in](img/2-0-2.jpg)
+User can choose between adding NIC only, or add NIC and restart VM to make it active.
 
+![VM - new NIC](img/2-0-3.jpg)
+The new NIC should always appear at the top of the list until the user saves it. The new nic will have a'Pending VM restart' Link state (as a status).
 
-![VM - network intefaces - restart VM notification](img/2-3-0.jpg)
+![VM - New NIC - popover](img/2-0-4.jpg)
+Hover on that link state (status) will display more details with a 'Restart VM action in a popover.
 
-![VM - network intefaces - restart VM notification](img/2-4-0.jpg)
-
-![VM - network intefaces - restart VM notification](img/2-5-0.jpg)
-
+![VM - pendign changes notification - view changes](img/2-0-5.jpg)
 Whenever a NIC has been added or modified in a way that requires the VM to be restarted, an inline notification should appear below the tab area reminding the user to do so. This notification should persist across all tab views, including the Overview (shown previously).
+
+![VM - pendign changes notification - view changes modal](img/2-0-6.jpg)
+Changes pending VM restart can be viewed in a dedictaed modal.
+
+### Edit NIC
+
+![VM - NIC item action options](img/2-1-0.jpg)
+
+![VM - Edit NIC modal](img/2-1-1.jpg)
+
+![VM - Edit NIC saved changes](img/2-1-2.jpg)
 
 
 ## Disks
 
-![VM](img/1-0-0.png)
-The flow for disks is very similar to NICs.
+![VM - Disks tab - adding disk](img/3-0-0.jpg)
+The flow for disks is similar to NIC.
+however, adding or rediting a disk do not require VM restart.
 
-### Add disk
-
-Note: The create/edit flow of this area and Network Interfaces is still being actively worked on. See Matt Carleton’s Storage Step doc to see current progress within the Create VM flow, which will probably be very similar to what gets designed here.
-
-![VM](img/1-0-0.png)
+![VM - add disk modal](img/3-1-0.jpg)
 The user clicks “Add Disk”. Like adding a new NIC, the new disk with blank fields is prepended at the top of the list. The confirm button is disabled.
 
-![VM](img/1-0-0.png)
+![VM - disk list item actions](img/3-2-0.jpg)
 The user edits each input and clicks the confirm button to finish. The new disk is added to the list and is sorted alphabetically.
 
-### Edit disk
+The user can edit or delete a list item from its kebab menu for each list item and clicks “Edit Disk.
 
-![VM](img/1-0-0.png)
-The user clicks the kebab and clicks “Edit Disk”.
-
-![VM](img/1-0-0.png)
-They make adjustments and hit the confirm button to save.
 
 
 ## Snapshots
 
-WIP available here
+Has a dedicated PR [here](https://github.com/openshift/openshift-origin-design/pull/183)
 
 
 ## Events
@@ -71,30 +74,30 @@ TBD
 
 ## Consoles
 
-![VM](img/5-0-0.png)
+![VM - console tab -default](img/4-0-0.jpg)
 The Consoles tab allows the user to connect an in-browser or desktop-based Graphical and/or Serial console to the virtual machine.
 
-![VM](img/5-1-0.png)
-The user can change the console type using the dropdown selector. Serial (SPICE) is selected by default and disabled in the dropdown. Graphical (RDP/VNC) open in separate windows, designated by the fa-external-link icon.
+![VM - console dropdown options](img/4-1-0.jpg)
+The user can change the console type using the dropdown selector. 'Graphical (VNC)' is selected by default. Any currently selected option is disabled in the dropdown. 'Graphical (RDP/VNC)' open in separate windows, designated by the fa-external-link icon.
 
 Two actions are available on the right-hand side. The “Open in window” action opens a separate browser window dedicated to the console view. The “Expand” action makes the console viewport fill the current window’s full width and height similar to elsewhere in OKD. The “Send Key” dropdown is disabled.
 
-The user can start a console session using either the primary Connect action button in the content area or the secondary Connect button next to the console dropdown selector.
+The user can start a console session using either the primary 'Connect' action button in the content area or the secondary 'Connect' button next to the console dropdown selector.
 
 
 ### Connecting from a powered off state
 
-![VM](img/5-2-0.png)
-If the virtual machine is powered off, the primary action button will allow the user to both start and connect to the virtual machine with one click. If the user wants to power the virtual machine on without connecting a console (an unlikely use case while in this view) they can use the Actions dropdown in the top-right as usual.
+![VM - Serial (SPICE)](img/4-2-0.jpg)
+If the virtual machine is powered off, the primary action button will allow the user to both start and connect to the virtual machine with one click. If the user wants to power the virtual machine on without connecting a console (an unlikely use case while in this view) they can use the actions dropdown in the top-right as usual.
 
 
-![VM](img/5-3-0.png)
+![VM - connecting to VM](img/4-3-0.jpg)
 While the virtual machine is powering on, the console selector dropdown should be disabled to “lock in” the intended console. When the virtual machine finishes powering on, the console will be connected.
 
 
 ### Sending keys
 
-![VM](img/5-4-0.png)
+![VM - Send key dropdown options](img/4-4-0.jpg)
 
 
 The “Send Key” dropdown helps the user send keyboard shortcuts that would ordinarily be captured by the user’s client operating system. The options available will depend on the VM that is running.
@@ -104,12 +107,9 @@ For reference: RHEV “Send Key” options
 
 ### Remote connection settings
 
-![VM](img/5-5-0.png)
+![VM - Remove conection settings](img/4-5-0.jpg)
 
 If the user prefers to connect to a VM using their own desktop client or Remote Desktop Viewer, they can find the port and configuration information they need by clicking the “Remote Connection settings” link to reveal a modal.
 
 
-
-![VM](img/5-6-0.png)
-
-
+![VM - Remove conection settings modal](img/4-6-0.jpg)
