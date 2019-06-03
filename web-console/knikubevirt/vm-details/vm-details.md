@@ -9,7 +9,7 @@ The user clicks a VM’s name from the list view and is taken to that VM’s Ove
 The user sees detailed information about the VM’s configuration.
 
 
-## TAML
+## YAML
 
 TBD - should be inline with the rest of Openshift.
 
