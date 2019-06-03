@@ -146,11 +146,21 @@ The user must provide a container image and then manually specify the OS, Flavor
 ![Container](img/Step-1-basic-container.png)
 
 ### Cloned Disk
-Provision source tooltip content: Select an existing disk in the storage step.
+Provision source tooltip content: Select an existing disk or upload a new one.
 
-When selecting Cloned disk the user will be prompted to select their existing disk in the storage step. They must manually specify the OS, Flavor, and Workload Profile. None of those fields can be automatically pre-filled.
+When selecting Cloned disk the user will be prompted to either select an available disk or upload a new one. They must manually specify the OS, Flavor, and Workload Profile. None of those fields can be automatically pre-filled.
 
 ![cloned-disk](img/Step-1-basic-cloned-disk.png)
+
+![cloned-disk-selected](img/Step-1-basic-cloned-disk-selected.png)
+
+When selecting `Upload new disk` they will be able to browse their local file system to add a new disk.
+
+![cloned-disk-upload](img/Step-1-basic-cloned-disk-upload.png)
+
+Once the disk is selected they will be notified that the disk is will begin upload when the virtual machine is created.
+
+![cloned-disk-upload-message](img/Step-1-basic-cloned-disk-upload-message.png)
 
 ## Operating System Field
 
