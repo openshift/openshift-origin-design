@@ -7,6 +7,7 @@ Access design documentation for features coming in future releases, post OpenShi
 - [Console Customizations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/console-customizations/console-customizations)
 - [Contextual Help](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/contextual-help/contextual-help)
 - [Dashboards](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/dashboards/dashboards)
+- [Diagnostics](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/diagnostics/diagnostics)
 - [Image Commands](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/image-commands/image-commands)
 - [Machines](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/machines/machines)
 - [Nodes](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/nodes/nodes)

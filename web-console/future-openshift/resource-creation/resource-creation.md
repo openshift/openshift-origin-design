@@ -2,7 +2,7 @@
 
 ## Overview
 * If a resource has a creation form (and YAML), the form will load on default.
-  * After the resource is created, users can edit the resource in YAML only.
+  * Users can edit a resource the same way it was created. If editing in a form view, the "Edit YAML" link will be available to edit the YAML directly. If there is no creation form for a resource, it can be edited in YAML only.
   * In the future, inline edit will be investigated as a way to allow users to edit fields in a form-like manner.
 * Samples available in YAML editor will show YAML code to be copied and pasted as well as a "Use this sample" button that will overwrite the YAML with the sample.
 * Samples available in form will show a "Use this sample" button and will fill in form fields.
