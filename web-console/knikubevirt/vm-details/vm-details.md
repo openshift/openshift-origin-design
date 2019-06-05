@@ -11,7 +11,7 @@ The user sees detailed information about the VM’s configuration.
 
 ## YAML
 
-TBD - should be inline with the rest of Openshift.
+Should be inline with the rest of Openshift. Can be seen [here](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/code-editor-updates/code-editor-updates)
 
 
 ## Network Interfaces
@@ -27,16 +27,16 @@ Default modal. The user is notified that activating this upcoming NIC requires a
 User can choose between adding NIC only, or add NIC and restart VM to make it active.
 
 ![VM - new NIC](img/2-0-3.jpg)
-The new NIC should always appear at the top of the list until the user saves it. The new nic will have a'Pending VM restart' Link state (as a status).
+The new NIC should always appear at the top of the list until the user restarts it. The new nic will have a'Pending VM restart' Link state (as a status).
 
 ![VM - New NIC - popover](img/2-0-4.jpg)
 Hover on that link state (status) will display more details with a 'Restart VM action in a popover.
 
-![VM - pendign changes notification - view changes](img/2-0-5.jpg)
+![VM - Pending changes notification - view changes](img/2-0-5.jpg)
 Whenever a NIC has been added or modified in a way that requires the VM to be restarted, an inline notification should appear below the tab area reminding the user to do so. This notification should persist across all tab views, including the Overview (shown previously).
 
-![VM - pendign changes notification - view changes modal](img/2-0-6.jpg)
-Changes pending VM restart can be viewed in a dedictaed modal.
+![VM - Pending changes notification - view changes modal](img/2-0-6.jpg)
+Changes pending VM restart can be viewed in a dedicated modal.
 
 ### Edit NIC
 
@@ -51,21 +51,21 @@ Changes pending VM restart can be viewed in a dedictaed modal.
 
 ![VM - Disks tab - adding disk](img/3-0-0.jpg)
 The flow for disks is similar to NIC.
-however, adding or rediting a disk do not require VM restart.
+however, adding or editing a disk do not require VM restart.
 
 ![VM - add disk modal](img/3-1-0.jpg)
-The user clicks “Add Disk”. Like adding a new NIC, the new disk with blank fields is prepended at the top of the list. The confirm button is disabled.
+The user clicks “Add Disk”, and is lead to an 'Add disk' modal.
 
 ![VM - disk list item actions](img/3-2-0.jpg)
 The user edits each input and clicks the confirm button to finish. The new disk is added to the list and is sorted alphabetically.
 
-The user can edit or delete a list item from its kebab menu for each list item and clicks “Edit Disk.
+The user can edit or delete a list item from its kebab menu for each list item.
 
 
 
 ## Snapshots
 
-Has a dedicated PR [here](https://github.com/openshift/openshift-origin-design/pull/183)
+Snapshot designs can be seen [here](https://github.com/openshift/openshift-origin-design/pull/183)
 
 
 ## Events
@@ -75,12 +75,11 @@ TBD
 ## Consoles
 
 ![VM - console tab -default](img/4-0-0.jpg)
-The Consoles tab allows the user to connect an in-browser or desktop-based Graphical and/or Serial console to the virtual machine.
-
+The Consoles tab allows the user to connect to the virtual machine via an in-browser or desktop-based Graphical and/or Serial console.
 ![VM - console dropdown options](img/4-1-0.jpg)
 The user can change the console type using the dropdown selector. 'Graphical (VNC)' is selected by default. Any currently selected option is disabled in the dropdown. 'Graphical (RDP/VNC)' open in separate windows, designated by the fa-external-link icon.
 
-Two actions are available on the right-hand side. The “Open in window” action opens a separate browser window dedicated to the console view. The “Expand” action makes the console viewport fill the current window’s full width and height similar to elsewhere in OKD. The “Send Key” dropdown is disabled.
+Two actions are available on the right-hand side. The “Open in window” action opens a separate browser window dedicated to the console view. The “Expand” action makes the console viewport fill the current window’s full width and height similar to elsewhere in OKD. The “Send Key” dropdown is disabled when disconnected from the console.
 
 The user can start a console session using either the primary 'Connect' action button in the content area or the secondary 'Connect' button next to the console dropdown selector.
 
@@ -102,14 +101,14 @@ While the virtual machine is powering on, the console selector dropdown should b
 
 The “Send Key” dropdown helps the user send keyboard shortcuts that would ordinarily be captured by the user’s client operating system. The options available will depend on the VM that is running.
 
-For reference: RHEV “Send Key” options
+
 
 
 ### Remote connection settings
 
-![VM - Remove conection settings](img/4-5-0.jpg)
+![VM - Remote conection settings](img/4-5-0.jpg)
 
 If the user prefers to connect to a VM using their own desktop client or Remote Desktop Viewer, they can find the port and configuration information they need by clicking the “Remote Connection settings” link to reveal a modal.
 
 
-![VM - Remove conection settings modal](img/4-6-0.jpg)
+![VM - Remote conection settings modal](img/4-6-0.jpg)
