@@ -1,16 +1,18 @@
-# Downloading Diagnostics
+# Diagnostic Report
 
 Users can download a diagnostic report of their system and send it to Red Hat from the console.
 
 
 ## Help menu
 ![dropdown](img/dropdown.png)
-* The "Download Diagnostics" option is available from the help menu.
+* The "Diagnostic Report" option is available from the help menu.
 
 ## Modal
 ![modal](img/modal.png)
 * A modal will open with a description of how the diagnostic report will be used.
-* Users can indicate what they would like to include in the diagnostic report and whether or not they have an open support case already.
+* Users can indicate what they would like to include in the diagnostic report
+  * If users choose to include node health, a multiselect dropdown will allow them to select which ones.
+* Users can indicate whether or not they have an open support case already.
   * If users have a case number they can enter it into the "Case number" field.
   * If users do not have an open case they may choose to open one. If they choose this option, a link to the case will be included in the success screen.
   * Users may also choose to just download the diagnostic report to their machine and send it to Red Hat at a later time.
