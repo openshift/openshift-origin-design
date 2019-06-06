@@ -2,7 +2,7 @@
 
 ## Launching the Wizard
 
-![Create VM](img/create-vm.png)
+![Create VM](img/create-vm.png) 
 
 When no virtual machines exist, the Virtual Machines section of the UI will include quick access to the Create Virtual Machine wizard in its empty state.
 
