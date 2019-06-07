@@ -63,52 +63,6 @@ As soon as the OS, Flavor, or Workload profile fields are modified, the “Creat
 
 ## Provision Source Field
 
-### Import
-Provision source tooltip content: Pull a virtual machine from a supported provider.
-
-![Import](img/Step-1-basic-import-0.png)
-
-Virtual machines can be imported from a curated list of supported providers.
-
-#### VMware vCenter
-
-![VMware](img/Step-1-basic-import-1.png)
-
-The user chooses Import as the Provision Source and then selects VMware as the Provider.
-
-![vCenter](img/Step-1-basic-import-2.png)
-
-If VMware is chosen, a new “vCenter instance” field appears. The user clicks it to see a list of previously-connected vCenter instances that have been stored as Kubernetes Secrets. The user selects one.
-
-![vCenter-2](img/Step-1-basic-import-3.png)
-
-When a vCenter instance is selected, the first (alphabetical) virtual machine along with its OS, Flavor, and Workload Profile are automatically selected and filled in but remain disabled.
-
-![vCenter Connection issues](img/Step-1-basic-import-4.png)
-
-If the wizard cannot connect to the vCenter instance using the credentials stored within its Secret, an error message will be displayed. The user will need to fix the Secret’s credentials before continuing.
-
-
-![vCenter new instance](img/Step-1-basic-import-5.png)
-
-The user can also connect to a new vCenter instance by clicking `Connect to new instance` from within the dropdown.
-![Check credentials](img/Step-1-basic-import-6.png)
-
-![Checking credentials](img/Step-1-basic-import-7.png)
-
-New fields for vCenter URL, vCenter Username, vCenter Password, and VM to import appear along with a checkbox to “Remember vCenter credentials” that is unchecked by default.
-
-The vCenter URL field should include a syntax hint with the desired formatting. The user is likely to paste a variety of URLs, so any FQDN the user submits should be validated and automatically corrected before being used to communicate with vCenter’s API.
-
-When the user clicks the “Check” button an spinner icon appears within the button to indicate that the credentials are being checked.
-
-![vcenter connected](img/Step-1-basic-import-8.png)
-
-If the connection to vCenter succeeds, the user can choose from the available VMs. The “Remember vCenter credentials” checkbox also becomes enabled to allow the user to save them as a new Kubernetes Secret.
-
-With the target virtual machine selected, the user can either quickly skip to Step 5 “Review” by clicking the “Import Virtual Machine” secondary action button, or click “Next” to proceed through the rest of the wizard.
-
-
 ### ISO (this is not implemented yet, but is planned)
 Provision source tooltip content: Use an optical disk image that contains installation media for an operating system.
 
@@ -145,22 +99,19 @@ The user must provide a container image and then manually specify the OS, Flavor
 
 ![Container](img/Step-1-basic-container.png)
 
-### Cloned Disk
-Provision source tooltip content: Select an existing disk or upload a new one.
+### Attach Disk
+Provision source tooltip content: Select an existing disk that has been previously cloned or created.
 
-When selecting Cloned disk the user will be prompted to either select an available disk or upload a new one. They must manually specify the OS, Flavor, and Workload Profile. None of those fields can be automatically pre-filled.
+When selecting `Attached disk` the user will be prompted to select an available disk that has been previously cloned or created and made available in the Persistent Volume Claims. They must manually specify the OS, Flavor, and Workload Profile. None of those fields can be automatically pre-filled.
 
-![cloned-disk](img/Step-1-basic-cloned-disk.png)
+![Attach-disk](img/Step-1-basic-attach-disk.png)
 
-![cloned-disk-selected](img/Step-1-basic-cloned-disk-selected.png)
+![attach-disk-dropdown](img/Step-1-basic-attach-disk-dropdown.png)
 
-When selecting `Upload new disk` they will be able to browse their local file system to add a new disk.
+This list is populated by making a PVC available as a provision source for a virtual machine. This list is limited by the namespace it belongs to. These lists have the potential to be very long so a search field can help alleviate scrolling.
 
-![cloned-disk-upload](img/Step-1-basic-cloned-disk-upload.png)
+![attach-disk-selected](img/Step-1-basic-attach-disk-selected.png)
 
-Once the disk is selected they will be notified that the disk is will begin upload when the virtual machine is created.
-
-![cloned-disk-upload-message](img/Step-1-basic-cloned-disk-upload-message.png)
 
 ## Operating System Field
 
