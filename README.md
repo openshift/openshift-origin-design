@@ -36,14 +36,15 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 ### KubeVirt (Virtualization in OpenShift)
 - [Clone VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/clone-vm/clone-vm)
 - Create VM 
-	- [Step 1 - General](web-console/knikubevirt/create-vm/create-vm.md)
+	- [Step 1 - General](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/create-vm/create-vm.md)
 	- [Step 2 - Networking]
 	- [Step 3 - Storage]
 	- [Step 4 - Advanced]
 	- [Step 5 - Review]
-- Expose Secret, CM and SA as Disks
+- [Expose Secret, CM and SA as Disks](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/expose-secret/expose-secret)
 - [Expose VM as a Service](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/expose-vm-as-a-service/expose-vm-as-a-service)
-- Link between PVC and VM Disk
+- [Guest Agent Not Installed](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/guest-agent-not-installed/guest-agent-not-installed)
+- [Link between PVC and VM Disk](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/link-between-PVC-VMdisk/link-between-PVC-VMdisk)
 - [Migrate VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/migrate-vm/migrate-vm)
 - [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
 - [VM Templates](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-templates/vm-templates)
