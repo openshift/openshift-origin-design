@@ -2,7 +2,7 @@
 
 ## Launching the Wizard
 
-![Create VM](img/create-vm.png)
+![Create VM](img/Create-VM.png)
 
 When no virtual machines exist, the Virtual Machines section of the UI will include quick access to the Create Virtual Machine wizard in its empty state.
 
@@ -102,7 +102,7 @@ The user must provide a container image and then manually specify the OS, Flavor
 ### Attach Disk
 Provision source tooltip content: Select an existing disk that has been previously cloned or created.
 
-When selecting `Attached disk` the user will be prompted to select an available disk that has been previously cloned or created and made available in the Persistent Volume Claims. They must manually specify the OS, Flavor, and Workload Profile. None of those fields can be automatically pre-filled.
+When selecting `Attach disk` the user will be prompted to select an available disk that has been previously cloned or created and made available in the Persistent Volume Claims. They must manually specify the OS, Flavor, and Workload Profile. None of those fields can be automatically pre-filled.
 
 ![Attach-disk](img/Step-1-basic-attach-disk.png)
 
