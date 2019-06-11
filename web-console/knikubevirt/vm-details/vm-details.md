@@ -33,28 +33,29 @@ The new NIC should always appear at the top of the list until the user restarts 
 Hover on that link state (status) will display more details with a 'Restart VM action in a popover.
 
 ![VM - Pending changes notification - view changes](img/2-0-5.jpg)
-Whenever a NIC has been added or modified in a way that requires the VM to be restarted, an inline notification should appear below the tab area reminding the user to do so. This notification should persist across all tab views, including the Overview (shown previously).
+Whenever a NIC has been added or modified in a way that requires the VM to be restarted, an inline alert should appear below the tab area reminding the user to do so. This notification should persist across all tab views, including the Overview (shown previously).
 
 ![VM - Pending changes notification - view changes modal](img/2-0-6.jpg)
 Changes pending VM restart can be viewed in a dedicated modal.
 
 ### Edit NIC
+Editing NIC is equivalent to creating one, with Modal label and actions label changed accordingly.
 
 ![VM - NIC item action options](img/2-1-0.jpg)
-
+Edit NIC available in the kebab menu of each NIC list item
 ![VM - Edit NIC modal](img/2-1-1.jpg)
-
+"Save changes" is equivalent to "Add NIC" on creation modal. The VM must be restarted in order for these changes to be applied.
 ![VM - Edit NIC saved changes](img/2-1-2.jpg)
-
+Same notification to restart VM if the user selected to save changes only.
 
 ## Disks
 
 ![VM - Disks tab - adding disk](img/3-0-0.jpg)
-The flow for disks is similar to NIC.
-however, adding or editing a disk do not require VM restart.
+The flow for disks is similar to NICs, but adding or editing a disk does not require a VM restart.
+
 
 ![VM - add disk modal](img/3-1-0.jpg)
-The user clicks “Add Disk”, and is lead to an 'Add disk' modal.
+The user clicks “Add Disk”, and is led to an 'Add Disk' modal.
 
 ![VM - disk list item actions](img/3-2-0.jpg)
 The user edits each input and clicks the confirm button to finish. The new disk is added to the list and is sorted alphabetically.
@@ -77,7 +78,7 @@ TBD
 ![VM - console tab -default](img/4-0-0.jpg)
 The Consoles tab allows the user to connect to the virtual machine via an in-browser or desktop-based Graphical and/or Serial console.
 ![VM - console dropdown options](img/4-1-0.jpg)
-The user can change the console type using the dropdown selector. 'Graphical (VNC)' is selected by default. Any currently selected option is disabled in the dropdown. 'Graphical (RDP/VNC)' open in separate windows, designated by the fa-external-link icon.
+The user can change the console type using the dropdown selector. 'Graphical (VNC)' is selected by default. Any currently selected option is disabled in the dropdown.
 
 Two actions are available on the right-hand side. The “Open in window” action opens a separate browser window dedicated to the console view. The “Expand” action makes the console viewport fill the current window’s full width and height similar to elsewhere in OKD. The “Send Key” dropdown is disabled when disconnected from the console.
 
