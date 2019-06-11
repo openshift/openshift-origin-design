@@ -1,44 +1,66 @@
-# Clone VM
+# Import VM
+The `Import virtual machine` action will be available in the `Create virtual machine` dropdown.
 
-![Offline VM List View](img/3-0-vms.jpg)
+It will also be in the empty state as a secondary action.
 
-Cloning a VM allows the user to quickly create an identical copy of a virtual machine while powered off.
+![Import VM](img/import-vm.png)
 
-![VM List View - VM item in kebab menu options](img/3-1-vm-list.jpg)
+The Import virtual machine flow is very much the same as the Create a virtual machine flow with the exception of the general step.
 
-Cloning is accessed from the VM List View. all item filters should be turned off by default, ensuring that all VMs are shown to the user.
+![General step](img/Step-1-basic-import-0.png)
 
-The Clone option should appear in the kebab menu whether the source is online or offline.
+## Selecting provider 
+The Provider is chosen (in this case VMware is the only one available).
 
-![VM modal with still running notice](img/3-2-modal.jpg)
+![provider](img/Step-1-basic-import-1.png)
 
-If the VM is powered on, a warning will appear at the top of the Clone Virtual Machine modal. Running VMs will be shut down automatically if the user proceeds with a clone and then turned back on once the clone finishes.
+## Selecting vCenter instance
+Once VMware is selected a new `vCenter instance` field appears. The user clicks it to see a list of previously-connected vCenter instances that have been stored as [Kubernetes Secrets](https://kubernetes.io/docs/concepts/configuration/secret/). The user selects one.
 
-The only required field is the name, which is pre-filled based on the source VM's name and appended with “-clone”. The user can add a description and change the new VM's Namespace (which is the same as the target by default). They can also turn off the option to start the virtual machine after the cloning process finishes.
+![vCenter provider](img/Step-1-basic-import-2.png)
 
-Because all required fields are filled in by default, the "Clone Virtual Machine” button is active. If the user deletes the Name field this button will become inactive.
+## Selecting virtual machine
+When a vCenter instance is selected, The `Virtual Machine to import` dropdown is available with all the available VMs.
 
-Details of the source VM's configuration are displayed for the user’s reference. These options cannot be modified here prior to cloning.
+![selected virtual machine](img/Step-1-basic-import-3.png)
 
-The user would then click “Clone Virtual Machine”.
+## vCenter connection error
+If the wizard cannot connect to the vCenter instance using the credentials stored within its Secret, an error message will be displayed. If the credentials are incorrect they can update them. If they check `update vCenter credentials secret` the action will be `check and update`. This should be the default because they have already created this secret. This allows them to update the secret without having to leave this flow.
 
-![Clone VM power off failure](img/3-3-vm-list-error.jpg)
+![Updating vCenter credentials](img/Step-1-basic-import-4.png)
 
-If the source VM fails to shut down properly, an error toast notification would be displayed. The user would then need to power off the VM manually and re-open the Clone modal to try again.
+![checking vCenter credentials](img/Step-1-basic-import-4.2.png)
 
-![VM item under cloning](img/3-4-0-vm-list-cloning.jpg)
+If they leave the checkbox un-checked the action will just be `check`.
 
-If the cloning process starts successfully, the source VM will display a new status: "Off" icon followed by "Cloning (#%)".
+![check vCenter credentials](img/Step-1-basic-import-4.1.png)
 
-![Source VM popover](img/3-4-1-vm-list-cloning-source-popover.jpg)
-The VM status is clickable, displaying a popover specifying the upcoming clone name, progress bar and a "Stop Cloning" action
+## Connecting to new instance
+The user can also connect to a new vCenter instance by clicking `Connect to new instance` from within the dropdown.
 
-If the "In Process" filter is inactive when the user clicks "Clone Virtual Machine", it should be activated automatically to ensure that the newly-cloned VM appears in the list. This filter matches all “in between” states, including powering up, shutting down, or paused.
+![connecting to new instance](img/Step-1-basic-import-5.png)
 
-![Source VM Options](img/3-4-2-vm-list-cloning-source-options.jpg)
+New fields for vCenter URL, vCenter Username, vCenter Password, and VM to import appear along with a checkbox to `Save vCenter credentials secret`. This would be creating a new secret so it would be unchecked by default.
 
-While the clone is in progress, the source VM's actions are all disabled, expect the clone which is doggled to `Stop Cloning`.
+The vCenter URL field should include a syntax hint with the desired formatting. The user is likely to paste a variety of URLs, so any FQDN the user submits should be validated and automatically corrected before being used to communicate with vCenter’s API.
 
-![Stop Cloning confirmation modal](img/3-4-3-vm-list-cloning-source-stop.jpg)
+![check connection](img/Step-1-basic-import-6.png)
 
-'Stop Cloning' will be followed by a confirmation modal
+When the user clicks the “Check” button a spinner icon appears within the button to indicate that the credentials are being checked.
+
+![checking connection](img/Step-1-basic-import-7.png)
+
+### Save credentials 
+The `Save vCenter credentials secret` checkbox becomes enabled to allow the user to save them as a new Kubernetes Secret.
+
+![save secret](img/Step-1-basic-import-7.1.png)
+
+If the wizard fails to connect to vCenter using the provided credentials, an error similar to the one above for an invalid vCenter instance should be displayed directly below the vCenter Password field.
+
+
+## Virtual Machine selected from new instance
+If the connection to vCenter succeeds, the instance details collapse (URL, Username, Password) and the first (alphabetical) VM along with its OS, Flavor, and Workload Profile are automatically selected and filled in as usual. 
+
+With the target virtual machine selected, the user can either quickly skip to Step 5 “Review” by clicking the “Import Virtual Machine” secondary action button, or click “Next” to proceed through the rest of the wizard.
+
+![Virtual machine selected](img/Step-1-basic-import-8.png)
