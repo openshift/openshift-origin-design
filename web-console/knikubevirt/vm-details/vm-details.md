@@ -80,7 +80,7 @@ The Consoles tab allows the user to connect to the virtual machine via an in-bro
 ![VM - console dropdown options](img/4-1-0.jpg)
 The user can change the console type using the dropdown selector. 'Graphical (VNC)' is selected by default. Any currently selected option is disabled in the dropdown.
 
-Two actions are available on the right-hand side. The “Open in window” action opens a separate browser window dedicated to the console view. The “Expand” action makes the console viewport fill the current window’s full width and height similar to elsewhere in OKD. The “Send Key” dropdown is disabled when disconnected from the console.
+Two actions are available on the right-hand side. The “Open in new window” action opens a separate browser window dedicated to the console view. The “Expand” action makes the console viewport fill the current window’s full width and height similar to elsewhere in OKD. The “Send Key” dropdown is disabled when disconnected from the console.
 
 The user can start a console session using either the primary 'Connect' action button in the content area or the secondary 'Connect' button next to the console dropdown selector.
 
