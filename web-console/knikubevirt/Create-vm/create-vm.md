@@ -1,12 +1,5 @@
 # Create A Virtual Machine
 
-## Launching the Wizard
-
-![Create VM](img/Create-VM.png)
-
-When no virtual machines exist, the Virtual Machines section of the UI will include quick access to the Create Virtual Machine wizard in its empty state.
-
-
 ## Step 1: Basic
 
 ![Basic step](img/Step-1-basic-template.png)
