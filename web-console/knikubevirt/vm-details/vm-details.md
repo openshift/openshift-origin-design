@@ -8,7 +8,7 @@
 The user clicks a VM’s name from the list view and is taken to that VM’s Overview tab.
 The user sees detailed information about the VM’s configuration.
 ![VM-overview - Editing a field](img/1-0-1.jpg)
-Editing field will be aligned to the resto of the system. For now, only 'Description' and Flavour' have a pencil icon next to the field name to indicate it is editable. Hitting that pencil will opne up a modal.
+Editing field will be aligned to the rest of the system. For now, only 'Description' and Flavor' have a pencil icon next to the field name to indicate it is editable. Hitting that pencil will open up a modal.
 
 
 ## YAML
