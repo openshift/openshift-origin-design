@@ -19,22 +19,6 @@ Once VMware is selected a new `vCenter instance` field appears. The user clicks 
 
 ![vCenter provider](img/Step-1-basic-import-2.png)
 
-## Selecting virtual machine
-When a vCenter instance is selected, The `Virtual Machine to import` dropdown is available with all the available VMs.
-
-![selected virtual machine](img/Step-1-basic-import-3.png)
-
-## vCenter connection error
-If the wizard cannot connect to the vCenter instance using the credentials stored within its Secret, an error message will be displayed. If the credentials are incorrect they can update them. If they check `update vCenter credentials secret` the action will be `check and update`. This should be the default because they have already created this secret. This allows them to update the secret without having to leave this flow.
-
-![Updating vCenter credentials](img/Step-1-basic-import-4.png)
-
-![checking vCenter credentials](img/Step-1-basic-import-4.2.png)
-
-If the user un-checks the checkbox the action label will become `Check`.
-
-![check vCenter credentials](img/Step-1-basic-import-4.1.png)
-
 ## Connecting to new instance
 The user can also connect to a new vCenter instance by clicking `Connect to new instance` from within the dropdown.
 
@@ -49,6 +33,27 @@ The vCenter URL field should include a syntax hint with the desired formatting. 
 When the user clicks the “Check” button a spinner icon appears within the button to indicate that the credentials are being checked.
 
 ![checking connection](img/Step-1-basic-import-7.png)
+
+
+## Selecting virtual machine
+When a vCenter instance is selected, The `Virtual Machine to import` dropdown is available with all the available VMs.
+
+![selected virtual machine](img/Step-1-basic-import-3.png)
+
+## vCenter connection error
+If the wizard cannot connect to the vCenter instance using the credentials stored within its Secret, an error message will be displayed. If the credentials are incorrect they can update them. If they check `update vCenter credentials secret` the action will be `check and update`. This should be the default because they have already created this secret. This allows them to update the secret without having to leave this flow.
+
+![Updating vCenter credentials](img/Step-1-basic-import-4.png)
+
+![checking vCenter credentials](img/Step-1-basic-import-4.2.png)
+
+Once the credentials are checked and updated the username/password fields collapse.
+
+![collapse vCenter credentials](img/Step-1-basic-import-4.3.png)
+
+If the user un-checks the checkbox the action label will become `Check`.
+
+![check vCenter credentials](img/Step-1-basic-import-4.1.png)
 
 ### Save credentials 
 The `Save vCenter credentials secret` checkbox becomes enabled to allow the user to save them as a new Kubernetes Secret.
