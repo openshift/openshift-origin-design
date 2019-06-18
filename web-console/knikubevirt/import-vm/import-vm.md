@@ -24,7 +24,7 @@ The user can also connect to a new vCenter instance by clicking `Connect to new 
 
 ![connecting to new instance](img/Step-1-basic-import-5.png)
 
-New fields for vCenter URL, vCenter Username, vCenter Password, and VM to import appear along with a checkbox to `Save vCenter credentials secret`. This would be creating a new secret so it would be unchecked by default.
+New fields for vCenter URL, vCenter Username, vCenter Password, and VM to import appear along with a checkbox to `Save as new vCenter instance secret`. This would be creating a new secret so it would be unchecked by default.
 
 The vCenter URL field should include a syntax hint with the desired formatting. The user is likely to paste a variety of URLs, so any FQDN the user submits should be validated and automatically corrected before being used to communicate with vCenter’s API.
 
@@ -56,7 +56,7 @@ If the user un-checks the checkbox the action label will become `Check`.
 ![check vCenter credentials](img/Step-1-basic-import-4.1.png)
 
 ### Save credentials 
-The `Save vCenter credentials secret` checkbox becomes enabled to allow the user to save them as a new Kubernetes Secret.
+The `Save as new vCenter instance secret` checkbox becomes enabled to allow the user to save them as a new Kubernetes Secret.
 
 ![save secret](img/Step-1-basic-import-7.1.png)
 
