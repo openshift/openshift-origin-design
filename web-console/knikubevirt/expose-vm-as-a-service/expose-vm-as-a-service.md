@@ -44,5 +44,11 @@ The user would go through the same flow.
 The Service is ready for use, and the user can see it in the Services list.
 
 ### Services on the Overview tab
+With this placement the user can view what services are exposing a resource, if any. The user can also take actions with any service or create a new one
 
 ![Services on the Overview tab](img/Expose_010Services.png)
+
+
+- Services exposing a VM will be displayed in the overview tab of that VM, in a dedicated section.
+- Services section will use the same list view as in Services tab on the primary navigation
+- Users will be able to create a new service and expose the VM by using the main action button on the top right of the VM page
