@@ -3,7 +3,7 @@ The `Import virtual machine` action will be available in the `Create virtual mac
 
 It will also be in the empty state as a secondary action.
 
-![Import VM](img/import-vm.png)
+![Import VM](img/Import-vm.png)
 
 The Import virtual machine flow is very much the same as the Create a virtual machine flow with the exception of the general step.
 
@@ -31,7 +31,7 @@ If the wizard cannot connect to the vCenter instance using the credentials store
 
 ![checking vCenter credentials](img/Step-1-basic-import-4.2.png)
 
-If they leave the checkbox un-checked the action will just be `check`.
+If the user un-checks the checkbox the action label will become `Check`.
 
 ![check vCenter credentials](img/Step-1-basic-import-4.1.png)
 
