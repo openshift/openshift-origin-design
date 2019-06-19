@@ -1,6 +1,4 @@
-# List View in PF4
-
-This PR describes the changes made in list view in the Virtualization Console when applying them into PF4.
+# List View (updated)
 
 ## VM List
 
@@ -11,7 +9,7 @@ The VM list contains columns for the following:
 * Status
   * Running, Off, Error (with custom messages), Cloning, Migrating, Importing, Warning, Pending (with changes that will apply after restart), Unknown
 * Created
-  * Date formatting should follow OpenShift’s console, viewable here and here
+  * Date formatting should follow OpenShift’s console
   * If possible, a tooltip should appear on hover with the exact creation date, including year.
 * Node
 * IP Address
@@ -24,14 +22,20 @@ We set 6 columns to be the max number we will display in list views. We also det
 
 ### Status Popovers and Icons
 
-Statuses should be colored blue to indicate that they can be hovered and/or clicked.
-Hovering over a blue status should display a status popovers with a brief description of the issue or underlying process. Clicking on a ‘Learn more’ link should bring the user to the VM’s Events page for more details.
-The status popovers are replacing the status tooltips from PF3 because they're significantly more accessible on mobile and easier to copy/paste from.
+[The Resource status](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/status/status)
+
+Statuses should be colored blue to indicate that they can be clicked/tapped.
+Hovering should only underline the blue status text.
+Hovering over a blue status should display a status popovers with a brief description of the issue or underlying process.
+Clicking on the "Learn more" with the external link icon (seen below in the Guest Agent example) should bring the user to external documentation for further details.
+“View details” without the external link icon would be more appropriate if the status is an error, for example, and clicking would bring the user to the Events page.
+The status popovers are replacing the status tooltips  because they're significantly more accessible on mobile and easier to copy/paste from and they also provide actions that the user can take upon.
+A popover is used to provide contextual information for another component on click. The popover itself is made up of two main elements: arrow and content. The content element follows the pattern of the popover box component, with a close icon in the top right corner, as well as a header and body.
 
 ![status popovers instead of tooltips](img/statuspopovers.png)
 
-We replaced the old lightning bolt icon for ‘Running’ with fa-refresh icon .
-When we want the user to pay attention to something that is going on (f.e. when the IP address is unavailable for a long period of time when a guest agent is missing), the ‘Running’ status will get an aestrick at the end of the word Running*. This is done to ensure that the user will know something is going on and doesn't stay confused about the IP being unavailable for very long.
+We replaced the old lightning bolt icon for ‘Running’ with fa-refresh icon.
+An asterisk can be appended to the status to highlight a potential issue that the user should be aware of. For example, when the IP address is unavailable because of missing guest agent, the ‘Running’ status will be appended with an asterisk.
 
 ## Filtering
 
@@ -53,27 +57,27 @@ Sorting by columns is possible for any data table variation. Enabling the compon
 
 ![Sorting](img/sorting.png)
 
-Sorted column: when a column is being sorted by, the column header will turn blue and the sort icon will represent the direction of the sort. Subsequent clicks on the sortable column header will toggle the direction of the sort.
-Hovered sort: when a column is sortable, the sort icon will appear to the right of the column header. Upon hover, the icon will change to a darker grey indicating that the icon is actionable.
-Sortable column: when a column is sortable, the sort icon will appear to the right of the column header in a light grey color. Sorting will not become active until the user selects the column header. This triggers the arrow to point upwards and the content to be sorted in ascending order.
+1. **Sorted column** when a column is being sorted, the column header will turn blue and the sort icon will represent the direction of the sort. Subsequent clicks on the sortable column header will toggle the direction of the sort.
+2. **Hovered sort** when a column is sortable, the sort icon will appear to the right of the column header. Upon hover, the icon will change to a darker grey indicating that the icon is actionable.
+3. **Sortable column** when a column is sortable, the sort icon will appear to the right of the column header in a light grey color. Sorting will not become active until the user selects the column header. This triggers the arrow to point upwards and the content to be sorted in ascending order.
 
 ![Sorting with examples](img/sorting2.png)
 
 ## States and Actions
 
-When a VM is off, the actions kebab contains options to Run, Edit, Migrate, Clone, Create Template, Take Snapshot, and Delete the VM.
+When a VM is off, the actions kebab contains options to Run, Edit, Migrate, Clone, Create template, Take snapshot, and Delete the VM.
 
-![Dropdown when the vm is off](img/vmlistdropdownoff.png)
+![Dropdown when the vm is off](img/dropdownoff.png)
 
 When a VM is running the Run option is replaced with two dropdowns for Power and Connect to Console.
 
-![Dropdown when the vm is running](img/dropdownpower.png)
+![Dropdown when the vm is running](img/dropdowpower.png)
 
 The Power dropdown contains options to Suspend, Restart, or Shut down the VM. Because these are potentially destructive actions, clicking any of these options will display a modal for the user to confirm.
 
 ![Confirmation modal](img/confirmationmodal.png)
 
-The modals for Restart and Shut down include an additional button to “Force” the action. They also include warnings about the possibility for data loss.
+The modals for Restart and Shutdown include an additional button to “Force” the action. They also include warnings about the possibility for data loss.
 
 ![Restart modal](img/restartmodal.png)
 
@@ -86,4 +90,3 @@ The Connect to Console dropdown contains quick links to the consoles that are en
 When a VM is in a transitional state (cloning, migrating, taking a snapshot, etc.) any unavailable actions in the kebab are disabled and the original action (“Clone”) is replaced with a cancel action (“Cancel Clone”).
 
 ![Vm in transitional state the original action is replaced w_cancel action](img/transitionalstatemenu.png)
-
