@@ -1,6 +1,7 @@
 ## OpenShift Designs
 Access design documentation for features coming in future releases, post OpenShift 4.0.
 
+- [Alertmanager config](http://openshift.github.io/openshift-origin-design/web-console/monitoring/alertmanager-config/alertmanager-config)
 - [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/breadcrumbs/breadcrumbs)
 - [Chargeback](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/chargeback/chargeback)
 - [Command Line Tools](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/command-line-tools/command-line-tools)
@@ -9,6 +10,7 @@ Access design documentation for features coming in future releases, post OpenShi
 - [Dashboards and Projects](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/dashboards/dashboards)
 - [Image Commands](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/image-commands/image-commands)
 - [Machines](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/machines/machines)
+- [Metrics](http://openshift.github.io/openshift-origin-design/web-console/monitoring/metrics/metrics)
 - [Nodes](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/nodes/nodes)
 - [OAuth Global Config](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/oauth/oauth)
 - [Operators Overview](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/operators-overview/operators-overview)
@@ -43,8 +45,12 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 - [Migrate VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/migrate-vm/migrate-vm)
 - [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
 - [VM Templates](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-templates/vm-templates)
+<<<<<<< HEAD
 - VM Details
 - [VM Snapshots](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/snapshots/snapshots)
+=======
+- [VM Details] (http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-details/vm-details)
+>>>>>>> e0a5f19e5c72ad6d82d80480919ae908659fc542
 - VM Console
 
 ## OpenShift 4.0 Designs

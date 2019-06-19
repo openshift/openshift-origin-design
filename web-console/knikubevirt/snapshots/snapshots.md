@@ -21,9 +21,11 @@ In the disks field, the user will be able to decide if to include all disks or j
 
 ![Offline Snapshotting status indication](img/1-05.jpg)
 ![Offline Snapshotting status indication on click and kebab mode](img/1-06.jpg)
-
 Any virtual machine that has a snapshot in progress will show this in the state:
 When in this progress mode all actions would be disabled and the “Stop snapshot” would be available.
+
+![Offline Restoring from snapshot status](img/1-07.jpg)
+Any virtual machine that is undergoing a restoration process will show a "Restoring" indication on the status, with more details and a "Stop restoring" action on a popover. 
 
 
 ## VM page - snapshots tab
@@ -46,7 +48,7 @@ Clicking on the kebab menu on each row will open an action menu with several opt
 - Restore
 - Delete
 ![Offline Snapshot tab - restoring action](img/2-04.jpg)
-Restoring VM from snapshot modal. When clicking the restore option in the action menu it opens the restore popup. I tried keeping the restore popup similar to the cloning and template popups.
+Restoring VM from snapshot modal. When clicking the restore option in the action menu it opens the restore popup. The restore popup aligned to the [cloning](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/clone-vm/clone-vm) and [template](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-templates/vm-templates) popups.
 
 
 ## Scheduled snapshots

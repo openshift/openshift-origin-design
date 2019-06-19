@@ -26,18 +26,38 @@
 
 ## IDP Forms
 - Each form will have a short description of the IDP the users have chosen to add.
-- The four common parameters to all identity providers are `name`, `challenge`, `login`, and `mappingMethod`, and will be the first items in the list.
 - Where appropriate, section headers may be used to divide the form into sub sections.
 
-### HTPasswd
-![4](img/HTPasswd.png)
 
+### Basic
+![4](img/basic.png)
+
+### GitHub
+![5](img/github.png)
+
+### GitLab
+![6](img/gitlab.png)
+
+### Google
+![7](img/google.png)
+
+### HTPasswd
+![8](img/HTPasswd.png)
+
+### Keystone
+![9](img/keystone.png)
+
+### LDAP
+![10](img/ldap.png)
 
 ### OpenID
-![5](img/openID.png)
+![11](img/openID.png)
+
+### Request header
+![12](img/request.png)
 
 
 ## IDP Overview pages
-![6](img/CS-idp-overview.png)
+![13](img/CS-idp-overview.png)
 - The details view of IDPs shows information such as the name, challenge, login, and mapping method, along with any other relevant data.
 - Breadcrumbs will be shown to help the user navigate back to the OAuth configuration page or the Global Configuration tab on the Cluster Settings page.
