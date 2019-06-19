@@ -31,7 +31,7 @@ Any virtual machine that is undergoing a restoration process will show a "Restor
 ## VM page - snapshots tab
 
 ![Offline Shanpshot tab](img/2-00.jpg)
-The snapshot list is located under the VM. A tab item in the horizontal navigation will be dedicated for snapshots. The snapshot list is followd by the "Upcoming" scheduled snapshots list. The snapshit list is ordered by the creation date as a default. 
+The snapshot list is located under the VM. A tab item in the horizontal navigation will be dedicated for snapshots. The snapshot list is ordered by  date as a default, making the "Scheduled" snapshots appear firts.
 The user can sort the list by name or date, clicking on the title will allow the user to switch sorting and decide if it's ascending or descending.  
 ![Offline Snapshot - same modal as in VM list](img/2-01.jpg)
 Same modal as in VM list - Snapshot action
@@ -53,7 +53,7 @@ Restoring VM from snapshot modal. When clicking the restore option in the action
 
 ## Scheduled snapshots
 
-A dedicated "upcoming" snapshots is located at the top of the "Sanpshots tab. This list displays 3 instances at default. When there's more that 3 instances, a "Show all scheduled snapshots" button to expand to full list is available, toggled to "show less" on expanded mode.
+The scheduled snapshots are located at the top of the list of the taken spanpshots, sharing the same columns.
 
 ![Offline Schedule Snapshot - scheduled sub tab](img/3-00.jpg)
 On checking 'Schedule snapshot for...' checkbox, addintional fields will appear for that task.
