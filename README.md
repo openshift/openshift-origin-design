@@ -48,7 +48,7 @@ Access design documentation for features coming in future releases, post OpenShi
 - [Migrate VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/migrate-vm/migrate-vm)
 - [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
 - [VM Templates](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-templates/vm-templates)
-- [VM Details] (http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-details/vm-details)
+- [VM Details](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-details/vm-details)
 - VM Console
 >>>>>>> migrate vm update
 
