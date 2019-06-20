@@ -1,19 +1,22 @@
 ## OpenShift Designs
 Access design documentation for features coming in future releases, post OpenShift 4.0.
 
+- [Alertmanager config](http://openshift.github.io/openshift-origin-design/web-console/monitoring/alertmanager-config/alertmanager-config)
 - [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/breadcrumbs/breadcrumbs)
 - [Chargeback](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/chargeback/chargeback)
 - [Command Line Tools](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/command-line-tools/command-line-tools)
 - [Console Customizations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/console-customizations/console-customizations)
 - [Contextual Help](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/contextual-help/contextual-help)
-- [Dashboards](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/dashboards/dashboards)
+- [Dashboards and Projects](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/dashboards/dashboards)
 - [Image Commands](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/image-commands/image-commands)
 - [Machines](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/machines/machines)
+- [Metrics](http://openshift.github.io/openshift-origin-design/web-console/monitoring/metrics/metrics)
 - [Nodes](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/nodes/nodes)
 - [OAuth Global Config](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/oauth/oauth)
 - [Operators Overview](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/operators-overview/operators-overview)
 - [Pinning](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/pinning/pinning)
 - [Resource Creation](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/resource-creation/resource-creation)
+- [Resource Statuses](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/status/status)
 - [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/role-based-access-control/role-based-access-control)
 - [Taints and Tolerations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/taints-tolerations/taints-tolerations)
 - [YAML Editor Updates](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/code-editor-updates/code-editor-updates)
@@ -34,14 +37,20 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 
 ### KubeVirt (Virtualization in OpenShift)
 - [Clone VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/clone-vm/clone-vm)
-- Create VM
-- Expose Secret, CM and SA as Disks
+- Create VM 
+	- [Step 1 - General](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/create-vm/create-vm.md)
+	- [Step 2 - Networking]
+	- [Step 3 - Storage]
+	- [Step 4 - Advanced]
+	- [Step 5 - Review]
+- [Expose Secret, CM and SA as Disks](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/expose-secret/expose-secret)
 - [Expose VM as a Service](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/expose-vm-as-a-service/expose-vm-as-a-service)
-- Link between PVC and VM Disk
+- [Guest Agent Not Installed](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/guest-agent-not-installed/guest-agent-not-installed)
+- [Link between PVC and VM Disk](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/link-between-PVC-VMdisk/link-between-PVC-VMdisk)
 - [Migrate VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/migrate-vm/migrate-vm)
 - [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
 - [VM Templates](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-templates/vm-templates)
-- VM Details
+- [VM Details] (http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-details/vm-details)
 - VM Console
 
 ## OpenShift 4.0 Designs
@@ -63,7 +72,6 @@ Access design documentation for features slotted in the 4.0 release of OpenShift
 - Status Page
   * [Overview](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/overview/overview)
   * [Dashboard](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/dashboard/dashboard)
-- [Resource Statuses](./web-console/4.0-designs/status/status.md)
 - [Resource Quota](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/resource-quota/resource-quota)
 - [Storage](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/storage/storage)
 - [User Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/user/user)
