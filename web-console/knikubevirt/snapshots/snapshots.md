@@ -13,7 +13,7 @@ When clicking on the kebab menu in the VM list, the user will be able to take a 
 
 ![Offline Snapshot modal - default](img/1-01.jpg)
 In the basic modal, the snapshot will take all current configuration and selected parameters.
-The user must add a descriptive name.
+The snapshot name is auto-generated to the current date of creation. The user can add a descriptive name.
 ![Offline Snapshot modal - selecting disks](img/1-02.jpg)
 In the disks field, the user will be able to decide if to include all disks or just some of them and if to include memory as part of the snapshot or not.
 ![Offline Snapshot modal - disks customization](img/1-03.jpg)
