@@ -37,7 +37,12 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 
 ### KubeVirt (Virtualization in OpenShift)
 - [Clone VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/clone-vm/clone-vm)
-- Create VM
+- Create VM 
+	- [Step 1 - General](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/Create-vm/create-vm.md)
+	- [Step 2 - Networking]
+	- [Step 3 - Storage]
+	- [Step 4 - Advanced]
+	- [Step 5 - Review]
 - [Expose Secret, CM and SA as Disks](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/expose-secret/expose-secret)
 - [Expose VM as a Service](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/expose-vm-as-a-service/expose-vm-as-a-service)
 - [Guest Agent Not Installed](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/guest-agent-not-installed/guest-agent-not-installed)
@@ -45,12 +50,8 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 - [Migrate VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/migrate-vm/migrate-vm)
 - [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
 - [VM Templates](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-templates/vm-templates)
-<<<<<<< HEAD
-- VM Details
+- [VM Details](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-details/vm-details)
 - [VM Snapshots](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/snapshots/snapshots)
-=======
-- [VM Details] (http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-details/vm-details)
->>>>>>> e0a5f19e5c72ad6d82d80480919ae908659fc542
 - VM Console
 
 ## OpenShift 4.0 Designs
