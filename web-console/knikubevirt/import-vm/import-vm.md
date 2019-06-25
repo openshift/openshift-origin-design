@@ -1,8 +1,6 @@
 # Import VM
 The `Import virtual machine` action will be available in the `Create virtual machine` dropdown.
 
-It will also be in the empty state as a secondary action.
-
 ![Import VM](img/Import-vm.png)
 
 The Import virtual machine flow is very much the same as the Create a virtual machine flow with the exception of the general step.
@@ -20,7 +18,7 @@ Once VMware is selected a new `vCenter instance` field appears. The user clicks 
 ![vCenter provider](img/Step-1-basic-import-2.png)
 
 ## Connecting to new instance
-The user can also connect to a new vCenter instance by clicking `Connect to new instance` from within the dropdown.
+The user can also connect to a new vCenter instance by selecting `Connect to new instance` from within the dropdown.
 
 ![connecting to new instance](img/Step-1-basic-import-5.png)
 
@@ -63,8 +61,8 @@ The `Save as new vCenter instance secret` checkbox becomes enabled to allow the 
 If the wizard fails to connect to vCenter using the provided credentials, an error similar to the one above for an invalid vCenter instance should be displayed directly below the vCenter Password field.
 
 
-## Virtual Machine selected from new instance
-If the connection to vCenter succeeds, the instance details collapse (URL, Username, Password) and the first (alphabetical) VM along with its OS, Flavor, and Workload Profile are automatically selected and filled in as usual. 
+## Virtual Machines available from new instance
+If the connection to vCenter succeeds, the instance details collapse (URL, Username, Password). The `Select virtual machine to import` dropdown will then be populated with the available VMs. 
 
 With the target virtual machine selected, the user can either quickly skip to Step 5 “Review” by clicking the “Import Virtual Machine” secondary action button, or click “Next” to proceed through the rest of the wizard.
 
