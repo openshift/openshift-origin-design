@@ -1,4 +1,4 @@
-# List View (updated)
+# List View
 
 ## VM List
 
@@ -7,7 +7,7 @@ The VM list contains columns for the following:
 * Name
 * Namespace
 * Status
-  * Running, Off, Error (with custom messages), Cloning, Migrating, Importing, Warning, Pending (with changes that will apply after restart), Unknown
+  * Running, Off, Error (with custom messages), Cloning, Migrating, Snapshotting, Importing, Warning, Pending (with changes that will apply after restart), Unknown
 * Created
   * Date formatting should follow OpenShift’s console
   * If possible, a tooltip should appear on hover with the exact creation date, including year.
@@ -26,10 +26,10 @@ We set 6 columns to be the max number we will display in list views. We also det
 
 Statuses should be colored blue to indicate that they can be clicked/tapped.
 Hovering should only underline the blue status text.
-Hovering over a blue status should display a status popovers with a brief description of the issue or underlying process.
+Clicking on a blue status should display a status popovers with a brief description of the issue or underlying process.
 Clicking on the "Learn more" with the external link icon (seen below in the Guest Agent example) should bring the user to external documentation for further details.
 “View details” without the external link icon would be more appropriate if the status is an error, for example, and clicking would bring the user to the Events page.
-The status popovers are replacing the status tooltips  because they're significantly more accessible on mobile and easier to copy/paste from and they also provide actions that the user can take upon.
+The status popovers are replacing the status tooltips because they're significantly more accessible on mobile and easier to copy/paste from and they also provide actions that the user can take upon.
 A popover is used to provide contextual information for another component on click. The popover itself is made up of two main elements: arrow and content. The content element follows the pattern of the popover box component, with a close icon in the top right corner, as well as a header and body.
 
 ![status popovers instead of tooltips](img/statuspopovers.png)
