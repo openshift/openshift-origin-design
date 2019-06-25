@@ -26,7 +26,7 @@ We set 6 columns to be the max number we will display in list views. We also det
 
 Statuses should be colored blue to indicate that they can be clicked/tapped.
 Hovering should only underline the blue status text.
-Hovering over a blue status should display a status popovers with a brief description of the issue or underlying process.
+Clicking on a blue status should display a status popovers with a brief description of the issue or underlying process.
 Clicking on the "Learn more" with the external link icon (seen below in the Guest Agent example) should bring the user to external documentation for further details.
 “View details” without the external link icon would be more appropriate if the status is an error, for example, and clicking would bring the user to the Events page.
 The status popovers are replacing the status tooltips  because they're significantly more accessible on mobile and easier to copy/paste from and they also provide actions that the user can take upon.
