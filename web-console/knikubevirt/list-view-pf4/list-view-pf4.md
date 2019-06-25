@@ -67,11 +67,11 @@ Sorting by columns is possible for any data table variation. Enabling the compon
 
 When a VM is off, the actions kebab contains options to Run, Edit, Migrate, Clone, Create template, Take snapshot, and Delete the VM.
 
-![Dropdown when the vm is off](img/dropdownoff.png)
+![Dropdown when the vm is off](img/vmlistdropdownoff.png)
 
 When a VM is running the Run option is replaced with two dropdowns for Power and Connect to Console.
 
-![Dropdown when the vm is running](img/dropdowpower.png)
+![Dropdown when the vm is running](img/dropdownpower.png)
 
 The Power dropdown contains options to Suspend, Restart, or Shut down the VM. Because these are potentially destructive actions, clicking any of these options will display a modal for the user to confirm.
 
