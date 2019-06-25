@@ -111,4 +111,3 @@ The following designs are under consideration for use in future releases of Open
 	- [Create Pull Secret](./web-console/old/conceptual-designs/pull-secret.md)
 	- [Topology View](./web-console/old/conceptual-designs/topology.md)
 
-

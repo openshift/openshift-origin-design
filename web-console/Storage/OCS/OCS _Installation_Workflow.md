@@ -19,15 +19,18 @@ Installation
 After the subscription process, the user will see the subscribed operator page. 
 In the installed operator view the user can see the OCS operator installed. 
 
-OCS Overview page
-![OCS-View](img/OCS-View.png)
+![Operator Hub operators view](img/Installed_operators_list.png)
 
 
 # OCS Installation UPI (deployed on the cloud)
 
+
+OCS Overview page
+![OCS-View](img/OCS-View.png)
+
 Clicking on "create new" (OCS Service) Will start the following installation flow: 
 ### Step 1- Select Nodes
- * Admin needs to select 3 nodes to label with “role=storage-node” to be used for the OCS cluster.
+ * Admin needs to select 3 nodes to label with “node-role.kuberentes.io/storage=" "node.ocs.openshift.io/cluster=" to be used for the OCS cluster.
  * For each node selected, all available devices will be selected on the node by default.  Admin can elect to change the device selection, i.e. to use a subset of the devices if he/she needs to.
 
 ![Installation page](img/Create_new_OCS_01.png)
@@ -39,7 +42,7 @@ Clicking on "create new" (OCS Service) Will start the following installation flo
 * Provider: the provider can be AWS S3/ Azure blob. If the service can be auto-detected this field can be pre-selected and cannot be edited. 
 * Region: The region dropdown can also be auto-detected, should be editable anyway.
 * Endpoint: Pre-typed field. The endpoint can be changed according to the provider and region, the field should always be editable. 
-* Access+Secret key: If not auto-detected, the user should provide matching key set. Secret key should be masked. 
+* Access+Secret key: If not auto-detected, the user should provide matching key set. Secret key should be masked with an option te reveal (eye icon)
 * Target bucket: The target bucket can be an existing bucket on the provider side. If no bucket is selected, the bucket claim generates a valid new bucket on AWS/ Azure/ other provider. This field should be disabled until connection details set (endpoint+keys) are successfully validated. 
 
 ![Installation page](img/Create_new_OCS_03.png)
@@ -48,6 +51,10 @@ Clicking on "create new" (OCS Service) Will start the following installation flo
 ![Installation page](img/Create_new_OCS_06.png)
 
 At any point, Admin can switch to YAML by clicking on the “Edit YAML” link in the top right corner.
+
+After switching to YAML, the Admin cannot switch back to the form entry.
+
+The "Create" button is only enabled once all mandatory fields have been filled with valid input.
 
 # The installation process for UPI (deployed on-prem)
 In this case, Only step 1 (select nodes) is required
@@ -66,8 +73,10 @@ In this case, the user will be notify of the nodes/ cloud resource creation in a
 ![Installation page](img/Installed_OCS_OCS_Overview.png)
 When the creation process starts new tabs for “OCS” and “MCG” will be presented. If the deployment process runs for a while, the status “deploying” will be presented (the cluster link is not linkable during the process).
 
+
 * OCS Tab
 ![Installation page](img/Installed_OCS_OCS_Tab.png)
+![Installation page](img/Installed_OCS_OCS_Tab_healthy.png)
 
 * MCG Tab
 ![Installation page](img/Installed_OCS_MCG_Tab.png)
