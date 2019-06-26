@@ -6,7 +6,6 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 - [Clone VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/clone-vm/clone-vm)
 - [Migrate VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/migrate-vm/migrate-vm)
 - Storage Dashboard
-- VM Console
 - [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
 - [VM Templates](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-templates/vm-templates)
 - [VM Details](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-details/vm-details)
@@ -21,7 +20,7 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 #### KubeVirt (Virtualization in OpenShift)
 
 - Create VM
-	- [Step 1 - General](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/Create-vm/create-vm.md)
+	- [Step 1 - General](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/Create-vm/create-vm)
 	- [Step 2 - Networking]
 	- [Step 3 - Storage]
 	- [Step 4 - Advanced]
