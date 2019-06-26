@@ -22,9 +22,7 @@ Details of the source VM's configuration are displayed for the user’s referenc
 
 The user would then click “Clone Virtual Machine”.
 
-![Clone VM power off failure](img/3-3-vm-list-error.jpg)
-
-If the source VM fails to shut down properly, an error toast notification would be displayed. The user would then need to power off the VM manually and re-open the Clone modal to try again.
+If the source VM fails to shut down properly, an error notification would be displayed. The user would then need to power off the VM manually and re-open the Clone modal to try again.
 
 ![VM item under cloning](img/3-4-0-vm-list-cloning.jpg)
 
