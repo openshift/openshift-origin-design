@@ -38,6 +38,8 @@ Clicking on "create new" (OCS Service) Will start the following installation flo
 * Clicking on the devices button link will open  the “select Device” modal. the user is able to choose which devices he wants to use to support the OCS service.
 
 ![Installation page](img/Create_new_OCS_02.png)
+![Installation page](img/Create_new_OCS_02_02.png)
+![Installation page](img/Create_new_OCS_03.png)
 ### Step 2- Connect to the cloud
 * Provider: the provider can be AWS S3/ Azure blob. If the service can be auto-detected this field can be pre-selected and cannot be edited. 
 * Region: The region dropdown can also be auto-detected, should be editable anyway.
@@ -45,7 +47,7 @@ Clicking on "create new" (OCS Service) Will start the following installation flo
 * Access+Secret key: If not auto-detected, the user should provide matching key set. Secret key should be masked with an option te reveal (eye icon)
 * Target bucket: The target bucket can be an existing bucket on the provider side. If no bucket is selected, the bucket claim generates a valid new bucket on AWS/ Azure/ other provider. This field should be disabled until connection details set (endpoint+keys) are successfully validated. 
 
-![Installation page](img/Create_new_OCS_03.png)
+![Installation page](img/Create_new_OCS_03_03.png)
 ![Installation page](img/Create_new_OCS_04.png)
 ![Installation page](img/Create_new_OCS_05.png)
 ![Installation page](img/Create_new_OCS_06.png)
@@ -57,8 +59,18 @@ After switching to YAML, the Admin cannot switch back to the form entry.
 The "Create" button is only enabled once all mandatory fields have been filled with valid input.
 
 # The installation process for UPI (deployed on-prem)
-In this case, Only step 1 (select nodes) is required
+In this case, Only step 1 (select nodes) is required (in an on-premise deployment Step 2 would be omitted)
 ![Installation page](img/Create_new_OCS_01_UPI_ONPREM.png)
+![Installation page](img/Create_new_OCS_01_UPI_ONPREM_02.png)
+
+* If available devices on node = 0, tell Admin to add capacity via a Day 2 workflow (for capacity and storage class to use to create PVC(s)).
+
+Example:
+![Installation page](img/Create_new_OCS_07_0Devices_Example.png)
+
+After Installation process is done, show a Toast Notifications
+that capacity is missing. 
+![Installation page](img/Installed_OCS_OCS_Tab_error_mode.png)
 
 # The installation process for IPI (deployed on a cloud)
 AWS, S3 m4.large EC2 nodes will be created with the label role=storage-node, which would be used by OCS.
@@ -67,6 +79,7 @@ A new bucket will be created automatically in AWS S3 connected cloud, same regio
 
 In this case, the user will be notify of the nodes/ cloud resource creation in a popup message: 
 ![Installation page](img/Create_new_OCS_01_IPI.png)
+Adding capacity will be available from the kabab menu (see expand cluster workflow)
 
 # After Installation
 * OCS Overview
