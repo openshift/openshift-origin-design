@@ -52,7 +52,9 @@ Access design documentation for features slotted in the 4.0 release of OpenShift
   * [Overview](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/overview/overview)
   * [Dashboard](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/dashboard/dashboard)
 - [Resource Quota](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/resource-quota/resource-quota)
-- [Storage](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/storage/storage)
+* Storage
+	- [Storage Classes](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/storage/storage)
+	- [Object Storage Dashboard](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/storage/object-storage-dashboard)
 - [User Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/user/user)
 - [YAML Editor](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/edit-yaml/edit-yaml)
 - [YAML Import](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/import-yaml/import-yaml)
