@@ -22,64 +22,82 @@ In the installed operator view the user can see the OCS operator installed.
 ![Operator Hub operators view](img/Installed_operators_list.png)
 
 
-# OCS Installation UPI (deployed on the cloud)
-
-
+# The OCS installation process
 OCS Overview page
 ![OCS-View](img/OCS-View.png)
 
 Clicking on "create new" (OCS Service) Will start the following installation flow: 
-### Step 1- Select Nodes
+
+Based on the underlying platform, the user can select between “Create new nodes” (IPI) and “Use existing nodes” (UPI).
+* Create new nodes -- System (OCS) creates new nodes along with underlying storage devices/volumes in the cloud, i.e. AWS, Azure, Google
+    * Note: not applicable for VMware currently and not applicable for baremetal
+* Use existing nodes -- uses existing OCP nodes and existing storage devices/volumes (in AWS and VMware, and for baremetal), which Admin has to select
+
+
+
+## For AWS or Cloud Deployments (IPI and UPI)
+* “Create New Nodes” (IPI) option:
+In AWS, three m4.large EC2 nodes will be created with the appropriate storage node label, which would be used by OCS.
+
+A new bucket will be created automatically in the AWS S3 connected cloud, in the same region as the OpenShift.
+
+![create new](img/Create_new_OCS_00.png)
+
+* “Use Existing Nodes” (UPI) option:
+A new bucket will be created automatically in AWS S3 connected cloud, in the same region as the OpenShift. 
+
+![use existing](img/Create_new_OCS_01.png)
+
+This info note should be added in cloud deployment:
+
+![Info note](img/info.png)
+The provider name should be modified according to the Cloud Credentials operator.
+
+
+
+### Select Nodes:
  * Admin needs to select 3 nodes to label with “node-role.kuberentes.io/storage=" "node.ocs.openshift.io/cluster=" to be used for the OCS cluster.
  * For each node selected, all available devices will be selected on the node by default.  Admin can elect to change the device selection, i.e. to use a subset of the devices if he/she needs to.
 
-![Installation page](img/Create_new_OCS_01.png)
+![choose devices](img/Create_new_OCS_01.png)
 
-* Clicking on the devices button link will open  the “select Device” modal. the user is able to choose which devices he wants to use to support the OCS service.
+* The user can choose the devices he wants to use on each node by clicking on the Devices cell for a given node allows the Admin user to view and modify the device selection.  By default, all available devices on the node will be presented.
+
+**Note: The device modal will vary based on platform:**
+* Baremetal -- local devices presented
+* AWS -- EBS volumes presented. Device list should include the (EBS volume) name, EBS Type, Used Capacity, Capacity/Size, Availability Zone, Status
+![AWS Example](img/select-devices-all-aws.png)
+
+* VMware -- VMDKs / RDMs presented. Device list should include the (VMDK) name, Type (VMDK or RDM), Used Capacity, Capacity/Size, Status
+![VM example](img/select-devices-all-VM.png)
+
+
 
 ![Installation page](img/Create_new_OCS_02.png)
 ![Installation page](img/Create_new_OCS_02_02.png)
 ![Installation page](img/Create_new_OCS_03.png)
-### Step 2- Connect to the cloud
-* Provider: the provider can be AWS S3/ Azure blob. If the service can be auto-detected this field can be pre-selected and cannot be edited. 
-* Region: The region dropdown can also be auto-detected, should be editable anyway.
-* Endpoint: Pre-typed field. The endpoint can be changed according to the provider and region, the field should always be editable. 
-* Access+Secret key: If not auto-detected, the user should provide matching key set. Secret key should be masked with an option te reveal (eye icon)
-* Target bucket: The target bucket can be an existing bucket on the provider side. If no bucket is selected, the bucket claim generates a valid new bucket on AWS/ Azure/ other provider. This field should be disabled until connection details set (endpoint+keys) are successfully validated. 
 
-![Installation page](img/Create_new_OCS_03_03.png)
-![Installation page](img/Create_new_OCS_04.png)
-![Installation page](img/Create_new_OCS_05.png)
-![Installation page](img/Create_new_OCS_06.png)
-
-At any point, Admin can switch to YAML by clicking on the “Edit YAML” link in the top right corner.
-
+At any point, Admin can switch to YAML by clicking on the “Edit YAML” link in the top right corner of the second radio button.
 After switching to YAML, the Admin cannot switch back to the form entry.
 
 The "Create" button is only enabled once all mandatory fields have been filled with valid input.
 
-# The installation process for UPI (deployed on-prem)
-In this case, Only step 1 (select nodes) is required (in an on-premise deployment Step 2 would be omitted)
-![Installation page](img/Create_new_OCS_01_UPI_ONPREM.png)
-![Installation page](img/Create_new_OCS_01_UPI_ONPREM_02.png)
+## For Non-Cloud Deployments, e.g. VMware or Baremetal (UPI)
+In The case of on-premise the flow remains the same, the info message for creating a bucket in the cloud would be omitted.
 
-* If available devices on node = 0, tell Admin to add capacity via a Day 2 workflow (for capacity and storage class to use to create PVC(s)).
+
+### 0 Devices use case
+* If available devices on node = 0, tell Admin to add capacity via a Day 2 workflow (for capacity and storage class to use to create PVC(s)). 
+The OCS service status will be “Missing Capacity”.
 
 Example:
-![Installation page](img/Create_new_OCS_07_0Devices_Example.png)
+![Installation page](img/Create_new_OCS_03_0devices.png)
 
-After Installation process is done, show a Toast Notifications
+After Installation process is done, show a status
 that capacity is missing. 
 ![Installation page](img/Installed_OCS_OCS_Tab_error_mode.png)
-
-# The installation process for IPI (deployed on a cloud)
-AWS, S3 m4.large EC2 nodes will be created with the label role=storage-node, which would be used by OCS.
-
-A new bucket will be created automatically in AWS S3 connected cloud, same region as the OpenShift.
-
-In this case, the user will be notify of the nodes/ cloud resource creation in a popup message: 
-![Installation page](img/Create_new_OCS_01_IPI.png)
-Adding capacity will be available from the kabab menu (see expand cluster workflow)
+In the OCS service details page- show a static error message. 
+![Installation page](img/Installed_OCS_Overview_error.png)
 
 # After Installation
 * OCS Overview
