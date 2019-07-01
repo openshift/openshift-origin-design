@@ -27,9 +27,20 @@ To create an OBC the user will need to provide the following details:
 * OBC name (not mandatory, a generic name will be generated if not provided)
 * Namespace
 * Storage class 
-* OBC Quota- not mandatory. This option is currently supported by MCG. (Can be shown only if the selected provisioner is relevant)
+* OBC Quota- not mandatory. This will apply to all environments, i.e. RGW and S3 and is implemented as a hard limit by MCG/NooBaa.
+Default quota is 100 GiB.
+
 
 ![OBC-list-view](img/OBC-create.png)
+
+info icon next to the OBC name text:
+
+Object bucket claim name must follow the bucket naming conventions:
+* 3-63 characters
+* Starts and ends with a lowercase letter or number
+* Only lowercase letters, numbers, nonconsecutive periods or hyphens
+* Avoid using the form of an IP address
+* Globally unique name
 
 ### OBC Details Page
 
@@ -47,6 +58,9 @@ In the Overview tab:
 * Object Bucket that was created by this claim
 
 ![OBC-list-view](img/OBC-overview.png)
+
+
+
 
 ### Attach OBC to a pod
 
@@ -84,6 +98,14 @@ Other values such as region and quota inherits the OBC config
 
 
 ![OBC-list-view](img/OB-create.png)
+info icon next to the OB name text:
+
+Object bucket name must follow the bucket naming conventions:
+* 3-63 characters
+* Starts and ends with a lowercase letter or number
+* Only lowercase letters, numbers, nonconsecutive periods or hyphens
+* Avoid using the form of an IP address
+* Globally unique name
 
 ### OB Details Page
 OB page contains 3 tabs: Overview, YAML & Events
