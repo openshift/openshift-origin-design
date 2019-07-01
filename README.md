@@ -117,3 +117,7 @@ The following designs are under consideration for use in future releases of Open
 	- [CNV Integration](./web-console/old/conceptual-designs/cnv.md)
 	- [Create Pull Secret](./web-console/old/conceptual-designs/pull-secret.md)
 	- [Topology View](./web-console/old/conceptual-designs/topology.md)
+
+## OpenShift Container Storage
+- [OCS Install workflow](./web-console/Storage/OCS/OCS_Installation_Workflow.md)
+- [OB-OB-Lifecycle-Management ](./web-console/Storage/OB-OB-Lifecycle-Management/OB-OBC-Lifecycle.md)

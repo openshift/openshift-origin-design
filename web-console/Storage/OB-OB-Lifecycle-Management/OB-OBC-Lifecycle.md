@@ -1,5 +1,5 @@
 # OB/OBC Lifecycle Management Design
-Support object bucket (OB) and object bucket (OBC) CRUD
+Support object bucket (OB) and object bucket (OBC) CRUD after an OCS installation.
 
 ## OBC
 
@@ -12,7 +12,7 @@ The OBC list contains the following details:
 * OBC Quota
 * Storage class
 
-The kabab menu contains the following options:
+The kebab menu contains the following options:
 * Edit labels
 * Edit Annotations
 * Edit OBC
@@ -50,11 +50,12 @@ In the Overview tab:
 
 ### Attach OBC to a pod
 
-Clicking on the Kabab menu-> Attach to a pod will open a modal window which the user need to choose which pod he wants to attach to.
+Clicking on the Kebab menu-> Attach to a pod will open a modal window which the user need to choose which pod he wants to attach to.
 
 
 ![OBC-list-view](img/OBC-attach-pod.png)
-
+A long list of pods could be presented in this dropdown, use a typeahead select input:
+![OBC-list-view](img/OBC-attach-pod-01.png)
 ## OB
 
 ### OBs List
@@ -65,7 +66,7 @@ The OB list contains the following details:
 * OB Quota- Inherited from the object bucket claim 
 * Storage class
 
-The kabab menu contains the following options:
+The kebab menu contains the following options:
 * Edit labels
 * Edit Annotations
 * Edit OB
@@ -109,4 +110,5 @@ Object bucket data (for application consumption):
 
 Same deletion modal for both OB/ OBC, the terminology should be changed accordingly.  
 
+For a higher level of verification, the user will be requested to enter the OBC/OB name he wishes to delete
 ![OBC-list-view](img/OBC-delete-obc.png)
