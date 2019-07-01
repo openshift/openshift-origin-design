@@ -31,27 +31,6 @@ Access design documentation for features coming in future releases, post OpenShi
 - [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/role-based-access-control/role-based-access-control)
 - [YAML Editor Updates](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/code-editor-updates/code-editor-updates)
 
-<<<<<<< HEAD
-=======
-### KubeVirt (Virtualization in OpenShift)
-- [Clone VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/clone-vm/clone-vm)
-- Create VM 
-    - [Step 1 - General](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/create-vm/create-vm.md)
-    - [Step 2 - Networking]
-    - [Step 3 - Storage]
-    - [Step 4 - Advanced]
-    - [Step 5 - Review]
-- [Expose Secret, CM and SA as Disks](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/expose-secret/expose-secret)
-- [Expose VM as a Service](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/expose-vm-as-a-service/expose-vm-as-a-service)
-- [Guest Agent Not Installed](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/guest-agent-not-installed/guest-agent-not-installed)
-- [Link between PVC and VM Disk](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/link-between-PVC-VMdisk/link-between-PVC-VMdisk)
-- [Migrate VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/migrate-vm/migrate-vm)
-- [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
-- [VM Templates](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-templates/vm-templates)
-- [VM Details](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-details/vm-details)
-- VM Console
->>>>>>> migrate vm update
-
 
 ## OpenShift 4.0 Designs
 Access design documentation for features slotted in the 4.0 release of OpenShift. Click links below for specific section details.
