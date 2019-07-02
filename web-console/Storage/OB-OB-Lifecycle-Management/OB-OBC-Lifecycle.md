@@ -9,7 +9,7 @@ The OBC list contains the following details:
 * Namespace
 * Status
 * Used
-* OBC Quota
+* OBC Quota [OBC quotas are out of scope for OCS 4.2]
 * Storage class
 
 The kebab menu contains the following options:
@@ -28,10 +28,11 @@ To create an OBC the user will need to provide the following details:
 * Namespace
 * Storage class 
 * OBC Quota- not mandatory. This will apply to all environments, i.e. RGW and S3 and is implemented as a hard limit by MCG/NooBaa.
-Default quota is 100 GiB.
+Default quota is 100 GiB. 
+[OBC quotas are out of scope for OCS 4.2]
 
 
-![OBC-list-view](img/OBC-create.png)
+![OBC create](img/OBC-create.png)
 
 info icon next to the OBC name text:
 
@@ -56,8 +57,8 @@ In the Overview tab:
 * Capacity data: Usage/ OBC quota/ pie chart for available
 * Bucket region
 * Object Bucket that was created by this claim
-
-![OBC-list-view](img/OBC-overview.png)
+[OBC quotas are out of scope for OCS 4.2: remove quota label for 4.2]
+![OBC details](img/OBC-overview.png)
 
 
 
@@ -67,9 +68,9 @@ In the Overview tab:
 Clicking on the Kebab menu-> Attach to a pod will open a modal window which the user need to choose which pod he wants to attach to.
 
 
-![OBC-list-view](img/OBC-attach-pod.png)
+![OBC attach pod](img/OBC-attach-pod.png)
 A long list of pods could be presented in this dropdown, use a typeahead select input:
-![OBC-list-view](img/OBC-attach-pod-01.png)
+![OBC attach pod 2](img/OBC-attach-pod-01.png)
 ## OB
 
 ### OBs List
@@ -77,7 +78,7 @@ The OB list contains the following details:
 * OB name
 * Status
 * Used
-* OB Quota- Inherited from the object bucket claim 
+* OB Quota- Inherited from the object bucket claim [OBC quotas are out of scope for OCS 4.2]
 * Storage class
 
 The kebab menu contains the following options:
@@ -86,7 +87,7 @@ The kebab menu contains the following options:
 * Edit OB
 * Delete OB
 
-![OBC-list-view](img/OB-list.png)
+![OB list](img/OB-list.png)
 
 
 ### Create OB
@@ -97,7 +98,7 @@ To create an OB the user will need to provide the following details:
 Other values such as region and quota inherits the OBC config 
 
 
-![OBC-list-view](img/OB-create.png)
+![OB create](img/OB-create.png)
 info icon next to the OB name text:
 
 Object bucket name must follow the bucket naming conventions:
@@ -126,11 +127,11 @@ Object bucket data (for application consumption):
 * Endpoint
 *all data is masked and can be revealed by clicking on “Reveal Values”
 
-![OBC-list-view](img/OB-overview.png)
+![OB details](img/OB-overview.png)
 
 ### Delete OB/ OBC
 
 Same deletion modal for both OB/ OBC, the terminology should be changed accordingly.  
 
 For a higher level of verification, the user will be requested to enter the OBC/OB name he wishes to delete
-![OBC-list-view](img/OBC-delete-obc.png)
+![OBC delete example](img/OBC-delete-obc.png)
