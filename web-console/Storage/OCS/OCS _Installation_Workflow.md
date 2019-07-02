@@ -1,25 +1,28 @@
 # OCS Install Workflow
 
-### Operator Hub
+### OperatorHub
 
-There will be 2 OCS operator entries in Operator Hub covering each of the following modes. 
+There will be 2 OCS operator entries in OperatorHub covering each of the following modes. 
 * Converged Mode -- Local Cluster / Hyperconverged 
 * Independent Mode -- External Cluster (Ceph Cluster is deployed externally)
 
 ### Converged Mode Design
 
-Operator Hub
-![Operator Hub operators view](img/OCS-operator-view.png)
+OperatorHub
+![OperatorHub operators view](img/OCS-operator-view.png)
 
 Installation
-![Operator Hub operators view](img/OCS-Install-step1.png)
+![OperatorHub operators view](img/OCS-Install-step1.png)
 
-![Operator Hub operators view](img/OCS-Install-step2.png)
+![OperatorHub operators view](img/OCS-Install-step2.png)
 
 After the subscription process, the user will see the subscribed operator page. 
+
+![subscription operators page](img/OCS_Subscription_page.png) 
+
 In the installed operator view the user can see the OCS operator installed. 
 
-![Operator Hub operators view](img/Installed_operators_list.png)
+![OperatorHub operators view](img/Installed_operators_list.png)
 
 
 # The OCS installation process
@@ -106,11 +109,11 @@ When the creation process starts new tabs for “OCS” and “MCG” will be pr
 
 
 * OCS Tab
-![Installation page](img/Installed_OCS_OCS_Tab.png)
-![Installation page](img/Installed_OCS_OCS_Tab_healthy.png)
+![ocs tab](img/Installed_OCS_OCS_Tab.png)
+![ocs tab healthy](img/Installed_OCS_OCS_Tab_healthy.png)
 
 * MCG Tab
-![Installation page](img/Installed_OCS_MCG_Tab.png)
+![mcg tab](img/Installed_OCS_MCG_Tab.png)
 
 * MCG Overview
-![Installation page](img/Installed_OCS_MCG_Overview.png)
+![mcg overview](img/Installed_OCS_MCG_Overview.png)
