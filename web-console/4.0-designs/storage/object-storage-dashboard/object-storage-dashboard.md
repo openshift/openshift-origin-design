@@ -1,7 +1,7 @@
 # Object Storage Dashboard￼
 
 ## Vision
-Our main goal was to have an object's storage dashboard supported by MCG (NooBaa) that provide the user with at-a-glance information used for analysis and decision making. 
+The main goal of the Object Service Dashboard is to provide an at-a-glance view of the Multi-Cloud Gateway (MCG) configuration, that is deployed as part of OpenShift Container Storage (OCS). This dashboard would provide health and status information as well as reporting on key performance indicators for analysis and decision making.
 
 ## Object Dashboards
 
@@ -33,6 +33,7 @@ We will show a breakdown between static buckets and buckets claim. Each bucket t
 
 ## Resources Providers Card
 ![Resources Providers](img/resource-card.png)
+
 This card list the different storage resources the user have. It can be a cloud based resource and a bare metal resource. For each type (AWS, google, ceph rgw…) we will show the number of resources and their status indication if something is wrong.
 **Only used resources types will be shown, no need to show types that are not in used. 
 
@@ -65,7 +66,7 @@ Why? What’s eating my budget? Understanding the traffic in the cloud, allowing
 ### Providers> Egress
 ![Providers by Egress](img/data-consumption-card-05.png)
 
-The size of the data NooBaa read from each provider 
+The size of the data MCG read from each provider 
 Why? Cost analysis.  Understanding the traffic in the cloud, allowing the user to compare with the cloud billing reports, optimize and improve resources allocation according to the egress pattern and perhaps consider changing the selected resource type.
     
 ### Providers> Physical vs. logical usage
@@ -75,34 +76,40 @@ Show the data consumption in the system by comparing the raw usage (physical) vs
 Why? Allows the user to control storage efficiency and allocate appropriate resources according to usage characteristics.
 
 ## Data Resiliency Card
-![Data Resiliency](img/data-resiliency-crad.png)
+![Data Resiliency](img/data-resiliency-card-02.png) ![Data Resiliency Rebuilding](img/data-resiliency-card-01.png)
 
 In this card we will show if there is any resiliency issue in MCG/Noobaa. For any rebuilding process we will show a progress bar that indicates the progression. Time estimation will be shown as well if available.
 
 ## Capacity Usage Card
-![Capacity Usage Breakdown](img/capacity-usage-crad.png)
+![Capacity Usage Breakdown](img/capacity-usage-card.png)
+
 Show a breakdown by pie chart of the usage of the object storage by projects/ Bucket Class.
 
 ## Data Reduction Card
-![Data Reduction](img/data-reduction-crad.png)
+![Data Reduction](img/data-reduction-card.png)
 
 In this card we will show the data optimization in MCG which consist of deduplication and compression. 
 
 ## Info icon texts:
-- Resources Providers:
+- **Resources Providers:**
+
   A list of all MCG (Multi-cloud gateway) resources that are currently in use. Those resources are used to store data according to the buckets policies and can be a cloud-based resource or a bare metal resource. 
 
-- Health:
-The object storage health state consists of the system’s data availability, buckets, and resources health and functionality.
+- **Health:**
 
-- Data resiliency: 
-Data resiliency is the ability of stored objects to recover and continue operating in the case of a failure. 
-Certain changes in the system (unavailable resource/ change of bucket policy etc.) cause an object to require a rebuilding process in order to stay resilient. 
+  The object storage health state consists of the system’s data availability, buckets, and resources health and functionality.
 
-- Efficiency ratio:
-Efficiency ratio refers to the deduplication and compression process effectiveness. 
+- **Data resiliency:**
 
-- Savings:
-Savings shows the uncompressed and non-deduped data that would have been stored without those techniques. 
+  Data resiliency is the ability of stored objects to recover and continue operating in the case of a failure. 
+  Certain changes in the system (unavailable resource/ change of bucket policy etc.) cause an object to require a rebuilding process in order to stay resilient. 
+
+- **Efficiency ratio:**
+
+  Efficiency ratio refers to the deduplication and compression process effectiveness. 
+
+- **Savings:**
+
+  Savings shows the uncompressed and non-deduped data that would have been stored without those techniques. 
 
 
