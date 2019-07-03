@@ -4,7 +4,7 @@ Clicking the action button next to any Virtual Machine in the List will present 
 
 ![Selecting a VM](img/1-0-list.png)
 
-A modal will be presented where the user can choose which Node the VM should be migrated to.
+Since the user can't pick a destination node (we just submit a request for migration and this starts a machinery which at some points picks a host), so we just keep the confirmation dialog simple and let the user know that this VM is migrated to another node.
 
 ![Modal migrate](img/1-2-modal-migrate.png)
 
@@ -12,17 +12,7 @@ A modal will be presented where the user can choose which Node the VM should be 
 
 When the destination Node has a much longer name than the size of the text box, there are 2 available options:
 
-* adding 3 dots at the end of the text
-
-![Modal view](img/1-2-modal-migrate-longname.png)
-
-* adding 3 dots at the middle of the text
-
-![Modal view](img/1-2-modal-migrate-longname.png)
-
-Clicking on the name will show a popover with the full destination Node name and some explanatory text.
-
-After the migration is kicked off, the status of the VM showing that the migration has started will be reflected in the list view.
+ After the migration is kicked off, the status of the VM showing that the migration has started will be reflected in the list view.
 
 On error or completion, the user will receive a notification and the status will be updated accordingly.
 For a process that is not instantaneous, the user will be notified via notification when it completes.
