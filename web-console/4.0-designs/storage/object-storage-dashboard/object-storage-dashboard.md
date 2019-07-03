@@ -45,31 +45,31 @@ The health indication shows if the system is up and running without any major is
 In this card the user can see an analysis for providers and accounts (MCG accounts) by different KPIs (physical Usage, logical usage, i/o, and egress depends on the selected type). 
 
 ### Accounts> I/O operations
-![Accounts by I/O operations](img/data-consumption-crad-01.png)
+![Accounts by I/O operations](img/data-consumption-card-01.png)
 
 Show the top 5 accounts consumers R/W count values. At the bottom legends show the total Reads and total Writes amount of all 5. 
 Why? States how connected applications utilizes the system resources. 
 
 ### Accounts > Logical Usage
-![Accounts by Logical Usage](img/data-consumption-crad-02.png)
+![Accounts by Logical Usage](img/data-consumption-card-02.png)
 
 Show each account total logical usage size
 Why? Show how connected applications utilizes the system resources. 
 
 ### Providers> I/O operations
-![Providers by I/O operations](img/data-consumption-crad-04.png)
+![Providers by I/O operations](img/data-consumption-card-04.png)
 
 Input/Output operations sent to and from MCG to connected cloud providers
 Why? What’s eating my budget? Understanding the traffic in the cloud, allowing the user to compare with the cloud billing reports, optimize and improve resources allocation according to the I/O pattern and perhaps consider changing the selected resource type.
 
 ### Providers> Egress
-![Providers by Egress](img/data-consumption-crad-05.png)
+![Providers by Egress](img/data-consumption-card-05.png)
 
 The size of the data NooBaa read from each provider 
 Why? Cost analysis.  Understanding the traffic in the cloud, allowing the user to compare with the cloud billing reports, optimize and improve resources allocation according to the egress pattern and perhaps consider changing the selected resource type.
     
 ### Providers> Physical vs. logical usage
-![Providers by Physical vs. logical usage](img/data-consumption-crad-03.png)
+![Providers by Physical vs. logical usage](img/data-consumption-card-03.png)
 
 Show the data consumption in the system by comparing the raw usage (physical) vs. the logical usage. Raw usage refers to the actual size that the buckets in the system are utilizing from it's resources including data resiliency replicas or fragments. 
 Why? Allows the user to control storage efficiency and allocate appropriate resources according to usage characteristics.
@@ -87,5 +87,22 @@ Show a breakdown by pie chart of the usage of the object storage by projects/ Bu
 ![Data Reduction](img/data-reduction-crad.png)
 
 In this card we will show the data optimization in MCG which consist of deduplication and compression. 
+
+## Info icon texts:
+- Resources Providers:
+  A list of all MCG (Multi-cloud gateway) resources that are currently in use. Those resources are used to store data according to the buckets policies and can be a cloud-based resource or a bare metal resource. 
+
+- Health:
+The object storage health state consists of the system’s data availability, buckets, and resources health and functionality.
+
+- Data resiliency: 
+Data resiliency is the ability of stored objects to recover and continue operating in the case of a failure. 
+Certain changes in the system (unavailable resource/ change of bucket policy etc.) cause an object to require a rebuilding process in order to stay resilient. 
+
+- Efficiency ratio:
+Efficiency ratio refers to the deduplication and compression process effectiveness. 
+
+- Savings:
+Savings shows the uncompressed and non-deduped data that would have been stored without those techniques. 
 
 
