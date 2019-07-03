@@ -9,7 +9,7 @@ The OBC list contains the following details:
 * Namespace
 * Status
 * Used
-* OBC Quota [OBC quotas are out of scope for OCS 4.2]
+* Secret
 * Storage class
 
 The kebab menu contains the following options:
@@ -52,12 +52,21 @@ In the Overview tab:
 * Labels
 * Annotations
 * Creation time
+* Secret
 * Status
 * Storage class
 * Capacity data: Usage/ OBC quota/ pie chart for available
 * Bucket region
 * Object Bucket that was created by this claim
 [OBC quotas are out of scope for OCS 4.2: remove quota label for 4.2]
+
+Object bucket claim data (for application consumption):
+* Bucket name 
+* Access Key
+* Secret Key
+* Endpoint
+*all data is masked and can be revealed by clicking on “Reveal Values”
+
 ![OBC details](img/OBC-overview.png)
 
 
@@ -119,13 +128,6 @@ Overview tab:
 * Storage class
 * Capacity data: Usage/ OB quota/ pie chart for available
 * Object Bucket claim that created this claim
-
-Object bucket data (for application consumption):
-* Bucket name 
-* Access Key
-* Secret Key
-* Endpoint
-*all data is masked and can be revealed by clicking on “Reveal Values”
 
 ![OB details](img/OB-overview.png)
 
