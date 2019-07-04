@@ -10,8 +10,6 @@ When `migrate` is selected the user is presented with a dialog the requires them
 
 ![Modal view](img/1-1-modal-info.png)
 
-When the destination Node has a much longer name than the size of the text box, there are 2 available options:
-
  After the migration is kicked off, the status of the VM showing that the migration has started will be reflected in the list view.
 
 On error or completion, the user will receive a notification and the status will be updated accordingly.
