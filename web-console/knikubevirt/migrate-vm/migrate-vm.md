@@ -8,8 +8,6 @@ When `migrate` is selected the user is presented with a dialog the requires them
 
 ![Modal migrate](img/1-2-modal-migrate.png)
 
-![Modal view](img/1-1-modal-info.png)
-
  After the migration is kicked off, the status of the VM showing that the migration has started will be reflected in the list view.
 
 On error or completion, the user will receive a notification and the status will be updated accordingly.
