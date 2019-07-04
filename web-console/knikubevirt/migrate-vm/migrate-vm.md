@@ -4,7 +4,7 @@ Clicking the action button next to any Virtual Machine in the List will present 
 
 ![Selecting a VM](img/1-0-list.png)
 
-Since the user can't pick a destination node (we just submit a request for migration and this starts a machinery which at some points picks a host), so we just keep the confirmation dialog simple and let the user know that this VM is migrated to another node.
+When `migrate` is selected the user is presented with a dialog the requires them to confirm the migration. 
 
 ![Modal migrate](img/1-2-modal-migrate.png)
 
