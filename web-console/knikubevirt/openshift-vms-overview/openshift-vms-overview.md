@@ -3,13 +3,9 @@
 The purpose of this PR is to explore what Virtual Machines could look like in the Overview and Resources sections of Openshift/CNV.
 This is the first pass so really just trying to understand exactly what needs to be surfaced there.
 
-Through the Overview page the user can see the VM’s based on the application it is associated with via it’s label.
+Through the Overview page the user can see the VM’s based on the application it is associated with via it’s label and and also see some sparkline charts that illustrate the usage of Network, CPU and Memory for the past 7 days.
 
-![list of VMs based on app with label](Openshift-overview-virtual-machine.png)
-
-An alternative to the above charts could be a sparkline that shows usage for the past 7 days.
-
-![sparkline instead of dounat](Openshift-overview-virtual-machine-sparkline.png)
+![sparkline](Openshift-overview-virtual-machine-sparkline.png)
 
 Clicking on the Kebab would offer a list of options depending on that state of the VM.
 
