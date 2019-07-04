@@ -1,0 +1,60 @@
+# Affinity
+
+### About Affinity
+Affinity provieds the user to create a relationship between two resources chen scheduling them on the cluster.
+There are two high level relationship types:
+Affinity - attaching a group of resources together, making them run together in the same environment.
+Anti-affinity - creating a rejection relationship between a group of resources, thus avoiding sheduling any of them to the same evironment.
+
+Besides defining if we want to attach or reject resources to one another, we can choose to "Force" this rule we are creating.
+"Forcing" a rule means what the conditions of this rule must met, even if it means that some resources just won't be scheduled at all.
+
+### a few techincal words
+Affinity rules are Pods Property, written in the pod deployment file. When a pod is scheduled, the deployment file mentions that there is an affinity rule conditions which needs to be met.
+Selecting resources to affinity is usually done via labels. This makes sense since objects within k8 are temporary, and usually the way to target the same resource which keeps on crashing and regenerating is by it's label.
+
+
+## affinity rules - list page
+
+![Affinity list](img/D2-0-0.jpg)
+All affinity rules within the system can be viewed and managed from this page. It is located in the Master side navigation, in 'Workloads' under 'Secrets'
+
+## creating an affinity rule from Affinity Rules page
+
+Clicking on the "Add affinity rule" button at the top of the affinity list will open up the "Add affinty rule" modal.
+
+![Affinity rule modal - default](img/D2-1-0.jpg)
+Going top to bottom, the user will choose of to create an affinity (attachment), which is pre-selected, or change to Anti-affinity (rejection).
+Then, the user will select the resources he wish to apply that rule on by adding their representative labels to the "Select resources by label" field.
+
+*Please note that we are aware that it is quite dificult to select resources via labels alone, without seeing any mention on the resources those labels represent, without selecting resources directly first or without any label autocomplete. We already have a few designs to resolve that issue, but these designs affect the rest of the system too and are out of scope. for the moment, we are aiming to get the most minimal design merged and take it from there, while sticking to how it actually works in k8.
+
+![applying rule](img/D2-1-1.jpg)
+Before applying, the user choose if to check the "Force this rule" checkbox, making this rule a must met conditions when scheduling the resources targeted by the added labels above.
+In this case, the user choose to apply this rule without "forcing" it.
+The user now returns to the Affinity rules list.
+
+# Affinity rules list on a resource details page
+
+![VM details page - overview tab - affinity section](img/D1-0-0.jpg)
+Affinity rules can be viewed and managed per resource as well. The list is located in the resource details page, on the overview tab in Affinity rules section under 'Services' if those exist.
+
+## Creating an affinity rule from a resource details page
+
+![Affinity rule modal - default](img/D1-1-0.jpg)
+
+Clicking on the "Add affinity rule" button at the top of the affinity list will open up the "Add affinty rule" modal.
+It is the same as the modal from the Affinity Rules list page except one thing: The resource itself is already added to the "Select resources by label" field.
+The resource will be mentioned by it's name. 
+Technically, this "direct selection" of this resource is not actually a direct selection. We already mentioned that selecting a resource directly is not the best way since that resource will crush and regenerate more than a few times. Instead, that  selection will provide a new, uniquew label to the specified resource. We do not need to surface this to the user, at least not for now.
+
+![Affinity rule modal - selecting labels](img/D1-1-1.jpg)
+User enters a label. The resource name stays appear first in the field, even after adding labels. It will not be viewed as a label, but as a placeholder text.
+The rule is ready to be applied. The user clicks 'Apply' and returns to the resource details page, where he left off.
+
+
+## Bypassing a resource scheduling failure to to forced affinity rule
+
+![Resource scheduling failure - modal](img/D3-1-0.jpg)
+If a resource cannot be scheduled due to a forced affinity rule, the user will recieve the a notification in the same format as any other scheduling failure, which is out of scope for this PR.
+Expanding that notification will pop up this modal, which allows the user to bypass the rule manually
