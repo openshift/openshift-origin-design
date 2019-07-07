@@ -1,7 +1,7 @@
 # Affinity
 
 ### About Affinity
-Affinity provieds the user to create a relationship between two resources chen scheduling them on the cluster.
+Affinity allows the user to create a relationship between two resources when scheduling them on the cluster.
 There are two high level relationship types:
 Affinity - attaching a group of resources together, making them run together in the same environment.
 Anti-affinity - creating a rejection relationship between a group of resources, thus avoiding sheduling any of them to the same evironment.
