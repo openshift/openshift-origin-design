@@ -56,5 +56,5 @@ The rule is ready to be applied. The user clicks 'Apply' and returns to the reso
 ## Bypassing a resource scheduling failure due to a forced affinity rule
 
 ![Resource scheduling failure - modal](img/D3-1-0.jpg)
-If a resource cannot be scheduled due to a forced affinity rule, the user will recieve the a notification in the same format as any other scheduling failure, which is out of scope for this PR.
+If a resource cannot be scheduled due to a forced affinity rule, the user will receive a notification in the same format as any other scheduling failure.
 Expanding that notification will pop up this modal, which allows the user to bypass the rule manually
