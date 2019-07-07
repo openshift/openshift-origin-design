@@ -11,7 +11,7 @@ Besides defining if we want to attach or reject resources to one another, we can
 
 ### a few techincal words
 Affinity rules are Pod Properties, written in the pod deployment file. When a pod is scheduled, the deployment file states that there is an affinity rule condition which needs to be met.
-Selecting resources to affinity is usually done via labels. This makes sense since objects within k8 are temporary, and usually the way to target the same resource which keeps on crashing and regenerating is by it's label.
+Applying an affinity rule to a resources is done via labels. Objects in OpenShift are ephemeral, and the way to target the same object which keeps crashing and regenerating is by its label.
 
 
 ## affinity rules - list page
