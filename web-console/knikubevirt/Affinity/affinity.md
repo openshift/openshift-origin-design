@@ -24,7 +24,7 @@ All affinity rules within the system can be viewed and managed from this page. I
 Clicking on the "Add affinity rule" button at the top of the affinity list will open up the "Add affinty rule" modal.
 
 ![Affinity rule modal - default](img/D2-1-0.jpg)
-Going top to bottom, the user will choose of to create an affinity (attachment), which is pre-selected, or change to Anti-affinity (rejection).
+Going top to bottom, the user will choose to create an affinity (attachment), which is pre-selected, or change to Anti-affinity (rejection).
 Then, the user will select the resources he wish to apply that rule on by adding their representative labels to the "Select resources by label" field.
 
 *Please note that we are aware that it is quite dificult to select resources via labels alone, without seeing any mention on the resources those labels represent, without selecting resources directly first or without any label autocomplete. We already have a few designs to resolve that issue, but these designs affect the rest of the system too and are out of scope. for the moment, we are aiming to get the most minimal design merged and take it from there, while sticking to how it actually works in k8.*
