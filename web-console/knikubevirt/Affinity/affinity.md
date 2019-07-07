@@ -30,7 +30,7 @@ Then, the user will select the resources he wishes to apply that rule to by addi
 *Please note that we are aware that it is quite dificult to select resources via labels alone, without seeing any mention on the resources those labels represent, without selecting resources directly first or without any label autocomplete. We already have a few designs to resolve that issue, but these designs affect the rest of the system too and are out of scope. for the moment, we are aiming to get the most minimal design merged and take it from there, while sticking to how it actually works in k8.*
 
 ![applying rule](img/D2-1-1.jpg)
-Before applying, the user choose if to check the "Force this rule" checkbox, making this rule a must met conditions when scheduling the resources targeted by the added labels above.
+Before applying, the user can check the "Force this rule" checkbox, making this rule a required condition when scheduling the resources targeted by the added labels above.
 In this case, the user choose to apply this rule without "forcing" it.
 The user now returns to the Affinity rules list.
 
