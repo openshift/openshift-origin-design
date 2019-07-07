@@ -42,7 +42,21 @@ Clicking on Add devices will open the “Add Storage Device” Form.
 
 ![Add Storage Device Form](img/Expand-Storage-15.png)
 ![Add Storage Device Form](img/Expand-Storage-16.png)
-After selecting the devices, clicking add will attach them to the OCS service.  
+After selecting the devices, clicking add will attach them to the OCS service. 
+
+Note: based on the infrastructure the devices list will show different columns: 
+
+- **For local storage for a baremetal node, device list should include**
+    
+    Device Name, Device UUID, Type, Capacity/Size, Model, Status
+
+- **For AWS (EC2) node, Device list should include**
+
+    (EBS volume) name, EBS Type, Capacity/Size, Availability Zone, Status
+
+- **For VMware node, Device list should include**
+
+    (VMDK) name, Type (VMDK or RDM), Capacity/Size, Used Capacity, Status
 
 ## Add Node
 To add a node, the flow will be decided based on the platform OpenShift is deployed on:
@@ -62,10 +76,19 @@ Admin clicks on the node(s) he/she wishes to add:
 ![Add Node- Choose Devices](img/Expand-Storage-11.png)
 Admin can change the device selection by clicking on the Selected Devices hyperlink to bring up the “Select Devices” modal.
 
-Note: The device modal will be based on the platform:
-Bare metal -- local devices presented
-AWS -- EBS volumes presented
-VMware -- VMDKs / RDMs presented
+Note: based on the infrastructure the devices list will show different columns: 
+
+- **For local storage for a baremetal node, device list should include**
+    
+    Device Name, Device UUID, Type, Capacity/Size, Model, Status
+
+- **For AWS (EC2) node, Device list should include**
+
+    (EBS volume) name, EBS Type, Capacity/Size, Availability Zone, Status
+
+- **For VMware node, Device list should include**
+
+    (VMDK) name, Type (VMDK or RDM), Capacity/Size, Used Capacity, Status
 
 ![Add Node](img/Expand-Storage-12.png)
 Once the devices are selected, the selected nodes count and total capacity for the selected devices are shown at the bottom of the Nodes table.
