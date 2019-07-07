@@ -9,9 +9,9 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 - [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
 - [VM Templates](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-templates/vm-templates)
 - [VM Details](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-details/vm-details)
-- [Affinity](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/affinity/affinity)
 
 ### Future Designs
+- [Affinity](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/affinity/affinity)
 
 #### KNI (Kubernetes Native Infrastructure/OpenShift on Bare Metal)
 - Add Bare Metal Host
