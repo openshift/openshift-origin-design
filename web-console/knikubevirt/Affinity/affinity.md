@@ -7,7 +7,7 @@ Affinity - attaching a group of resources together, making them run together in 
 Anti-affinity - creating a rejection relationship between a group of resources, thus avoiding scheduling any of them in the same environment.
 
 Besides defining if we want to attach or reject resources to one another, we can choose to "force" this rule we are creating.
-"Forcing" a rule means what the conditions of this rule must met, even if it means that some resources just won't be scheduled at all.
+"Forcing" a rule means that the conditions of this rule must met, even if it means that some resources just won't be scheduled at all.
 
 ### a few techincal words
 Affinity rules are Pods Property, written in the pod deployment file. When a pod is scheduled, the deployment file mentions that there is an affinity rule conditions which needs to be met.
