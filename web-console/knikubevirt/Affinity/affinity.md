@@ -10,7 +10,7 @@ Besides defining if we want to attach or reject resources to one another, we can
 "Forcing" a rule means that the conditions of this rule must met, even if it means that some resources just won't be scheduled at all.
 
 ### a few techincal words
-Affinity rules are Pods Property, written in the pod deployment file. When a pod is scheduled, the deployment file mentions that there is an affinity rule conditions which needs to be met.
+Affinity rules are Pod Properties, written in the pod deployment file. When a pod is scheduled, the deployment file states that there is an affinity rule condition which needs to be met.
 Selecting resources to affinity is usually done via labels. This makes sense since objects within k8 are temporary, and usually the way to target the same resource which keeps on crashing and regenerating is by it's label.
 
 
