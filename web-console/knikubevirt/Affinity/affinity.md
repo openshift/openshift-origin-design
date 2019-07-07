@@ -49,7 +49,7 @@ The resource will be mentioned by it's name.
 Technically, this "direct selection" of this resource is not actually a direct selection. We already mentioned that selecting a resource directly is not the best way since that resource will crush and regenerate more than a few times. Instead, that  selection will provide a new, uniquew label to the specified resource. We do not need to surface this to the user, at least not for now.
 
 ![Affinity rule modal - selecting labels](img/D1-1-1.jpg)
-User enters a label. The resource name stays appear first in the field, even after adding labels. It will not be viewed as a label, but as a placeholder text.
+User enters a label. The resource name remains first in the field, even after adding labels. It will not be viewed as a label, but as a placeholder text.
 The rule is ready to be applied. The user clicks 'Apply' and returns to the resource details page, where he left off.
 
 
