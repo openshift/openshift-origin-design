@@ -17,7 +17,7 @@ Applying an affinity rule to a resources is done via labels. Objects in OpenShif
 ## affinity rules - list page
 
 ![Affinity list](img/D2-0-0.jpg)
-All affinity rules within the system can be viewed and managed from this page. It is located in the Master side navigation, in 'Workloads' under 'Secrets'
+All affinity rules within the system can be viewed and managed from this page. It is located in the main navigation, under 'Workloads' 
 
 ## creating an affinity rule from Affinity Rules page
 
