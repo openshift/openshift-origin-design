@@ -1,8 +1,8 @@
-# Explorer
+# API Explorer
 
 The API Explorer will be available on YAML editors, for both creation and edit flows.
 
-## Explorer side panel
+## Side panel
 * The explorer will have the following tabs:
   * **Schema**: A short description of the resource with a 'Learn more' link pointing to full documentation. Also includes a description of resource's elements.
   * **Samples**: If applicable, samples for the resources. If there are no samples, this tab is hidden.
@@ -21,7 +21,7 @@ The API Explorer will be available on YAML editors, for both creation and edit f
 
 ![build config](img/buildconfig.png)
 
-## Explorer full page
+## Full page
 * A full page view of the API Explorer will be available in the Administration section.
 * Users can select a resource from the list to view more details.
 * The details page will have the following tabs:
