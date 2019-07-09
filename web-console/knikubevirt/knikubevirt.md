@@ -8,7 +8,7 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 - Storage Dashboard
 - [VM List](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-list/vm-list)
 - [VM Templates](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-templates/vm-templates)
-- [VM Details](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-details/vm-details)
+
 
 ### Future Designs
 
@@ -29,3 +29,4 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 - [Expose VM as a Service](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/expose-vm-as-a-service/expose-vm-as-a-service)
 - [Guest Agent Not Installed](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/guest-agent-not-installed/guest-agent-not-installed)
 - [Link between PVC and VM Disk](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/link-between-PVC-VMdisk/link-between-PVC-VMdisk)
+- [VM Details](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-details/vm-details)
