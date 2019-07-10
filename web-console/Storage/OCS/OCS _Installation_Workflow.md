@@ -36,7 +36,7 @@ Based on the underlying platform, the user can select between “Create new node
     * Note: not applicable for VMware currently and not applicable for baremetal
 * Use existing nodes -- uses existing OCP nodes and existing storage devices/volumes (in AWS and VMware, and for baremetal), which Admin has to select
 
-
+Same flow will be available by clicking on the OCS tab and "Create new" button. 
 
 ## For AWS or Cloud Deployments (IPI and UPI)
 * “Create New Nodes” (IPI) option:
@@ -105,15 +105,11 @@ In the OCS service details page- show a static error message.
 # After Installation
 * OCS Overview
 ![Installation page](img/Installed_OCS_OCS_Overview.png)
-When the creation process starts new tabs for “OCS” and “MCG” will be presented. If the deployment process runs for a while, the status “deploying” will be presented (the cluster link is not linkable during the process).
 
+When the creation process starts new rows for “OCS” and “MCG” will be presented. If the deployment process runs for a while, the status “deploying” will be presented (the link is not linkable during the process).
+![OCS Tab](img/Installed_OCS_OCS_Tab_deploy.png)
+![OCS Tab](img/Installed_OCS_OCS_Tab_healthy.png)
 
-* OCS Tab
-![ocs tab](img/Installed_OCS_OCS_Tab.png)
-![ocs tab healthy](img/Installed_OCS_OCS_Tab_healthy.png)
-
-* MCG Tab
-![mcg tab](img/Installed_OCS_MCG_Tab.png)
 
 * MCG Overview
 ![mcg overview](img/Installed_OCS_MCG_Overview.png)
