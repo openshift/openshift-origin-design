@@ -6,6 +6,7 @@ Access design documentation for features slotted in the 4.2 release of OpenShift
 - [Contextual Help](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/contextual-help/contextual-help)
 - [Dashboards and Projects](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/dashboards/dashboards)
 - [Image Commands](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/image-commands/image-commands)
+- [Import YAML](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/import-yaml/import-yaml)
 - [Machines](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/machines/machines)
 - [Metrics](http://openshift.github.io/openshift-origin-design/web-console/monitoring/metrics/metrics)
 - [Nodes](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/nodes/nodes)
