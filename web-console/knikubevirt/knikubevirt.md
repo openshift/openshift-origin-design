@@ -31,3 +31,4 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 - [Link between PVC and VM Disk](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/link-between-PVC-VMdisk/link-between-PVC-VMdisk)
 - [Snapshots](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/snapshots/snapshots) [snapshots details follow-up page issue](https://github.com/openshift/openshift-origin-design/issues/227)
 - [VM Details](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-details/vm-details)
+- [Virtual machines Project Overview](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/openshift-vms-overview/openshift-vms-overview)
