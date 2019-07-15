@@ -29,6 +29,7 @@ The API Explorer will be available on YAML editors, for both creation and edit f
   * **Schema**: Full page view of the schema information.
   * **Samples**: Full page view of the samples if applicable.
   * **Instances**: List view of the instances of that resource.
+  * **Access Review**: Overview of access for that resource in a specific namespace or all namespaces.
 * Users can also create a new instance of that resource by clicking the primary Create button in the upper right hand corner of the page.
 
 ![full](img/full.png)
@@ -40,3 +41,5 @@ The API Explorer will be available on YAML editors, for both creation and edit f
 ![full samples](img/full-samples.png)
 
 ![full instances](img/full-instances.png)
+
+![full access](img/full-access.png)
