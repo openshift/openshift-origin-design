@@ -25,6 +25,7 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 	- [Step 3 - Storage]
 	- [Step 4 - Advanced]
 	- [Step 5 - Review]
+- [Import VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/import-vm/import-vm)
 - [Expose Secret, CM and SA as Disks](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/expose-secret/expose-secret)
 - [Expose VM as a Service](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/expose-vm-as-a-service/expose-vm-as-a-service)
 - [Guest Agent Not Installed](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/guest-agent-not-installed/guest-agent-not-installed)
