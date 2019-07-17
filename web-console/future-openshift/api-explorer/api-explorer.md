@@ -6,15 +6,18 @@ The API Explorer will be available on YAML editors, for both creation and edit f
 * The explorer will have the following tabs:
   * **Schema**: A short description of the resource with a 'Learn more' link pointing to full documentation. Also includes a description of resource's elements.
   * **Samples**: If applicable, samples for the resources. If there are no samples, this tab is hidden.
+  * In future, the Access Review tab may also be surfaced in the side panel.
 * The explorer will be open by default.
-* Users can close the side panel by clicking the 'x'. The panel can be opened by clicking the floating 'View Explorer' link in the upper right hand corner of the page view.
+* Users can close the side panel by clicking the 'x'. The panel can be opened by clicking the floating 'View API Explorer' link in the upper right hand corner of the page view.
 
 ### Create flow
+In this example, there are no samples so the Samples tab is hidden.
 ![pod schema](img/pod-schema.png)
 
 ![pod](img/pod.png)
 
 ### Edit flow
+In this example, there are samples so the tab is available.
 ![build config](img/buildconfig-schema.png)
 
 ![build config](img/buildconfig-samples.png)
@@ -30,7 +33,6 @@ The API Explorer will be available on YAML editors, for both creation and edit f
   * **Samples**: Full page view of the samples if applicable.
   * **Instances**: List view of the instances of that resource.
   * **Access Review**: Overview of access for that resource in a specific namespace or all namespaces.
-* Users can also create a new instance of that resource by clicking the primary Create button in the upper right hand corner of the page.
 
 ![full](img/full.png)
 
