@@ -14,14 +14,14 @@ Affinity rules are Pod Properties, written in the pod deployment file. When a po
 Applying an affinity rule to a resources is done via labels. Objects in OpenShift are ephemeral, and the way to target the same object which keeps crashing and regenerating is by its label.
 
 
-## affinity rules - list page
+## Affinity rules - list page
 
 ![Affinity list](img/D2-0-0.jpg)
 All affinity rules within the system can be viewed and managed from this page. It is located in the main navigation, under 'Workloads' 
 
-## creating an affinity rule from Affinity Rules page
+## creating an Affinity rule from Affinity Rules page
 
-Clicking on the "Add affinity rule" button at the top of the affinity list will open up the "Add affinty rule" modal.
+Clicking on the "Add Affinity rule" button at the top of the affinity list will open up the "Add Affinty rule" modal.
 
 ![Affinity rule modal - default](img/D2-1-0.jpg)
 Going top to bottom, the user will choose to create an affinity (attachment), which is pre-selected, or change to Anti-affinity (rejection).
@@ -37,10 +37,10 @@ The user now returns to the Affinity rules list.
 
 # Affinity rules list on a resource details page
 
-![VM details page - overview tab - affinity section](img/D1-0-0.jpg)
+![VM details page - overview tab - Affinity section](img/D1-0-0.jpg)
 Affinity rules can be viewed and managed per resource as well. The list is located in the resource details page, on the overview tab in Affinity rules section under 'Services' if those exist.
 
-## Creating an affinity rule from a resource details page
+## Creating an Affinity rule from a resource details page
 
 ![Affinity rule modal - default](img/D1-1-0.jpg)
 
@@ -54,7 +54,7 @@ User enters a label. The resource name remains first in the field, even after ad
 The rule is ready to be applied. The user clicks 'Apply' and returns to the resource details page, where he left off.
 
 
-## Bypassing a resource scheduling failure due to a forced affinity rule
+## Bypassing a resource scheduling failure due to a forced Affinity rule
 
 ![Resource scheduling failure - modal](img/D3-1-0.jpg)
 If a resource cannot be scheduled due to a forced affinity rule, the user will receive a notification in the same format as any other scheduling failure.
