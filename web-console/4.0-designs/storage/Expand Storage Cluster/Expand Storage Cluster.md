@@ -33,7 +33,7 @@ Note: “Expanding" would cover Add Node, Add Capacity, and Expand/Grow Capacity
 When the expansion process is completed, the status will be changed back to online and a toast notification will be presented.
  
 
-### Add Storage Devices (VMware / Baremetal)
+### Add Storage Devices (Baremetal)
 
 Admin needs to select devices on the node/host, so they can be converted into CR, which in turn becomes the PVs.
 
@@ -50,13 +50,6 @@ Note: based on the infrastructure the devices list will show different columns:
     
     Device Name, Device UUID, Type, Capacity/Size, Model, Status
 
-- **For AWS (EC2) node, Device list should include**
-
-    (EBS volume) name, EBS Type, Capacity/Size, Availability Zone, Status
-
-- **For VMware node, Device list should include**
-
-    (VMDK) name, Type (VMDK or RDM), Capacity/Size, Used Capacity, Status
 
 ## Add Node
 To add a node, the flow will be decided based on the platform OpenShift is deployed on:
@@ -70,35 +63,7 @@ Clicking on adding node will open the Add Node form.
 
 ![Add Node](img/Expand-Storage-08.png)
 ![Add Node](img/Expand-Storage-09.png)
-Admin clicks on the node(s) he/she wishes to add:
+Admin clicks on the node(s) he/she wishes to add, after selecting the nodes, the user can choose the ammount of capacity he needs for OCS.  
 
-![Add Node- Choose Devices](img/Expand-Storage-10.png)
-![Add Node- Choose Devices](img/Expand-Storage-11.png)
-Admin can change the device selection by clicking on the Selected Devices hyperlink to bring up the “Select Devices” modal.
 
-Note: based on the infrastructure the devices list will show different columns: 
-
-- **For local storage for a baremetal node, device list should include**
-    
-    Device Name, Device UUID, Type, Capacity/Size, Model, Status
-
-- **For AWS (EC2) node, Device list should include**
-
-    (EBS volume) name, EBS Type, Capacity/Size, Availability Zone, Status
-
-- **For VMware node, Device list should include**
-
-    (VMDK) name, Type (VMDK or RDM), Capacity/Size, Used Capacity, Status
-
-![Add Node](img/Expand-Storage-12.png)
-Once the devices are selected, the selected nodes count and total capacity for the selected devices are shown at the bottom of the Nodes table.
-
-### Create Node (AWS/cloud)
-
-![Create Node](img/Create-Node-01.png)
-Clicking on “create node” will open the “create” modal
-
-![Create Node](img/Create-Node-02.png)
-Admin user will be prompted for the number of new nodes to add to the OCS cluster.
-The System will figure out the appropriate AZ, machineset to use in order to create the new node.
 
