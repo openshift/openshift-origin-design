@@ -3,16 +3,11 @@
 ## Step 2: Networking
 
 ![Default](img/3-00.png)
-The user enters the Networking step with an exisitng NIC pre-defined, set to Type (local).
-In this step, the 'Review and Create' button is still avaialbe to skip the rest of the steps.
-At this point the user can select to customize this NIC, add new ones, or remove all.
-
+The user enters the Networking step with an existing NIC pre-defined, set to Type (local). In this step, the 'Review and Create' button is still available to skip the rest of the steps. At this point, the user can select to customize this NIC, add new ones, or remove all.
 
 ![Adding NIC](img/3-01.png)
-Click on 'Add NIC' will pop up a "Create NIC" modal.
-The NIC name is prepopulated with numeric count from of exisgting NICs on this flow.
-The user may change the NIC name.
-All the fields are preselected except Type. In order for the user to apply and add this NIC, the user must select one of the type options.
+Click on 'Add NIC' will pop up a "Create NIC" modal. The NIC name is prepopulated with a numeric count from of existing NICs on this flow. The user may change the NIC name. All the fields are preselected except Type. In order for the user to apply and add this NIC, the user must select one of the type options.
+
 
 ![Type - Masquerade](img/3-02.png)
 In case the user selects Masquerade on the Type field, new in dent fields will appear.
