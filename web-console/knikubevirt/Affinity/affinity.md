@@ -33,6 +33,7 @@ Then, the user will select the resources he wishes to apply that rule to by addi
 Before applying, the user can check the "Force this rule" checkbox, making this rule a required condition when scheduling the resources targeted by the added labels above.
 ![applying rule](img/D2-1-2.jpg)
 The user hit "Apply rule".
+![Rule added to list](img/D2-1-3.jpg)
 The user now returns to the Affinity rules list.
 
 # Affinity rules list on a resource details page
