@@ -47,7 +47,7 @@ Affinity rules can be viewed and managed per resource as well. The list is locat
 Clicking on the "Add affinity rule" button at the top of the affinity list will open up the "Add affinty rule" modal.
 It is the same as the modal from the Affinity Rules list page except one thing: The resource itself is already added to the "Select resources by label" field.
 The resource will be mentioned by it's name. 
-Technically, this "direct selection" of this resource is not actually a direct selection. We already mentioned that selecting a resource directly is not the best way since that resource will crush and regenerate more than a few times. Instead, that  selection will provide a new, uniquew label to the specified resource. We do not need to surface this to the user, at least not for now.
+Technically, this "direct selection" of this resource is not actually a direct selection. We already mentioned that selecting a resource directly is not the best way since that resource will crush and regenerate more than a few times. Instead, that selection will provide a new, unique label to the specified resource. We do not need to surface this to the user, at least not for now.
 
 ![Affinity rule modal - selecting labels](img/D1-1-1.jpg)
 User enters a label. The resource name remains first in the field, even after adding labels. It will not be viewed as a label, but as a placeholder text.
