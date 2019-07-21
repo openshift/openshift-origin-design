@@ -34,17 +34,17 @@ Clicking on "create new" (OCS Service) Will start the following installation flo
 Same flow will be available by clicking on the OCS tab and "Create new" button. 
 
 ### Select Nodes
-* Admin needs to select 3 nodes to label with “name.ocs.openshift.io/<cluster-name>=true” (note label is subject to change as this will be automatically configured by the OCS operator) to be used for the OCS cluster.
+Admin needs to select 3 nodes to label with “cluster.ocs.openshift.io/openshift-storage=""” (note label is subject to change as this will be automatically configured by the OCS operator) to be used for the OCS cluster.
 * Admin may need to filter the list of nodes in order to make the selection (i.e. nodes that contain storage already), e.g.
 Select/unselect all nodes, and exclude master nodes (e.g. based on roles)
     * Non-master nodes of a certain flavor (CPU and memory)
     * Non-master nodes’ capacity n TiB or greater (e.g. >= 10 TiB)
     * Nodes with a certain name prefix or string within the node name
-* Admin will also specify the capacity for the cluster and the storage class to use.
-Capacity will default to 6 TiB, but user can modify the value but it cannot be less than 1 GiB.  MiB should not be permitted in the selection.
+Admin will also specify the capacity for the cluster and the storage class to use.
+* Capacity will default to 6 TiB, but user can modify the value but it cannot be less than 1 GiB.  MiB should not be permitted in the selection.
 * Storage class will default to the default storage class, but user can overwrite the selection.  Note: The storage classes shown will be pre-filtered to the storage classes backed by the infrastructure supported provisioner(s).
 
-Storage Class “Info tip” -- The Storage Class will be used to request storage from the underlying infrastructure to create the backing persistent volumes that will be used to provide the OpenShift Container Storage (OCS) service.
+    * Storage Class “Info tip” -- The Storage Class will be used to request storage from the underlying infrastructure to create the backing persistent volumes that will be used to provide the OpenShift Container Storage (OCS) service.
 
 ![create new](img/Create_new_OCS_00.png)
 
