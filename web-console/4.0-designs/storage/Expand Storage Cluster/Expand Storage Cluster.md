@@ -19,6 +19,8 @@ To add capacity, the flow will be decided based on the platform OpenShift is dep
 ![Storage Resources List](img/Expand-Storage-01.png) 
 In the resource kebab menu, the user will find an action called “Add Capacity” clicking on that will open the add modal.
 
+Note: only Add Capacity is needed for OCS 4.2. Add Node and Add Storage Device would be post OCS 4.2.
+
 ![Add Capacity Modal](img/Expand-Storage-02.png) 
 In the “Add Capacity” modal, the user needs to decide on how much capacity he wants to add, and which storage class this request will be made against.
 
@@ -33,7 +35,7 @@ Note: “Expanding" would cover Add Node, Add Capacity, and Expand/Grow Capacity
 When the expansion process is completed, the status will be changed back to online and a toast notification will be presented.
  
 
-### Add Storage Devices (Baremetal)
+### Add Storage Devices (For OCS 4.3)
 
 Admin needs to select devices on the node/host, so they can be converted into CR, which in turn becomes the PVs.
 
@@ -46,7 +48,7 @@ After selecting the devices, clicking add will attach them to the OCS service.
 
 Note: based on the infrastructure the devices list will show different columns: 
 
-- **For local storage for a baremetal node, device list should include**
+- **For local storage for a baremetal node, device list should include** 
     
     Device Name, Device UUID, Type, Capacity/Size, Model, Status
 
@@ -54,8 +56,8 @@ Note: based on the infrastructure the devices list will show different columns:
 ## Add Node
 To add a node, the flow will be decided based on the platform OpenShift is deployed on:
 
-- **Add Node** - use existing nodes & existing storage devices/volumes (in AWS) to select from [UPI / Unmanaged - AWS, VMware, Baremetal]
-- **Create Node** - creating a new node along with a default of 1 PiB of capacity (in the cloud, i.e. AWS) [IPI]
+- **Add Node** - Add existing OpenShift nodes to the OCS cluster 
+
 
 ### Add Existing Nodes
 ![Add Node](img/Expand-Storage-07.png)
