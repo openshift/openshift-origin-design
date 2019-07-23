@@ -1,7 +1,7 @@
 # Advanced
 Advanced is a primary nav item in the OpenShift Developer perspective.
 
-Clicking “Advanced” will open/close the advanced secondary navigation items items
+Clicking “Advanced” will open/close the advanced secondary navigation items
 
 ## Projects
 The Projects page is the same page as displayed in the Administrator perspective.
