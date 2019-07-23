@@ -1,5 +1,5 @@
 # Advanced
-Advanced is a primary nav item in the OpenShift Developer perspective.
+Advanced is a primary navigation item in the OpenShift Developer perspective.
 
 Clicking “Advanced” will open/close the advanced secondary navigation items
 
