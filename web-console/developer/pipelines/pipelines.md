@@ -95,7 +95,7 @@ No dialog is needed to restart the last run.
 
 ### Start
 A modal is displayed for the Start action.
-![PL Start Action](img/PL-Details-Start-Action.png)
+![PL Start Action](img/PL-Details-StartAction.png)
 
 - The modal is built dynamically based on associated parameters & resources.  All parameter and resource fields are required.
 - Modal title - Start Pipeline
