@@ -1,10 +1,12 @@
 ## OpenShift 4.2 Designs
 Access design documentation for features slotted in the 4.2 release of OpenShift. Click links below for specific section details.
 
+- [API Explorer](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/api-explorer/api-explorer)
 - [Command Line Tools](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/command-line-tools/command-line-tools)
 - [Console Customizations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/console-customizations/console-customizations)
 - [Contextual Help](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/contextual-help/contextual-help)
 - [Dashboards and Projects](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/dashboards/dashboards)
+- [Diagnostics (WIP)](https://docs.google.com/document/d/11rQliTE7fdyqDWFc5F-w-jCBRxxNBymngidQ6xlCiws/edit?usp=sharing)
 - [Image Commands](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/image-commands/image-commands)
 - [Machines](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/machines/machines)
 - [Metrics](http://openshift.github.io/openshift-origin-design/web-console/monitoring/metrics/metrics)
