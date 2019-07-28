@@ -50,7 +50,7 @@ Admin will also specify the capacity for the cluster and the storage class to us
 
 ![use existing](img/Create_new_OCS_01.png)
 
-In case the user selects a lower number than 1 GiB an error message should appear 
+In case the user selects a lower number than 1 TiB an error message should appear 
 ![use existing](img/Create_new_OCS_01_error.png)
 
 
