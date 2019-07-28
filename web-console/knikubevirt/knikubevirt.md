@@ -22,7 +22,7 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 - Create VM
 	- [Step 1 - General](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/Create-vm/1.general/create-vm)
 	- [Step 2 - Networking](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/Create-vm/2.networking/create-vm-networking)
-	- [Step 3 - Storage]
+	- [Step 3 - Storage](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/Create-vm/step-3-storage/wizard-storage)
 	- [Step 4 - Advanced]
 	- [Step 5 - Review](web-console/knikubevirt/Create-vm/step-5-review/wizard-review.md)
 - [Import VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/import-vm/import-vm)
