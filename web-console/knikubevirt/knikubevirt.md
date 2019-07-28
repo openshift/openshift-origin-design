@@ -20,7 +20,7 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 #### KubeVirt (Virtualization in OpenShift)
 
 - Create VM
-	- [Step 1 - General](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/Create-vm/1.general/create-vm)
+	- [Step 1 - General](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/Create-vm/step-1-genaral/wizard-general)
 	- [Step 2 - Networking](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/Create-vm/2.networking/create-vm-networking)
 	- [Step 3 - Storage]
 	- [Step 4 - Advanced]
