@@ -1,6 +1,6 @@
 # Create A Virtual Machine
 
-## Import
+## Import VM
 
 The ‘Import virtual machine’ action will be available in the ‘Create virtual machine’ dropdown.
 
@@ -68,6 +68,6 @@ If the wizard fails to connect to vCenter using the provided credentials, an err
 ### Virtual Machines available from new instance
 
 If the connection to vCenter succeeds, the instance details collapse (URL, Username, Password). The ‘Select virtual machine to import’ dropdown will then be populated with the available VMs.
-With the target virtual machine selected, the user can either quickly skip to Step 5 “Review” by clicking the “Import Virtual Machine” secondary action button, or click “Next” to proceed through the rest of the wizard.
+With the target virtual machine selected, the user can either quickly skip to Step 5 “Review and create” by clicking the “Import Virtual Machine” secondary action button, or click “Next” to proceed through the rest of the wizard.
 
 ![vm available from newb instance](img/vm-available-from-new-instance.png)
