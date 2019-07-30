@@ -12,7 +12,7 @@ After viewing details, including a list of the APIs, the user clicks ‘Install�
 
 ## Installation
 
-# General
+### General
 
 ![General step - default](img/2-00.png)
 The subscription channel has only one option, therefore it is disabled, but visible in order for the user to know which channel this operator exist on  (is it necessary for the user to know that?)
@@ -21,7 +21,7 @@ The user toggles to “A specific project” on the project field
 ![General step - next step](img/2-01.png)
 The user leaves all to default and goes to the next step
 
-# Custom resources
+### Custom resources
 
 ![CR step - default](img/2-10.png)
 Creating Custom resources as a part of the Operator installation.
@@ -41,7 +41,7 @@ The user modifies the YAML and clicks “Save” to return to the screen.
 The link to edit the YAML changes to indicate that a change has occurred and the user can reset that change (‘Reset’ button available within the modal). 
 The user clicks the install button.
 
-# "Success" screen
+### "Success" screen
 ![Operator installed](img/2-20.png)
 There is a “Success” phase, letting the user know that she accomplished something and she should be happy. Also including a popover with a badge to alert the user that a new item appeared on the side menu. It will be available until the user enters ‘Virtual machines’ for the first time.
 This screen suggests to the user the following options: To create VM or to go to the operator page
