@@ -68,7 +68,7 @@ In The case of on-premise the flow remains the same, the info message for creati
 * OCS Overview
 ![Installation page](img/Installed_OCS_OCS_Overview.png)
 
-When the creation process starts new rows for “OCS” and “MCG” will be presented. If the deployment process runs for a while, the status “deploying” will be presented (the link is not linkable during the process).
+When the creation process starts new rows for “OCS” and “MCG” will be presented in each of the instances tabs. If the deployment process runs for a while, the status “deploying” will be presented (the link is not linkable during the process).
 ![OCS Tab](img/Installed_OCS_OCS_Tab_deploy.png)
 ![OCS Tab](img/Installed_OCS_OCS_Tab_healthy.png)
 
