@@ -13,7 +13,7 @@ We added to the storage section a new entity for “Storage Resources” which l
 To add capacity, the flow will be decided based on the platform OpenShift is deployed on:
 
 - **Add Capacity** - add capacity by creating underlying storage devices/volumes (in the cloud, i.e. AWS/cloud)
-- **Add Storage Devices** - use existing nodes & add available storage devices/volumes to select from (for UPI/unmanaged, i.e. VMware / Baremetal)
+- **Add Storage Devices (4.3)** - use existing nodes & add available storage devices/volumes to select from (for UPI/unmanaged, i.e. VMware / Baremetal)
 
 ### Add Capacity (AWS/cloud)
 ![Storage Resources List](img/Expand-Storage-01.png) 
@@ -33,7 +33,9 @@ Note: “Expanding" would cover Add Node, Add Capacity, and Expand/Grow Capacity
 
 ![Online Status](img/Expand-Storage-05.png)
 When the expansion process is completed, the status will be changed back to online and a toast notification will be presented.
- 
+
+![Expanding Status](img/Expand-Storage-03.png) 
+If the user don׳t have enough capacity in the existing nodes, the add button will be disabled and we will show short text explaining what needs to be done. 
 
 ### Add Storage Devices (For OCS 4.3)
 
