@@ -10,7 +10,7 @@
 We added to the storage section a new entity for “Storage Resources” which lists all the different storage platforms that are applicable or currently configured on OpenShift:
 
 ## Add Capacity
-To add capacity, the flow will be decided based on the platform OpenShift is deployed on:
+To add capacity, user goes to Installed Operator and navigates to the OCS instance. The flow will be decided based on the platform OpenShift is deployed on:
 
 - **Add Capacity** - add capacity by creating underlying storage devices/volumes (in the cloud, i.e. AWS/cloud)
 - **Add Storage Devices (4.3)** - use existing nodes & add available storage devices/volumes to select from (for UPI/unmanaged, i.e. VMware / Baremetal)
