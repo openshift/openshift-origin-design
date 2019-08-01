@@ -4,7 +4,7 @@
 
 There will be 2 OCS operator entries in OperatorHub covering each of the following modes. 
 * Converged Mode -- Local Cluster / Hyperconverged 
-* Independent Mode -- External Cluster (Ceph Cluster is deployed externally)
+* Independent Mode -- External Cluster (OCS Cluster is deployed externally)
 
 ### Converged Mode Design
 
@@ -30,7 +30,7 @@ Clicking on "create new" (OCS Service) Will start the following installation flo
 Same flow will be available by clicking on the OCS tab and "Create new" button. 
 
 ### Select Nodes
-Admin needs to select 3 nodes (depends on the requested capacity input) to label with “cluster.ocs.openshift.io/openshift-storage=""” (note label is subject to change as this will be automatically configured by the OCS operator) to be used for the OCS cluster.
+Admin needs to select at least 3 nodes (depends on the requested capacity input) to label with “cluster.ocs.openshift.io/openshift-storage=""” (note label is subject to change as this will be automatically configured by the OCS installer) to be used for the OCS cluster.
 * Admin may need to filter the list of nodes in order to make the selection (i.e. nodes that contain storage already), e.g.
 Select/unselect all nodes, and exclude master nodes (e.g. based on roles)
     * Non-master nodes of a certain flavor (CPU and memory)
