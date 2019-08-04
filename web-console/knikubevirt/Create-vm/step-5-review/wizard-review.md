@@ -30,7 +30,7 @@ If the creation of the VM fails on the backend, the VM will not be shown in a ro
 
 ![error state](img/error-popover.png)
 
-If the VM starts up the user will be notified in the list view to align with OpenShift. Otherwise there will be a toast notification to let them know something has failed with the VM.
+If the VM starts up successfully it will be reflected in the status in the list view. If there is an error there will be a toast notification to let them know something has failed with the VM.
 
 ![alert toast notification](img/alert-toast-notification.png)
 
