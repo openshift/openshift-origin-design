@@ -9,7 +9,7 @@ Once the user has clicked this button they will taken to the Review screen to ve
 
 ![user clicks review and create button](img/review-and-create-action.png)
 
-The action “Create virtual machine” has been moved to the footer with the other actions.
+The action “Review and create” is located in the footer with the other actions.
 This encourages the user to check their settings quickly before creating the VM.
 
 ![user checks settings before creating vm](img/check-settings.png)
