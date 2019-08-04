@@ -37,7 +37,7 @@ When the user clicks the “Check” button a spinner icon appears within the bu
 
 ### Selecting virtual machine
 
-When a vCenter instance is selected, The ‘Virtual Machine to import’ dropdown is available with all the available VMs.
+When a vCenter instance is selected, The ‘Virtual machine to import’ dropdown is available with all the available VMs.
 
 ![selecting virtual machine](img/selecting-virtual-machine.png)
 
@@ -49,7 +49,7 @@ If the wizard cannot connect to the vCenter instance using the credentials store
 
 ![vcenter connection incorrect credentials](img/vcenter-connection-incorrect-credentials.png)
 
-Once the credentials are checked and updated the username/password fields collapse.
+Once the credentials are checked and updated the username/password fields collapse, and upon successfully updating the credentials, a "Credentials successfully updated" text will show under the vCenter instance dropdown.
 
 ![credentials updated username psw fields collapse](img/credentials-updated-username-psw-fields-collapse.png)
 
@@ -68,6 +68,6 @@ If the wizard fails to connect to vCenter using the provided credentials, an err
 ### Virtual Machines available from new instance
 
 If the connection to vCenter succeeds, the instance details collapse (URL, Username, Password). The ‘Select virtual machine to import’ dropdown will then be populated with the available VMs.
-With the target virtual machine selected, the user can either quickly skip to Step 5 “Review and create” by clicking the “Import Virtual Machine” secondary action button, or click “Next” to proceed through the rest of the wizard.
+With a virtual machine selected, the user can either quickly skip to Step 5 “Review” by clicking the “Import Virtual Machine” secondary action button, or click “Next” to proceed through the rest of the wizard.
 
 ![vm available from newb instance](img/vm-available-from-new-instance.png)
