@@ -1,7 +1,24 @@
 # Advanced
-Advanced is a primary nav item in the OpenShift Developer perspective.
+Advanced is a primary navigation item in the OpenShift Developer perspective.
 
-Design documentation for the Advanced section can be found [here](https://docs.google.com/document/d/1qcZ-DDhsdTjDoEaO0qsimpJ4Q07UtKU6CSeZV2XdG0s/edit?usp=sharing)
+Clicking “Advanced” will open/close the advanced secondary navigation items
 
-## Note
-Links to google documents are temporary until the documentation is converted to markdown files and added to this design repository.
+## Projects
+The Projects page is the same page as displayed in the Administrator perspective.
+
+![Add projects page](img/image1.png)
+
+When clicking on a specific project, Projects remains selected in the navigation under Advanced. The project details of the selected project are displayed.
+
+![Add project details](img/image2.png)
+
+## Events
+The Events page is the same page as displayed in the Administrator perspective.
+
+![Add events page](img/image3.png)
+
+
+## Search 
+The Search page is the same page as displayed in the Administrator perspective.
+
+![Add events page](img/image4.png)
