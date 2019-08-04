@@ -11,7 +11,7 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 
 
 ### Future Designs
-- [Affinity](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/affinity/affinity)
+- [Affinity Rules](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/affinity/affinity)
 
 #### KNI (Kubernetes Native Infrastructure/OpenShift on Bare Metal)
 - Add Bare Metal Host

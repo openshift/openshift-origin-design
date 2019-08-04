@@ -9,8 +9,8 @@ Anti-affinity - creating a rejection relationship between a group of resources, 
 Besides defining if we want to attach or reject resources to one another, we can choose to "force" this rule we are creating.
 "Forcing" a rule means that the conditions of this rule must met, even if it means that some resources just won't be scheduled at all.
 
-### a few techincal words
-Affinity rules are Pod Properties, written in the pod deployment file. When a pod is scheduled, the deployment file states that there is an affinity rule condition which needs to be met.
+### Technical Definitions
+Affinity rules are pod properties, written in the pod deployment file. When a pod is scheduled, the deployment file states that there is an affinity rule condition which needs to be met.
 Applying an affinity rule to a resources is done via labels. Objects in OpenShift are ephemeral, and the way to target the same object which keeps crashing and regenerating is by its label.
 
 
@@ -21,7 +21,7 @@ All affinity rules within the system can be viewed and managed from this page. I
 
 ## Creating an Affinity rule from Affinity Rules page
 
-Clicking on the "Add Affinity rule" button at the top of the affinity list will open up the "Add Affinty rule" modal.
+Clicking on the "Add affinity rule" button at the top of the affinity list will open up the "Add affinity rule" modal.
 
 ![Affinity rule modal - default](img/D2-1-0.jpg)
 Going top to bottom, the user will choose to create an affinity (attachment), which is pre-selected, or change to Anti-affinity (rejection).
@@ -47,10 +47,10 @@ Affinity rules can be viewed and managed per resource as well. The list is locat
 Clicking on the "Add affinity rule" button at the top of the affinity list will open up the "Add affinty rule" modal.
 It is the same as the modal from the Affinity Rules list page except one thing: The resource itself is already added to the "Select resources by label" field.
 The resource will be mentioned by it's name. 
-Technically, this "direct selection" of this resource is not actually a direct selection. We already mentioned that selecting a resource directly is not the best way since that resource will crush and regenerate more than a few times. Instead, that selection will provide a new, unique label to the specified resource. We do not need to surface this to the user, at least not for now.
+Technically, this "direct selection" of this resource is not actually a direct selection. We already mentioned that selecting a resource directly is not the best way since that resource could crash and regenerate multiple times. Instead, behind the scenes, that selection will provide a new, unique label to the specified resource. 
 
 ![Affinity rule modal - selecting labels](img/D1-1-1.jpg)
-User enters a label. The resource name remains first in the field, even after adding labels. It will not be viewed as a label, but as a placeholder text.
+User enters a label to point to other resources.
 The rule is ready to be applied. The user clicks 'Apply' and returns to the resource details page, where he left off.
 
 
