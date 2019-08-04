@@ -4,7 +4,11 @@ The 1st screen of the storage section in the wizard flow will show the disks in 
 
 ![add disk default](img/Add-disk-default.png)
 
-Once the user clicks the ‘Add disk’ button, a modal will be shown and the user can choose what kind of disk he/she wishes to add and fill in the details. The default selection will be a blank disk.
+Once the user clicks the ‘Add disk’ button, a modal will be shown and the user can choose what kind of disk he/she wishes to add and fill in the details. The default selection will be a blank disk. The user is able to choose the type of disk from the Source drop down menu:
+- ISO
+- URL
+- Container
+- Attch disk
 
 ![add disk modal](img/Add-disk-modal.png)
 
