@@ -2,7 +2,7 @@
 Access design documentation specific to the KNI and KubeVirt features in OpenShift.
 
 ### OpenShift 4.2
-- Cluster Dashboard
+- [Cluster Overview Dashboard](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/cluster-dashboard/cluster-dashboard)
 - [Clone VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/clone-vm/clone-vm)
 - [Migrate VM](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/migrate-vm/migrate-vm)
 - Storage Dashboard
