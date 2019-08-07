@@ -52,4 +52,4 @@ The user clicks the install button.
 There is a “Success” phase, letting the user know that she accomplished something and she should be happy.
 Also including a popover with a badge to alert the user that a new item appeared on the side menu.
 It will be available until the user enters ‘Virtual machines’ for the first time.
-This screen suggests to the user the following options: To create VM or to go to the operator page
+This screen suggests to the user the following options: To view the list of Virtual Machines or to go to the operator details page.
