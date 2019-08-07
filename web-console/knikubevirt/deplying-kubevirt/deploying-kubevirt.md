@@ -44,7 +44,7 @@ The user clicks the ‘Edit Yaml’ button to make some modifications to the fir
 The user modifies the YAML and clicks “Save” to return to the screen.
 
 ![CR step - YAML edited](img/2-14.png)
-The link to edit the YAML changes to indicate that a change has occurred and the user can reset that change (‘Reset’ button available within the modal). 
+The link to edit the YAML changes to indicate that a change has occurred and the user can reset that change (‘Restore Default YAML’ button available within the modal). 
 The user clicks the install button.
 
 ### "Success" screen
