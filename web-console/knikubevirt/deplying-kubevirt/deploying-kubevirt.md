@@ -2,7 +2,7 @@
 
 ## Pre-Installation
 
-![BasSeaching for HCO on the OperatorHub](img/1-01.png)
+![Seaching for HCO on the OperatorHub](img/1-01.png)
 On the OperatorHub, get a hit for searching any of the following:
  - “KubeVirt
  - "HyperConverged"
