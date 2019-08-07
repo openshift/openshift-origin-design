@@ -31,5 +31,6 @@ In case of an error, a toast notification will pop up to let the user know somet
 ![alert toast notification](img/alert-toast-notification.png)
 
 After the user is done with re-editing the VM details, the status of VM in the list view will be updated and shown as 'creating'.
+To summarize, users can go back and change anything they want while the Wizard is "opened" but as soon as they close it they edit through the details pages. 
 
 ![VM is fixed and creating](img/fixed-and-creating.png)
