@@ -18,6 +18,10 @@ In case the user selects ISO
 
 and fills in the details in the additional required input fields that are added upon the type of selection.
 
+## Pre-populating fields
+
+In the 'General' step, we allow the user to select the guest operating system. This could allow us to auto-fill certain fields (like disk bus and network interface). The auto.fill informations can be taken from the templates which could be used in the background.
+
 ![Modal with additional details](img/Add-disk-modal-details-required.png)
 
 The user can also upload a new ISO file that will activate the browser's file picker and then the filename would be shown in this "ISO" field.
