@@ -52,10 +52,3 @@ Technically, this "direct selection" of this resource is not actually a direct s
 ![Affinity rule modal - selecting labels](img/D1-1-1.jpg)
 User enters a label to point to other resources.
 The rule is ready to be applied. The user clicks 'Apply' and returns to the resource details page, where he left off.
-
-
-## Bypassing a resource scheduling failure due to a forced Affinity rule
-
-![Resource scheduling failure - modal](img/D3-1-0.jpg)
-If a resource cannot be scheduled due to a forced affinity rule, the user will receive a notification in the same format as any other scheduling failure.
-Expanding that notification will pop up this modal, which allows the user to bypass the rule manually
