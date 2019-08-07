@@ -3,7 +3,13 @@
 ## Pre-Installation
 
 ![BasSeaching for HCO on the OperatorHub](img/1-01.png)
-On the OperatorHub, get a match for searching “KubeVirt HyperConverged/CNV/virt/virtualization…” etc (we currently have only a hit with “Hyperconverged…”)
+On the OperatorHub, get a hit for searching any of the following:
+ - “KubeVirt
+ - "HyperConverged"
+ - "CNV"
+ - "Virtualization”
+ - "Virtual"
+ - "Machines"
 
 ![Installing Operator](img/1-02.png)
 After viewing details, including a list of the APIs, the user clicks ‘Install’
@@ -19,7 +25,7 @@ The subscription channel has only one option, therefore it is disabled, but visi
 The user toggles to “A specific project” on the project field
 
 ![General step - next step](img/2-01.png)
-The user leaves the rest to default and goes to the next step
+The user can uncheck the “Create custom resource instances” checkbox.
 
 ### Custom resources
 
