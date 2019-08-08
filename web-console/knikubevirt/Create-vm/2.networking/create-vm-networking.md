@@ -11,6 +11,10 @@ Clicking on 'Add NIC' will pop up a "Create NIC" modal. The NIC name is prepopul
 ![Type - Masquerade](img/3-02.png)
 In case the user selects Masquerade on the Type field, new indented fields will appear.
 
+When adding a new NIC we allow the user to add more than one port, so once the user enters the name for the first port we have another field popping up below where they can add another one.
+
+![user can add more than one nic](img/3-03.png)
+
 ![NIC added](img/3-10.png)
 The new NIC is added at the bottom of the list.
 Now the user can edit or remove it.
