@@ -1,10 +1,10 @@
 # Create A Virtual Machine
 
-## Step 1: Basic
+## Step 1: General
 
 ![Basic step](img/Step-1-basic-template.png)
 
-The wizard has 5 steps: Basic, Networking, Storage, Advanced, and Review.
+The wizard has 5 steps: General, Networking, Storage, Advanced, and Review.
 
 The first (alphabetical) template is selected by default if available. Provision Source, Operating System, Flavor, and Workload Profile are pre-filled by the template, but only Flavor can be modified between either the predefined option or custom. The user can switch to a different template, or choose the top-most “None” option to not use a template at all.
 
