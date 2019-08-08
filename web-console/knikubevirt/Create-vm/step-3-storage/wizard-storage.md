@@ -20,7 +20,7 @@ and fills in the details in the additional required input fields that are added 
 
 ## Pre-populating fields
 
-In the 'General' step, we allow the user to select the guest operating system. This could allow us to auto-fill certain fields (like disk bus and network interface). The auto.fill informations can be taken from the templates which could be used in the background.
+In the 'General' step, we allow the user to select the guest operating system. This could allow us to auto-fill certain fields (like disk bus and network interface).
 
 ![Modal with additional details](img/Add-disk-modal-details-required.png)
 
