@@ -9,7 +9,7 @@ The user enters the Networking step with an existing NIC pre-defined, set to Typ
 Clicking on 'Add NIC' will pop up a "Create NIC" modal. The NIC name is prepopulated with a numeric count form of existing NICs on this flow. The user may change the NIC name. All the fields are preselected except Type. In order for the user to apply and add this NIC, the user must select one of the type options.
 
 ![Type - Masquerade](img/3-02.png)
-In case the user selects Masquerade on the Type field, new indented fields will appear.
+In case the user selects Masquerade on the Type field, new fields will appear: Port name, Protocol and Port binding.
 
 When adding a new NIC we allow the user to add more than one port, so once the user enters the name for the first port we have another field popping up below where they can add another one.
 
