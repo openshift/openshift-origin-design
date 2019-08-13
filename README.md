@@ -5,6 +5,7 @@ Access design documentation for features slotted in the 4.2 release of OpenShift
 - [Command Line Tools](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/command-line-tools/command-line-tools)
 - [Console Customizations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/console-customizations/console-customizations)
 - [Contextual Help](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/contextual-help/contextual-help)
+- [Cron Jobs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/cron-jobs/cron-jobs)
 - [Dashboards and Projects](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/dashboards/dashboards)
 - [Diagnostics (WIP)](https://docs.google.com/document/d/11rQliTE7fdyqDWFc5F-w-jCBRxxNBymngidQ6xlCiws/edit?usp=sharing)
 - [Image Commands](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/image-commands/image-commands)
