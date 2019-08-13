@@ -1,10 +1,10 @@
 # Create A Virtual Machine
 
-## Step 1: Basic
+## Step 1: General
 
 ![Basic step](img/Step-1-basic-template.png)
 
-The wizard has 5 steps: Basic, Networking, Storage, Advanced, and Review.
+The wizard has 5 steps: General, Networking, Storage, Advanced, and Review.
 
 The first (alphabetical) template is selected by default if available. Provision Source, Operating System, Flavor, and Workload Profile are pre-filled by the template, but only Flavor can be modified between either the predefined option or custom. The user can switch to a different template, or choose the top-most “None” option to not use a template at all.
 
@@ -66,7 +66,6 @@ ISO enables the user to install an Operating System from existing installation m
 ![ISO selected](img/Step-1-basic-ISO-2.png)
 
 The user must select an ISO and then manually specify the OS, Flavor, and Workload Profile. None of those fields can be automatically pre-filled.
-
 
 ### PXE
 Provision source tooltip content: Discover provisionable virtual machines over the network.
@@ -130,11 +129,11 @@ If the user changes the minor OS version to something else, a warning appears wi
 
 The user can choose from four flavors:
 
+* Tiny - 1 vcpu, 1 GB Memory
 * Small - 2 vCPU, 4 GB Memory
 * Medium - 4 vCPU, 8 GB Memory
 * Large - 8 vCPU, 16 GB Memory
 * Custom
-* Tiny (default)
 
 The “Custom” flavor allows the user to define Memory and vCPU manually.
 
