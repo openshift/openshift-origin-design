@@ -3,7 +3,9 @@ Add is a primary navigation item in the OpenShift Developer perspective.
 
 ![Add primary nav](img/Add-AltA.png)
 
-The Add page is a card view with a number of cards enables the user to add to their project in different ways.  
+The Add page enables the user to create an application, component or service. Upon clicking a card, the user is brought to the appropriate flow to add the item to their project.
+
+The basic visuals and behavior of this card view is consistent with that of the developer catalog and operator hub. 
 
 ## From Git
 Design documentation for the From Git scenario when creating a source secret can be found [here](https://docs.google.com/document/d/1_yJE6abBYMKiCRBH9cr3NiDh-MtQs74_tW3cmHqko-s/edit?usp=sharing)
