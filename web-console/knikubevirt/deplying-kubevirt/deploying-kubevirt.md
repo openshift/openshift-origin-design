@@ -12,7 +12,7 @@ On the OperatorHub, get a hit for searching any of the following:
  - "Machines"
 
 ![Installing Operator](img/1-02.png)
-After viewing details, including a list of the APIs, the user clicks ‘Install’
+After viewing details the user clicks ‘Install’
 
 
 
