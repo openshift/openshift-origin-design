@@ -13,7 +13,6 @@ Design documentation for the From Git scenario when creating a source secret can
 ## Container Image
 Design documentation for the Container Image git can be found [here](https://docs.google.com/document/d/1kqKQxw55GBt6V4jBnF8uh22A_BimcoAvr4wOMSDX-e4/edit?usp=sharing)
 
-
 ## From Catalog
 Design documentation for the items From Catalog can be found [here](https://docs.google.com/document/d/1BaNbcNkrqmX0c-5e9E2um282PwwUCAhntUJHg-K7LYM/edit?usp=sharing)
 
