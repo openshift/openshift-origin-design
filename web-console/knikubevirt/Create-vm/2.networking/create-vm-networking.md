@@ -11,9 +11,9 @@ Clicking on 'Add NIC' will pop up a "Create NIC" modal. The NIC name is prepopul
 ![Type - Masquerade](img/3-02.png)
 In case the user selects Masquerade on the Type field, new fields will appear: Port name, Protocol and Port binding.
 
-When adding a new NIC we allow the user to add more than one port, so once the user enters the name for the first port we have another field popping up below where they can add another one.
+When adding a new NIC we allow the user to add more than one port, so once the user enters the name for the first port we have another field popping up below where they can add port binding.
 
-![user can add more than one nic](img/3-03.png)
+![add port binding](img/3-03.png)
 
 ![NIC added](img/3-10.png)
 The new NIC is added at the bottom of the list.
