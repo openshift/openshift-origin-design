@@ -4,13 +4,22 @@ Clicking the action button next to any Virtual Machine in the List will present 
 
 ![Selecting a VM](img/1-0-list.png)
 
-A modal will be presented where the user can choose which Node the VM should be migrated to.
+When `migrate` is selected the user is presented with a confirmation dialog that requires them to confirm the migrationlet and clarifies that this VM is migrated to the next most suitable node.
 
 ![Modal migrate](img/1-2-modal-migrate.png)
 
-![Modal view](img/1-1-modal-info.png)
+ After the migration had started, the status of the VM in the list view will be updated to reflect that the migration has already started.
 
-After the migration is kicked off, the status of the VM showing that the migration has started will be reflected in the list view.
+ ![migrate status updated in the list](img/1-3-list-notification-started.png)
 
-On error or completion, the user will receive a notification. Again, the status will be updated accordingly.
-For a process that is not instantaneous, the user will be notified via notification when it completes. 
+ Clicking on the status will show a popover with additional explanation and an option to click on the link below to learn more.
+
+ ![Modal migrate](img/popover.png)
+
+Once the migration has finished the 'migrating' status icon will be changed back to 'running'.
+
+There will be no notifications for succssfully completed actions.
+
+On error, the user will be provided with a toast notification letting them know the migration failed. This will also get reflected in the VM's status (updated to an error state) and clicking on it will show a popover with additional explanation and a link to learn more.
+
+![Modal view](img/error.png)
