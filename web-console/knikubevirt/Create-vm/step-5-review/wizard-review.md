@@ -16,7 +16,7 @@ This encourages the user to check their settings quickly before creating the VM.
 
 ## creating State
 
-When the user clicks “Create virtual machine” they will then be will see the "creating state" for the virtual machine.
+When the user clicks “Create virtual machine” they will then be will see the "creating state" for the virtual machine. In this step they would be removed from the navigation of the wizard and only able to get back in an error state where something needs to be addressed.
 
 ![vm is being created](img/vm-creating.png)
 
