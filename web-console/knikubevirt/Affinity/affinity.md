@@ -16,20 +16,24 @@ Applying an affinity rule to a resources is done via labels. Objects in OpenShif
 
 ## Affinity rules list on a resource details page
 
-![VM details page - overview tab - Affinity section](img/D1-0-0.jpg)
-Affinity rules can be viewed and managed per resource. The list is located in the resource details page, on the overview tab in Affinity rules section under 'Services' if those exist.
+![VM details page - overview tab - Affinity section](img/e1-0-0.jpg)
+Affinity is located in the resource details page, on the overview tab, on the Overview section (same placement order as Node Tolerations)
 
 ## Creating an Affinity rule from a resource details page
 
-![Affinity rule modal - default](img/D1-1-0.jpg)
-Clicking on the "Add affinity rule" button at the top of the affinity list opens up the "Add affinty rule" modal.
-Going top to bottom, the user leaves the "Create" field to default - "Affinity (attract)".
-Then, the user selects the resources he wishes to apply that rule to by adding their representative labels to the "Select resources by label" field.
-The resource itself which the user is applying the rule on is already added to the "Select resources by label" field.
-The resource is mentioned by it's name, and not via label. Meaning, this rule will be added directly to this resources' YAML.
+![Affinity rule modal - default](img/E1-1-0.jpg)
+Clicking on the "[#] affinity" button pops up the "Edit affinty" modal.
 
-![Force rule](img/D1-1-1.jpg)
-Before applying, the user can check the "Force this rule" checkbox, making this rule a required condition when scheduling the resources targeted by the added labels above. The support text below the field changes accordingly.
+![Affinity rule modal - dropdown options and tooltips](img/E1-1-1.jpg)
+Viewing the options and tooltips within the dropdown fields.
 
-![Affinity rule modal - selecting labels](img/D1-1-2.jpg)
-The user clicks 'Apply' and returns to the resource details page, where he left off.
+![Affinity rule modal - entering key + value](img/E1-1-2.jpg)
+The user leaves the "Rule" field to default - "Affinity (attract)".
+The user leaves the "Condition" to default, so scheduling this resources will still occur even if the this rule cannot be achieved.
+The user selects the resources he wishes to apply that rule to by adding their representative labels to the "Select resources by label" field.
+
+![Affinity rule modal - save](img/E1-1-3.jpg)
+The user clicks 'Save' and returns to the resource details page, where he left off.
+
+![Affinity rule added to the resouece](img/E2-0-0.jpg)
+The counbter within the Affinity field is updates to indicate the added rule.
