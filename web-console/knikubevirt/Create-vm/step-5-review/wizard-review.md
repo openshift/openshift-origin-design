@@ -20,7 +20,7 @@ When the user clicks “Create virtual machine” they will then be will see the
 
 ![vm is being created](img/vm-creating.png)
 
-Alternatively, The user could navigate away from this page, In that case they'd see the VM in the list in a starting state. This will rely on the VM successfully being created without issue.
+Alternatively, The user could navigate away from this page, In that case they'd see the VM in the list in a starting state. This will rely on the VM successfully being created without issue. For more info on error/success states see below.
 
 ![vm is being started](img/vm-starting.png)
 
