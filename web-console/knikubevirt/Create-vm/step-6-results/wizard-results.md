@@ -29,7 +29,8 @@ In the step that contains the error they would see the error state of the input 
 
 ![vm error state](img/create-vm-inline-wizard-input.png)
 
-Alternatively, The user could navigate away from this page, In that case they'd see the VM in the list in a error state. They would then be prompted in the status popover to edit the details and correct the issue. 
+Alternatively, The user could navigate away from this page, 
+In that case they'd see the VM in the list in a error state. They would then be prompted in the status popover to edit the details and correct the issue. 
 
 There is also the case where they could "try again" in a scenario where there was an issue with scheduling or something similar. 
 
@@ -37,9 +38,12 @@ This would rely on the VM being in state that it exists, otherwise it would not 
 
 ![error state](img/error-popover.png)
 
-In case of an error, a toast notification will pop up to let the user know something has failed with the VM. This would depend on the user being outside the Create virtual machine flow. If they've left and are off doing something else this notification will alert them of the status of the vm. This toast would not be shown if they wait for the vm to be created in the wizard.
+If they have navigated away from the list they would be alerted via a toast notification that there is an error and they need to go back to the vm to see the details.
 
-From the toast they would see the VM details page where they can make the required change.
+ This toast would not be shown if they wait for the vm to be created in the wizard.
 
 ![alert toast notification](img/alert-toast-notification.png)
 
+An alternative to this could also be an inline notification that shows on the list page that alerts them and allows them to go back to the VM and correct the issue.
+
+![alert inline notification](img/error-inline.png)
