@@ -68,6 +68,7 @@ In The case of on-premise the flow remains the same, the info message for creati
 When the creation process starts new rows for “OCS” and “MCG” will be presented in each of the instances tabs. If the deployment process runs for a while, the status “deploying” will be presented (the link is not linkable during the process).
 ![OCS Tab](img/Installed_OCS_OCS_Tab_deploy.png)
 ![OCS Tab](img/Installed_OCS_OCS_Tab_healthy.png)
+![MCG Tab](img/Installed_MCG_Tab_healthy.png)
 
 * Clicking on the “Multi Cloud Object Gateway” name will take you to the MCG Overview:
 ![mcg overview](img/Installed_OCS_MCG_Overview.png)
