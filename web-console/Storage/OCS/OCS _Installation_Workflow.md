@@ -35,18 +35,15 @@ Admin needs to select at least 3 nodes (depends on the requested capacity input)
 Select/unselect all nodes, and exclude master nodes (e.g. based on roles)
     * Non-master nodes of a certain flavor (CPU and memory)
     * Nodes with a certain name prefix or string within the node name
+
+### Defer from 4.2:
 * Capacity will default to 1 TiB, and user cannot modify value to be less than 1 TiB. Only TiB, PiB, and units above TiB supported. GiB and MiB are not permitted.
 * Number of nodes depends on the requested capacity input.  If requested capacity is > 5 TiB, then Additional nodes must be added.
 * Storage class will default to the default storage class, but user can overwrite the selection.  Note: The storage classes shown will be pre-filtered to the storage classes backed by the infrastructure supported provisioner(s).
-
     * Storage Class “Info tip” -- The Storage Class will be used to request storage from the underlying infrastructure to create the backing persistent volumes that will be used to provide the OpenShift Container Storage (OCS) service.
 
 ![create new](img/Create_new_OCS_00.png)
 ![use existing](img/Create_new_OCS_01.png)
-
-If the Admin specify for example 6 TiB, 1 more node needs to be selected (in addition to the min 3 selected), thus at least 4 nodes are needed.
-In this case the label "Select at least X nodes you wish to use." and "a minimum of X nodes..." should be changed accordingly.
-![use existing](img/Create_new_OCS_01_Additional_nodes.png)
 
 
 For AWS deployment: A new bucket will be created automatically in AWS S3 connected cloud, in the same region as the OpenShift. 
