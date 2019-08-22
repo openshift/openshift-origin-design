@@ -33,7 +33,7 @@ A text field is provided to paste in the URL to the available CD.
 With each selection a tooltip is provided to describe each type.
 
 ### Windows drivers
-In the case where a Windows operating system has been chosen in the general step a checkbox is provided to confirm this cd will have the windows drivers attached to it.
+In the case where a Windows operating system has been chosen in the general step a `Windows drivers` option will be available.
 ![VM-details edit cd windows drivers](img/edit-container-windows.png)
 
 ![VM-details cd details](img/cd-field.png)
