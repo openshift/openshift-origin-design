@@ -57,6 +57,7 @@ As soon as the OS, Flavor, or Workload profile fields are modified, the “Creat
 ## Provision Source Field
 
 ### ISO (this is not implemented yet, but is planned)
+
 Provision source tooltip content: Use an optical disk image that contains installation media for an operating system.
 
 ![ISO](img/Step-1-basic-ISO.png)
@@ -68,6 +69,7 @@ ISO enables the user to install an Operating System from existing installation m
 The user must select an ISO and then manually specify the OS, Flavor, and Workload Profile. None of those fields can be automatically pre-filled.
 
 ### PXE
+
 Provision source tooltip content: Discover provisionable virtual machines over the network.
 
 ![PXE](img/Step-1-basic-PXE-1.png)
@@ -77,12 +79,14 @@ PXE enables the user to install an OS and configure it over a network. PXE depen
 If a PXE-capable NIC cannot be found, one will be automatically created with the name “PXE” and selected by default.
 
 ### URL
+
 Provision source tooltip content: An external URL to the .iso, .img, .qcow2 or .raw that the virtual machine should be created from.
 
 ![URL](img/Step-1-basic-url.png)
 
 
 ### Container
+
 Provision source tooltip content: Ephemeral virtual machine disk image which will be pulled from container registry.
 
 Container allows the user to provide an image from container registry.
@@ -92,6 +96,7 @@ The user must provide a container image and then manually specify the OS, Flavor
 ![Container](img/Step-1-basic-container.png)
 
 ### Attach Disk
+
 Provision source tooltip content: Select an existing disk that has been previously cloned or created.
 
 When selecting `Attach disk` the user will be prompted to select an available disk that has been previously cloned or created and made available in the Persistent Volume Claims. They must manually specify the OS, Flavor, and Workload Profile. None of those fields can be automatically pre-filled.
@@ -103,7 +108,6 @@ When selecting `Attach disk` the user will be prompted to select an available di
 This list is populated by making a PVC available as a provision source for a virtual machine. This list is limited by the namespace it belongs to. These lists have the potential to be very long so a search field can help alleviate scrolling.
 
 ![attach-disk-selected](img/Step-1-basic-attach-disk-selected.png)
-
 
 ## Operating System Field
 
@@ -122,6 +126,10 @@ The latest recommended version should be pre-selected.
 ![OS error](img/Step-1-basic-Operating-system-3.png)
 
 If the user changes the minor OS version to something else, a warning appears with a link to relevant documentation about what functionality may not be supported in earlier versions of the OS.
+
+When a Windows OS is selected this field shows to alert the user and to allow them to see the details in the virtual hardware section of the Advanced step.
+
+![when a Windows OS is selected](img/Step-1-basic-Operating-system-Windows-os-selected.png)
 
 ## Flavor Field
 
