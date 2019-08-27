@@ -2,7 +2,7 @@
 
 ## Step 4: Advanced
 
-The “Advanced” setting step of the create VM wizard includes 2 sections:
+The “Advanced” setting step of the create VM wizard includes these sections:
 
 - Cloud-Init / Sysprep - determines the contents of these settings based on the OS that is selected. (The difference between the cloud-init and the sys-prep is basically the difference between windows and other OSs)
 - Virtual hardware
@@ -19,11 +19,11 @@ The user chooses the "Use cloud-init/Sysprep" checkbox at the top of the form an
 ![empty form](img/form-empty.png)
 
 The user checks the “Use Cloud-Init/Sysprep” checkbox in order to enable and fill out the fields below.
-![form empty](img/ssh-keys.png)
+![user fills form](img/ssh-keys.png)
 
 ### Virtual hardware
 
-Windows guest agent installer is located in this section and it needs to include information about the drivers to improve virtual machine performance, enable resource monitoring, and provide graceful power control options.
+Windows guest agent installer is located in this section and it needs to include information about the drivers to improve virtual machine performance, enable resource monitoring, and provides graceful power control options.
 
 ![Mount this guest agent installer is on](img/guest-agent-installer-on.png)
 
