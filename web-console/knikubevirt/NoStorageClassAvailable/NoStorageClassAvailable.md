@@ -14,6 +14,8 @@ We want to allow the user to set the Storage class within the wizard, with no ne
 
 ![Fill in disk details](img/Add-disk-modal-details-required.png)
 
+The "Create storage class and add disk" action wouldn't appear until the user decided they need to create a storage class.  That's why this is the only option in the dropdown and then the additional fields show up. Once the user filled them all out, they would click the primary create button.
+
 ![Add disk modal with create storage class](img/Add-disk-modal-with-create-sc.png)
 
 Clicking the ‘Create Storage class and add disk’ button at the bottom will add the disk to the list view.
