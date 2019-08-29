@@ -17,8 +17,8 @@ Access design documentation for features slotted in the 4.2 release of OpenShift
 - [Taints and Tolerations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/taints-tolerations/taints-tolerations)
 
 ## OpenShift Container Storage
-- [OCS Install workflow](./web-console/Storage/OCS/OCS%20_Installation_Workflow.md)
-- [OB & OBC-Lifecycle-Management](./web-console/Storage/OB-OB-Lifecycle-Management/OB-OBC-Lifecycle.md)
+- [OCS Install workflow](./web-console/Storage/OCS/OCS%20_Installation_Workflow)
+- [OB & OBC-Lifecycle-Management](./web-console/Storage/OB-OB-Lifecycle-Management/OB-OBC-Lifecycle)
 
 ### KNI and KubeVirt Designs
 [Access design documentation specific to the KNI and Kubevirt features in the OpenShift Console.](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/knikubevirt)
