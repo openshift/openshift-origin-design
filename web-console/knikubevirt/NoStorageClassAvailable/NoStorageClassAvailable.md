@@ -8,7 +8,6 @@ During the process of creating the VM, in the Storage step, the user needs to ad
 ![Add disk action](img/Add-disk-default.png)
 
 Clicking the ‘Add disk’ button will open a modal, where the user is asked to fill in the disk’s details.
-Since the Storage class isn’t available, and also no PVC that matches their requirements, the user will be notified with a red note below the Storage class dropdown that no storage class is available and they need to create one.
 
 We want to allow the user to set the Storage class within the wizard, with no need to be taken out of it.
 
