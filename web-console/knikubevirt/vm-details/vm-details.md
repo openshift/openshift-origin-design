@@ -10,7 +10,7 @@ The user sees detailed information about the VM’s configuration.
 ![VM-overview - Editing a field](img/1-0-1.jpg)
 Editing field will be aligned to the rest of the system. For now, only 'Description' and Flavor' have a pencil icon next to the field name to indicate it is editable. Hitting that pencil will open up a modal.
 
-### Editing the CD
+### Editing the CD-ROM
 Via the pencil icon the cd can be edited.
 ![VM-details edit cd](img/cd-edit.png)
 
