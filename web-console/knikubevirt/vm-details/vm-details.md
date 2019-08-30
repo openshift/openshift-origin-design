@@ -24,7 +24,7 @@ This sets CD to none.
 A text field is provided to paste in the path to the container.
 ![container-type](img/edit-container.png)
 #### Persistent Volume Claim
-A typehead field is provided to find the desired Persistent volume claim. 
+A typeahead field is provided to find the desired Persistent volume claim. 
 ![PVC-type](img/edit-pvc.png)
 #### URL
 A text field is provided to paste in the URL to the available CD.
