@@ -9,7 +9,8 @@ The Search page will be updated to have a variety of new features.
 
 ![3](img/combo3.png)
 * The items will be sorted by name by default.
-* The default columns in the list are 'Name', 'Namespace', 'Labels', 'Type', 'Owner', and 'Created'.
+* The default columns in the list are `Name`, `Namespace`, `Labels`, `Type`, `Owner`, and `Created`.
+* When multiple types of resources are selected, the primary 'Create' button will not be shown.
 
 ![4](img/combo4.png)
 * Users can sort by Type to separate the different resources in the list.
@@ -23,11 +24,11 @@ The Search page will be updated to have a variety of new features.
 ## Take bulk actions
 ![6](img/combo6.png)
 * When any items in the list are selected, the actions dropdown will replace the primary action in the toolbar. If there is no primary action, the rest of the toolbar will shift to make room for the dropdown.
-* The primary bulk actions will be 'Add Labels', 'Add Annotations', and 'Delete Resources'. More actions may be added in future depending on the resource(s).
+* The primary bulk actions will be `Add Labels`, `Add Annotations`, and `Delete Resources`. More actions may be added in future depending on the resource(s).
 
 ## Example: Adding Labels
 ![7](img/combo7.png)
-* The 'Add Labels' modal is the same as the 'Edit Labels' modal, but notes that any changes will add labels rather than replace.
+* The `Add Labels` modal is the same as the `Edit Labels` modal, but notes that any changes will add labels rather than replace.
 * Users can add labels in the textbox and click 'Save' to add the labels to the selected resources.
 
 ![9](img/combo9.png)
