@@ -14,6 +14,7 @@ Access design documentation for features slotted in the 4.2 release of OpenShift
 - [Nodes](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/nodes/nodes)
 - [OAuth Global Config](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/oauth/oauth)
 - [Operators Overview](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/operators-overview/operators-overview)
+- [Search page](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/search/search)
 - [Taints and Tolerations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/taints-tolerations/taints-tolerations)
 
 ## OpenShift Container Storage
