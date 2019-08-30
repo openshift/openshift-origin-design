@@ -147,9 +147,3 @@ The user can choose from three workload profiles:
 * Server
 * Desktop
 
-## Step 2: Networking
-## Step 3: Storage
-## Step 4: Advanced
-## Step 5: Review
-
-
