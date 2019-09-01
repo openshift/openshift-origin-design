@@ -3,21 +3,21 @@
 ## Step 2: Networking
 
 ![Default](img/3-00.png)
-The user enters the Networking step with an existing NIC pre-defined, set to Type (local). In this step, the 'Review and Create' button is still available to skip the rest of the steps. At this point, the user can select to customize this NIC, add new ones, or remove any they wish.
+The user enters the Networking step with an existing  Network interface pre-defined, set to Type (local). In this step, the 'Review and Create' button is still available to skip the rest of the steps. At this point, the user can select to customize this Network interface, add new ones, or remove any they wish.
 
 ![Adding NIC](img/3-01.png)
-Clicking on 'Add NIC' will pop up a "Create NIC" modal. The NIC name is prepopulated with a numeric count form of existing NICs on this flow. The user may change the NIC name. All the fields are preselected except Type. In order for the user to apply and add this NIC, the user must select one of the type options.
+Clicking on 'Add  Network interface' will pop up a "Create  Network interface" modal. The Network interface name is prepopulated with a numeric count form of existing  Network interfaces on this flow. The user may change the Network interface name. All the fields are preselected except Type. In order for the user to apply and add this Network interface,they must select one of the type options.
 
-![Type - Masquerade](img/3-02.png)
-In case the user selects Masquerade on the Type field, new indented fields will appear.
+In case the user selects 'Masquerade' on the Type field, they can add multiple Ports.
+In that case the user will get a list of Ports (name, port, protocol) which will be then forwarded and exposed to the virtual machine. The ports will be displayed in rows so the user can add or remove them.
 
-When adding a new NIC we allow the user to add one port with multiple bindings, so once the user enters the name for the first port we have another field popping up below where they can add port bindings.
+![masquerade is selected](img/3-03.png)
 
-![add port binding](img/3-03.png)
+The new  Network interface is added at the bottom of the list.
+Clicking the kebab allows the user to edit or remove it.
 
-![NIC added](img/3-10.png)
-The new NIC is added at the bottom of the list.
-Now the user can edit or remove it.
+![NIC added to the table](img/3-10.png)
+
+On removing all Network interfaces, the Networking step enters an empty state.
 
 ![Empty state](img/3-20.png)
-On removing all NICs, the Networking step enters an empty state.
