@@ -13,24 +13,20 @@ We want to allow the user to set the Storage class within the wizard, with no ne
 
 ![Fill in disk details](img/Add-disk-modal-details-required.png)
 
-The "Create storage class and add disk" action wouldn't appear until the user decided they need to create a storage class.  That's why this is the only option in the dropdown and then the additional fields show up. Once the user filled them all out, they would click the primary create button.
+Clicking the ‘Add disk’ button at the bottom will add the disk to the list view, but the Storage class will be shown in the disks table as ‘Non available’.
 
-![Add disk modal with create storage class](img/Add-disk-modal-with-create-sc.png)
+![Empty Storage class popover](img/Disks-list.png)
 
-Clicking the ‘Create Storage class and add disk’ button at the bottom will add the disk to the list view.
+Clicking on the ‘non available’ Storage class will show a popover with more info and an action link which will take the user to the ‘Create Storage class’ modal.
 
-Even when a user didn’t define a storage class, or doesn't have one available, they can still create a VM.
-In cases when the user didn’t define any Storage class, the Storage class will be shown in the table view as ‘Empty’ with a warning icon.
-Clicking on the ‘Empty’ Storage class will show a popover with more info and an action link which will take the user to the ‘Create Storage class’ modal.
+In the VM list view, the status of the VM would still be pending untill the user would create a storage class and mark it as default.
 
-![Empty Storage class popover](img/Popover.png)
+Clicking on the ‘pending’ status of the VM will show a popover with more info and an action link which will take the user to the ‘Create Storage class’ modal.
+
+![vmlist with popover](img/vmlist.png)
 
 'Create Storage class’ modal
 
 ![Create storage class modal](img/Create-storage-class-modal.png)
 
-Once the user creates the Storage class, it will be reflected in the VM list view (after the VM has been created), and show the VM in a pending status with warning icon and a pop over explanation saying the VM has been scheduled and waiting for the requirements to be assigned.
-
-![vmlist with popover](img/vmlist.png)
-
-After that, the storage class will be created successfully and the VM will spin up.
+After the storage class is created successfully, the VM will spin up.
