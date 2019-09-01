@@ -9,7 +9,10 @@ The “Advanced” setting step of the create VM wizard includes:
 
 ### Cloud-Init / Sysprep
 
-The user chooses the "Use cloud-init/Sysprep" checkbox at the top of the form and sees the settings.
+The user has 2 options (radio buttons to choose from) to configure the "cloud-init/Sysprep" settings:
+
+1. by filling a form (default)
+2. by writing a custom script
 
 - SSH Authorized Keys: Enter a comma-separated list of public SSH keys that can be used for authentication.
 - NIC: Select the NIC that should communicate with the DNS servers.
@@ -18,8 +21,11 @@ The user chooses the "Use cloud-init/Sysprep" checkbox at the top of the form an
 
 ![empty form](img/form-empty.png)
 
-The user checks the “Use Cloud-Init/Sysprep” checkbox in order to enable and fill out the fields below.
+By the default the user fills out the fields in the form
 ![user fills form](img/ssh-keys.png)
+
+In case the user chooses to use a custom script
+![user writes custom script](img/customscript.png)
 
 ### Virtual hardware
 
