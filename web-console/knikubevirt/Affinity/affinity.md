@@ -16,7 +16,7 @@ Applying an affinity rule to a resources is done via labels. Objects in OpenShif
 
 ## Affinity rules list on a resource details page
 
-![VM details page - overview tab - Affinity section](img/e1-0-0.jpg)
+![VM details page - overview tab - Affinity section](img/E1-0-0.jpg)
 Affinity is located in the resource details page, on the overview tab, on the Overview section (same placement order as Node Tolerations)
 
 ## Creating an Affinity rule from a resource details page
@@ -36,4 +36,4 @@ The user selects the resources he wishes to apply that rule to by adding their r
 The user clicks 'Save' and returns to the resource details page, where he left off.
 
 ![Affinity rule added to the resouece](img/E2-0-0.jpg)
-The counbter within the Affinity field is updates to indicate the added rule.
+The counter within the Affinity field is updates to indicate the added rule.
