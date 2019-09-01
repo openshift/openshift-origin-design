@@ -1,7 +1,22 @@
 # Builds
 The Builds page is a primary nav item in the OpenShift Developer perspective.
 
-Design documentation for the Builds section can be found [here](https://docs.google.com/document/d/1MWUJ9I_YpI-4e4RVM89g7VNKAj-VTrffDl245IglTfs/edit?usp=sharing)
+## Overview
 
-## Note
-Links to google documents are temporary until the documentation is converted to markdown files and added to this design repository.
+The Builds page is different from the Administrator perspective.  Clicking on the Builds navigation item will display Build Config resources.
+
+## Build Config Resources
+
+![Add build config image](img/image1.png)
+
+## Build Config Details - Overview Tab
+
+![Add build config image](img/image2.png)
+
+## Build Config Details - Builds 
+
+![Add build config image](img/image3.png)
+
+## Build Details - Overview Tab
+
+![Add build config image](img/image4.png)
