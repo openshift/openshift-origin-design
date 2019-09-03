@@ -38,7 +38,7 @@ Note: “Expanding" would cover Add Node, Add Capacity, and Expand/Grow Capacity
 When the expansion process is completed, the status will be changed back to online and a toast notification will be presented.
 
 ![Expanding Status](img/Expand-Storage-03.png) 
-If the user don׳t have enough capacity in the existing nodes, the add button will be disabled and we will show short text explaining what needs to be done. 
+If the user doesn't have enough capacity in the existing nodes, the add button will be disabled and we will show an inline error explaining what needs to be done. 
 - “Add Nodes” hyperlink takes the Admin to the Nodes page, where he/she can label additional nodes to be added to the OCS cluster.
 
 ### Add Storage Devices (For OCS 4.3)
