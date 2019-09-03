@@ -24,8 +24,11 @@ Note: only Add Capacity is needed for OCS 4.2. Add Node and Add Storage Device w
 ![Add Capacity Modal](img/Expand-Storage-02.png) 
 In the “Add Capacity” modal, the user needs to decide on how much capacity he wants to add, and which storage class this request will be made against.
 
-Note: The storage class presented should be filtered to only existing storage classes for the provisioners of the infrastructure OpenShift is deployed on, e.g. AWS or other cloud providers.
-- Storage Class “Info tip”- The Storage Class will be used to request storage from the underlying infrastructure to create the backing persistent volumes that will be used to provide the OpenShift Container Storage (OCS) service.
+Note: 
+- Capacity can only be specified in TiB only (GiB, MiB not supported) and we're allowing for 1 TiB increments (no decimals).
+- The storage class presented should be filtered to only existing storage classes for the provisioners of the infrastructure OpenShift is deployed on, e.g. AWS or other cloud providers.
+  - Storage Class “Info tip”- The Storage Class will be used to request storage from the underlying infrastructure to create the backing persistent volumes that will be used to provide the OpenShift Container Storage (OCS) service.
+  
 
 ![Expanding Status](img/Expand-Storage-04.png)
 While the expansion is in progress, we will present an “Expanding” status if possible.
@@ -56,7 +59,7 @@ Note: based on the infrastructure the devices list will show different columns:
     Device Name, Device UUID, Type, Capacity/Size, Model, Status
 
 
-## Add Node
+## Add Node (For OCS 4.3)
 To add a node, the flow will be decided based on the platform OpenShift is deployed on:
 
 - **Add Node** - Add existing OpenShift nodes to the OCS cluster 
