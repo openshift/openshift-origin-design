@@ -16,9 +16,10 @@ Access design documentation for features slotted in the 4.2 release of OpenShift
 - [Operators Overview](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/operators-overview/operators-overview)
 - [Taints and Tolerations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/taints-tolerations/taints-tolerations)
 
-## OpenShift Container Storage
+### OpenShift Container Storage
 - [OCS Install workflow](http://openshift.github.io/openshift-origin-design/web-console/Storage/OCS/OCS%20_Installation_Workflow)
 - [OB & OBC Lifecycle Management](http://openshift.github.io/openshift-origin-design/web-console/Storage/OB-OB-Lifecycle-Management/OB-OBC-Lifecycle)
+- [Object Storage Dashboard](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/storage/object-storage-dashboard/object-storage-dashboard)
 
 ### KNI and KubeVirt Designs
 [Access design documentation specific to the KNI and Kubevirt features in the OpenShift Console.](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/knikubevirt)
@@ -61,7 +62,6 @@ Access design documentation for features slotted in the 4.0 release of OpenShift
 - [Resource Quota](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/resource-quota/resource-quota)
 * Storage
 	- [Storage Classes](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/storage/storage)
-	- [Object Storage Dashboard](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/storage/object-storage-dashboard)
 - [User Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/user/user)
 - [YAML Editor](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/edit-yaml/edit-yaml)
 - [YAML Import](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/import-yaml/import-yaml)
