@@ -19,8 +19,6 @@ The user has 2 options (radio buttons to choose from) to configure the "cloud-in
 - DNS Servers: Enter a comma-separated list of DNS server IP addresses.
 - DNS Search Domains: Enter a comma-separated list of DNS search domain IP addresses.
 
-![empty form](img/form-empty.png)
-
 By the default the user fills out the fields in the form
 ![user fills form](img/ssh-keys.png)
 
