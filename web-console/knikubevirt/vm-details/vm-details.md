@@ -10,6 +10,37 @@ The user sees detailed information about the VM’s configuration.
 ![VM-overview - Editing a field](img/1-0-1.jpg)
 Editing field will be aligned to the rest of the system. For now, only 'Description' and Flavor' have a pencil icon next to the field name to indicate it is editable. Hitting that pencil will open up a modal.
 
+### Editing the CD-ROM
+Via the pencil icon the cd can be edited.
+![VM-details edit cd](img/cd-edit.png)
+
+They will then be presented a modal with a type to select from (or an empty state if no CD-ROM has been added).
+
+Depending on the type selected a new input is revealed. These types would be
+#### No CD
+This is the empty state. They can remove any CD-ROMs attached via the (-) icon next to each row.
+![VM-details edit cd modal](img/edit-blank.png)
+#### Container
+A text field is provided to paste in the path to the container.
+![container-type](img/edit-container.png)
+#### Persistent Volume Claim
+A typeahead field is provided to find the desired Persistent volume claim. 
+![PVC-type](img/edit-pvc.png)
+#### URL
+A text field is provided to paste in the URL to the available CD.
+![URL-type](img/edit-url.png)
+
+With each selection a tooltip is provided to describe each type.
+
+### Windows drivers
+In the case where a Windows operating system has been chosen in the general step a `Windows drivers` option will be available.
+![VM-details edit cd windows drivers](img/edit-container-windows.png)
+
+There is the ability to add more than one CD-ROM if needed (most likely for a Windows VM)
+![VM-details edit cd windows drivers](img/edit-container-windows-2.png)
+
+
+![VM-details cd details](img/cd-field.png)
 
 ## YAML
 
