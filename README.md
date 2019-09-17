@@ -27,6 +27,9 @@ Access design documentation for features slotted in the 4.2 release of OpenShift
 ### Developer Perspective
 [Access design documentation specific to the developer perspective of OpenShift.](http://openshift.github.io/openshift-origin-design/web-console/developer/developer)
 
+### OpenShift Cluster Manager
+[Index of mockups for OCM](https://docs.google.com/document/d/13G1d9tvOhIz0DDt4NyuavhCUSTmPR3z1uUEQIpaVvAA/edit#)
+
 ## Future OpenShift Designs
 Access design documentation for features coming in future releases, post OpenShift 4.2
 
