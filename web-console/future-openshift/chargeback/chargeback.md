@@ -2,20 +2,28 @@
 
 ## Reports
 ![](img/reports-list.png)
-- The chargeback page contains charts showing several cost metrics as well as a list of all chargeback reports
 
 ## Creating a Report
 ![](img/create-report.png)
-- Similar to other pages, a dismissible sidebar enables users to select from several sample reports that will be filled into the editor
+- The `Report Query` selector contains a list of the queries that could be used to create a report.
+- The namespace could be selected, or potentially filled in automatically depending on the selected query.
+![](img/create-report-5.png)
+- Checking `Run Immediately` would make the start and end dates required fields if applicable.
 
-![](img/pending-report.png)
-- One-off reports should not have a value filled in for the schedule column
+![](img/create-report-2.png)
+- In addition to creating an unscheduled report, users would be able to choose from a number of available periods or manually enter a CRON expression.
 
-## Report Details
-![](img/report-details.png)
-- Each report page contains information about the report and its scheduling as well as a table that contains the actual report itself.
+![](img/create-report-3.png)
+- Selecting a period provides the relevant fields for describing when the report should be run.
 
-![](img/report-details-instance-type.png)
-- Clicking on different tabs changes the report breakdown into different categories
-- Small charts showing relative size of each category are displayed for the currently sorted column
-- Clicking on the `Download Report` action will download a RAW version of the report displayed below using the currently selected display and sort options.
+![](img/create-report-4.png)
+- Selecting the `CRON` option would provide a text box to enter an expression.
+- A link to documents explaining cron syntax would be provided in this case
+
+## Queries
+![](img/queries-list-create.png)
+- Reports could also be created from the context of a query.
+
+![](img/create-from-query.png)
+- In this case, the `query` and `namespace` fields could be automatically populated with the details of the query.
+- Ideally, the report name would be automatically updated with the name of the query and the period. Users could override this by typing in the `Report Name` box.
