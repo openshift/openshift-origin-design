@@ -4,7 +4,7 @@
 ![VM details - Overview tab](img/B1-0-0.jpg)
 From the VM details page, Overview tab, the user clicks the pencil icon to edit the boot order.
 
-## Removing source items
+## Default source list
 ![Modal - default](img/B1-1-0.jpg)
 The modal pops up, displaying the currently listed bootable items by order of boot.
 This order was automatically set on the VM creation. This list displays bootable disks and NICS only.
@@ -12,21 +12,22 @@ This order was automatically set on the VM creation. This list displays bootable
 At this point, all the bootable sources are listed and there is no available resources to add to the list.
 An available sources counter at the bottom on the list highlights that to the user.
 
-![Removing item - actions menu](img/B1-1-1.jpg)
-From the action menu of each item, the user can remove an item from the list adding it to the available sources inventory.
-
+## Removing source items
 ![Removing item](img/B1-1-2.jpg)
-An 'Add source' dropdown will appear at the bottom of the list, as the last item.
-The available sources counter at the bottom of the list updates to reflect that there are available bootable items. 
+The user can remove an item from the list by clicking on the 'remove' icon at the left of each item. By doing so, the user will be adding it to the available sources inventory.
+
+An '+ Add source' button will appear at the bottom of the list, replacing the text indicating that there are no more items to add. The button will contain a counter to how many rows the user can add before it will no longer be available.
 
 ## Adding source items
 ![Add available source](img/B1-2-0.jpg)
-The user clicks the 'add source' dropdown at the bottom of the list.
-This item displays a type-ahead dropdown, which is already in focus, ready for the user to select an available item from the dropdown menu or filter the list by typing
+The user clicks the '+ add source' button at the bottom of the list.
+A new item at the bottom of the list will appear, marking its location on the list. 
+
+![Add available source - in focus](img/B1-2-0b.jpg)
+This item will also contain a type-ahead dropdown, which is already in focus, ready for the user to select an available item from the dropdown menu or filter the list by typing.
 
 ![Source added](img/B1-2-1.jpg)
-The added item is placed at the bottom of the list.
-The 'Add source' will move down to the bottom of the list, under the recently added item, in case there are more additional bootable items available to be added.
+In case the item added has only one option, that item will be already selected to that option.
 
 ## Drag & drop source items
 ![Drag-drop - grab](img/B1-3-0.jpg)
