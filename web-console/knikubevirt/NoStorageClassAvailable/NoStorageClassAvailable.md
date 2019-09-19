@@ -19,7 +19,7 @@ The popover will have an action link which will take the user to the ‘Create S
 
 In the VM list view, the status of the VM would still be pending untill the user would create a storage class and mark it as default.
 
-Clicking on the ‘pending’ status of the VM will show a popover with more info and an action link which will direct the user to the storage class section of the ui and allow them to create a new one there.
+Clicking on the ‘pending’ status of the VM will show a popover with more info and an action link which will direct the user to the storage class page with the Storage class already marked as 'Default' and allow them to create a new one there.
 
 ![vmlist with popover](img/vmlist.png)
 
