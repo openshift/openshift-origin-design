@@ -10,6 +10,9 @@ The modal pops up, displaying the currently listed bootable items by order of th
 This order was automatically set on the VM creation. This list displays bootable disks and NICS only.
 
 At this point, all the bootable sources are listed and there are no available resources to add to the list.
+
+Each drive will be displayed in the following format:
+[drive Type] "drive" [# of created] ":" [drive name]
 An available source counter at the bottom of the list highlights that to the user.
 CD-ROMs are included in this list.
 
