@@ -50,7 +50,7 @@ The snapshot light modal should include:
 ![Snapshot Modal-Cron](img/PVC-List-12.png)
 
 ### Status Indication 
-While snapshotting is in progress, the status indication shown is “snapshotting”. Clicking on the status indicator will show a popover with the progress indication. 
+While snapshotting is in progress, the status indication shown is “Creating snapshot”. Clicking on the status indicator will show a popover with the progress indication. 
 ![PVC List Page](img/PVC-List-06.png) 
 ![PVC List Page](img/PVC-List-07.png)
 
