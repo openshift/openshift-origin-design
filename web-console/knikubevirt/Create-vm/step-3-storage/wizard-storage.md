@@ -16,6 +16,7 @@ Once the user clicks the ‘Add disk’ button, a modal will be shown and the us
 
 ![add disk modal](img/Add-disk-modal.png)
 
+### ISO
 In case the user selects ISO
 
 ![Modal with ISO selected](img/Add-disk-modal-ISO-selected.png)
@@ -46,17 +47,23 @@ Any time the list of disks is empty (when no disk is available), the empty state
 
 ![no disk is available so empty state is shown](img/Empty-state-after-deleting-all-items.png)
 
+### URL
+
 In case the user selects a ‘URL’ from the data source drop down
 
 ![URL selected](img/URL-selected-add-disk-modal.png)
 
 ![URL selected](img/URL-selected-add-disk-modal-details-required.png)
 
+### Container
+
 In case the user selects a ‘Container’ from the data source drop down
 
 ![container selected](img/Container-selected-add-disk-modal.png)
 
 ![container selected](img/Container-selected-add-disk-modal-details-required.png)
+
+### Attach
 
 In case the user selects to attach ‘disk’ from the data source drop down
 
