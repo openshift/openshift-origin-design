@@ -51,6 +51,7 @@ In the Overview tab:
 * Secret
 * Status
 * Storage class
+* Used (showing only the usage without any indication of the total capacity)
 * Object Bucket that was created by this claim
 
 Object bucket claim data (for application consumption):
@@ -97,6 +98,7 @@ Overview tab:
 * Creation time
 * Status
 * Storage class
+* Used (showing only the usage without any indication of the total capacity)
 * Object Bucket claim that created this bucket
 
 ![OB details](img/OB-overview.png)
@@ -116,3 +118,4 @@ For a higher level of verification, the user will be requested to enter the OBC/
     Default quota is 100 GiB.
 * Regions
 * Pods tab in OBC details page
+* Capacity presentation of used out of X (pie chart)
