@@ -1,4 +1,5 @@
 ## OpenShift 4.3 Designs
+Access design documentation for features slotted in the 4.3 release of OpenShift. Click links below for specific section details.
 
 - [Diagnostics](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/diagnostics/diagnostics)
 
