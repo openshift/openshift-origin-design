@@ -16,13 +16,13 @@ There are several ways the user can access the `Generate (diagnostics) report` a
 
 ### Via a cluster dashboard status card message action
 ![Cluster dashboard status card message click](img/5-1-clusterdash-CNVerror.png)
-- The cluster dashboard will soon support warning messages to notify the user that CNV or OCS are degraded. From these messages the user will be able to immediately `Generate report` using the action link within the message.
-- This access point is unique in that when the dialog is launched, it will already be scoped to the related product for which the message it was launched from is related to. In this shown example case, only `Container-native Virtualization` would be checked by default.
+- In the future, the cluster dashboard will support warning messages to notify the user that CNV or OCS are degraded. From these messages the user will be able to immediately `Generate report` using the action link within the message.
+- This access point is unique in that dialog's form will default to only include data for the relevant component. `Container-native Virtualization` would be the only component checked in this case, for example.
 
 ## 'Generate Diagnostic Report' dialog
 ![Generate Diagnostic Report dialog select](img/2-1-reportdialog.png)
 ![Generate Diagnostic Report dialog select](img/2-2-reportdialog-menu.png)
-- The user can select what products and what time period of information should be included in the report and `Generate` it. The default state when launched from masthead help or status card kebab would be all 3 products selected and 8 hour time period.
+- The user can select which components and what time period of information should be included in the report and `Generate` it. The default state when launched from masthead help or status card kebab would be all components selected over an 8 hour time period.
 
 ![Generate Diagnostic Report dialog in progress](img/2-3-reportdialog-generating.png)
 - Once generation has begun, the user can `Close` the dialog to return to the context they launched it from, or `View on Dashboard` to immediately be taken to the cluster dashboard.
