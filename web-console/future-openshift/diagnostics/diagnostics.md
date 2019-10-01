@@ -7,16 +7,14 @@ Users can download a cluster diagnostic report based on must-gather tool for upl
 There are several ways the user can access the `Generate (diagnostics) report` action.
 
 ### Via the masthead help menu
-![Masthead help click](img/1-1a-clusterdash-startdownload.png)
-![Masthead help menu](img/1-1b-clusterdash-startdownload.png)
+![Masthead help menu](img/1-1-clusterdash-startdownload.png)
 
 ### Via the cluster dashboard status card kebab menu
-![Cluster dashboard status card kebab click](img/1-2a-clusterdash-startdownload.png)
-![Cluster dashboard status card kebab menu](img/1-2b-clusterdash-startdownload.png)
+![Cluster dashboard status card kebab menu](img/1-2-clusterdash-startdownload.png)
 
 ### Via a cluster dashboard status card message action
-![Cluster dashboard status card message click](img/5-1-clusterdash-CNVerror.png)
-- In the future, the cluster dashboard will support warning messages to notify the user that CNV or OCS are degraded. From these messages the user will be able to immediately `Generate report` using the action link within the message.
+![Cluster dashboard status card message click](img/1-3-clusterdash-CNVerror.png)
+- In the future, the cluster dashboard will support warning messages to notify the user that CNV or OCS are degraded. From these messages the user will be able to `Generate report` using the action link within the message.
 - This access point is unique in that dialog's form will default to only include data for the relevant component. `Container-native Virtualization` would be the only component checked in this case, for example.
 
 ## 'Generate Diagnostic Report' dialog
@@ -36,15 +34,11 @@ There are several ways the user can access the `Generate (diagnostics) report` a
 ### Generation success
 ![Cluster dashboard generated status message](img/3-2-clusterdash-complete.png)
 - Upon successful generation of the report, an informational status message appears with a `Download report` link that begins the download process in the user's browser.
-
-![Cluster dashboard generated status message kebab](img/3-3-clusterdash-complete.png)
 - The user may `Delete` the report and message via the message kebab menu. It will otherwise be automatically deleted and the message cleared after 24 hours from generation.
 
 ### Generation failure
-![Cluster dashboard failed status message](img/3-4-clusterdash-failed.png)
+![Cluster dashboard failed status message](img/3-3-clusterdash-failed.png)
 - If the report generation fails, a message appears with a `Retry` link to restart generation.
-
-![Cluster dashboard failed status message](img/3-5-clusterdash-failed.png)
 - User may `Clear` the failure message via the kebab or this message will automatically be removed after 12 hours.
 
 ## Out of scope for 4.3
@@ -53,3 +47,7 @@ There are several ways the user can access the `Generate (diagnostics) report` a
 - Generate and immediately attach to (existing or new) support case
 - Option to turn on automatic case open for certain number of severe alerts and attach report
 - Some sort of method that doesn’t involve user downloading/uploading file from local machine, somehow file goes straight to support
+
+## Notes
+- This design slightly bends the dashboard paradigm in that makes use of the cluster dashboard exclusively to view progress of generation and then download the diagnostic report. Future designs should be cautious not to overuse the dashboards for other non-monitoring features or core dashboard tasks like viewing cluster statuses or activities may suffer.
+- An exclusive "Diagnostic Reports" page containing the list of generating and generated reports was considered but determined to be a future enhancement for now, until it is determined how many diagnostic reports are typically present at one time or if the generated report retention time needs to be increased.
