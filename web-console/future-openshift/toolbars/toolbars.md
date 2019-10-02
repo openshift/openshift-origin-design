@@ -4,14 +4,14 @@ There are various toolbars used across the OpenShift console.
 
 
 ## Basic toolbars
-* The most basic toolbars in OpenShift have a 'Create' button, a textbox filter, and an item count.
+* The most basic toolbars in OpenShift have a textbox filter and an item count. The primary 'Create' button lives outside the toolbar in line with the page title.
 
 Example
 ![deployments](img/deployments-today.png)
 
 ## Toolbars with faceted filters
 * This type of toolbar is similar to the basic toolbar but adds faceted filters. When filters are applied, the toolbar increases in height to show filter chips on the second row.
-* Toolbars with faceted filters may or may not have a 'Create' button.
+* Pages with faceted filter toolbars may or may not have a 'Create' button.
 * Toolbars with faceted filters may have opinionated views. In these cases, filters are already applied when a user navigates to that page, and the filter chips are visible to show what is being filtered.
 * Faceted filters may allow users to filter on more than one attribute where necessary.
 
@@ -30,7 +30,7 @@ Faceted filter with multiple attributes
 * There are a number of pages that have custom toolbars.
 
 Search
-![search](img/search-today.png)
+See [search page](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/search/search) documentation.
 
 Events
 ![events](img/events-today.png)
