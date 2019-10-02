@@ -34,11 +34,12 @@ There are several ways the user can access the `Generate (diagnostics) report` a
 ### Generation success
 ![Cluster dashboard generated status message](img/3-2-clusterdash-complete.png)
 - Upon successful generation of the report, an informational status message appears with a `Download report` link that begins the download process in the user's browser.
+- This message should be of the ‘pinned’ type so that it is always visible above any firing alerts, which could be likely as that would be why the user is generating the report.
 - The user may `Delete` the report and message via the message kebab menu. It will otherwise be automatically deleted and the message cleared after 24 hours from generation.
 
 ### Generation failure
 ![Cluster dashboard failed status message](img/3-3-clusterdash-failed.png)
-- If the report generation fails, a message appears with a `Retry` link to restart generation.
+- If the report generation fails, a pinned-type message appears with a `Retry` link to restart generation.
 - User may `Clear` the failure message via the kebab or this message will automatically be removed after 12 hours.
 
 ## Out of scope for 4.3
