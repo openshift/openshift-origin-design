@@ -7,13 +7,13 @@ Delete snapshot(s)
 Create new PVC from a snapshot (import/restore snapshot)
  
 ## User Stories
-As a Developer, I want to be able to create a snapshot (from where PVC is) to make a point-in-time copy of my data.  
-As a Developer, I want to create a new PVC from a snapshot (import/restore snapshot)
-As a Developer, I want to delete 1 or more snapshot(s) when I no longer need to use the snapshot(s).
-As a Developer, I want to be able to list and view my snapshots for a given PVC.
-As a Developer, I want to modify the schedule of a previously-scheduled snapshot.
-As a Developer, I want to know how much capacity the snapshots are taking. [Dashboard support for snapshots]
-As a Developer, I want to see recent snapshot-related events/activities. 
+- As a Developer, I want to be able to create a snapshot (from where PVC is) to make a point-in-time copy of my data.  
+- As a Developer, I want to create a new PVC from a snapshot (import/restore snapshot)
+- As a Developer, I want to delete 1 or more snapshot(s) when I no longer need to use the snapshot(s).
+- As a Developer, I want to be able to list and view my snapshots for a given PVC.
+- As a Developer, I want to modify the schedule of a previously-scheduled snapshot.
+- As a Developer, I want to know how much capacity the snapshots are taking. [Dashboard support for snapshots]
+- As a Developer, I want to see recent snapshot-related events/activities. 
 
 ## PVC/PV Snapshot Workflow 
 ### List Pages 
@@ -37,7 +37,7 @@ The snapshot light modal should include:
 #### For Monthly/Weekly:
 - Time zone selection
 - Day in month/week, hour, minutes and seconds fields
-- Keep (history) How many instances of the scheduled snapshot the user wants to keep. (I - think we should set a limit to how much versions users can save)
+- Keep (history) How many instances of the scheduled snapshot the user wants to keep. (I think we should set a limit to how much versions users can save)
 
 ![Snapshot Modal-Mothly](img/PVC-List-04-copy.png)
 ![Snapshot Modal-Mothly](img/PVC-List-05.png)
