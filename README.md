@@ -37,6 +37,7 @@ Access design documentation for features coming in future releases, post OpenShi
 - [Alertmanager config](http://openshift.github.io/openshift-origin-design/web-console/monitoring/alertmanager-config/alertmanager-config)
 - [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/breadcrumbs/breadcrumbs)
 - [Chargeback](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/chargeback/chargeback)
+- [Custom Catalogs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/custom-catalogs/custom-catalogs)
 - [Pinning](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/pinning/pinning)
 - [Resource Creation](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/resource-creation/resource-creation)
 - [Resource Statuses](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/status/status)
