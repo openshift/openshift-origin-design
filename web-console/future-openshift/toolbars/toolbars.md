@@ -10,7 +10,8 @@ Example
 ![deployments](img/deployments-today.png)
 
 ## Toolbars with faceted filters
-* This type of toolbar is similar to the basic toolbar but adds faceted filters. When filters are applied, the toolbar increases in height to show filter chips on the second row.
+* This type of toolbar is similar to the basic toolbar but adds faceted filters. The faceted filter and the textbox filter are separated by a vertical separator.
+* When filters are applied, the toolbar increases in height to show filter chips on the second row.
 * Pages with faceted filter toolbars may or may not have a 'Create' button.
 * Toolbars with faceted filters may have opinionated views. In these cases, filters are already applied when a user navigates to that page, and the filter chips are visible to show what is being filtered.
 * Faceted filters may allow users to filter on more than one attribute where necessary.
