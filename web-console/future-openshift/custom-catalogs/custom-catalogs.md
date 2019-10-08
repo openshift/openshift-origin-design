@@ -1,6 +1,6 @@
 # Adding custom catalogs to OperatorHub
 
-Admins can create custom catlogs in order to give admin console users the ability to add operators from other sources, beyond the default OperatorHub operator sources.
+Admins can create custom catalogs in order to give admin console users the ability to add operators from other sources, beyond the default OperatorHub catalog sources.
 
 ## Global Configuration
 
@@ -12,11 +12,11 @@ OperatorHub sources are found through: Administation > cluster settings > global
 
 ## Sources
 
-In the OperatorHub configuration, users can see the current default sources that are feeding into OperatorHub. These sources are technically "Operator Sources" and have a resource badge for "OS". Users can also create a catalog source from here, which would create a "catalog source" resource. From a user perspective, both of these sources are accomplishing the goal of populating OperatorHub with operators that they can leverage and keep updated. They will only be able to create catalog sources (not operator sources) from the UI, as the goal is to deprecate the use of operator sources in favor of using catalog sources.
+In the OperatorHub configuration, users can see the current default sources that are feeding into OperatorHub. These sources populate OperatorHub and keep installed operators updated.
 
 ![OperatorHub sources default](img/operatorhub-custom-catalog3.png)
 
-If users "create catlog source" they will see a form to fill out details.
+If users "create catalog source" they will see a form to fill out details.
 
 ![OperatorHub catalog source form](img/operatorhub-custom-catalog4.png)
 
@@ -41,15 +41,14 @@ If users delete a custom catalog source, they must first confirm the deletion by
 
 For default operator sources, users cannot delete but only disable (and then re-enable if disabled).
 
-![disable default operator source](img/operatorhub-custom-catalog11.png)
+![disable default catalog source](img/operatorhub-custom-catalog11.png)
+If users disable a default catalog source, the disable confirmation step will inform users that if a source is disabled, any operators already installed from the source will no longer receive updates.
 
-If users disable a default operator source, they must first confirm disabling by typing the operator source name. The disable confirmation step will also inform users that if a source is disabled, any operators already installed from the source will no longer receive updates.
+![disable default catalog source confirm](img/operatorhub-custom-catalog12.png)
 
-![disable default operator source confirm](img/operatorhub-custom-catalog12.png)
+The default catalog source will now show the "availability" as "disabled" and users can re-enable through clicking the kebab menu, then selecting "enable."
 
-The default operator source will now show the "availability" as "disabled" and users can re-enable through clicking the kebab menu, then selecting "enable."
-
-![list disabled default operator source](img/operatorhub-custom-catalog13.png)
+![list disabled default catalog source](img/operatorhub-custom-catalog13.png)
 
 
 ## Operator status for deleted catalog sources
