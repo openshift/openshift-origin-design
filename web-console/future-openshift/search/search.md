@@ -27,6 +27,7 @@ The Search page will be updated to have a variety of new features.
 ![4](img/actions.png)
 * If no items are selected, the bulk actions dropdown will be enabled, but the actions within will be disabled. A tooltip will explain to users that they must select resources in order to take actions.
 * The primary bulk actions will be `Add Labels`, `Add Annotations`, and `Delete Resources`. More actions may be added in future depending on the resource(s).
+* When taking actions on five resources or fewer, the modal will list out the resource names. When taking actions on more than five resources, the modal will simply list the number (e.g. "Labels for 25 resources.").
 
 ### Adding Labels
 ![5](img/add-labels.png)
