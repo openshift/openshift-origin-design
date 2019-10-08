@@ -20,6 +20,7 @@ Bulk actions will be added to a number of pages in the OpenShift console.
 ## Actions
 * Only specific actions will be available to take on multiple resources. The default bulk actions are 'Add Labels', 'Add Annotations', and 'Delete Resources'.
 * Additional actions may be added in future depending on the resource type.
+* When taking actions on five resources or fewer, the modal will list out the resource names. When taking actions on more than five resources, the modal will simply list the number (e.g. "Labels for 25 resources.").
 
 ### Add Labels
 ![5](img/add-labels.png)
