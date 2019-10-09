@@ -37,27 +37,17 @@
 #### OPTION-1: Kebab menu option:
 
 1. Login to OpenShift > Admin > Storage (menu) > Storage classes (sub-menu)
-2. User can see list of ‘Storage classes” [list view]
-3. There will be a label that indicates 'default storage class'
-4. User chooses a storage class row that would be changed as a ‘default storage class’
-5. Click on the kebab menu > select “Edit Default Storage Class” as shown in the screen below:
+2. User can see list of ‘Storage classes' [list view] & there will be a label that indicates `default` storage class
+3. Click on the kebab menu > select `Set as Default Storage Class`
 
-![Set a Default Storage Class using kebab menu](img/stroage-opt1-start.png)
+![Set a Default Storage Class using kebab menu](img/stroage-opt1-start-1.png)
 
-6. Pop-up opens with a list of ‘SC’ and message shown below:
-*Message:
-Current default storage class will be changed to false when you
-choose a different storage class from the list below.**
+4. Pop-up opens with confirmation message.
+5. User clicks on 'Confirm' button to make the change
 
-7. User can choose any SC as a default storage class
+![Popup menu with confirmation](img/stroage-opt1-popup-confirm-1.png)
 
-![Popup menu to select a different Default Storage Class](img/stroage-opt1-popup-select.png)
-
-8. User clicks on ‘Save’ button to confirm the change
-
-![Popup menu with confirmation](img/stroage-opt1-popup-confirm.png)
-
-9. Successfully modified ‘Default Storage class” [list view]
+6. Successfully modified ‘Default Storage class” [list view]
 ![Modified default storage class](img/stroage-opt1-done.png)
 
 #### OPTION-2: Change the ‘default’ option from storage class detail page:
@@ -68,7 +58,7 @@ choose a different storage class from the list below.**
 ![Set a Default Storage Class using edit ](img/stroage-opt2-start.png)
 
 3. SC details are shown as below
-4. Click on “pencil icon” near the ‘default class status’
+4. Click on 'pencil icon' near the ‘default class status’
 
 ![Set a Default Storage Class using pencil icon](img/stroage-opt2-details.png)
 
