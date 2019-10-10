@@ -12,7 +12,7 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 
 ### Future Designs
 - [Affinity Rules](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/affinity/affinity)
-- [End to end Windows VMs flow](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/web-console/knikubevirt/windows-vms/windows-vms.md)
+- [End to end Windows VMs flow](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/windows-vms/windows-vms)
 
 #### KNI (Kubernetes Native Infrastructure/OpenShift on Bare Metal)
 - Add Bare Metal Host
