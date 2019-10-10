@@ -38,6 +38,7 @@
 
 1. Login to OpenShift > Admin > Storage (menu) > Storage classes (sub-menu)
 2. User can see list of ‘Storage classes' [list view] & there will be a label that indicates `default` storage class
+
 3. Click on the kebab menu > select `Set as Default Storage Class`
 
 ![Set a Default Storage Class using kebab menu](img/stroage-opt1-start-1.png)
@@ -49,6 +50,9 @@
 
 6. Successfully modified ‘Default Storage class” [list view]
 ![Modified default storage class](img/stroage-opt1-done.png)
+NOTE: If user clicks on the kebab menu of the existing 'default storage class' then the `Set as Default Storage Class` will be disabled
+![Popup menu with confirmation](img/stroage-opt1-start-1-disable.png
+  )
 
 #### OPTION-2: Change the ‘default’ option from storage class detail page:
 
