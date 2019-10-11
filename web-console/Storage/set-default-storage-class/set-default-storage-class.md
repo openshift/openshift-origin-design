@@ -2,10 +2,10 @@
 - Users with appropriate privileges can set a Default Storage Class.
 - THERE ARE TWO WAY USER CAN SET A DEFAULT STORAGE CLASS:
 
-#### OPTION-1: Kebab menu option:
+### OPTION-1: Kebab menu option:
 
 1. Login to OpenShift > Admin > Storage (menu) > Storage classes (sub-menu)
-2. User can see list of ‘Storage classes' [list view] & there will be a label that indicates `default` storage class
+2. User can see list of ‘Storage classes' [list view] & there will be a label that indicates default storage class
 
 3. Click on the kebab menu > select `Set as Default Storage Class`
 
@@ -22,7 +22,7 @@ NOTE: If user clicks on the kebab menu of the existing 'default storage class' t
 ![Popup menu with confirmation](img/stroage-opt1-start-1-disable.png
   )
 
-#### OPTION-2: Change the ‘default’ option from storage class detail page:
+### OPTION-2: Change the ‘default’ option from storage class detail page:
 
 1. Login to OpenShift > Admin > Storage (menu) > Storage classes (sub-menu)
 2. Click on a storage class name link and view details of the storage
