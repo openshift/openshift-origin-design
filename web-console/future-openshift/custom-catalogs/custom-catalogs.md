@@ -16,7 +16,7 @@ In the OperatorHub configuration, users can see the current default sources that
 
 ![OperatorHub sources default](img/operatorhub-custom-catalog3.png)
 
-If users "create catalog source" they will see a form to fill out details.
+If users "Create Catalog Source" they will see a form to fill out details.
 
 ![OperatorHub catalog source form](img/operatorhub-custom-catalog4.png)
 
@@ -31,11 +31,11 @@ Once a new catalog source is created, admin users can see the operators from the
 
 ## Actions
 
-Custom catalog sources can be edited or deleted from the kebab menu in the list.
+Custom catalog sources can be edited, deleted, or disabled from the kebab menu in the list.
 
 ![edit catalog source](img/operatorhub-custom-catalog7.png)
 
-If users delete a custom catalog source, they must first confirm the deletion by typing the catalog source name. The deletion confirmation step will also inform users that if a source is deleted, any operators already installed from the source will no longer receive updates.
+If users delete a custom catalog source, they must first confirm the deletion by typing "delete". The deletion confirmation step will also inform users that if a source is deleted, any operators already installed from the source will no longer receive updates.
 
 ![delete catalog source confirm](img/operatorhub-custom-catalog8.png)
 
@@ -49,6 +49,10 @@ If users disable a default catalog source, the disable confirmation step will in
 The default catalog source will now show the "availability" as "disabled" and users can re-enable through clicking the kebab menu, then selecting "enable."
 
 ![list disabled default catalog source](img/operatorhub-custom-catalog13.png)
+
+Users can also enable the catalog source by clicking the "Disabled" link, and seeing the popover that shows additional information and an action to "Enable source."
+
+![list disabled default catalog source](img/operatorhub-custom-catalog14.png)
 
 
 ## Operator status for deleted catalog sources
