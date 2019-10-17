@@ -2,7 +2,7 @@
 - The Pipelines page is a primary navigation item in the OpenShift Developer perspective.  
 - It is only available when the pipelines operator is installed.
 - This is Tech Preview in 4.2, and we need to use the Tech Preview badge on associated pages.
-- [Pipeline experiences are different when user has 'view only' access for a project](http://openshift.github.io/openshift-origin-design/web-console/developer/pipelines/rbac-view-access-pipelines)
+- ![Pipeline experiences are different when user has 'view only' access for a project](http://openshift.github.io/openshift-origin-design/web-console/developer/pipelines/rbac-view-access-pipelines)
 
 ## No projects exist
 When no project exist, clicking Pipelines will show an empty state:
