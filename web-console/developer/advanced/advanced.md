@@ -34,23 +34,23 @@ Users are able to add access to the project.
 ![save add](img/membership9.png)
 
 ![updated user access page add](img/membership12.png)
-This is the updated Project Access page after one access has been added.
+This is the updated Project Access page after one user has been assigned project access.
 
 ![remove user](img/membership30.png)
-Users are able to remove access to the project.
+Users can remove user access from this project.
 
 ![save remove](img/membership40.png)
 
 ![updated user access page remove](img/membership1.png)
-This is the updated Project Access page after one access has been removed.
+This is the updated Project Access page after removing user access from this project.
 
 ![remove all access](img/membership50.png)
-Users are able to remove all access from the project.
+Users can remove access of all users from this project.
 
 ![save remove all access](img/membership14.png)
 
 ![updated remove all access](img/membership60.png)
-This is the updated Project Access page after all access has been removed.
+This is the updated Project Acces page after removing access of all users from this project.
 
 ![all projects](img/membershipallprojects.png)
 If "all projects" is selected, users can chose a project from the list or create a project.
