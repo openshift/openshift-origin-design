@@ -32,6 +32,7 @@
 
 ## Set Default Storage Class
 - Users with appropriate privileges can set a Default Storage Class.
+**There are two ways a user can set a default storage class:**
 - THERE ARE TWO WAY USER CAN SET A DEFAULT STORAGE CLASS:
 
 ### OPTION-1: Kebab menu option:
