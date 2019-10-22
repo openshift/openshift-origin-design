@@ -31,7 +31,7 @@
 - Only access modes that are compatible should be available to select in this form.
 
 ## Set Default Storage Class
-- Users with appropriate privileges can set a Default Storage Class.
+Users with appropriate privileges can set a Default Storage Class.
 **There are two ways a user can set a default storage class:**
 - THERE ARE TWO WAY USER CAN SET A DEFAULT STORAGE CLASS:
 
