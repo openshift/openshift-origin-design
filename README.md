@@ -2,6 +2,7 @@
 Access design documentation for features slotted in the 4.3 release of OpenShift. Click links below for specific section details.
 
 - [Diagnostics](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/diagnostics/diagnostics)
+- [Health Checks](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/health-checks/health-checks)
 
 ## OpenShift 4.2 Designs
 Access design documentation for features slotted in the 4.2 release of OpenShift. Click links below for specific section details.
@@ -13,7 +14,6 @@ Access design documentation for features slotted in the 4.2 release of OpenShift
 - [Cron Jobs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/cron-jobs/cron-jobs)
 - [Dashboards and Projects](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/dashboards/dashboards)
 - [Diagnostics (WIP)](https://docs.google.com/document/d/11rQliTE7fdyqDWFc5F-w-jCBRxxNBymngidQ6xlCiws/edit?usp=sharing)
-- [Health Checks](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/health-checks/health-checks)
 - [Image Commands](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/image-commands/image-commands)
 - [Import YAML](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/import-yaml/import-yaml)
 - [Machines](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/machines/machines)
