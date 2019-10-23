@@ -48,7 +48,7 @@ If they choose to switch Interfaces they will be asked when they choose to sched
 
 ![user can schedule to switch interface](img/SwitchInterface.png)
 
-This is another option that allows the user to change the interface without scheduling a specific time, so just a dropdown with the current interface selected by default (the other option in the drop down would be Virtio-scsi interface) and then the user can either Save or Cancel the change
+This is another option that allows the user to change the interface without scheduling a specific time, so just a dropdown with the Sata interface (currently selected) by default (the other option in the drop down would be Virtio-scsi interface) and then the user can either Save or Cancel the change
 ![user can switch interface](img/SwitchInterfaceOp2.png)
 
 The users would need to be aware that switching the interface for the disk is useful (but not required). It’s important to note that it’s not required because they will not get an error stating there is an issue.
