@@ -19,7 +19,7 @@ In the disks field, the user will be able to decide if to include all disks or j
 Modifying included disks.
 
 ![Offline Snapshot modal - disks customized](img/1-04.jpg)
-Disks field selection customised.
+Disks field selection customized.
 
 ![Offline Snapshotting status indication](img/1-05.jpg)
 After clicking on a 'Create' button, a new snapshot item will appear at the top of the list, with the status displaying "Creating snapshot".
@@ -56,7 +56,8 @@ Restoring VM from snapshot modal. When clicking the restore option in the action
 
 ## Scheduled snapshots
 
-The scheduled snapshots are located at the top of the list of the taken spanpshots, sharing the same columns. This design is align to the PVC snapshot scheduling.
+The scheduled snapshots are located at the top of the list of the taken spanpshots, sharing the same columns.
+This design is aligned to the PVC snapshot scheduling.
 
 ![Offline Schedule Snapshot - scheduled sub tab](img/3-00.jpg)
 From the schedule dropdown, the user can switch from "single snaphsot" (default), to:
