@@ -10,6 +10,7 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 - [VM Templates](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-templates/vm-templates)
 
 ### KNI (Kubernetes Native Infrastructure/OpenShift on Bare Metal)
+
 - Add Bare Metal Host
 - Remove Bare Metal Host
 - Update Bare Metal Cluster
@@ -41,6 +42,7 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 - [Expose VM as a Service](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/expose-vm-as-a-service/expose-vm-as-a-service)
 - [Guest Agent Not Installed](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/guest-agent-not-installed/guest-agent-not-installed)
 - [Snapshots](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/snapshots/snapshots) [snapshots details follow-up page issue](https://github.com/openshift/openshift-origin-design/issues/227)
+- [End to end Windows VMs flow](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/windows-vms/windows-vms)
 
 #### Future Designs
 - [Affinity Rules](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/affinity/affinity)
