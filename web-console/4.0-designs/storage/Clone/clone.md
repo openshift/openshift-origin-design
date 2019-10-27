@@ -11,7 +11,7 @@ All other List, View, Delete, Modify actions are that of a PV/PVC
 - From user’s perspective, a clone is another PVC/PV; however contents of a clone is that its PV is populated from contents of a PV at creation time.
 - After creation, the clone behaves just like any other PV.
 - clone using create volume from existing snapshot or existing PV
-- Cloning only support with CSI drivers (and not for in-tree or Flex drivers)
+- Cloning is only supported with CSI drivers (and not for in-tree or Flex drivers)
 - To enable the Kubernetes Volume Cloning feature 
 - enabled via the PersistentVolumeClaim.DataSource.Kind field
  
