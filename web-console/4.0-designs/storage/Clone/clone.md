@@ -46,7 +46,7 @@ While cloning the status of the selected PVC will change to “Cloning”
 When cloning is done a new pvc will be created. The status depends with how the new PVC get bound. 
 
 ![PVC List Page](img/PVC-List-Clone-05.png) 
-![PVC List Pgae](img/PVC-List-Clone-06.png) 
+![PVC List Page](img/PVC-List-Clone-06.png) 
 
 ### Details Page
 
