@@ -37,7 +37,7 @@ Clicking on the clone option in the kebab menu will open the clone modal
 
 #### Clone Modal
 The clone modal includes a field for name and the pvc details. 
-![PVC List Pgae](img/PVC-List-Clone-03.png) 
+![PVC List Page](img/PVC-List-Clone-03.png) 
 
 While cloning the status of the selected PVC will change to “Cloning” 
 ![PVC List Pgae](img/PVC-List-Clone-04.png) 
