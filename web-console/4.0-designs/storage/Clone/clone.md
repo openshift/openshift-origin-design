@@ -30,7 +30,7 @@ As a Developer, I want to be able to create a clone of a PVC.
 
 ## PVC/PV Clone Workflow
 ### List Page
-![PVC List Pgae](img/PVC-List-Clone-01.png) 
+![PVC List Page](img/PVC-List-Clone-01.png) 
 
 Clicking on the clone option in the kebab menu will open the clone modal
 ![PVC List Pgae](img/PVC-List-Clone-02.png) 
