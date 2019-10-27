@@ -40,7 +40,7 @@ The clone modal includes a field for name and the pvc details.
 ![PVC List Page](img/PVC-List-Clone-03.png) 
 
 While cloning the status of the selected PVC will change to “Cloning” 
-![PVC List Pgae](img/PVC-List-Clone-04.png) 
+![PVC List Page](img/PVC-List-Clone-04.png) 
 
 
 When cloning is done a new pvc will be created. The status depends with how the new PVC get bound. 
