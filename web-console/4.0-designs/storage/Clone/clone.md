@@ -52,4 +52,4 @@ When cloning is done a new pvc will be created. The status depends with how the 
 
 The same action menu we show in the list page when clicking on the kebab menu is also available when clicking on the actions menu in the details page. the clone modal is practically the same. 
 
-![PVC List Pgae](img/PVC-Details-Overview-Clone-01.png)
+![PVC List Page](img/PVC-Details-Overview-Clone-01.png)
