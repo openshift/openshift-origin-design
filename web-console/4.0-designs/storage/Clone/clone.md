@@ -44,6 +44,13 @@ While cloning the status of the selected PVC will change to “Cloning”
 
 
 When cloning is done a new pvc will be created. The status depends with how the new PVC get bound. 
+The PVC status / lifecycle is well-documented in Kubernetes, and IMHO we should refer to official Kubernetes documentation whenever possible. 
+See https://github.com/kubernetes/kubernetes/blob/release-1.1/docs/user-guide/persistent-volumes.md#lifecycle-of-a-volume-and-claim.
+
+- Available -- a free resource that is not yet bound to a claim
+- Bound -- the volume is bound to a claim
+- Released -- the claim has been deleted, but the resource is not yet reclaimed by the cluster
+- Failed -- the volume has failed its automatic reclamation
 
 ![PVC List Page](img/PVC-List-Clone-05.png) 
 ![PVC List Page](img/PVC-List-Clone-06.png) 
