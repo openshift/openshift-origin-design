@@ -29,6 +29,7 @@ Access design documentation specific to the KNI and KubeVirt features in OpenShi
 
 #### Virtual Machines in the console
 - [Viewing/editing Virtual Machine Details](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-details/vm-details)
+	- [Editing Virtual Machine boot order](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/vm-details/vm-boot-order/vm-boot-order)
 - [Virtual machines Project Overview](http://openshift.github.io/openshift-origin-design/web-console/knikubevirt/openshift-vms-overview/openshift-vms-overview)
 
 
