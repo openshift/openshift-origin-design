@@ -36,4 +36,4 @@ The user selects the resources he wishes to apply that rule to by adding their r
 The user clicks 'Save' and returns to the resource details page, where he left off.
 
 ![Affinity rule added to the resouece](img/E2-0-0.jpg)
-The counter within the Affinity field is updates to indicate the added rule.
+The counter within the Affinity field is updates to indicate the added rule. 
