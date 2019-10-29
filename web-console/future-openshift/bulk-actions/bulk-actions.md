@@ -5,7 +5,7 @@ Bulk actions will be added to a number of pages in the OpenShift console.
 
 ## Behavior
 * The bulk selector will be the first component in the toolbar on pages where bulk actions are available.
-* Users can click the checkbox in the bulk selector to select all items in the list. If all items are selected, the bulk selector checkbox will be filled with a check and the bulk selector will read 'All items selected'. Clicking the bulk selector checkbox again will deselect all items.
+* Users can click the checkbox in the bulk selector to select all items in the list. If all items are selected, the bulk selector checkbox will be filled with a check and the bulk selector will read 'All [#] selected', informing users that all known items in the list are selected. Clicking the bulk selector checkbox again will deselect all items.
 * Users can also choose to select a group of items by clicking the associated checkboxes next to them. The bulk selector checkbox will be filled in with a '-' to indicate that some items are selected, and the bulk selector will display the number of items selected (e.g. '2 selected'). Clicking the bulk selector checkbox will deselect all items.
 * If no items are selected, the bulk actions dropdown will be enabled, but the actions within will be disabled. A tooltip will explain to users that they must select resources in order to take actions.
 
