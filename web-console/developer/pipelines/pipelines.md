@@ -15,14 +15,14 @@ When a project is in context, clicking “Pipelines” will display the Pipeline
 ![Pipelines Resource Table](img/PL-ListView.png)
 
 - Navigation item: Pipelines  
-- Secondary masthead is visible and includes the project selector 
+- Secondary masthead is visible and includes the project selector
 - Page title is Pipelines
 - Filtering
     - OpenShift filter toggle component is present, filtering on the Last Run Status
     - OpenShift filter by name component is present
 - Sorting
     - All columns are sortable.  
-    
+
     Columns include:
     1. Name
     Resource badge + pipeline name are presented as a link.  Clicking on the link navigates to the Pipeline Details View
@@ -55,13 +55,13 @@ There are 2 columns in the Pipelines resource tab:
 #### Adding a Resource
 The general behavior of adding a resource is consistent with the Environments tab of many workloads pages.  
 
-When the user clicks the Add Resource link, a new row is added.  Hints are shown in the input fields and an info inline notification is displayed. 
+When the user clicks the Add Resource link, a new row is added.  Hints are shown in the input fields and an info inline notification is displayed.
 ![Add a resource-01](img/PL-Details-Resources-AddResource01.png)
 
 The resource type can be one of the following: git, cluster, image, storage
 ![Add a resource-02](img/PL-Details-Resources-AddResource02.png)
 
-When the user clicks Save, a success inline notification is displayed. 
+When the user clicks Save, a success inline notification is displayed.
 ![Add a resource-04](img/PL-Details-Resources-AddResource04.png)
 
 #### Removing a Resource
@@ -70,16 +70,16 @@ When the user hovers over the Remove Resource icon, a Remove Resource tooltip sh
 
 When the user clicks the Remove Resource icon
 The row is removed
-An info inline notification is shown 
+An info inline notification is shown
 ![Remove a resource-01](img/PL-Details-Resources-RemoveResource01.png)
 
 When the user clicks Save
-An success inline notification is shown 
+An success inline notification is shown
 ![Remove a resource-02](img/PL-Details-Resources-RemoveResource02.png)
 
 
 ## Pipeline Actions
-Supported pipeline actions are: 
+Supported pipeline actions are:
 1. Restart last run
 1. Start
 1. Delete Pipeline
@@ -102,7 +102,7 @@ A modal is displayed for the Start action.
 - Parameters section
     - Parameters associated with the Pipeline are added to this section
     - Default values are provided
-- Cluster Resources section 
+- Cluster Resources section
     - This section exists if there is at least one resource of type cluster associated with the Pipeline
     - Cluster resources associated with the Pipeline are added to this section in a two column format
 - Git Resources section
@@ -115,11 +115,11 @@ A modal is displayed for the Start action.
     - This section exists if there is at least one resource of type storage associated with the Pipeline
     - Storage resources associated with the Pipeline are added to this section in a two column format
 
-Notes: 
+Notes:
 - the name of the Pipeline Run is generated, the user does not input it
 - Adding Resources on the fly (WIP, not included here)
 
-### Delete Pipeline 
+### Delete Pipeline
 A delete confirmation modal is displayed when the user deletes a pipeline
 
 ![PL List View Delete Confirmation](img/PL-ListView-DeleteConfirmation.png)
@@ -137,7 +137,7 @@ A delete confirmation modal is displayed when the user deletes a pipeline
 - A Download link is to download the step logs.
 
 ## Pipeline Run Actions
-Supported pipeline run actions are: 
+Supported pipeline run actions are:
 1. Restart
 1. Cancel
 1. Delete Pipeline Run
@@ -160,10 +160,10 @@ A delete confirmation modal is displayed when the user deletes a pipeline
 
 # Task Status Component
 ## Overview
-- The task status component is  a 100% stacked bar chart (Implementation note: use PF4/Victory to remain aligned with OpenShift console strategy). 
+- The task status component is  a 100% stacked bar chart (Implementation note: use PF4/Victory to remain aligned with OpenShift console strategy).
 - Last status represents the tasks of the last pipeline run.
 - Each segment of the chart represents the group of tasks which are the same status.
-- Task segments are in the following order: 
+- Task segments are in the following order:
     - Succeeded
     - Failed
     - Cancelled
