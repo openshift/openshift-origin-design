@@ -25,8 +25,7 @@ In case the item added has only one option, that item will be already selected t
 
 ## Removing source items
 The user can remove an item from the list by clicking on the 'remove' icon at the left of each item. By doing so, the user will be adding it to the available sources inventory.
-The 'Remove' icone will be available for all items if the list contains more than one items.
-in case of only one item, the 'Remove' action will be substracted.
+The 'Remove' icone will be available for all items.
 
 ## Drag & drop source items
 ![Add available source](img/C1-2-0.jpg)
@@ -35,7 +34,21 @@ The user grabs an item by clicking and holding the 'drag-drop' icon.
 ![Source added](img/C1-2-1.jpg)
 While holding the item between other items on the list, a blue Separator will mark the place where that item will land on the list after releasing it.
 
-# Drag & drop accessibility
+## Empty state
+![VM page - no source](img/C2-0-0.jpg)
+An empry state occures when the VM is created via YAML, without specifying any boot order priority.
+It is also achieved when the lasg item on the Boot-order modal is removed.
+With an empty state, the colsole will notify the user that "No sources selected", and "Boot from disks by order of appearance on YAML"
+
+![VM page - show disks by order of apperance on YAML](img/C2-0-1.jpg)
+From the VM page the user will be able to see the disk list by order of appearance on the YAML
+
+![VM page - no sources modal](img/C2-1-0.jpg)
+An empty state within the modal.
+Viewing the disks by order of apperance is not available as it is not a desired state.
+
+
+## Drag & drop accessibility
 This section specifies the drag-drop behavior using a screen-reader. The copy specifies outlines that behaviour, it is not the final copy.
 
 ![screen-reader - dragdrop icon](img/C1-3-0.jpg)
