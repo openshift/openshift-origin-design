@@ -1,7 +1,8 @@
 ## OpenShift 4.3 Designs
 Access design documentation for features slotted in the 4.3 release of OpenShift. Click links below for specific section details.
+#### OpenShift Container Storage ####
+ *  [Set Default Storage Class](http://openshift.github.io/openshift-origin-design/web-console/Storage/set-default-storage-class/set-default-storage-class)
 
-- [Set Default Storage Class](http://openshift.github.io/openshift-origin-design/web-console/Storage/set-default-storage-class/set-default-storage-class)
 - [Diagnostics](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/diagnostics/diagnostics)
 
 
