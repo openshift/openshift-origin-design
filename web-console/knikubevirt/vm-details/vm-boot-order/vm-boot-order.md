@@ -38,7 +38,7 @@ While holding the item between other items on the list, a blue Separator will ma
 ![VM page - no source](img/C2-0-0.jpg)
 An empry state occures when the VM is created via YAML, without specifying any boot order priority.
 It is also achieved when the lasg item on the Boot-order modal is removed.
-With an empty state, the colsole will notify the user that "No sources selected", and "Boot from disks by order of appearance on YAML"
+With an empty state, the colsole will notify the user that "No sources selected", and "Boot from disks by order of appearance in YAML file"
 
 ![VM page - show disks by order of apperance on YAML](img/C2-0-1.jpg)
 From the VM page the user will be able to see the disk list by order of appearance on the YAML
