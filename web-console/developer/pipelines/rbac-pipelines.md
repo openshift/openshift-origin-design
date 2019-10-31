@@ -1,11 +1,6 @@
 # Pipeline experiences when user has view only access of a project#
 
-If the user is assigned to a project with `view` access, then user will be restricted from the following actions of the project:
- - add
- - edit and
- - delete
-
-_i.e. user cannot add, edit and delete any annotations, labels, parameter, and resources & user cannot start, stop, restart, edit and delete any pipeline tasks._
+ _user cannot add, edit and delete any annotations, labels, parameter, and resources & user cannot start, stop, restart, edit and delete any pipeline tasks of a project when user has view access to that project_
 
 ### Pipelines List View ###
 
@@ -20,7 +15,7 @@ When a user has view only access for a project then the `action` button will be 
 ![Pipelines Overview tab](img/RBAC-PL-Details-Overview-Actions.png)
 
 ### Pipelines Details Page / YAML ###
- 
+
 When a user has view only access for a project then the `action` and `save` buttons will be hidden to prevent YAML edit.
 
 ![Pipelines YAML tab](img/RBAC-PL-Details-YAML.png)
