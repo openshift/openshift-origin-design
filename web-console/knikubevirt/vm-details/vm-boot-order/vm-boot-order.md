@@ -54,7 +54,7 @@ This section specifies the drag-drop behavior using a screen-reader. The copy sp
 ![screen-reader - dragdrop icon](img/C1-3-0.jpg)
 The user scans the page with a screen reader, hover over the drag-drop icon
 
-![screen-reader - grab item list](img/c1-3-1.jpg)
+![screen-reader - grab item list](img/C1-3-1.jpg)
 The user grabs that item
 
 ![screen-reader - move item with up/down arro](img/C1-3-2.jpg)
