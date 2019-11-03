@@ -3,6 +3,7 @@ Access design documentation for features slotted in the 4.4 release of OpenShift
 
 - [Bulk actions](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/bulk-actions/bulk-actions)
 - [Cron Jobs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/cron-jobs/cron-jobs)
+- [Dashboards](http://openshift.github.io/openshift-origin-design/web-console/dashboards/4.3)
 - [Diagnostics](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/diagnostics/diagnostics)
 - [Favoriting](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/favoriting/favoriting)
 - [Health Checks](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/health-checks/health-checks)
