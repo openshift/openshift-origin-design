@@ -1,16 +1,21 @@
 # Advanced
 Advanced is a primary navigation item in the OpenShift Developer perspective.
 
-Clicking “Advanced” will open/close the advanced secondary navigation items
+Clicking “Advanced” will open/close the advanced secondary navigation items.  There are 5 secondary items:
+* Project Details
+* Project Access
+* Metrics
+* Events
+* Search
 
-## Projects
-The Projects page is the same page as displayed in the Administrator perspective.
+## Project Details
+The content of Project Details page is the same as the Projects page in the Administrator perspective, except that it includes the secondary masthead.  
 
-![Add projects page](img/image1.png)
+When All projects is selected in the project selector, the user is prompted to select a project or create a project.
+![Project Details All Projects](img/projectdetails-allprojects.png)
 
-When clicking on a specific project, Projects remains selected in the navigation under Advanced. The project details of the selected project are displayed.
-
-![Add project details](img/image2.png)
+When a project is selected in the project selector, the project details are shown.
+![Project Details Single Project](img/projectdetails.png)
 
 ## Project Access
 The Project Access page allows users to add or remove access to a project.
@@ -58,10 +63,5 @@ If "all projects" is selected, users can chose a project from the list or create
 ## Events
 The Events page is the same page as displayed in the Administrator perspective.
 
-![Add events page](img/image3.png)
-
-
-## Search 
+## Search
 The Search page is the same page as displayed in the Administrator perspective.
-
-![Add events page](img/image4.png)
