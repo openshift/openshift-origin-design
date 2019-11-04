@@ -5,8 +5,8 @@ Clicking “Advanced” will open/close the advanced secondary navigation items.
 * Project Details
 * Project Access
 * Metrics
-* Events
 * Search
+* Events
 
 ## Project Details
 The content of Project Details page is the same as the Projects page in the Administrator perspective, except that it includes the secondary masthead.  
