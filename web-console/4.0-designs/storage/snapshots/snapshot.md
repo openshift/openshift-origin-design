@@ -7,10 +7,10 @@ Delete snapshot(s)
 Create new PVC from a snapshot (import/restore snapshot)
  
 ## User Stories
-- As a Developer, I want to be able to create a snapshot (from where PVC is) to make a point-in-time copy of my data.  
-- As a Developer, I want to create a new PVC from a snapshot (import/restore snapshot)
+- As a Developer, I want to be able to create a snapshot (from where PVC/PV is) to make a point-in-time copy of my data.  
+- As a Developer, I want to create a new PVC/PV from a snapshot (import/restore snapshot)
 - As a Developer, I want to delete 1 or more snapshot(s) when I no longer need to use the snapshot(s).
-- As a Developer, I want to be able to list and view my snapshots for a given PVC.
+- As a Developer, I want to be able to list and view my snapshots for a given PVC/PV.
 - As a Developer, I want to modify the schedule of a previously-scheduled snapshot.
 - As a Developer, I want to know how much capacity the snapshots are taking. [Dashboard support for snapshots]
 - As a Developer, I want to see recent snapshot-related events/activities. 
