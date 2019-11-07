@@ -1,7 +1,19 @@
+## OpenShift 4.4 Designs
+Access design documentation for features slotted in the 4.4 release of OpenShift. Click links below for specific section details.
+
+- [Bulk actions](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/bulk-actions/bulk-actions)
+- [Cron Jobs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/cron-jobs/cron-jobs)
+- [Diagnostics](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/diagnostics/diagnostics)
+- [Favoriting](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/favoriting/favoriting)
+- [Health Checks](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/health-checks/health-checks)
+- [Search page](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/search/search)
+- [Toolbars](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/toolbars/toolbars)
+
 ## OpenShift 4.3 Designs
 Access design documentation for features slotted in the 4.3 release of OpenShift. Click links below for specific section details.
 
-- [Diagnostics](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/diagnostics/diagnostics)
+- [Alertmanager config](http://openshift.github.io/openshift-origin-design/web-console/monitoring/alertmanager-config/alertmanager-config)
+- [Chargeback](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/chargeback/chargeback)
 
 ## OpenShift 4.2 Designs
 Access design documentation for features slotted in the 4.2 release of OpenShift. Click links below for specific section details.
@@ -10,9 +22,7 @@ Access design documentation for features slotted in the 4.2 release of OpenShift
 - [Command Line Tools](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/command-line-tools/command-line-tools)
 - [Console Customizations](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/console-customizations/console-customizations)
 - [Contextual Help](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/contextual-help/contextual-help)
-- [Cron Jobs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/cron-jobs/cron-jobs)
 - [Dashboards and Projects](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/dashboards/dashboards)
-- [Diagnostics (WIP)](https://docs.google.com/document/d/11rQliTE7fdyqDWFc5F-w-jCBRxxNBymngidQ6xlCiws/edit?usp=sharing)
 - [Image Commands](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/image-commands/image-commands)
 - [Import YAML](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/import-yaml/import-yaml)
 - [Machines](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/machines/machines)
@@ -35,19 +45,6 @@ Access design documentation for features slotted in the 4.2 release of OpenShift
 
 ### OpenShift Cluster Manager
 [Index of mockups for OCM](https://docs.google.com/document/d/13G1d9tvOhIz0DDt4NyuavhCUSTmPR3z1uUEQIpaVvAA/edit#)
-
-## Future OpenShift Designs
-Access design documentation for features coming in future releases, post OpenShift 4.2
-
-- [Alertmanager config](http://openshift.github.io/openshift-origin-design/web-console/monitoring/alertmanager-config/alertmanager-config)
-- [Breadcrumbs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/breadcrumbs/breadcrumbs)
-- [Chargeback](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/chargeback/chargeback)
-- [Pinning](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/pinning/pinning)
-- [Resource Creation](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/resource-creation/resource-creation)
-- [Resource Statuses](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/status/status)
-- [Role Based Access Control](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/role-based-access-control/role-based-access-control)
-- [YAML Editor Updates](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/code-editor-updates/code-editor-updates)
-
 
 ## OpenShift 4.0 Designs
 Access design documentation for features slotted in the 4.0 release of OpenShift. Click links below for specific section details.
@@ -74,15 +71,6 @@ Access design documentation for features slotted in the 4.0 release of OpenShift
 - [User Menu](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/user/user)
 - [YAML Editor](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/edit-yaml/edit-yaml)
 - [YAML Import](http://openshift.github.io/openshift-origin-design/web-console/4.0-designs/import-yaml/import-yaml)
-
-
-## Future Design Considerations
-The following designs are under consideration for use in future releases of OpenShift and are not yet final.
-
-- [Bulk Actions](http://openshift.github.io/openshift-origin-design/web-console/old/bulk-actions/bulk-actions)
-- [Dashboard Errors](http://openshift.github.io/openshift-origin-design/web-console/old/dashboard-errors/dashboard-errors)
-- [Empty States](http://openshift.github.io/openshift-origin-design/web-console/old/empty-states/empty-states)
-- [Quick Start Guide](http://openshift.github.io/openshift-origin-design/web-console/old/quick-start-guide/quick-start-guide)
 
 ## OpenShift 3.10 Web Console
 
