@@ -22,7 +22,6 @@ When the “Show pipeline visualization” control is expanded, a pipeline visua
 ![Show visualization open](img/+Add_Flow_Pipelines_vizopen.png)
 
 ## Alert
-When no pipeline template is available, show an inline alert
-Alert should say “Since there are no pipeline templates available for this runtime, a pipeline cannot be created.”
+When no pipeline template is available, show an inline alert. The alert type shall be Info.
 
 ![Show alert](img/+Add_Flow_Pipelines_alert.png)
