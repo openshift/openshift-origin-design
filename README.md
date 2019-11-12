@@ -1,4 +1,4 @@
-## OpenShift 4.4 Designs
+## OpenShift 4.4+ Designs
 Access design documentation for features slotted in the 4.4 release of OpenShift. Click links below for specific section details.
 
 - [Bulk actions](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/bulk-actions/bulk-actions)
@@ -14,6 +14,7 @@ Access design documentation for features slotted in the 4.3 release of OpenShift
 
 - [Alertmanager config](http://openshift.github.io/openshift-origin-design/web-console/monitoring/alertmanager-config/alertmanager-config)
 - [Chargeback](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/chargeback/chargeback)
+- [Custom Catalogs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/custom-catalogs/custom-catalogs)
 
 ## OpenShift 4.2 Designs
 Access design documentation for features slotted in the 4.2 release of OpenShift. Click links below for specific section details.
@@ -45,6 +46,7 @@ Access design documentation for features slotted in the 4.2 release of OpenShift
 
 ### OpenShift Cluster Manager
 [Index of mockups for OCM](https://docs.google.com/document/d/13G1d9tvOhIz0DDt4NyuavhCUSTmPR3z1uUEQIpaVvAA/edit#)
+
 
 ## OpenShift 4.0 Designs
 Access design documentation for features slotted in the 4.0 release of OpenShift. Click links below for specific section details.
