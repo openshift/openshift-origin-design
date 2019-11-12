@@ -3,7 +3,6 @@ Access design documentation for features slotted in the 4.4 release of OpenShift
 
 - [Bulk actions](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/bulk-actions/bulk-actions)
 - [Cron Jobs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/cron-jobs/cron-jobs)
-- [Dashboards](http://openshift.github.io/openshift-origin-design/web-console/dashboards/4.3)
 - [Diagnostics](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/diagnostics/diagnostics)
 - [Favoriting](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/favoriting/favoriting)
 - [Health Checks](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/health-checks/health-checks)
@@ -16,6 +15,7 @@ Access design documentation for features slotted in the 4.3 release of OpenShift
 - [Alertmanager config](http://openshift.github.io/openshift-origin-design/web-console/monitoring/alertmanager-config/alertmanager-config)
 - [Chargeback](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/chargeback/chargeback)
 - [Custom Catalogs](http://openshift.github.io/openshift-origin-design/web-console/future-openshift/custom-catalogs/custom-catalogs)
+- [Dashboards](http://openshift.github.io/openshift-origin-design/web-console/dashboards/4.3)
 
 ## OpenShift 4.2 Designs
 Access design documentation for features slotted in the 4.2 release of OpenShift. Click links below for specific section details.
