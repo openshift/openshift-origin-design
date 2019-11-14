@@ -17,7 +17,7 @@ When no project is selected, Topology View will prompt users to select from a gi
 
 #### No Workload Exists
 When no workload exists, the topology view redirects users to the add flows to start creating new workloads to be shown on the topology canvas.
-![Topology View](img/no_project_exists.png)
+![Topology View](img/no_workload_exists.png)
 
 ### Application selector
 Users could choose to select either one of the applications or all the applications from the application selector.
@@ -26,9 +26,10 @@ Users could choose to select either one of the applications or all the applicati
 
 
 ### 1. Navigation item:
+'Topology' under the Developer perspective of OpenShift.
 
 ### 2. Masthead
-The masthead in topology view includes the project and application selector
+The masthead in topology view includes the project and application selector.
 
 ### 3. Topology Canvas
 This is the area where the workloads are visually placed in the Topology view.
@@ -41,24 +42,27 @@ Fit to Screen
 Reset View
 
 ### 5. Side Panel
-On selecting any workload, connectors or application group on Topology View, their respective details appear on a sliding panel on the right hand side.
+On selecting any workload, connectors or application group on Topology View, their respective details appear on a side panel on the right hand side.
 
 ### 6. Nodes
 ![Node design](img/node_design.png)
 
-Resources of type Deployments, Deployment Configs & xxx are shown as circle nodes in the topology view.
+Resources of type Deployments, Deployment Configs & Image Streams & Stateful Sets are shown as circle nodes in the topology view.
 
-The circle node includes a pod status indicator, an image, 4 decorators and a node label
+The circle node can include a pod status indicator, an image,  decorators and a node label
+
+
+
+#### Pod Donut
+
+![Pod Status](img/pod_status.png)
+
+The pod donut represents the current status of the pods associated with the workload. If there are pods with different statuses, the pod donut is broken up into segments representing the status of the pods.
 
 The pod donut is segmented by status. Between each segment there’s a space of 3px.
 
 The name label contains a badge before the name, that denotes the type of resource.
 
-
-#### Pod Status Indicator
-On hovering over the pod donut, the information for that particular segment appears in an info tip.
-
-![Pod Status](img/pod_status.png)
 
 
 #### Node Image
@@ -67,8 +71,7 @@ The node image consists of the build image for the resource.
 #### Decorators
 
 ##### Route Decorator
-The route decorator is located on the top right quadrant of the node.
-Go To External Link
+Clicking on the decorator opens the application in a new browser tab.
 
 ##### Code Decorator
 The code decorator is located on the bottom right quadrant of the node.
@@ -83,12 +86,12 @@ If not, determine	the git client associated and use that icon
 
 
 ##### Build Decorator
-The build decorator in the topology view is located in the bottom left of the node.  The decorator has six options: new, pending, running, completed, failed, and cancelled. When the decorator is hovered on, the status of the build will appear.  When the decorator is clicked, the user will be taken to the overview tab of the “Builds” details page.
+The build decorator in the topology view is located in the bottom left of the node.  The decorator has six options: new, pending, running, completed, failed, and cancelled. When the decorator is hovered on, the status of the build will appear. The build decorator provides a one click action to view the build logs.
 
 ![Pod Status](img/build_status.png)
 
 ##### Pipeline Decorator
-The pipeline decorator in the topology view is located in the bottom left of the node.  The decorator has four options: running, completed, failed, and pending.  When the decorator is hovered on, the status of the pipeline will appear.  When the decorator is clicked, the user will be taken to the “PipelineRun” details page.
+The pipeline decorator in the topology view is located in the bottom left of the node.  The decorator has four options: running, completed, failed, and pending.  When the decorator is hovered on, the status of the pipeline will appear. The pipeline decorator provides a one click action to view the pipeline run logs.
 
 ![Pod Status](img/pipeline_status.png)
 
@@ -172,7 +175,7 @@ Delete using action menu on the side panel
 On selecting a node, the side panel appears with information about the node. The actions dropdown on the side panel include node specific actions.
 
 
-![Delete Component](img/application_editgrouping_menu.png)
+![Delete Component](img/delete_component.png)
 Select Delete Component
 Or, hit ‘Delete’ key after selection.
 
@@ -267,12 +270,3 @@ When user hovers over or selects a connection, delete button appears.
 ![Hover on arrowhead](img/connection_delete.png)
 
 On clicking the icon, a delete confirmation is displayed. Or, select the connector and hit ‘Delete’ key.
-
-
-
-
-
-
-
-## Note
-Links to google documents are temporary until the documentation is converted to markdown files and added to this design repository.
