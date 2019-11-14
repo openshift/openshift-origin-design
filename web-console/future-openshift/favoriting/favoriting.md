@@ -1,4 +1,4 @@
-# Pinning
+# Favoriting
 
 ## Projects list
 ![1](img/projects1.png)
