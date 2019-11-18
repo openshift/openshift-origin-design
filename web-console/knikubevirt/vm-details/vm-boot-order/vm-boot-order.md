@@ -62,3 +62,18 @@ The user moves that item with up/down arrow (the screen reader reads the potenti
 
 ![screen-reader - drop item list](img/C1-3-3.jpg)
 The user drops that item on the selected spot
+
+
+## Spec
+
+![Spec-inpage](img/Spec-inpage-01.jpg)
+
+![Spec-Modal-empty-state](img/Spec-Modal-empty-state-01.jpg)
+
+![Spec-Modal-list](img/Spec-Modal-list-01.jpg)
+
+![Spec-Modal-drag&drop](img/Spec-Modal-drag&drop 01.jpg)
+
+
+
+
