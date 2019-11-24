@@ -27,14 +27,14 @@ Within the Pod details > overview tab > overview section, a click on the ‘Devi
 ![Devices & resources modal - default](img/Pod-3-0.png)
 This modal will display a CPU and Memory request, followed by a ‘policy’ field which offers the user a toggle between setting CPU and Memory limit, or workload isolation.
 
-![Devices & resources modal - workload isolation](img/pod-3-1.png)
+![Devices & resources modal - workload isolation](img/Pod-3-1.png)
 Selecting the workload isolation option will hide the Limit fields.
 
-![Devices & resources modal - 'limit' provided options](img/pod-3-2.png)
+![Devices & resources modal - 'limit' provided options](img/Pod-3-2.png)
 The limit dropdowns offer values that are higher than the request. 
 
-![Devices & resources modal - 'limit' error message](img/pod-3-3.png)
+![Devices & resources modal - 'limit' error message](img/Pod-3-3.png)
 In case the user enters the ‘Limit’ values first and enters higher ‘Request’ values later, the modal will provide an error message for the limit fields.
 
-![pod details - Overview tab - edited](img/pod-4-0.jpg)
+![pod details - Overview tab - edited](img/Pod-4-0.jpg)
 Back to the pod page, the field will reflect the settings on the modal.
