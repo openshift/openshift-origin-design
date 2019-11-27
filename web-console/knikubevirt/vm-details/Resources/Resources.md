@@ -17,7 +17,7 @@ The user selects ‘Isolate this workload…’ checkbox.
 The preview on the ‘Devices & resources’ us updated to reflect the changes.
 
 ## From VM creation wizard
-![Create VM - Advanced - Virtual hardware](img/Create-VM-4-2-00.jpg)
+![Create VM - Advanced - Virtual hardware](img/Create-VM-4-2-00.png)
 Under ‘Create VM > Advanced step > Virtual hardware, the user can now enable workload isolation. New section titles are added to separate from the Guest agent section and the Devices & resources section.
 
 ## From pod details page
