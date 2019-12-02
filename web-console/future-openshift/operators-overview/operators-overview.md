@@ -15,4 +15,3 @@ This documentation details how operators will be surfaced on the Status page. Ra
 ![image](img/sidepanel.png)
 * The side panel will have one tab: Overview.
 * Users can view the CRs resources by clicking the “View resources” link in the main list view or the operator details by clicking the “View operators details” link next to the section header.
-* Users can drill down to see more of the resource's details by clicking the resource name in the panel header.
