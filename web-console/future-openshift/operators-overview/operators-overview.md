@@ -1,6 +1,6 @@
 # Showing Operators on Overview
 
-This documentation details how operators will be surfaced on the Status page. Rather than exposing CSV objects, the status page should now expose the CRs being managed by identified CSVs in designated groups.
+This documentation details how operators will be surfaced on the Workloads tab of the Project details page. Rather than exposing CSV objects, the Workloads page should now expose the CRs being managed by identified CSVs in designated groups.
 
 ## Group by: Application
 ![image](img/groupby-application.png)
