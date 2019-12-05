@@ -62,3 +62,58 @@ The user moves that item with up/down arrow (the screen reader reads the potenti
 
 ![screen-reader - drop item list](img/C1-3-3.jpg)
 The user drops that item on the selected spot
+
+
+## Spec
+
+![Spec-inpage](img/Spec-inpage-01.jpg)
+Environment:
+- VM details page > ‘Overview’ tab > ‘Overview’ section
+
+Components:
+- List https://www.patternfly.org/v4/documentation/core/components/list#page-sidebar
+- Expandable https://www.patternfly.org/v4/documentation/core/components/expandable/#expandable-title
+- Secondary color https://www.patternfly.org/v4/design-guidelines/styles/colors
+- Title: Should be aligned with the rest of the field title on the page. These are being pulled from different sources, and not just PF4, I believe it is better to let the developer the decision if this should be a PF4 CSS or align with the majority of the CSS within that page. 
+- ‘Edit (list) will be applied for the entire list, so the edit pencil is placed next to the title (we have that)
+- Each drive specified within a list consists of the drive's name followed by the drive type within brackets.
+
+![Spec-Modal-empty-state](img/Spec-Modal-empty-state-01.jpg)
+Environment:
+- VM details page > ‘Overview’ tab > ‘Overview’ section > ‘Edit’ modal
+
+Components:
+- Empty state https://www.patternfly.org/v4/design-guidelines/usage-and-behavior/empty-state/#empty-state
+  - Secondary button https://www.patternfly.org/v4/design-guidelines/usage-and-behavior/buttons-and-links
+
+![Spec-Modal-list](img/Spec-Modal-list-01.jpg)
+Components:
+- Data list https://www.patternfly.org/v4/documentation/core/components/datalist#examples
+  - Data list item:
+  - Icon: fa-dragdrop
+  - Icon: fa-remove
+  - Font: body
+  - Divider https://www.patternfly.org/v4/documentation/core/experimental/divider
+  - Dropdown https://www.patternfly.org/v4/documentation/react/components/dropdown/#dropdown-with-initial-selection
+  - Each drive specified within a list consists of the drive's name followed by the drive type within brackets.
+- Button: link
+  - Icon: fa-plus-circle
+
+![Spec-Modal-drag&drop](img/Spec-Modal-drag&drop 01.jpg)
+Location:
+- VM details page > ‘Overview’ tab > ‘Overview’ section > ‘Edit’ modal
+
+Note:
+In general, I rather have to implement the same Drag & Drop behavior we have on PF3. Found on DeploymentConfig > Environments tab
+
+Components:
+- “Popover” container with the same drop-shadow CSS Custom
+- Exit slot: 
+  - Background: Color: link (--pf-global--link--Color) opacity:10% Custom
+  - Border: Divider (class="pf-c-divider"), Dash: 10px,10px  Custom
+- Entry slot:
+  - Background: Color: text dark (--pf-global--Color--100) opacity:10% Custom
+  - Border: Divider (class="pf-c-divider"), Dash: 10px,10px  Custom
+
+
+
