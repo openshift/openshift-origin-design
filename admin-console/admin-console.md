@@ -15,7 +15,7 @@ Access design documentation for features slotted in the 4.3 release of OpenShift
 - [Alertmanager config](http://openshift.github.io/openshift-origin-design/admin-console/monitoring/alertmanager-config/alertmanager-config)
 - [Chargeback](http://openshift.github.io/openshift-origin-design/future-openshift/admin-console/chargeback/chargeback)
 - [Custom Catalogs](http://openshift.github.io/openshift-origin-design/admin-console/future-openshift/custom-catalogs/custom-catalogs)
-- [Dashboards](http://openshift.github.io/openshift-origin-design/admin-console/dashboards/4.3)
+- [Dashboards](http://openshift.github.io/openshift-origin-design/admin-console/dashboards/4.3/4.3-dashboards)
 
 ## OpenShift 4.2 Designs
 Access design documentation for features slotted in the 4.2 release of OpenShift. Click links below for specific section details.
