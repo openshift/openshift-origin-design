@@ -13,15 +13,16 @@ Access design documentation for features slotted in the 4.4 release of OpenShift
 Access design documentation for features slotted in the 4.3 release of OpenShift. Click links below for specific section details.
 
 - [Alertmanager config](http://openshift.github.io/openshift-origin-design/admin-perspective/monitoring/alertmanager-config/alertmanager-config)
-- [Chargeback](http://openshift.github.io/openshift-origin-design/future-openshift/admin-perspective/chargeback/chargeback)
+- [Chargeback](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/chargeback/chargeback)
 - [Custom Catalogs](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/custom-catalogs/custom-catalogs)
 - [Dashboards](http://openshift.github.io/openshift-origin-design/admin-perspective/dashboards/4.3/4.3-dashboards)
 
 ## OpenShift 4.2 Designs
 Access design documentation for features slotted in the 4.2 release of OpenShift. Click links below for specific section details.
 
-- [API Explorer](http://openshift.github.io/openshift-origin-design/future-openshift/admin-perspective/api-explorer/api-explorer)
+- [API Explorer](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/api-explorer/api-explorer)
 - [Command Line Tools](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/command-line-tools/command-line-tools)
+- [Cluster Overview Dashboard](http://openshift.github.io/openshift-origin-design/admin-perspective/dashboards/cluster-dashboard/cluster-dashboard)
 - [Console Customizations](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/console-customizations/console-customizations)
 - [Contextual Help](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/contextual-help/contextual-help)
 - [Dashboards and Projects](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/dashboards/dashboards)
