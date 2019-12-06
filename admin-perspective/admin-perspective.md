@@ -21,8 +21,8 @@ Access design documentation for features slotted in the 4.3 release of OpenShift
 Access design documentation for features slotted in the 4.2 release of OpenShift. Click links below for specific section details.
 
 - [API Explorer](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/api-explorer/api-explorer)
-- [Command Line Tools](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/command-line-tools/command-line-tools)
 - [Cluster Overview Dashboard](http://openshift.github.io/openshift-origin-design/admin-perspective/dashboards/cluster-dashboard/cluster-dashboard)
+- [Command Line Tools](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/command-line-tools/command-line-tools)
 - [Console Customizations](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/console-customizations/console-customizations)
 - [Contextual Help](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/contextual-help/contextual-help)
 - [Dashboards and Projects](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/dashboards/dashboards)
