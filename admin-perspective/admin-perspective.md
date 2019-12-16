@@ -6,6 +6,7 @@ Access design documentation for features slotted in the 4.4 release of OpenShift
 - [Diagnostics](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/diagnostics/diagnostics)
 - [Favoriting](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/favoriting/favoriting)
 - [Health Checks](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/health-checks/health-checks)
+- [Operator-defined Namespace](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/install-forcenamespace/install-forcenamespace)
 - [Search page](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/search/search)
 - [Toolbars](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/toolbars/toolbars)
 
