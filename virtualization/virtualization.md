@@ -2,14 +2,6 @@
 
 Access design documentation specific to virtualization (kubevirt) features in OpenShift.
 
-- [Cluster Overview Dashboard](http://openshift.github.io/openshift-origin-design/virtualization/cluster-dashboard/cluster-dashboard)
-
-<!-- ### KNI (Kubernetes Native Infrastructure/OpenShift on Bare Metal)
-
-- Add Bare Metal Host
-- Remove Bare Metal Host
-- Update Bare Metal Cluster -->
-
 ## Creating a Virtual Machine
 - [Step 1 - General](http://openshift.github.io/openshift-origin-design/virtualization/Create-vm/step-1-genaral/wizard-general)
 - [Step 2 - Networking](http://openshift.github.io/openshift-origin-design/virtualization/Create-vm/step-2-networking/create-vm-networking)
@@ -25,6 +17,10 @@ Access design documentation specific to virtualization (kubevirt) features in Op
 - [Viewing/editing VM Details](http://openshift.github.io/openshift-origin-design/virtualization/vm-details/vm-details)
 	- [Editing VM's boot order](http://openshift.github.io/openshift-origin-design/virtualization/vm-details/vm-boot-order/vm-boot-order)
 - [Virtual Machines in Project Overview](http://openshift.github.io/openshift-origin-design/virtualization/openshift-vms-overview/openshift-vms-overview)
+- [VM List](http://openshift.github.io/openshift-origin-design/virtualization/vm-list/vm-list)
+
+## Virtual Machine Templates
+- [VM Templates](http://openshift.github.io/openshift-origin-design/virtualization/vm-templates/vm-templates)
 
 ## Storage
 - [Default storage class not defined](http://openshift.github.io/openshift-origin-design/virtualization/NoStorageClassAvailable/NoStorageClassAvailable)
@@ -40,9 +36,6 @@ Access design documentation specific to virtualization (kubevirt) features in Op
 ## Migrate Virtual Machine
 - [Migrate VM](http://openshift.github.io/openshift-origin-design/virtualization/migrate-vm/migrate-vm)
 
-## Storage Dashboard
-- [VM List](http://openshift.github.io/openshift-origin-design/virtualization/vm-list/vm-list)
-- [VM Templates](http://openshift.github.io/openshift-origin-design/virtualization/vm-templates/vm-templates)
 
 ## Scheduling
 - [Affinity Rules](http://openshift.github.io/openshift-origin-design/virtualization/affinity/affinity)
