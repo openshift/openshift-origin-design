@@ -1,16 +1,43 @@
 # Operator-defined Namespace
 
-Operator bundles can define what namespace they should be installed to, so the user should be prevented from changing the target namespace.
+Operator bundles can define what namespace they should be installed to, so that namespace is recommended to the user. The user can still change the installation namespace if desired.
 
-## When namespace exists
+The installed namespace is always conveyed to the user for understanding of the underlying behavior.
 
-![Operator install force namespace](img/1-1-forcenamespace.png)
-- When an operator requires installation on a specific namespace, options to change selection for installation mode and namespace are disabled.
+## No operator-defined namespace (existing behavior)
 
-![Operator install force namespace monitor](img/1-2-forcenamespace-monitoring.png)
-- If monitoring is not enabled on the namespace, and it is something the operator recommends, then the option for enabling monitoring is exposed. It would be ideal if only Red Hat operators have the ability to enable monitoring through this workflow.
+![Operator namespace not defined all](img/1-1-notarget-all.png)
+- Namespace selection is read-only and fixed to openshift-operators.
 
-## When namespace does not exist
+![Operator namespace not defined single](img/1-2-notarget-single.png)
+- All operators are available for installation.
 
-![Operator install force namespace create](img/1-3-forcenamespace-createnamespace.png)
-- When a namespace doesn’t yet exist, but the operator requires being installed on a specific namespace, the creation of the namespace is facilitated through this workflow – the users are informed that creating this subscription will create the namespace. The options for enabling monitoring are shown if the operator recommends it. It would be ideal if only Red Hat operators have the ability to create namespaces and enable monitoring through this workflow.
+## Operator-defined namespace - already exists
+
+![Operator namespace defined all](img/2-1-targetExists-all.png)
+- Namespace selection defaults to operator-defined namespace with option to change to openshift-operators.
+
+![Operator namespace defined single](img/2-2-targetExists-single.png)
+- Namespace selection defaults to operator-defined namespace with option to change to any other namespace.
+
+## Operator-defined namespace - does not exist
+
+![Operator namespace not created all](img/3-1-targetNotExist-all.png)
+- Namespace selection defaults to operator-defined namespace with option to change to openshift-operators.
+- When the not yet created operator-defined namespace is selected, the user is alerted that the namespace will be created.
+
+![Operator namespace not created single](img/3-2-targetNotExist-single.png)
+- Namespace selection defaults to operator-defined namespace with option to change to any other namespace
+- When the not yet created operator-defined namespace is selected, the user is alerted that the namespace will be created.
+
+## Operator-defined namespace - does not exist, monitoring recommended
+
+![Operator namespace not created monitor all](img/4-1-targetNotExistMonitor-all.png)
+- Namespace selection defaults to operator-defined namespace with option to change to openshift-operators.
+- When the not yet created operator-defined namespace is selected, the user is alerted that the namespace will be created.
+- Checkbox toggle is presented to enable monitoring on newly created namespace (selected by default.)
+
+![Operator namespace not created monitor single](img/4-2-targetNotExistMonitor-single.png)
+- Namespace selection defaults to operator-defined namespace with option to change to any other namespace
+- When the not yet created operator-defined namespace is selected, the user is alerted that the namespace will be created.
+- Checkbox toggle is presented to enable monitoring on newly created namespace (selected by default.)
