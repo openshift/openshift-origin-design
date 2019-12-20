@@ -10,7 +10,7 @@ The installed namespace is always conveyed to the user for understanding of the 
 - Namespace selection is read-only and fixed to openshift-operators.
 
 ![Operator namespace not defined single](img/1-2-notarget-single.png)
-- All operators are available for installation.
+- All namespaces are available for installation.
 
 ## Operator-defined namespace - already exists
 
