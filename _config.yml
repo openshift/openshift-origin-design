@@ -1,2 +1,19 @@
-theme: jekyll-theme-slate
-baseurl: /openshift-origin-design
+title: OpenShift Design
+baseurl: "/openshift-origin-design/"
+# permalink: /:title
+remote_theme: "pmarsceill/just-the-docs@v0.2.7"
+# defaults:
+#   -
+#     scope:
+#       path: "designs"
+#     values:
+#       permalink: /:title
+aux_links:
+  "GitHub repo":
+    - "//github.com/openshift/openshift-origin-design"
+# Footer metadata
+show_last_edit_time: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
+show_gh_edit_link: true
+gh_edit_repository: "https://github.com/openshift/openshift-origin-design"
+edit_link_text: "Edit this page on GitHub."
