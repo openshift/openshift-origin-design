@@ -24,11 +24,11 @@ We had finalized into this option and will show 2 parallel columns in the VMs li
 
 Trying to educate users about VMIs, we will provide hints, whenever it is appropriate.
 In most usual cases, the instance name link will take the user directly to the instance page (VM/VMI).
-When a VMI is missing an owner VM, clicking the 'No VM' or the 'No VM instance' will provide the user with a popover explanation for the reason it is missing and a link to the details page.
+When a VMI is missing an owner VM, clicking the 'No VM' or the 'No VM instance' will provide the user with a popover explanation that this VM instance is not managed by a VM resource and a link to view further details.
 
 ![VMI is in an off status](img/Op1_Hint1.png)
 
-If a VMI is in an off status, the user will also be notified about that via a popover.
+If a VMI is in an off status, the user will also be notified about that via a popover that will provide a link to its owner VM.
 
 ![Missing VMI](img/Op1_PopoverMessageMissingVMI.png)
 
