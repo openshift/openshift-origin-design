@@ -42,6 +42,12 @@ The VMI's details page will provide a hint with a general explanation about what
 In the VMI’s details page, the owner VM will be represented with a link, so users can click and get there and vice versa.
 The term ‘Owner’ will be furthered explained in a popover.
 
+## Add a link to the VMI from the VM details page
+
+In order to let the user get to the VMI even when there is a VM around it, we added a link in the VM details page.
+
+![VMI's details page](img/Op1_VM_DetailsPageW_LinkToVMI.png)
+
 ## Actions available for the VMI
 
 ![VMI's available actions](img/Op1Actions.png)
