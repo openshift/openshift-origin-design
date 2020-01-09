@@ -18,35 +18,40 @@ We want to allow this to be surfaced in the UI and live side by side in a way th
 
 ## Mockups
 
-We had finalized into this option and will show 2 parallel columns in the VMs list page, one for each: VMs beside VMIs.
+In order to avoid duplication and unclutter the UI, We had finalized into an option that presents  VMs and VMIs in a single list view.
+We don't surface VMIs in the list if they are owned by a VM.
 
-![list of VMIs beside VMs](img/VMsListW_VMIsOp1.png)
+VMIs and VMS will be distinguished between different color badges. VMI badges color will be bolder than VMs badges color, for accessibility reasons (#002F5D).
+
+![single list view of VMs and VMIs ](img/VMsListW_VMIsOp2.png)
+
+## Hints
 
 Trying to educate users about VMIs, we will provide hints, whenever it is appropriate.
 In most usual cases, the instance name link will take the user directly to the instance page (VM/VMI).
-When a VMI is missing an owner VM, clicking the 'No VM' or the 'No VM instance' will provide the user with a popover explanation that this VM instance is not managed by a VM resource and a link to view further details.
 
-![VMI is in an off status](img/Op1_Hint1.png)
-
-If a VMI is in an off status, the user will also be notified about that via a popover that will provide a link to its owner VM.
-
-![Missing VMI](img/Op1_PopoverMessageMissingVMI.png)
+![showing hint pattern to help educate users about VMIs](img/Op2_Hint.png)
 
 ## VMI's details view
 
-VMI's details page should be similar to the VM’s details page and act in a complementary manner.
+VMI and VM in the list view will lead to the VM and VMI details page.
+The details page link from VMI to VM (or note that there is no managing entity=owner) and from VM to VMI (or note that there is no VMI).
+
+VMI's details page is similar to the VM’s details page and acts in a complementary manner.
+
 The VMI's details page will provide a hint with a general explanation about what are VMIs and also allow drill down to further details.
 
 ![VMI's details page](img/Op1_VMI_DetailsViewPlusHint.png)
 
 In the VMI’s details page, the owner VM will be represented with a link, so users can click and get there and vice versa.
-The term ‘Owner’ will be furthered explained in a popover.
+The term ‘Owner’ will be further explained in a popover.
+We chose to use the term ‘Owner’ to align with the current phrasing along the console.
 
-## Add a link to the VMI from the VM details page
+## Adding a link to the VMI from the VM details page
 
 In order to let the user get to the VMI even when there is a VM around it, we added a link in the VM details page.
 
-![VMI's details page](img/Op1_VM_DetailsPageW_LinkToVMI.png)
+![VMI's details page showing link to its VMI](img/VM_DetailsPageW_LinkToVMI.png)
 
 ## Actions available for the VMI
 
