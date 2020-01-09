@@ -317,5 +317,6 @@ When user hovers over or selects a connection, delete button appears.
 
 On clicking the icon, a delete confirmation is displayed. Or, select the connector and hit ‘Delete’ key.  
 &nbsp;
-=======
+
+
 [Topology is enhanced when the OpenShift Serverless operator is installed](http://openshift.github.io/openshift-origin-design/web-console/developer/topology/topology-serverless/topology-serverless)
