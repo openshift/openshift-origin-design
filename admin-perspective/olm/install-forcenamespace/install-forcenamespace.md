@@ -1,53 +1,85 @@
 # Operator-defined Installation Namespace
 
-Operator bundles can define what namespace they should be installed to, so that namespace is recommended to the user. The user can still change the installation namespace if desired.
+Operator bundles can define what namespace they should be installed to, so that namespace is recommended as the default to the user. The user can still change the installation namespace if desired.
 
-The installed namespace is always conveyed to the user for understanding of the underlying behavior.
+This design is now surfacing both the watch (availability) namespace and the install namespaces to the user. The installed namespace is initially read-only and defaults to **openshift-operators** when the availability namespace is **all namespaces**, and defaults to the **value from watch namespace dropdown** when the availability namespace is **single** & has a namespace selected. The user has the option to expand the advanced settings to modify installation namespace if desired (and the operator allows.)
 
-## No operator-defined namespace (existing behavior)
+This design is not intended to convey every combination of controls that is possible via operator InstallModes, that information is available via [this spreadsheet](https://docs.google.com/spreadsheets/d/19J7IEjORg4-U6nQEwQkxPwe3SJazgpobN2HFKE2rFcc/edit?folder=1y5NhdQNm8b-NeX1I0uN6PHQzhp_NJPh0#gid=0). Controls in this design will be enabled/disabled/hidden as described in the spreadsheet and as conveyed in the screens below and the existing UI’s paradigms. This design is intended to show the location of controls and the interactions between them.
 
-![Operator namespace not defined all](img/1-1-notarget-all.png)
-- Namespace selection is read-only and fixed to openshift-operators.
+This design also captures the ability to enable cluster monitoring on namespaces that are installed to and the operator requests it. This setting applies to only certain whitelisted namespaces, and the user should be warned of the implications of doing so. Operators can request monitoring be enabled on their install namespace but we will also present this option 
 
-![Operator namespace not defined single](img/1-2-notarget-single.png)
-- All namespaces are available for installation.
+## Installing with no operator-defined namespace (existing behavior)
 
-## Operator-defined namespace - already exists
+![Operator namespace not defined all](img/1-1-noDefinedNS-all.png)
+- Installing an operator without a operator-defined namespace functions the same as the existing UI, though now the install namespace is conveyed.
+- Operators available to the entire cluster are installed on **openshift-operators** and is not editable.
 
-![Operator namespace defined all](img/2-1-targetExists-all.png)
-- Namespace selection defaults to operator-defined namespace with option to change to openshift-operators.
+![Operator namespace not defined single](img/1-2-noDefinedNS-single.png)
+-A specific namespace may be chosen for the operator to be available to (and installed to.)
 
-![Operator namespace defined single](img/2-2-targetExists-single.png)
-- Namespace selection defaults to operator-defined namespace with option to change to any other namespace.
+![Operator namespace not defined single](img/1-3-noDefinedNS-single.png)
+-The install namespace will match the specific namespace the operator is available to, until the install namespace is manually changed.
 
-## Operator-defined namespace - does not exist
+![Operator namespace not defined single](img/1-4-noDefinedNS-single.png)
+- The user can **Show Advanced Installed Namespace Options** to modify the namespace the operator is installed to.
 
-![Operator namespace not created all](img/3-1-targetNotExist-all.png)
-- Namespace selection defaults to operator-defined namespace with option to change to openshift-operators.
-- When the not yet created operator-defined namespace is selected, the user is alerted that the namespace will be created.
+![Operator namespace not defined single](img/1-5-noDefinedNS-single.png)
+- The user manually sets an alternative namespace to install to.
 
-![Operator namespace not created single](img/3-2-targetNotExist-single.png)
-- Namespace selection defaults to operator-defined namespace with option to change to any other namespace
-- When the not yet created operator-defined namespace is selected, the user is alerted that the namespace will be created.
+![Operator namespace not defined single](img/1-6-noDefinedNS-single.png)
+- If the **Advanced Options** are hidden, the newly selected namespace is shown. The **Advanced Options** are applied to the installed operator whether they are hidden or shown at the time of clicking **Install**.
 
-## Operator-defined namespace - does not exist, monitoring recommended
+![Operator namespace not defined single](img/1-7-noDefinedNS-single.png)
+- Changing the availability namespace no longer has any affect on the install namespace, as it has been manually changed.
 
-![Operator namespace not created monitor all](img/4-1-targetNotExistMonitor-all.png)
-- Namespace selection defaults to operator-defined namespace with option to change to openshift-operators.
-- When the not yet created operator-defined namespace is selected, the user is alerted that the namespace will be created.
-- Checkbox toggle is presented to enable monitoring on newly created namespace (deselected by default.) User is given additional information about monitioring via help text.
+## Installing with an operator-defined namespace
 
-![Operator namespace not created monitor single](img/4-2-targetNotExistMonitor-single.png)
-- Namespace selection defaults to operator-defined namespace with option to change to any other namespace
-- When the not yet created operator-defined namespace is selected, the user is alerted that the namespace will be created.
-- Checkbox toggle is presented to enable monitoring on newly created namespace (deselected by default.) User is given additional information about monitioring via help text.
+![Operator namespace defined all](img/2-1-definedNS-all.png)
+- When an operator-defined installation namespace exists, that namespace will be the default install namespace for the operator.
+- The operator-defined namespace can be used for **all namespace** availability, or **specific namespace** availability, as the operator's InstallModes allow.
+- If the user viewed the **Advanced Installed Namespace Options** while **all namespaces** was selected, the only other namespace available for selection besides the operator-defined namespace would be **openshift-operators**.
 
-## Operator-defined namespace - selecting other namespace
+![Operator namespace defined single](img/2-2-definedNS-single.png)
+- The availability of this operator is changed to **specific namespace** and the operator-defined namespace is used as the default.
+- Changing the availability namespace in this case would not affect the install namespace as it is the operator-defined namespace. The only way the install namespace would be changed is if the user manually changes it.
 
-![Operator namespace other all](img/5-1-otherNamespace-all.png)
-- User can choose to not user operator-definend namespace
-- Global option only otherwise allows openshift-operators namespace selection
+![Operator namespace defined single](img/2-3-definedNS-single.png)
+- The user expands the **Advanced Installed Namespace Options** and can select a different namespace other than the operator-defined.
 
-![Operator namespace other all](img/5-2-otherNamespace-single.png)
-- User can choose to not user operator-definend namespace
-- User can choose from all namespaces
+![Operator namespace defined single](img/2-4-definedNS-single.png)
+- The user selects another install namespace.
+
+![Operator namespace defined single](img/2-5-definedNS-single.png)
+- This operator will now be installed in namespace **abc** and available to namespace **desiredNamespace**.
+
+## When an operator-defined namespace doesn’t exist
+
+![Operator namespace defined doesn't exist all](img/3-1-definedNSCreate-all.png)
+- When an operator-defined namespace doesn't exist, the user is notified via an inline alert that it will be created when the operator is installed.
+- The **Show/Hide Advanced Installed Namespace Options** controls would not appear in this case so that the user is always aware of the additional alert.
+
+![Operator namespace defined doesn't exist single](img/3-2-definedNSCreate-single.png)
+- **Specific namespace** option is also supported.
+
+## Enabling cluster monitoring on a namespace
+
+![Operator namespace defined monitor all](img/4-1-definedNSMonitor-all.png)
+- Operators can also request cluster monitoring be enabled on the namespaces they are installed on.
+- This operator has a defined namespace of **openshift-desiredNamespace** and is requesting cluster monitoring be enabled on it.
+- The **Show/Hide Advanced Installed Namespace Options** controls would not appear in this case so that the user is always aware of the additional option.
+
+![Operator namespace defined monitor single](img/4-2-definedNSMonitor-single.png)
+- **Specific namespace** option is also supported.
+
+![Operator namespace defined monitor single](img/4-3-definedNSMonitor-single.png)
+- Cluster monitoring can only be enabled on certain namespaces. If a not supported install namespace is selected, the option is disabled.
+- Supported namespaces include: openshift-* (excluding operators), kube-*, default, logging
+
+![Operator namespace defined monitor single](img/4-4-definedNSMonitor-single.png)
+- The selected namespace is not supported so the monitoring checkbox is not enabled.
+
+![Operator namespace defined monitor single](img/4-5-definedNSMonitor-single.png)
+- The selected install namespace is changed to a supported namespace and the user is able to enable cluster monitoring on it.
+
+![Operator namespace defined doesn't exist monitor single](img/5-1-definedNSCreateMonitor-single.png)
+- Monitoring can be enabled on supported namespaces that are not yet created, as well.
