@@ -52,12 +52,12 @@ function insertResults(results) {
     resultsRegion.insertAdjacentHTML('afterend', '<p>The page could not be found.</p>');
   } else if (Object.keys(results).length == 1) {
     if (results[0]["slug"] == currentSlug) {
-      resultsRegion.insertAdjacentHTML('beforebegin', "<p>This page's URL has changed. Redirecting in 5 seconds...</p>");
+      resultsRegion.insertAdjacentHTML('beforebegin', "<p>This page's URL has changed. Redirecting in 3 seconds...</p>");
       var resultHTML = '<a class="search-result" href="' + results[0]["url"] + '"><div class="search-result-title">' + results[0]["title"] + '<span class="search-result-rel-url"><span class="version">' + results[0]["version"] + '</span><span>' + results[0]["parent"] + '</span></span></div></a>';
       resultsRegion.insertAdjacentHTML('afterend', resultHTML);
       setTimeout(function(){
         window.location.href = results[0]["url"];
-      }, 5000);
+      }, 3000);
     } else {
       resultsRegion.insertAdjacentHTML('beforebegin', '<p>Were you looking for this page?</p>');
       var resultHTML = '<a class="search-result" href="' + results[0]["url"] + '"><div class="search-result-title">' + results[0]["title"] + '<span class="search-result-rel-url"><span class="version">' + results[0]["version"] + '</span><span>' + results[0]["parent"] + '</span></span></div></a>';
