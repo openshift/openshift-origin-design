@@ -12,7 +12,7 @@ remote_theme: "pmarsceill/just-the-docs@v0.2.7"
 aux_links:
   "GitHub repo":
     - "//github.com/openshift/openshift-origin-design"
-footer_content: "Designed the <a href=\"https://www.redhat.com/en/about/open-source\">open source way</a>. <a href=\"https://github.com/openshift/openshift-origin-design/blob/master/LICENSE\">Apache License 2.0.</a>"
+footer_content: "<a href=\"https://www.redhat.com/en/about/open-source\">Open Source</a> - <a href=\"https://github.com/openshift/openshift-origin-design/blob/master/LICENSE\">Apache License 2.0</a>"
 # Footer metadata
 show_last_edit_time: true
 last_edit_time_format: "%b %e %Y at %I:%M %p"

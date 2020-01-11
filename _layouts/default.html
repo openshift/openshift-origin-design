@@ -25,7 +25,7 @@ layout: table_wrappers
         {% include nav.html %}
       </div>
       <footer class="site-footer">
-        <p class="text-small text-grey-dk-000 mb-4">Built with <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a> & <a href="https://photoswipe.com/">PhotoSwipe</a></p>
+        <p class="text-small text-grey-dk-000 mb-0">{{ site.footer_content }}</p>
         <p class="text-small text-grey-dk-000 mb-4">Generated {{ site.time | date: "%Y-%m-%d %H:%M"}}</p>
         {% if site.show_last_edit_time and site.last_edit_time_format and page.last_modified_date %}
           <p class="text-small text-grey-dk-000 mb-0">
@@ -151,17 +151,6 @@ layout: table_wrappers
                   {% endfor %}
                 </ul>
             {% endfor %}
-          {% endif %}
-
-          {% if site.footer_content != nil or site.show_last_edit_time or site.show_gh_edit_link %}
-            <footer role="contentinfo">
-              {% if site.show_last_edit_time and site.last_edit_time_format and page.last_modified_date %}
-                <p class="text-small text-grey-dk-000 mb-0">Page last modified: {{ page.last_modified_date | date: site.last_edit_time_format }}.</p>
-              {% endif %}
-              {% if site.footer_content != nil %}
-                <p class="text-small text-grey-dk-000 mb-0">{{ site.footer_content }}</p>
-              {% endif %}
-            </footer>
           {% endif %}
 
         </div>
