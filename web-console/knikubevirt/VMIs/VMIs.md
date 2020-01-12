@@ -31,12 +31,11 @@ The details page link from VMI to VM (or note that there is no managing entity=o
 
 VMI's details page is similar to the VM’s details page and acts in a complementary manner.
 
-The VMI's details page will provide a hint with a general explanation about what are VMIs and also allow drill down to further details.
+The VMI's details page will provide a hint with a general explanation about what VMIs are as well as allow drill down to further details.
 
 ![VMI's details page](img/Op1_VMI_DetailsViewPlusHint.png)
 
 In the VMI’s details page, the owner VM will be represented with a link, so users can click and get there and vice versa.
-The term ‘Owner’ will be further explained in a popover.
 
 ## Adding a link to the VMI from the VM details page
 
