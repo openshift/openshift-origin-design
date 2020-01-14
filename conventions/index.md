@@ -1,5 +1,5 @@
 ---
-nav_label: Patterns
+nav_label: Conventions
 has_children: true
 nav_order: 4
 ---

@@ -1,5 +1,5 @@
 ---
-parent: Patterns
+parent: Conventions
 ---
 
 # PatternFly and OpenShift

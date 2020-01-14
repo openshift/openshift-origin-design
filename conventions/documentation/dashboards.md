@@ -1,5 +1,5 @@
 ---
-parent: Patterns
+parent: Conventions
 version: 4.2
 ---
 
