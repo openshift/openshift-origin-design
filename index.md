@@ -8,24 +8,24 @@ nav_order: 1
 
 ![Banner](assets/images/banner.png)
 
-This site includes design documentation and patterns for the OpenShift Web Console.
+This site includes [designs](/designs), [conventions](/conventions), and [research](/research) related to the OpenShift Container Platform ecosystem. Most of this site is created and maintained by the [Red Hat User Experience Design team](https://www.redhat.com/en/about/product-design), but we welcome external contributions and suggestions.
 
-## How to contribute
-
-File issues or submit pull requests in the [OpenShift Design repository](http://github.com/openshift/openshift-origin-design).
-
-We've created a [Getting Started guide](https://docs.google.com/document/d/1nUY6HjPZ9vLj3Kr4C-FAa-NXgsoHBJOsfE4Wa4KUYl0/edit#heading=h.40qm5r8j6uoz) geared toward Red Hat designers who are new to GitHub.
-
-## Helpful tools
+## Resources
 
 ### For GitHub
 
-- [GitHub PR Image Inserter](https://andybraren.com/tools/gh-pr-image-inserter.html) bookmarklet (makes reviewing image-heavy PRs much easier)
+- Our [GitHub PR Image Inserter](https://andybraren.com/tools/gh-pr-image-inserter.html) bookmarklet makes it much easier to see the images in our pull requests. 
 
 ### For Sketch
 
-- [PatternFly Sketch library](https://sketch.cloud/s/gb1ka) 
+- [PatternFly Sketch library](https://sketch.cloud/s/gb1ka)
 - [OpenShift Sketch library](https://sketch.cloud/s/mwdww)
+
+## How to contribute
+
+File issues or submit pull requests in the [OpenShift Design GitHub repository](http://github.com/openshift/openshift-origin-design).
+
+We've created a full [Getting Started guide](https://docs.google.com/document/d/1nUY6HjPZ9vLj3Kr4C-FAa-NXgsoHBJOsfE4Wa4KUYl0/edit#heading=h.40qm5r8j6uoz) for Red Hat designers who are new to GitHub.
 
 ## Designers
 
