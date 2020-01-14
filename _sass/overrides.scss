@@ -56,6 +56,11 @@ th {
   text-align: left;
 }
 
+iframe {
+  display: block;
+  width: 100%;
+}
+
 .new-toc > ul::before {
   content: "Contents";
   font-weight: 600;
