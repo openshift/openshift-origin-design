@@ -6,6 +6,8 @@ nav_order: 1
 
 # OpenShift Design
 
+![Banner](assets/images/banner.png)
+
 This site includes design documentation and patterns for the OpenShift Web Console.
 
 ## How to contribute
