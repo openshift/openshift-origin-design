@@ -45,7 +45,7 @@ OCM | [Cameron Britt](https://github.com/ncameronbritt)
 OLM & Quay | [Peter Kreuser](https://github.com/itsptk)
 PatternFly | [Rachael Petrie](https://github.com/rachael-phillips)
 Research | [Carl Pearson](https://github.com/carljpearson)
-Research | Jingfu Tan
+Research | [Jingfu Tan](https://github.com/jingfu-tan)
 Research | [Sj Clark](https://github.com/essjaysee)
 Research | [Wes Luttrell](https://github.com/wluttrell)
 Storage | [Shiri Mordechay](https://github.com/shirimordechay)
