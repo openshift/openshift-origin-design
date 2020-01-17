@@ -80,3 +80,11 @@ This design also captures the ability to enable cluster monitoring on namespaces
 
 ![Operator namespace defined doesn't exist monitor single](img/5-1-definedNSCreateMonitor-single.png)
 - Monitoring can be enabled on supported namespaces that are not yet created, as well.
+
+## Warnings and Errors
+
+![Error desired namespace not valid](img/9-1-error-desiredGroup.png)
+- If an operator-defined install namespace has different availability already associated with it, the user will recieve an error and not be able to continue installation.
+
+![Error fixed namespace not valid](img/9-2-error-fixedGroup.png)
+- If an operator has a fixed watch and install namespace based on istall plans and the namespace has different availability already associated with it, the user will recieve an error and not be able to continue installation.
