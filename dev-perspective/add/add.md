@@ -11,16 +11,16 @@ The basic visuals and behavior of this card view is consistent with that of the 
 There are 6 Add Flows for adding an application, component or service.
 
 ### From Git
-Design documentation for the From Git scenario when creating a source secret can be found [here](https://docs.google.com/document/d/1_yJE6abBYMKiCRBH9cr3NiDh-MtQs74_tW3cmHqko-s/edit?usp=sharing)
+Design documentation for the From Git scenario when creating a source secret can be found [here](From-Git/Import-from-git.md)
 
 ### Container Image
-Design documentation for the Container Image git can be found [here](https://docs.google.com/document/d/1kqKQxw55GBt6V4jBnF8uh22A_BimcoAvr4wOMSDX-e4/edit?usp=sharing)
+Design documentation for the Container Image git can be found [here](Container-Image/Deploy-Image.md)
 
 ### From Catalog
-Design documentation for the items From Catalog can be found [here](https://docs.google.com/document/d/1BaNbcNkrqmX0c-5e9E2um282PwwUCAhntUJHg-K7LYM/edit?usp=sharing)
+Design documentation for the items From Catalog can be found [here](From-Catalog/Create-Source-to-image-application.md)
 
 ### From Dockerfile
-Design documentation for the From Dockerfile is still tbd
+Design documentation for the From Dockerfile can be found [here](From-Dockerfile/Import-from-Dockerfile.md)
 
 ### YAML
 When clicking on YAML, Add remains selected in the navigation.  The secondary masthead is shown with the selected project, and the YAML editor is displayed.
@@ -34,8 +34,12 @@ Design documentation for the Database is still tbd
 ## Common Sections to Add Flows
 Add flows have dynamic sections that are displayed when appropriate for the flow.
 
+### General
+
+
 ### Resources
-tbd
+Documentation about this section can be found [here](sections/Resources/Resources.md)
+
 
 ### Pipelines
 The Pipelines section is available when the Pipelines operator is installed. Design documentation for the Pipelines section found can be found [here](sections/pipelines/pipelines.md).
