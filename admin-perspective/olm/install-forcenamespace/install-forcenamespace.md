@@ -13,6 +13,8 @@ This design also captures the ability to enable cluster monitoring on namespaces
 ![Operator namespace not defined all](img/1-1-noDefinedNS-all.png)
 - Installing an operator without a operator-defined namespace now conveys that by default the operator would be installed on the **openshift-operators** namespace with the option to **Edit**.
 - Namespaces available to install to would not yet have an OperatorGroup object present configured to watch all namespaces.
+- The new **Operator Namespace Availability** header will include the hint text: "The namespaces that will be able to instantiate custom resources for this operator."
+- The new **Operator Install Namespace** header will include the hint text: "The namespace that this operator will be installed in."
 
 ![Operator namespace not defined single](img/1-2-noDefinedNS-single.png)
 -A specific namespace may be chosen for the operator to be available to (and installed to.)
@@ -84,7 +86,7 @@ This design also captures the ability to enable cluster monitoring on namespaces
 ## Warnings and Errors
 
 ![Error desired namespace not valid](img/9-1-error-desiredGroup.png)
-- If an operator-defined install namespace has different availability already associated with it, the user will recieve an error and not be able to continue installation.
+- If an operator-defined install namespace has different availability already associated with it, the user will recieve an error and not be able to continue installation until changing the install namespace or availability.
 
 ![Error fixed namespace not valid](img/9-2-error-fixedGroup.png)
-- If an operator has a fixed watch and install namespace based on istall plans and the namespace has different availability already associated with it, the user will recieve an error and not be able to continue installation.
+- If an operator has a fixed watch and install namespace based on install plans and the namespace has different availability already associated with it, the user will recieve an error and not be able to continue installation until changing the namespace.
