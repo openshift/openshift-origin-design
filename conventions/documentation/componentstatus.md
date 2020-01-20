@@ -10,10 +10,6 @@ Below is the current status of PatternFly components used in the OpenShift Web C
 
 ### Future (release TBD)
 
-<iframe height="300" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRYIkofg4PdXpLzgV3V4K-r-FhvKrpIj5VE2aSIa1Qh6edAZUy1xUt-Jl_P_17a22DPdwhI7P38olkX/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-
-The table above is only viewable by Red Hat employees.
-
 | Component name            | PatternFly implementation  | OpenShift design status     | OpenShift implementation     |
 | ------------------------- | ------------------ |------------------ | ---|
 | Empty states	|PF ready |	Design done| 	Not started

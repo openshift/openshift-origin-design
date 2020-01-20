@@ -1,3 +1,8 @@
+---
+parent: Administrator
+version: 4.4
+---
+
 # Red Hat Marketplace Support
 
 Users can now install operators from the Red Hat Marketplace from within OpenShift Web Console via OperatorHub. Users will be linked to the Red Hat Marketplace to purchase operators and then are able to complete installation in OperatorHub.
