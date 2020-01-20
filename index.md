@@ -14,7 +14,7 @@ This site includes [designs](/designs), [conventions](/conventions), and [resear
 
 ### For GitHub
 
-- Our [GitHub PR Image Inserter](https://andybraren.com/tools/gh-pr-image-inserter.html) bookmarklet makes it much easier to see the images in our pull requests. 
+- Our [GitHub PR Image Inserter](https://andybraren.com/tools/gh-pr-image-inserter.html) utility makes it easier to see images in pull requests.
 
 ### For Sketch
 
