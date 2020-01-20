@@ -79,6 +79,12 @@ layout: table_wrappers
             {% endif %}
           {% endunless %}
           <div id="main-content" class="page-content" role="main">
+            {% if page.parent == "Concepts" %}
+              <div class="concept-disclaimer">
+                <span class="concept-heading">Conceptual Design</span>
+                <p>This design is a concept that was not and should not be implemented.</p>
+              </div>
+            {% endif %}
             {% if site.heading_anchors != false %}
               {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#link\"></use></svg>" anchorClass="anchor-heading" %}
             {% else %}
