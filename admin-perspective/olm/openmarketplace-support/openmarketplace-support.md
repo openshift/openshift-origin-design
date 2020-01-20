@@ -8,6 +8,7 @@ Users can now install operators from the Red Hat Marketplace from within OpenShi
 - A link to the Red Hat Marketplace is provided for users to browse and purchase operators from the Red Hat Marketplace directly.
 - Detailed text in OperatorHub is updated to now include a link to Red Hat Marketplace.
 - Marketplace operators are displayed with a **Marketplace** badge.
+- **Marketplace** is a new **Provider Type** filter to show only marketplace operators.
 
 ## Purchasing and Installing a Marketplace Operator
 
