@@ -1,6 +1,6 @@
 ---
-parent: Administrator
-version: 4.x
+parent: Concepts
+version: 
 ---
 
 # Generating Diagnostic Report

@@ -1,6 +1,6 @@
 ---
 parent: Administrator
-version: 4.x
+version: 4.4
 ---
 
 # Search page
