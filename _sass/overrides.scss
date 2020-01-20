@@ -13,6 +13,35 @@ h4 {
 }
 */
 
+figure {
+  position: relative;
+}
+
+.concept-disclaimer {
+  background-color: #fff8f8;
+  border: 1px solid #880000;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.concept-disclaimer p {
+  margin-bottom: .3rem;
+  font-size: 1rem;
+  color: #8e0000;
+}
+
+span.concept-heading {
+  font-size: 1.5rem;
+  color: #a70000;
+}
+
+.concept-disclaimer {
+  background-color: #fff8f8;
+  border: 1px solid #880000;
+  border-radius: 5px;
+  padding: 10px;
+}
+
 .navigation {
   padding-top: 2rem;
 }
