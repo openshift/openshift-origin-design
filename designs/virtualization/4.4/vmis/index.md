@@ -1,3 +1,8 @@
+---
+parent: Virtualization
+version: 4.4
+---
+
 # Surfacing VMIs in the UI
 
 A virtual machine instance(VMI) is the representation of a running virtual machine.

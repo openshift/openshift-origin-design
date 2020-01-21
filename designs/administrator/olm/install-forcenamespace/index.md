@@ -1,3 +1,8 @@
+---
+parent: Administrator
+version: 4.4
+---
+
 # Operator-defined Installation Namespace
 
 Operator bundles can define what namespace they should be installed to, so that namespace is recommended as the default to the user. The user can still change the installation namespace if desired.

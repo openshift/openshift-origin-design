@@ -1,3 +1,8 @@
+---
+parent: Administrator
+version: 4.4
+---
+
 # Notification Drawer
 
 ## Masthead Icon

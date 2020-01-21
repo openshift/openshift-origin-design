@@ -1,3 +1,8 @@
+---
+parent: Administrator
+version: 4.4
+---
+
 # Operand (CR) Creation Form/YAML Switching
 
 The existing “Edit Form” and “Edit YAML” links have been changed to a toggle control to better convey that the user can freely switch between the two without losing changes between them. The control is also moved to immediately above the editors to aid discovery. The use of radios with a label also improves accessibility.
