@@ -6,6 +6,7 @@ Access design documentation for features slotted in the 4.4 release of OpenShift
 - [Diagnostics](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/diagnostics/diagnostics)
 - [Favoriting](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/favoriting/favoriting)
 - [Health Checks](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/health-checks/health-checks)
+- [Notification Drawer](http://openshift.github.io/openshift-origin-design/admin-perspective/4.4/notification-drawer/notification-drawer)
 - [Open Marketplace Support](http://openshift.github.io/openshift-origin-design/admin-perspective/olm/openmarketplace-support/openmarketplace-support)
 - [Operand (CR) Creation Form/YAML Switching](http://openshift.github.io/openshift-origin-design/admin-perspective/olm/operand-form-yaml-switching/operand-form-yaml-switching)
 - [Operator-defined Namespace](http://openshift.github.io/openshift-origin-design/admin-perspective/olm/install-forcenamespace/install-forcenamespace)
