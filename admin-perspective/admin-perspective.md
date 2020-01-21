@@ -8,6 +8,7 @@ Access design documentation for features slotted in the 4.4 release of OpenShift
 - [Health Checks](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/health-checks/health-checks)
 - [Open Marketplace Support](http://openshift.github.io/openshift-origin-design/admin-perspective/olm/openmarketplace-support/openmarketplace-support)
 - [Operand (CR) Creation Form/YAML Switching](http://openshift.github.io/openshift-origin-design/admin-perspective/olm/operand-form-yaml-switching/operand-form-yaml-switching)
+- [Operator-defined Namespace](http://openshift.github.io/openshift-origin-design/admin-perspective/olm/install-forcenamespace/install-forcenamespace)
 - [Search page](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/search/search)
 - [Toolbars](http://openshift.github.io/openshift-origin-design/admin-perspective/future-openshift/toolbars/toolbars)
 
