@@ -15,19 +15,19 @@ Details Page
 ## Icon Usage
 When displaying status in the console, use the appropriate icon for the associated status.
 
-| Icon | Status(es) |
-|---------------------------|-------------------------------------------------------------------------------------|
-| pficon-ok<br>![ok](img/pficon-ok.png) | Accepted<br>Active<br>Bound<br>Complete<br>Completed<br>Enabled<br>Ready<br>Up to date |
-| pficon-error-circle-o<br>![error](img/pficon-error-circle-o.png) | ContainerCannotRun<br>CrashLoopBackOff<br>Critical<br>Error<br>Failed<br>InstallCheckFailed<br>Lost<br>Rejected |
-| pficon-in-progress<br>![progress](img/pficon-in-progress.png) | ContainerCreating<br>Updating<br>Upgrading<br>In Progress |
-| pficon-warning-triangle-o<br>![warning](img/pficon-warning-triangle-o.png) | Warning |
-| pficon-unknown<br>![unknown](img/pficon-unknown.png) | Unknown |
-| fa-ban<br>![ban](img/fa-ban.png) | Expired<br>Cancelled<br>Not Ready<br>Terminating |
-| fa-refresh<br>![running](img/fa-refresh.png) | Running |
-| pficon-off<br>![offline](img/pficon-off.png) | Off<br>Offline |
-| pficon-maintenance<br>![maintenance](img/pficon-maintenance.png) | Under Maintenance |
-| fa-hourglass-1<br>![new](img/fa-hourglass-1.png) | New |
-| fa-hourglass-half<br>![pending](img/fa-hourglass-half.png) | Pending |
+Icon | Status(es)
+--- | ---
+pficon-ok<br>![ok](img/pficon-ok.png) | Accepted<br>Active<br>Bound<br>Complete<br>Completed<br>Enabled<br>Ready<br>Up to date
+pficon-error-circle-o<br>![error](img/pficon-error-circle-o.png) | ContainerCannotRun<br>CrashLoopBackOff<br>Critical<br>Error<br>Failed<br>InstallCheckFailed<br>Lost<br>Rejected
+pficon-in-progress<br>![progress](img/pficon-in-progress.png) | ContainerCreating<br>Updating<br>Upgrading<br>In Progress
+pficon-warning-triangle-o<br>![warning](img/pficon-warning-triangle-o.png) | Warning
+pficon-unknown<br>![unknown](img/pficon-unknown.png) | Unknown
+fa-ban<br>![ban](img/fa-ban.png) | Expired<br>Cancelled<br>Not Ready<br>Terminating
+fa-refresh<br>![running](img/fa-refresh.png) | Running
+pficon-off<br>![offline](img/pficon-off.png) | Off<br>Offline
+pficon-maintenance<br>![maintenance](img/pficon-maintenance.png) | Under Maintenance
+fa-hourglass-1<br>![new](img/fa-hourglass-1.png) | New
+fa-hourglass-half<br>![pending](img/fa-hourglass-half.png) | Pending
 
 The following statuses do not require icons:
 * X of X pods

@@ -109,6 +109,7 @@ version: 4.0
 * When hovering over a collapsed primary nav section, the fa-angle-right icon should be displayed to the right of the name,
 
 #### Icons
+
 | Navigation Item | Icon |
 | ----------------|------|
 | Home | pficon-home |
