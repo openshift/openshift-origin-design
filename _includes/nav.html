@@ -1,0 +1,51 @@
+<nav role="navigation" aria-label="Main navigation">
+  <ul class="navigation-list">
+    {%- assign pages_list = site.html_pages | where_exp: "item","item.has_children == true" | sort:"nav_order" -%}
+    {%- for node in pages_list -%}
+      {%- unless node.nav_exclude -%}
+        {%- if node.parent == nil -%}
+          <li class="navigation-list-item{% if page.url == node.url or page.parent == node.title or page.grand_parent == node.title %} active{% endif %}">
+          <!--<li class="navigation-list-item active">-->
+            {%- if page.parent == node.title or page.grand_parent == node.title -%}
+              {%- assign first_level_url = node.url | absolute_url -%}
+            {%- endif -%}
+            <!--<a href="{{ node.url | absolute_url }}" class="navigation-list-link active">{{ node.title }}</a>-->
+            <a href="{{ node.url | absolute_url }}" class="navigation-list-link{% if page.url == node.url %} active{% endif %}">
+              {%- if node.nav_label -%}
+                {{ node.nav_label }}
+              {%- else -%}
+                {{ node.title }}
+              {%- endif -%}
+            </a>
+
+            {%- if node.has_children -%}
+              {%- if node.title == "Releases" -%}
+                {%- assign nav_children_list = site.html_pages | where: "parent", node.title | sort:"title", "last" | reverse -%}
+              {%- else -%}
+                {%- assign nav_children_list = site.html_pages | where: "parent", node.title | sort:"title" -%}
+              {%- endif -%}
+              <ul class="navigation-list-child-list ">
+                {%- for child in nav_children_list -%}
+                  <li class="navigation-list-item {% if page.url == child.url or page.parent == child.title %} active{% endif %}">
+                    {%- if page.url == child.url or page.parent == child.title -%}
+                      {%- assign second_level_url = child.url | absolute_url -%}
+                    {%- endif -%}
+                    <a href="{{ child.url | absolute_url }}" class="navigation-list-link{% if page.url == child.url %} active{% endif %}">{{ child.title }}</a>
+                  </li>
+                {%- endfor -%}
+              </ul>
+            {%- endif -%}
+
+          </li>
+        {%- endif -%}
+      {%- endunless -%}
+    {%- endfor -%}
+  </ul>
+  {%- if page.has_children == nil and page.parent != "Releases" and page.parent != "Designs" and page.nav_label != "Home" -%}
+    <hr>
+    <div class="new-toc">
+      <!--<span class="navigation-list navigation-list-item navigation-list-link active">Contents</span>-->
+      {% include toc.html html=content h_min=2 class="navigation-list-child-list" item_class="navigation-list-item" anchor_class="navigation-list-link" %}  
+    </div>
+  {%- endif -%}
+</nav>

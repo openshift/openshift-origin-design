@@ -1,10 +1,7 @@
-# OpenShift Console designs
-This repository covers designs for the OpenShift Console, which is separated into sections below. Links to OCM designs are available as well.
+# OpenShift Designs
 
-- [Administrator Perspective](http://openshift.github.io/openshift-origin-design/admin-perspective/admin-perspective)
-- [Developer Perspective](http://openshift.github.io/openshift-origin-design/dev-perspective/dev-perspective)
-- [Storage (OpenShift Container Storage)](http://openshift.github.io/openshift-origin-design/storage/storage)
-- [Virtualization (KubeVirt)](http://openshift.github.io/openshift-origin-design/virtualization/virtualization)
-- [OCM (OpenShift Cluster Manager)](https://docs.google.com/document/d/13G1d9tvOhIz0DDt4NyuavhCUSTmPR3z1uUEQIpaVvAA/edit#)
-- Pipelines
-- Serverless
+[Click here to view the website](https://openshift.github.io/openshift-origin-design/)
+
+This repository includes [designs](https://openshift.github.io/openshift-origin-design/designs/), [conventions](https://openshift.github.io/openshift-origin-design/conventions/), and [research](https://openshift.github.io/openshift-origin-design/research/) related to the OpenShift Container Platform ecosystem. Most of this repository is created and maintained by the [Red Hat User Experience Design team](https://www.redhat.com/en/about/product-design), but we welcome external contributions and suggestions.
+
+Reviewing a pull request? Our [GitHub PR Image Inserter](https://andybraren.com/tools/gh-pr-image-inserter.html) utility makes it easier to see the images you're commenting on.
