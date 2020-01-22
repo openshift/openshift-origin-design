@@ -1,4 +1,5 @@
 title: OpenShift Design
+url: "https://openshift.github.io"
 baseurl: "/openshift-origin-design/"
 # permalink: /:title
 remote_theme: "pmarsceill/just-the-docs@v0.2.7"
