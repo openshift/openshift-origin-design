@@ -59,11 +59,11 @@ Add flows have dynamic sections that are displayed when appropriate for the flow
 
 
 ### Resources
-Documentation about this section can be found [here](sections/Resources/Resources.md)
+Documentation about this section will be added in the future.
 
 
 ### Pipelines
-The Pipelines section is available when the Pipelines operator is installed. Design documentation for the Pipelines section found can be found [here](sections/pipelines/pipelines.md).
+The Pipelines section is available when the Pipelines operator is installed. Design documentation for the Pipelines section found can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/pipelines/).
 
 ### Advanced Options
 tbd
