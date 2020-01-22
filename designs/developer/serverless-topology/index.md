@@ -5,13 +5,17 @@ version: 4.3
 
 # Serverless Topology
 
+When the OpenShift Serverless operator is installed, the regular topology view is enhanced.
+
 ## Event Sources
+
 In 4.3, the console will visualize a subset of the event source types in the topology view.  This list includes:
     KafkaSource
     CamelSource
     CronJobSource
     ContainerSource
     ApiServerSource
+
 The documentation about the event source types that are supported can be found [here](https://knative.dev/docs/eventing/)
 
 Event Sources have a sink connector to the Knative service.
