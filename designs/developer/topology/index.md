@@ -6,7 +6,6 @@ version: 4.3
 # Topology
 The Topology page is a primary navigation item in the OpenShift Developer perspective.
 
-
 ## Topology
 The Topology view would be used in OpenShift Dev-Console to show semantic aggregated metadata about related pods, deployments, builds of application components in a namespace.  
 

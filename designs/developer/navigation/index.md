@@ -15,7 +15,7 @@ When the current perspective is the developer perspective, the fa-code icon acco
 
 There are 5 primary navigation items associated with the OpenShift Developer perspective:
 
-1. + Add
+1. Add
 2. Topology
 3. Builds
 4. Pipelines

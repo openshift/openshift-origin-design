@@ -1,9 +1,9 @@
 ---
 parent: Developer
-version: 4.2
+version: 4.3
 ---
 
-# Serverless
+# Serverless Topology
 
 ## Event Sources
 In 4.3, the console will visualize a subset of the event source types in the topology view.  This list includes:
