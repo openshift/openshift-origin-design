@@ -82,7 +82,7 @@ function transformImages() {
     // console.log("Processing:" + elements.length);
 
     if (elements[i].parentNode.nodeName == 'P') {
-      elements[i].parentNode.parentNode.insertBefore(elements[i], elements[i].parentNode);
+      elements[i].parentNode.parentNode.insertBefore(elements[i], elements[i].parentNode.nextSibling);
     }
   }
 
