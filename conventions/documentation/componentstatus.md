@@ -16,9 +16,10 @@ Empty states | PF ready | Design done | Not started
 Modals | PF ready | Design done | Not started
 Toolbars and Filters | WIP | Design done | Not started
 Data list | PF ready | Design done | Not started
-Topology | WIP | Design done | Available
-Card view | WIP | WIP | Not started
+Topology | WIP | WIP | WIP
+Card view | TBD | WIP | Available
 Notification drawer | WIP | Design done | WIP
+Log-in page | PF Ready | Design done | WIP
 
 ### OpenShift 4.3 release
 
