@@ -1,9 +1,9 @@
 ---
 parent: Developer
-version: 4.2
+version: 4.3
 ---
 
-# Add page
+# Add page (4.3)
 
 Add is a primary navigation item in the OpenShift Developer perspective.
 
@@ -57,8 +57,10 @@ Add flows have dynamic sections that are displayed when appropriate for the flow
 
 ### General
 
+### Pipelines
+The Pipelines section of the form is available when the Pipelines operator is installed. 
 
-### Serverless
+### Resources
 Documentation about this section will be added in the future.
 
 ### Advanced Options
