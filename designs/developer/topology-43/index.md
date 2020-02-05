@@ -1,6 +1,6 @@
 ---
 parent: Developer
-version: 4.2
+version: 4.3
 ---
 
 # Topology
@@ -72,7 +72,9 @@ Clicking on the decorator opens the application in a new browser tab.
 
 ##### Code Decorator
 The code decorator is located on the bottom right quadrant of the node.
-Go To GitHub or CHE Workspace
+Go To GitHub or CHE Workspace  ** NEW IN 4.3
+
+![Pod Status](img/che_icon.png)    If CHE workspace is available, CHE icon should be used
 
 ![Pod Status](img/github_icon.png)
 If not, determine	the git client associated and use that icon
@@ -84,6 +86,11 @@ If not, determine	the git client associated and use that icon
 The build decorator in the topology view is located in the bottom left of the node.  The decorator has six options: new, pending, running, completed, failed, and cancelled. When the decorator is hovered on, the status of the build will appear. The build decorator provides a one click action to view the build logs.
 
 ![Pod Status](img/build_status.png)  
+
+##### Pipeline Decorator ** NEW IN 4.3
+The pipeline decorator in the topology view is located in the bottom left of the node.  The decorator has four options: running, completed, failed, and pending.  When the decorator is hovered on, the status of the pipeline will appear. The pipeline decorator provides a one click action to view the pipeline run logs.
+
+![Pod Status](img/pipeline_status.png)  
 
 ##### Node Label
 The label would consist of a resource badge followed by the name of the component.
