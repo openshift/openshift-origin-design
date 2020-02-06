@@ -17,9 +17,9 @@ version: 4.4
 
 ## Nodes List
 ![](img/nodes1.png)
-* The Nodes list view will have 8 columns: Name, Status, Role, Pods, Memory, CPU, Filesystem, and Created.
+* The Nodes list view will have 8 columns: Name, Status, Role, Pods, CPU, Memory, Filesystem, and Created.
 * The status column will also surface any degraded conditions below the general node status.
 * The filter dropdown will give users the option to filter on Status or Role. See [toolbar documentation](https://openshift.github.io/openshift-origin-design/designs/administrator/future-openshift/toolbars/) for more information about the Nodes page toolbar.
 
 ![](img/nodes2.png)
-* A new option to filter on "Conditions degraded" will be available.
+* A new option to filter on "Degraded conditions" will be available.
