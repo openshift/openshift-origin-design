@@ -1,8 +1,3 @@
----
-parent: Conventions
-version: 4.2
----
-
 # Metrics
 
 ## Unit Labels

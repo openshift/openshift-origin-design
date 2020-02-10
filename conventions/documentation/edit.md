@@ -1,6 +1,6 @@
 ---
-parent: Conventions
-version: 4.2
+name: Editing
+menu: User editing
 ---
 
 # Editing
@@ -52,4 +52,3 @@ Some details / field inputs link to modals for editing information.
 ![edit link modal](../images/edit-link-modal.png)
 
 ![edit link modal 2](../images/edit-link-modal2.png)
-

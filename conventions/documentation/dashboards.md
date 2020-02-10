@@ -1,11 +1,11 @@
 ---
-parent: Conventions
-version: 4.2
+name: Dashboards
+menu: Views
 ---
 
 # Dashboards
 
-The cluster-wide (overview) dashboards serve as an overview of the system – either as a general overview or with a specific lens on a service (storage, for example). The resource level dashboards serve as an overview of the resource and show similar content as the cluster overview dashboard, but filtered to relevant information for the particular resource. The information shown, and even the dashboards being displayed, will depend on the Operators installed and the setup of the particular cluster.
+The cluster-wide (overview) dashboards serve as an overview of the system – either as a general overview or with a specific lens on a service (storage, for example). The resource level dashboards serve as an overview of the resource and show similar content as the cluster overview dashboard, but filtered to relevant information for the particular resource. The information shown, and even the dashboards being displayed, will depend on the Operators installed and the setup of the particular cluster. To view dashboards in the [OpenShift Sketch Library](https://sketch.cloud/s/mwdww) visit the dashboard design [here](https://sketch.cloud/s/mwdww/a/Q5053x).
 
 ---
 
@@ -88,4 +88,3 @@ The cluster-wide (overview) dashboards serve as an overview of the system – ei
 *Generic chart:*
 
 ![chart card](../images/dashboard-card-chart.png)
-

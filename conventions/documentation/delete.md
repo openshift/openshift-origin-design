@@ -1,6 +1,6 @@
 ---
-parent: Conventions
-version: 4.2
+name: Deleting
+menu: User editing
 ---
 
 # Deleting
@@ -21,4 +21,3 @@ When deleting a resource, a user must confirm by typing the resource name. After
 Some resources do not require a confirmation by typing, but still must be confirmed via a confirmation modal.
 
 ![deleting project](../images/delete-modal-alt.png)
-
