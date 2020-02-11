@@ -31,9 +31,14 @@ Unlike other similar pages in the console, "Metrics" dashboards are composed ent
 - Displays a single value. Can be presented as a percentage or have a unit.
 
 ### Graph
-![](img/dashboard-graph.png)
-- Displays one or many series resulting from a query.
-- Area chart is used when data is stacked. Line chart styling used otherwise.
+![](img/dashboard-graph-line.png)
+- Graph cards display one or many series resulting from a query.
+
+![](img/dashboard-graph-area.png)
+- Area chart styling is used when data is stacked or shows a portion of a whole over time. Line chart styling used otherwise.
+
+![](img/dashboard-graph-bar.png)
+- Bar charts are used to display single data points rather than timeseries.
 
 ### Table
 ![](img/dashboard-table.png)
