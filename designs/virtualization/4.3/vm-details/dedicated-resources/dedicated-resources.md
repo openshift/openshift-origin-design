@@ -1,6 +1,7 @@
 ---
 parent: Virtualization
-version: 4.3
+version: 4.4
+CNV-version: 2.3
 ---
 
 # VM details - dedicated-resources
