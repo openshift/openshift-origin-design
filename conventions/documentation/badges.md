@@ -1,6 +1,6 @@
 ---
-name: Badges
-menu: Indicators
+parent: Conventions
+version: 4.2
 ---
 
 # Badges
@@ -59,7 +59,7 @@ To view status badges in the [OpenShift Sketch Library](https://sketch.cloud/s/m
 
 ## Tech preview badge
 
-A tech preview badge indicates when a feature is new and may still be in-progress on the development side. To view the tech preview badge in the [OpenShift Sketch Library](https://sketch.cloud/s/mwdww) visit the symbols page [here](https://sketch.cloud/s/mwdww/p/symbols).
+A tech preview badge indicates when a feature is new and may still be in-progress on the development side. This can be Dev or Tech preview, and the same color is utilized for both. To view the tech preview badge in the [OpenShift Sketch Library](https://sketch.cloud/s/mwdww) visit the symbols page [here](https://sketch.cloud/s/mwdww/p/symbols).
 
 
 *Example of tech preview badge on feature*

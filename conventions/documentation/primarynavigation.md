@@ -1,6 +1,6 @@
 ---
-name: Primary navigation
-menu: Navigation
+parent: Conventions
+version: 4.2
 ---
 
 # Primary navigation
