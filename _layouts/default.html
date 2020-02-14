@@ -143,20 +143,25 @@ layout: table_wrappers
             </ul>
           {% endif %}
           {% endfor %}
-
+          
           <!-- Designs by category -->
           {% if page.version_page == true %}
-            {% assign children_list = site.pages | where: "version", page.version | where_exp: "item","item.title != page.title" | group_by: 'parent' | sort:"title" | reverse %}
-            {% for par in children_list %}
-            <h2>{{ par.name }}</h2>
+            {% assign parent_list = site.pages | where: "parent", "Designs" | sort: "title" %}
+            {% for parent in parent_list %}
+              <h2>{{ parent.title }}</h2>
+              {% assign children_list = site.pages | where: "version", page.version | where: "parent", parent.title | where_exp: "item","item.title != page.title" | sort:"title" %}
+              {% assign children_size = site.pages | where: "version", page.version | where: "parent", parent.title | where_exp: "item","item.title != page.title" | size %}
+              {% if children_size != 0 %}
                 <ul>
-                  {% assign items = par.items | sort: 'title' %}
-                  {% for item in items %}
-                    <li>
-                      <a href="{{ item.url | absolute_url }}">{{ item.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
-                    </li>
-                  {% endfor %}
+                {% for child in children_list %}
+                  <li>
+                    <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
+                  </li>
+                {% endfor %}
                 </ul>
+              {% else %}
+                <p>None</p>
+              {% endif %}
             {% endfor %}
           {% endif %}
 
