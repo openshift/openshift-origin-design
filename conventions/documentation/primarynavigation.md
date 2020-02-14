@@ -8,7 +8,7 @@ To view primary navigation in the [OpenShift Sketch Library](https://sketch.clou
 
 ## Perspectives
 
-Openshift has different perspectives for "administrator" and "developer." These perspectives change the navigation list accordingly to show only relevant pages.
+OpenShift has different perspectives for "administrator" and "developer". These perspectives change the navigation list accordingly to show only relevant pages.
 
 ![Perspective switcher](../images/navigation-perspectives.png)
 
