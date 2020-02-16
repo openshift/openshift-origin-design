@@ -3,7 +3,7 @@ parent: Designs
 has_children: false
 ---
 
-# Developer Perspective
+# Developer
 
 The Developer Perspective, added to the 4.2 OpenShift Console provides developers with an optimized experience with the features and workflows they’re most likely to need to be productive. Developers can focus on higher level abstractions like their application and components, and then drill down deeper to get to the OpenShift and Kubernetes resources that make up their application.
 
