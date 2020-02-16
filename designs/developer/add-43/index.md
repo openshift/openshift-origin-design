@@ -1,9 +1,4 @@
----
-parent: Developer
-version: 4.3
----
-
-# Add page (4.3)
+# Add page
 
 Add is a primary navigation item in the OpenShift Developer perspective.
 
@@ -17,31 +12,16 @@ The basic visuals and behavior of this card view is consistent with that of the 
 There are 6 Add Flows for adding an application, component or service. Each flow has different subsections.
 
 ### From Git
-- Git (via repo URL)
-- Builder (images)
-- General
-- Resources
-- Advanced Options
+Design documentation for the From Git scenario when creating a source secret can be found [here](From-Git/Import-from-git.md)
 
 ### Container Image
-- Image (2 options to select one)
-- General
-- Resources
-- Advanced Options
+Design documentation for the Container Image git can be found [here](Container-Image/Deploy-Image.md)
 
 ### From Catalog
-- Builder (images)
-- Git (via repo URL)
-- General
-- Resources
-- Advanced Options
+Design documentation for the items From Catalog can be found [here](From-Catalog/Add-from-catalog.md)
 
 ### From Dockerfile
-- Git (via repo URL)
-- Dockerfile
-- General
-- Resources
-- Advanced Options
+Design documentation for the From Dockerfile can be found [here](From-Dockerfile/Import-from-Dockerfile.md)
 
 ### YAML
 When clicking on YAML, Add remains selected in the navigation.  The secondary masthead is shown with the selected project, and the YAML editor is displayed.
@@ -51,17 +31,23 @@ When clicking on YAML, Add remains selected in the navigation.  The secondary ma
 ### Database
 Design documentation for the Database is still tbd
 
-
 ## Common Sections to Add Flows
-Add flows have dynamic sections that are displayed when appropriate for the flow.
+Add flows have dynamic sections that are displayed when appropriate for the flow:
 
 ### General
-
-### Pipelines
-The Pipelines section of the form is available when the Pipelines operator is installed. 
+Design documentation for the General section can be found[here](sections/General-Section.md)
 
 ### Resources
-Documentation about this section will be added in the future.
+Documentation about this section can be found [here](sections/resources/resources.md)
+
+### Pipelines
+The Pipelines section is available when the Pipelines operator is installed. Design documentation for the Pipelines section found can be found [here](sections/pipelines/pipelines.md).
 
 ### Advanced Options
-tbd
+There are a number of Advanced Options which are available, based on the flow:
+- [Routing](sections/Adv-Routing.md)
+- [Build Configuration](sections/Adv-Build-Config.md)
+- [Deployment Configuration](sections/Adv-Deployment-Config.md)
+- [Scaling](sections/Adv-Scaling.md)
+- [Resource Limits](sections/Adv-Resource-Limits.md)
+- [Labels](sections/Adv-Labels.md)
