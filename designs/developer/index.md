@@ -12,10 +12,10 @@ We strive for simplicity, while still allowing for users to achieve more advance
 Our design documentation covers the entire developer experience in the OpenShift Console.  The developer experience is enhanced as operators are installed, which is also documented below.
 
 # Personas and Archetypes
-<coming soon>
+-- coming soon --
 
 ## 4.5 Developer Experience
-<coming soon>
+-- coming soon --
 
 ## 4.4 Developer Experience
 The following section documents the 4.4 OpenShift Console Developer experience, not just what's new in 4.4
