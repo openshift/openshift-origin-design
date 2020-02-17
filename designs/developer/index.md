@@ -11,59 +11,67 @@ We strive for simplicity, while still allowing for users to achieve more advance
 
 Our design documentation covers the entire developer experience in the OpenShift Console.  The developer experience is enhanced as operators are installed, which is also documented below.
 
-## 4.5
+# Personas and Archetypes
 
-## 4.4
+## 4.5 Developer Experience
+
+## 4.4 Developer Experience
 The following section documents the 4.4 OpenShift Console Developer experience, not just what's new in 4.4
 
-General Information
-- [Archetypes]
-- [Navigation]
+#### Navigation
 
-Navigation Items
+#### Main Pages
 - [+Add](https://openshift.github.io/openshift-origin-design/designs/developer/add-44/)
-- [Topology]
-- [Builds]
-- [Pipelines]
-- [Advanced]
+- [Builds](https://openshift.github.io/openshift-origin-design/designs/developer/builds/)
+- [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/pipelines-44/)
+- [Project Access](https://openshift.github.io/openshift-origin-design/designs/developer/project-access-43/)
+- [Topology](https://openshift.github.io/openshift-origin-design/designs/developer/topology-44/)
 
 Operator enhanced user flows
 - do any ?!
 
 To view a list of individual items which were updated in 4.4, click [here](https://openshift.github.io/openshift-origin-design/releases/4.4/)
 
-## 4.3
+## 4.3 Developer Experience
 The following section documents the 4.3 OpenShift Console Developer experience, not just what's new in 4.3
 
-General Information
-- [Archetypes]
-- [Navigation]
+#### Navigation
 
-Navigation Items
+#### Main Pages
 - [+Add](https://openshift.github.io/openshift-origin-design/designs/developer/add-43/)
-- [Topology]
-- [Builds]
-- [Pipelines]
-- [Advanced]
+- [Builds](https://openshift.github.io/openshift-origin-design/designs/developer/builds/)
+- [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/pipelines-43/)
+- [Project Access](https://openshift.github.io/openshift-origin-design/designs/developer/project-access-43/)
+- [Project Details](https://openshift.github.io/openshift-origin-design/designs/developer/project-access-43/)
+- [Topology](https://openshift.github.io/openshift-origin-design/designs/developer/add-43/)
 
 Operator enhanced user flows
 - do any ?!
 
 To view a list of individual items which were updated in 4.3, click [here](https://openshift.github.io/openshift-origin-design/releases/4.3/)
 
-## 4.2
+## 4.2 Developer Experience
 The following section documents the 4.2 OpenShift Console Developer experience, not just what's new in 4.2
 
-General Information
-- [Archetypes]
-- [Navigation]
+#### Navigation
+There are 5 primary navigation items:
+- +Add
+- Topology
+- Builds
+- Pipelines
+- Advanced
+  - Projects
+  - Events
+  - Search
 
-Navigation Items
+#### Main Pages
 - [+Add](https://openshift.github.io/openshift-origin-design/designs/developer/add/)
-- [Topology]
-- [Builds]
-- [Pipelines]
-- [Advanced]
+- [Builds](https://openshift.github.io/openshift-origin-design/designs/developer/builds/)
+- [Events]
+- [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/pipelines/)
+- [Projects]
+- [Search]
+- [Topology](https://openshift.github.io/openshift-origin-design/designs/developer/topology/)
 
 Operator enhanced user flows
 - do any ?!

@@ -35,7 +35,7 @@ Design documentation for the Database is still tbd
 Add flows have dynamic sections that are displayed when appropriate for the flow:
 
 ### General
-Design documentation for the General section can be found[here](sections/General-Section.md)
+Design documentation for the General section can be found [here](sections/General-Section.md)
 
 ### Advanced Options
 There are a number of Advanced Options which are available, based on the flow:
