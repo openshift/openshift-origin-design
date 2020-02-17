@@ -3,7 +3,7 @@ parent: Developer
 version: 4.4
 ---
 
-# Deploy Image - Usability Enhancments
+# Deploy Image - Usability Enhancements
 This page talks about the Import from git form.
 It has the following sub sections
 ## Image
