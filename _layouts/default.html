@@ -148,20 +148,22 @@ layout: table_wrappers
           {% if page.version_page == true %}
             {% assign parent_list = site.pages | where: "parent", "Designs" | sort: "title" %}
             {% for parent in parent_list %}
-              <h2>{{ parent.title }}</h2>
-              {% assign children_list = site.pages | where: "version", page.version | where: "parent", parent.title | where_exp: "item","item.title != page.title" | sort:"title" %}
-              {% assign children_size = site.pages | where: "version", page.version | where: "parent", parent.title | where_exp: "item","item.title != page.title" | size %}
-              {% if children_size != 0 %}
-                <ul>
-                {% for child in children_list %}
-                  <li>
-                    <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
-                  </li>
-                {% endfor %}
-                </ul>
-              {% else %}
-                <p>None</p>
-              {% endif %}
+              {% unless parent.title == "Concepts" %}
+                <h2>{{ parent.title }}</h2>
+                {% assign children_list = site.pages | where: "version", page.version | where: "parent", parent.title | where_exp: "item","item.title != page.title" | sort:"title" %}
+                {% assign children_size = site.pages | where: "version", page.version | where: "parent", parent.title | where_exp: "item","item.title != page.title" | size %}
+                {% if children_size != 0 %}
+                  <ul>
+                  {% for child in children_list %}
+                    <li>
+                      <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
+                    </li>
+                  {% endfor %}
+                  </ul>
+                {% else %}
+                  <p>None</p>
+                {% endif %}
+              {% endunless %}
             {% endfor %}
           {% endif %}
 
