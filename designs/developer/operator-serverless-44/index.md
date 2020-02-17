@@ -3,27 +3,14 @@ parent: Developer
 version: 4.4
 ---
 
-# -- OpenShift Serverless Operator (4.4)
-The developer experience is enhanced when the OpenShift Serverless Operator is installed.
+# OpenShift Serverless Operator
 
-## Knative Services in Topology
-Knative Services are visualized as groups.
+When the OpenShift Serverless operator is installed, the Developer Experience is enhanced to support the following:
+- [Visualization of Event Sources in topology](https://openshift.github.io/openshift-origin-design/designs/developer/operator-serverless-43/event-sources.md)
+- [Visualization of Knative Services in topology](https://openshift.github.io/openshift-origin-design/designs/developer/operator-serverless-42/knative-services-topology.md)
+- [Creation of Knative Services](https://openshift.github.io/openshift-origin-design/designs/developer/operator-serverless-42/knative-services-add.md)
 
-### Topology side panel
-
-#### KSVC Side panel
-When a Knative Service is selected in topology, the side panel Resources tab shows Pods, Revisions and Routes.
-
-![KSVC side panel](img/sidepanel-KSVC.png)
-
-If all of the revisions of a Knative Service are autoscaled to 0, the Pods section says "All Revisions are autoscaled to 0", and in the Revisions section, each deployment shows 0 pods.
-![KSVC side panel autoscaled](img/sidepanel-KSVC-autoscaled.png)
-
-#### REV Side panel
-When a Knative Revision is selected in topology, the side panel Resources tab shows Pods, Deployments, Configurations and Routes.
-
-![REV side panel](img/sidepanel-REV.png)
-
-If the Revision is autoscaled to 0,  the Pods section says "Autoscaled to 0".
-
-![REV side panel autoscaled](img/sidepanel-REV-autoscaled.png)
+## Topology side panel
+The following serverless resources have specific designs for the Resources tab in the side panel:
+- [KSVC - Resources tab in side panel](https://openshift.github.io/openshift-origin-design/designs/developer/operator-serverless-44/ksvc-sidepanel.md)
+- [REV - Resources tab in side panel](https://openshift.github.io/openshift-origin-design/designs/developer/operator-serverless-44/rev-sidepanel.md)

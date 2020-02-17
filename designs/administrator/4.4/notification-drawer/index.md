@@ -9,6 +9,11 @@ version: 4.4
 ![](img/notifications-closed.png)
 - When alerts are firing, a special signifier icon appears in the masthead for users with appropriate RBAC permissions. Clicking on the icon opens the notification drawer.
 
+![](img/notifications-icon.png)
+- When there are no notifications, the masthead icon displays only a bell.
+- When there are non-critical notifications (such as updates, lower severity alerts, or other messages) a blue dot appears on the icon along with a number representing the number of items in the drawer,
+- When critical alerts are firing, the icon displays a red (!) icon along with the the total item count.
+
 ## Alerts
 ![](img/notifications-open.png)
 - By default, the drawer would contain all types of alerts, but users could choose to omit one or more notification types. These settings would be kept in local browser storage.
