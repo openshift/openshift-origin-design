@@ -1,4 +1,9 @@
-# Pipelines
+---
+parent: Developer
+version: 4.3
+---
+
+# Pipelines section in Add Flows (added to 4.3)
 The Pipelines section allows the user to enable a pipeline template for their application, component or service.
 * A Pipelines section appears in +Add flows (for Import from Git,  Developer Catalog, and From Dockerfile) when the Pipelines operator is installed.
 * When the Pipelines operator is not installed, this section is not displayed

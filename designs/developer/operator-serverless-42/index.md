@@ -1,3 +1,7 @@
+---
+parent: Developer
+version: 4.2
+---
 # OpenShift Serverless Operator
 
 When the OpenShift Serverless operator is installed, the Developer Experience is enhanced to support the following:

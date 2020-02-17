@@ -1,3 +1,8 @@
+---
+parent: Developer
+version: 4.2
+---
+
 # Add page
 
 Add is a primary navigation item in the OpenShift Developer perspective.

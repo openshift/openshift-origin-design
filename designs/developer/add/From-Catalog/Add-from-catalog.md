@@ -1,3 +1,8 @@
+---
+parent: Developer
+version: 4.2
+---
+
 # Developer catalog
 
 ## Adding a Source to Image App from the Developer Catalog
