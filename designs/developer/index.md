@@ -20,23 +20,10 @@ Our design documentation covers the entire developer experience in the OpenShift
 ## 4.4 Developer Experience
 The following section documents the 4.4 OpenShift Console Developer experience, not just what's new in 4.4
 
-#### Navigation
-There are 6 primary navigation items:
-- +Add
-- Topology
-- Monitoring
-- Builds
-- Pipelines
-- More
-  - Search
-  - Helm
-  - Project Details
-  - Project Access
-
-#### Main Pages
+### Main Pages
 - [+Add](https://openshift.github.io/openshift-origin-design/designs/developer/add-44/)
 - [Builds](https://openshift.github.io/openshift-origin-design/designs/developer/builds/)
-- [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipelines-42/pipelines.md)
+- [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipelines-42/pipelines)
 - [Project Access](https://openshift.github.io/openshift-origin-design/designs/developer/project-access-43/)
 - [Topology](https://openshift.github.io/openshift-origin-design/designs/developer/topology-44/)
 
@@ -49,12 +36,10 @@ To view a list of individual items which were updated in 4.4, click [here](https
 ## 4.3 Developer Experience
 The following section documents the 4.3 OpenShift Console Developer experience, not just what's new in 4.3
 
-#### Navigation
-
-#### Main Pages
+### Main Pages
 - [+Add](https://openshift.github.io/openshift-origin-design/designs/developer/add-43/)
 - [Builds](https://openshift.github.io/openshift-origin-design/designs/developer/builds/)
-- [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipelines-42/pipelines.md)
+- [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipelines-42/pipelines)
 - [Project Access](https://openshift.github.io/openshift-origin-design/designs/developer/project-access-43/)
 - [Project Details](https://openshift.github.io/openshift-origin-design/designs/developer/project-access-43/)
 - [Topology](https://openshift.github.io/openshift-origin-design/designs/developer/add-43/)
@@ -68,22 +53,11 @@ To view a list of individual items which were updated in 4.3, click [here](https
 ## 4.2 Developer Experience
 The following section documents the 4.2 OpenShift Console Developer experience, not just what's new in 4.2
 
-### Navigation
-There are 5 primary navigation items:
-- +Add
-- Topology
-- Builds
-- Pipelines
-- Advanced
-  - Projects
-  - Events
-  - Search
-
 ### Main Pages
 - [+Add](https://openshift.github.io/openshift-origin-design/designs/developer/add/)
 - [Builds](https://openshift.github.io/openshift-origin-design/designs/developer/builds/)
 - [Events]
-- [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipelines-42/pipelines.md)
+- [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipelines-42/pipelines)
 - [Projects]
 - [Search]
 - [Topology](https://openshift.github.io/openshift-origin-design/designs/developer/topology/)
