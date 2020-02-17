@@ -1,3 +1,8 @@
+---
+parent: Developer
+version: 4.2
+---
+
 # Import from git
 This page talks about the Import from git form.
 It has the following sub sections

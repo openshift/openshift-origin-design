@@ -1,3 +1,8 @@
+---
+parent: Developer
+version: 4.2
+---
+
 # Deploy Image
 This page talks about the Import from git form.
 It has the following sub sections

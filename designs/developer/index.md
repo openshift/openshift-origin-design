@@ -12,23 +12,37 @@ We strive for simplicity, while still allowing for users to achieve more advance
 Our design documentation covers the entire developer experience in the OpenShift Console.  The developer experience is enhanced as operators are installed, which is also documented below.
 
 # Personas and Archetypes
+<coming soon>
 
 ## 4.5 Developer Experience
+<coming soon>
 
 ## 4.4 Developer Experience
 The following section documents the 4.4 OpenShift Console Developer experience, not just what's new in 4.4
 
 #### Navigation
+There are 6 primary navigation items:
+- +Add
+- Topology
+- Monitoring
+- Builds
+- Pipelines
+- More
+  - Search
+  - Helm
+  - Project Details
+  - Project Access
 
 #### Main Pages
 - [+Add](https://openshift.github.io/openshift-origin-design/designs/developer/add-44/)
 - [Builds](https://openshift.github.io/openshift-origin-design/designs/developer/builds/)
-- [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/pipelines-44/)
+- [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipelines-42/pipelines.md)
 - [Project Access](https://openshift.github.io/openshift-origin-design/designs/developer/project-access-43/)
 - [Topology](https://openshift.github.io/openshift-origin-design/designs/developer/topology-44/)
 
-Operator enhanced user flows
-- do any ?!
+### Operator enhanced user flows
+- [OpenShift Pipelines Operator](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipelines-42/)
+- [OpenShift Serverless Operator](https://openshift.github.io/openshift-origin-design/designs/developer/operator-serverless-44/)
 
 To view a list of individual items which were updated in 4.4, click [here](https://openshift.github.io/openshift-origin-design/releases/4.4/)
 
@@ -40,20 +54,21 @@ The following section documents the 4.3 OpenShift Console Developer experience, 
 #### Main Pages
 - [+Add](https://openshift.github.io/openshift-origin-design/designs/developer/add-43/)
 - [Builds](https://openshift.github.io/openshift-origin-design/designs/developer/builds/)
-- [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/pipelines-43/)
+- [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipelines-42/pipelines.md)
 - [Project Access](https://openshift.github.io/openshift-origin-design/designs/developer/project-access-43/)
 - [Project Details](https://openshift.github.io/openshift-origin-design/designs/developer/project-access-43/)
 - [Topology](https://openshift.github.io/openshift-origin-design/designs/developer/add-43/)
 
-Operator enhanced user flows
-- do any ?!
+### Operator enhanced user flows
+- [OpenShift Pipelines Operator](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipelines-42/)
+- [OpenShift Serverless Operator](https://openshift.github.io/openshift-origin-design/designs/developer/operator-serverless-43/)
 
 To view a list of individual items which were updated in 4.3, click [here](https://openshift.github.io/openshift-origin-design/releases/4.3/)
 
 ## 4.2 Developer Experience
 The following section documents the 4.2 OpenShift Console Developer experience, not just what's new in 4.2
 
-#### Navigation
+### Navigation
 There are 5 primary navigation items:
 - +Add
 - Topology
@@ -64,16 +79,17 @@ There are 5 primary navigation items:
   - Events
   - Search
 
-#### Main Pages
+### Main Pages
 - [+Add](https://openshift.github.io/openshift-origin-design/designs/developer/add/)
 - [Builds](https://openshift.github.io/openshift-origin-design/designs/developer/builds/)
 - [Events]
-- [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/pipelines/)
+- [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipelines-42/pipelines.md)
 - [Projects]
 - [Search]
 - [Topology](https://openshift.github.io/openshift-origin-design/designs/developer/topology/)
 
-Operator enhanced user flows
-- do any ?!
+### Operator enhanced user flows
+- [OpenShift Pipelines Operator](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipelines-42/)
+- [OpenShift Serverless Operator](https://openshift.github.io/openshift-origin-design/designs/developer/operator-serverless-42/)
 
 To view a list of individual items which were updated in 4.2, click [here](https://openshift.github.io/openshift-origin-design/releases/4.2/)
