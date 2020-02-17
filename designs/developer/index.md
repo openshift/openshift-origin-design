@@ -15,7 +15,7 @@ Our design documentation covers the entire developer experience in the OpenShift
 -- coming soon --
 
 ## 4.5 Developer Experience
--- coming soon --
+<coming soon>
 
 ## 4.4 Developer Experience
 The following section documents the 4.4 OpenShift Console Developer experience, not just what's new in 4.4
