@@ -21,6 +21,6 @@ version: 4.5
 ![](img/alertmanager-all-configured.png)
 - Once all receivers except Watchdog are fully configured the notification is no longer necessary.
 
-![](img/alertmanager-editing-critical.png)
+![](img/alertmanager-editing-watchdog.png)
 - If the Watchdog receiver is edited, an informational alert explains the purpose of the alert and receiver.
 - Similar to the Critical alert message, if the Watchdog receiver is edited, this message will no longer appear.
