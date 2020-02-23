@@ -10,9 +10,9 @@
     {% endif %}
   {% endif %}
 
-  <link rel="icon" href="{{ '/assets/images/favicon.png' | absolute_url }}">
+  <link rel="icon" href="{{ site.baseurl | append: 'assets/images/favicon.png' }}">
 
-  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs.css' | absolute_url }}">
+  <link rel="stylesheet" href="{{ site.baseurl | append: 'assets/css/just-the-docs.css' }}">
 
   {% if site.ga_tracking != nil %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
@@ -27,17 +27,17 @@
   {% endif %}
 
   {% if site.search_enabled != false %}
-    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | absolute_url }}"></script>
+    <script type="text/javascript" src="{{ site.baseurl | append: 'assets/js/vendor/lunr.min.js' }}"></script>
   {% endif %}
-  <script type="text/javascript" src="{{ '/assets/js/just-the-docs.js' | absolute_url }}"></script>
+  <script type="text/javascript" src="{{ site.baseurl | append: 'assets/js/just-the-docs.js' }}"></script>
 
-  <link rel="stylesheet" href="{{ '/assets/js/vendor/photoswipe/photoswipe.css' | absolute_url }}">
-  <link rel="stylesheet" href="{{ '/assets/js/vendor/photoswipe/default-skin/default-skin.css' | absolute_url }}">
-  <script type="text/javascript" src="{{ '/assets/js/vendor/photoswipe/photoswipe.js' | absolute_url }}"></script>
-  <script type="text/javascript" src="{{ '/assets/js/vendor/photoswipe/photoswipe-ui-default.js' | absolute_url }}"></script>
-  <script type="text/javascript" src="{{ '/assets/js/vendor/photoswipe/photoswipe-scraper.js' | absolute_url }}"></script>
+  <link rel="stylesheet" href="{{ site.baseurl | append: 'assets/js/vendor/photoswipe/photoswipe.css' }}">
+  <link rel="stylesheet" href="{{ site.baseurl | append: 'assets/js/vendor/photoswipe/default-skin/default-skin.css' }}">
+  <script type="text/javascript" src="{{ site.baseurl | append: 'assets/js/vendor/photoswipe/photoswipe.js' }}"></script>
+  <script type="text/javascript" src="{{ site.baseurl | append: 'assets/js/vendor/photoswipe/photoswipe-ui-default.js' }}"></script>
+  <script type="text/javascript" src="{{ site.baseurl | append: 'assets/js/vendor/photoswipe/photoswipe-scraper.js' }}"></script>
 
-  <script type="text/javascript" src="{{ '/assets/js/custom.js' | absolute_url }}"></script>
+  <script type="text/javascript" src="{{ site.baseurl | append: 'assets/js/custom.js' }}"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
