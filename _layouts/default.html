@@ -108,34 +108,28 @@ layout: table_wrappers
                 {%- endunless -%}
               {%- endfor -%}
             {%- endif -%}
-
-
-
-
-
-
-
-
-
+            -->
           
           <!-- Designs by version -->
           {% assign versionpage_list = site.pages | where: "parent", page.title | group_by: 'version' | sort: "name" | reverse %}
           {% for ver in versionpage_list %}
-          {% if page.title != "Releases" %}
-            <h2>{{ ver.name }}</h2>
-            <ul>
-          {% endif %}
-                {% assign items = ver.items | sort: 'title' %}
-                {% for item in items %}
-                  {% if item.parent == page.title and item.title != page.title %}
-                    <li>
-                      <a href="{{ item.url | absolute_url }}">{{ item.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
-                    </li>
-                  {% endif %}
-                {% endfor %}
-          {% if page.title != "Releases" %}
-            </ul>
-          {% endif %}
+            {% if page.include_designs_by_version != false %}
+              {% if page.title != "Releases" and page.include_designs_by_version != false %}
+                <h2>{{ ver.name }}</h2>
+                <ul>
+              {% endif %}
+                    {% assign items = ver.items | sort: 'title' %}
+                    {% for item in items %}
+                      {% if item.parent == page.title and item.title != page.title %}
+                        <li>
+                          <a href="{{ item.url | absolute_url }}">{{ item.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+              {% if page.title != "Releases" %}
+                </ul>
+              {% endif %}
+            {% endif %}
           {% endfor %}
           
           <!-- Designs by category -->
