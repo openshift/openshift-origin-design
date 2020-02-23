@@ -44,7 +44,6 @@
   {%- if page.has_children == nil and page.parent != "Releases" and page.parent != "Designs" and page.nav_label != "Home" -%}
     <hr>
     <div class="new-toc">
-      <!--<span class="navigation-list navigation-list-item navigation-list-link active">Contents</span>-->
       {% include toc.html html=content h_min=2 class="navigation-list-child-list" item_class="navigation-list-item" anchor_class="navigation-list-link" %}  
     </div>
   {%- endif -%}
