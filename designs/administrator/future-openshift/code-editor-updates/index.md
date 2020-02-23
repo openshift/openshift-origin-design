@@ -15,7 +15,7 @@ version:
   - Expand will allow a user to view the code in fullscreen mode.
   - View Samples will open a panel for resources that have available templates.
 
-#### Expanded State
+### Expanded State
 ![pic 2](img/2.png)
 
 - When the editor is expanded, it takes up the entire screen, covering the console entirely (including navigation and masthead).
@@ -23,7 +23,7 @@ version:
 - A new tab is not opened for the expanded view.
 - The Expand link turns into a collapse icon and link in the top right corner of the expanded view for users to exit full-screen mode.
 
-#### View Samples
+### View Samples
 ![pic 2c](img/sample.png)
 
 - Some resources have additional YAML samples available for users to paste or download.
@@ -32,7 +32,7 @@ version:
 - Floating links will still remain visible in the top right corner when the side panel is open.
 
 
-#### Errors
+### Errors
 - Errors are shown with an icon on the corresponding line. Users can hover over the icons to see details of each error.
 
 ![pic 3](img/3.png)

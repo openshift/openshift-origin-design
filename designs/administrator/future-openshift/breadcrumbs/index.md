@@ -1,6 +1,6 @@
 ---
-parent: Concepts
-version: 
+parent: Administrator
+version: Concepts
 ---
 
 # Breadcrumbs
