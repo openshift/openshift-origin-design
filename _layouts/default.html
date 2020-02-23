@@ -80,9 +80,11 @@ layout: table_wrappers
           {% endunless %}
           <div id="main-content" class="page-content" role="main">
             {% if page.parent == "Concepts" %}
-              <div class="concept-disclaimer">
-                <span class="concept-heading">Conceptual Design</span>
-                <p>This design is a concept that was not and should not be implemented, but is kept here for reference.</p>
+              <div class="pf-c-alert pf-m-warning pf-m-inline" aria-label="Warning message">
+                <span class="pf-c-alert__title">Conceptual Design</span>
+                <div class="pf-c-alert__description">
+                  <p>This design is a concept that was not and should not be implemented, but is kept here for reference.</p>
+                </div>
               </div>
             {% endif %}
             {% if site.heading_anchors != false %}

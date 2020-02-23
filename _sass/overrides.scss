@@ -15,31 +15,7 @@ h4 {
 
 figure {
   position: relative;
-}
-
-.concept-disclaimer {
-  background-color: #fff8f8;
-  border: 1px solid #880000;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-.concept-disclaimer p {
-  margin-bottom: .3rem;
-  font-size: 1rem;
-  color: #8e0000;
-}
-
-span.concept-heading {
-  font-size: 1.5rem;
-  color: #a70000;
-}
-
-.concept-disclaimer {
-  background-color: #fff8f8;
-  border: 1px solid #880000;
-  border-radius: 5px;
-  padding: 10px;
+  margin-bottom: 1em;
 }
 
 .navigation {
@@ -179,6 +155,24 @@ figure > a:hover {
   content: none;
 }
 
+/* ALERTS */
+
+.pf-c-alert {
+  border: solid 1px #ededed;
+  display: block;
+  border-left: 3px solid #c9190b;
+}
+
+.pf-c-alert__title {
+  font-weight: 500;
+  color: #a30000;
+  padding: 16px 16px 8px 16px;
+  display: block;
+}
+
+.pf-c-alert__description {
+  padding: 0px 16px;
+}
 .search-icon {
   width: auto;
   height: 18px;
