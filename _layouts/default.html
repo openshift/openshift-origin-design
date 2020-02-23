@@ -93,16 +93,8 @@ layout: table_wrappers
               {{ content }}
             {% endif %}
 
-            <!-- Forgotten designs -->
-            {% if page.title == "Designs" %}
-              {%- assign pages_list = site.pages | sort:"title" -%}
-              {%- for page in pages_list -%}
-                {%- if page.parent == "" -%}
-                  <a href="{{ node.url | absolute_url }}">
-                {%- endif -%}
-              {%- endfor -%}
-            {%- endif -%}
-
+            <!-- Orphaned designs -->
+            <!--
             {% if page.title == "Designs" %}
               {%- assign pages_list = site.html_pages | where_exp: "item","item.error_page != true" | sort:"title" -%}
               {%- for node in pages_list -%}
