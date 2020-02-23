@@ -173,7 +173,25 @@ figure > a:hover {
 .pf-c-alert__description {
   padding: 0px 16px;
 }
-.search-icon {
+
+/* Navigation hacks please no judging */
+
+.navigation-list > *:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+.navigation-list > *:nth-child(3) {
+  margin-bottom: 10px;
+}
+
+.navigation-list > .navigation-list-item:nth-child(2) .navigation-list-item:nth-child(5)::after {
+  content: "";
+  display: block;
+  width: 40%;
+  padding-top: 2px;
+  border-bottom: 1px solid #c5c5c5;
+  margin-bottom: 2px;
+}.search-icon {
   width: auto;
   height: 18px;
 }

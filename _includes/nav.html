@@ -1,6 +1,6 @@
 <nav role="navigation" aria-label="Main navigation">
   <ul class="navigation-list">
-    {%- assign pages_list = site.html_pages | where_exp: "item","item.has_children == true" | sort:"nav_order" -%}
+    {%- assign pages_list = site.html_pages | where_exp: "item","item.nav_order != nil" | sort:"nav_order" -%}
     {%- for node in pages_list -%}
       {%- unless node.nav_exclude -%}
         {%- if node.parent == nil -%}
@@ -20,9 +20,9 @@
 
             {%- if node.has_children -%}
               {%- if node.title == "Releases" -%}
-                {%- assign nav_children_list = site.html_pages | where: "parent", node.title | sort:"title", "last" | reverse -%}
+                {%- assign nav_children_list = site.html_pages | where: "parent", node.title | sort:"title", "last" | reverse | sort:"nav_order" -%}
               {%- else -%}
-                {%- assign nav_children_list = site.html_pages | where: "parent", node.title | sort:"title" -%}
+                {%- assign nav_children_list = site.html_pages | where: "parent", node.title | sort:"title" | sort:"nav_order" -%}
               {%- endif -%}
               <ul class="navigation-list-child-list ">
                 {%- for child in nav_children_list -%}
