@@ -1,6 +1,6 @@
 ---
 parent: Designs
-has_children: false
+include_designs_by_version: false
 ---
 
 # Developer
