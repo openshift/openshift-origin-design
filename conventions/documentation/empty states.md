@@ -1,6 +1,5 @@
 ---
-name: Empty states
-menu: Views
+parent: Conventions
 ---
 
 # Empty states

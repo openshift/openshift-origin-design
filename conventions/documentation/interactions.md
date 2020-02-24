@@ -1,6 +1,5 @@
 ---
-name: Navigation interactions
-menu: Navigation
+parent: Conventions
 ---
 
 # Navigation interactions

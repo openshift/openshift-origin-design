@@ -1,6 +1,5 @@
 ---
-name: Editing
-menu: User editing
+parent: Conventions
 ---
 
 # Editing

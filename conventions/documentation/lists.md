@@ -1,6 +1,5 @@
 ---
-name: Lists
-menu: Views
+parent: Conventions
 ---
 
 # Lists

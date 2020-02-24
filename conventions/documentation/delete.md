@@ -1,6 +1,5 @@
 ---
-name: Deleting
-menu: User editing
+parent: Conventions
 ---
 
 # Deleting

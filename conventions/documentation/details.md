@@ -1,13 +1,12 @@
 ---
-name: Resource details
-menu: Views
+parent: Conventions
 ---
 
 # Resource details
 
 ## Details pages & tabs
 
-A resource is an object in the system: Kubernetes objects (Containers, Pods, Deployments, etc), custom objects in OpenShift (Projects), or custom resources created by an installed Operator (Alerting rule). As a general rule, creating a custom object that is an abstraction or expansion of a Kubernetes concept can be confusing and is advised against (for example Projects as an abstraction of Namespaces).
+A resource is an object in the system: Kubernetes objects (Containers, Pods, Deployments, etc), custom objects in Openshift (Projects), or custom resources created by an installed Operator (Alerting rule). As a general rule, creating a custom object that is an abstraction or expansion of a Kubernetes concept can be confusing and is advised against (for example Projects as an abstraction of Namespaces).
 
 Tabs are generally used to segment content: details and meta information about the resource, configurations, related settings, related objects, and child objects.
 

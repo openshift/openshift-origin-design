@@ -1,6 +1,5 @@
 ---
 parent: Conventions
-version: 4.2
 ---
 
 # Badges
@@ -47,7 +46,7 @@ Dev variables can be seen [here](https://github.com/openshift/console/blob/8334a
 
 ## Status badges
 
-A status badge is a PatternFly badge that includes both a status icon and status label. It can be placed next to the title of a Details page to allow the user to see the status of a resource regardless of which tab is selected.
+A status badge is a Patternfly badge that includes both a status icon and status label which can be used on a details view title.  Having a status badge in the details view title allows the user to see the status of the resource in context, regardless of which tab is selected.
 To view status badges in the [OpenShift Sketch Library](https://sketch.cloud/s/mwdww) visit the symbols page [here](https://sketch.cloud/s/mwdww/p/symbols).
 
 

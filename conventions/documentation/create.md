@@ -1,6 +1,5 @@
 ---
-name: Creating
-menu: User editing
+parent: Conventions
 ---
 
 # Creating
