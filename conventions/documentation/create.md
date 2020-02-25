@@ -1,6 +1,5 @@
 ---
 parent: Conventions
-version: 4.2
 ---
 
 # Creating
@@ -12,7 +11,7 @@ version: 4.2
 + If multiple creation types exists, the primary create button changes to **Create** and includes a dropdown to present the options
 + When creating a resource from the summary table view page, the create resource form/yaml is presented in-page
 + If creating a resource from another context, such as the topology view, these forms can be surfaced in a modal
-+ Resources should have samples available on creation. When first viewing the form, the sample panel should be closed by default. When first viewing the YAML creation, the sample panel should be open by default. 
++ Resources should have samples available on creation. When first viewing the form, the sample panel should be closed by default. When first viewing the YAML creation, the sample panel should be open by default.
 
 ---
 

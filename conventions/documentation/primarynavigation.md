@@ -1,13 +1,13 @@
 ---
 parent: Conventions
-version: 4.2
 ---
 
 # Primary navigation
+To view primary navigation in the [OpenShift Sketch Library](https://sketch.cloud/s/mwdww) visit the navigation designs page [here](https://sketch.cloud/s/mwdww/p/nav-items).
 
 ## Perspectives
 
-OpenShift has different perspectives for "administrator" and "developer." These perspectives change the navigation list accordingly to show only relevant pages.
+OpenShift has different perspectives for "administrator" and "developer". These perspectives change the navigation list accordingly to show only relevant pages.
 
 ![Perspective switcher](../images/navigation-perspectives.png)
 
@@ -38,10 +38,3 @@ Certain operators, when installed, have the ability to create new navigation ite
 *Condensed:*
 
 ![Masthead mobile](../images/navigation-masthead-mobile.png)
-
-
-
-
-
-
-
