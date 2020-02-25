@@ -4,6 +4,8 @@ parent: Conventions
 
 # Empty states
 
+Note: This convention hasn't been implemented in code across the Console yet, but all new designs should still follow these guidelines.
+
 ## Default empty states
 
 ### When there are no workloads
