@@ -1,7 +1,7 @@
---
+---
 parent: Research
 
---
+---
 # Investigating OpenShift Alerts
 
 *Note: this is an article about a research activity on how users interact with Alertmanager alerts within OpenShift. If you're looking for documentation about Alertmanager alerts, please go to [this link.](https://prometheus.io/docs/alerting/alertmanager/)*
@@ -18,7 +18,7 @@ We used an online survey platform, *Qualtrics*, to implement our study. The surv
 
 Unlike many applications and software, OpenShift is often deployed 'on-premise' so that standard product analytics are not possible to collect. This poses a unique challenge to assessing user behavior in OpenShift. To get around this, we implemented a [first-click test](https://www.usability.gov/how-to-and-tools/methods/first-click-testing.html) where users clicked on a web console overview dashboard screenshot. This allowed us to have some behavioral assessment on their strategy for resolving each alert. This first-click component occurred after each confidence rating with the same alert and allowed for an open response to describe why they clicked the area they did.
 
-![](img/1-KubePodNotReady.png)
+![](img/1_KubePodNotReady.png)
 
 ## Participants
 
@@ -125,7 +125,7 @@ Alert confidence varies widely among users, but it's often related to lack of ex
 ### Alerts used in this study
 
 - **KubePodNotReady** Pod myproject/frontend-1 has been in a non-ready state for longer than 15 minutes.
-- **KubeDeploymentReplicasMismatch Deployment** myproject/frontend-1 has not matched the expected number of replicas for longer than 15 minutes. 
+- **KubeDeploymentReplicasMismatch Deployment** myproject/frontend-1 has not matched the expected number of replicas for longer than 15 minutes.
 - **KubeAPIErrorsHigh** API server is returning errors for 90% of requests.
 - **MachineWithNoRunningPhase**  machine worker-us-east-1a is in unknown phase
 - **TargetDown** 50% of the job distributor targets in myproject namespace are down.
