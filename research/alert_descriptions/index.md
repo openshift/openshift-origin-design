@@ -8,7 +8,7 @@ parent: Research
 
 ## Introduction
 
-Monitoring is a critical aspect of architecting and maintaining a successful OpenShift environment. One of the most common ways a user interacts with monitoring is through an alert, which can help direct the user's attention to the problem and, hopefully, how to resolve it. Our user experience design research team conducted a mixed-methods, online study with 89 internal OpenShift users and 14 OpenShift customers to explore (a) **what makes an alert useful** and (b) **what a user typically does after seeing an alert**. This information helped evaluate the current state of OpenShift alerts and guide what design changes in the web console could better support our users.
+Monitoring is a critical aspect of architecting and maintaining a successful OpenShift environment. One of the most common ways a user interacts with monitoring is through an alert, which can help direct the user's attention to the problem and, hopefully, how to resolve it. Our user experience design research team conducted a mixed-methods, online study with 89 internal OpenShift users and 14 OpenShift customers to explore (a) **what makes a cluster alert useful** and (b) **what a user typically does after seeing an alert**. This information helped evaluate the current state of OpenShift cluster alerts and guide what design changes in the web console could better support our users in cluster administration.
 
 ## Research Plan
 
@@ -32,7 +32,9 @@ The bulk of participants' version experience was with 3.x versions, but there we
 
 ## Results
 
-Our study, being mixed-methods, often identified problematic alerts and interesting click behaviors through numerical analysis. However, the context and *why* of these observations is gathered through qualitative data and thematic analysis. We collected 246 comments and thematically coded the responses to uncover any patterns that were present. These qualitative and quantitative components are interspersed below to reach our conclusions.
+We identified problematic alerts and interesting click behaviors through numerical analysis. Plots and quantitative analyses were conducted in R using `tidyverse` and `lmerTest`. The repository for those analyses can be found [here](https://github.com/carljpearson/openshift_alerting), alongside more detailed plots.
+
+Using a mixed-methods approach, the context and *why* of these observations were gathered through qualitative data and thematic analysis. We collected 246 comments and thematically coded the responses to uncover any patterns that were present. These qualitative and quantitative components are interspersed below to reach our conclusions.
 
 ### Confidence
 
@@ -52,9 +54,9 @@ It was unclear what was driving some alerts to be statistically higher while als
 
 **"[In "View Details"] I would hope to find info on what a job distributor is."**
 
-This is corraborated by statistically lower alerts for some resource types (generally non-`pod` resources). While the OpenShift team does not have control over vanilla Alertmanager alerts, we could take special care in our web console for a specific subset of resources and set our users up for faster success in resolving an alert.
+This is corroborated by statistically lower alerts for some resource types (generally non-`pod` resources). While the OpenShift team does not have control over vanilla Alertmanager alerts, we could take special care in our web console for a specific subset of resources and set our users up for faster success in resolving an alert.
 
-Outside of general OpenShift or resource-related experience levels, many comments indicated what makes an alert *not* useful. The *root cause* theme came up when participant indicated they wanted to be taken to the root cause of the issue or that it was unclear what is causing the issue.
+Outside of general OpenShift or resource-related experience levels, many comments indicated what makes an alert *not* useful. The *root cause* theme came up when participants indicated they wanted to be taken to the root cause of the issue or that it was unclear what is causing the issue.
 
 *Quote from participant*
 
@@ -94,7 +96,7 @@ In one major theme, "*knowing where to go*", participants indicated that they kn
 
 **"I don't need further details, I want to see more info on the specific pods"**
 
-After mapping out where the comments came from that fit with this theme, every single comment came from one of these alerts where 'View Details' was significantly less likely to be clicked. These data give some evidence that 'View Details' is the default place to go, *unless* the user already knows what they want to do. The user that goes to 'View Details' is likely to be someone who does not know where they want to go next to resolve the alert. This novel insight gave next steps to consider in our design the of 'View Details' page. What does the 'View Details' page currently looks like?
+After mapping out where the comments came from that fit with this theme, every single comment came from one of these alerts where 'View Details' was significantly less likely to be clicked. These data give some evidence that 'View Details' is the default place to go, *unless* the user already knows what they want to do. The user that goes to 'View Details' is likely to be someone who does not know where they want to go next to resolve the alert. This novel insight gave next steps to consider in our design of the 'View Details' page. What does the 'View Details' page currently look like?
 
 *'View Details' page*
 
@@ -135,7 +137,3 @@ Alert confidence varies widely among users, but it's often related to lack of ex
 - **CPUThrottlingHigh**  50% throttling of CPU in namespace myproject for container nodejs in pod nodejs-2.
 - **etcdHighCommitDurations** etcd cluster "etcd": 99th percentile commit durations 100s on etcd instance cluster-health.
 - **ClusterOperatorDegraded** Cluster operator insights has been degraded for 10 mins. Operator is degraded because Unable to report: gateway server reported unexpected error code: 415, and cluster upgrades will be unstable.
-
-### Analysis
-
-Plots and quanititative analyses were conducted in R using `tidyverse` and `lmerTest`. The repository for those analyses can be found [here](https://github.com/carljpearson/openshift_alerting), alongside more detailed plots.
