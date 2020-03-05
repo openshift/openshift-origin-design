@@ -11,7 +11,7 @@ Since this interaction is shared between the admin and dev consoles, they will b
 
 Some resources do not support form editing yet in which case the creation and editing for those resources would be similar to the existing YAML-only behavior with no radio controls to switch to form.
 
-Note: The footer (Create/Cancel buttons) is intended to always appear on the screen in either the YAML or Form views, in a sticky footer. There is a current dev console story intending to make this change for the form view.
+Note: The footer (**Create** and **Cancel** buttons) is intended to always appear on the screen in either the YAML or Form views, in a sticky footer. There is a current dev console story intending to make this change for the form view.
 
 ## Creating Operands in Admin Console
 
@@ -29,7 +29,7 @@ Note: The footer (Create/Cancel buttons) is intended to always appear on the scr
 ## Editing Operands in Admin Console
 
 ![Operand edit YAML](img/2-2-editOperand-yaml.png)
-- Editing an operand still occurs in the **YAML** tab in the details view, though now the view switching interaction is present in the tab as well.
+- Editing an operand still occurs in the **YAML** tab in the details view of the operand, though now the view switching interaction is present in the tab as well.
 - The user can freely switch between the two views and **Save**, **Reload**, and **Cancel** as needed.
 - The YAML view is defaulted to to remain consistant with existing user expectations, and allow for easy reference of YAML that might not be reflected in the form view (Statuses, etc.)
 
