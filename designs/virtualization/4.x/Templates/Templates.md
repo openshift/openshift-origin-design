@@ -35,7 +35,7 @@ they will get to the first page of the wizard (note that the template field is r
 They will get a list of templates to select from.
 ![List of all the Templates](img/ListOfTemplates.png)
 
-In case a user selects a template that has required fields that are missing, these fields will be popped out and the 'create VM' button will become disabled until they are edited.
+In case a user selects a template that has required fields that are missing, users will be notified about that via a notification. These fields will be popped out and the 'create VM' button will become disabled until they are edited.
 
 ![If a required field is missing](img/RequiredFieldsMissing.png)
 
