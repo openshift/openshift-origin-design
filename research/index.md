@@ -5,4 +5,4 @@ nav_order: 4
 
 # Research
 
-Our OpenShift-related research findings will be included here in the future.
+Select an item to view a research project.
