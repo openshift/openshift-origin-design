@@ -34,7 +34,7 @@ parent: Conventions
 
 ## Creating from a form
 
-*Some resource types can be created with a form (as the dault) with an option to edit the YAML. After the resource is created, the user is automatically navigated to the created resource.*
+*Some resource types can be created with a form (as the default) with an option to edit the YAML. After the resource is created, the user is automatically navigated to the created resource.*
 ![import YAML](../images/create-form1.png)
 ![import YAML](../images/create-form2.png)
 ![import YAML](../images/create-form3.png)
