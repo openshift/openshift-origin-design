@@ -42,7 +42,7 @@ The following section documents the 4.3 OpenShift Console Developer experience, 
 - [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipeline-42/pipelines)
 - [Project Access](https://openshift.github.io/openshift-origin-design/designs/developer/project-access-43/)
 - [Project Details](https://openshift.github.io/openshift-origin-design/designs/developer/project-access-43/)
-- [Topology](https://openshift.github.io/openshift-origin-design/designs/developer/add-43/)
+- [Topology](https://openshift.github.io/openshift-origin-design/designs/developer/topology-43/)
 
 ### Operator enhanced user flows
 - [OpenShift Pipelines Operator](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipeline-42/)
