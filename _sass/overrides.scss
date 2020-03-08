@@ -159,19 +159,23 @@ figure > a:hover {
 
 .pf-c-alert {
   border: solid 1px #ededed;
-  display: block;
-  border-left: 3px solid #c9190b;
+  display: flex;
+  border-left: 3px solid #f0ab00;
 }
 
 .pf-c-alert__title {
   font-weight: 500;
-  color: #a30000;
+  color: #795600;
   padding: 16px 16px 8px 16px;
   display: block;
 }
 
 .pf-c-alert__description {
   padding: 0px 16px;
+}
+
+.pf-c-alert__icon {
+  padding: 16px 0px 16px 16px;
 }
 
 /* Navigation hacks please no judging */
