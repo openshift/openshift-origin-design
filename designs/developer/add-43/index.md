@@ -2,7 +2,6 @@
 parent: Developer
 version: 4.3
 ---
-
 # Add page
 
 Add is a primary navigation item in the OpenShift Developer perspective.
@@ -17,30 +16,37 @@ The basic visuals and behavior of this card view is consistent with that of the 
 There are 6 Add Flows for adding an application, component or service. Each flow has different subsections.
 
 ### From Git
-Design documentation for the From Git scenario when creating a source secret can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/From-Git/Import-from-git)
+Use this option to import an existing codebase in a Git repository to create, build, and deploy an application on OpenShift.
+Detailed design documentation for the **From Git** can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add-43/From-Git-43/Import-from-git-43)
 
 ### Container Image
-Design documentation for the Container Image git can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/Container-Image/Deploy-Image)
+Use existing images from an image stream or registry to deploy it on to OpenShift.
+Design documentation for the **Container Image** can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/Container-Image-43/Deploy-Image-43)
 
 ### From Catalog
-Design documentation for the items From Catalog can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/From-Catalog/Add-from-catalog)
+Explore the Developer Catalog to select the required applications, services, or source to image builders and add it to your project.
+Design documentation for the items **From Catalog** can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/From-Catalog/Add-from-catalog)
 
 ### From Dockerfile
-Design documentation for the From Dockerfile can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/From-Dockerfile/Import-from-Dockerfile)
+Import a dockerfile from your Git repository to build and deploy an application.
+Design documentation for the **From Dockerfile** can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/From-Dockerfile-43/Import-from-Dockerfile-43)
 
 ### YAML
+Use the editor to add YAML or JSON definitions to create and modify resources.
 When clicking on YAML, Add remains selected in the navigation.  The secondary masthead is shown with the selected project, and the YAML editor is displayed.
 
 ![Import YAML](https://openshift.github.io/openshift-origin-design/designs/developer/add/img/import-yaml.png)
 
 ### Database
-Design documentation for the Database is still tbd
+See the Developer Catalog to select the required database service and add it to your application.
+Design documentation for the **Database** is still tbd
 
 ## Common Sections to Add Flows
 Add flows have dynamic sections that are displayed when appropriate for the flow:
 
 ### General
-Design documentation for the General section can be found[here](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/General-Section)
+Design documentation for the General section can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/General-Section)
+
 
 ### Resources
 Documentation about this section can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add-43/sections/resources/resources)
