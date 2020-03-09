@@ -23,6 +23,7 @@ The following section documents the 4.4 OpenShift Console Developer experience, 
 ### Main Pages
 - [+Add](https://openshift.github.io/openshift-origin-design/designs/developer/add-44/)
 - [Builds](https://openshift.github.io/openshift-origin-design/designs/developer/builds/)
+- [Monitoring](https://openshift.github.io/openshift-origin-design/designs/developer/monitoring-44/)
 - [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipeline-42/pipelines)
 - [Project Access](https://openshift.github.io/openshift-origin-design/designs/developer/project-access-43/)
 - [Topology](https://openshift.github.io/openshift-origin-design/designs/developer/topology-44/)
