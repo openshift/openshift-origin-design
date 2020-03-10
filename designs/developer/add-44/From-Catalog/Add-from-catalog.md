@@ -24,15 +24,15 @@ Operators can expose items in the developer catalog for consumption by the devel
 
 Operator backed services have a "Operator Backed" badge on them.  The icon on the card represents its associated operator.  If that icon isn't available then the OLM icon will be displayed.
 
-Design documentation for creating operator backed services can be found [here](From-Catalog/Catalog-OperatorBackedService)
+Design documentation for creating operator backed services can be found [here](Catalog-OperatorBackedService)
 
 
 ## Install Helm Charts
 Cards which are of type Helm Chart have a "Helm Chart" badge on them.  The icon on the card represents the Helm Chart type.  If that icon isn't available then the Helm icon will be displayed.
 
-Design documentation for installing helm charts can be found [here](From-Catalog/Catalog-HelmChart)
+Design documentation for installing helm charts can be found [here](Catalog-HelmChart)
 
 ## Adding Builder Images
-Design documentation for the items From Catalog can be found [here](From-Catalog/Create-Source-to-image-application)
+Design documentation for the items From Catalog can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/From-Catalog/Create-Source-to-image-application)
 
 ## Create Applications with Templates
