@@ -223,7 +223,7 @@ Once confirmed, the component node becomes a part of the new application group a
 
 ### 2. Actions For Application Groups
 
-#### [Collapse Application Groups](/Users/vemishra/openshift-origin-design/designs/developer/topology-44/topology-grouping.md)
+#### [Collapse Application Groups](openshift-origin-design/designs/developer/topology-44/topology-grouping.md)
 #### Delete Application Group
 
 
@@ -286,11 +286,11 @@ On clicking the icon, a delete confirmation is displayed. Or, select the connect
 
 ### 4. Other Actions
 
-#### [Find components on topology view](/Users/vemishra/openshift-origin-design/designs/developer/topology-44/topology-find.md)
+#### [Find components on topology view](openshift-origin-design/designs/developer/topology-44/topology-find.md)
 
-#### [Filter the view in topology](/Users/vemishra/openshift-origin-design/designs/developer/topology-44/topology-filter.md)
+#### [Filter the view in topology](openshift-origin-design/designs/developer/topology-44/topology-filter.md)
 
-#### [Add components from topology view](/Users/vemishra/openshift-origin-design/designs/developer/topology-44/topology-in-context-add.md)
+#### [Add components from topology view](openshift-origin-design/designs/developer/topology-44/topology-in-context-add.md)
 
 
 
