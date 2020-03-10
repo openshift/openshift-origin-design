@@ -29,7 +29,7 @@ The following section documents the 4.4 OpenShift Console Developer experience, 
 - [Topology](https://openshift.github.io/openshift-origin-design/designs/developer/topology-44/)
 
 ### Operator enhanced user flows
-- [OpenShift Pipelines Operator](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipeline-42/)
+- [OpenShift Pipelines Operator](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipeline-44/)
 - [OpenShift Serverless Operator](https://openshift.github.io/openshift-origin-design/designs/developer/operator-serverless-44/)
 
 To view a list of individual items which were updated in 4.4, click [here](https://openshift.github.io/openshift-origin-design/releases/4.4/)

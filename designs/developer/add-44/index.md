@@ -25,7 +25,7 @@ Design documentation for the **Container Image** can be found [here](https://ope
 
 ### From Catalog
 Explore the Developer Catalog to select the required applications, services, or source to image builders and add it to your project.
-Design documentation for the items **From Catalog** can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/From-Catalog/Add-from-catalog)
+Design documentation for the items **From Catalog** can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add-44/From-Catalog/Add-from-catalog)
 
 ### From Dockerfile
 Import a dockerfile from your Git repository to build and deploy an application.
@@ -47,7 +47,6 @@ Add flows have dynamic sections that are displayed when appropriate for the flow
 ### General
 Design documentation for the General section can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/General-Section)
 
-
 ### Resources
 Documentation about this section can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add-43/sections/resources/resources)
 
@@ -62,4 +61,3 @@ There are a number of Advanced Options which are available, based on the flow:
 - [Scaling](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Scaling)
 - [Resource Limits](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Resource-Limits)
 - [Labels](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Labels)
-
