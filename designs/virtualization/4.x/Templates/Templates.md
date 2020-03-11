@@ -5,42 +5,53 @@
 Removing the tab ‘Virtual Machine Templates’ from the side navigation and combining it with ‘Virtual Machines’, so both are located under ‘Virtualization’.
 This PR will focus on how users can create a VM when they choose a to create a VM from a Template.
 
-### Virtual Machines Tab
-
-![VMsTabs](img/VMsTabs.png)
-
 ### Virtual Machine Templates Tab
 
-![TemplatesTab](img/Templatestabs.png)
+From the Virtualization left nav item the user goes to the Virtual Machine Templates Tab where they can see the full list of templates.
+From this point, we suggest 2 options to create a VM:
 
-If a user wants to create a Virtual Machine, there are 4 options to do it from the drop down menu of the create Virtual Machines dropdown:
+- Create VM from the selected templated via an action from the kebab menu
 
-- Create custom
-- Create from template
-- Import
-- Create from YAML
+![TemplatesTabOp1](img/TemplatesTabsOp1.png)
 
-#### If they choose to create a custom VM
+- Create VM from the selected templated via an action from the kebab menu and also allow an action link
 
-![SelectingCustomFromDropdown](img/Dropdown_CreateCustom.png)
+![TemplatesTabOp2](img/TemplatesTabsOp2.png)
 
-they will get to the first page of the wizard (note that the template field is removed now)
+Both options will open a modal where the user will need to provide a name for the VM they want to create.
+Users can click the button link ‘View Template details’ to view the Template details page.
+Clicking the secondary button ‘Edit and Create’ will allow them to edit the template before they create the VM.
 
-![CustomWizard](img/Custom_wizard.png)
+![ModalToProvideName](img/NoMissingInfo.png)
 
-#### If they choose to create a VM from a Template
+In case a user selects a template that has required info missing, they will be taken to the wizard to edit the details and then create the VM. An inline alert will be shown and indicate which info is missing.
 
-![SelectingTemplateFromDropdown](img/Dropdown_CreateTemplate.png)
-
-They will get a list of templates to select from.
-![List of all the Templates](img/ListOfTemplates.png)
-
-In case a user selects a template that has required fields that are missing, users will be notified about that via a notification. These fields will be popped out and the 'create VM' button will become disabled until they are edited.
-
-![If a required field is missing](img/RequiredFieldsMissing.png)
-
-Missing fields as well as a name are required to create a VM so users will need to fill these fields in order to proceed.
-
-![Editing the missing info](img/AddingName.png)
+![Back to wizard to complete info](img/Step-1-basic-template-3.png)
 
 Once completed the user will be able to create the VM.
+
+![Requiredinfocompleted](img/CompletesReqiredInfo.png)
+
+### Virtual Machine Tab
+
+From the Virtualization left nav item the user goes to the Virtual Machines Tab and from the dropdown selects the option to create a VM from Template.
+
+![User selects to create VM from template](img/Dropdown_CreateTemplate.png)
+
+They will get to the list of Templates where they can select a template to create the VM from.
+
+![Listoftemplates](img/ListofTemplates.png)
+
+Users need to provide a name before they can create the VM. The same as in the Virtual Machine Templates Tab, they can click the button link ‘View Template details’ to view the Template details page. 
+Clicking the secondary button ‘Edit and Create’ will allow them to edit the template before they create the VM.
+
+![ProvideNameModal](img/TemplatesListBGProvideNameModal.png)
+
+The same as in the Virtual Machine Templates Tab, in case a user selects a template that has required info missing, they will be taken to the wizard to edit the details and then create the VM.
+An inline alert will be shown and indicate which info is missing.
+
+![Back to wizard to complete info](img/Step-1-basic-template-3.png)
+
+Same here, once completed the user will be able to create the VM.
+
+![Requiredinfocompleted](img/CompletesReqiredInfo.png)
