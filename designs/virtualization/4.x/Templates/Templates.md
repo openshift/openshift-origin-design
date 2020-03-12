@@ -24,7 +24,7 @@ Clicking the secondary button ‘Edit and Create’ will allow them to edit the 
 
 ![ModalToProvideName](img/NoMissingInfo.png)
 
-In case a user selects a template that has required info missing, they will be taken to the wizard to edit the details and then create the VM. An inline alert will be shown and indicate which info is missing.
+In case a user selects a template that has required info missing, they will be taken to the wizard to edit the details and then create the VM. An inline alert will be shown and indicate via a clickable link which info is missing and where it is located so by clicking it the user can quickly complete the required info.
 
 ![Back to wizard to complete info](img/Step-1-basic-template-3.png)
 
