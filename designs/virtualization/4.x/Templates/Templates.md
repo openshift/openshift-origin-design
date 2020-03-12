@@ -10,16 +10,16 @@ This PR will focus on how users can create a VM when they choose a to create a V
 From the Virtualization left nav item the user goes to the Virtual Machine Templates Tab where they can see the full list of templates.
 From this point, we suggest 2 options to create a VM:
 
-- Create VM from the selected templated via an action from the kebab menu
+- Create template via an action from the kebab menu
 
 ![TemplatesTabOp1](img/TemplatesTabsOp1.png)
 
-- Create VM from the selected templated via an action from the kebab menu and also allow an action link
+- Create template via an action from the kebab menu and also allow an action link
 
 ![TemplatesTabOp2](img/TemplatesTabsOp2.png)
 
 Both options will open a modal where the user will need to provide a name for the VM they want to create.
-Users can click the button link ‘View Template details’ to view the Template details page.
+Users can click the button external link ‘View Template details’ to view the Template details page, so they don't exit the modal.
 Clicking the secondary button ‘Edit and Create’ will allow them to edit the template before they create the VM.
 
 ![ModalToProvideName](img/NoMissingInfo.png)
