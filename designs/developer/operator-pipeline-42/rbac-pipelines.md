@@ -1,4 +1,4 @@
-# Pipeline experiences when user has view only access of a project#
+# Pipeline experiences when user has view only access of a project
 
  _user cannot add, edit and delete any annotations, labels, parameter, and resources & user cannot start, stop, restart, edit and delete any pipeline tasks of a project when user has view access to that project_
 

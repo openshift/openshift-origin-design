@@ -38,17 +38,17 @@ If a status has a recommended icon, show the status with both the icon and the a
 
 Note: Icons should never be animated in a list view.
 
-#### Icon Colors
+### Icon Colors
 * **pficon-ok**: pf-green-400 #3F9C35
 * **pficon-error-circle-o**: pf-red-100 #CC0000
 * **pficon-warning-triangle-o**: pf-orange-400 #EC7A08
 * **All other icons**: pf-black-900 #292E34
 
-#### Spacing
+### Spacing
 * Dependent on context and element sizes
 * Icon and text should never touch
 
-#### Text
+### Text
 * [Sentence style](https://www.patternfly.org/styles/terminology-and-wording/)
   * In cases where a status is a reason string condition, the status may remain in camel case with no spaces.
 * [Color](https://www.patternfly.org/styles/color-palette/)

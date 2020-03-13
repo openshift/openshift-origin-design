@@ -42,13 +42,13 @@ layout: table_wrappers
         {% endif %}
       </footer>
     </div>
-    <div class="main-content-wrap js-main-content" tabindex="0">
+    <div class="main-content-wrap js-main-content">
       <div class="main-content">
         <div class="page-header js-page-header">
           {% if site.search_enabled != false %}
           <div class="search">
             <div class="search-input-wrap">
-              <input type="text" class="js-search-input search-input" tabindex="0" placeholder="Search" aria-label="Search" autocomplete="off">
+              <input type="text" class="js-search-input search-input" placeholder="Search" aria-label="Search" autocomplete="off">
               <svg width="14" height="14" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" class="search-icon"><title>Search</title><g fill-rule="nonzero"><path d="M17.332 20.735c-5.537 0-10-4.6-10-10.247 0-5.646 4.463-10.247 10-10.247 5.536 0 10 4.601 10 10.247s-4.464 10.247-10 10.247zm0-4c3.3 0 6-2.783 6-6.247 0-3.463-2.7-6.247-6-6.247s-6 2.784-6 6.247c0 3.464 2.7 6.247 6 6.247z"/><path d="M11.672 13.791L.192 25.271 3.02 28.1 14.5 16.62z"/></g></svg>
             </div>
             <div class="js-search-results search-results-wrap"></div>
@@ -80,9 +80,14 @@ layout: table_wrappers
           {% endunless %}
           <div id="main-content" class="page-content" role="main">
             {% if page.parent == "Concepts" %}
-              <div class="concept-disclaimer">
-                <span class="concept-heading">Conceptual Design</span>
-                <p>This design is a concept that was not and should not be implemented, but is kept here for reference.</p>
+              <div class="pf-c-alert pf-m-warning pf-m-inline" aria-label="Warning message">
+                <div class="pf-c-alert__icon"><svg fill="#f0ab00" height="1em" width="1em" viewBox="0 0 576 512" aria-hidden="true" role="img" style="vertical-align: -0.125em;"><path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z" transform=""></path></svg></div>
+                <div class="pf-c-alert__body">
+                  <span class="pf-c-alert__title">Conceptual Design</span>
+                  <div class="pf-c-alert__description">
+                    <p>This design is a concept that was not and should not be implemented. <a href="{{ site.baseurl | append: 'designs/concepts/' }}">Learn more</a></p>
+                  </div>
+                </div>
               </div>
             {% endif %}
             {% if site.heading_anchors != false %}
@@ -91,16 +96,8 @@ layout: table_wrappers
               {{ content }}
             {% endif %}
 
-            <!-- Forgotten designs -->
-            {% if page.title == "Designs" %}
-              {%- assign pages_list = site.pages | sort:"title" -%}
-              {%- for page in pages_list -%}
-                {%- if page.parent == "" -%}
-                  <a href="{{ node.url | absolute_url }}">
-                {%- endif -%}
-              {%- endfor -%}
-            {%- endif -%}
-
+            <!-- Orphaned designs -->
+            <!--
             {% if page.title == "Designs" %}
               {%- assign pages_list = site.html_pages | where_exp: "item","item.error_page != true" | sort:"title" -%}
               {%- for node in pages_list -%}
@@ -114,34 +111,28 @@ layout: table_wrappers
                 {%- endunless -%}
               {%- endfor -%}
             {%- endif -%}
-
-
-
-
-
-
-
-
-
+            -->
           
           <!-- Designs by version -->
           {% assign versionpage_list = site.pages | where: "parent", page.title | group_by: 'version' | sort: "name" | reverse %}
           {% for ver in versionpage_list %}
-          {% if page.title != "Releases" %}
-            <h2>{{ ver.name }}</h2>
-            <ul>
-          {% endif %}
-                {% assign items = ver.items | sort: 'title' %}
-                {% for item in items %}
-                  {% if item.parent == page.title and item.title != page.title %}
-                    <li>
-                      <a href="{{ item.url | absolute_url }}">{{ item.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
-                    </li>
-                  {% endif %}
-                {% endfor %}
-          {% if page.title != "Releases" %}
-            </ul>
-          {% endif %}
+            {% if page.include_designs_by_version != false %}
+              {% if page.title != "Releases" and page.include_designs_by_version != false %}
+                <h2>{{ ver.name }}</h2>
+                <ul>
+              {% endif %}
+                    {% assign items = ver.items | sort: 'title' %}
+                    {% for item in items %}
+                      {% if item.parent == page.title and item.title != page.title %}
+                        <li>
+                          <a href="{{ item.url | absolute_url }}">{{ item.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+              {% if page.title != "Releases" %}
+                </ul>
+              {% endif %}
+            {% endif %}
           {% endfor %}
           
           <!-- Designs by category -->
@@ -173,7 +164,7 @@ layout: table_wrappers
   </div>
 
   <!-- PhotoSwipe -->
-  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"><!-- Background of PhotoSwipe. It's a separate element as animating opacity is faster than rgba(). --> <div class="pswp__bg"></div><div class="pswp__scroll-wrap"><!-- Container that holds slides. PhotoSwipe keeps only 3 of them in the DOM to save memory. Don't modify these 3 pswp__item elements, data is added later on. --> <div class="pswp__container"> <div class="pswp__item"></div><div class="pswp__item"></div><div class="pswp__item"></div></div><div class="pswp__ui pswp__ui--hidden"> <div class="pswp__top-bar"> <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title="Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button> <div class="pswp__preloader"> <div class="pswp__preloader__icn"> <div class="pswp__preloader__cut"> <div class="pswp__preloader__donut"></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"> <div class="pswp__share-tooltip"></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"> </button> <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"> </button> <div class="pswp__caption"> <div class="pswp__caption__center"></div></div></div></div></div>
+  <div class="pswp" role="dialog" aria-hidden="true"><!-- Background of PhotoSwipe. It's a separate element as animating opacity is faster than rgba(). --> <div class="pswp__bg"></div><div class="pswp__scroll-wrap"><!-- Container that holds slides. PhotoSwipe keeps only 3 of them in the DOM to save memory. Don't modify these 3 pswp__item elements, data is added later on. --> <div class="pswp__container"> <div class="pswp__item"></div><div class="pswp__item"></div><div class="pswp__item"></div></div><div class="pswp__ui pswp__ui--hidden"> <div class="pswp__top-bar"> <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title="Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button> <div class="pswp__preloader"> <div class="pswp__preloader__icn"> <div class="pswp__preloader__cut"> <div class="pswp__preloader__donut"></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"> <div class="pswp__share-tooltip"></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"> </button> <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"> </button> <div class="pswp__caption"> <div class="pswp__caption__center"></div></div></div></div></div>
   
 </body>
 </html>
