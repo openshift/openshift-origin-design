@@ -12,7 +12,7 @@ These new attributes should be surfaced in OperatorHub so that the admin can fil
 ## OperatorHub Filtering
 
 ![OperatorHub filters](img/1-1-OH-functionality.png)
-- OperatorHub now has two new facet filters, **Infrastructure Features** and **Paid Subscription Required**
+- OperatorHub now has two new facet filters, **Infrastructure Features** and **Paid Subscription**
 - Existing filtering functionality will be used for these new facet filters
 
 ![OperatorHub filters](img/1-2-OHdeets-funcationality.png)
