@@ -15,17 +15,14 @@ This is the “all-projects” view which has been modified to now expose more i
 ![all-projects-view](img/all-projects-view.png)
 
 Clicking into the 2 namespaces field, the popover will appear:
-
 ![popover-all-projects-view](img/popover-all-projects-view.png)
 
 ## Single Project view
 
 For the first example, 3Scale, when a user clicks into an operator that is associated with a single namespace, on the Operator Details page, the Namespace will read Managed Namespace. This is how this view will look on a single-project view.
-
 ![my-project-view](img/my-project-view.png)
 
 When the user selects the 3scale operator, we land on the Operator Details page:
-
 ![3scale-operator-details](img/3scale-operator-details.jpg)
 
 Here is the in-line Managed Namespace field:
@@ -34,7 +31,6 @@ Here is the in-line Managed Namespace field:
 ## Subscription page
 
 On the Subscription page, we’ve updated the copy to say Managed Namespace.
-
 ![3scale-subscription](img/3scale-subscription.png)
 
 ## Select Operator in All Namespaces view
