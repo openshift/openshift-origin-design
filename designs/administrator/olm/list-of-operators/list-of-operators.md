@@ -33,7 +33,7 @@ Here is the in-line Managed Namespace field:
 
 ## Subscription page
 
-On the Subscription page, we’ve updated the copy to say Managed Namespace.
+On the Subscription page, we’ve updated the copy to say Operator Namespace.
 
 ![3scale-subscription](img/3scale-subscription.png)
 
