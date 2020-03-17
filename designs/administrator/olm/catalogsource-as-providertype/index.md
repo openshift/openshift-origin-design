@@ -9,7 +9,7 @@ When a custom CatalogSource is added today, it appears in the “Custom” facet
 
 A new annotation will be added to CatalogSources that allows the creator to specify a display-name of that CatalogSource. This value will appear as the facet in ‘Provider Type’ filter. If a display-name isn’t specified, the actual CatalogSource Name will be used.
 
-The "Custon" provider type will no longer exist going forward, and is instead replaced by each CatalogSource being surfaced uniquely. 
+The "Custom" provider type will no longer exist going forward, and is instead replaced by each CatalogSource being surfaced uniquely. 
 
 ## OperatorHub ‘Provider Type’ filter
 
