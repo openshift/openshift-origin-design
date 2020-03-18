@@ -14,4 +14,5 @@ For example, when a storage operator is uninstalled, perhaps any associated data
 ## Uninstalling operator
 
 ![Cluster dashboard status card message click](img/1-1-header.png)
-- When the operator developer has specified a string in the new 'custom delete message' annotation, a new fixed header of **Operator developer message** appears in the uninstall operator dialog with the string beneath it
+- When the operator developer has specified a string in the new 'custom delete message' annotation, a new fixed header of **Message from operator developer** appears in the uninstall operator dialog with the string beneath it
+- Note: The generic operator uninstall text is updated in this design and would be ideally included in this change.
