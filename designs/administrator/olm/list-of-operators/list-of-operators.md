@@ -43,3 +43,9 @@ In the second example, when a user clicks into the Jaeger Operator they will be 
 
 And here is the cropped CSV details view.
 ![Jaeger-cropped-details](img/Jaeger-cropped-details.jpg)
+
+## Edge case design - What if there are more than 10 namespaces?
+
+In the event that there are more than 10 namespaces for an associated Operator in the Managed Namespace column, the Managed Namespaces should appear in a modal. The PF modal behavior allows for scrolling, so scrolling through the list of Managed Namespaces will suffice for viewing a long list of Managed Namespaces. In this example, we have clicked into the 20 namespaces link associated with the Portworx Operator.
+
+![modal-all-projects-view](img/modal-all-projects-view.jpg)
