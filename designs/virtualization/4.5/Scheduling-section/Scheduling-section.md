@@ -15,4 +15,4 @@ This section comes right after the Virtual Machine Details section.
 This section contains all the properties that are set from this workload and affect this workload's scheduling.
 The two columns are sorted so the left column is dedicated for label-based kubernetes scheduling policies.
 The right column is dedicated for resources request and management.
-Each field withinthis section will be discussed in a different PR.
+Each field within this section will be discussed in a different PR.
