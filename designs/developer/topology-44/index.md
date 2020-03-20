@@ -222,6 +222,8 @@ On dropping the node, a dialogue box appears to confirm the action of moving Nod
 Once confirmed, the component node becomes a part of the new application group and the group elements rearrange themselves to accommodate the change.Exception: Moving from inside an application group to no group.  
 
 ### 2. Actions For Application Groups
+
+#### [Collapse Application Groups](openshift-origin-design/designs/developer/topology-44/topology-grouping.md)
 #### Delete Application Group
 
 
@@ -280,5 +282,17 @@ When user hovers over or selects a connection, delete button appears.
 ![Hover on arrowhead](../topology-43/img/connection_delete.png)
 
 On clicking the icon, a delete confirmation is displayed. Or, select the connector and hit ‘Delete’ key.
+
+
+### 4. Other Actions
+
+#### [Find components on topology view](openshift-origin-design/designs/developer/topology-44/topology-find.md)
+
+#### [Filter the view in topology](openshift-origin-design/designs/developer/topology-44/topology-filter.md)
+
+#### [Add components from topology view](openshift-origin-design/designs/developer/topology-44/topology-in-context-add.md)
+
+
+
 
 Topology is enhanced when the OpenShift Serverless operator is installed.

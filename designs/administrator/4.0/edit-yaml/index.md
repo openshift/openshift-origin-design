@@ -14,7 +14,7 @@ version: 4.0
   - Download will produce a YAML output for the user to view outside of OpenShift.
   - View Samples will open a panel for resources that have available templates.
 
-#### View Samples
+## View Samples
 ![pic 2c](img/samples.png)
 
 - Some resources have additional YAML samples available for users to paste or download.

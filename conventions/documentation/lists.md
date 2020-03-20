@@ -1,9 +1,10 @@
 ---
 parent: Conventions
-version: 4.2
 ---
 
 # Lists
+
+To view lists in the [OpenShift Sketch Library](https://sketch.cloud/s/mwdww) visit the lists design [here](https://sketch.cloud/s/mwdww/a/xaVaP5).
 
 ## Tables
 
@@ -54,8 +55,3 @@ Display information in tables with up to six columns (and actions/functionality 
 + **Items in list**: events lists are ordered in a timeline with the most recent at the top. Logs lists are ordered with most recent at the bottom.
 + **Errors**: (events only) highlighted in the list with a red outline
 + **End of stream**: shows the end of the list and the time that the oldest events started to stream
-
-
-
-
-
