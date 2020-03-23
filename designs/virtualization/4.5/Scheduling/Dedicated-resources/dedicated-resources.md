@@ -5,7 +5,7 @@ version: 4.5
 
 # Dedicated resources
 
-Enabling dedicated resource for a VM workload.
+Enabling dedicated resources for a VM workload.
 
 ![vm page](img/Dedicated-resources-0-0.jpg)
 'Dedicated resources' requirement is placed in the Scheduling section of the VM details tab. The default is 'No dedicated resources applied'
