@@ -5,7 +5,7 @@ version: 4.5
 
 # Flavor
 
-Displaying the VM flavor (CPU and Memory) in the Scheduling section .
+Displaying the VM flavor (CPU and Memory) in the Scheduling section.
 
 ![vm page flavor medium](img/Flavor-0-0.jpg)
 VM flavor is set on the creation process.
