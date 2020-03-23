@@ -5,7 +5,7 @@ version: 4.5
 
 # VM Tolerations
 
-Mananging VM tolerations for tainted nodes
+Managing VM tolerations for tainted nodes
 
 ![image name](img/Tolerations-0-0.jpg)
 Within the VM page, Details tab, the Tolerations field is placed under the Scheduling section.
