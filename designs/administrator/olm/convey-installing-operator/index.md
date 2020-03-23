@@ -24,7 +24,7 @@ Currently when an operator is installed the user is taken to the **Installed Ope
 ![Installing operator](img/1-2-installing.png)
 - The user would return to the installing screen if the operator is still being installed. 
 - If the operator had completed installing (either successfully or not,) the user would just be taken to the operator details using existing behavior.
-- **Definition of 'operator installing':** **status.phase** is not yet **Succeeded**, only when **InstallWaiting** or **AllRequirementsMet**.
+- **Definition of 'operator installing':** Before CSV's status.phase reaches "Succeeded"
 
 ![Installing operator complete](img/1-3-complete.png)
 - When installation completes successfully, the user has the ability to view the installed operator (or view the installed operator list.)
@@ -40,3 +40,4 @@ Currently when an operator is installed the user is taken to the **Installed Ope
 ![Error occurred](img/1-9-failure.png)
 - Assuming any of the following occur while the user is still viewing the ‘installing’ screen: Subscription creation fails, InstallPlan creation fails, CSV, CRD, Deployment, RBAC creation fails or requirements are not met, like MinKubeVersion, the error is presented on the failure screen.
 - The user can view the resource that generated the error (or its parent resource) via the **View Error** button.
+- **Definition of 'operator failed':** If CSV's status.conditions.phase becomes "Failed"
