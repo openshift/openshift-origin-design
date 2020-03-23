@@ -35,3 +35,9 @@ It will also include a link to view the matching nodes within a popover on click
 In case no match found, the Nodes checker will fire a warning feedback.
 In this case, the user has added another label and no nodes found that have both the first and the second label.
 At this point the user might click the "explore nodes list" external link (which will open the full Nodes list in a new tab) to search for a node of a more suited label.
+
+![Node selector in-page results ](img/Node-selector-2-0.jpg)
+The node-selectors, or node labels will be displayed in-page.
+
+![Node selector in-page results ](img/Node-selector-2-1.jpg)
+In case the situation in the cluster changed and no nodes found, OR the user simply applied the node-selector modal with no nodes found, this will be visible in an in-page warning as well.
