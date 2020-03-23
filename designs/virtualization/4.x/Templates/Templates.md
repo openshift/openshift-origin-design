@@ -3,11 +3,11 @@
 ## Virtual machines and VM templates are located under Virtualization
 
 Removing the tab ‘Virtual Machine Templates’ from the side navigation and combining it with ‘Virtual Machines’, so both are located under ‘Virtualization’.
-This PR will focus on how users can create a VM when they choose a to create a VM from a Template.
+This PR will focus on how users can create a VM when they choose a to create a VM from a template.
 
 ### Virtual Machine Templates Tab
 
-From the Virtualization left nav item the user goes to the Virtual Machine Templates Tab where they can see the full list of templates.
+From the Virtualization left nav item the user goes to the Virtual machine templates tab where they can see the full list of templates.
 From this point, we suggest 2 options to create a VM:
 
 - Create template via an action from the kebab menu
@@ -18,40 +18,30 @@ From this point, we suggest 2 options to create a VM:
 
 ![TemplatesTabOp2](img/TemplatesTabsOp2.png)
 
-Both options will open a modal where the user will need to provide a name for the VM they want to create.
-Users can click the button external link ‘View Template details’ to view the Template details page, so they don't exit the modal.
-Clicking the secondary button ‘Edit and Create’ will allow them to edit the template before they create the VM.
+Both options will lead the user to the first step of the wizard where they will need to provide a name for the VM they want to create.
 
-![ModalToProvideName](img/NoMissingInfo.png)
+![UserNeedsToProvideName](img/provide-name.png)
 
-In case a user selects a template that has required info missing, they will be taken to the wizard to edit the details and then create the VM. An inline alert will be shown and indicate via a clickable link which info is missing and where it is located so by clicking it the user can quickly complete the required info.
+If all they need is to provide a name for the VM, they can skip to the 'Review and create' step where they can review the settings and create the VM.
 
-![Back to wizard to complete info](img/Step-1-basic-template-3.png)
+![user reviews settings](img/CompletesReqiredInfoTemplate.png)
 
-Once completed the user will be able to create the VM.
-
-![Requiredinfocompleted](img/CompletesReqiredInfo.png)
+If they need to edit the template before they create the VM, they will need to go through the steps to edit the settings and then create the VM.
 
 ### Virtual Machine Tab
 
-From the Virtualization left nav item the user goes to the Virtual Machines Tab and from the dropdown selects the option to create a VM from Template.
+From the Virtualization left nav item the user goes to the Virtual machines tab and from the dropdown selects the option to create a VM from a template.
 
 ![User selects to create VM from template](img/Dropdown_CreateTemplate.png)
 
-They will get to the list of Templates where they can select a template to create the VM from.
+They will get to the list of templates where they can select a template to create the VM from.
 
-![Listoftemplates](img/ListofTemplates.png)
+![Listoftemplates](img/select-t-from-wizard-list.png)
 
-Users need to provide a name before they can create the VM. The same as in the Virtual Machine Templates Tab, they can click the button link ‘View Template details’ to view the Template details page. 
-Clicking the secondary button ‘Edit and Create’ will allow them to edit the template before they create the VM.
-
-![ProvideNameModal](img/TemplatesListBGProvideNameModal.png)
-
-The same as in the Virtual Machine Templates Tab, in case a user selects a template that has required info missing, they will be taken to the wizard to edit the details and then create the VM.
-An inline alert will be shown and indicate which info is missing.
+In case a user selects a template that has required info missing, an inline alert will be shown and indicate via a clickable link which info is missing and where it is located, so the user can quickly complete the required info and then create the VM.
 
 ![Back to wizard to complete info](img/Step-1-basic-template-3.png)
 
-Same here, once completed the user will be able to create the VM.
+Once the info is completed the user will be able to create the VM.
 
 ![Requiredinfocompleted](img/CompletesReqiredInfo.png)
