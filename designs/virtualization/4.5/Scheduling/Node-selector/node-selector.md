@@ -29,9 +29,9 @@ On typing some value within any of the fields, the Node Checker will check for n
 
 ![Node selector modal ](img/Node-selector-1-2.jpg)
 In case a match found, The Node Checker will fire a positive feedback.
-It will also include a link to view the matching nodes within a popover, on hover or on click.
+It will also include a link to view the matching nodes within a popover on click.
 
 ![Node selector modal ](img/Node-selector-1-3.jpg)
 In case no match found, the Nodes checker will fire a warning feedback.
 In this case, the user has added another label and no nodes found that have both the first and the second label.
-At this point the user might click the "explore nodes list" external link to search for a node of a more suited label.
+At this point the user might click the "explore nodes list" external link (which will open the full Nodes list in a new tab) to search for a node of a more suited label.
