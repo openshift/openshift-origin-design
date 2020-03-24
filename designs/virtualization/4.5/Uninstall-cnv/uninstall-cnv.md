@@ -11,7 +11,7 @@ Ensure that the user is aware that uninstalling this operator will require to de
 
 When `uninstall` is selected the user is presented with a confirmation dialog notifying that:
 - This action requires deletion of all VMs
-- There are [x] VMs found, with an external link to view them
+- There are [x] VMs found, with an external link to view them (in another browser tab)
 - A confirmation string box, where the user need to type the operators name.
 
 ![Modal migrate](img/Uninstall-3-0.jpg)
