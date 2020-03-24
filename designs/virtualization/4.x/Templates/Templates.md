@@ -34,7 +34,7 @@ From the Virtualization left nav item the user goes to the Virtual machines tab 
 
 ![User selects to create VM from template](img/Dropdown_CreateTemplate.png)
 
-They will get to the list of templates where they can select a template to create the VM from. When the user clicks 'Select' they should go to the 'Review' step to give the VM a name, quickly review the settings and then create the VM.
+They will get to the list of templates where they can select a template to create the VM from. Once the user clicks 'Select' they will go immediately to next required step (the 'General' step) to give the VM a name, then review the settings and create the VM.
 
 ![Listoftemplates](img/select-t-from-wizard-list.png)
 
