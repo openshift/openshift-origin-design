@@ -16,7 +16,7 @@ When `uninstall` is selected the user is presented with a confirmation dialog no
 
 ![Modal migrate](img/Uninstall-3-0.jpg)
 
- After the migration had started, the status of the VM in the list view will be updated to reflect that the migration has already started.
+After the migration has started, the status of the VM in the list view will be updated to reflect that the migration has already started.
 
  ![migrate status updated in the list](img/Uninstall-3-1.jpg)
 
