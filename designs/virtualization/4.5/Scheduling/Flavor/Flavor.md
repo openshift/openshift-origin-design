@@ -16,8 +16,8 @@ Edit (pencil) button will be removed in this case.
 If the Flavor was set to Custom during the creation process, the flavor will be editable.
 
 ![vm page flavor modal](img/Flavor-1-0.jpg)
-Opening the Edit Flavor modal reviels that the flavor is set and locked to Custom.
-However, the values of the CPU is editabke in dedicated fields below.
+Opening the Edit Flavor modal reveals that the flavor is set and locked to Custom.
+However, the values of the CPU is editable in dedicated fields below.
 
 ![vm page flavor modal](img/Flavor-1-1.jpg)
 By clicking 'Switch to full topology', the UI will toggle to display full topology options.
