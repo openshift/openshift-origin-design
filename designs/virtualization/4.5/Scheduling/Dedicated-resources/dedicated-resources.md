@@ -12,11 +12,11 @@ Enabling dedicated resources for a VM workload.
 
 ![Dedicated resources modal](img/Dedicated-resources-1-0.jpg)
 This feature is available only for nodes with the label 'cpumanager=true'
-It is specifed within the modal.
+It is specified within the modal.
 On landing on the modal, the nodes checker already checked for matching nodes.
 
 ![Dedicated resources modal - no nodes found](img/Dedicated-resources-1-1.jpg)
-In case no mathcing nodes found, the Nodes checker will warn that.
+In case no matching nodes found, the Nodes checker will warn that.
 Applying this feature is still possible.
 
 ![vm page](img/Dedicated-resources-2-0.jpg)
