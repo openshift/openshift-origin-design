@@ -20,6 +20,6 @@ Opening the Edit Flavor modal reviels that the flavor is set and locked to Custo
 However, the values of the CPU is editabke in dedicated fields below.
 
 ![vm page flavor modal](img/Flavor-1-1.jpg)
-By clicking 'Switch to full topology', the UI will toggle dispay full topoloy options.
+By clicking 'Switch to full topology', the UI will toggle to display full topology options.
 At the bottom of the "full topology" field, there will be a 'CPUs in total' counter.
 Clicking the 'CPU only' will toggle back to the previous, collaped mode.
