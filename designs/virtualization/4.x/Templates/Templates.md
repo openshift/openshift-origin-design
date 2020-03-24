@@ -2,19 +2,17 @@
 
 ## Virtual machines and VM templates are located under Virtualization
 
-Removing the tab ‘Virtual Machine Templates’ from the side navigation and combining it with ‘Virtual Machines’, so both are located under ‘Virtualization’.
-This PR will focus on how users can create a VM when they choose a to create a VM from a template.
+One of the options for users to create a VM is when they choose a to create it from a template.
+Under the left side navigation tab ‘Virtualization’ we'll have 2 tabs: ‘Virtual Machine Templates’ and ‘Virtual Machines’.
 
 ### Virtual Machine Templates Tab
 
 From the Virtualization left nav item the user goes to the Virtual machine templates tab where they can see the full list of templates.
 From this point, we suggest 2 options to create a VM:
 
-- Create VM via an action from the kebab menu
+Create VM via an action from the kebab menu and also allow an action link.
 
 ![TemplatesTabOp1](img/TemplatesTabsOp1.png)
-
-- Create VM via an action from the kebab menu and also allow an action link
 
 ![TemplatesTabOp2](img/TemplatesTabsOp2.png)
 
@@ -26,7 +24,7 @@ If all they need is to provide a name for the VM, they can skip to the 'Review a
 
 ![user reviews settings](img/CompletesReqiredInfoTemplate.png)
 
-If they need to edit the template before they create the VM, they will need to go through the steps to edit the settings and then create the VM. F.e. if a user wants to change the flavor, they will need to go to the general step and reedit this field.
+If they need to edit any of the settings for this VM that are different from the template they started with, they will need to go through the steps to edit the settings and then create the VM. F.e. if a user wants to change the flavor, they will need to go to the general step and reedit this field.
 
 ![user reviews settings](img/edit-t-before-creating-vm.png)
 
@@ -36,7 +34,7 @@ From the Virtualization left nav item the user goes to the Virtual machines tab 
 
 ![User selects to create VM from template](img/Dropdown_CreateTemplate.png)
 
-They will get to the list of templates where they can select a template to create the VM from.
+They will get to the list of templates where they can select a template to create the VM from. When the user clicks 'Select' they should go to the 'Review' step to review the settings and then create the VM.
 
 ![Listoftemplates](img/select-t-from-wizard-list.png)
 
