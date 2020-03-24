@@ -5,8 +5,8 @@ version: 4.5
 
 # Scheduling Section
 
-Creating a new section in the VM details page, Overview tab
-('Scheduling': If, where and how this workload will be placed within the cluster's nodes)
+Creating a new section in the VM details page, details tab.
+('Scheduling': If, where, and how this workload will be placed within the cluster's nodes)
 
 ![Operator details page](img/VM-page-0-0.jpg)
 
