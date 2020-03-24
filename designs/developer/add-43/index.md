@@ -17,7 +17,7 @@ There are 6 Add Flows for adding an application, component or service. Each flow
 
 ### From Git
 Use this option to import an existing codebase in a Git repository to create, build, and deploy an application on OpenShift.
-Detailed design documentation for the **From Git** can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add-43/From-Git-43/Import-from-git-43)
+Detailed design documentation for the **From Git** can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add-43/From-Git-43/import-from-git-43)
 
 ### Container Image
 Use existing images from an image stream or registry to deploy it on to OpenShift.
