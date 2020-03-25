@@ -20,7 +20,6 @@ The "Custom" provider type will no longer exist going forward, and is instead re
 - The other custom source, “console3-test-operators,” does not have a display name specified and the CatalogSource name is shown.
 - Ideally **Red Hat**, **Certified**, **Community** and **Marketplace** facets would appear first, with the rest alphabetized after, though all alphabetized is also acceptable.
 - If more than 6 Provider Type facets appear, they will be surfaced under an expandable **Show # more** link, similar to Provider filter.
-- Names are truncated as needed.
 
 ![OperatorHub Provider Type filter selected](img/1-2-OH-providertype.png)
 - Filtering to that source shows only it’s operators (existing behavior.)
