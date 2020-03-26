@@ -44,4 +44,4 @@ In case a user selects a template that has required info missing, an inline aler
 
 Once the info is completed the user will be able to create the VM.
 
-![Requiredinfocompleted](img/CompletesReqiredInfo.png)
+![Requiredinfocompleted](img/CompletesReqiredInfoTemplate.png)
