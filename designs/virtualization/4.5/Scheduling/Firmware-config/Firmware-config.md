@@ -6,6 +6,7 @@ version: 4.5
 # Firmware Config
 
 Exposing Firmware Config for VM.
+Firmware is placed within the scheduling section. It is related to CPU, and shoudn't be seperated from the rest of the CPU features. Because of that, it should be located next to other CPU features. Also, it affects performance, so it is related to "Resource Requirements".
 
 ![VM page](img/Firmware-0-0.jpg)
 Firmware Config is placed in the Scheduling sction of the VM details tab.
