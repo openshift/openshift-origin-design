@@ -9,19 +9,19 @@ Ensure that the user is aware that uninstalling this operator will require to de
 
 ![Operator details page](img/Uninstall-0-0.png)
 
+The user clicks Uninstall operator from the Operator actions menu
+
+![Modal Uninstall](img/Uninstall-3-0.jpg)
+
 When `uninstall` is selected the user is presented with a confirmation dialog notifying that:
 - This action requires deletion of all VMs
 - There are [x] VMs found, with an external link to view them (in another browser tab)
 - A confirmation string box, where the user need to type the operators name.
 
-![Modal migrate](img/Uninstall-3-0.jpg)
-
-After the migration has started, the status of the VM in the list view will be updated to reflect that the migration has already started.
-
- ![migrate status updated in the list](img/Uninstall-3-1.jpg)
+ ![Modal uninstall error](img/Uninstall-3-1.jpg)
 
 In case the user has clicked the `uninstall` button without confirming, A warning notification box will notify that required fields are missing.
 
- ![Modal migrate](img/Uninstall-2-0.jpg)
+ ![Modal uninstall - no VMs](img/Uninstall-2-0.jpg)
 
 In case there are no VMs in the cluster, the modal will surface that and will not require any additional confirmation.
