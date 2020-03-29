@@ -1,9 +1,10 @@
 ---
 parent: Conventions
-version: 4.2
 ---
 
 # Navigation interactions
+
+
 
 ## Loading
 
@@ -84,5 +85,3 @@ The resulting search shows the label name in the search field and the results ar
 When a page can open another application (link to an external source), the external source name along with an external linking icon is displayed next to the page title. When you click the link the source opens in a new tab.
 
 ![External linking](../images/navigation-externallinking.png)
-
-

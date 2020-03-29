@@ -7,7 +7,7 @@ version: 4.3
 
 [Card-by-card documentation is down below](#card-by-card-documentation)
 
-[Sketch file](http://openshift.github.io/openshift-origin-design/web-console/dashboards/4.3/dashboards.sketch)
+[Sketch file](http://openshift.github.io/openshift-origin-design/designs/administrator/4.3/dashboards/4.3-dashboards.sketch)
 
 ## Dashboards
 

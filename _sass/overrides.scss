@@ -15,31 +15,7 @@ h4 {
 
 figure {
   position: relative;
-}
-
-.concept-disclaimer {
-  background-color: #fff8f8;
-  border: 1px solid #880000;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-.concept-disclaimer p {
-  margin-bottom: .3rem;
-  font-size: 1rem;
-  color: #8e0000;
-}
-
-span.concept-heading {
-  font-size: 1.5rem;
-  color: #a70000;
-}
-
-.concept-disclaimer {
-  background-color: #fff8f8;
-  border: 1px solid #880000;
-  border-radius: 5px;
-  padding: 10px;
+  margin-bottom: 1em;
 }
 
 .navigation {
@@ -177,4 +153,51 @@ figure > a:hover {
 
 .navigation-list-child-list .navigation-list-item::before {
   content: none;
+}
+
+/* ALERTS */
+
+.pf-c-alert {
+  border: solid 1px #ededed;
+  display: flex;
+  border-left: 3px solid #f0ab00;
+}
+
+.pf-c-alert__title {
+  font-weight: 500;
+  color: #795600;
+  padding: 16px 16px 8px 16px;
+  display: block;
+}
+
+.pf-c-alert__description {
+  padding: 0px 16px;
+}
+
+.pf-c-alert__icon {
+  padding: 16px 0px 16px 16px;
+}
+
+/* Navigation hacks please no judging */
+
+.navigation-list > *:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+.navigation-list > *:nth-child(3) {
+  margin-bottom: 10px;
+}
+
+.navigation-list > .navigation-list-item:nth-child(2) .navigation-list-item:nth-child(5)::after {
+  content: "";
+  display: block;
+  width: 40%;
+  padding-top: 2px;
+  border-bottom: 1px solid #c5c5c5;
+  margin-bottom: 2px;
+}
+
+.search-icon {
+  width: auto;
+  height: 18px;
 }

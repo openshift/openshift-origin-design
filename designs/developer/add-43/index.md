@@ -2,7 +2,6 @@
 parent: Developer
 version: 4.3
 ---
-
 # Add page
 
 Add is a primary navigation item in the OpenShift Developer perspective.
@@ -17,42 +16,49 @@ The basic visuals and behavior of this card view is consistent with that of the 
 There are 6 Add Flows for adding an application, component or service. Each flow has different subsections.
 
 ### From Git
-Design documentation for the From Git scenario when creating a source secret can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/From-Git/Import-from-git.md)
+Use this option to import an existing codebase in a Git repository to create, build, and deploy an application on OpenShift.
+Detailed design documentation for the **From Git** can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add-43/From-Git-43/import-from-git-43)
 
 ### Container Image
-Design documentation for the Container Image git can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/Container-Image/Deploy-Image.md)
+Use existing images from an image stream or registry to deploy it on to OpenShift.
+Design documentation for the **Container Image** can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/Container-Image-43/Deploy-Image-43)
 
 ### From Catalog
-Design documentation for the items From Catalog can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/From-Catalog/Add-from-catalog.md)
+Explore the Developer Catalog to select the required applications, services, or source to image builders and add it to your project.
+Design documentation for the items **From Catalog** can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/From-Catalog/Add-from-catalog)
 
 ### From Dockerfile
-Design documentation for the From Dockerfile can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/From-Dockerfile/Import-from-Dockerfile.md)
+Import a dockerfile from your Git repository to build and deploy an application.
+Design documentation for the **From Dockerfile** can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/From-Dockerfile-43/Import-from-Dockerfile-43)
 
 ### YAML
+Use the editor to add YAML or JSON definitions to create and modify resources.
 When clicking on YAML, Add remains selected in the navigation.  The secondary masthead is shown with the selected project, and the YAML editor is displayed.
 
 ![Import YAML](https://openshift.github.io/openshift-origin-design/designs/developer/add/img/import-yaml.png)
 
 ### Database
-Design documentation for the Database is still tbd
+See the Developer Catalog to select the required database service and add it to your application.
+Design documentation for the **Database** is still tbd
 
 ## Common Sections to Add Flows
 Add flows have dynamic sections that are displayed when appropriate for the flow:
 
 ### General
-Design documentation for the General section can be found[here](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/General-Section.md)
+Design documentation for the General section can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/General-Section)
+
 
 ### Resources
-Documentation about this section can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add-43/sections/resources/resources.md)
+Documentation about this section can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add-43/sections/resources/resources)
 
 ### Pipelines
-The Pipelines section is available when the Pipelines operator is installed. Design documentation for the Pipelines section found can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add-43/sections/pipelines/pipelines.md).
+The Pipelines section is available when the Pipelines operator is installed. Design documentation for the Pipelines section found can be found [here](https://openshift.github.io/openshift-origin-design/designs/developer/add-43/sections/pipelines/pipelines).
 
 ### Advanced Options
 There are a number of Advanced Options which are available, based on the flow:
-- [Routing](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Routing.md)
-- [Build Configuration](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Build-Config.md)
-- [Deployment Configuration](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Deployment-Config.md)
-- [Scaling](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Scaling.md)
-- [Resource Limits](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Resource-Limits.md)
-- [Labels](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Labels.md)
+- [Routing](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Routing)
+- [Build Configuration](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Build-Config)
+- [Deployment Configuration](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Deployment-Config)
+- [Scaling](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Scaling)
+- [Resource Limits](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Resource-Limits)
+- [Labels](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Labels)

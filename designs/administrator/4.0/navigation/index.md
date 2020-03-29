@@ -108,7 +108,7 @@ version: 4.0
 * The fa-angle-down icon should be displayed for primary sections that are in the expanded state.
 * When hovering over a collapsed primary nav section, the fa-angle-right icon should be displayed to the right of the name,
 
-#### Icons
+## Icons
 
 | Navigation Item | Icon |
 | ----------------|------|

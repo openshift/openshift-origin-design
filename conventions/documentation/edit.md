@@ -1,6 +1,5 @@
 ---
 parent: Conventions
-version: 4.2
 ---
 
 # Editing
@@ -52,4 +51,3 @@ Some details / field inputs link to modals for editing information.
 ![edit link modal](../images/edit-link-modal.png)
 
 ![edit link modal 2](../images/edit-link-modal2.png)
-
