@@ -41,7 +41,7 @@ A different builder image is selected and the pipeline visualization displays th
 
 ### Empty state
 
-![image](https://github.com/lwrigh/openshift-origin-design/blob/master/designs/developer/add-45/Pipelines-update/img/info-alert-1.png)
+![image](/img/info-alert-1.png)
 
 The initial empty state for the pipeline section has been updated to say,”Select a builder image and resource to see if there is a pipeline template available for this runtime.”. This is the first message that would appear in the pipelines section before the user selects any builder images or resources.  
 
