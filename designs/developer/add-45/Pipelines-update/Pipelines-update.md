@@ -9,7 +9,7 @@ One more subtle update to the Add page is that the ‘Show pipeline visualizatio
 
 ## Upload from Git- Updates
 
-![image](https://github.com/lwrigh/openshift-origin-design/blob/master/designs/developer/add-45/Pipelines-update/img/import-from-git-1.png)
+![image](img/import-from-git-1.png)
 
 A builder image is selected. When a builder image has not been selected yet, the ‘Pipelines’ section will display an info alert that says “Select a builder image and resource to see if there is a pipeline template available for this runtime.”
 
@@ -50,4 +50,3 @@ The initial empty state for the pipeline section has been updated to say,”Sele
 ![image](https://github.com/lwrigh/openshift-origin-design/blob/master/designs/developer/add-45/Pipelines-update/img/info-alert-2.png)
 
 If a builder image and resource have been selected by the user but the combination does not support a pipeline this info alert would appear in the pipelines section. This message specifies the builder image and resource type that the user selected.
-
