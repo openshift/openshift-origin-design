@@ -29,7 +29,7 @@ To view more information about each of the individual pipeline sections, the use
 
 **Note:** This is exactly like what is currently implemented.
 
-![image](https://github.com/lwrigh/openshift-origin-design/blob/master/designs/developer/add-45/Pipelines-update/img/import-from-git-5.png)
+![image](/img/import-from-git-5.png)
 
 A different builder image can be selected at any time. If the pipeline visualization is left open and a new builder image is selected, the pipeline visualization will stay open. 
 
