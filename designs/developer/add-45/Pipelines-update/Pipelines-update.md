@@ -15,7 +15,7 @@ A builder image is selected. When a builder image has not been selected yet, the
 
 **Note:** ‘Resources’ has been moved to the section before ‘Pipelines’.
 
-![image](https://github.com/lwrigh/openshift-origin-design/blob/master/designs/developer/add-45/Pipelines-update/img/import-from-git-2.png)
+![image](/img/import-from-git-2.png)
 
 A builder image has been selected and the pipelines section of the Add page reacts and displays a checkbox to add a pipeline. The checkbox can be selected if the user wants to add a pipeline to their project.
 
