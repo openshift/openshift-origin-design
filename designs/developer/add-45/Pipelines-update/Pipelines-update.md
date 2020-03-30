@@ -47,6 +47,6 @@ The initial empty state for the pipeline section has been updated to say,”Sele
 
 ### Populated state
 
-![image](https://github.com/lwrigh/openshift-origin-design/blob/master/designs/developer/add-45/Pipelines-update/img/info-alert-2.png)
+![image](/img/info-alert-2.png)
 
 If a builder image and resource have been selected by the user but the combination does not support a pipeline this info alert would appear in the pipelines section. This message specifies the builder image and resource type that the user selected.
