@@ -23,7 +23,7 @@ A builder image has been selected and the pipelines section of the Add page reac
 
 To show the pipeline visualization, the caret or label can be clicked to expand it. 
 
-![image](https://github.com/lwrigh/openshift-origin-design/blob/master/designs/developer/add-45/Pipelines-update/img/import-from-git-4.png)
+![image](/img/import-from-git-4.png)
 
 To view more information about each of the individual pipeline sections, the user can hover over each section to get more details about it. The pipeline visualization label changes to ‘Hide pipeline visualization’ if the pipeline visualization is expanded.
 
