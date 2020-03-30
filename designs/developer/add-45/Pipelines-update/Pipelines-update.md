@@ -33,7 +33,7 @@ To view more information about each of the individual pipeline sections, the use
 
 A different builder image can be selected at any time. If the pipeline visualization is left open and a new builder image is selected, the pipeline visualization will stay open. 
 
-![image](https://github.com/lwrigh/openshift-origin-design/blob/master/designs/developer/add-45/Pipelines-update/img/import-from-git-6.png)
+![image](/img/import-from-git-6.png)
 
 A different builder image is selected and the pipeline visualization displays the new pipeline. To collapse the pipeline visualization, the user has to click the ‘Hide pipeline visualization’ label.  
 
