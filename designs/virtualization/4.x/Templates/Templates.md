@@ -1,5 +1,9 @@
 # Templates
 
+Updating the templates designs to align with what we currently have with the new in page wizard approach will make the 'create VM from a template' flow consistent.
+
+In order to simplify interacting with templates, we figured that having a single navigation item will help to keep all the virtualization in one area and unclutter the left nav. We also wanted to minimize the amount of main navigation items we are adding to OCP in general.
+
 ## Virtual machines and VM templates are located under Virtualization
 
 One of the options for users to create a VM is when they choose a to create it from a template.
