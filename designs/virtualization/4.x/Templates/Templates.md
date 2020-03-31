@@ -1,3 +1,8 @@
+---
+parent: Virtualization
+version: 4.5
+---
+
 # Templates
 
 Updating the templates designs to align with what we currently have with the new in page wizard approach will make the 'create VM from a template' flow consistent.
