@@ -2,18 +2,15 @@
 parent: Developer
 version: 4.5
 ---
-# Add page- Updates
+# Pipelines section in Add Flows (Updates in 4.5)
 
-Updates to the Add page include switching the order of the resources and pipelines section so resources come before pipelines.
-One more subtle update to the Add page is that the ‘Show pipeline visualization’ will stay open even if the user selects a new builder image or resource during their session.
+Updates to the Pipelines section of the Add page include moving the Pipelines section below the Resources section. Also, within the Pipeline section itself, the ‘Show pipeline visualization’ component will stay open even if the user selects a new builder image or resource during their session.
 
 ## Upload from Git- Updates
 
 ![image](img/import-from-git-1.png)
 
-A builder image is selected. When a builder image has not been selected yet, the ‘Pipelines’ section will display an info alert that says “Select a builder image and resource to see if there is a pipeline template available for this runtime.”
-
-**Note:** ‘Resources’ has been moved to the section before ‘Pipelines’.
+A builder image must be selected for a pipeline to be available. When a builder image has not been selected, the Pipelines section will display an info alert that says “Select a builder image and resource to see if there is a pipeline template available for this runtime.”
 
 ![image](img/import-from-git-2.png)
 
@@ -24,6 +21,7 @@ A builder image has been selected and the pipelines section of the Add page reac
 To show the pipeline visualization, the caret or label can be clicked to expand it. 
 
 ![image](img/import-from-git-4.png)
+![image](img/import-from-git-7.png)
 
 To view more information about each of the individual pipeline sections, the user can hover over each section to get more details about it. The pipeline visualization label changes to ‘Hide pipeline visualization’ if the pipeline visualization is expanded.
 
