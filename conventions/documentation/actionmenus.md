@@ -13,7 +13,7 @@ parent: Conventions
 ![action menus actions](../images/action-menus-actions.png)
 
 Ordering of actions in the menu should follow the following pattern:
-- Unique actions to that resource should appear above default resource actions
+- Unique actions to that resource should appear above default resource actions, sorted by most frequently used first.
 - Edit Labels (when present)
 - Edit Annotations (when present)
 - Edit [Resource Name]
