@@ -26,6 +26,7 @@ When there is only one row of key=value pair, the Remove action will be disabled
 
 ![Node selector modal ](img/Node-selector-1-1.jpg)
 On typing some value within any of the fields, the Node Checker will check for nodes with matching labels, with a time out of [1] second to kick in.
+Entering only the key will create a 'Key=Exist' node selector.
 
 ![Node selector modal ](img/Node-selector-1-2.jpg)
 In case a match found, The Node Checker will fire a positive feedback.
