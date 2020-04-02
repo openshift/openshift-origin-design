@@ -21,6 +21,12 @@ This modal is composed of three fields:
 ![Config modal](img/Firmware-1-1.jpg)
 Changing the Bootload to EFI
 
+![Config modal popovers](img/Firmware-1-2.jpg)
+Popovers for the following fields:
+Bootloader link: https://kubevirt.io/api-reference/v0.26.0/definitions.html#_v1_bootloader
+Serial link: https://kubevirt.io/api-reference/v0.26.0/definitions.html#_v1_firmware
+UUID link: https://kubevirt.io/api-reference/v0.26.0/definitions.html#_v1_firmware
+
 ![VM page](img/Firmware-2-0.jpg)
 Changing the default configuration will reflect in the field value specified in-page.
 In case strings removed from the string fields, the value in-page will be 'None'.
