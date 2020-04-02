@@ -21,5 +21,5 @@ However, the values of the CPU is editable in dedicated fields below.
 
 ![vm page flavor modal](img/Flavor-1-1.jpg)
 By clicking 'Switch to full topology', the UI will toggle to display full topology options.
-At the bottom of the "full topology" field, there will be a 'CPUs in total' counter.
+At the bottom of the "full topology" field, there will be a 'CPUs in total' counter in a read only mode.
 Clicking the 'CPU only' will toggle back to the previous, collaped mode.
