@@ -56,7 +56,7 @@ The Pipelines section is available when the Pipelines operator is installed. Des
 ### Advanced Options
 There are a number of Advanced Options which are available, based on the flow:
 - [Routing](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Routing)
-- [Health Checks] (https://openshift.github.io/openshift-origin-design/designs/developer/add-45/sections/Adv-Health_Checks.md)
+- [Health Checks](https://openshift.github.io/openshift-origin-design/designs/developer/add-45/sections/Adv-Health_Checks)
 - [Build Configuration](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Build-Config)
 - [Deployment Configuration](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Deployment-Config)
 - [Scaling](https://openshift.github.io/openshift-origin-design/designs/developer/add/sections/Adv-Scaling)
