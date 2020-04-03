@@ -37,7 +37,7 @@ parent: Conventions
 
 **Create from button (Form with option for YAML):**
 
-*Some resource types can be created with a form (as the default) with an option to switch to create with YAML. Once switched to the YAML editor changes from the from editor are lost and it is not possible to switch back to the form view. Ideally this switch is confirmed with the user. After the resource is created, the user is automatically navigated to the created resource.*
+*Some resource types can be created with a form (as the default) with an option to switch to create with YAML. Once switched to the YAML editor changes from the form editor are lost and it is not possible to switch back to the form view. Ideally this switch is confirmed with the user. After the resource is created, the user is automatically navigated to the created resource.*
 ![import YAML](../images/create-form-then-yaml1.png)
 ![import YAML](../images/create-form-then-yaml2.png)
 ![import YAML](../images/create-form-then-yaml3.png)
@@ -47,7 +47,7 @@ parent: Conventions
 
 **Create from button (Free switching between Form & YAML):**
 
-*Some resource types can be created with both a form and YAML editor, with the user able to freely switch between the two editors and changes are preserved across them. After the resource is created, the user is automatically navigated to the created resource.*
+*Some resource types can be created with both a form and YAML editor. The user is able to freely switch between the two editors and changes are preserved across them. After the resource is created, the user is automatically navigated to the created resource.*
 ![import YAML](../images/create-form-and-yaml1.png)
 ![import YAML](../images/create-form-and-yaml2.png)
 ![import YAML](../images/create-form-and-yaml3.png)
