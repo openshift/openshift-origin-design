@@ -5,7 +5,7 @@ version: 4.5
 
 # Convey Operator is Installing
 
-Currently when an operator is installed the user is taken to the **Installed Operators** list view, where it may take some time before the entry for the newly installed operator actually appears, particularly if the operator is installed globally and the user is viewing a namespace the operator will be copied to, and he CSV doesn't yet exist. This design gives the admin user immediate feedback that the operator is installing properly, and can surface errors that may occur during the installation process.
+Currently when an operator is installed the user is taken to the **Installed Operators** list view, where it may take some time before the entry for the newly installed operator actually appears, particularly if the operator is installed globally and the user is viewing a namespace the operator will be copied to, and the CSV doesn't yet exist. This design gives the admin user immediate feedback that the operator is installing properly, and can surface errors that may occur during the installation process.
 
 ## Installing an Operator
 
@@ -35,7 +35,8 @@ Currently when an operator is installed the user is taken to the **Installed Ope
 ## Warnings and Errors
 
 ![Manual approval required](img/1-5-manualApproval.png)
-- If the installing operator requires manual approval, the call to action will appear on the installing screen where the user the user can review the created resources and approve the install plan, and installation will continue.
+- If the installing operator requires manual approval, the call to action will appear on the installing screen where the user can review the created resources and approve the install plan, and installation will continue.
+- If the user denys the install, the uninstall operator flow will begin (current deny behavior.)
 
 ![Error occurred](img/1-9-failure.png)
 - Assuming any of the following occur while the user is still viewing the ‘installing’ screen: Subscription creation fails, InstallPlan creation fails, CSV, CRD, Deployment, RBAC creation fails or requirements are not met, like MinKubeVersion, the error is presented on the failure screen.
