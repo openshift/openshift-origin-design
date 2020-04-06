@@ -24,7 +24,7 @@ The following section document the 4.5 OpenShift Console Developer experience.
 - [Monitoring](https://openshift.github.io/openshift-origin-design/designs/developer/monitoring-44/)
 - [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipeline-45/pipelines)
 - [Project Access](https://openshift.github.io/openshift-origin-design/designs/developer/project-access-43/)
-- [Search] (https://https://openshift.github.io/openshift-origin-design/designs/developer/search-45/)
+- [Search](https://https://openshift.github.io/openshift-origin-design/designs/developer/search-45/)
 - [Topology](https://openshift.github.io/openshift-origin-design/designs/developer/topology-44/)
 
 ### Operator enhanced user flows

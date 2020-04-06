@@ -1,6 +1,6 @@
 ---
 parent: Developer
-version: 4.2
+version: 4.5
 ---
 
 # Creation of Knative Services
