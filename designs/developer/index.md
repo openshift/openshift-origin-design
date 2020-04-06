@@ -15,7 +15,10 @@ Our design documentation covers the entire developer experience in the OpenShift
 -- coming soon --
 
 ## 4.5 Developer Experience
--- coming soon --
+The following section documents the 4.5 OpenShift Console Developer experience, not just what's new in 4.5
+
+### Main Pages
+- [+Add](https://openshift.github.io/openshift-origin-design/designs/developer/add-45/)
 
 ## 4.4 Developer Experience
 The following section documents the 4.4 OpenShift Console Developer experience, not just what's new in 4.4

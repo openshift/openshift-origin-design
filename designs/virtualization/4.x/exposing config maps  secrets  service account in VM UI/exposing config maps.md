@@ -1,3 +1,8 @@
+---
+parent: Virtualization
+version: 4.5
+---
+
 # Exposing config maps / secrets / service account in VM UI
 
 Kubernetes Secrets, Config Maps, and Service Accounts can be exposed as VM disks allowing better integration of Virtual Machines with Kubernetes resources.
