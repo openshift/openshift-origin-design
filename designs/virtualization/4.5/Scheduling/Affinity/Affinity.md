@@ -7,16 +7,26 @@ version: 4.5
 
 Introducing Affinity as it appears in-page and the Edit modal.
 
+## in-page placement
+
 ![Affinity field in the Scheduling section ](img/Affinity-0-0.jpg)
 The affinity field is placed in the Workload details page, Details tab, Scheduling section, Policies columns.
 
 ![Affinity field in the Scheduling section ](img/Affinity-0-1.jpg)
 The affinity field counts the number of rules applied.
 
+## Affinity rules list
+
 ![Affinity all rules modal ](img/Affinity-1-0.jpg)
 On clicking on the counter Or the Edit pencil icon, the user will be presented with a modal, containing all the applied rules for this workload.
 Clicking on the 'Add affinity rule' button will replace this modal with the 'Add affinity rule' modal.
 Selecting 'Edit' from each existing rule kebab menu will replace this modal with the 'Edit affinity rule' modal
+
+A support text below the header will notify the user that:
+"Rules will ‘Preferred’ condition will stack with an ‘AND’ relation between them. 
+Rules with ‘Required condition will have an ‘OR’ relation between them."
+
+## Add/Edit affinity rule modal
 
 ![Affinity Edit/Create modal ](img/Affinity-2-0.jpg)
 TThe default fields for an affinity rule are:
