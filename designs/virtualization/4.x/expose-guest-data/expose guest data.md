@@ -41,10 +41,10 @@ Some additional data related to File systems can be surfaced in the VM’s Disks
 
 - Disk mounts with usage - mount point - where the disk is mounted in the tree
 
-Since there is no 1:1 mapping between the way the disks are seen from the OpenShift Virtualization point of view and the way they are seen from the Guest Agent point of view, we’ll show the 2 sets of info in 2 separate tables.
+Since there is no 1:1 mapping between the way the disks are seen from the OpenShift Virtualization point of view and the way they are seen from the Guest Agent point of view, we’ll show the 2 sets of information in 2 separate tables.
 The 'Disks' table will always be shown and the ‘File systems’ table (partitions) will be shown only if the Guest Agent is installed.
 
-In the case the Guest Agent isn't installed and we can provide only the disk table we can suggest that the Guest Agent can be installed to provide the File system information.
+In the case the Guest Agent isn't installed and we can provide only the disk table we will suggest that the Guest Agent can be installed to provide the File system information.
 
 #### Disks table (when Guest Agent isn't installed)
 
