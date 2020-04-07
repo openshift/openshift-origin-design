@@ -32,11 +32,11 @@ https://kubevirt.io/2020/Advanced-scheduling-with-affinity-rules.html
 ## Add/Edit affinity rule modal
 
 ![Affinity Edit/Create modal ](img/Affinity-2-0.jpg)
-The default fields for an affinity rule are:
+The default fields for the following fields are:
 - type: Node affinity
 - Condition: Preferredd
 - Weight: 1 (out of 100)
-- Select nodes via: Node labels
+- Expression type: Label
 - Operator (between Key and Value): In
 
 There is no need to mention the Default to the user.
@@ -45,15 +45,14 @@ There is no need to mention the Default to the user.
 Switching to 'Required during scheduling' option from the Condition field, the Weight field will be excluded.
 
 ![Affinity Edit/Create modal - Any expressions ](img/Affinity-2-2.jpg)
-Switching to 'Any key:value expression on YAML' will change the Key field to be able to accept strings. The placeholder will reflect that as well.
-'Any key:value expression on YAML' option will also change the 'Add button' from 'Add label' to 'Add expression'.
+Within the Selector section, the user can select the nodes/workloads by entering labels or any full string of key:value, path included, that appears in the YAML file.
+On 'YAML field' option, the user will be required to enter full path to the key:value pair.
+Full path is not required for labels
 
 ![Affinity Edit/Create modal - Any expressions ](img/Affinity-2-3.jpg)
-On 'Any expression' option, the user will be required to enter full path to the key:value pair.
 The 'values' field is a multi-value field and will be applied using the white labels.
 Entering values in the label/expression rows will result in a 'Matching nodes' notification.
 
-![Affinity Edit/Create modal - Operator options ](img/Affinity-2-4.jpg)
 When selecting the target node/workload to apply "affinity to"
 the user can select one of the following Operator options:
 - In (any node/workload with the specified key and has one or more of the following values)
