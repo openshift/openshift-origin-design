@@ -29,7 +29,7 @@ Rules with ‘Required condition will have an ‘OR’ relation between them."
 ## Add/Edit affinity rule modal
 
 ![Affinity Edit/Create modal ](img/Affinity-2-0.jpg)
-TThe default fields for an affinity rule are:
+The default fields for an affinity rule are:
 - type: Node affinity
 - Condition: Preferredd
 - Weight: 1 (out of 100)
