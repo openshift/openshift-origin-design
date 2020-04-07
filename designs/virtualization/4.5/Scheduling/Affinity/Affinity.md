@@ -26,6 +26,9 @@ A support text below the header will notify the user that:
 "Rules with ‘Preferred’ condition will stack with an ‘AND’ relation between them. 
 Rules with ‘Required condition will have an ‘OR’ relation between them."
 
+The "learn more about affinity rules" links to:
+https://kubevirt.io/2020/Advanced-scheduling-with-affinity-rules.html
+
 ## Add/Edit affinity rule modal
 
 ![Affinity Edit/Create modal ](img/Affinity-2-0.jpg)
