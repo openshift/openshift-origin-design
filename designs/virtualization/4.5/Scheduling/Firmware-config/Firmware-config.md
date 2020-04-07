@@ -22,7 +22,7 @@ This modal is composed of three fields:
 Changing the Bootload to EFI
 
 ![Config modal popovers](img/Firmware-1-2.jpg)
-Popovers for the following fields:
+For each feature, a popover will be available on clicking the field name.
 Bootloader link: https://kubevirt.io/api-reference/v0.26.0/definitions.html#_v1_bootloader
 Serial link: https://kubevirt.io/api-reference/v0.26.0/definitions.html#_v1_firmware
 UUID link: https://kubevirt.io/api-reference/v0.26.0/definitions.html#_v1_firmware
