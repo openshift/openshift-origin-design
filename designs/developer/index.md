@@ -20,7 +20,7 @@ The following section document the 4.5 OpenShift Console Developer experience.
 ### Main Pages
 - [+Add](https://openshift.github.io/openshift-origin-design/designs/developer/add-45/)
 - [Builds](https://openshift.github.io/openshift-origin-design/designs/developer/builds/)
-- [Helm](https://openshift.github.io/openshift-origin-design/designs/developer/helm45/)
+- [Helm](https://openshift.github.io/openshift-origin-design/designs/developer/helm-45/)
 - [Monitoring](https://openshift.github.io/openshift-origin-design/designs/developer/monitoring-44/)
 - [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipeline-45/pipelines)
 - [Project Access](https://openshift.github.io/openshift-origin-design/designs/developer/project-access-43/)
@@ -30,7 +30,7 @@ The following section document the 4.5 OpenShift Console Developer experience.
 ### Operator enhanced user flows
 - [OpenShift Pipelines Operator](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipeline-44/)
 - [OpenShift Serverless Operator](https://openshift.github.io/openshift-origin-design/designs/developer/operator-serverless-44/)
-
+- [OpenShift Virtualization Operator](https://openshift.github.io/openshift-origin-design/designs/developer/operator-virtualization-45/)
 
 
 To view a list of individual items which were updated in 4.4, click [here](https://openshift.github.io/openshift-origin-design/releases/4.4/)

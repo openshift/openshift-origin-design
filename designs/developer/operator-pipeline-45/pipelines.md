@@ -194,7 +194,7 @@ This visualizes all tasks associated with the pipeline.
 - Steps are synchronous and are represented as line segments inside the task bubbles
 - In 4.2, only the tasks which have started will be able to be shown in the Pipeline Run visualization.
 
-![PLR Visualization](img/PLRVisualization.png)
+![PLR Visualization](http://openshift.github.io/openshift-origin-design/designs/developer/operator-pipeline-42/img/PLRVisualization.png)
 
 ## Pipeline experiences when user has view only access of a project#
 
@@ -216,7 +216,7 @@ When a user has view only access for a project then the `action` button will be 
 
 When a user has view only access for a project then the `action` and `save` buttons will be hidden to prevent YAML edit.
 
-![Pipelines YAML tab](img/RBAC-PL-Details-YAML.png)
+![Pipelines YAML tab](http://openshift.github.io/openshift-origin-design/designs/developer/operator-pipeline-42/img/RBAC-PL-Details-YAML.png)
 
 ### Pipelines Details Page / Pipeline Runs ###
 
