@@ -20,14 +20,14 @@ Some of the data that is collected via the Guest Agent can be surfaced in the VM
 
 ![Additional data when Guest Agent is installed](img/vm-dashboard-w-ga-installed.png)
 
-Clicking the number of logged in users will lead to a table with all the relevant info about these logged in users. This info is required so that users will be aware  when they're about to take an action that will affect those logged in users (f.e.) powering the VM off or restarting it.
+Clicking the number of logged in users will lead to a table with all the relevant information about these logged in users. This information is required so that users will be aware when they're about to take an action that will affect those logged in users (f.e.) powering the VM off or restarting it.
 
 ### Details tab
 
 ![VM overview page](img/vm-overview.png)
 
-To simplify the information about OS versions (the Guest Agent and what was installed by the admin while creating the VM), we can surface only the current OS version that’s installed (the Guest Agent OS). 
-In case we have a mismatch between the chosen Operating System version (the OS that the admin originally installed) and the detected Operating System version, we can show an alert that indicates that mismatch and offer a solution.
+To simplify the information about OS versions (the Guest Agent and what was suggested by the admin while creating the VM), we can surface only the current OS version that’s installed (the Guest Agent OS).
+In case we have a mismatch between the suggested Operating System version (the OS that the admin originally suggested) and the installed Operating System version, we can show an alert that indicates that mismatch.
 
 ![notification when mismatch os version between Guest Agent and original](img/vm-overview-GA-not-match.png)
 
@@ -41,10 +41,10 @@ Some additional data related to File systems can be surfaced in the VM’s Disks
 
 - Disk mounts with usage - mount point - where the disk is mounted in the tree
 
-Since there is no 1:1 mapping between the way the disks are seen from the OpenShift Virtualization point of view and the way they are seen from the Guest Agent point of view, we’ll show the 2 sets of information in 2 separate tables.
+Since there is no 1:1 mapping between the way the disks are seen from the OpenShift virtualization point of view and the way they are seen from the Guest Agent point of view, we’ll show the 2 sets of information in 2 separate tables.
 The 'Disks' table will always be shown and the ‘File systems’ table (partitions) will be shown only if the Guest Agent is installed.
 
-In the case the Guest Agent isn't installed and we can provide only the disk table we will suggest that the Guest Agent can be installed to provide the File system information.
+In the case the Guest Agent isn't installed and we can provide only the disk table, we will suggest that the Guest Agent can be installed to provide the File system information.
 
 #### Disks table (when Guest Agent isn't installed)
 
