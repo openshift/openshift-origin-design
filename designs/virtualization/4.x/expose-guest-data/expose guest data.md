@@ -20,7 +20,7 @@ Some of the data that is collected via the Guest Agent can be surfaced in the VM
 
 ![Additional data when Guest Agent is installed](img/vm-dashboard-w-ga-installed.png)
 
-Clicking the number of logged in users will lead to a table with all the relevant information about these logged in users. This information is required so that users will be aware when they're about to take an action that will affect those logged in users (f.e.) powering the VM off or restarting it.
+Clicking the number of logged in users will lead to a table with all the relevant information about these logged in users. This information is required so that users will be aware when they're about to take an action that will affect those logged in users (f.e.) powering the VM off or restarting it. In case a user decides to power off a vm when there is/are active user/s logged into it, they will be notified about that.  
 
 ### Details tab
 
