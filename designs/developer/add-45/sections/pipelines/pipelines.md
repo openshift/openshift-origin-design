@@ -3,8 +3,14 @@ parent: Developer
 version: 4.5
 ---
 
-# Pipelines section in Add Flows (added to 4.5)
+# Pipelines section in Add Flows (updated in 4.5)
 * Updates to the Pipelines section of the 'Add' page include moving the Pipelines section below the Resources section. In addition, the ‘Show pipeline visualization’ component will remain open even if the user selects a new builder image or resource during their session.
+
+* The Pipelines section allows the user to enable a pipeline template for their application, component or service.
+
+* A Pipelines section appears in +Add flows (for Import from Git, Developer Catalog, and From Dockerfile) when the Pipelines operator is installed.
+
+* When the Pipelines operator is not installed, this section is not displayed.
 
 ## Import from Git
 ### No Builder Image Selected
@@ -18,7 +24,7 @@ version: 4.5
 * An expandable control with text “Show pipeline visualization” is displayed below the Add pipeline checkbox and is collapsed by default.
 * A 'Dev Preview' label is featured next to 'Add pipeline' label.
 
-![Add pipeline](img/import-from-git-1.png)
+![img](img/import-from-git-1.png)
 
 * After the user clicks the caret or 'Show pipeline visualization' label, the visualization is expanded and the user can hover over the different sections of the pipeline to see more details.  
 * The pipeline visualization label changes to ‘Hide pipeline visualization’ if the pipeline visualization is expanded.
