@@ -1,6 +1,6 @@
 # Expose Guest Agent Data
 
-When the Guest Agent is installed on a VM some additional valuable data can be collected then surfaced in the UI.
+When the Guest Agent is installed on a VM some additional valuable data can be collected and then surfaced in the UI.
 When the Guest Agent isn’t installed we will inform the users about that.
 
 We can report that in the VM’s Overview tab under the Status card and provide a message: “This virtual machine does not have a Guest Agent installed. Some metrics, and management features will not be available or inaccurate” and add an external link to view the details about the installation procedure of the Guest Agent, if the users are interested to do so. The link will lead the users to the instructions on how to install the Guest Agent.
