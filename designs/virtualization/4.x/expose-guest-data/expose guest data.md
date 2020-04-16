@@ -20,11 +20,15 @@ Some of the data that is collected via the Guest Agent can be surfaced in the VM
 
 ![Additional data when Guest Agent is installed](img/vm-dashboard-w-ga-installed.png)
 
-Clicking the number of logged in users will lead to a table with all the relevant information about these logged in users. This information is required so that users will be aware when they're about to take an action that will affect those logged in users (f.e.) powering the VM off or restarting it. In case a user decides to power off a vm when there is/are active user/s logged into it, they will be notified about that.  
+Clicking the number of logged in users will lead to a table with all the relevant information about these logged in users.
 
 ### Details tab
 
 ![VM overview page](img/vm-overview.png)
+
+This information is required so that users will be aware when they're about to take an action that will affect those logged in users (f.e.) powering the VM off or restarting it. In case a user decides to power off a vm when there is/are active user/s logged into it, they will be notified about that.  
+
+![Notifying that there are logged in users to that vm](img/power-off-modal.png)
 
 To simplify the information about OS versions (the Guest Agent and what was suggested by the admin while creating the VM), we can surface only the current OS version that’s installed (the Guest Agent OS).
 In case we have a mismatch between the suggested Operating System version (the OS that the admin originally suggested) and the installed Operating System version, we can show an alert that indicates that mismatch.
