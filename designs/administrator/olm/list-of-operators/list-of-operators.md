@@ -8,11 +8,7 @@ version: 4.5
 ## All-projects view
 This is the Installed Operators page where “all-projects” has been selected from the project-selector. Info icons have been added next to the Managed Namespaces column to provide the user more information about what these column titles mean.The user can sort the column via the sort icon (which looks like an arrow). There are a few additions to the flow:
 
-In the Managed Namespaces column there are three different ways the Namespace information can appear.
-
-1. We have introduced the Operator Namespace column. The Operator Namespace column lists the Namespace per Operator where the Operator is installed.
-
-2. In the Managed Namespaces column there are three different ways the Namespace information can appear.
+In the Managed Namespaces column there are three different ways the Namespace information can appear. In the Managed Namespaces column there are three different ways the Namespace information can appear.
 
   a. “My-project” is representative of a single Namespace.
 
