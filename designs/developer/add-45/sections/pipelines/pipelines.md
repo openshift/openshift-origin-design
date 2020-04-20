@@ -24,12 +24,12 @@ version: 4.5
 * An expandable control with text “Show pipeline visualization” is displayed below the Add pipeline checkbox and is collapsed by default.
 * A 'Dev Preview' label is featured next to 'Add pipeline' label.
 
-![img](img/import-from-git-1.png)
+![img](img/import-from-git-devpreview-1.png)
 
 * After the user clicks the caret or 'Show pipeline visualization' label, the visualization is expanded and the user can hover over the different sections of the pipeline to see more details.  
 * The pipeline visualization label changes to ‘Hide pipeline visualization’ if the pipeline visualization is expanded.
 
-![image](img/import-from-git-2.png)
+![image](img/import-from-git-devpreview-2.png)
 
 
 ### Builder Image Selected and No Pipeline Template Exists
@@ -46,7 +46,7 @@ version: 4.5
 * The default state of the Add pipeline checkbox is OFF
 * An expandable control with text “Show pipeline visualization” is displayed below the Add pipeline checkbox and is collapsed by default
 
-![Add pipeline](img/+Add_Flow_Pipelines_ImportFromGit.png)
+![Add pipeline](img/+Add_Flow_Pipelines_ImportFromGit_devpreview.png)
 
 #### No Pipeline Template Exists
 * When no pipeline template is available (which will be determined after the app, service, or source-to-image builder is added), an Info inline alert shall be displayed within the Pipeline section
@@ -60,7 +60,7 @@ version: 4.5
 * The default state of the Add pipeline checkbox is OFF
 * An expandable control with text “Show pipeline visualization” is displayed below the Add pipeline checkbox and is collapsed by default
 
-![Add pipeline](img/+Add_Flow_Pipelines_ImportFromGit.png)
+![Add pipeline](img/+Add_Flow_Pipelines_ImportFromGit_devpreview.png)
 
 ### No Pipeline Template Installed
 * When no pipeline template is available and Info alert shall be displayed within the Pipeline section
@@ -75,15 +75,15 @@ version: 4.5
 ### Enabling a pipeline
 * To enable the pipeline, the user checks the “Add pipeline” checkbox
 
-![Add pipeline](img/+Add_Flow_Add_Pipe.png)
+![Add pipeline](img/+Add_Flow_Add_Pipe_devpreview.png)
 
 
 ### Showing/Hiding the pipeline visualization
 * To show a pipeline visualization, the user clicks on the “Show pipeline visualization” Expandable component link
 
-![Add pipeline](img/+Add_Flow_Show_Pipe_Viz.png)
+![Add pipeline](img/+Add_Flow_Show_Pipe_Viz_devpreview.png)
 
 * The pipeline visualization is displayed within the Expandable component and the link changes to Hide pipeline visualization
 * To hide the visualization once it has been displayed, the user clicks on the “Hide pipeline visualization” Expandable link
 
-![Add pipeline](img/+Add_Flow_Showing_Pipe_Viz.png)
+![Add pipeline](img/+Add_Flow_Showing_Pipe_Viz_devpreview.png)
