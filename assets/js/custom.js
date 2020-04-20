@@ -72,11 +72,11 @@ function insertResults(results) {
   }
 }
 
-transformImages();
 function transformImages() {
 
   // Move all images up out of P's
   var elements = document.querySelectorAll('#main-content img');
+  var elements = [].slice.call(elements, 0).reverse(); // Start from the bottom of the array to handle images within the same p
   for (var i = 0; i < elements.length; i++) {
 
     // console.log("Processing:" + elements.length);
