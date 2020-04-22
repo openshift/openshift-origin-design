@@ -1,6 +1,6 @@
 ---
 parent: Developer
-version: 4.4
+version: 4.5
 ---
 
 # Topology
@@ -286,11 +286,11 @@ On clicking the icon, a delete confirmation is displayed. Or, select the connect
 
 ### 4. Other Actions
 
-#### [Find components on topology view](topology-44/topology-find.md)
+#### [Find components on topology view](../topology-44/topology-find.md)
 
-#### [Filter the view in topology](topology-44/topology-filter.md)
+#### [Filter the view in topology](../topology-44/topology-filter.md)
 
-#### [Add components from topology view](topology-44/topology-in-context-add.md)
+#### [Add components from topology view](../topology-44/topology-in-context-add.md)
 
 
 
