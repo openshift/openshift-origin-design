@@ -294,7 +294,7 @@ On clicking the icon, a delete confirmation is displayed. Or, select the connect
 
 #### [Showing Helm Chart Release Notes on topology](/helm-45/helm-notes.md)
 
-
+#### [Visualization of virtual machines resources in topology view](designs/developer/operator-virtualization-45/vm-visualization.md)
 
 
 Topology is enhanced when the OpenShift Serverless, Virtualization and Pipelines operator are installed.
