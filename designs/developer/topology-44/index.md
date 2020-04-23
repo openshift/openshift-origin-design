@@ -87,7 +87,7 @@ The build decorator in the topology view is located in the bottom left of the no
 
 ![Pod Status](../topology-43/img/build_status.png)  
 
-##### Pipeline Decorator ** NEW IN 4.3
+##### Pipeline Decorator
 The pipeline decorator in the topology view is located in the bottom left of the node.  The decorator has four options: running, completed, failed, and pending.  When the decorator is hovered on, the status of the pipeline will appear. The pipeline decorator provides a one click action to view the pipeline run logs.
 
 ![Pod Status](../topology-43/img/pipeline_status.png)  

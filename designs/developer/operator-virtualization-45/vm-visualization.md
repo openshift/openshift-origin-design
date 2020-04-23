@@ -5,9 +5,7 @@ version: 4.5
 
 ## Visualization of virtual machines resources in topology view
 
-The VM-based resources on the topology view are represented with square shaped nodes. The status of the VM is represented through the color of a band that runs along the edge of the node and at the center is the icon for the associated operating system.
-
-Upon hover, users could see a tooltip on the status band communicating the VM status.
+The VM-based resources on the topology view are represented with square shaped nodes. The status of the VM is represented through the color of a band that runs along the edge of the node and at the center is the icon for the associated operating system. On hovering over the band representing the VM status, users could see a tooltip showing information about the status.
 
 ![VM-based resources nodes](img/vm-topology-nodedesign.png)
 
