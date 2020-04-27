@@ -22,10 +22,6 @@ CPU Features is placed in the Scheduling section of the VM Details tab.
 Currently, these features will be available to be included or excluded.
 By checking the checkbox, the user selects which features to include in the CPU requirement for this VM.
 
-![CPU features modal](img/CPU-features-1-1.jpg)
-For each feature, a popover will be available on clicking the field name.
-Link for all 'More info': https://kubevirt.io/api-reference/v0.26.0/definitions.html#_v1_features
-
 ![VM page CPU features customized](img/CPU-features-2-0.jpg)
 Customized display in-page.
 
