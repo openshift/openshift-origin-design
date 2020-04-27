@@ -1,3 +1,8 @@
+---
+parent: Virtualization
+version: 4.5
+---
+
 # Expose Guest Agent Data
 
 When the Guest Agent is installed on a VM some additional valuable data can be collected and then surfaced in the UI.
