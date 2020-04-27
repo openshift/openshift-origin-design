@@ -222,12 +222,12 @@ On dropping the node, a dialogue box appears to confirm the action of moving Nod
 Once confirmed, the component node becomes a part of the new application group and the group elements rearrange themselves to accommodate the change.Exception: Moving from inside an application group to no group.  
 
 ### 2. Actions For Application Groups
-#### Delete Application Group
+#### Delete Application
 
 
-![Delete Menu Item](img/delete_application_group.png)
+![Delete Menu Item](../topology-43/img/delete_application_group.png)
 
-From the actions dropdown on the right top corner of the details panel, select ‘Delete Application group’  
+From the actions dropdown on the right top corner of the details panel, select ‘Delete Application’  
 
 ![Confirm Deletion](img/application_delete.png)
 

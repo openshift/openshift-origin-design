@@ -224,12 +224,12 @@ Once confirmed, the component node becomes a part of the new application group a
 ### 2. Actions For Application Groups
 
 #### [Collapse Application Groups](openshift-origin-design/designs/developer/topology-44/topology-grouping.md)
-#### Delete Application Group
+#### Delete Application
 
 
 ![Delete Menu Item](../topology-43/img/delete_application_group.png)
 
-From the actions dropdown on the right top corner of the details panel, select ‘Delete Application group’  
+From the actions dropdown on the right top corner of the details panel, select ‘Delete Application’  
 
 ![Confirm Deletion](../topology-43/img/application_delete.png)
 
