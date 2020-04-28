@@ -7,12 +7,12 @@ version: 4.5
 
 Health Checks is a link within the Advanced Options section for the Import from Git and Deploy Image +Add flows. The Health Checks link goes after the Routing link and before the Build Configuration link in the list of Advanced Option links.
 
-![Health Checks link](img/Add_Health_Checks_1.png)
+![Health Checks link](img/Select_Health_Checks.png)
 
 
 When a user clicks on the Health Checks link, the Health Checks section is expanded within the Advanced Options section.
 
-![Health Checks link clicked](img/Add_Health_Checks_2.png)
+![Health Checks link clicked](img/Select_Health_Checks_2.png)
 
 When the Health Checks section is expanded there are 3 probes listed (Readiness, Liveness, and Startup) with a Add <probe name> link associated with each probe.
 
