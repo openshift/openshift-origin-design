@@ -16,15 +16,15 @@ When a user clicks on the Health Checks link, the Health Checks section is expan
 
 When the Health Checks section is expanded there are 3 probes listed (Readiness, Liveness, and Startup) with a Add <probe name> link associated with each probe.
 
-![Health Checks options](img/Add_Health_Checks_3.png)
+![Health Checks options](img/Select_Add_Probe.png)
 
 When an  Add <probe name>  link is clicked, the probe form expands exposing all of the fields associated with the probe.  The user can confirm or cancel the adding of the Health Check using the check or x.  There are 3 variations on the Health Checks form which are based on the Type that is selected. The default probe type is HTTP GET. See the Health Checks In-Line form section below for these variations.
 
-![Health Checks inline form](img/Add_Health_Checks_4.png)
+![Health Checks inline form](img/Add_Probe_Inline_Form_Expands.png)
 
 After the in-line form has been validated and the probe has been added, the form contracts and displays <probe name> Probe Added”. The added probe can be removed after it has been added by clicking on the minus sign. An Edit Probe link can be used to review the entered values.
 
-![Health Checks added](img/Add_Health_Checks_5.png)
+![Health Checks added](img/Add_Probe_Added.png)
 
 
 * Required fields shall have a required field indicator. Any required field that is not filled in or any field that has incorrect data shall have a client side error message displayed under the field. Client side field validation shall occur when the field loses focus.
