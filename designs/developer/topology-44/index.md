@@ -87,7 +87,7 @@ The build decorator in the topology view is located in the bottom left of the no
 
 ![Pod Status](../topology-43/img/build_status.png)  
 
-##### Pipeline Decorator ** NEW IN 4.3
+##### Pipeline Decorator
 The pipeline decorator in the topology view is located in the bottom left of the node.  The decorator has four options: running, completed, failed, and pending.  When the decorator is hovered on, the status of the pipeline will appear. The pipeline decorator provides a one click action to view the pipeline run logs.
 
 ![Pod Status](../topology-43/img/pipeline_status.png)  
@@ -224,12 +224,12 @@ Once confirmed, the component node becomes a part of the new application group a
 ### 2. Actions For Application Groups
 
 #### [Collapse Application Groups](openshift-origin-design/designs/developer/topology-44/topology-grouping.md)
-#### Delete Application Group
+#### Delete Application
 
 
 ![Delete Menu Item](../topology-43/img/delete_application_group.png)
 
-From the actions dropdown on the right top corner of the details panel, select ‘Delete Application group’  
+From the actions dropdown on the right top corner of the details panel, select ‘Delete Application’  
 
 ![Confirm Deletion](../topology-43/img/application_delete.png)
 
@@ -286,11 +286,11 @@ On clicking the icon, a delete confirmation is displayed. Or, select the connect
 
 ### 4. Other Actions
 
-#### [Find components on topology view](openshift-origin-design/designs/developer/topology-44/topology-find.md)
+#### [Find components on topology view](topology-44/topology-find.md)
 
-#### [Filter the view in topology](openshift-origin-design/designs/developer/topology-44/topology-filter.md)
+#### [Filter the view in topology](topology-44/topology-filter.md)
 
-#### [Add components from topology view](openshift-origin-design/designs/developer/topology-44/topology-in-context-add.md)
+#### [Add components from topology view](topology-44/topology-in-context-add.md)
 
 
 
