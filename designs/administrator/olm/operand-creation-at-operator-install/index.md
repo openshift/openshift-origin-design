@@ -1,6 +1,6 @@
 ---
 parent: Administrator
-version: 4.5
+version: 4.6
 ---
 
 # Allow Operand (Custom Resource) to be Created During Operator Installation

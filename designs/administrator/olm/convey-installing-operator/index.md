@@ -1,6 +1,6 @@
 ---
 parent: Administrator
-version: 4.5
+version: 4.6
 ---
 
 # Convey Operator is Installing
@@ -14,17 +14,18 @@ Currently when an operator is installed the user is taken to the **Installed Ope
 
 ![Installing operator](img/1-2x-installing-leave.png)
 - The user is now taken to the new installing screen where a spinner conveys the operator is currently being installed.
+- The status conditions reason and phase are shown and update in real time on the installing screen.
 - A link is included that allows the user to exit to the Installed Operators list.
 - The user could navigate away from this screen using the left nav, and return to it via the **Installed Operators** list view.
 
 ![Installed operator list](img/y-1-list.png)
-- On the Installed Operators list, a row item would always appear (even if the CSV isn’t created in that project yet) that conveys the operator is installing, clicking it would return to the installing screen.
+- On the Installed Operators list, a row item would always appear (even if the CSV isn’t created in that project yet) that conveys the operator is installing.
+- A **View Install** link will be present when the operator is installing, that can return the user to the installing screen.
+- **Definition of 'operator installing':** Before CSV's status.phase reaches "Succeeded"
 - Values in columns may be unfilled as neccessary.
 
 ![Installing operator](img/1-2-installing.png)
-- The user would return to the installing screen if the operator is still being installed. 
-- If the operator had completed installing (either successfully or not,) the user would just be taken to the operator details using existing behavior.
-- **Definition of 'operator installing':** Before CSV's status.phase reaches "Succeeded"
+- The user would return to the installing screen.
 
 ![Installing operator complete](img/1-3-complete.png)
 - When installation completes successfully, the user has the ability to view the installed operator (or view the installed operator list.)
