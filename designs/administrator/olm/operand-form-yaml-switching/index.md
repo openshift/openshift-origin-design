@@ -30,3 +30,12 @@ The existing **Edit Form** and **Edit YAML** links that have been used when crea
 - Users can switch to the form view. Any existing data and data that was entered in the YAML would be reflected in the form view (as its fields support,) as well as any data entered in the form would be reflected in the YAML if it is switched back to.
 - The existing **Save**, **Reload**, and **Cancel** buttons still behave the same, regardless of view.
 - The inline alert conveying that all fields may not be represented in the form view still is present.
+
+## Warnings and Errors
+
+![Warn invalid YAML](img/9-1-invalidYAML.png)
+- If the user enters malformed YAML that cannot be persisted to the form view, they will be warned on switching to the form view.
+
+![Warn invalid YAML](img/9-2-confirmAlert.png)
+- An Alert will appear confirming that they want to switch to the form view and lose any invalid YAML they may have entered in the YAML view.
+- The **Form view** radio is disabled while the alert appears.
