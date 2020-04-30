@@ -4,4 +4,6 @@ version: 4.5
 ---
 # Helm
 
-coming soon
+
+
+- [Accessing Helm release notes on topology view](helm-45/helm-notes.md)

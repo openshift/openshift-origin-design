@@ -20,10 +20,8 @@ When designing for OpenShift, we recommend using these Sketch libraries and beco
 
 [Here is a guide](https://docs.google.com/document/d/1nUY6HjPZ9vLj3Kr4C-FAa-NXgsoHBJOsfE4Wa4KUYl0/edit#heading=h.40qm5r8j6uoz) for Red Hat designers who want to contribute to GitHub.
 
-For issues like missing documentation or incorrect documentation, designers can create issues on the [OpenShift Design Conventions GitHub repository](https://github.com/rh-uxd/openshift-storybook).
+Designers can create issues on the [OpenShift Design GitHub repository](https://github.com/openshift/openshift-origin-design) for issues like missing or incorrect documentation.
 
-For creating a new pattern or redesigning an existing pattern, designers can submit designs as a pull request through the [OpenShift Origin Design Github repository](https://github.com/openshift/openshift-origin-design).
+For creating a new pattern or redesigning an existing pattern, designers can submit designs as a pull request through the [OpenShift Design Github repository](https://github.com/openshift/openshift-origin-design).
 
-Once a new pattern is approved and will be implemented in OpenShift, documentation can be created and submitted through the [OpenShift Design Conventions GitHub repository](https://github.com/rh-uxd/openshift-storybook).
-
-[This getting started guide](https://docs.google.com/document/d/1nUY6HjPZ9vLj3Kr4C-FAa-NXgsoHBJOsfE4Wa4KUYl0/edit#heading=h.40qm5r8j6uoz) for Red Hat designers on Github explains how to set up and contribute. For the design conventions screenshots, use the sketch screenshots file on Github for creating and exporting screenshots referenced on the design conventions.
+[This getting started guide](https://docs.google.com/document/d/1nUY6HjPZ9vLj3Kr4C-FAa-NXgsoHBJOsfE4Wa4KUYl0/edit#heading=h.40qm5r8j6uoz) for Red Hat designers on GitHub explains how to set up and contribute. For the design conventions screenshots, use the Sketch screenshots file on GitHub for creating and exporting screenshots referenced on the design conventions.
