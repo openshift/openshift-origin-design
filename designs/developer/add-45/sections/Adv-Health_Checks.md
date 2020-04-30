@@ -40,29 +40,32 @@ There are three variations on the Health Checks form.
 
 ### HTTP GET
 * HTTP Get is the default value in the Type dropdown
-* HTTP Headers, Path, and Port are dynamic fields displayed for HTTP GET. If the Type is changed after data has been entered in these form fields, the data must persist until the form is submitted.
+* HTTP Headers, Path, and Port are dynamic fields displayed for HTTP GET.
+* If the Type is changed after data has been entered in these form fields and a field is hidden, the data must persist in the hidden field until the form is submitted.
 * Failure Threshold, Success Threshold, Initial Delay, Period, and Timeout fields are always displayed.
 
 ![Health Checks http get](img/FINAL_FORM_HTTP_GET.png)
 
 ### HTTP Get - Knative Services
-When the Knative Services Resource Type is selected, the port value is 0
+* When the Knative Services Resource Type is selected, the port value is 0
 
 ![Health Checks http get 2](img/FINAL_FORM_HTTP_GET_Knative.png)
 
 ### Command
-When the Type is changed to Command, a Command field is displayed. If the Type is changed after data has been entered in these form fields, the data in the fields that are hidden shall persist until the form is submitted.
-Failure Threshold, Success Threshold, Initial Delay, Period, and Timeout fields are always displayed.
+* When the Type is changed to Command, a Command field is displayed.
+* If the Type is changed after data has been entered in these form fields and a field is hidden, the data must persist in the hidden field until the form is submitted.
+* Failure Threshold, Success Threshold, Initial Delay, Period, and Timeout fields are always displayed.
 
 ![Health Checks command](img/FINAL_FORM_Container_Command.png)
 
 ### TCP Socket
-When the Type is changed to TCP Socket, a Path and Port field is displayed. If the Type is changed after data has been entered in these form fields, the data in the fields that are hidden shall persist until the form is submitted.
-Failure Threshold, Success Threshold, Initial Delay, Period, and Timeout fields are always displayed.
+* When the Type is changed to TCP Socket, a Path and Port field is displayed.
+* If the Type is changed after data has been entered in these form fields and a field is hidden, the data must persist in the hidden field until the form is submitted.
+* Failure Threshold, Success Threshold, Initial Delay, Period, and Timeout fields are always displayed.
 
 ![Health Checks tcp](img/FINAL_FORM_TCP.png)
 
 ### TCP Socket - Knative Services
-When the Knative Services Resource Type is selected, the port value is 0
+* When the Knative Services Resource Type is selected, the port value is 0
 
 ![Health Checks tcp 2](img/FINAL_FORM_TCP_Knative.png)
