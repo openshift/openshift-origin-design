@@ -14,7 +14,11 @@ When a user clicks on the Health Checks link, the Health Checks section is expan
 
 ![Health Checks link clicked](img/Select_Health_Checks_2.png)
 
+<<<<<<< HEAD
 When the Health Checks section is expanded there are 3 probes listed (Readiness, Liveness, and Startup). Each probe type has a + Add \[probe name\] link.
+=======
+When the Health Checks section is expanded there are 3 probes listed (Readiness, Liveness, and Startup) with an Add <probe name> link associated with each probe.
+>>>>>>> 75b94e57f71759d223aa33e0db18c3b18f171677
 
 ![Health Checks options](img/Select_Add_Probe.png)
 
