@@ -54,7 +54,8 @@ The Health Checks form is a form within the Import from Git and Deploy Image for
 
 ### Command
 * When the Type is changed to Command, the dynamic field changes to Command.
-Mnd.png)
+
+![Health Checks command](img/FINAL_FORM_Container_Command.png)
 
 ### TCP Socket
 * When the Type is changed to TCP Socket, the dynamic field is Port.
