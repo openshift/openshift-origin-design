@@ -15,17 +15,22 @@ Our design documentation covers the entire developer experience in the OpenShift
 -- coming soon --
 
 ## 4.5 Developer Experience
-The following section document the 4.5 OpenShift Console Developer experience.
+The following section documents the 4.5 OpenShift Console Developer experience.
 
-### Main Pages
+### Primary Navigation
+The primary navigation in the Developer Perspective has three main groupings: task based, object based, and an object based section of resources which have been aded to the navigation by the user.
+
+Task based sections:
 - [+Add](https://openshift.github.io/openshift-origin-design/designs/developer/add-45/)
-- [Builds](https://openshift.github.io/openshift-origin-design/designs/developer/builds/)
-- [Helm](https://openshift.github.io/openshift-origin-design/designs/developer/helm-45/)
-- [Monitoring](https://openshift.github.io/openshift-origin-design/designs/developer/monitoring-44/)
-- [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipeline-45/pipelines)
-- [Project Access](https://openshift.github.io/openshift-origin-design/designs/developer/project-access-43/)
-- [Search](https://https://openshift.github.io/openshift-origin-design/designs/developer/search-45/)
 - [Topology](https://openshift.github.io/openshift-origin-design/designs/developer/topology-44/)
+- [Monitoring](https://openshift.github.io/openshift-origin-design/designs/developer/monitoring-44/)
+- [Search](https://https://openshift.github.io/openshift-origin-design/designs/developer/search-45/)
+
+Object based sections:
+- [Builds](https://openshift.github.io/openshift-origin-design/designs/developer/builds/)
+- [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipeline-45/pipelines)
+- [Helm](https://openshift.github.io/openshift-origin-design/designs/developer/helm-45/)
+- [Project](https://openshift.github.io/openshift-origin-design/designs/developer/project-44/)
 
 ### Operator enhanced user flows
 - [OpenShift Pipelines Operator](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipeline-44/)
@@ -33,7 +38,7 @@ The following section document the 4.5 OpenShift Console Developer experience.
 - [OpenShift Virtualization Operator](https://openshift.github.io/openshift-origin-design/designs/developer/operator-virtualization-45/)
 
 
-To view a list of individual items which were updated in 4.4, click [here](https://openshift.github.io/openshift-origin-design/releases/4.4/)
+To view a list of individual items which were updated in 4.5, click [here](https://openshift.github.io/openshift-origin-design/releases/4.5/)
 
 
 
