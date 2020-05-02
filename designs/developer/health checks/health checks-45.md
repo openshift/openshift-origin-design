@@ -11,7 +11,7 @@ If there is only one container that doesn’t have any health checks configured,
 ![hc-sidepanel-1conatiner](../health checks/img/hc-sidepanel-1conatiner.png)
 
 This inline alert would also be displayed on the deployment details page.  It would be under the Container header before the list of the containers.
-![dpage1](../health checks/img/dpage1.png)
+![dpage1](../health checks/img/dpage 1.png)
 
 Since only one container exists, the user will be brought to this page with the container name listed at the top after “Container”.
 ![add-hc-1c](../health checks/img/add-hc-1c.png)
@@ -49,7 +49,7 @@ If more than one container exists in the deployment/deployment config, the conta
 When there is more than one container, the dropdown will be disabled once the user begins to add health checks.  Depending on which health check the user chooses to add or edit, the corresponding part of this form will expand. The user must then click save or cancel to the entire page. Refer to the [Health Checks Add Form](developer/add-45/sections/Adv-Health_Checks.md)for the expanded forms and interactions.
 ![edit-hc-expanded](../health checks/img/edit-hc-expanded.png)
 
-## Health Check Erros
+## Health Check Errors
 In 4.5, Health Check Errors will be visible in the Monitoring tab of the Topology view. Health Check violations should be warning events, thus will be shown under the Events (Warning) section of the Monitoring tab in the side panel. In the future, when the Notification Drawer is available for Developers, we would expect this to be shown in the drawer as well.
 
 
