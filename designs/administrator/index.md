@@ -1,5 +1,0 @@
----
-parent: Designs
----
-
-# Administrator
