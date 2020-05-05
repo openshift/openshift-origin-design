@@ -19,7 +19,7 @@ This page has 3 tabs: Overview, Details and Project Access.
 
 The only available action on a Project is Delete Project.
 
-When the Delete Project action is clicked, a confirmation dialog will be issued.  Once the deletion begins, change the Project selector to All Projects, so that the list of all projects is displayed.
+When the Delete Project action is clicked, a confirmation dialog will be issued.  Once the deletion begins, the Project selector will change to All Projects, so that the list of all projects is displayed.
 
 ## Overview
 
@@ -51,8 +51,12 @@ Figure 4 - Access added and saved
 ## Removing Access
 * Hovering over the remove icon shows a tooltip with Remove Access.
 ![Figure 5](img/project-5.png)
-Figure 5 - Access removed, before being saved
+Figure 5 - Remove Access tooltip
 
-* Clicking the remove icon on the right side of a row will remove the row.
+* Clicking the remove icon on the right side of a row will remove the row.  An inline information alert is posted above the buttons, and the Save button is enabled.
 ![Figure 6](img/project-6.png)
-Figure 6 - Access removed and saved
+Figure 6 - Access removed, before being saved
+
+* Once the user Saves the changes, the inline alert is removed and the Save button is disabled.
+![Figure 7](img/project-1.png)
+Figure 7 - Access removed and saved
