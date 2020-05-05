@@ -49,7 +49,6 @@ The Health Checks form is a form within the Import from Git and Deploy Image for
 ### HTTP Get - Knative Services
 * When the Knative Services Resource Type is selected, the Port value is 0 and the Port dropdown is disabled
 
-
 ![Health Checks http get 2](img/FINAL_FORM_HTTP_GET_Knative.png)
 
 ### Command
@@ -60,11 +59,9 @@ The Health Checks form is a form within the Import from Git and Deploy Image for
 ### TCP Socket
 * When the Type is changed to TCP Socket, the dynamic field is Port.
 
-
 ![Health Checks tcp](img/FINAL_FORM_TCP.png)
 
 ### TCP Socket - Knative Services
 * When the Knative Services Resource Type is selected, the Port value is 0 and the Port dropdown is disabled
-
 
 ![Health Checks tcp 2](img/FINAL_FORM_TCP_Knative.png)
