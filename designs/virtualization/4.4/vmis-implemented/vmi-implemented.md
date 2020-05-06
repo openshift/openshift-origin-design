@@ -11,7 +11,7 @@ A virtual machine instance(VMI) is the representation of a running virtual machi
 
 1. Debugging -  Previously if a user was trying to resolve an issue caused by a VMI that didn't have an owner it would not be possible to discover it in the UI. Including orphaned VMIs indicates to a user that there could be an issue that they need to address.
 
-2. On Bare metal machines installed with Kubernetes or users who install Kubevirt for CNV - On these VMs there are clusters that can be scaled up and down and they create the VMIs (and not the VMs).
+2. On Bare metal machines installed with Kubernetes or users who install KubeVirt for OpenShift virtualization - On these VMs there are clusters that can be scaled up and down and they create the VMIs (and not the VMs).
 
 ## Mockups
 
