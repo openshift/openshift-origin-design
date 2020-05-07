@@ -11,7 +11,7 @@ A virtual machine instance(VMI) is the representation of a running virtual machi
 
 1. Debugging -  Previously if a user was trying to resolve an issue caused by a VMI that didn't have an owner it would not be possible to discover it in the UI. Including orphaned VMIs indicates to a user that there could be an issue that they need to address.
 
-2. On Bare metal machines installed with Kubernetes or users who install Kubevirt for CNV - On these VMs there are clusters that can be scaled up and down and they create the VMIs (and not the VMs).
+2. On Bare metal machines installed with Kubernetes or users who install KubeVirt for OpenShift virtualization - On these VMs there are clusters that can be scaled up and down and they create the VMIs (and not the VMs).
 
 ## Mockups
 
@@ -21,13 +21,6 @@ We don't surface VMIs in the list if they are owned by a VM.
 VMIs and VMs will be distinguished between different color badges. VMI badges color are darker (#002F5D) in order to provide proper contrast for low vision users.
 
 ![single list view of VMs and VMIs ](img/VMsListW_VMIsOp2.png)
-
-## Hints
-
-To better educate users about VMIs, we will provide hints, whenever it is appropriate.
-The instance name link will take the user to the instance page (VM/VMI).
-
-![showing hint pattern to help educate users about VMIs](img/Op2_Hint.png)
 
 ## VMI's details view
 
@@ -55,7 +48,3 @@ In order to let the user get to the VMI even when there is a VM around it, we ad
 If the user chooses to delete a VMI, they will be asked via the common pop up if they are sure they want to delete it.
 
 ![Asking if they are sure to delete](img/Op1WarningPopupDelete.png)
-
-In case the VMI has an owner, they will also be notified that the owner may automatically rebuild the VMI.
-
-![Asking if they are sure to delete and notifying about the owner may rebuild the VMI](img/WarningPopupDelete_VMIHasAnOwner.png)
