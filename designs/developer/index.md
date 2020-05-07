@@ -30,7 +30,7 @@ Object based sections:
 - [Builds](https://openshift.github.io/openshift-origin-design/designs/developer/builds/)
 - [Pipelines](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipeline-45/pipelines)
 - [Helm](https://openshift.github.io/openshift-origin-design/designs/developer/helm-45/)
-- [Project](https://openshift.github.io/openshift-origin-design/designs/developer/project-44/)
+- [Project](https://openshift.github.io/openshift-origin-design/designs/developer/project-45/)
 
 ### Operator enhanced user flows
 - [OpenShift Pipelines Operator](https://openshift.github.io/openshift-origin-design/designs/developer/operator-pipeline-44/)
