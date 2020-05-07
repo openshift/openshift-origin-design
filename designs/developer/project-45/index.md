@@ -58,5 +58,5 @@ Figure 5 - Remove Access tooltip
 Figure 6 - Access removed, before being saved
 
 * Once the user Saves the changes, the inline alert is removed and the Save button is disabled.
-![Figure 7](img/project-1.png)
+![Figure 7](img/project-7.png)
 Figure 7 - Access removed and saved
