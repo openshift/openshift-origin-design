@@ -54,7 +54,7 @@ If there is at least one Health Check configured the title of the form will be â
 
 ![edit-hc-1c](img/edit-hc-1c.png)
 
-Refer to the [Health Checks Add Form](developer/add-45/sections/Adv-Health_Checks.md) for the expanded forms and interactions.
+Refer to the [Health Checks Add Form](developer/add-45/sections/Adv-Health_Checks.md) for details and interactions for the expanded forms.
 
 ## Health Check Errors
 In 4.5, Health Check Errors will be visible in the Monitoring tab of the Topology view. Health Check violations should be warning events, thus will be shown under the Events (Warning) section of the Monitoring tab in the side panel. In the future, when the Notification Drawer is available for Developers, we would expect this to be shown in the drawer as well.
