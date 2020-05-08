@@ -39,10 +39,12 @@ The Health Checks form allows the user to create Health Check probes for Readine
 For single containers, the user will be brought to this page with the container name listed under the page title.
 
 ![add-hc-1c](img/add-hc-1c.png)
+(fix image - remove edit probe link)
 
 For groupings with more than one container, the user will be brought to this page with a dropdown menu of all of the containers listed under the page title.  As the user changes the dropdown, the entire page below will also update.  Once the user begins to edit the form, the dropdown will become disabled. If the user selects the cancel button, the dropdown becomes active again.
 
 ![add-hc-2c](img/add-hc-2c.png)
+(fix image - remove edit probe link)
 
 When there is more than one container, the dropdown will be disabled once the user begins to add health checks.  Depending on which health check the user chooses to add or edit, the corresponding part of this form will expand. The user must then click save or cancel to the entire page.
 
@@ -52,11 +54,11 @@ If there are no Health Checks configured the title of the form will be “Add He
 
 ![add-hc-1c](img/add-hc-1c.png)
 
-If there is at least one health check configured the title of the form will be “Edit Health Checks” and the actions at the bottom will be “Save” and “Cancel”. If only one container exists, that container name will be listed at the top after “Container”.
+If there is at least one Health Check configured the title of the form will be “Edit Health Checks” and the actions at the bottom will be “Save” and “Cancel”. If only one container exists, that container name will be listed at the top after “Container”.
 ![edit-hc-1c](img/edit-hc-1c.png)
 
-Refer to the [Health Checks Add Form](developer/add-45/sections/Adv-Health_Checks.md)for the expanded forms and interactions.
-![edit-hc-expanded](../health checks/img/edit-hc-expanded.png)
+Refer to the [Health Checks Add Form](developer/add-45/sections/Adv-Health_Checks.md) for the expanded forms and interactions.
+
 
 ## Health Check Errors
 In 4.5, Health Check Errors will be visible in the Monitoring tab of the Topology view. Health Check violations should be warning events, thus will be shown under the Events (Warning) section of the Monitoring tab in the side panel. In the future, when the Notification Drawer is available for Developers, we would expect this to be shown in the drawer as well.
