@@ -17,8 +17,12 @@ Our design documentation covers the entire developer experience in the OpenShift
 ## 4.5 Developer Experience
 The following section documents the 4.5 OpenShift Console Developer experience.
 
+### Masthead
+The masthead is common to both the Developer and Administrator Perspectives. Listed below are features that are accessible through the masthead.
+- [Command Line Interface \(CLI\)](https://openshift.github.io/openshift-origin-design/designs/developer/cli/)
+
 ### Primary Navigation
-The primary navigation in the Developer Perspective has three main groupings: task based, object based, and an object based section of resources which have been aded to the navigation by the user.
+The primary navigation in the Developer Perspective has three main groupings: task based, object based, and an object based section of resources which have been added to the navigation by the user.
 
 Task based sections:
 - [+Add](https://openshift.github.io/openshift-origin-design/designs/developer/add-45/)
