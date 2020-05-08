@@ -41,12 +41,12 @@ For single containers, the user will be brought to this page with the container 
 ![add-hc-1c](img/add-hc-1c.png)
 (fix image - remove edit probe link)
 
-For groupings with more than one container, the user will be brought to this page with a dropdown menu of all of the containers listed under the page title.  As the user changes the dropdown, the entire page below will also update.  Once the user begins to edit the form, the dropdown will become disabled. If the user selects the cancel button, the dropdown becomes active again.
+For groupings with more than one container, the user will be brought to this page with a dropdown menu of all of the containers listed under the page title.  As the user changes the dropdown, the entire page below will also update.  
 
 ![add-hc-2c](img/add-hc-2c.png)
 (fix image - remove edit probe link)
 
-When there is more than one container, the dropdown will be disabled once the user begins to add health checks.  Depending on which health check the user chooses to add or edit, the corresponding part of this form will expand. The user must then click save or cancel to the entire page.
+Once the user begins to edit the form, the dropdown will become disabled. Depending on which health check the user chooses to add or edit, the corresponding part of this form will expand. If the user selects the cancel button, the dropdown becomes active again. If the user selects save, the form is submitted.
 
 ![add-hc-expanded](img/add-hc-expanded.png)
 
@@ -55,6 +55,7 @@ If there are no Health Checks configured the title of the form will be “Add He
 ![add-hc-1c](img/add-hc-1c.png)
 
 If there is at least one Health Check configured the title of the form will be “Edit Health Checks” and the actions at the bottom will be “Save” and “Cancel”. If only one container exists, that container name will be listed at the top after “Container”.
+
 ![edit-hc-1c](img/edit-hc-1c.png)
 
 Refer to the [Health Checks Add Form](developer/add-45/sections/Adv-Health_Checks.md) for the expanded forms and interactions.
