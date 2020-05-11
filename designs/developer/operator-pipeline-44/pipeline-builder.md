@@ -16,7 +16,7 @@ Figure 1 - Pipeline List View
 
 ## Structure of the Pipeline Builder
 The Pipeline Builder has 4 main sections:
-1. Input field for the namespace
+1. Input field for the name
 2. Tasks section, which allows you to define the task structure of the pipeline.
 3. Parameters section.  If defined, parameters are required input when the pipeline is started.  The parameters can be referenced by the tasks.
 4. Resources section. If defined, resources are required input when the pipeline is started.  The resources can be referenced by the tasks.
