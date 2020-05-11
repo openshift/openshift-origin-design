@@ -1,6 +1,6 @@
 ---
 parent: virtualization
-version: 4.5
+version: 4.X
 ---
 
 # Firmware
@@ -22,7 +22,7 @@ This modal is composed of three fields:
 Changing the Bootload to EFI
 
 ![Firmware modal popovers](img/Firmware-1-2.jpg)
-For each feature, a popover will be available on clicking the field name.
+For each feature, a popover will be available when clicking the help icon next to the field name.
 Bootloader link: https://kubevirt.io/api-reference/v0.26.0/definitions.html#_v1_bootloader
 Serial link: https://kubevirt.io/api-reference/v0.26.0/definitions.html#_v1_firmware
 UUID link: https://kubevirt.io/api-reference/v0.26.0/definitions.html#_v1_firmware
@@ -35,4 +35,4 @@ In case the Bootloader changes, the Firmware value will specify 'Custom - Bootlo
 In case any Serial or UUID values has changed, the Firmware field will specify 'Custom', with no further values specifically for the UUID or Serial. This is because there is no reset to default.
 
 ![VM page](img/Firmware-2-1.jpg)
-In case strings removed from the string fields, the Frimware value will change to 'Custom - Serial: None'.
+In case strings removed from the string fields, the Firmware value will change to 'Custom - Serial: None'.
