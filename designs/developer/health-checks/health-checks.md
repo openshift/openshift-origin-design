@@ -15,7 +15,7 @@ For individual containers or container groupings that don’t have Health Checks
 
 <!--This inline alert would also be displayed on the deployment details page.  It would be under the Container header before the list of the containers.
 ![dpage2](img/dpage2.png)
-![dpage1](img/dpage 1.png)-->
+![dpage1](img/dpage1.png)-->
 
 
 For individual container that have Health Checks configured or container groupings that have at least one Health Check configured, a Health Checks inline alert with a link to "Edit Health Checks" shall be displayed at the top of the panel below the title. When the user clicks on the "Edit Health Checks" link they are brought to the Health Checks form.
