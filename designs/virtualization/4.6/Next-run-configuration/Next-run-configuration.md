@@ -56,6 +56,7 @@ In Disks and NICs table view we’ll add ‘*pending changes’ link right besid
 
 ![NICKs page](img/NICs.png)
 
-The link will lead to the ‘Edit’ modal where the changes will be shown and users will have the option to clear them.
+The link will lead to the ‘Edit’ modal where the changes will be shown and users will have the option to clear them. If the user hasn't restarted the VM yet, we will add a  “Pending changes” label  beside the  items that have been changed.
+
 
 ![Edit NICK modal](img/EditNIC.png)
