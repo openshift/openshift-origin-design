@@ -2,11 +2,16 @@
 parent: Virtualization
 version: 4.6
 ---
+# Next run configuration
 
-# Editing
+As a user makes changes to a running Virtual machine they will need to wait for the VM to restart to see the changes applied (the changes won’t be applied until the next start of the VM).
+
+## Editing
 
 When a user clicks to edit/ update one of the attributes (f.e. Flavor) it will open a modal with an alert notification letting the user know that the VM must be restarted in order to see the changes applied. The alert will persist until they restart the VM.
-In general, users will be able to clear the changes and keep what they had, but at the very first time the modal is opened (since the 'Cancel' button has the same functionality as 'Clear changes') in case the user hasn't saved any changes yet, the 'Clear changes' button will not be shown.
+This alert will not appear until the user has made changes, so the user will then know that they will need to restart.
+
+In general, users will be able to clear the changes and keep what they had, but at the very first time the modal is opened in case the user hasn't saved any changes yet, the 'Clear changes' button will not be shown.
 
 To avoid confusion users will be able to view the current settings in The VM Details page.
 
@@ -48,9 +53,11 @@ Clicking 'Flavor' will open the 'Edit Flavor' modal with the inline alert that l
 
 ![Edit Flavor modal w inline alert that lets user clear change they made](img/Edit.png)
 
-If they will choose to clear changes - that action will remove the changes they have made and the current settings will stay the same.
+If they will choose to clear changes - that action will remove the changes they have made,  the current settings will stay the same and the users will return to the details view.
 
 ![Clear changes modal](img/ClearChanges2.png)
+
+In case of multiple pending changes, the inline alert on the Details page will say 'Clear all changes' and the modal will include a list of all the changes.
 
 ## Disks and NICS examples
 
