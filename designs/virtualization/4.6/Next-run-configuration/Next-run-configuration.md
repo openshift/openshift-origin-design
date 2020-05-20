@@ -39,8 +39,10 @@ In cases users made changes to the part of the YAML which are not exposed in the
 
 ## List view
 
-In the List view, we’ll show the Running* status or the alert icon (this file temporarily demos 2 options for the icons for us to reach a decision). Clicking it will open a popover explaining that this VM has some pending changes that will apply once it will be restarted.
-Users will be able to restart from here to save the step of clicking into the kebab menu.
+In the List view, we will show un-restarted VMs as 'degraded' with yellow warning statuses and 'Pending Changes' subtext underneath the regular Running status. This way they would appear in the Cluster Overview and Project Overview Inventory cards as well. That should make it easier for the users to notice VMs that need to be restarted.
+
+Clicking the 'Running' status will open a popover explaining that this VM has some pending changes that will apply once it will be restarted.
+Users will be able to restart from the popover to save the step of clicking into the kebab menu.
 The popover will also let the user know where to see the pending changes by clicking 'View details' which will take them to the VMs Details page so they can see the 'Restart is required' inline alert at the top.
 
 ![Popover indicating a restart is required from the list view](img/ListView.png)
