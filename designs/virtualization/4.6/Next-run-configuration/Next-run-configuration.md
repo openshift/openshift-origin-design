@@ -33,6 +33,10 @@ Only in cases when users have made changes to the part of the YAML which are not
 
 ![VM details page](img/vm-details.png)
 
+In case there are multiple changes that are on different tabs, we will show a list of them and the same notification will be shown on every tab. Clicking each will take the user to the relevant tab and will open the modal.
+
+![Notification for changes on multiple tabs](img/Notification-changes-on-multiple-tabs.png)
+
 In cases users made changes to the part of the YAML which are not exposed in the ui we’ll add the option to ‘View pending changes in the YAML editor.
 
 ![Users can view the changes in the YAML](img/ViewYAML-editor.png)
@@ -53,6 +57,8 @@ Users will be able to view the pending changes from the ‘Edit’ modals and al
 
 Clicking 'Flavor' will open the 'Edit Flavor' modal with the inline alert that lets the user clear the change they made.
 
+We will add a (Pending changes) label beside the items that have been changed.
+
 ![Edit Flavor modal w inline alert that lets user clear change they made](img/Edit.png)
 
 If they will choose to clear changes - that action will remove the changes they have made,  the current settings will stay the same and the users will return to the details view.
@@ -63,12 +69,8 @@ In case of multiple pending changes, the inline alert on the Details page will s
 
 ## Disks and NICS examples
 
-In Disks and NICs table view we’ll add ‘*pending changes’ right beside the name so users will know there are some changes that need to be applied.
-
 ![Disks page](img/Disks.png)
 
 ![NICKs page](img/NICs.png)
-
-In the ‘Edit’ modal the changes will be shown and users will have the option to clear them. If the user hasn't restarted the VM yet, we will add a  “Pending changes” label  beside the  items that have been changed.
 
 ![Edit NICK modal](img/EditNIC.png)
