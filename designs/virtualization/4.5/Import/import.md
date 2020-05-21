@@ -46,12 +46,11 @@ From here the VM can be imported.
 There are cases where a virtual machine does not successfully import. In this case the user will be prompted to make updates to the settings of the vm before import can be completed.
 
 The required fields will be listed in an alert with links to each step for the user to navigate to and resolve.
-
-![Import errors review](img/import-7.png)
+![Import errors full wizard](img/import-8.png)
 
 They will then be provided the full wizard to navigate to solve any errors that have surfaced.
 
-![Import errors full wizard](img/import-8.png)
+
 
 ### Editing
 
