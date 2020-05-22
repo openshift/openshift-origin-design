@@ -2,6 +2,7 @@
 parent: Virtualization
 version: 4.5
 ---
+Importing a Virtual Machine is an important feature for OpenShift Virtualization. It allows users who are otherwise committed to another virtualization product to see more value in OpenShift by allowing them to easily bring with them their existing VMs.
 
 # Importing Virtual Machine
 The latest update for importing a Virtual Machine has simplified the flow.
