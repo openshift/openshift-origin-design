@@ -25,7 +25,7 @@ With VMware chosen the required credentials are presented to the user. To see a 
 ![RHV import](img/import-3.png)
 We have now added the option to import from Red Hat Virtualization as well. With the Red Hat Virtualization option chosen as the provider you will then be provided the fields required to connect to RHV.
 
-Once connected the Cluster can be chosen to narrow the results of the virtual machines provided, this field is not required.
+Once connected, the Cluster can be chosen to narrow the results of the virtual machines provided. Note: The cluster field is not required.
 ![cluster selection](img/import-4.png)
 
 The virtual machine can be found via a type ahead field.
@@ -64,7 +64,6 @@ At any point the user can enter the edit flow to make changes to the virtual mac
 Once the Import has succeeded the user will be able to view the VM details or see it in the list view. They can also see the YAML file for the VM.
 
 ![Import success](img/import-10.png)
-
 
 
 
