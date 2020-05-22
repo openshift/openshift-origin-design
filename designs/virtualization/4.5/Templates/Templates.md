@@ -24,6 +24,6 @@ If all they need is to provide a name for the VM, they can skip to the 'Review a
 
 ![user reviews settings](img/CompletesReqiredInfoTemplate.png)
 
-If they need to edit any of the settings for this VM that are different from the template they started with, they will need to go through the steps to edit the settings and then create the VM. F.e. if a user wants to change the flavor, they will need to go to the general step and reedit this field.
+If they need to edit any of the settings for this VM that are different from the template they started with, they will need to go through the steps to edit the settings and then create the VM. F.e. if a user wants to change the flavor, they will need to go to the general step and edit this field.
 
 ![user reviews settings](img/edit-t-before-creating-vm.png)
