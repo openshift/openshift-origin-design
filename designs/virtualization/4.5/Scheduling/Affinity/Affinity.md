@@ -45,11 +45,10 @@ There is no need to mention the Default to the user.
 Switching to 'Required during scheduling' option from the Condition field, the Weight field will be excluded.
 
 ![Affinity Edit/Create modal - Any expressions ](img/Affinity-2-2.jpg)
-Within the Selector section, the user can select the nodes/workloads by entering labels or any full string of key:value, path included, that appears in the YAML file.
-On 'YAML field' option, the user will be required to enter full path to the key:value pair.
-Full path is not required for labels
+Within the 'Node labels' section, the user can select the nodes/workloads by entering labels or any full string of key:value that appears in the desired node YAML file.
+On 'Node fields' section, the user will be required to enter full path to the key:value pair.
+Full path is not required for labels.
 
-![Affinity Edit/Create modal - Any expressions ](img/Affinity-2-3.jpg)
 The 'values' field is a multi-value field and will be applied using the white labels.
 Entering values in the label/expression rows will result in a 'Matching nodes' notification.
 
@@ -62,4 +61,3 @@ the user can select one of the following Operator options:
 
 ![Affinity Edit/Create modal - Workload (pod) affinity ](img/Affinity-3-0.jpg)
 On selecting Workload affinity, the form will align by changing any 'Node' mention to 'Workload'.
-The 'Explore nodes list' will change to 'pods', directing the user to the search page with pods selected, on an external tab. 
