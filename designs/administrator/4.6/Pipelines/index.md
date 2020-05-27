@@ -36,7 +36,9 @@ If the user selects all-projects from the project selector, the Namespace column
 
 ![Condition](img/4-Condition.jpg)
 
-## Tasks
+## Tasks page
+
+### Tasks
 If the user selects all-projects from the project selector, the Namespace column appears. The main action the user can take on the Tasks page is create a Task, Task Run, and Cluster Tasks.
 
 ![Tasks](img/9-Tasks.jpg)
