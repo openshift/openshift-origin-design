@@ -13,6 +13,8 @@ The Pipelines pages should be updated on the Admin console to be representative 
  - The Create button should be styled with the dropdown as it shows on the Secrets page.
 
 ## Pipelines page
+
+### Pipelines
 On the Pipelines page the user can navigate between Pipelines, Pipeline Runs, Pipeline Resources, and Conditions via the tabs on the top of the page.
 - From the Create button the user can create Pipelines, Pipeline Resources, and Conditions.
 - The main action the user can take on the Pipelines page is creating a Pipeline from the Pipelines page
