@@ -55,7 +55,9 @@ If the user selects all-projects from the project selector, the Namespace column
 
 ![Cluster Tasks](img/11-Cluster-Tasks.jpg)
 
-## Event Listeners
+## Triggers page
+
+### Event Listeners
 If the user selects all-projects from the project selector, the Namespace column appears. The main action the user can take from this page is to create an Event Listener from the Create dropdown.
 
 ![Event Listeners](img/5-Event-Listeners.jpg)
