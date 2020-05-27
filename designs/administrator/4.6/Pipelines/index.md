@@ -32,7 +32,7 @@ If the user selects all-projects from the project selector, the Namespace column
 ![Pipeline resources](img/3-pipeline-resources.jpg)
 
 ## Condition
-If the user selects all-projects from the project selector, the Namespace column appears. The main action the user can take on the Condition tab is creating a Condition from the Pipelines page. The Pipelines Resources page contains the Name and Created columns
+If the user selects all-projects from the project selector, the Namespace column appears. The main action the user can take on the Condition tab is creating a Condition from the Pipelines page. The Conditions page contains the Name and Created columns
 
 ![Condition](img/4-Condition.jpg)
 
