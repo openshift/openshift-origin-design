@@ -48,6 +48,7 @@ An infobox will notify the user that a disk will be added to to the disks list o
 
 ![Create VM - OS disk on list](img/1-3.jpg)
 Within the storage step, the disk added on the general step will appear as the first item on the list.
+This disk cannot be deleted but can be modified.
 
 ![Create VM - OS disk modal](img/1-3-1.jpg)
 Editing that disk will display a warning notification within the edit modal.
@@ -57,7 +58,7 @@ Editing that disk will display a warning notification within the edit modal.
 ![Create VM - Networking -list](img/2-0.jpg)
 NIC list.
 In case no PXE boot the OS image selected on the General step, a default NIC will be added.
-A infobox will notify the user that this default NIC exposes the VM to the cluster. 
+This NIC  exposes the VM to the cluster.
 
 ![Create VM - Networking -Default](img/2-1.jpg)
 On editing this default NIC, a warning message will remind the user that modifying this NIC might break that 'expoing to cluster' configuration.
@@ -80,6 +81,9 @@ Network field does not require description for each option since these options a
 Disks list.
 In case no disk type OS image source selected in the General step, a default disk will be created in order to make the VM operational.
 
+![Create VM - Storage -Default disk](img/3-0-0.jpg)
+Editing the default disk will present an info box notification.
+
 ![Create VM - Storage -list](img/3-1.jpg)
 The Add/Edit modal has been modified.
 - Name
@@ -91,7 +95,7 @@ The Add/Edit modal has been modified.
     - Make disk bootbale checkbox (new)
 
 ![Create VM - Storage -list](img/3-2.jpg)
-Disk content dropdwon options
+Disk content dropdwon options.
 
 ## Advanced
 
