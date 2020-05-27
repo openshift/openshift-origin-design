@@ -5,7 +5,7 @@ version: 4.x
 
 # create VM dropdowns
 
-This im will cover varios updates to the VM creation wizard
+This item will cover various updates to the VM creation wizard
 - Adding descriptions to the dropdown fields (using this pattern https://github.com/patternfly/patternfly-design-kit/issues/218)
 - Renaming fields
 - Reordering fields
