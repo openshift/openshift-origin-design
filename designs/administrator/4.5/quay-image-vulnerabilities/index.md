@@ -5,7 +5,7 @@ version: 4.5
 
 # Quay Container Security Operator Enhancements
 
-Enhancements have been made to the Container Security Operator, with the **Image Vulnerabilities** status on the cluster dashboard now having clearer labeling and access to the **Image Vulnerabilities** list. Also Pods now include a **Vulnerabilities** tab which lists out the vulnerable containers on the pod.
+Enhancements have been made to the Container Security Operator, with the **Image Vulnerabilities** status on the cluster dashboard now having clearer labelling and access to the **Image Vulnerabilities** list. Also, Pod Details now include a **Vulnerabilities** tab which lists out the vulnerable containers on the pod.
 
 ## Image Vulnerabilities on Cluster Dashboard
 
