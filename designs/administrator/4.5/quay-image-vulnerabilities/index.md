@@ -18,5 +18,5 @@ Enhancements have been made to the Container Security Operator, with the **Image
 ## Image Vulnerabilities from Pods
 
 ![Cluster Dashboard Image Vulnerabilities Status](img/podvulns.png)
-- Pods now include a **Vulnerabilities** tab that lists the containers on that pod that are vulnerable. This has replaced the **View Image Vulnerabilities** action.
+- The Pod Details view now include a **Vulnerabilities** tab that lists the containers on that pod that are vulnerable. This has replaced the **View Image Vulnerabilities** action.
 - Each container includes a count of how many vulnerabilities are present and the highest severity, which also functions as a link to the corresponding ImageManifestVuln resource.
