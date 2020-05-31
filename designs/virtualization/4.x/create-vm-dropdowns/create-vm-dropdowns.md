@@ -19,7 +19,7 @@ Section titles added, and fields reorgenized and renamed.
 - 'Description'
 'Resources & configuration' section'
 - 'Operating system'
-- 'VM configuration' (previously Workload profile)
+- 'Configuration' (previously Workload profile)
 - 'Flavor (CPU and Memory)' (previously only 'flavor')
 'Operating system image source' section
 - 'Boot operating system via' (previously 'source')
