@@ -57,8 +57,8 @@ Editing that disk will display a warning notification within the edit modal.
 
 ![Create VM - Networking -list](img/2-0.jpg)
 NIC list.
-In case no PXE boot the OS image selected on the General step, a default NIC will be added.
-This NIC  exposes the VM to the cluster.
+For any VM source selection (with the exception of PXE) a default NIC will be added.
+This NIC exposes the VM to the cluster.
 
 ![Create VM - Networking -Default](img/2-1.jpg)
 On editing this default NIC, an info alert will remind the user that modifying this NIC might break that 'exposing to cluster' configuration.
