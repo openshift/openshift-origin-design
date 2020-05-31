@@ -27,7 +27,7 @@ Section titles added, and fields reorgenized and renamed.
 ## General step
 
 ![Create VM - General](img/1-1.jpg)
-On selecting an Operating system, the VM configuration and Flavor (CPU and Memory) fields will be enabled and selected on default
+Upon selecting an operating system, the configuration and Flavor (CPU and Memory) fields will be enabled and their defaults will be selected.
 
 ![Create VM - General - VM configuration](img/1-1-1.jpg)
 VM Configuration options
@@ -41,10 +41,10 @@ Medium is the default
 'Boot operating system via' field options
 
 ![Create VM - General](img/1-2.jpg)
-Selecting an option form the 'Boot operating system via' field will expose below all the fields required to connect the VM to an OS image source.
+Selecting an option from the 'Boot operating system via' field will expose below all the fields required to connect the VM to an OS image source.
 For example: on selecting the 'Existing PVC' option, additional fields will appear below, required to select a PVC available on the cluster.
 The disk name should be added here as well to establish a better link between this step and the Storage step.
-An infobox will notify the user that a disk will be added to to the disks list on the Storage step.
+An info alert will notify the user that a disk will be added to to the disks list on the Storage step.
 
 ![Create VM - OS disk on list](img/1-3.jpg)
 Within the storage step, the disk added on the general step will appear as the first item on the list.
@@ -61,16 +61,17 @@ In case no PXE boot the OS image selected on the General step, a default NIC wil
 This NIC  exposes the VM to the cluster.
 
 ![Create VM - Networking -Default](img/2-1.jpg)
-On editing this default NIC, a warning message will remind the user that modifying this NIC might break that 'expoing to cluster' configuration.
+On editing this default NIC, an info alert will remind the user that modifying this NIC might break that 'exposing to cluster' configuration.
 
 ![Create VM - Networking -Add](img/2-2.jpg)
 Add NIC modal.
 The Advanced drawer is closed by default, as seen in the previous image.
-All fields had moved into the advanced drawer, except the Name and Network fields.
+All fields have moved into the advanced drawer, except the Name and Network fields.
 Network field does not require description for each option since these options are created and managed by the user.
 
 ![Create VM - Networking -Model](img/2-3.jpg)
-'Model' dropdown options
+'Model' dropdown options.
+ViritIO marked as (recommended)
 
 ![Create VM - Networking -Binding](img/2-4.jpg)
 'Binding method' dropdown options (previously 'Type')
@@ -89,10 +90,10 @@ The Add/Edit modal has been modified.
 - Name
 - Type changed to 'Disk content'. This will change the configuration below
 - Advanced drawer added containing: 
-    - Inteface
+    - Interface
     - Volume mode
     - Access mode (should be automatically selected and locked to the Storage class default)
-    - Make disk bootbale checkbox (new)
+    - Make disk bootable checkbox (new)
 
 ![Create VM - Storage -list](img/3-2.jpg)
 Disk content dropdwon options.
