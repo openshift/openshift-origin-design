@@ -43,24 +43,24 @@ The main action the user can take on the Conditions tab is creating a Condition 
 ### Tasks
 The main action the user can take on the Tasks page is create a Task, Task Run, and Cluster Tasks.
 
-![Tasks](img/9-tasks.jpg)
+![Tasks](img/9-task.jpg)
 
 ### Task Runs
 The user can create a Task Run from the Task Run button. On the Task Runs page the user can filter by Status.
 
-![Task Runs](img/10-task-runs.jpg)
+![Task Runs](img/10-task-run.jpg)
 
 ### Cluster Tasks
 The user can create a Cluster Task from the Cluster Task button.
 
-![Cluster Tasks](img/11-cluster-tasks.jpg)
+![Cluster Tasks](img/11-cluster-task.jpg)
 
 ## Triggers page
 
 ### Event Listeners
 The main action the user can take from this page is to create an Event Listener from the Create dropdown. We should determine in the future whether we can filter on Event Listeners or not.
 
-![Event Listeners](img/5-event-listeners.jpg)
+![Event Listeners](img/5-event-listener.jpg)
 
 ### Trigger Templates
 The main action the user can take from this page is to create a Trigger Template from the Create dropdown.
@@ -75,4 +75,4 @@ The main action the user can take from this page is to create a Trigger Binding 
 ### Cluster Trigger Bindings
  The main action the user can take from this page is to create a Cluster Trigger Binding from the Create dropdown.
 
-![Cluster Trigger Bindings](img/8-cluster-trigger-bindings.jpg)
+![Cluster Trigger Bindings](img/8-cluster-trigger-binding.jpg)
