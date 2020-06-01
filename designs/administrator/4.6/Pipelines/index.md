@@ -19,60 +19,60 @@ On the Pipelines page the user can navigate between Pipelines, Pipeline Runs, Pi
 - From the Create button the user can create Pipelines, Pipeline Resources, and Conditions.
 - The main action the user can take on the Pipelines page is creating a Pipeline from the Pipelines page
 - The Pipelines page contains the Pipelines Name, Last Run, Last Run Status, and Last Started columns
-- If the user selects all-projects from the project selector, the Namespace column appears.
+- On the Pipelines page the user can filter by Status
 
 ![Pipelines page](img/1-pipelines.jpg)
 
-## Pipeline Runs
-If the user selects all-projects from the project selector, the Namespace column appears. The Pipelines Runs page contains the Name, Status, Started, and Duration columns.
+### Pipeline Runs
+The Pipelines Runs page contains the Name, Status, Started, and Duration columns. On the Pipeline Runs page the user can filter by Status.
 
 ![Pipeline runs](img/2-pipeline-runs.jpg)
 
-## Pipeline Resources
-If the user selects all-projects from the project selector, the Namespace column appears. The main action the user can take on the Pipelines Resources tab is creating a Pipeline Resource from the Pipeline page. The Pipelines Resources page contains the Name, Created, and Type columns.
+### Pipeline Resources
+The main action the user can take on the Pipelines Resources tab is creating a Pipeline Resource from the Pipeline page. The Pipelines Resources page contains the Name, Created, and Type columns. For filtering the user can filter by Resource type (Git Resource, Pull Request Resource, Image Resource, Cluster Resource, Storage Resource including GCS Storage Resource and BuildGCS Storage Resource, and Cloud Event Resource).
 
 ![Pipeline resources](img/3-pipeline-resources.jpg)
 
-## Condition
-If the user selects all-projects from the project selector, the Namespace column appears. The main action the user can take on the Condition tab is creating a Condition from the Pipelines page. The Conditions page contains the Name and Created columns
+### Conditions
+The main action the user can take on the Conditions tab is creating a Condition from the Pipelines page. The Conditions page contains the Name and Created columns.
 
 ![Condition](img/4-Condition.jpg)
 
 ## Tasks page
 
 ### Tasks
-If the user selects all-projects from the project selector, the Namespace column appears. The main action the user can take on the Tasks page is create a Task, Task Run, and Cluster Tasks.
+The main action the user can take on the Tasks page is create a Task, Task Run, and Cluster Tasks.
 
-![Tasks](img/9-Tasks.jpg)
+![Tasks](img/9-tasks.jpg)
 
-## Task Runs
-If the user selects all-projects from the project selector, the Namespace column appears. The user can create a Task Run from the Task Run button.
+### Task Runs
+The user can create a Task Run from the Task Run button. On the Task Runs page the user can filter by Status.
 
-![Task Runs](img/10-Task-Runs.jpg)
+![Task Runs](img/10-task-runs.jpg)
 
-## Cluster Tasks
-If the user selects all-projects from the project selector, the Namespace column appears.The user can create a Cluster Task from the Cluster Task button.
+### Cluster Tasks
+The user can create a Cluster Task from the Cluster Task button.
 
-![Cluster Tasks](img/11-Cluster-Tasks.jpg)
+![Cluster Tasks](img/11-cluster-tasks.jpg)
 
 ## Triggers page
 
 ### Event Listeners
-If the user selects all-projects from the project selector, the Namespace column appears. The main action the user can take from this page is to create an Event Listener from the Create dropdown.
+The main action the user can take from this page is to create an Event Listener from the Create dropdown. We should determine in the future whether we can filter on Event Listeners or not.
 
-![Event Listeners](img/5-Event-Listeners.jpg)
+![Event Listeners](img/5-event-listeners.jpg)
 
-## Trigger Templates
-If the user selects all-projects from the project selector, the Namespace column appears. The main action the user can take from this page is to create a Trigger Template from the Create dropdown.
+### Trigger Templates
+The main action the user can take from this page is to create a Trigger Template from the Create dropdown.
 
 ![Trigger Templates](img/6-Trigger-Templates.jpg)
 
-## Trigger Bindings
-If the user selects all-projects from the project selector, the Namespace column appears. The main action the user can take from this page is to create a Trigger Binding from the Create dropdown.
+### Trigger Bindings
+The main action the user can take from this page is to create a Trigger Binding from the Create dropdown.
 
 ![Trigger Bindings](img/7-Trigger-Bindings.jpg)
 
-## Cluster Trigger Bindings
-If the user selects all-projects from the project selector, the Namespace column appears. The main action the user can take from this page is to create a Cluster Trigger Binding from the Create dropdown.
+### Cluster Trigger Bindings
+ The main action the user can take from this page is to create a Cluster Trigger Binding from the Create dropdown.
 
-![Cluster Trigger Bindings](img/8-Cluster-Trigger-Bindings.jpg)
+![Cluster Trigger Bindings](img/8-cluster-trigger-bindings.jpg)
