@@ -28,7 +28,7 @@ If the user chooses to save and restart the VM they will be asked again to ensur
 ## VM Details page
 
 In the VM Details page they will be notified that the changes they have made will get applied only after the VM will be restarted.
-Next to the ‘Flavor’ section we will add a link that will lead to the Flavor modal where they can view the pending changes.
+In the ‘Flavor’ section, beside the Edit icon, we will add (pending changes) that will lead to the Edit Flavor modal where they can view the pending changes.
 Only in cases when users have made changes to the part of the YAML which are not exposed in the ui, we will add a link to ‘View pending changes in YAML editor’.
 
 ![VM details page](img/vm-details.png)
