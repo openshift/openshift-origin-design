@@ -98,12 +98,6 @@ The Add/Edit modal has been modified.
 ![Create VM - Storage -list](img/3-2.jpg)
 Disk content dropdwon options.
 
-## Advanced
-
- ![Create VM - Advanced -drawers](img/4-0.jpg)
-The advanced step drops the sub-steps from the wizard navigation in favor for section drawers within the step body.
-This is done to save users the trouble to go through stuff that does not concern or intimidate them.
-
 ## Review & create
 
  ![Create VM - Advanced -drawers](img/5-0.jpg)
