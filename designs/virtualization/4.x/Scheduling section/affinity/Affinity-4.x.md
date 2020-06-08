@@ -45,8 +45,8 @@ There is no need to mention the Default to the user.
 Switching to 'Required during scheduling' option from the Condition field, the Weight field will be excluded.
 
 ![VM-page](img/Affinity-2-2.jpg)
-Within the 'Node labels' section, the user can select the nodes/workloads by entering labels or any full string of key:value that appears in the node YAML file.
-Selcting 'Node fields' option from the 'Expression type' dropdown will offer the user the ability to enter any key;value pair, as long as full path is provided to that pair. Full path is not required for labels.
+Within the 'Node selector' section, the user can select the nodes/workloads by entering labels or any full string of key:value that appears in the node YAML file.
+Selecting the 'YAML field' option from the 'Expression type' dropdown will offer the user the ability to enter any key:value pair, as long as the full path is provided to that pair. The full path is not required for labels.
 
 The 'values' field is a multi-value field and will be applied using the white labels. Entering values in the label/expression rows will result in a 'Matching nodes' notification.
 
@@ -62,6 +62,5 @@ When selecting the target node/workload to apply "affinity to", the user can sel
 ![VM-page](img/Affinity-2-3.jpg)
 On selecting Workload affinity, the form will align by changing any 'Node' mention to 'Workload'.
 
-On the opposite side of the 'Add expression' button, a link to texternal Node/Workload list will be provided.
-
+On the opposite side of the 'Add expression' button, a link to 'Explore node/workload list' will be provided.
 
