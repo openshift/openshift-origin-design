@@ -54,7 +54,7 @@ When selecting the target node/workload to apply "affinity to", the user can sel
 
 - In (any node/workload with the specified key and has one or more of the following values)
 - NotIn (any node/workload with the specified key none of the following labels)
-- Exists (ny node/workload with the specified key - Values field is disabled)
+- Exists (any node/workload with the specified key - Values field is disabled)
 - DoesNotExist (any node/workload that does not have the specified key - Values field is disabled)
 
 'Add expression' button will allow the user to add more conditions to this rule, with an 'AND' relation between these conditions, meaning, all these conditions must be met.
