@@ -19,7 +19,7 @@ Section titles added, and fields reorgenized and renamed.
 - 'Description'
 'Resources & configuration' section'
 - 'Operating system'
-- 'Configuration' (previously Workload profile)
+- 'Workload type' (previously Workload profile)
 - 'Flavor (CPU and Memory)' (previously only 'flavor')
 'Operating system image source' section
 - 'Boot operating system via' (previously 'source')
@@ -27,10 +27,10 @@ Section titles added, and fields reorgenized and renamed.
 ## General step
 
 ![Create VM - General](img/1-1.jpg)
-Upon selecting an operating system, the configuration and Flavor (CPU and Memory) fields will be enabled and their defaults will be selected.
+Upon selecting an operating system, the Workload type and Flavor (CPU and Memory) fields will be enabled and their defaults will be selected.
 
 ![Create VM - General - VM configuration](img/1-1-1.jpg)
-VM Configuration options
+VM Workload type options
 Server is the default
 
 ![Create VM - General - flavor](img/1-1-2.jpg)
