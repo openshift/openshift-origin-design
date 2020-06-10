@@ -17,6 +17,9 @@ This design will initially be implemented for workload-type resources that are m
 - A new label to the right of the resource name and badging indicates that this resource is managed by another resource.
 - The label has a link to the managing resource.
 
+![OperatorHub filters](img/3-1a-badge-alert-mobile.png)
+- The label will wrap with the resource name on small screens, even if the status badge (when it appears) is dropped
+
 ## Editing Managed Resource
 
 ![OperatorHub filters](img/3-2-edit.png)
