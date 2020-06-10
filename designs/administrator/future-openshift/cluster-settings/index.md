@@ -31,15 +31,15 @@ In addition to the visualization:
 - To surface recommended versions in the next available channel, users must switch to the channel by clicking the `Pencil` next to `Channel`. If no other channels are available the gray line will not be visible. At this time the visualization only supports surfacing one additional channel. 
 
 ![Channel visualization - recommended version popover](img/recommended-channel.png)
-- Clicking on the recommended version, in this case the `4.3.22 dot`, will surface a popover with recommended minor release information and a direct link to documentation.
+- Clicking on the recommended version, in this case the `4.3.22 dot`, will surface a popover with recommended minor release information and a direct link to release notes.
 
 ![Channel visualization - “+ more” popover](img/more-channels.png)
-- Clicking `+ More` will surface a popover that lists out all versions (between the current version and recommended version) in a table with direct links to documentation. 
+- Clicking `+ More` will surface a popover that lists out all versions (between the current version and recommended version) in a table with direct links to release notes. 
 
 ![Channel visualization - “+ more” modal](img/modal.png)
 - In the case that there are more than 5 versions available (between the current version and recommended version), clicking `+ More` will surface a modal.
 
-## Updating a Channel and Viewing the in Progress Checklist
+## Updating a Channel and Viewing the In Progress Checklist
 
 It was important to provide more transparency to the user when an update is in progress. The mockups below illustrate the steps a user takes to update to a minor release in their current channel, and surfaces the in progress checklist that allows users to see the status of the update in real time.
 
@@ -58,5 +58,5 @@ It was important to provide more transparency to the user when an update is in p
 - Clicking `Nodes` will navigate users to the nodes list to view detailed progress of each node.
 
 ![Nodes list](img/nodes.png)
-- The Nodes list can be sorted by `Status`. 
+- The nodes list can be sorted by `Status`. 
 - Additional context has been added under “Ready”. The node will display “Up to date” or “Waiting on update” below the existing “Ready” status, to reflect the status of that particular node. 
