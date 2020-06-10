@@ -36,7 +36,7 @@ In addition to the visualization:
 ![Channel visualization - “+ more” popover](img/more-channels.png)
 - Clicking `+ More` will surface a popover that lists out all versions (between the current version and recommended version) in a table with direct links to documentation. 
 
-![Channel visualization - “+ more” modal](img/Modal.png)
+![Channel visualization - “+ more” modal](img/modal.png)
 - In the case that there are more than 5 versions available (between the current version and recommended version), clicking `+ More` will surface a modal.
 
 ## Updating a Channel and Viewing the in Progress Checklist
