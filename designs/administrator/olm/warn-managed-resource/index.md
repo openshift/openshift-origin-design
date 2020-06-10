@@ -9,7 +9,7 @@ A kubernetes cluster will contain many resources that are managed by another res
 
 Admins should be made aware that any changes they make to the resource could be undone, and that if they want it to stick, they should be editing the resource that manages it.
 
-This design will initially be implemented for workload-type resources that are managed by an Operand, however the design is general that if can be used for many resource relationships in the future.
+This design will initially be implemented for workload-type resources that are managed by an Operand, however, the design is general enough that it can be used for many resource relationships in the future.
 
 ## Managed Label
 
