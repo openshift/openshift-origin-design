@@ -46,7 +46,7 @@ It was important to provide more transparency to the user when an update is in p
 ![Update to minor release](img/update.png)
 - Clicking `Update` launches a modal to confirm the update.
 
-![Update modal](img/modal.png)
+![Update modal](img/update-modal.png)
 - The recommended version is preselected. 
 - If available, users can select an alternative version in the dropdown.
 - Clicking `Update` will begin the update.
