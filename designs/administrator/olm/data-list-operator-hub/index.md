@@ -15,7 +15,7 @@ When the user selects the list view the PatternFly data-list component powers mo
 
 The user clicks into the 3+ badge to see more badges when there are conditional badges selected. Whatever number of conditional filters are selected should be represented in the "more" badge shown on this screen as an example. This badge will not appear if 2 badges or less appear on an Operator.
 
-![Click to see more](img/click-to-see-more.jpg)
+![Click to see more](img/see-more.jpg)
 
 ## Mobile view
 
