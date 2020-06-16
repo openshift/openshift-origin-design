@@ -28,7 +28,9 @@ In addition to the visualization:
 ![Channel visualization](img/channel-visualization.png)
 - The blue line signifies the current channel you are on. The current version and recommended version (if available) are both marked with blue dots. 
 - The gray line signifies the next available channel.
-- To surface recommended versions in the next available channel, users must switch to the channel by clicking the `Pencil` next to `Channel`. If no other channels are available the gray line will not be visible. At this time the visualization only supports surfacing one additional channel. 
+- To surface recommended versions in the next available channel, users must switch to the channel by clicking the `Pencil` next to `Channel`. 
+- If no other channels are available the gray line will not be visible. 
+- At this time the visualization only supports surfacing one additional channel - the next available.
 
 ![Channel visualization - recommended version popover](img/recommended-channel.png)
 - Clicking on the recommended version, in this case the `4.3.22 dot`, will surface a popover with recommended minor release information and a direct link to release notes.
