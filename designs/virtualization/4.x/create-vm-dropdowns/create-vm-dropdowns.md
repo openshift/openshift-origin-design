@@ -9,11 +9,14 @@ This item will cover various updates to the VM creation wizard
 - Adding descriptions to the dropdown fields (using this pattern https://github.com/patternfly/patternfly-design-kit/issues/218)
 - Renaming fields
 - Reordering fields
+- Adding 'Operating System source' step
 
 
 ![Create VM - General-default](img/1-0.jpg)
 Landing on the General step, Default mode.
 Section titles added, and fields reorgenized and renamed.
+Any OS image source related fields are mofed to the next step.
+
 'General' section:
 - 'Name'
 - 'Description'
@@ -21,37 +24,45 @@ Section titles added, and fields reorgenized and renamed.
 - 'Operating system'
 - 'Workload type' (previously Workload profile)
 - 'Flavor (CPU and Memory)' (previously only 'flavor')
-'Operating system image source' section
-- 'Boot operating system via' (previously 'source')
+
 
 ## General step
 
 ![Create VM - General](img/1-1.jpg)
 Upon selecting an operating system, the Workload type and Flavor (CPU and Memory) fields will be enabled and their defaults will be selected.
 
-![Create VM - General - VM configuration](img/1-1-1.jpg)
-VM Workload type options
+![Create VM - General - Workload type](img/1-1-1.jpg)
+Workload type options
 Server is the default
 
 ![Create VM - General - flavor](img/1-1-2.jpg)
-Flavor options
+Flavor options.
 Medium is the default
+
+
+## Operating system source step (new)
+
+![Create VM - General](img/1-2.jpg)
+Operating system source step,landing mode.
 
 ![Create VM - General](img/1-2-1.jpg)
 'Boot operating system via' field options
 
-![Create VM - General](img/1-2.jpg)
-Selecting an option from the 'Boot operating system via' field will expose below all the fields required to connect the VM to an OS image source.
-For example: on selecting the 'Existing PVC' option, additional fields will appear below, required to select a PVC available on the cluster.
-The disk name should be added here as well to establish a better link between this step and the Storage step.
-An info alert will notify the user that a disk will be added to to the disks list on the Storage step.
+![Create VM - General](img/1-2-2.jpg)
+Selecting an option from the 'Boot operating system via' field will expose below all the fields required to upload the image and create the correlating disk/NIC.
+For example: on selecting the 'URL' option, additional fields will appear below.
+These fieldss are required in order to point to the desired URL asl well as creating a disk via PVC that will containt the image on that URL.
+The fields are basically mapped 1:1 to the Disk modal, with the URL option selected for 'Disk content' field.
+
+An Advanced (settings) drawer is available here as well, containing the same options as the Advanced options on the disk modal.
 
 ![Create VM - OS disk on list](img/1-3.jpg)
-Within the storage step, the disk added on the general step will appear as the first item on the list.
-This disk cannot be deleted but can be modified.
+Once the user clicks next, the disk containing the OS image from the URL is added. This disk will be available on the Storage step and will appear as the first item on the list.
+This disk cannot be deleted bu can be modified to some extent.
 
 ![Create VM - OS disk modal](img/1-3-1.jpg)
-Editing that disk will display a warning notification within the edit modal.
+Editing that disk will display an info notification within the edit modal, mentioning the link between this disk and the one created omn the OS source step.
+The fields related to the OS source, in this case, the URL, will be locked.
 
 ## Netwroking step
 
