@@ -41,7 +41,7 @@ Users can edit forms inline directly, like on the "Environments" tab.
 
 Some details / field inputs link to modals for editing information.
 
-*Field inputs that can be edited are links and show an "edit" icon (pencil):*
+*If a value is editable, the “edit” icon (pencil) will be placed near the field label as an icon button.*
 
 ![edit link](../images/edit-link.png)
 
