@@ -91,6 +91,10 @@ ViritIO marked as (recommended)
 ![Create VM - Networking -Binding](img/2-4.jpg)
 'Binding method' dropdown options (previously 'Type')
 
+This field's default is dependent on the Network field.
+For 'Pod network' the default option will be 'Masquerade'.
+For other Network option, the default will be 'Birgde'.
+
 ## Storage
 
 ![Create VM - Storage -list](img/3-0.jpg)
