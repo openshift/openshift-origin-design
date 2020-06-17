@@ -24,6 +24,7 @@ Any OS image source related fields are mofed to the next step.
 - 'Operating system'
 - 'Workload type' (previously Workload profile)
 - 'Flavor (CPU and Memory)' (previously only 'flavor')
+- 'Common template'
 
 
 ## General step
@@ -38,6 +39,9 @@ Server is the default
 ![Create VM - General - flavor](img/1-1-2.jpg)
 Flavor options.
 Medium is the default
+
+On selecting all the above, the Common tempate field should be filtered to one option, therefor be locked.
+However, in some cases, there will be more than one option, so this field should be available. 
 
 
 ## Operating system source step (new)
