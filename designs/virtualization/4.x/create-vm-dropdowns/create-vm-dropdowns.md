@@ -74,12 +74,17 @@ The fields related to the OS source, in this case, the URL, will be locked.
 NIC list.
 For any VM source selection (with the exception of PXE) a default NIC will be added.
 This NIC exposes the VM to the cluster.
+an info alert will notify the user of the purpose of this NIC and that modifying this NIC might break that 'exposing to cluster' configuration.
+
+![Create VM - Networking -list](img/2-5.jpg)
+On deleting the default NIC, a confirmation modal will present itsself.
 
 ![Create VM - Networking -Default](img/2-1.jpg)
-On editing this default NIC, an info alert will remind the user that modifying this NIC might break that 'exposing to cluster' configuration.
+Edit modal.
+The Advanced drawer is always collapsed by default
 
-![Create VM - Networking -Add](img/2-2.jpg)
-Add NIC modal.
+![Create VM - Networking -Add](img/2-2.jpg
+The Add NIC modal.
 The Advanced drawer is closed by default, as seen in the previous image.
 All fields have moved into the advanced drawer, except the Name and Network fields.
 Network field does not require description for each option since these options are created and managed by the user.
@@ -100,14 +105,22 @@ For other Network option, the default will be 'Birgde'.
 ![Create VM - Storage -list](img/3-0.jpg)
 Disks list.
 In case no disk type OS image source selected in the General step, a default disk will be created in order to make the VM operational.
+This will be highlighted by an in-line info alert (like in the Networking step)
+
+![Create VM - Storage -Defaul disk deletion](img/3-4.jpg)
+On deleting the default disk, a confirmation modal will present itsself.
+
 
 ![Create VM - Storage -Default disk](img/3-0-0.jpg)
-Editing the default disk will present an info box notification.
+
+Add disk modal.
+- 'Type' field changed to 'Disk content'
+- 'Name' field changed to 'Disk name'
+- 'Size' changed to 'Disk size (PVC size)'
+- Some fields pulled into the the Advanced drawer (see image below)
 
 ![Create VM - Storage -list](img/3-1.jpg)
-The Add/Edit modal has been modified.
-- Name
-- Type changed to 'Disk content'. This will change the configuration below
+The Add/Edit modal expanded view.
 - Advanced drawer added containing: 
     - Interface
     - Volume mode
@@ -116,6 +129,10 @@ The Add/Edit modal has been modified.
 
 ![Create VM - Storage -list](img/3-2.jpg)
 Disk content dropdwon options.
+
+![Create VM - Storage -list empty state](img/3-3.jpg)
+List empty state will notify the user that at least one disk is needed.
+This will be supported by an alert blocking the user from moving from this step when there are no disks.
 
 ## Review & create
 
