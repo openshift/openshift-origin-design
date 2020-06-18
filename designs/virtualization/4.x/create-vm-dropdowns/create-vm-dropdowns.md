@@ -60,7 +60,7 @@ Once the user clicks next, the disk containing the OS image from the URL is adde
 This disk cannot be deleted but can be modified to some extent.
 
 ![Create VM - OS disk modal](img/1-3-1.jpg)
-Editing that disk will display an info notification within the edit modal, mentioning the link between this disk and the one created omn the OS source step.
+Editing that disk will display an info notification within the edit modal, mentioning the link between this disk and the one created on the OS source step.
 The fields related to the OS source, in this case, the URL, will be locked.
 
 ## Netwroking step
