@@ -3,7 +3,7 @@ parent: Virtualization
 version: 4.x
 ---
 
-# create VM dropdowns
+# create VM design updates
 
 This item will cover various updates to the VM creation wizard
 - Adding descriptions to the dropdown fields (using this pattern https://github.com/patternfly/patternfly-design-kit/issues/218)
@@ -15,7 +15,7 @@ This item will cover various updates to the VM creation wizard
 ![Create VM - General-default](img/1-0.jpg)
 Landing on the General step, Default mode.
 Section titles added, and fields reorgenized and renamed.
-Any OS image source related fields are mofed to the next step.
+Any OS image source related fields are moved to the next step.
 
 'General' section:
 - 'Name'
@@ -50,7 +50,7 @@ Operating system source step,landing mode.
 ![Create VM - General](img/1-2-2.jpg)
 Selecting an option from the 'Boot operating system via' field will expose below all the fields required to upload the image and create the correlating disk/NIC.
 For example: on selecting the 'URL' option, additional fields will appear below.
-These fieldss are required in order to point to the desired URL asl well as creating a disk via PVC that will containt the image on that URL.
+These fields are required in order to point to the desired URL as well as creating a disk via PVC that will contain the image on that URL.
 The fields are basically mapped 1:1 to the Disk modal, with the URL option selected for 'Disk content' field.
 
 An Advanced (settings) drawer is available here as well, containing the same options as the Advanced options on the disk modal.
