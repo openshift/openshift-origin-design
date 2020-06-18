@@ -8,7 +8,7 @@ version: 4.6
 In 4.6, guided tours will be added to the console. This documentation will outline how tours are designed and should behave. The content of the tour will not be detailed here. Content copy can be found [here](https://docs.google.com/document/d/1qEBDNZYaKF4TDogJLYUqX-8xHCmPCKdaHfKLxMlnZQs/edit?usp=sharing), where it will be reviewed and updated as needed.
 
 ## Accessing tours
-Tours can be accessed on both the Administrator and Developer perspectives by going to the **Help menu** and selecting Guided Tours. Each of the perspectives will also surface links to the tours in other places around the console. For more detail around how these links will be surfaced in the Developer perspective, view the Developer side documentation.
+Tours can be accessed on both the Administrator and Developer perspectives by going to the **Help menu** and selecting **Guided Tours**. Each of the perspectives will also surface links to the tours in other places around the console. For more detail around how these links will be surfaced in the Developer perspective, view the Developer side documentation.
 
 In the Administrator perspective, a badge will appear on the Overview page informing users that guided tours are available. When clicked, the badge will redirect users to the Guided Tours page.
 
@@ -65,7 +65,7 @@ In cases where content does not fit in the panel, the content should scroll up a
 ![10](img/tour1-screen17.png)
 
 ### Completing a tour
-When the user has finished the first tour, they can exit the tour, start the second tour, or go back to the Guided Tours page.
+The final screen of the tour will show users the completed tasks and give them the option to go back or go to the Guided Tours page. In the case of this tour, there will also be a link to start the second tour. The link should redirect users to the Guided Tours page with the tour panel open and loaded to the second tour's introductory screen.
 
 ![11](img/tour1-screen18.png)
 
@@ -78,11 +78,25 @@ Upon completing the second tour, users will be given an easy way to clean up the
 
 ![13](img/tour2-screen7.png)
 
+The final screen of the tour will show users the completed tasks and give them the option to go back or go to the Guided Tours page.
+
+![14](img/tour2-screen8.png)
+
+If the user has successfully completed both tours and navigates back to the Guided Tours page, they will see the tiles have been updated and marked as completed. They will still have the option to **Review the tour**.
+
+![15](img/tour2-complete.png)
+
+## Reviewing a tour
+
+If the user chooses to **Review a tour**, they will be able to step through the tour as usual. However, a persistent inline notification at the top of the panel will remind users that the tour has already been completed.
+
+![16](img/tour1-complete1.png)
+
 ## Leaving a tour
 Users can choose the leave a tour before finishing by using the 'x' in the top right corner of the tour panel. A confirmation modal will be shown for users to confirm they want to leave in the middle, and will inform them that their progress will be saved.
 
-![14](img/exit-1.png)
+![17](img/exit-1.png)
 
 If the user wants to continue a tour, they can do so on the Guided Tours page. They will have the option to **Resume the tour** or **Restart the tour**. Tour progress will be saved per user per browser.
 
-![15](img/exit-4.png)
+![18](img/exit-4.png)
