@@ -56,7 +56,7 @@ In cases where content does not fit in the panel, the content should scroll up a
 
 ![9](img/tour1-screen17.png)
 
-### Tour exit
+### Completing a tour
 When the user has finished the first tour, they can exit the tour, start the second tour, or go back to the Guided Tours page.
 
 ![10](img/tour1-screen18.png)
