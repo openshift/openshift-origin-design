@@ -8,7 +8,7 @@ version: 4.6
 In 4.6, guided tours will be added to the console. This documentation will outline how tours are designed and should behave. The content of the tour will not be detailed here. Content copy can be found [here](https://docs.google.com/document/d/1qEBDNZYaKF4TDogJLYUqX-8xHCmPCKdaHfKLxMlnZQs/edit?usp=sharing), where it will be reviewed and updated as needed.
 
 ## Accessing tours
-Tours can be accessed on both the Administrator and Developer perspectives by going to the **Help menu** and selecting **Guided Tours**. Each of the perspectives will also surface links to the tours in other places around the console. For more detail around how these links will be surfaced in the Developer perspective, view the Developer side documentation.
+Tours can be accessed on both the Administrator and Developer perspectives by going to the **Help menu** and selecting **Guided Tours**. Each of the perspectives will also surface links to the tours in other places around the console. For more detail around how these links will be surfaced in the Developer perspective, view the [Developer side documentation](https://docs.google.com/document/d/1TOMeB-9Z-fnFz2ynxWri9Y7q8MHI8fwOFFX-432cSfk/edit?usp=sharing).
 
 In the Administrator perspective, a badge will appear on the Overview page informing users that guided tours are available. When clicked, the badge will redirect users to the Guided Tours page.
 
