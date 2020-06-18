@@ -62,7 +62,7 @@ An Advanced (settings) drawer is available here as well, containing the same opt
 
 ![Create VM - OS disk on list](img/1-3.jpg)
 Once the user clicks next, the disk containing the OS image from the URL is added. This disk will be available on the Storage step and will appear as the first item on the list.
-This disk cannot be deleted bu can be modified to some extent.
+This disk cannot be deleted but can be modified to some extent.
 
 ![Create VM - OS disk modal](img/1-3-1.jpg)
 Editing that disk will display an info notification within the edit modal, mentioning the link between this disk and the one created omn the OS source step.
