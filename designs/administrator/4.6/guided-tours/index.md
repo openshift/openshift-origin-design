@@ -26,8 +26,8 @@ If a user clicks on a tour tile, the tour side panel will open. The introductory
 For 4.6, tour permissions will be as follows:
 * If a user can install Operators, show the first Serverless tour (Explore Serverless) which walks users through installing the Serverless Operator.
 * If a user cannot install Operators, do not show the first Serverless tour. Instead show an empty state. The empty state can inform users that tours will be added in future.
-* If an Operator has been installed, show the second Serverless tour (Serverless Applications) which walks users through deploying a Serverless application.
-* Any tour that has been completed should remain on the Guided Tours page with the option to **Review the tour** or **Restart the tour**.
+* If the Serverless Operator has been installed, show the second Serverless tour (Serverless Applications) which walks users through deploying a Serverless application.
+* Any tour that has been completed should remain on the Guided Tours page with the option to **Review the tour**.
 
 ## Tour 1: Explore Serverless
 The first tour walks users through installing the Serverless Operator by completing a series of 3 tasks. Each task will have a number of sub steps that the user should execute in order to successfully complete the tour. Any links within the tour instructions will redirect users to that page in the console.
