@@ -102,7 +102,7 @@ Disks list.
 In case no disk type OS image source selected in the General step, a default disk will be created in order to make the VM operational.
 This will be highlighted by an in-line info alert (like in the Networking step)
 
-![Create VM - Storage -Defaul disk deletion](img/3-4.jpg)
+![Create VM - Storage -Default disk deletion](img/3-4.jpg)
 On deleting the default disk, a confirmation modal will present itsself.
 
 
@@ -116,7 +116,7 @@ Add disk modal.
 
 ![Create VM - Storage -list](img/3-1.jpg)
 The Add/Edit modal expanded view.
-- Advanced drawer added containing: 
+- Advanced drawer added containing:
     - Interface
     - Volume mode
     - Access mode (should be automatically selected and locked to the Storage class default)
@@ -127,6 +127,8 @@ Disk content dropdwon options.
 
 ![Create VM - Storage -list empty state](img/3-3.jpg)
 List empty state will notify the user that at least one disk is needed.
+
+![Create VM - Storage -list empty state](img/3-5.jpg)
 This will be supported by an alert blocking the user from moving from this step when there are no disks.
 
 ## Review & create
