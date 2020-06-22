@@ -136,4 +136,5 @@ This will be supported by an alert blocking the user from moving from this step 
  ![Create VM - Advanced -drawers](img/5-0.jpg)
 The name of this step has changed to correlate better with the 'Create and review action' that is available along previous steps.
 
-The 'Start VM on creation' and 'Create template from this VM' checkboxes had been removed from the General step and placed in this step at the bottom of the page.
+The 'Start VM on creation' checkbox had been removed from the General step and placed in this step at the bottom of the page.
+The 'Create template from this VM' checkbox had been removed completely from the wizard for now.
