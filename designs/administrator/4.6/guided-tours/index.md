@@ -100,3 +100,7 @@ Users can choose the leave a tour before finishing by using the 'x' in the top r
 If the user wants to continue a tour, they can do so on the Guided Tours page. They will have the option to **Resume the tour** or **Restart the tour**. Tour progress will be saved per user per browser.
 
 ![18](img/exit-4.png)
+
+If a user chooses to **Restart the tour**, the introductory screen will be shown. Users can choose to click through the tour starting from the beginning, or they may click on any of the numbered task headers to quickly jump to a specific task. The task headers should reflect the status of the task with the appropriate icon and color based on the user's previous level of tour completion.
+
+![19](img/exit-5.png)
