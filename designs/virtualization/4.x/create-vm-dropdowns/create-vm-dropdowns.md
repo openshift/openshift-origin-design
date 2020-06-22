@@ -120,7 +120,6 @@ The Add/Edit modal expanded view.
     - Interface
     - Volume mode
     - Access mode (should be automatically selected and locked to the Storage class default)
-    - Make disk bootable checkbox (new)
 
 ![Create VM - Storage -list](img/3-2.jpg)
 Disk content dropdwon options.
