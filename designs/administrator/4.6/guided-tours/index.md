@@ -39,6 +39,8 @@ There will not be any validation from the console that users have successfully c
 
 The **Check your work** feature will appear after a user clicks **Next**. The user may click **Next** again to skip the validation step, or can read the instructions to make sure they are following the tour correctly.
 
+If the user clicks **Back**, they will be taken to the previous step or page.
+
 ![5](img/check2.png)
 
 If the user selects **Yes**, the Check your work alert will turn green.
