@@ -25,7 +25,7 @@ Note: We chose to persist `Capability Level` and `Last updated by provider on [d
 
 ![Tile Design](img/New_Labels.jpg)
 
-## An Example of the new design in context
+## An example of the new design in context
 
 ![Default View](img/OperatorHub-1.jpg)
 - In this partiuclar view, no filters have been applied.
