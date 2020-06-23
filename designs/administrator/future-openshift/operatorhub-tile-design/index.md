@@ -28,7 +28,7 @@ Note: We chose to persist `Capability Level` and `Last updated by provider on [d
 ## An example of the new design in context
 
 ![Default View](img/OperatorHub-1.jpg)
-- In this partiuclar view, no filters have been applied.
+- In this particular view, no filters have been applied.
 
 ![Filtered Proxy](img/OperatorHub-2.jpg)
 - Clicking `Proxy` filters the list only to operators containing that feature, and surfaces the corresponding `Infrastructure Features` label.
