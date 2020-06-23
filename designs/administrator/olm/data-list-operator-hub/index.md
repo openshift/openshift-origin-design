@@ -1,13 +1,13 @@
 ---
 parent: Administrator
-version: 4.6
+version: 4.x
 ---
 
 # List view on OperatorHub
 
 In this story the list view demonstrates the Operator tiles in a new light by allowing the user to view the Operators in a list view. The list view shows more operators in a condensed view in order to expose more information to the user in a readable way.
 
-When the user selects the list view the PatternFly data-list component powers more compact styling so more information can be viewed at once. Ideally, this feature will be sticky meaning once the user selects the list view it will remain the next time the user visits this view. 
+When the user selects the list view the PatternFly data-list component powers more compact styling so more information can be viewed at once. Ideally, this feature will be sticky meaning once the user selects the list view it will remain the next time the user visits this view.
 
 ![Data list screen one](img/data-list-screen-operatorhub.jpg)
 
