@@ -11,7 +11,7 @@ As a user makes changes to a running Virtual machine they will need to wait for 
 When a user clicks to edit/ update one of the attributes (f.e. Flavor) it will open a modal with an alert notification letting the user know that the VM must be restarted in order to see the changes applied. The alert will persist until they restart the VM.
 This alert will not appear until the user has made changes, so the user will then know that they will need to restart.
 
-In general, users will be able to clear the changes and keep what they had, but at the very first time the modal is opened in case the user hasn't saved any changes yet, the 'Clear changes' button will not be shown.
+In general, users will be able to clear the changes and keep what they had, but when the first time the modal is opened, in case the user hasn't saved any changes yet, the 'Clear changes' button will not be shown.
 
 To avoid confusion users will be able to view the current settings in The VM Details page.
 
