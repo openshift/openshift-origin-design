@@ -3,39 +3,55 @@ parent: Adminstrator
 version: 4.x
 ---
 
-# Exposing additional capabilities on OperatorHub tiles
+# Ehancing the filtering experince and adding sorting functionality to OperatorHub
 
-OperatorHub provides users access to over 200 operators. The concepts below focus on improving the overall tile design to reflect the filtering experience in realtime. By surfacing filter attributes on the tile, users can easily identify which filters apply to which operators. In addition, expanding the complex capabilities that we expose on the tile allows users to easily differentiate between operators without having to expand the details for each one.
+OperatorHub currently provides users access to over 200 operators. As these contributions continue to grow, it is important that we make it as easy as possible for users to find what they are looking for. The concepts below expose additional capabiities on OperatorHub tiles and introduce the ability to sort by most recently updated (by provider).
 
-## Updated tile design
+## Exposing additional capabilities on OperatorHub tiles
 
 ![Tile Design](img/Tile-Design.jpg)
 
-Original capabilities remain on the tile:
-- `Community` and `Marketplace` provider types will still appear in the top right hand corner of the tile and maintain the same style.
-- `Installed` status will continue to appear in the bottom left of the tile.
+By surfacing additional attributes on the tile, users can easily identify which filters apply to which operators.
 
-New attributes added to the tile:
-- `Capability Level` persists on the tile in the bottom left hand corner. It is styled with the blue outlined label and corresponding level.
-- `Last updated by provider on [date]` is listed under the description.
-- When applicable, the new `Red Hat Certified` badge will appear to the right of the Operator's name. The badge is styled as a blue starburst with a white checkmark in the center.
-- `Infrastructure Features`, the only conditional label, is surfaced on the tile when a user selects the corresponding filter. The label is styled with a gray outline and the corresponding feature.
+Original attributes will remain on the tile:
+- `Community` and `Marketplace` provider types appears in the top right hand corner of the tile and maintain the same style.
+- `Installed` status appears in the bottom left of the tile.
 
-Note: We chose to persist `Capability Level` and `Last updated by provider on [date]` as future enhancements will allow users to sort by these particular capabilities. 
+The following attributes have been added to the tile and will persisit:
+- `Capability Level` appears in the bottom left hand corner. It is styled with the blue outlined label and corresponding level.
+- `Last updated by provider on [date]` is listed under the operator description.
+- When applicable, the new `Red Hat Certified` badge appears to the right of the operator's name. The badge is styled as a blue starburst with a white checkmark in the center.
+
+The following attribute has been added to the tile and will appear only when the corresponding filter is selected:
+- `Infrastructure Features`, currenlty the only conditional category, appears on the tile when a user selects the corresponding filter. The label is styled with a gray outline and the corresponding feature. If more than one `Infrastructure Features` filter is applied, the labels will appear in alphabetical order. 
+
+Note: Though `Infrastructure Features` is the only conditional filter today, we anticipate more will be added in the future and intend to reuse the same label style for those cases (gray outline and the corresponding feature).
 
 ![Tile Design](img/New_Labels.jpg)
 
-## An example of the new design in context
+## An example of filtering in context
+
+Expanding the complex capabilities that we expose on the tile allows users to easily differentiate between operators without having to expand the details for each one.
 
 ![Default View](img/OperatorHub-1.jpg)
 - In this particular view, no filters have been applied.
 
 ![Filtered Proxy](img/OperatorHub-2.jpg)
-- Clicking `Proxy` filters the list only to operators containing that feature, and surfaces the corresponding `Infrastructure Features` label.
+- Clicking `Proxy` filters the list only to operators containing that feature, and surfaces the corresponding label on the tiles.
 
 ![Filtered Proxy + Disconnected](img/OperatorHub-3.jpg)
-- Clicking `Disconnected` adds those corresponding operators to the list, and surfaces the corresponding `Infrastructure Features` label.
+- Clicking `Disconnected` adds any corresponding operators to the list that do not already appear, and surfaces the corresponding label on the tiles.
 
-Note: Infrastructure features will always appear in alphabetical order on the tile if an operator contains more than one attribute.
+Note: `Infrastructure Features` will always appear in alphabetical order on the tile if an operator contains more than one attribute.
 
+## Sorting by last update
 
+New sorting functionality on OperatorHub provides users the ability to surface operators most recently updated by the provider to the top of the screen.
+
+![Default View](img/OperatorHub-4.jpg)
+- The cards are sorted alphabetically by default.
+
+![Default View](img/OperatorHub-5.jpg)
+- When the user selects `Last updated` from the `Sort by` menu, operators are sorted by the most recently updated date. 
+
+Note: We are hoping to add the ability to sort by `Capability Level` in the near future. 
