@@ -56,7 +56,7 @@ The popover will also let the user know where to see the pending changes by clic
 
 ## Adding a ‘Clear changes’ option
 
-Users will be able to view the pending changes from the ‘Edit’ modals and also have the option to clear the changes they have made by clicking the ‘Clear changes’ link.
+Users will be able to view the pending changes from the ‘Edit’ modals and also have the option to clear the changes they have made by clicking the ‘Clear all changes’ link, that will revert to the original status of the VM and clear all the changes the user had done.
 
 Clicking 'Flavor' will open the 'Edit Flavor' modal with the inline alert that lets the user clear the change they made.
 
@@ -64,11 +64,11 @@ We will add a (Pending changes) label beside the items that have been changed.
 
 ![Edit Flavor modal w inline alert that lets user clear change they made](img/Edit.png)
 
-If they will choose to clear changes - that action will remove the changes they have made,  the current settings will stay the same and the users will return to the details view.
+If they will choose to clear the changes - that action will remove all the changes they have made and the user will return to the VM details view.
 
 ![Clear changes modal](img/ClearChanges2.png)
 
-In case of multiple pending changes, the inline alert on the Details page will say 'Clear all changes' and the modal will include a list of all the changes.
+In case of multiple pending changes, the inline alert on the Details page will say 'Clear all changes' and the modal will include a list of all the changes that will be cleared.
 
 ## Disks and NICS examples
 
