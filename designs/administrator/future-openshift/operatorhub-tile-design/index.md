@@ -1,11 +1,11 @@
 ---
-parent: Adminstrator
+parent: Administrator
 version: 4.x
 ---
 
-# Ehancing the filtering experince and adding sorting functionality to OperatorHub
+# Enhancing the filtering experience and adding sorting functionality to OperatorHub
 
-OperatorHub currently provides users access to over 200 operators. As these contributions continue to grow, it is important that we make it as easy as possible for users to find what they are looking for. The concepts below expose additional capabiities on OperatorHub tiles and introduce the ability to sort by most recently updated (by provider).
+OperatorHub currently provides users access to over 200 operators. As these contributions continue to grow, it is important that we make it as easy as possible for users to find what they are looking for. The concepts below expose additional capabilities on OperatorHub tiles and introduce the ability to sort by most recently updated (by provider).
 
 ## Exposing additional capabilities on OperatorHub tiles
 
@@ -17,13 +17,13 @@ Original attributes will remain on the tile:
 - `Community` and `Marketplace` provider types appears in the top right hand corner of the tile and maintain the same style.
 - `Installed` status appears in the bottom left of the tile.
 
-The following attributes have been added to the tile and will persisit:
+The following attributes have been added to the tile and will persist:
 - `Capability Level` appears in the bottom left hand corner. It is styled with the blue outlined label and corresponding level.
 - `Last updated by provider on [date]` is listed under the operator description.
 - When applicable, the new `Red Hat Certified` badge appears to the right of the operator's name. The badge is styled as a blue starburst with a white checkmark in the center.
 
 The following attribute has been added to the tile and will appear only when the corresponding filter is selected:
-- `Infrastructure Features`, currenlty the only conditional category, appears on the tile when a user selects the corresponding filter. The label is styled with a gray outline and the corresponding feature. If more than one `Infrastructure Features` filter is applied, the labels will appear in alphabetical order. 
+- `Infrastructure Features`, currently the only conditional category, appears on the tile when a user selects the corresponding filter. The label is styled with a gray outline and the corresponding feature. If more than one `Infrastructure Features` filter is applied, the labels will appear in alphabetical order. 
 
 Note: Though `Infrastructure Features` is the only conditional filter today, we anticipate more will be added in the future and intend to reuse the same label style for those cases (gray outline and the corresponding feature).
 
