@@ -22,7 +22,7 @@ In the developer console we’ll have the same option to open the console of the
 
 As well as from the Actions dropdown menu.
 
-![open from the actions drop down](img/helm-release-side-panel-actions-menu.png)
+![open from the actions drop down](img/helm-release.png)
 
 # Design a VNC detached console
 
