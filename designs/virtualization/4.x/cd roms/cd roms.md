@@ -4,23 +4,23 @@ version: 4.x
 ---
 # CD ROMs
 
-This PR deals with removing CD-ROMs from the details view and including them in the disks tab.
-
 ## CD-ROMs on VM Details page
 
-We can remove CD ROMs from the VM Details view
+It's been determined that separating CD-ROMs from the rest of the disks has technical overhead and complicates the flow. It makes more sense to include them as a lower level item in the disks rather than highlight them in the details view like we currently do.
 
 ![CDROMs are on the details page](img/Details.png)
 
-and add a ‘Drive’ column to the ‘Disks’ table view.
-The default type will be ‘Disk’ and the other option(s) will be ‘CD ROM’ and possibly ‘LUN’.
+We'll add a ‘Drive’ column to the ‘Disks’ table view.
+The default type will be ‘Disk’ and the other option(s) will be ‘CD ROM’.
 
 ![adding a new Drive column](img/Type-column-added-table-view.png)
 
 ## CD-ROMs on Create VM wizard
 
-We can remove the CD ROMs from the ‘Advanced’ step and place it in the Storage step.
-For cases where we point the user to them (windows guest tools), we’ll direct the users to the table at the Storage step.
+We'll remove the CD ROMs from the ‘Advanced’ step and place it in the Storage step.
+For cases where we point the user to them (windows guest tools), we’ll direct the users via a notification with a link to the Disks table under the Storage step.
+
+![notification directing to the disks table](img/Notification-to-disks-table.png)
 
 This is the current state (CD ROM is placed under the Advanced step)
 
@@ -34,6 +34,6 @@ Moving the CD-ROM creation to the storage step, will enable us (instead of direc
 
 ![Moving the CD-ROM creation to the storage step](img/Storage-step.png)
 
-So opening the ‘Add Disk’ modal once they get redirected from General step to Storage step will ensure they know they have the right disk selected.
+So opening the ‘Add Disk’ modal once they get redirected from General step to Storage step will ensure users know they have the right disk selected.
 
 ![add disk modal](img/DIsk-modal.png)
