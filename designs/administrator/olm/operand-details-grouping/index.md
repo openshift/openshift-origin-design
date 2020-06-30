@@ -7,21 +7,21 @@ version: 4.6
 
 When creating an operand, fairly complex nesting and hierarchy of fields is used to set values on the operand. Once created however, the Details tab for that operand does not show this hierarchy and all fields are shown at the same flat level, with somewhat of a mix of spec and status descriptors, with some hierarchical section headers missing as well. This can make this view challenging to interpret.
 
-This design describes surfacing the common spec descriptors first, the status descriptors next, then the rest of the spec descriptors, with a divider seperating them. Groups of spec descriptors will now have their grouping reflected using a box for the first level, with level indicator labels conveying any further hierarchy. An option to edit these groups using their existing form view will also be available.
+This design describes surfacing the common spec descriptors first, the status descriptors next, then the rest of the spec descriptors, with a divider separating them. Groups of spec descriptors will now have their grouping reflected using a box for the first level, with level indicator labels conveying any further hierarchy. An option to edit these groups using their existing form view will also be available.
 
 ## Separating Spec and Status descriptors
 
 ![Dividing groups](img/8-1-divider.png)
-- A new divider wil be added between the status and spec descriptor sections to visually separate them.
+- A new divider will be added between the status and spec descriptor sections to visually separate them.
 
 ## Grouping Spec descriptors
 
 ![Conveying groups](img/9-1-group.png)
-- The top level of spec descriptors' hierarhcy will now be shown grouped in a box.
+- The top level of spec descriptors' hierarchy will now be shown grouped in a box.
 - Each field has a level indicator to exactly convey its hierarchy, which would be important for fields beyond the first depth level.
 
 ![Conveying groups popover](img/9-2-groupPop.png)
-- Each descriptor will support an existing popover style that shows more information on the header click, including the description and full hierarhcy level path, useful if the level indicator is truncated. 
+- Each descriptor will support an existing popover style that shows more information on the header click, including the description and full hierarchy level path, useful if the level indicator is truncated. 
 
 ## Allowing quick access to edit form from a Spec group
 
@@ -30,7 +30,7 @@ This design describes surfacing the common spec descriptors first, the status de
 
 ![Group editing modal](img/7-3-modal.png)
 - A modal is opened that shows the portion of the form view for that particular group.
-- The form view allows for the full hierarchy of that group to be seen, along with the abilitiy to edit each field.
+- The form view allows for the full hierarchy of that group to be seen, along with the ability to edit each field.
 
 ![Group editing modal 2](img/7-4-modalTall.png)
 - If the group is very long, the modal will expand to allow for a full view.
