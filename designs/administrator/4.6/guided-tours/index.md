@@ -14,7 +14,7 @@ In the Administrator perspective, a badge will appear on the Overview page infor
 
 ![1](img/admin1.png)
 
-The Guided Tours page will use a catalog-like design with each tour being shown on a tile. Tiles will provide a brief description of the tour, a time estimate for completing the tour, as well as prerequisites for completing the tour, if any.
+The Guided Tours page will use a catalog-like design with each tour being shown on a tile. Tiles will provide a brief description of the tour, a time estimate for completing the tour, as well as prerequisites for completing the tour, if any. If there are no prerequisites, do not include the prerequisite section.
 
 ![2](img/admin2.png)
 
@@ -81,33 +81,29 @@ The second tour walks users through deploying a Serverless application. The foll
 
 ![12](img/tour2-screen1.png)
 
-Upon completing the second tour, users will be given an easy way to clean up the showcase application they've created through the tour.
+The final screen of the tour will show users the completed tasks and give them the option to exit the tour, go back, or go to the Guided Tours page.
 
-![13](img/tour2-screen7.png)
-
-The final screen of the tour will show users the completed tasks and give them the option to go back or go to the Guided Tours page.
-
-![14](img/tour2-screen8.png)
+![13](img/tour2-screen8.png)
 
 If the user has successfully completed both tours and navigates back to the Guided Tours page, they will see the tiles have been updated and marked as completed. They will still have the option to **Review the tour**.
 
-![15](img/tour2-complete.png)
+![14](img/tour2-complete.png)
 
 ## Reviewing a tour
 
 If the user chooses to **Review a tour**, they will be able to step through the tour as usual. However, a persistent inline notification at the top of the panel will remind users that the tour has already been completed.
 
-![16](img/tour1-complete1.png)
+![15](img/tour1-complete1.png)
 
 ## Leaving a tour
 Users can choose the leave a tour before finishing by using the 'x' in the top right corner of the tour panel. A confirmation modal will be shown for users to confirm they want to leave in the middle, and will inform them that their progress will be saved.
 
-![17](img/exit-1.png)
+![16](img/exit-1.png)
 
 If the user wants to continue a tour, they can do so on the Guided Tours page. They will have the option to **Resume the tour** or **Restart the tour**. Tour progress will be saved per user per browser.
 
-![18](img/exit-4.png)
+![17](img/exit-4.png)
 
 If a user chooses to **Restart the tour**, the introductory screen will be shown. Users can choose to click through the tour starting from the beginning, or they may click on any of the numbered task headers to quickly jump to a specific task. The task headers should reflect the status of the task with the appropriate icon and color based on the user's previous level of tour completion.
 
-![19](img/exit-5.png)
+![18](img/exit-5.png)
