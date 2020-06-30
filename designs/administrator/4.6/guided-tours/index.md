@@ -18,7 +18,7 @@ The Guided Tours page will use a catalog-like design with each tour being shown 
 
 ![2](img/admin2.png)
 
-If a user clicks on a tour tile, the tour side panel will open. The introductory panel will give users more information and allows the user to start the tour using the **Start tour** button.
+If a user clicks on a tour tile, the tour side panel will open. The introductory panel will give users more information and allows the user to start the tour using the **Start tour** button. The task headers should use the step component from PatternFly's wizard. If clicked, they should redirect users to the related task.
 
 ![3](img/tour1-screen0.png)
 
@@ -30,6 +30,9 @@ For 4.6, tour permissions will be as follows:
 * Any tour that has been completed should remain on the Guided Tours page with the option to **Review the tour**.
 
 ## Tour 1: Explore Serverless
+
+**Reminder**: The content of the tour will not be detailed here. Content copy can be found [here](https://docs.google.com/document/d/1qEBDNZYaKF4TDogJLYUqX-8xHCmPCKdaHfKLxMlnZQs/edit?usp=sharing), where it will be reviewed and updated as needed.
+
 The first tour walks users through installing the Serverless Operator by completing a series of 3 tasks. Each task will have a number of sub steps that the user should execute in order to successfully complete the tour. Any links within the tour instructions will redirect users to that page in the console.
 
 ### Check your work
@@ -67,11 +70,13 @@ In cases where content does not fit in the panel, the content should scroll up a
 ![10](img/tour1-screen17.png)
 
 ### Completing a tour
-The final screen of the tour will show users the completed tasks and give them the option to go back or go to the Guided Tours page. In the case of this tour, there will also be a link to start the second tour. The link should redirect users to the Guided Tours page with the tour panel open and loaded to the second tour's introductory screen.
+The final screen of the tour will show users the completed tasks and give them the option to exit the tour, go back, or go to the Guided Tours page. In the case of this tour, there will also be a link to start the second tour. The link should open the second tour's introductory screen.
 
 ![11](img/tour1-screen18.png)
 
 ## Tour 2: Serverless Applications
+**Reminder**: The content of the tour will not be detailed here. Content copy can be found [here](https://docs.google.com/document/d/1qEBDNZYaKF4TDogJLYUqX-8xHCmPCKdaHfKLxMlnZQs/edit?usp=sharing), where it will be reviewed and updated as needed.
+
 The second tour walks users through deploying a Serverless application. The following shows an example screen from the Serverless Applications tour.
 
 ![12](img/tour2-screen1.png)
