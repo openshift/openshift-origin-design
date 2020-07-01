@@ -27,7 +27,7 @@ As well as from the Actions dropdown menu.
 
 ![open from the actions drop down](img/helm-release.png)
 
-# Design a VNC new tab console
+# Design a VNC console in a new tab 
 
 When users click the ‘Open Console’ button, they will get a new tab that represents another OS (no toolbar) with a dismissble inline info notification about the consoles tab features.
 They will be able to toggle between the 2 tabs: their original OpenShift cluster and the other OS tab they have opened.
@@ -36,7 +36,13 @@ The info notification text is:
 ######Consoles tab
 
 The Consoles tab allows the user to connect an in-browser or desktop-based Graphical and/or Serial console to the virtual machine.
-You can change the console type using the dropdown selector. The Graphical VNC console is selected by default and will open in a separate tab of the console view when clicking the ‘Open console’ button link. You can drag the new tab into a new browser window.
+You can change the console type using the dropdown selector. The Graphical VNC console is selected by default and will open in a separate tab/window of the console view when clicking the ‘Open console’ button link. You can drag the new tab into a new browser window.
 The Expand action makes the console viewport fill the current window’s full width and height.
 
-![new tab](img/Detached3-new-tab.png)
+![console opens in new tab](img/Detached3-new-tab.png)
+
+## Design a VNC console in a new window
+
+Another option will be that the console will open in a new window (vs. to a new tab)
+
+![console opens in new window](img/Detached3-new-window.png)
