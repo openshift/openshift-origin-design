@@ -18,7 +18,7 @@ The default type will be ‘Disk’ and the other option(s) will be ‘CD ROM’
 ## CD-ROMs on Create VM wizard
 
 We'll remove the CD ROMs from the ‘Advanced’ step and place it in the Storage step.
-For cases where we point the user to them (windows guest tools), we’ll direct the users via a notification with a link to the Disks table under the Storage step.
+For cases where we point the user to them (windows guest tools), we’ll direct the users to the Disks table under the Storage step.
 
 ![notification directing to the disks table](img/Notification-to-disks-table.png)
 
