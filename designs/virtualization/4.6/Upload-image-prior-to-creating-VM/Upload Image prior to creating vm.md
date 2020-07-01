@@ -19,15 +19,19 @@ User chooses an image to upload and fills in the PVC details: Name, size, storag
 
 ![browse to upload](img/Upload-data-to-pvc-1.png)
 
-After the user clicks ‘Upload’ they will get to the PVC Details page with an inline notification and a spinner + text explanation about the PVC creation progress. We’ll use the spinner over the progress bar because we can't really offer progress and there aren't any steps to highlight.
+After the user clicks ‘Upload’ they will get to the new installing screen where a spinner symbplyzes the PVC is currently being created.
+The status conditions reason and phase are shown and update in real time on the installing screen.
+A link is included that allows the user to view the PVCs list.
+We chose to use the spinner over the progress bar because we can't really offer progress and there aren't any significant steps to highlight.
+We'll show a notification with a request to keep the browser instance/tab open so they won't miss an error state during the upload progress.
 
-![Upload in progress notification](img/Upload-in-progress.png)
+![In between states and upload in progress explanation](img/in-between-state2.png)
 
-Once the progress is successfully finished they will be directed to the PVC Details page. We'll show a notification with a request to keep the browser instance/tab open so they won't miss an error state during the upload progress.
+Once the progress is successfully finished they will be directed to the PVC Details page.
 
 ![PVC Details page](img/pvc-details-page.png)
 
-The List view will show an ‘uploading’ status and the popover will include an explanation (The PVC has been created and the file upload is in progress.) and an option to cancel the upload process.
+The List view will show an ‘uploading’ status and the popover will include an explanation (The PVC has been created and the file upload is in progress) and an option to cancel the upload process.
 
 ![List view with popover](img/PVC-ListViewW_popover.png)
 
