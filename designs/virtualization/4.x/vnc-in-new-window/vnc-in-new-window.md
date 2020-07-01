@@ -2,11 +2,14 @@
 parent: Virtualization
 version: 4.x
 ---
-# VNC in new window
+# VNC in a new window (tab)
 
 ## In the Administrator console
 
-In order to add an option to open the VNC console in a new window, we’ll add a new button ‘Open Console’. The default will be set to open the console in a new window.
+The Consoles tab allows the user to connect an in-browser or desktop-based Graphical and/or Serial console to the virtual machine.
+We’ll add a new button link ‘Open Console’.
+Users will be able to change the console type using the dropdown selector. The Graphical VNC console is selected by default and will open in a separate tab of the console view when clicking the ‘Open console’ button link. The default will be set to open the console in a new tab. Users will be able to drag the tab to be a new window.
+The Expand action makes the console viewport fill the current window’s full width and height.
 
 ![open from the new button](img/Open-console-1c.png)
 
@@ -24,9 +27,9 @@ As well as from the Actions dropdown menu.
 
 ![open from the actions drop down](img/helm-release.png)
 
-# Design a VNC detached console
+# Design a VNC new tab console
 
-When users click the ‘Open Console’ button, they will get a detached window that represents another OS (no toolbar).
-If they want to go back to their original OpenShift cluster they will simply close that window and get back.
+When users click the ‘Open Console’ button, they will get a new tab that represents another OS (no toolbar) with a dismissble inline info notification about the consoles tab features.
+They will be able to toggle between the 2 tabs: their original OpenShift cluster and the other OS tab they have opened.
 
-![detached window ](img/Detached3.png)
+![new tab](img/Detached3-new-tab.png)
