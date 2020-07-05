@@ -20,24 +20,28 @@ User chooses an image to upload and fills in the PVC details: Name, size, storag
 ![browse to upload](img/Upload-data-to-pvc-1.png)
 
 After the user clicks ‘Upload’ they will get to the new installing screen where a spinner symbplyzes the PVC is currently being created.
-The status conditions reason and phase are shown and update in real time on the installing screen.
-A link is included that allows the user to view the PVCs list.
-We chose to use the spinner over the progress bar because we can't really offer progress and there aren't any significant steps to highlight.
-We'll show a notification with a request to keep the browser instance/tab open so they won't miss an error state during the upload progress.
+
+The status is shown and updates in real time on the upload screen.
+We'll include a warning notification with a request to keep the browser instance open until uploading is done, otherwise the upload process will stop and fail. We'll provide a link to view the PVCs Details page.
 
 ![In between states and upload in progress explanation](img/in-between-state2.png)
 
-Once the progress is successfully finished they will be directed to the PVC Details page.
+![PVC details page](img/Details-page-in-uploading.png)
 
-![PVC Details page](img/pvc-details-page.png)
-
-The List view will show an ‘uploading’ status and the popover will include an explanation (The PVC has been created and the file upload is in progress) and an option to cancel the upload process.
+The List view will show an ‘uploading’ status. A popover will include an explanation (The PVC has been created and the file upload is in progress) and an option to cancel the upload process.
 
 ![List view with popover](img/PVC-ListViewW_popover.png)
 
-If the CDI fails to create the PVC we'll show an inline error on the creation page.
-Until we have toast notifications we don't want to encourage the user to leave the PVC upload flow until something has been successfully created, so we’ll advise the user that in case they navigate away, they might miss the error, and provide a link to the DataVolume for further info.
+Once the upload is successfully done the user has the option to view the PVC Details page or view the PVC's list.
+
+![PVC upload successfully done](img/Upload-success.png)
+
+![PVC Details page](img/pvc-details-page.png)
+
+If the CDI fails to create the PVC, we'll show an error on the upload page and users will be able to go back to the form and fix the error.
+
+![PVC upload error](img/Upload-error.png)
+
+List view when upload fails
 
 ![List view when upload failed](img/List-error.png)
-
-![error modal](img/Error-modal.png)
