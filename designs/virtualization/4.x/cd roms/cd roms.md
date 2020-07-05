@@ -31,6 +31,7 @@ If we take out the CD ROMs from the ‘Advanced’ step, the ‘Virtual hardware
 ![suggested option](img/suggested-Advanced-virtual-hardware-noCDROM.png)
 
 Moving the CD-ROM creation to the storage step, will enable us (instead of directing users to the ‘Advanced>CD ROMs’) to direct them to the ‘Storage>Disks’ table.
+We'll link the disk name to the modal and they could look at it in the General step if they wanted to.
 
 ![Moving the CD-ROM creation to the storage step](img/Storage-step.png)
 
