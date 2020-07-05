@@ -1,6 +1,6 @@
 ---
 parent: Virtualization
-version: 4.x
+version: 4.6
 ---
 # VNC in a new window / tab
 
