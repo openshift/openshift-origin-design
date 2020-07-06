@@ -48,14 +48,12 @@ Selecting a specific disk will add that disk to a multi-select preview within th
 After clicking the Create button, the user goes to a transition page, in “Creating mode”.
 While the snapshot is being created the user can navigate external to this flow. A text below will mention that, with a link to going back.
 
-### Snapshot details page
+## VM details > Snapshots
 
 ![Virtualization - Snapshot details page](img/2-1.jpg)
 In case creation succeeded, the user will land on the snapshot details page.
 The snapshot details page should contain all the data relevant to the VM.
 Overview tab is not available.
-
-## VM details > Snapshots
 
 ![VM details - Snapshots list](img/3-0.jpg)
 All the columns are sortable within the snapshot table.
