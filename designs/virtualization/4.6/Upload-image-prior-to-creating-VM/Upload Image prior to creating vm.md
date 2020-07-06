@@ -2,9 +2,9 @@
 parent: Virtualization
 version: 4.6
 ---
-# Upload Image prior to creating a VM
+# Upload Image (data source) prior to creating a VM
 
-This PR deals with when a user wants to upload an image prior to creating a virtual machine.
+This PR deals with when a user wants to upload an image (data source) prior to creating a virtual machine.
 It needs to be accomplished via the storage/PVC area.
 It should ensure the user understands what the backing PVC does but does not remove the Disk terminology.
 
@@ -15,14 +15,13 @@ By creating a dropdown and adding this new action, we'll highlight this action a
 ![PVC list with drop down button](img/PVC-dropdown.png)
 
 They will get to a new upload screen with an inline info alert that says this PVC will be created using a DataVolume through Container Data importer (CDI).
-User chooses an image to upload and fills in the PVC details: Name, size, storage class, access mode. Some of the fields can be filled out but editing will be optional as well.
+User chooses an image (data source) to upload and fills in the PVC details: Name, size, storage class, access mode. Some of the fields can be filled out but editing will be optional as well.
 
 ![browse to upload](img/Upload-data-to-pvc-1.png)
 
-After the user clicks ‘Upload’ they will get to the new installing screen where a spinner symbplyzes the PVC is currently being created.
-
-The status is shown and updates in real time on the upload screen.
-We'll include a warning notification with a request to keep the browser instance open until uploading is done, otherwise the upload process will stop and fail. We'll provide a link to view the PVCs Details page.
+After the user clicks ‘Upload’ they will get to the new installing screen where a progress bar symbplyzes the upload progress. The status is shown and updates in real time.
+We'll include a warning notification with a request to keep the browser instance open until uploading is done, otherwise the upload process will stop and fail. Users may still navigate the console, though.
+We'll provide a button to view the Persistent Volume Claim details and a link to cancel the upload process.
 
 ![In between states and upload in progress explanation](img/in-between-state2.png)
 
