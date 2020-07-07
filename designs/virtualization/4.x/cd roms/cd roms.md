@@ -35,6 +35,6 @@ We'll link the disk name to the modal and they could look at it in the General s
 
 ![Moving the CD-ROM creation to the storage step](img/Storage-step.png)
 
-So opening the ‘Add Disk’ modal once they get redirected from General step to Storage step will ensure users know they have the right disk selected.
+We'll link to the disk from the create General step so the Disk-name would be a link to the ‘Add Disk’ modal for that disk. Once the user gets redirected that will ensure they know the right disk is selected.
 
 ![add disk modal](img/DIsk-modal.png)
