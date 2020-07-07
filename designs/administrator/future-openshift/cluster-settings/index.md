@@ -7,11 +7,11 @@ version: 4.6
 
 Users complete upgrades in cluster settings. The following design focuses on making improvements to the current upgrade experience in cluster settings by making upgrading as simple and transparent as possible. Specific improvements include adding more information around recommended upgrade paths and notifying users when new versions and channels become available. 
 
-## Adding Alerts to the Notification Drawer
+## Adding Recommendation Alerts to the Notification Drawer
 
 ![Alerts - Available Updates](img/notifications-updates.png)
 - Today, available updates appear in the message section of the notification drawer. 
-- Three new alerts will be added to inform users if (1) a new patch becomes available, (2) a new minor release becomes available, and/or (3) new channels become available. 
+- Three new recommendation alerts will be added to inform users if (1) a new patch becomes available, (2) a new minor release becomes available, and/or (3) new channels become available. 
 - All three messages send users to the cluster settings section of the console to take further action.
 
 ## Channel Visualization and In Context Help
@@ -24,6 +24,10 @@ In addition to the visualization:
 
 ![Channel help text](img/channel-help.png)
 - Clicking `Channel` surfaces a popover that provides context as to what a channel is along  with a link to documentation to learn more about channels in OpenShift.
+
+![Channel help text modal](img/update-channel.png)
+- Clicking the `Pencil` next to `Channel` will surface a modal that allows users to edit the channel. 
+- The link to documentation to learn more about channels in OpenShift is included here as well.
 
 ![Channel visualization](img/channel-visualization.png)
 - The blue line signifies the current channel you are on. The current version and recommended version (if available) are both marked with blue dots. 
