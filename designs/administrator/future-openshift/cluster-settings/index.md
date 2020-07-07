@@ -7,7 +7,7 @@ version: 4.6
 
 Users complete upgrades in cluster settings. The following design focuses on making improvements to the current upgrade experience in cluster settings by making upgrading as simple and transparent as possible. Specific improvements include adding more information around recommended upgrade paths and notifying users when new versions and channels become available. 
 
-## Adding Alerts to the Notification Drawer
+## Adding Recommendation Alerts to the Notification Drawer
 
 ![Alerts - Available Updates](img/notifications-updates.png)
 - Today, available updates appear in the message section of the notification drawer. 
