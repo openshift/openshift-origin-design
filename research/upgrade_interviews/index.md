@@ -48,7 +48,7 @@ All upgrades in a customer context progress through several clusters. The upgrad
 
 Most customers we talked to are in the test phase of OpenShift 4. There is excitement about newfound ease with upgrades, but alerts remain noisey and many have to turn them off manually before the upgrade begins. To quote another user, “you need to be a bit cold blooded ... and hope that the status [goes] away.”
 
-Conclusions
+### Conclusions
 Our upgrades need to fit into the organizational contexts they’re deployed in, mainly the change management processes that govern upgrades.
 
 We should support operators to assess and ensure developer applications will be resilient to upgrades. Operators spend some or a lot of time (but want to spend next to no time) helping developers resolve container-related issues in their application designs.
