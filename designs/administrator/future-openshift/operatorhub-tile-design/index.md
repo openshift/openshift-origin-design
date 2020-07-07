@@ -7,7 +7,7 @@ version: 4.x
 
 OperatorHub currently provides users access to over 200 operators. As these contributions continue to grow, it is important that we make it as easy as possible for users to find what they are looking for. The concepts below expose additional capabilities on OperatorHub tiles and introduce the ability to sort by most recently updated (by provider). 
 
-The updated tile design leverages the latest [PF4 Labels](https://www.patternfly.org/v4/documentation/core/components/label).
+The updated tile design leverages the latest [PatternFly 4 Labels](https://www.patternfly.org/v4/documentation/core/components/label).
 
 ## Exposing additional capabilities on OperatorHub tiles
 
