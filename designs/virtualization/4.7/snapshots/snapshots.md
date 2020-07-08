@@ -57,10 +57,8 @@ Snapshots will also be surfaced on the VM details > Overview > Inventory
 
 # Restoring VM from snapshot
 
-![Virtualization - restore from snapshot](img/6-0.jpg)
-The user selects the restore action.
-
 ![Virtualization - restore from snapshot](img/6-1.jpg)
+The user selects the restore action, either from the VM details>snapshots tab or from the Snapshot details page >action menu.
 In case the VM is running, a warning message will mention that restoring for a running VM is not possible and that VM should be stopped first.
 
 ![Virtualization - restore from snapshot](img/6-2.jpg)
