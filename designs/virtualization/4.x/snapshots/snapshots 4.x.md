@@ -30,7 +30,7 @@ Updates to this screen includes:
 
 ![Virtualization - "un-snapshotable" disks](img/1-0-b.jpg)
 Only disks that are backed by a PVC (or DataVolume).
-In case there are some disks who cannot be "snapshotted" an in-line notification will notify that and specify those disks.
+In case there are some disks which cannot be "snapshotted" an in-line alert will warn that and specify those disks.
 
 ![Virtualization - disks dropdown](img/1-1.jpg)
 Selecting a disk. All disks are selected by default.
