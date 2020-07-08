@@ -15,9 +15,16 @@ By creating a dropdown and adding this new action, we'll highlight this action a
 ![PVC list with drop down button](img/PVC-dropdown.png)
 
 They will get to a new upload screen with an inline info alert that says this PVC will be created using a DataVolume through Container Data importer (CDI).
-User chooses an image (data source) to upload and fills in the PVC details: Name, size, storage class, access mode. Some of the fields can be filled out but editing will be optional as well.
+
+The user chooses an image (data source) to upload.
+In order to allow the user to flag an OS for the data they are uploading, they need to select an OS to attach data to. This selection will define the name/namespace of the Persistent Volume Claim.
+If they want it to back an Operaing System they'll check the check box and the Operating System dropdown will be shown. 
+Once that happens the name/namespace fields are filled in and become read only.
+Then the user fills the rest of the PVC details: size, storage class, access mode. Some of the fields can be filled out but editing will be optional as well.
 
 ![browse to upload](img/Upload-data-to-pvc-1.png)
+
+![os to attach the data to](img/Upload-data-to-pvc-1-2.png)
 
 After the user clicks ‘Upload’ they will get to the new installing screen where a progress bar symbplyzes the upload progress. The status is shown and updates in real time.
 We'll include a warning notification with a request to keep the browser instance open until uploading is done, otherwise the upload process will stop and fail. Users may still navigate the console, though.
