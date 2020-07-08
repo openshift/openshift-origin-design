@@ -1,6 +1,6 @@
 ---
 parent: Virtualization
-version: 4.x
+version: 4.7
 ---
 
 # VM snapshots
@@ -24,23 +24,18 @@ In case the VM is running, the user will be asked to turn it off to make a snaps
 The user enters the Create snapshot screen.
 This screen includes:
 - Snapshot name field
-- Save memory content (future implementation)
-- Disks included multi-select drop-down (future implementation)
 - Dropdown to selecting Snapshot Class
 - A summary of the VM details on the right-side column
 - A summary of the size of the snapshot (above the primary action)
 
-### Selecting disks (future implementation)
+The snapshot class is auto-selected.
+The default selection is set to the same snapshot class default when taking a snapshot for PVC on the Storage>PVC>Snapshot screen.
+
+### Excluded disks
 
 ![Virtualization - "un-snapshotable" disks](img/1-0-b.jpg)
+Only disks that are backed by a PVC (or DataVolume).
 In case there are some disks who cannot be "snapshotted" an in-line notification will notify that and specify those disks.
-
-![Virtualization - disks dropdown](img/1-1.jpg)
-Selecting a disk. All disks are selected by default.
-The "Un-snapshotable" disks will also be previewed within the disk multi-select drop-down, at a separate section at the bottom of the dropdown as a read only.
-
-![Virtualization - Selecting a disk](img/1-2.jpg)
-Selecting a specific disk will add that disk to a multi-select preview within the field.
 
 ### Creating screen
 
@@ -67,8 +62,6 @@ Snapshots will also be surfaced on the VM details > Overview > Inventory
 ![Virtualization - Snapshots list page](img/5-0.jpg)
 This list will include Parent (VMs).
 
-![Virtualization - Snapshots list - filters](img/5-01.jpg)
-Multi-select filter (like we have on the search page)
 
 # Restoring VM from snapshot
 
