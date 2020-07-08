@@ -8,7 +8,6 @@ version: 4.7
 This item will cover updates to vm-snapshots
 - Creating a VM snapshot
 - Snapshots on the VM details page
-- Virtualization snapshot list
 - Restoring a VM from snapshot
 
 ## Creating a snapshot
@@ -25,11 +24,10 @@ The user enters the Create snapshot screen.
 This screen includes:
 - Snapshot name field
 - Dropdown to selecting Snapshot Class
-- A summary of the VM details on the right-side column
-- A summary of the size of the snapshot (above the primary action)
 
-The snapshot class is auto-selected.
+The snapshot class is auto-selected to the class matching with the disks' pvc's storage class.
 The default selection is set to the same snapshot class default when taking a snapshot for PVC on the Storage>PVC>Snapshot screen.
+In case no clear storage class is the default, this dropdown will be set to --select--.
 
 ### Excluded disks
 
@@ -57,12 +55,6 @@ All the columns are sortable within the snapshot table.
 Snapshots will also be surfaced on the VM details > Overview > Inventory
 
 
-## Virtualization > Snapshots list
-
-![Virtualization - Snapshots list page](img/5-0.jpg)
-This list will include Parent (VMs).
-
-
 # Restoring VM from snapshot
 
 ![Virtualization - restore from snapshot](img/6-0.jpg)
@@ -73,6 +65,3 @@ In case the VM is running, a warning message will mention that restoring for a r
 
 ![Virtualization - restore from snapshot](img/6-2.jpg)
 The user enters a “Review and Restore” screen.
-
-![Virtualization - restore from snapshot](img/6-3.jpg)
-The user can choose to backup the current VM with an additional snapshot. This will open the rest of the fields below.

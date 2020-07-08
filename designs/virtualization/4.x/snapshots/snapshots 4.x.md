@@ -7,9 +7,9 @@ version: 4.x
 
 This item will cover updates to vm-snapshots launched for 4.7
 - Removing the "Turn off VM before attempting snapshot"
-- Include memory checkbox
-- Disks included dropdown
-
+- additional options and placements to the Create snapshot page
+- Virtuialization > Snapshot list
+- Creating a snapshot for VM that is about to be restoured
 
 ## Creating a snapshot
 
@@ -22,7 +22,8 @@ So this modal will be obsolete.
 Updates to this screen includes:
 - Save memory content
 - Disks included multi-select drop-down
-
+- A summary of the VM details on the right-side column
+- A summary of the size of the snapshot (above the primary action)
 
 ### Selecting disks
 
@@ -37,7 +38,22 @@ The "Un-snapshotable" disks will also be previewed within the disk multi-select 
 ![Virtualization - Selecting a disk](img/1-2.jpg)
 Selecting a specific disk will add that disk to a multi-select preview within the field.
 
-## Virtualization > Snapshots list - Parent filter
+## Virtualization > Snapshots list
+
+![Virtualization - Snapshots list page](img/5-0.jpg)
+This list will include Parent (VMs).
 
 ![Virtualization - Snapshots list - filters](img/5-01.jpg)
 Multi-select filter (like we have on the search page)
+
+
+# Restoring VM from snapshot
+
+![Virtualization - restore from snapshot](img/6-0.jpg)
+The user selects the restore action.
+
+![Virtualization - restore from snapshot](img/6-2.jpg)
+The user enters a “Review and Restore” screen.
+
+![Virtualization - restore from snapshot](img/6-3.jpg)
+The user can choose to backup the current VM with an additional snapshot. This will open the rest of the fields below.
