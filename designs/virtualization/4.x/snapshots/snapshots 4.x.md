@@ -14,9 +14,10 @@ This item will cover updates to vm-snapshots launched for 4.7
 ## Creating a snapshot
 
 ![Virtualization - turn off VM notification](img/0-1.jpg)
-The previous implementation and design included this modal.
+The previous implementation and design included a "Turn VM off" modal.
 In a future implementation, the snapshots can be taken on a live VM and include its memory.
-So this modal will be obsolete.
+However, taking a snapshot of a running VM will pause it.
+This modal will surface that change.
 
 ![Virtualization - Create VM snapshot](img/1-0.jpg)
 Updates to this screen includes:
