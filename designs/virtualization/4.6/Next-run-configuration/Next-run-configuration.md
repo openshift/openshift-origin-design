@@ -8,8 +8,8 @@ As a user makes changes to a running Virtual machine they will need to wait for 
 
 ## Editing
 
-When a user clicks to edit/ update one of the attributes (f.e. Flavor) it will open a modal with an alert notification letting the user know that the VM must be restarted in order to see the changes applied. The alert will persist until they restart the VM.
-This alert will not appear until the user has made changes, so the user will then know that they will need to restart.
+When a user clicks to edit/ update one of the attributes (f.e. Flavor) it will open a modal with a notification letting the user know that the VM must be restarted in order to see the changes applied. The notification will persist until they restart the VM.
+This notification will not appear until the user has made changes, so the user will then know that they will need to restart.
 
 In general, users will be able to clear the changes and keep what they had, but when the first time the modal is opened, in case the user hasn't saved any changes yet, the 'Clear changes' button will not be shown.
 
@@ -36,7 +36,7 @@ Only in cases when users have made changes to the part of the YAML which are not
 In case there are multiple changes that are on different tabs, we will show a list of them and the same notification will be shown on every tab. Clicking each will take the user to the relevant tab and will open the modal.
 An environment change can also be presented as a Disk change (if a user adds an environment key-value it is being added as a disk), so a change in the environment tab should be reflected in both 'Disks' and 'Environment' tabs and include a separate inline notification about the changes with the ability to clear them.
 
-All tabs should show the top level alert so users will always be able to see it.
+For changes that apply across all tabs, we'll place the notification above the tabs, so users will always be able to see it.
 
 ![Notification for changes on multiple tabs](img/Notification-changes-on-multiple-tabs.png)
 
