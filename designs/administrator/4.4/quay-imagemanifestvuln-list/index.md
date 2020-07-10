@@ -30,10 +30,3 @@ Enhancements have been made to the **Image Vulnerabilities** status on the clust
 ![ImageManifestVulnerabilities List Filtered Pod](img/5filteredimvlist.png)
 - The user is taken to the **Image Vulnerabilities** list, with a filter applied to only show the vulnerability(s) that relate to that pod. The list may be empty if no vulnerability exists for that pod's image(s).
 - The filter currently applies to the actual resources name, with the intent that it will also search the value that appears in the **Image Name** column.
-
-## Image Vulnerabilities on Cluster Dashboard
-
-![Cluster Dashboard Image Vulnerabilities Status](img/6dash.png)
-- The **Quay Image Security** status has been renamed **Image Vulnerabilities** to better convey its purpose and relationship to the **Image Vulnerabilities** resources.
-- The popover now includes a **View all** link to immediately take the user to the **Image Vulnerabilities** list.
-- Users can still click the count of namespaces for an image to see the **Image Vulnerabilities** list filtered to that image.
