@@ -33,10 +33,9 @@ Only in cases when users have made changes to the part of the YAML which are not
 
 ![VM details page](img/vm-details.png)
 
-In case there are multiple changes that are on different tabs, we will show a list of them and the same notification will be shown on every tab. Clicking each will take the user to the relevant tab and will open the modal.
+We'll always place the notification above the tabs, so users will be able to see it, even if only one change was made on a particular tab. That will make sure users will know there are pending changes even if they were looking at a different tab.
+Clicking each will open the Edit modal.
 An environment change can also be presented as a Disk change (if a user adds an environment key-value it is being added as a disk), so a change in the environment tab should be reflected in both 'Disks' and 'Environment' tabs and include a separate inline notification about the changes with the ability to clear them.
-
-For changes that apply across all tabs, we'll place the notification above the tabs, so users will always be able to see it.
 
 ![Notification for changes on multiple tabs](img/Notification-changes-on-multiple-tabs.png)
 
