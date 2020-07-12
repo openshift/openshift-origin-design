@@ -20,7 +20,7 @@ The user chooses an image (data source) to upload.
 In order to allow the user to flag an OS for the data they are uploading, they need to select an OS to attach data to. This selection will define the name/namespace of the Persistent Volume Claim.
 If they want it to back an Operaing System they'll check the check box and the Operating System dropdown will be shown.
 Once that happens the name/namespace fields are filled in and become disabled.
-Then the user fills the rest of the PVC details: size, storage class, access mode. Some of the fields can be filled out but editing will be optional as well.
+Then the user fills the rest of the PVC details: size, storage class, access mode, namespace. Some of the fields can be filled out but editing will be optional as well.
 
 ![browse to upload](img/Upload-data-to-pvc-1.png)
 
