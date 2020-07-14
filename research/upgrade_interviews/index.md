@@ -42,7 +42,7 @@ Operators can't upgrade on a whim. In the high security contexts of most of our 
 
 All upgrades in a customer context progress through several clusters. The upgrade process, in practice, is at least 2 upgrades. Customers upgrade their dev environment to work out any bugs, and they automate or fix those bugs for production upgrades. A jump right to a production upgrade would seem very unlikely or unusual.
 
-Most customers we talked to are in the test phase of OpenShift 4. There is excitement about newfound ease with upgrades, but alerts remain noisey and many have to turn them off manually before the upgrade begins. To quote another user, “you need to be a bit cold blooded ... and hope that the status [goes] away.”
+Most customers we talked to are in the test phase of OpenShift 4. There is excitement about newfound ease with upgrades, but alerts remain noisy and many have to turn them off manually before the upgrade begins. To quote another user, “you need to be a bit cold blooded ... and hope that the status [goes] away.”
 
 ### Conclusions
 Our upgrades need to fit into the organizational contexts they’re deployed in, mainly the change management processes that govern upgrades.
