@@ -30,7 +30,7 @@ We found a few particular job map aspects worth writing out.
 
 - In steps 3-8, all components are repeated in some form because all upgrades are multi-cluster: they move from development towards production environments. This means upgrades take place at least twice, if not more than that, to fully upgrade a company’s platform infrastructure.
 - In step 3 (prepare), almost all customers we talked to have to approve upgrades via a change management board (for version 3 and 4). This manual process is something not likely to be waved away because of new technological abilities because it’s often formally written into contracts or company policy.
-- In step 4 (conclude), alerts are turned off manually. Alerts tend to fire off at a very high rate and overload existing alert channels. The alerting state during the upgrade was often seen as overwhelming and not useful.
+- In step 4 (confirm), alerts are turned off manually. Alerts tend to fire off at a very high rate and overload existing alert channels. The alerting state during the upgrade was often seen as overwhelming and not useful.
 - In step 5 (execute), this is the step, the upgrade! It’s interesting that we almost spent little time on this moment. In v4, it’s a button click and in v3 it’s beginning an Ansible playbook. This was fairly simple and a reminder that the context around a singular feature is often critical.
 - After beginning the upgrade, step 6 (monitor) begins. When checking out alerts manually, it was a challenging process to assess which alerts needed action and which would heal on their own. If something did break, the operator would often hear of this from a developer or another platform reliant group, like the logging team.
 
