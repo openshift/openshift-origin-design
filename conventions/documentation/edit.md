@@ -26,7 +26,7 @@ Users can edit forms inline directly, like on the "Environments" tab.
 ![edit inline form 2](../images/edit-inline-form2.png)
 
 
-*When users edit and save while having an error, an error message appears inline:*
+*When users edit and save while having an error, an [error message appears inline](http://openshift.github.io/openshift-origin-design/conventions/documentation/alerting.html#bottom-of-page):*
 
 ![edit inline form 3](../images/edit-inline-form3.png)
 
