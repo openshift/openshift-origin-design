@@ -8,8 +8,7 @@ This PR deals with when a user wants to upload an image (data source) prior to c
 It needs to be accomplished via the storage/PVC area.
 It should ensure the user understands what the backing PVC does but does not remove the Disk terminology.
 
-The ‘Create PVC’ button will change into a dropdown, so users will be able to select ‘Upload data to Persistent Volume Claim’ from this dropdown.
-That will make 2 separate actions for creation, one of them being able to 'Upload data to Persistent Volume Claim'.
+The ‘Create PVC’ button will change into a dropdown, so users will be able to select between 'New Persistent Volume Claim' or ‘New Persistent Volume Claim with data upload’ from this dropdown.
 By creating a dropdown and adding this new action, we'll highlight this action as a new feature (in an existing form) so the users will be able to easily find it.
 
 ![PVC list with drop down button](img/PVC-dropdown.png)
