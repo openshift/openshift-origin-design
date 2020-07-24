@@ -49,7 +49,5 @@ We want the above behavior to be available on the following resource table views
 - Persistent Volumes
 - Persistent Volume Claims
 
-## Future Resources
-We will explore adding the behavior to be available on the following resource table views:
-- Custom Resource Definitions
-- Explore API Resources
+## Future Enhancements
+In the future, we will explore adding column management to other resource pages, such as Custom Resource Definitions and Explore API Resources. We will also explore adding additional features to column management that would allow the user to reorder the columns using a drag and drop behavior.
