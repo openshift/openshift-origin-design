@@ -13,9 +13,13 @@ Inline Alerts can be used throughout the console to notify users in context that
 Inline alerts can appear above the navigation tabs when there is an important piece of information that applies to the entire resource, and the user should be made aware of regardless what tab they are looking at.
 
 ![inline alert details above tabs](../images/alerting-inline-details-above.png)
-- Generally, these should be warning or error level alerts.
+
+- Generally, these should be warning or error level alerts, and not just informational or neutral.
 - The alert should appear immediately above the navigation tabs.
 
+![inline alert details above tabs 2](../images/alerting-inline-details-above2.png)
+
+- If multiple alerts are present in different tabs, the list of tabs with alerts can appear as a bulleted list of links to allow the user to easily navigate to those areas. 
 
 #### Below navigation tabs
 Inline alerts can appear at the top of an individual navigation tab when there is a particular piece of information that applies to that one tab, and is not severe enough to surface at all times in the resource.
@@ -25,7 +29,7 @@ Inline alerts can appear at the top of an individual navigation tab when there i
 ![inline alert details below tabs 2](../images/alerting-inline-details-below2.png)
 
 - Generally, these should be info or neutral alerts.
-- If a warning or error level alert is not severe enough to surface at all times in the resource, it can also be surfaced only in the tab it relates to.
+- A warning or error level alert can also be surfaced only in the tab it relates to if it is not severe enough to surface at all times in the resource.
 - The alert should appear immediately below the tabs.
 
 #### Bottom of page
@@ -33,8 +37,8 @@ For actions taken inside of a page, resulting errors and success messages in the
 
 ![inline alert details bottom](../images/alerting-inline-details-bottom.png)
 
-#### In Slideover
-When a Details View appears as a Slideover, the location of the inline alert should match how it appears as a standalone Details View.
+#### In Side Panel
+When a Details View appears as a Side Panel, the location of the inline alert should match how it appears as a standalone Details View.
 
 ![inline alert details slideover](../images/alerting-inline-details-slideover.png)
 
