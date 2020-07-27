@@ -8,10 +8,11 @@ This convention covers capitalization guidelines for the OpenShift console.
 
 ## Types of capitalization
 
-The following guidelines will document when to use **sentence case** and when to use **title case** in the OpenShift console UI. To read more about the difference between them, refer to the [PatternFly capitlization documentation](https://www.patternfly.org/v4/design-guidelines/content/capitalization).
+The following guidelines will document when to use **sentence case** and when to use **title case** in the OpenShift console UI. To read more about the difference between them, refer to the [PatternFly capitalization documentation](https://www.patternfly.org/v4/design-guidelines/content/capitalization).
 
 ## Guidelines
 
+### Sentence case
 Sentence case should be the default capitalization used in the console. For example, use **sentence case** for:
 * Breadcrumbs
 * Buttons
@@ -23,6 +24,7 @@ Sentence case should be the default capitalization used in the console. For exam
 * Menu items
 * Tabs
 
+### Title case
 The following exceptions use **title case**:
 * Proper nouns (including Kubernetes terminology)
 * Navigation items
