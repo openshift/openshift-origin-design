@@ -6,13 +6,13 @@ version: 4.6
 # Column Management
 
 ## Behavior
-Column management will live in the toolbar as a column icon on the Pods page on desktop. It will be hidden on mobile. Clicking on the icon will open a modal that lists all column names with checkboxes.
+Column management will live in the toolbar as a column icon on the relevant resources pages on desktop. It will be hidden on mobile. Clicking on the icon will open a modal that lists all column names with checkboxes.
 ![column-management-toolbar](img/column-management-toolbar.png)
-If the user is looking at “all projects”, then the checkbox next to “name” as well as “namespace”  in the modal will be shown as checked and disabled. Hovering over it will bring up a tooltip that explains that the columns may not be edited.
+If the user is looking at “all projects”, then the checkbox next to “name” as well as “namespace”  in the modal will be shown as checked and disabled. Hovering over either the checkbox or text will bring up a tooltip that explains that the columns are required.
 ![column-management-disabled-check](img/column-management-disabled-check.png)
 The modal will have an informational alert by default that reads “You can select up to 7 columns”. If 7 columns have already been selected, then all checkboxes will be disabled. Once the user deselects a checkbox, the other checkboxes will return to default state (rather than disabled). 
 ![column-management-check](img/column-management-check.png)
-Deselecting a checkbox will remove that column from the table view. Selecting a checkbox will add that column to the table view. Clicking “Save” will save the changes that the user has made in the modal. Clicking “Restore default columns” will restore the default settings of the columns in the pods table.
+Deselecting a checkbox will remove that column from the table view. Selecting a checkbox will add that column to the table view. Clicking “Save” will save the changes that the user has made in the modal. Clicking “Restore default columns” will restore the default settings of the columns in the resource table.
 ![column-management-save](img/column-management-save.png)
 If the page **does not** include a project selector **or** the project selector is set to anything other than “all projects”, then the “namespace” column will be hidden on the table **and** displayed in the modal below all of the table columns, unchecked.
 ![column-management-namespace-hidden](img/column-management-namespace-hidden.png)
