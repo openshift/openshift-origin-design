@@ -62,6 +62,7 @@ It was important to provide more transparency to the user when an update is in p
 - Each item contains a corresponding count (ex. 2 of 3), a status icon, and a loader to provide more context to the user. 
 - Clicking `Cluster Operators` will navigate users to the cluster operators list. 
 - Clicking `Nodes` will navigate users to the nodes list to view detailed progress of each node.
+- Clicking `View conditions` will navigate users to the Cluster Version Details page where users can view the details of the four possible condition types: available, failing, progressing and retrieved updates.
 
 ![Nodes list](img/nodes.png)
 - The nodes list can be sorted by `Status`. 
