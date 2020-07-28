@@ -7,7 +7,7 @@ version: 4.X
 
 ## First time use
 ![](img/setup-hint.png)
-When the user first signs into OpenShift after installation they are presented with a hint block that directs them to complete the cluster setup steps. Clicking on the action button in the hint should open the notification drawer.
+When the user first signs into OpenShift after installation they are presented with a hint block that directs them to complete the cluster setup steps. Clicking on the action button in the hint should open the notification drawer. Once the notification drawer has been opened, either with the action button or from the masthead, the hint pattern is removed.
 
 
 ## Behavior
@@ -25,9 +25,13 @@ Cluster setup items appear in the "recommendations" section of the notification 
 - Default Ingress Certificate
   - Replace the default ingress certificate to enable external clients to securely connect to your apps
   - [This action should link to docs for ingress certificates](https://docs.openshift.com/container-platform/4.5/security/certificates/replacing-default-ingress-certificate.html)
+- Autopruning Registry
+  - "Configure OpenShift to save resources by removing images that are no longer useful.""
+  - [This action should link to docs for autopruning](https://docs.openshift.com/container-platform/4.5/applications/pruning-objects.html#pruning-images_pruning-objects)
 - Delete kubeadmin user secret
-  - "Once you've created a cluster admin user, delete this secret for best security"
+  - "Now that you've created a cluster admin user, delete this secret for best security."
   - The action on this item should take the user to the secrets page filtered to show only the "kubeadmin"secret.
+  - **Note: This recommendation should appear only after the cluster contains at least one user with Cluster Administrator permissions:**
 
 ### Optional Steps
 ![](img/setup-optional.png)
