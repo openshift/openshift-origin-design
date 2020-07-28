@@ -6,7 +6,8 @@ version: 4.6
 # Column Management
 
 ## Behavior
-Column management will live in the toolbar as a column icon on the relevant resources pages on desktop. It will be hidden on mobile. Clicking on the icon will open a modal that lists all column names with checkboxes.
+Column management will live in the toolbar as a column icon on the relevant resources pages on desktop. It will be hidden on mobile. Hover on the icon will bring up a tooltip stating "Manage columns". Clicking on the icon will open a modal that lists all column names with checkboxes.
+![column-management-toolbar-hover](img/column-management-toolbar-hover.png)
 ![column-management-toolbar](img/column-management-toolbar.png)
 If the user is looking at “all projects”, then the checkbox next to “name” as well as “namespace”  in the modal will be shown as checked and disabled. Hovering over either the checkbox or text will bring up a tooltip that explains that the columns are required.
 ![column-management-disabled-check](img/column-management-disabled-check.png)
