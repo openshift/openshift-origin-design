@@ -59,10 +59,17 @@ It was important to provide more transparency to the user when an update is in p
 
 ![In progress check list](img/check-list.png)
 - The channel visualization is replaced with an in progress checklist including: Cluster Operators, Master Nodes and Worker Nodes. 
-- Each item contains a corresponding count (ex. 2 of 3), a status icon, and a loader to provide more context to the user. 
+- Each item contains a corresponding count (ex. 2 of 3), a status icon, and a progress bar to provide more context to the user. 
 - Clicking `Cluster Operators` will navigate users to the Cluster Operators list. 
 - Clicking `Nodes` will navigate users to the Nodes list to view detailed progress of each node.
 - Clicking `View conditions` will navigate users to the Cluster Version Details page where users can view the details of the four possible condition types: available, failing, progressing and retrieved updates.
+
+![In progress check list - tooltip](img/check-list-tool-tip.png)
+- Worker Nodes are visually separated from Cluster Operators and Master Nodes as they are not included as a part of the data that marks an update as complete.
+- The info icon to the right of Worker Nodes surfaces a tooltip, stating that: Worker Nodes may continue to update after the update of Master Nodes and Cluster Operators are complete.
+
+![Update but worker nodes still in progress](img/worker-nodes-in-progress.png)
+- In the case that Worker Nodes are still in progress after the Cluster Operators and Master Nodes are complete, the Master Node and Cluster Operator checklist items will be replaced with the channel visualization. The "In progress" update status will change to "Up to date" and the Worker Node progress bar will remain until complete.
 
 ![Nodes list](img/nodes.png)
 - The nodes list can be sorted by `Status`. 
