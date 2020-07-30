@@ -57,13 +57,13 @@ It was important to provide more transparency to the user when an update is in p
 - If available, users can select an alternative version in the dropdown.
 - Clicking `Update` will begin the update.
 
-![In progress check list](img/check-list.png)
+![In progress checklist](img/check-list.png)
 - The channel visualization is replaced with an in progress checklist including: Cluster Operators, Master Nodes and Worker Nodes. 
-- Each item contains a corresponding count (ex. 2 of 3), a status icon, and a progress bar to provide more context to the user. 
-- Clicking `Cluster Operators` will navigate users to the Cluster Operators list. 
-- Clicking `Master Nodes` will navigate users to the Nodes list (with the Master filter applied) to view detailed progress of each Node.
-- Clicking `Worker Nodes` will navigate users to the Nodes list (with the Worker filter applied) to view detailed progress of each Node.
-- Clicking `View conditions` will navigate users to the Cluster Version Details page where users can view the details of the four possible condition types: available, failing, progressing and retrieved updates.
+- Each checklist item contains a corresponding count (ex. 2 of 3) and a progress bar to provide more context to the user. 
+- Clicking `Cluster Operators` will navigate users to the Cluster Operators list, providing detailed progress of each Operator.
+- Clicking `Master Nodes` will navigate users to a filtered view of the Nodes list, providing detailed progress of each Master Node.
+- Clicking `Worker Nodes` will navigate users to a filtered view of the Nodes list, providing detailed progress of each Worker Node.
+- Clicking `View conditions` will navigate users to the Cluster Version Details page to view the details of four possible condition types: available, failing, progressing and retrieved updates.
 
 ![In progress check list - tooltip](img/check-list-tool-tip.png)
 - Worker Nodes are visually separated from Cluster Operators and Master Nodes as they are not included as a part of the data that marks an update as complete.
