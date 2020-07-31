@@ -24,12 +24,10 @@ Inline alerts can appear above the navigation tabs when there is an important pi
 #### Below navigation tabs
 Inline alerts can appear at the top of an individual navigation tab when there is a particular piece of information that applies to that one tab, and is not severe enough to surface at all times in the resource.
 
-![inline alert details below tabs](../images/alerting-inline-details-below.png)
-
 ![inline alert details below tabs 2](../images/alerting-inline-details-below2.png)
 
 - Generally, these should be info or neutral alerts.
-- A warning or error level alert can also be surfaced only in the tab it relates to if it is not severe enough to surface at all times in the resource.
+- A warning or error level alert can be surfaced only in the tab it relates to if it is in response to a users action inside the tab.
 - The alert should appear immediately below the tabs.
 
 #### Bottom of page
