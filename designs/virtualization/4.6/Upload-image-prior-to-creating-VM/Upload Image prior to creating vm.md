@@ -5,21 +5,21 @@ version: 4.6
 # Upload Image (data source) prior to creating a VM
 
 This PR deals with when a user wants to upload an image (data source) prior to creating a virtual machine.
-It needs to be accomplished via the storage/PVC area.
-It should ensure the user understands what the backing PVC does but does not remove the Disk terminology.
+It needs to be accomplished via the storage/Persistent Volume Claim area.
+It should ensure the user understands what the backing Persistent Volume Claim does but does not remove the Disk terminology.
 
-The ‘Create PVC’ button will change into a dropdown, so users will be able to select between 'New Persistent Volume Claim' or ‘New Persistent Volume Claim with data upload’ from this dropdown.
+The ‘Create Persistent Volume Claim’ button will change into a dropdown, so users will be able to select between create 'Persistent Volume Claim with form' or create ‘Persistent Volume Claim with form and data upload’.
 By creating a dropdown and adding this new action, we'll highlight this action as a new feature (in an existing form) so the users will be able to easily find it.
 
 ![PVC list with drop down button](img/PVC-dropdown.png)
 
-They will get to a new upload screen with an inline info alert that says this PVC will be created using a DataVolume through Container Data importer (CDI).
+They will get to a new upload screen with an inline info alert that says this Persistent Volume Claim will be created using a DataVolume through Container Data importer (CDI).
 
 The user chooses an image (data source) to upload.
 In order to allow the user to flag an OS for the data they are uploading, they need to select an OS to attach data to. This selection will define the name/namespace of the Persistent Volume Claim.
 If they want it to back an Operaing System they'll check the check box and the Operating System dropdown will be shown.
 Once that happens the name/namespace fields are filled in and become disabled.
-Then the user fills the rest of the PVC details: size, storage class, access mode, namespace. Some of the fields can be filled out but editing will be optional as well.
+Then the user fills the rest of the Persistent Volume Claim details: size, storage class, access mode, namespace. Some of the fields can be filled out but editing will be optional as well.
 
 ![browse to upload](img/Upload-data-to-pvc-1.png)
 
@@ -33,17 +33,17 @@ We'll provide a button to view the Persistent Volume Claim details and a link to
 
 ![PVC details page](img/Details-page-in-uploading.png)
 
-The List view will show an ‘uploading’ status. A popover will include an explanation (The PVC has been created and the file upload is in progress) and an option to cancel the upload process.
+The List view will show an ‘uploading’ status. A popover will include an explanation (The Persistent Volume Claim has been created and the file upload is in progress) and an option to cancel the upload process.
 
 ![List view with popover](img/PVC-ListViewW_popover.png)
 
-Once the upload is successfully done the user has the option to view the PVC Details page or view the PVC's list.
+Once the upload is successfully done the user has the option to view the Persistent Volume Claim Details page or view the Persistent Volume Claim's list.
 
 ![PVC upload successfully done](img/Upload-success.png)
 
 ![PVC Details page](img/pvc-details-page.png)
 
-If the CDI fails to create the PVC, we'll show an error on the upload page and users will be able to go back to the form and fix the error.
+If the CDI fails to create the Persistent Volume Claim, we'll show an error on the upload page and users will be able to go back to the form and fix the error.
 
 ![PVC upload error](img/Upload-error.png)
 
