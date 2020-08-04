@@ -8,7 +8,7 @@ This PR deals with when a user wants to upload an image (data source) prior to c
 It needs to be accomplished via the storage/Persistent Volume Claim area.
 It should ensure the user understands what the backing Persistent Volume Claim does but does not remove the Disk terminology.
 
-The ‘Create Persistent Volume Claim’ button will change into a dropdown, so users will be able to select between create 'Persistent Volume Claim with form' or create ‘Persistent Volume Claim with form and data upload’.
+The ‘Create Persistent Volume Claim’ button will change into a dropdown, so users will be able to select between create 'Persistent Volume Claim with form' or create ‘Persistent Volume Claim with data upload form’.
 By creating a dropdown and adding this new action, we'll highlight this action as a new feature (in an existing form) so the users will be able to easily find it.
 
 ![PVC list with drop down button](img/PVC-dropdown.png)
