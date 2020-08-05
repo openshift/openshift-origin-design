@@ -1,6 +1,6 @@
 ---
 parent: Administrator
-version: future-openshift
+version: 4.x
 ---
 
 # Machine and Cluster Autoscaler guidance
