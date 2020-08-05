@@ -39,7 +39,7 @@ The user navigates back to the Machine Autoscalers area and clicks “Create Mac
 The inline info alert is gone.
 
 ## Machine Sets Viewing associate Machine Autoscaler
-The user selects a MachineSet that isn’t currently associated with any Machine Autoscaler. Machine Autoscaler column added on the Machine Sets page 
+A Machine Autoscaler column is added to the Machine Sets page. The user opens the kebab menu of a MachineSet that isn’t currently associated with any Machine Autoscaler. 
 ![Machine Sets](img/machine_sets-1.png)
 ![Machine Sets](img/machine_sets-2.png)
 Kebab options when a Machine Autoscaler is already created, change to “Edit Machine Autoscaler”:
