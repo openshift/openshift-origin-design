@@ -34,7 +34,7 @@ The user can edit the Cluster Autoscaler from here, or delete the Cluster Autosc
 ![Autoscaler](img/delete-cluster-autoscaler-1.png)
 
 The user navigates back to the Machine Autoscalers area and clicks “Create Machine Autoscaler”
-![Autoscaler](img/autoscaler-3.png)
+![Autoscaler](img/machine-autoscaler-10.png)
 
 The inline info alert is gone.
 
@@ -45,11 +45,15 @@ A Machine Autoscaler column is added to the Machine Sets page. The user opens th
 Kebab options when a Machine Autoscaler is already created, change to “Edit Machine Autoscaler”:
 ![Machine Sets](img/machine_sets-3.png)
 
-Additional option for when popovers are added to table headers:
+In the future the column heading could be enhanced with an additional option for when popovers are added to table headers:
 ![Machine Sets](img/machine_sets-4.png)
 
 ## Machine Autoscaler Creation
-When Create Machine Autoscaler is selected a new fields appear for Name and minimum/maximum replica count. The name of the autoscaler is automatically generated based on the MachineSet’s name, the maximum replica count is set to the MachineSet’s current number of replicas by default, and the user can click “Create” when finished to see it in the List page.
+When both the Cluster Autoscaler and the Machine Set have been configured the Create Machine Autoscaler option will show the following screen and allow the user to select a configured Machine Set from the dropdown
+![Machine Autoscaler](img/machine-autoscaler-8.png)
+![Machine Autoscaler](img/machine-autoscaler-9.png)
+
+When a Machine Set is selected new fields appear for Name and minimum/maximum replica count. The name of the autoscaler is automatically generated based on the MachineSet’s name, the maximum replica count is set to the MachineSet’s current number of replicas by default, and the user can click “Create” when finished to see it in the List page.
 
 ![Machine Autoscaler](img/machine-autoscaler-1.png)
 If the user sets a Maximum replica count that could bump up against any of the cluster autoscaler’s scaling limits an inline info alert is shown that lists each one.
