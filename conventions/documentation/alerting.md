@@ -59,16 +59,3 @@ Some actions benefit from additional confirmation or alert that something is goi
 ![modal confirm](../images/alerting-modal-confirm.png)
 - A warning icon can be included to the left of the title.
 - Buttons appear on the right side of the modal until the console fully transitions to PatternFly 4.
-
-## Alerting near Controls
-Sometimes alert messages are needed directly near a particular control they relate to.
-
-### Control Confirmation
-UI interactions that need user confirmation before affecting the backend can use warning icons with links.
-
-![control confirm](../images/alerting-control-confirm.png)
-
-### Control Error
-If an error occurs that relates to a particular control, red text can be surfaced near that control to convey the error.
-
-![control confirm](../images/alerting-control-error.png)
