@@ -1,6 +1,6 @@
 ---
 parent: Administrator
-version: 4.x
+version: 4.7
 ---
 
 # Create a user-defined namespace from the Install Operator screen
