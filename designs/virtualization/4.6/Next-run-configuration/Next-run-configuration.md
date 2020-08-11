@@ -53,6 +53,11 @@ The popover will also let the user know where to see the pending changes by clic
 
 ![Popover indicating a restart is required from the list view](img/ListView.png)
 
+In the list view, when a disk/NIC is waiting for the VM to restart in order to have the changes implemented, we'll show a (Pending changes) text next to its name in the color of the warning headline #795600. If the name is too long it will break into 2 lines.
+
+![Disks list view showing pending changes in it](img/Disks-listview.png)
+
+
 ## Adding a ‘Clear changes’ option
 
 Users will be able to view the pending changes from the ‘Edit’ modals and also have the option to clear the changes they have made by clicking the ‘Clear all changes’ link, that will revert to the original status of the VM and clear all the changes the user had done.
