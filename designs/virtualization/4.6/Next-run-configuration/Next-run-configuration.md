@@ -68,7 +68,7 @@ We will add a (Pending changes) label beside the items that have been changed.
 
 ![Edit Flavor modal w inline alert that lets user clear change they made](img/Edit.png)
 
-If they will choose to clear the changes - that action will remove all the changes they have made and the user will return to the VM details view.
+For future implementation, if users will choose to clear the changes - that action will remove all the changes they have made and the user will return to the VM details view.
 
 ![Clear changes modal](img/ClearChanges2.png)
 
@@ -79,5 +79,3 @@ In case of multiple pending changes, the inline alert on the Details page will s
 ![Disks page](img/Disks.png)
 
 ![NICKs page](img/NICs.png)
-
-![Edit NICK modal](img/EditNIC.png)
