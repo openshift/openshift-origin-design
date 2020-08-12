@@ -5,9 +5,11 @@ version: 4.7
 
 # Operator Installing with Long Running Component
 
-Shortly after the new screen to Convey an operator is installing was developed, it was realized that other actions in the console could make use of a similar interaction. This design conveys a more generic version of the operator installing screen, and examples of perhaps how other actions could use a similar interaction.
+Shortly after the new screen to [Convey an operator is installing](http://openshift.github.io/openshift-origin-design/designs/administrator/olm/convey-installing-operator/) was developed, it was realized that other actions in the console could make use of a similar interaction. This design conveys a more generic version of the operator installing screen, and examples of perhaps how other actions could use a similar interaction.
 
 ## Operator Installation
+
+These screens show how the existing Installing Operator feature could appear using newer, more generic, visuals, that could perhaps be made into a common component.
 
 ### Installing an operator
 ![Install operator](img/longRun-1-1-installing.png)
@@ -29,6 +31,10 @@ Shortly after the new screen to Convey an operator is installing was developed, 
 ![Install operator error](img/longRun-1-6-error.png)
 
 ## Long Running Component
+
+This portion of the design describes what common elements the component may have, as well as some sample screens of how interactions using it might appear.
+
+Note: The features shown in the examples are not finalized and are only for conveying possible uses of the component.
 
 ### Component Elements
 - Spinner, progress bar, or status icon
