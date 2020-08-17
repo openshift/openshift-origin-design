@@ -66,7 +66,7 @@ parent: Conventions
 
 ### Creation via YAML only:
 
-*Some resource types can only be created with YAML. The first time viewing the YAML creation, the samples panel should be open by default.*
+*Some resource types can only be created with YAML. The first time viewing the YAML creation, the samples panel should be open by default. After the resource is created, the user is automatically navigated to the created resource.*
 ![import YAML](../images/create-yaml-only1.png)
 ![import YAML](../images/create-yaml-only2.png)
 
