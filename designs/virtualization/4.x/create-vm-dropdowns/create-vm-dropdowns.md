@@ -63,7 +63,7 @@ This disk cannot be deleted but can be modified to some extent.
 Editing that disk will display an info notification within the edit modal, mentioning the link between this disk and the one created on the OS source step.
 The fields related to the OS source, in this case, the URL, will be locked.
 
-## Netwroking step
+## Networking step
 
 ![Create VM - Networking -list](img/2-0.jpg)
 NIC list.
@@ -78,7 +78,7 @@ On deleting the default NIC, a confirmation modal will present itsself.
 Edit modal.
 The Advanced drawer is always collapsed by default
 
-![Create VM - Networking -Add](img/2-2.jpg
+![Create VM - Networking -Add](img/2-2.jpg)
 The Add NIC modal.
 The Advanced drawer is closed by default, as seen in the previous image.
 All fields have moved into the advanced drawer, except the Name and Network fields.
