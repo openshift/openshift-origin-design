@@ -7,7 +7,7 @@ version: 4.6
 
 ## Description
 
-Horizontal pod autoscalers can be applied to workloads so that pods will scale up and down as needed so resources are not being wasting when waiting for peak resources. Horizontal pod autoscalers can only be applied to Deployment/Deployment Config workloads, not Knative services. A user can add, edit, and remove a horizontal pod autoscaler. 
+Horizontal pod autoscalers can be applied to workloads so that pods will scale up and down as needed so resources are not being wasting when waiting for peak resources. 
 
 
 ## Add a Horizontal Pod Autoscaler
@@ -28,7 +28,7 @@ In order to add a horizontal pod autoscaler to a workload the user has to set CP
 
 ### Add Horizontal Pod Autoscaler- YAML Editor
 
-The user can toggle between the two pages view, either a form or YAML view. In the YAML view, the user can add custom metrics and inputs to the YAML editor. The schema for the horizontal pod autoscaler is featured on the right hand side.
+The user can toggle between the two page views, either a form or YAML view. In the YAML view, the user can add custom metrics and inputs to the YAML editor. The schema for the horizontal pod autoscaler is featured on the right hand side.
 
 ![Add horizontal pod autoscaler YAML editor](img/3-hpa.jpg)
 
@@ -50,7 +50,7 @@ The user can make edits to the fields in the edit horizontal pod autoscaler form
 
 ### Add Horizontal Pod Autoscaler- YAML Editor
 
-The user can toggle between the two pages view, either a form or YAML view. In the YAML view, the user can add custom metrics and inputs to the YAML editor. The schema for the horizontal pod autoscaler is featured on the right hand side.
+The user can toggle between the two page views, either a form or YAML view. In the YAML view, the user can add custom metrics and inputs to the YAML editor. The schema for the horizontal pod autoscaler is featured on the right hand side.
 
 ![Edit horizontal pod autoscaler YAML editor](img/6-hpa.jpg)
 
@@ -61,7 +61,7 @@ If a horizontal pod autoscaler is added to a workload, a horizontal pod autoscal
 ![Horizontal pod autoscaler side panel](img/7-hpa.jpg)
 
 ### Horizontal Pod Autoscaler Details
-The user can view deails about the horizontal pod autoscaler. The user can also access horizontal pod autoscaler actions from this page. 
+The user can view details about the horizontal pod autoscaler. The user can also access horizontal pod autoscaler actions from this page. 
 
 ![Edit horizontal pod autoscaler form](img/8-hpa.jpg)
 
@@ -79,6 +79,6 @@ A ‘Remove Horizontal Pod Autoscaler’ confirmation modal appears. The user ca
 
 If a horizontal pod autoscaler is added to a workload, autoscaling becomes enabled so the user can no longer manually scale pods up or down. The scaling actions from the pod donut are disabled if the user has autoscaling enabled.  
 
-In this scenario, the pod is autoscaling to 5. Depending on the range of minimum and maximum pods that the user set for the orizontal pod autoscaler, the pods will autoscale within that range. 
+In this scenario, the pod is autoscaling to 5. Depending on the range of minimum and maximum pods that the user set for the horizontal pod autoscaler, the pods will autoscale within that range. 
 
 ![Remove horizontal pod autoscaler](img/11-hpa.jpg)
