@@ -7,5 +7,3 @@ nav_order: 6
 # Concepts
 
 Concepts are designs that aren't slated for near-term implementation but include cool ideas that we should keep in mind for the future.
-
-These designs shouldn't be implemented until designers check to see if any updates need to be made.
