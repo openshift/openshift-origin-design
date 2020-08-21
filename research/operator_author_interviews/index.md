@@ -8,7 +8,7 @@ parent: Research
 
 *Internal link: [Slide deck](https://docs.google.com/presentation/d/1EwBw_i2npeN5og_Hz7IPQbLhShF_R_6P6jrtzLPVyDQ/edit?usp=sharing)*
 
-##Background
+## Background
 
 The user experience design team helped out the Operator Lifecycle Manager (OLM) team to learn more about the experience of authoring or developing an operator with OLM. In particular we wanted to explore:
 
