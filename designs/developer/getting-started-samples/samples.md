@@ -14,19 +14,20 @@ Samples is a feature that enables users to create and deploy sample applications
 
 The Samples card is featured on the Add page
 
-<img src="./img/add-page.png" alt="Samples card on Add page" width="990"/>
+![Samples card on Add page](img/add-page.png)
 
 
 The Samples page features code samples that users can choose from to create applications 
 
-<img src="./img/samples-home-page.png" alt="Samples Page" width="990"/>
+![Samples page](img/samples-home-page.png)
 
 
 The Create Sample Application form provides users with details about the sample application they have selected 
 
 <img src="./img/create-sample-app-form.png" alt="Create Sample Application Form" width="990"/>
+![Create Sample Application Form](img/create-sample-app-form.png)
 
 
 The Sample Application deployment is visible in Topology
 
-<img src="./img/topology.png" alt="Topology" width="990"/>
+![Topology](img/topology.png)
