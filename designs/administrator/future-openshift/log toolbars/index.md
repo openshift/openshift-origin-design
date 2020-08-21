@@ -11,7 +11,7 @@ Support for Wrap lines and Toggle timestamps
 Support for the Download All button that appears in the Pipelines log viewer
 Support for at least 1 `ConsoleExternalLogLink` resource that the user may have added
 Incorporate a find or search feature 
-Design for the possibility of allowing customers to view more than 1000 lines of data in the future
+Design for the possibility of allowing users to view more than 1000 lines of logs in the future
 
 
 Proposed default state:
