@@ -14,7 +14,7 @@ The basic visuals and behavior of this card view is consistent with that of the 
 
 Accessible on the Add page 
 
-<img src="./img/add-page.png" alt="Add page" width="990"/>
+![Add page](img/add-page.png)
 
 
 Kebab in the top right corner of the Quick Starts card reveals the option to hide the card from the Add page
