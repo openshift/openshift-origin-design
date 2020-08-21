@@ -3,13 +3,13 @@ parent: Administrator
 version: 4.7
 ---
 
-# Operator Installing with Long Running Component
+# Operator Installing with Common Long Running Styling
 
-Shortly after the new screen to [Convey an operator is installing](http://openshift.github.io/openshift-origin-design/designs/administrator/olm/convey-installing-operator/) was developed, it was realized that other actions in the console could make use of a similar interaction. This design conveys a more generic version of the operator installing screen, and examples of perhaps how other actions could use a similar interaction.
+Shortly after the new screen to [Convey an operator is installing](http://openshift.github.io/openshift-origin-design/designs/administrator/olm/convey-installing-operator/) was developed, it was realized that other actions in the console could make use of a similar interaction. This design conveys a more generic version of the operator installing screen, and examples of perhaps how other actions could use a similar interaction and styling.
 
 ## Operator Installation
 
-These screens show how the existing Installing Operator feature could appear using newer, more generic, visuals, that could perhaps be made into a common component.
+These screens show how the existing Installing Operator feature could appear using newer, more generic, visuals, which could perhaps be reused for other use cases.
 
 ### Installing an operator
 ![Install operator](img/longRun-1-1-installing.png)
@@ -30,20 +30,20 @@ These screens show how the existing Installing Operator feature could appear usi
 
 ![Install operator error](img/longRun-1-6-error.png)
 
-## Long Running Component
+## Common 'Long Running' Styling
 
-This portion of the design describes what common elements the component may have, as well as some sample screens of how interactions using it might appear.
+This portion of the design describes what common elements the common styling may have, as well as some sample screens of how interactions using the styling might appear.
 
-Note: The features shown in the examples are not finalized and are only for conveying possible uses of the component.
+Note: The features shown in the examples are not finalized and are only for conveying possible uses of the styling.
 
-### Component Elements
+### Possible Common Styling Elements
 - Spinner, progress bar, or status icon
 - Title
 - Message text
 - Inline alerts (as needed)
 - Primary and secondary actions (as buttons or links, max 2 per line)
 
-### Other Full Page Examples
+### Full Page Examples
 
 ![Full page upload](img/longRun-2-1-upload.png)
 
@@ -52,7 +52,6 @@ Note: The features shown in the examples are not finalized and are only for conv
 ![Full page icon](img/longRun-2-3-icon.png)
 
 ![Full page table](img/longRun-2-4-table.png)
-- Table could be separate from component.
 
 ### Modal Examples
 
