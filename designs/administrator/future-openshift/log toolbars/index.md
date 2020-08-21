@@ -23,7 +23,7 @@ Add in toggles for displaying timestamp and wrap lines
 Change the pause and play logstream button to match Patternfly requirements
 Change “[ ] Expand” in top right corner to just a “[ ]” icon
 
-![Toolbar](img/default-state.png)
+![Toolbar](img/Default-State.png)
 
 ![Toolbar](img/Default-State-2.png)
 
