@@ -5,7 +5,7 @@ version: 4.x
 
 # Console Search Feature
 
-Based on a competitive review of GKE, AKS, Digital Ocean Kubernetes, and Octant a search feature is commonly available, and is something that is missing from OpenShift. 
+Based on a competitive review of similar user interfaces for Kubernetes, a search feature is commonly available. This is something that could be added to the OpenShift Web Console.
 
 Default state:
 ![Search](img/search-1.png)
@@ -13,7 +13,7 @@ Default state:
 Ability to search on resource types
 ![Search](img/search-2.png)
 
-Ability to search on specific resources - similar to what GKE and AKS allow
+Ability to search on specific resources 
 ![Search](img/search-3.png)
 
 Directing to the details page of the selected resourcen search result
