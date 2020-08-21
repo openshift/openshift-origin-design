@@ -10,6 +10,8 @@ These conventions are used as toolbar guidelines across the console. They refere
 
 ### Order
 
+This describes the order in which elements should appear in the toolbar. 
+
 1. Bulk selector
 2. Filters
     + Multi select filter(s)
@@ -34,13 +36,13 @@ A divider in the menu between “All X” and all other menu items provides a cl
 
 ### Multi select filters
 
-The default filter title in a multi select filter is a singular noun, next to which appears an “All” badge. There is no “All X” menu item option. Filter chips only open up below when the user selects one or more items. The filter chip group category title should match the filter title. 
+The default filter title in a multi select filter is a singular noun, next to which appears an “All” badge. There is no “All X” menu item option. For this example, this means that the menu would not include an “All resources” menu item as a first filterable option. Filter chips only open up below when the user selects one or more items. The filter chip group category title should match the filter title. 
 
 ![multi select](../images/toolbars-multi-select.png)
 
 ### Name/label filters
 
-The name/label filter should not include a “filter” icon. Both name and label filters open up filter chip groups below when selected. The label search includes a typeahead.
+The name/label filter should not include a “filter” icon. Both name and label filters open up filter chip groups below when selected. The name search is a dynamic filter which updates the filter chip as users type. The label search includes a typeahead, although the current Search page is an exception.
 
 ![name label](../images/toolbars-name-label.png)
 
@@ -60,7 +62,7 @@ Consult the [PatternFly basic filter chip and complex filter chip](https://www.p
 
 ### Capitalization
 
-The toolbar uses sentence case capitalization everywhere. See [Capitalization in OpenShift console](https://docs.google.com/document/d/12FNae0TiJDGpNMX2oATCIrISyT8f3VG5t-bGf-6H85o/edit?usp=sharing) for exceptions and more information. 
+The toolbar uses sentence case capitalization everywhere. See our [Capitalization](http://openshift.github.io/openshift-origin-design/conventions/documentation/capitalization.html) convention for exceptions and more information. 
 
 ### Item count
 
