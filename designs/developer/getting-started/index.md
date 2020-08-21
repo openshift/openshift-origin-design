@@ -19,9 +19,9 @@ Accessible on the Add page
 
 Kebab in the top right corner of the Quick Starts card reveals the option to hide the card from the Add page
 
-<img src="./img/add-page-kebab.png" alt="Add page with kebab" width="990"/>
+![Add page with kebab](img/add-page-kebab.png)
 
 
 Guided Tours and Quick Starts are both accessible through the Help menu 
 
-<img src="./img/help-menu.png" alt="Add page with kebab" width="990"/>
+![Help menu](img/help-menu.png)
