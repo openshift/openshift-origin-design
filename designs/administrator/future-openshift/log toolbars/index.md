@@ -10,7 +10,6 @@ A new log viewer toolbar design using native PatternFly components and appropria
 Support for Wrap lines and Toggle timestamps
 Support for the Download All button that appears in the Pipelines log viewer
 Support for at least 1 `ConsoleExternalLogLink` resource that the user may have added
-Confirm if this is this relevant for the Pods  Logs page, or just for the Pipelines page
 Incorporate a find or search feature 
 Design for the possibility of allowing customers to view more than 1000 lines of data in the future
 
