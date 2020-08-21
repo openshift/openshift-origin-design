@@ -1,6 +1,5 @@
 ---
-parent: Administrator
-version: 4.x
+parent: Concepts
 ---
 
 # Console Search Feature
@@ -25,5 +24,4 @@ Adding in a filter option to remove the categories within the search results, an
 
 In the event the search query returns no results, users needs to be notified and possibly provided information on how to improve their search query
 ![Search](img/search-no results.png)
-
 
