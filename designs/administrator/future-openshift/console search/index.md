@@ -15,7 +15,7 @@ Ability to search on resource types
 Ability to search on specific resources 
 ![Search](img/search-3.png)
 
-Directing to the details page of the selected resourcen search result
+Directing to the details page of the selected resource's search result
 ![Search](img/search-4.png)
 
 Adding in a filter option to remove the categories within the search results, and allow users to narrow the search themselves
@@ -24,4 +24,3 @@ Adding in a filter option to remove the categories within the search results, an
 
 In the event the search query returns no results, users needs to be notified and possibly provided information on how to improve their search query
 ![Search](img/search-no results.png)
-
