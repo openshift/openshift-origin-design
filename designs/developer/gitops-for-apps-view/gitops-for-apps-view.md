@@ -14,14 +14,14 @@ Application Stages provides detailed information of the application in each of t
 
 Hidden view 
 
-<img src="./img/GitOps-show.png" alt="Hidden view" width="990"/>
+![Hidden view](img/GitOps-show.png)
 
 
 Details visible view 
 
-<img src="./img/GitOps-hidden.png" alt="Add page with kebab" width="990"/>
+![Show details view](img/GitOps-hidden.png)
 
 
 Empty State 
 
-<img src="./img/Empty-state.png" alt="Add page with kebab" width="990"/>
+![Empty state](img/Empty-state.png)
