@@ -25,7 +25,7 @@ Change “[ ] Expand” in top right corner to just a “[ ]” icon
 
 ![Toolbar](img/default-state.png)
 
-![Toolbar](img/default-state-2.png)
+![Toolbar](img/Default-State-2.png)
 
 When only one container is associated, the container dropdown will switch to just the container name on the left, and the download split button dropdown will change to a single Download link. If only one external log source is associated, this will show as a single link as well. 
 
