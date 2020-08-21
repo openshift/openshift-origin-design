@@ -14,6 +14,7 @@ parent: Conventions
 + When creating a resource from the summary table view page, the create resource form/yaml is presented in-page
 + If creating a resource from another context, such as the topology view, these forms can be surfaced in a modal
 + Resources should have samples available on creation. When first viewing the form, the sample panel should be closed by default. When first viewing the YAML creation, the sample panel should be open by default.
++ Upon creating a resource, the user should generally be taken into that newly created resource's details. An exception can be if the resource list is not surfaced at a top level and the user should be oriented to its location (Operands do this as their list is in the operator,) so the user is taken to the resource list.
 
 ---
 
@@ -66,7 +67,7 @@ parent: Conventions
 
 ### Creation via YAML only:
 
-*Some resource types can only be created with YAML. The first time viewing the YAML creation, the samples panel should be open by default. After the resource is created, the user is automatically navigated to the created resource.*
+*Some resource types can only be created with YAML. The first time viewing the YAML creation, the samples panel should be open by default.*
 ![import YAML](../images/create-yaml-only1.png)
 ![import YAML](../images/create-yaml-only2.png)
 
@@ -74,7 +75,7 @@ parent: Conventions
 
 ### Creation via form only:
 
-*Some resource types can only be created with a form. After the resource is created, the user is automatically navigated to the created resource.*
+*Some resource types can only be created with a form.*
 ![import YAML](../images/create-form-only1.png)
 ![import YAML](../images/create-form-only2.png)
 ![import YAML](../images/create-form-only3.png)
@@ -83,7 +84,7 @@ parent: Conventions
 
 ### Creation via form with option for YAML:
 
-*Some resource types can be created with a form (as the default) with an option to switch to create with YAML. Once switched to the YAML editor changes from the form editor are lost and it is not possible to switch back to the form view. Ideally this switch is confirmed with the user. After the resource is created, the user is automatically navigated to the created resource.*
+*Some resource types can be created with a form (as the default) with an option to switch to create with YAML. Once switched to the YAML editor changes from the form editor are lost and it is not possible to switch back to the form view. Ideally this switch is confirmed with the user.*
 ![import YAML](../images/create-form-then-yaml1.png)
 ![import YAML](../images/create-form-then-yaml2.png)
 ![import YAML](../images/create-form-then-yaml3.png)
@@ -93,12 +94,11 @@ parent: Conventions
 
 ### Creation via free switching between form & YAML:
 
-*Some resource types can be created with both a form and YAML editor. The user is able to freely switch between the two editors and changes are preserved across them. After the resource is created, the user is automatically navigated to the created resource.*
+*Some resource types can be created with both a form and YAML editor. The user is able to freely switch between the two editors and changes are preserved across them.*
 ![import YAML](../images/create-form-and-yaml1.png)
 ![import YAML](../images/create-form-and-yaml2.png)
 ![import YAML](../images/create-form-and-yaml3.png)
 ![import YAML](../images/create-form-and-yaml4.png)
-![import YAML](../images/create-form-and-yaml5.png)
 
 ---
 
