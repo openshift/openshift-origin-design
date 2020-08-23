@@ -17,6 +17,8 @@ This will cover an update for:
 The dropdown options will be ordered by two sections, promoting the options with an available image above the ones without.
 This dropdown will also have a search field to avoid looking for a specific OS in two different lists.
 
+## "source" dropdown
+
 ![source dropdown](img/Admin-create-4.7-0-2.jpg)
 The "source" field will be renamed to "Boot from".
 It will be indent to the Operating System dropdown.
