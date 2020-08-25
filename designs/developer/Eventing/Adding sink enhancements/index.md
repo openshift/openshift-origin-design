@@ -21,9 +21,6 @@ When the user selects the dropdown, they can see the brokers, channels and Knati
 
 ![ Event source image 3 ](img/2-EventSource-Form-NoKSVCAvail.png)
 
-## Resource dropdown - user has one resource in dropdown
-If the user has one resource in the dropdown then the dropdown should default to that Resource.
-
 ## Select URI
 There will be no in-field validation for 4.6, but we should look to include this in the future. The URI could be a route of channel, broker, or Knative service or any other route (in/off cluster).
 
