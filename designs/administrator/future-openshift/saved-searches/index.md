@@ -22,8 +22,8 @@ The Search page will be updated to allow users to save searches.
 * The **Saved filters** dropdown will update to show the saved filter name since it is the currently applied filter.
 
 ![5](img/saved5.png)
-* Users can click the **Saved filters** dropdown to see all their saved searches.
-* Through the dropdown, users may also choose to edit their saved searches.
+* Users can click the **Saved filters** dropdown to see all their saved filters.
+* Through the dropdown, users may also choose to edit their saved filters.
 
 ![6](img/saved6.png)
 * In the **Edit saved filters** modal, users are able to edit the name of any previously saved filter.
@@ -43,4 +43,4 @@ The Search page will be updated to allow users to save searches.
 * If a user selects a saved filter and then hits **Clear filters**, all the chips are removed and the **Saved filter** dropdown will return to its unselected state.
 
 ## Potential future enhancements
-* In future, we may want to explore allowing users to set one of their saved searches to be the default view on the Search page so it is already selected upon page load.
+* In the future, we may want to explore allowing users to set one of their saved searches to be the default view on the Search page so it is already selected upon page load.
