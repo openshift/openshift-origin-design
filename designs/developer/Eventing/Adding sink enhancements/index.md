@@ -48,14 +48,14 @@ The URI will behave like a node, so if it is selected the side panel will expand
 ## Side panel
 The link of the URI and the event sources that sink to the URI will be listed in the resources tab of the side panel. When the connector is selected, the side panel will have the url of the URI listed under ‘Connections’.
 
-![ uri side panel ](img/uri-sidepanel.jpg)
+![ uri side panel ](img/uri-sidepanel1.jpg)
 
 ## Actions Dropdown
 The only action in the actions dropdown menu would be “Edit URI”. If two events are connected to the same URI, in the edit URI include that editing the URI would affect multiple event sources.
 
-![ uri side panel acrions](img/side-panel-actions.png)
+![ uri side panel acrions](img/uri-sidepanelactions.jpg)
 
 ## In-Context Menu
 If a user right clicks on the URI, the in context menu would appear with “Edit URI”. The same rules apply as listed above for the actions dropdown menu.
 
-![ uri side panel acrions](img/edit-uri.png)
+![ uri side panel acrions](img/uri.png)
