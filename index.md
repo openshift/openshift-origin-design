@@ -43,7 +43,6 @@ Dev perspective, Serverless| [Rachael Petrie](https://github.com/rachael-phillip
 KNI | [Andy Braren](https://github.com/andybraren)
 KNI | [Nir Farkas](https://github.com/nirfarkas)
 Monitoring | [Chris Shinn](https://github.com/cshinn)
-Multi-cluster, KNI | [Liz Blanchard](https://github.com/lizsurette)
 OCM | [Cameron Britt](https://github.com/ncameronbritt)
 OLM & Quay | [Peter Kreuser](https://github.com/itsptk)
 Research | [Carl Pearson](https://github.com/carljpearson)
