@@ -31,7 +31,7 @@ This time, the user selects an OS without an available image/source.
 
 The user will be presented with a warning message notifying that no OS image/source detected.
 The user can either click the "Upload and attach..." action to couple a new OS image to the OS selection, or to provide a source on the field below.
-A “source” field (previously called “source”) will present itself, indent.
+A “source” field (previously called “source”) will present itself, indented.
 
 !["Create VM session will be discarded"](img/Admin-create-4.6-0-3.jpg)
 
