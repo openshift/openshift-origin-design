@@ -21,7 +21,7 @@ This dropdown will also have a search field to avoid looking for a specific OS i
 
 ![source dropdown](img/Admin-create-4.7-0-2.jpg)
 The "source" field will be renamed to "Boot from".
-It will be indent to the Operating System dropdown.
+It will be indented under Operating System dropdown.
 
 ![source dropdown](img/Admin-create-4.7-0-3.jpg)
 The "Boot from" options text will be aligned to the "Boot from".
