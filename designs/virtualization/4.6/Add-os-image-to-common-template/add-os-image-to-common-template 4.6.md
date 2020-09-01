@@ -47,7 +47,7 @@ The user browse to the image local file.
 All other fields are left to default, making the image an available source when selecting "windows 10 from the OS dropdown".
 
 ![New image available](img/Admin-create-4.6-1-1.jpg)
-After the Upload and attachment completed, the source will be available for "windows 10" from now on.
+After the Upload and attach complete, the source will be available for "windows 10".
 
 ![Adding source status](img/Admin-create-4.6-1-2.jpg)
 In case the user has entered the wizard without waiting for the upload and attachment to finish, the "windows 10" option will indicated that a source is currently being added.
