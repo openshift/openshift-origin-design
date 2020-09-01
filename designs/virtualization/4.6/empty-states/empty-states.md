@@ -48,7 +48,7 @@ The goals of this task:
 2. Graphic: We should use an image with context 
 3. Title text: Are we ok with this title?
 4. Body text: Are we ok with this text?
-5. Call to action button: This is not a standard call to action button on PF. Can we use it? On click/tap it opens a dropdown menu with the pertinent options
+5. Call to action button: On click/tap it opens a dropdown menu with the pertinent options
 6. Secondary call to action: (optional) Is there a need for this? Suggestion: We could use this as an opportunity to educate the user. Alternatively, we could use this to present a secondary option when creating virtual machine templates.
 ## Observations
 **Note:** While researching this task, I noticed that we have empty state design conventions both in PatternFly and OpenShift Design. This empty state convention is not being utilized on the console currently. We should implement it as a default for all full screen empty state instances across the console for empty states.
