@@ -1,7 +1,7 @@
 # Virtualization Default Empty States
 Foday Kargbo - UXD
 ## Background
-Virtualization is being introduced to the console. Virtualization will be accessed via the main left navigation panel. Once the user navigates to Virtualization, they will see 2 tabs, one for the Virtual Machines screen, and one for the Virtual Machine Templates screen. The Virtual Machines tab will be selected by default.
+Virtualization is installed via an operator in the console. Once installed,  Virtualization will be accessed via the main left navigation panel. Once the user navigates to Virtualization, they will see 2 tabs, one for the Virtual Machines screen, and one for the Virtual Machine Templates screen. The Virtual Machines tab will be selected by default.
 ## Objectives
 Users who have not created virtual machines or virtual machine templates will not be able to see any data on these screens. 
 TBD: Do we want to create an empty state screen for the virtualization dashboard?
