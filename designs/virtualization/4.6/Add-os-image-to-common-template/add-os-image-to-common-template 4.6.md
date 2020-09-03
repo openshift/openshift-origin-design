@@ -23,8 +23,7 @@ The user enters a VM name and clicks on the operating system dropdown to select 
 
 ![OS dropdown](img/Admin-create-4.6-0-1.jpg)
 
-The OS dropdown would promote OSs backed by images by placing them on top.
-It will also have a search field to fetch all desired results without going through two lists.
+The options with included images will be marked with a "(source available)".
 This time, the user selects an OS without an available image/source.
 
 ![No OS image available warning](img/Admin-create-4.6-0-2.jpg)
