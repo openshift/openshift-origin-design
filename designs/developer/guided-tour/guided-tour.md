@@ -20,7 +20,7 @@ This message welcomes users to the Guided Tour for OpenShift 4.6 and gives them 
 
 The first aspect of OpenShift 4.6 that is featured in the Guided Tour is the Perspective Switcher, which enables users to switch between the Developer and Admin perspectives with ease.
 
-![Perspective-Switcher](img/perspective-switcher.png){:height="50%" width="50%"}
+![Perspective-Switcher](img/perspective-switcher.png)
 
 
 Another aspect of OpenShift featured in the Guided Tour is Monitoring.
