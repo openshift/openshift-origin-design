@@ -24,10 +24,10 @@ The Samples page features code samples that users can choose from to create appl
 
 The Create Sample Application form provides users with details about the sample application they have selected 
 
-<img src="./img/create-sample-app-form.png" alt="Create Sample Application Form" width="990"/>
 ![Create Sample Application Form](img/create-sample-app-form.png)
 
 
 The Sample Application deployment is visible in Topology
 
 ![Topology](img/topology.png)
+
