@@ -3,27 +3,21 @@ parent: Developer
 version: 4.6
 ---
 
-# Add page
+# Quick Starts
 
-Add is a primary navigation item in the OpenShift Developer perspective.
+Quick Starts are a feature in the OpenShift Developer perspective.
 
-![Add primary nav](https://openshift.github.io/openshift-origin-design/designs/developer/add/img/Add-AltA.png)
-
-The Add page enables the user to create an application, component or service. Upon clicking a card, the user is brought to the appropriate flow to add the item to their project.
+The Quick Starts card on the Add page provides easy access to featured Quick Starts. Additionally, the Quick Starts card includes a link to all quick starts.
 
 The basic visuals and behavior of this card view is consistent with that of the developer catalog and operator hub.
 
+![Add page](img/add-page.png)
 
-Accessible through the help menu
+A kebab in the top right corner of the Quick Starts card reveals the option to hide the card from the Add page
 
-<img src="./img/add-page.png" alt="Add page" width="990"/>
-
-
-Kebab in the top right corner of the Quick Starts card reveals the option to hide the card from the Add page
-
-<img src="./img/add-page-kebab.png" alt="Add page with kebab" width="990"/>
+![Add page kabab](img/add-page-kebab.png)
 
 
-Guided Tours and Quick Starts are both accessible through the Help menu 
+Quick Starts is also accessible through the Help menu
 
-<img src="./img/help-menu.png" alt="Add page with kebab" width="990"/>
+![Help menu](img/help-menu.png)
