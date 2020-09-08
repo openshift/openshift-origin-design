@@ -4,6 +4,10 @@ parent: Research
 ---
 # Investigating OpenShift Alerts
 
+*Date: February 2020*
+
+*Internal link: [Slide deck](https://docs.google.com/presentation/d/1VV6DJpq_zCpzP3la6p9nbfxd_sdwssNe1zLkoyqV4dU/edit?usp=sharing)*
+
 *Note: this is an article about a research activity on how users interact with Alertmanager alerts within OpenShift. If you're looking for documentation about Alertmanager alerts, please go to [this link.](https://prometheus.io/docs/alerting/alertmanager/)*
 
 ## Introduction

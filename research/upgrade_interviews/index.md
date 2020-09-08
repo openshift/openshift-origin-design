@@ -6,6 +6,8 @@ parent: Research
 
 *Date: July 2020*
 
+*Internal link: [Slide deck](https://docs.google.com/presentation/d/1yu-tXPxEBL1sB0dmq521jyeSewhiriadV66XHihjM7c/edit?usp=sharing)*
+
 *Note: this is an article about a research activity on how users upgrade OpenShift. If you're looking for documentation about how to upgrade OpenShift, please go to [this link.](https://docs.openshift.com/container-platform/4.4/welcome/index.html)*
 
 ## Background

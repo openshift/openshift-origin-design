@@ -14,10 +14,12 @@ Application Stages provides detailed information of the application in each of t
 
 Hidden view 
 
+
 ![Hidden view](img/GitOps-show.png)
 
 
 Details visible view 
+
 
 ![Show details view](img/GitOps-hidden.png)
 
