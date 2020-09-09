@@ -51,3 +51,11 @@ The goals of this task:
     - New with Wizard
     - New from YAML
 6. Secondary call to action: (optional) Is there a need for this? Suggestion: We could use this as an opportunity to educate the user. This could be a good place for a "Quick Start" button. Alternatively, we can introduce the Quick Start above the tabs. Quick Start placement is a work-in-progress and still needs to be confirmed. Comments?
+
+## Explorations
+Exploring various ways to push Quick Starts in the empty states.
+### Screen 1
+![Virtual machine empty state screen](img/virtual-machines-empty-state-v2.png)
+
+### Screen 2
+![Virtual machine empty state screen 2](img/virtual-machines-empty-state-v3.png)
