@@ -1,9 +1,9 @@
 ---
 parent: Administrator
-version: 4.7
+version: 4.x
 ---
 
-# Operator Installing with Common Long Running Styling
+# Update Operator Installing with Common Long Running Styling
 
 Shortly after the new screen to [Convey an operator is installing](http://openshift.github.io/openshift-origin-design/designs/administrator/olm/convey-installing-operator/) was developed, it was realized that other actions in the console could make use of a similar interaction. This design conveys a more generic version of the operator installing screen, and examples of perhaps how other actions could use a similar interaction and styling.
 
