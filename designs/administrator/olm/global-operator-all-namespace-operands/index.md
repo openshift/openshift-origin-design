@@ -5,7 +5,7 @@ version: 4.7
 
 # Display All Namespace Operands for Global Operators
 
-When viewing the Installed Operators list set to 'All projects' and then selecting an operator that is available in 'All namespaces' (globally installed,) upon clicking the operator to view its details the user is taken into the details of that operator in installed namespace (the project selector will switch to the install namespace.)
+Today in the console, when a user clicks on an operator that manages “All namespaces” (globally installed) from the “All Projects” view of the Installed Operators page, they are taken to a the details page of where that particular operator is installed. The project selector switches from "All projects" to the specific project name where the operator was installed.
 
 This can be disorienting then to look at the lists of custom resource instances and see them all blank or not contain all the instances you may expect, since the lists are showing instances only in the currently selected project (the install namespace) and not across all namespaces the operator is available in.
 
