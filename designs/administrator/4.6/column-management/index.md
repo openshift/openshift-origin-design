@@ -31,7 +31,7 @@ We want the above behavior to be available on the following resource table views
 - Projects
 - Namespaces
 
-## Relevant Resources in 4.7
+## Relevant Resources in future releases
 - Virtual Machines
 - Virtual Machine Templates
 - Persistent Volumes
