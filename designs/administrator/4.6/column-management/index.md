@@ -24,31 +24,39 @@ The user has deselected “Memory”, removing it from the table.
 The user has selected “Node”, adding it to the table.
 ![column-management-namespace-hidden-save](img/column-management-namespace-hidden-save.png)
 
-## Relevant Resources
+## Relevant Resources in 4.6
 We want the above behavior to be available on the following resource table views:
 - Pods
 - Nodes
 - Projects
 - Namespaces
+
+## Relevant Resources in 4.7
 - Virtual Machines
 - Virtual Machine Templates
+- Persistent Volumes
+- Persistent Volume Claims
+- Deployments
+- Deployment Configs
+- Cron Jobs
+- Machines
+- Machine Sets
+- Machine Configs
+- Machine Config Pools
+- Secrets
+- Config Maps
+- Stateful Sets
+- Replica Sets
+- Services
+- Machine Autoscalers
+- Machine Health Checks
+- Installed Operators
 - Pipelines
 - Pipeline Runs
 - Pipeline Resources
 - Helm Releases
 - Helm Releases Resources
 - Helm Releases Revision History
-- Installed Operators
-- Deployments
-- Deployment Configs
-- Stateful Sets
-- Cron Jobs
-- Replica Sets
-- Services
-- Secret
-- Config Maps
-- Persistent Volumes
-- Persistent Volume Claims
 
 ## Future Enhancements
 In the future, we will explore adding column management to other resource pages, such as Custom Resource Definitions and Explore API Resources. We will also explore adding additional features to column management that would allow the user to reorder the columns using a drag and drop behavior.
