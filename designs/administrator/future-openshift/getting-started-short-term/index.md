@@ -5,7 +5,10 @@ version: 4.7
 
 # Getting started short-term enhancements
 
-The short-term enhancement to the getting started experience will add a quick starts card to the Cluster Overview dashboard that lists existing quick starts. This card will be dynamically updated as new quick starts are added. There will be 5 max shown at once and the newest additions will be added to the top of the list. 
+The short-term enhancement to the getting started experience will add a quick starts card to the Cluster Overview dashboard that lists existing quick starts. This card will be dynamically updated as new quick starts are added. There will be 3 max shown at once. The order of the quick starts will be as follows:
+  -  In progress quick starts
+  -  Newest quick starts added to the console
+Completed quick starts will not be shown on the card. If the user has completed all quick starts, the card will automatically be hidden. 
 
 ![quickstart-card](img/quickstart-card.png)
 
