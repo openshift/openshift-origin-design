@@ -1,6 +1,6 @@
 ---
 parent: Administrator
-version: 4.X
+version: 4.x
 ---
 
 # Cluster Setup
