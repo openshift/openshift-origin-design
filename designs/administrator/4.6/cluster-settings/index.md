@@ -3,7 +3,7 @@ parent: Adminstrator
 version: 4.6
 ---
 
-# Cluster Settings 
+# Improving the Update Experience - Enhancements to Cluster Settings
 
 Users complete upgrades in cluster settings. The following design focuses on making improvements to the current upgrade experience in cluster settings by making upgrading as simple and transparent as possible. Specific improvements include adding more information around recommended upgrade paths and notifying users when new versions and channels become available. 
 
