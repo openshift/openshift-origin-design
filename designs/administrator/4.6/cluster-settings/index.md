@@ -1,5 +1,5 @@
 ---
-parent: Adminstrator
+parent: Administrator
 version: 4.6
 ---
 
