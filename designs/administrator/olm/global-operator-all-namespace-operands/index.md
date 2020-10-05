@@ -5,7 +5,7 @@ version: 4.x
 
 # Display All Namespace Operands for Global Operators
 
-Today in the console, when a user clicks on an operator that manages “All namespaces” (globally installed) from the “All Projects” view of the Installed Operators page, they are taken to a the details page of where that particular operator is installed. The project selector switches from "All projects" to the specific project name where the operator was installed.
+Today in the console, when a user clicks on an operator that manages “All namespaces” (globally installed) from the “All Projects” view of the Installed Operators page, they are taken to the details page of where that particular operator is installed. The project selector switches from "All projects" to the specific project name where the operator was installed.
 
 This can be disorienting then to look at the lists of custom resource instances and see them all blank or not contain all the instances you may expect, since the lists are showing instances only in the currently selected project (the install namespace) and not across all namespaces the operator is available in.
 
@@ -24,7 +24,7 @@ In the meantime the console can make the default view for globally installed ope
 - A namespace column is added to the table to identity the operands’ namespace.
 
 ![Global operator operands 2](img/1-3-global-allOffy.png)
-- When the radio is changed to “current namespace only,” only operand instances in the selected namespace in the project selector are shown (in this example there happen to not be any.)
+- When the radio is changed to “current namespace only,” only operand instances in the selected namespace in the project selector are shown (in this example there happens to not be any.)
 - The info inline alert would not appear.
 - The namespace column would not appear in the table.
 
