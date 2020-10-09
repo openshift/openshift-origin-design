@@ -10,16 +10,16 @@ OpenShift console currently has static plugins that allow teams to contribute fe
 Admins installing operators which include dynamic plugins will need to opt-in to having their UIs included in the console UI, which can happen as the operator is being configured for install. Trusted operators could perhaps have this option included by default, whereas other not-explicitly-trusted operators would need to have the user explicitly opt in, as there could be a security risk.
 
 
-Once the operator with dynamic plugin UI is installed, the user can also turn the dynamic plugin UI on and off in the operator details. The operator list view would also convey any operators with not enabled dynamic UIs.
+Once the operator with the dynamic plugin UI is installed, the user can also turn the dynamic plugin UI on or off in the operator details. The operator list view would also convey any operators with disabled dynamic UIs.
 
-## Enabling dynamic plugin UI on operator install
+## Enabling dynamic plugin UI during operator install
 
 ### Trusted operator install
 
 ![Operator trusted install](img/1-1-install-rh.png)
-- A new radio option would appear for operators that include dynamic plugin UIs.
+- A new radio group would appear for operators that include dynamic plugin UIs.
 - Trusted operators would have their dynamic UIs enabled by default.
-- A note on “trusted”: Disconnected environments need all operator sources manually added so they all (even Red Hat & certified operators) may appear as “untrusted.”
+- A note on “trusted”: Disconnected environments need all operator sources manually added so they all (even Red Hat & certified operators) will appear as “untrusted”.
 
 ![Operator install popover](img/1-2-install-rhPop.png)
 - An info popover would further describe implications of enabling an operator’s UI.
