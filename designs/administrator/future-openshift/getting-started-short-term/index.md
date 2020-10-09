@@ -8,7 +8,9 @@ version: 4.7
 The short-term enhancement to the getting started experience will add a quick starts card to the Cluster Overview dashboard that lists existing quick starts. This card will be dynamically updated as new quick starts are added. There will be 3 max shown at once. The order of the quick starts will be as follows:
   -  In progress quick starts
   -  Newest quick starts added to the console
-Completed quick starts will not be shown on the card. If the user has completed all quick starts, the card will automatically be hidden. 
+Completed quick starts will not be shown on the card. If the user has completed all quick starts, the card will automatically be hidden.
+
+![quickstart-logistic-tree](img/quickstart-card-logistic-tree.png)
 
 ![quickstart-card](img/quickstart-card.png)
 
