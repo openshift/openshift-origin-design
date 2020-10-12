@@ -9,6 +9,7 @@ A number of teams are interested in contributing quick starts to the OpenShift c
 
 ## Part I: How do quick starts work?
 A quick start is like a guided tutorial that walks users through a set of tasks to achieve a particular goal. Quick starts in the OpenShift console will live in the Help Menu and are surfaced through a side panel on the right side of the console. The following describes the interactions of a quick start.
+![quick starts gif](../images/quickstarts.gif)
 
 ### Behavior / interaction
 
