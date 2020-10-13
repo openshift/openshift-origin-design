@@ -89,4 +89,13 @@ When writing out UI elements in the quick start instructions, follow these guide
 * **CLI commands:** Monospaced font. “In running text, use a bold monospaced font for a command. If a parameter or option is a variable value, use an italic monospaced font; otherwise, use a bold monospaced font for the parameter and a monospaced font for the option.”
 
 ## (WIP) Part IV: How can I contribute a quick start?
-This section is a work in progress. Keep an eye out for our contribution process!
+This section is a work in progress. Keep an eye out for more detailed contribution processes to come!
+
+### Internal contributions
+* Coming soon!
+
+### External contributions
+* External teams may contribute quick starts to the console through a CR in 4.7 and later versions of OpenShift
+* The teams should contribute their quick start to the relevant quick start GitHub repo
+* The GitHub should have the quick start template and the required tag to get UX feedback
+  * A template is in progress and will be provided for teams to use to create their own content
