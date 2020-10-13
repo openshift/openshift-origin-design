@@ -11,14 +11,17 @@ Bulk actions will be added to a number of list views in the OpenShift console. T
 The bulk selector will be the first component in the toolbar on pages where bulk actions are available.
 ![toolbar](img/toolbar.png)
 
-Users can click the checkbox in the bulk selector to select all items in the list. If all items are selected, the bulk selector checkbox will be filled with a check and the bulk selector will read ‘[#] selected’, informing users that all known items in the list are selected. Clicking the bulk selector checkbox again will deselect all items.
+Users can click the checkbox in the bulk selector to select all items in the list (max 200 items can be selected). If all items are selected, the bulk selector checkbox will be filled with a check and the bulk selector will read ‘200 selected’, informing users that the max number of items in the list are selected. Clicking the bulk selector checkbox again will deselect all items.
 ![bulk-selector-states](img/bulk-selector-states.png)
+
+Users can also choose to select items on the page by choosing that option within the bulk selector menu. The bulk selector checkbox will be filled in with a '-' to indicate that some items are selected, and the bulk selector will display the number of items selected (e.g. '8 selected'). Clicking the bulk selector checkbox will deselect all items.
+![select-page](img/select-page.png)
 
 Users can also choose to select a group of items by clicking the associated checkboxes next to them. The bulk selector checkbox will be filled in with a ‘-‘ to indicate that some items are selected, and the bulk selector will display the number of items selected (e.g. ‘2 selected’). Clicking the bulk selector checkbox will deselect all items.
 ![add-labels](img/add-labels.png)
 
 ## Behavior
-If no items are selected, the bulk actions dropdown will be enabled, shown as a basic dropdown, but the actions within will be disabled. A tooltip will explain to users that they must select resources in order to take actions.
+If no items are selected, the bulk actions dropdown will be shown as a basic dropdown, but the actions within will be disabled. A tooltip per menu item will explain to users that they must select resources in order to take that specific action.
 ![none-checked](img/none-checked.png)
 
 When items are selected, the bulk actions basic dropdown will turn into a primary dropdown, and actions within it will be enabled. 
@@ -32,7 +35,7 @@ Once the user hits that limit, they will not be able to select more items and al
 ![max-number-error](img/max-number-error.png)
 
 ### Permission limits
-Depending on the use case, there may be scenarios where users are limited to a certain set of actions to perform on items. If the user does not have permission to perform a specific action on **any** of the selected items, the action will still be enabled in the dropdown. Once they select the action, the modal will contain a failure alert, explaining that the action cannot be taken.
+Depending on the use case, there may be scenarios where users are limited to a certain set of actions to perform on items. If the user does not have permission to perform a specific action on **any** of the selected items, the action will still be enabled in the dropdown. Once they select the action, the error modal will explain that the action cannot be taken.
 ![no-permissions](img/no-permissions.png)
 
 If the user has permission to perform a specific action on **some** of the selected items, the action will be carried out for all of the items that it can be. A failure alert will be included within the modal to list the items that failed to complete.
@@ -40,10 +43,14 @@ If the user has permission to perform a specific action on **some** of the selec
 
 
 ### Infinite scrolling
-If a list view does not contain pagination and includes infinite scrolling, when the user uses the bulk selector to select all items, only the items within view would be selected. 
+If a list view does not contain pagination and includes infinite scrolling, when the user uses the bulk selector to select all items, the max number of 200 items will be selected. Following interactions would match what is explained in [Item limits](#Item-limits)
 ![infinite-scrolling-all-selected](img/infinite-scrolling-all-selected.png)
 
-Once the user scrolls down to load more items, they would have to use the bulk selector to select none then select all again to select all items that have loaded.
+The user has the option to select the items within the page by selecting the bulk selector dropdown, and choosing that item.
+![infinite-scrolling-select-page](img/infinite-scrolling-select-page.png)
+![infinite-scrolling-select-page-click](img/infinite-scrolling-select-page-click.png)
+
+Once the user scrolls down to load more items, they would have the option to use the bulk selector menu to select page again to select all that have loaded into view.
 ![infinite-scrolling-page-down](img/infinite-scrolling-page-down.png)
 
 ### Filtering
@@ -69,7 +76,7 @@ The `Add Annotations` modal allows the user to add annotations to multiple resou
 
 #### No failures
 
-The `Delete Resources` modal will list out the resources that are being chosen to be deleted and will be checked by default. There will be a bulk selector above the listed items that will showcase the item count and will act the same way that the bulk selector within the toolbar works. The user may change these checkboxes if desired, but this acts as a “second check” for them. The user must select “Delete” in order to begin the deletion process.
+The `Delete Resources` modal will list out the resources that are being chosen to be deleted and will be checked by default. There will be a bulk selector above the listed items that will allow the user to select or deselect any listed resources. This acts as a “second check” for them. The user must select “Delete” in order to begin the deletion process.
 ![delete-resources-modal](img/delete-resources-modal.png)
 
 Once the deletion process begins, the messaging will be replaced with the below modal. The progress bar will track the completion progress. If the user decides to navigate away from the modal, either by selecting “Done”, the close “x” button, or navigating away from the page, the modal will close and they cannot reopen it. 
@@ -85,10 +92,10 @@ Once the user navigates back to the list view, the items will be removed from th
 If there are failures during the deletion process, they will be tracked and listed in the modal, but the action will continue to be carried out. The modal will follow a similar style as that of the [Operator Installing with Common Long Running Styling](/designs/administrator/olm/installing-operator-long-running-component/)
 ![failure-progress](img/failure-progress.png)
 
-Once the deletion has completed for the items that it can be, the final state of the modal will match as shown below.
+Once the deletion has completed for the items that it can be, the final state of the modal will match as shown below. If the user had decided to navigate away from the modal or close it during deletion, the failure modal will still pop up on the screen once deletion is completed.
 ![failure-done](img/failure-done.png)
 
-Once the user navigates back to the list view, the items that were able to be removed will be removed from the list (or in the process of being removed) and no longer selected. The items that failed to be removed will still be selected within the list view.
+If the user navigates back to the list view, the items that were able to be removed will be removed from the list (or in the process of being removed) and no longer selected. The items that failed to be removed will still be selected within the list view.
 
 ## Relevant resources
 We want the above behavior to be available on the following resource list views:
