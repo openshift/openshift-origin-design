@@ -14,7 +14,7 @@ The bulk selector will be the first component in the toolbar on pages where bulk
 Users can click the checkbox in the bulk selector to select all items in the list (a maximum of 200 items can be selected at a time). If all items are selected, the bulk selector checkbox will be filled with a check and the bulk selector will read ‘200 selected’, informing users that the max number of items in the list are selected. Clicking the bulk selector checkbox again will deselect all items.
 ![bulk-selector-states](img/bulk-selector-states.png)
 
-Users can also choose to select items on the page by choosing that option within the bulk selector menu. The bulk selector checkbox will be filled in with a '-' to indicate that some items are selected, and the bulk selector will display the number of items selected (e.g. '8 selected'). Clicking the bulk selector checkbox will deselect all items.
+Users can also choose to select items in view by choosing that option within the bulk selector menu. The bulk selector checkbox will be filled in with a '-' to indicate that some items are selected, and the bulk selector will display the number of items selected (e.g. '8 selected'). Clicking the bulk selector checkbox will deselect all items.
 ![select-page](img/select-page.png)
 
 Users can also choose to select a group of items by clicking the associated checkboxes next to them. The bulk selector checkbox will be filled in with a ‘-‘ to indicate that some items are selected, and the bulk selector will display the number of items selected (e.g. ‘2 selected’). Clicking the bulk selector checkbox will deselect all items.
@@ -46,7 +46,7 @@ If the user has permission to perform a specific action on **some** of the selec
 If a list view does not contain pagination and includes infinite scrolling, when the user uses the bulk selector to select all items, the max number of 200 items will be selected. Following interactions match the explanation above in [Item limits](#Item-limits).
 ![infinite-scrolling-all-selected](img/infinite-scrolling-all-selected.png)
 
-The user has the option to select the items within the page by selecting the bulk selector dropdown, and choosing that item.
+The user has the option to select the items within view by selecting the bulk selector dropdown, and choosing that option.
 ![infinite-scrolling-select-page](img/infinite-scrolling-select-page.png)
 ![infinite-scrolling-select-page-click](img/infinite-scrolling-select-page-click.png)
 
