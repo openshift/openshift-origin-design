@@ -92,7 +92,98 @@ When writing out UI elements in the quick start instructions, follow these guide
 This section is a work in progress. Keep an eye out for more detailed contribution processes to come!
 
 ### Internal contributions
-* Coming soon!
+
+#### Process goals:
+* To provide user-centric, functional quick starts for OpenShift users across a wide range of product areas
+* To create a successful collaboration across teams (UXD, CCS, PM, etc.) for every quick start
+* To define which teams are involved at each step of the quick start effort so that the end result is organized, clean, and in final form for users
+* To respect the bandwidth and input of each team
+
+#### Phase 1: Planning
+1. Determine which product area needs a quick start.
+  * Identify stumbling blocks or complex areas where we can enable user success with as little friction as possible. This information will be gathered from:
+    * UXD user research
+    * Pain points shared from internal feedback sessions (Solution Architects, Technical Marketing, CEE/Customer Support, etc.)
+    * Product Management input
+    * OpenShift or Kubernetes documentation
+    * Features we want to highlight or push more to entice users to try
+    * Areas we want to offer more opinionated views or flows. For example, there are likely cases where there are multiple ways for users to accomplish a task, but we’re recommending a method or suggesting how to get up and running with XYZ.
+  * **Team responsible:** Product Management; UXD Design; possibly UXD Research
+  * **Time frame:** Before epic prioritization
+  * **Definition of done:** Product Management, UXD Design, UXD Research, and any other groups in this step agree on the product area to prioritize for a quick start.
+2. Plan user flows and interaction design.
+  * UXD Designer, UXD Content Strategist, and CCS Content Strategist and/or Writer meet with Product Manager to determine the quick start’s goal and where we need to reduce friction or confusion in completing some tasks.
+  * Collaborate on what the ideal user flow would look like. For example, what are the tasks and the sub tasks that users need to do in order to complete the quick start?
+  * Work with Abi to figure out who we work with in CCS and tag in JIRA story.
+    * Consider prioritization (track in JIRA); use template.
+    * Maybe need a separate process for external teams; have UXD Content & CCS just do a quick run-through.
+  * At this point, the UXD Designer is putting designs into Sketch and Marvel and getting feedback on interactions (not content yet). These will not be hi-fi designs.
+  * **Team responsible:** UXD Design (including Dev Tools UXD); Product Management; UXD Content Strategy; CCS
+  * **Time frame:** Conceptual design story (Sprint 1)
+  * **Definition of done:**
+    * UXD Designer creates interaction designs (not hi-fi) in Sketch and Marvel.
+    * Product Manager reviews the interactions and provides feedback.
+    * Stakeholder review (by Product Management and Dev Lead) is complete and all feedback is applied.
+
+#### Phase 2: First draft
+UXD Designer writes the first draft of the quick start, using the following as references:
+* Interaction design plans (to align with user flow)
+* Technical documentation (to avoid contradiction and duplication of effort)
+* Red Hat brand standards/PatternFly UX writing style guide (to align with brand voice and UX writing best practices)
+* CCS style resources (to align with docs best practices)
+* Quick start writing template (to maintain consistency)
+* **Team responsible:** UXD Design
+* **Time frame:** After conceptual design story (Sprint 2)
+* **Definition of done:**
+  * All steps, descriptions, messaging, and other content is completely written.
+  * Draft is ready for CCS review.
+
+#### Phase 3: CCS review
+CCS Technical Writer conducts a review of the draft.
+
+During this step, have a checkpoint/feedback loop with CCS to give UX feedback on existing documentation. A smaller group can work together and identify what it will take to make existing documentation consumable for quick starts.
+
+* **Team responsible:** CCS Technical Writing; UXD Design
+* **Time frame:** Sprint 2
+* **Definition of done:**
+  * CCS Technical Writer reviewed all content and left edits/comments.
+  * UXD Designer addressed all feedback.
+
+#### Phase 4: UXD Content review
+Abi conducts a content review of the draft.
+
+* **Team responsible:** UXD Content Strategy; UXD Design
+* **Time frame:** Sprint 3
+* **Definition of done:**
+  * Abi reviewed all content and left edits/comments.
+  * UXD Designer addressed all feedback.
+  * Stakeholder review (by Product Management and Dev Lead) is complete and all feedback is applied.
+
+#### Phase 5: Implementation
+UXD Developer implements the quick start design and written content in OpenShift.
+
+* **Team responsible:** UXD Design; UXD Development
+* **Time frame:** Initial Development Sprint (Sprint 4)
+* **Definition of done:**
+  * Implementation addresses the main goals of the design and quick start draft.
+  * PR is reviewed and approved to be merged.
+
+#### Phase 6: QE
+QE does a review. UXD reviews and files bugs as needed.
+
+* **Team responsible:** UXD Design; UXD Development
+* **Time frame:** Before feature freeze
+* **Definition of done:**
+  * High-severity bugs are resolved.
+  * Low-severity bugs are triaged for following release.
+
+#### Post-release: User testing (if prioritized)
+If we have the time and resources for user testing, UXD Research will conduct testing.
+
+#### Ongoing: Maintenance and localization
+Quick starts are localized as part of [UXD's localization efforts for OpenShift](https://docs.google.com/document/d/1LnussSddUj9NVkQ2nQ61w42Hj9wAkzWEn1_qmyUXbo8/edit).
+
+NOTE: There needs to be a flag and QE process to review and sign off on quick starts for each release to make sure they still work.
 
 ### External contributions
 * External teams may contribute quick starts to the console through a CR in 4.7 and later versions of OpenShift
