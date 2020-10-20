@@ -37,3 +37,17 @@ In case the Restore failed the users can either go to the snapshot details page 
 Or click the ‘Try again’ and create a new one and continue the restore procedure.
 
 ![Modal](img/Modal.png)
+
+## Adding a description
+
+We will add the option for the user to add a description to the Snapshot modal  so they will remember what this snapshot contains when they will restore from it
+
+![Create Snapshot Modal](img/snapshot-modal.png)
+
+And also on the details page
+
+![Snapshot Details page](img/Snapshot-details-page.png)
+
+## A Restore action is added to the Actions menu
+
+![Restore from Actions Menu](img/details-page-actions.png)
