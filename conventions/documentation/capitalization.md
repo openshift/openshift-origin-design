@@ -40,7 +40,6 @@ There are a number of proper nouns included in OpenShift’s terminology, includ
 * [OpenShift glossary](https://github.com/openshift/openshift-docs/blob/master/contributing_to_docs/term_glossary.adoc)
 * [API object formatting](https://github.com/openshift/openshift-docs/blob/master/contributing_to_docs/doc_guidelines.adoc#api-object-formatting)
 
-Note that some resources are considered proper nouns and are capitalized, such as `Pod`, while others are not, such as `node`.
 
 ## Examples
 Below are screenshots with the new capitalization rules applied. The areas highlighted in pink are places where a capitalization change was made.
