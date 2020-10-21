@@ -30,7 +30,7 @@ Restore can be done either from the kebab menu or from the secondary button at e
 
 ![Restore failed](img/Failed.png)
 
-In case the Restore failed the users can either go to the snapshot details page (by clicking the snapshot name) to see the inline warning alert and continue the investigation from the link
+In case the Restore failed the users can either go to the snapshot details page (by clicking the snapshot name) to see the inline warning alert and continue the investigation from the link.
 
 ![Details page](img/Details-page.png)
 
@@ -40,7 +40,8 @@ Or click the ‘Try again’ and create a new one and continue the restore proce
 
 ## Adding a description
 
-We will add the option for the user to add a description to the Snapshot modal  so they will remember what this snapshot contains when they will restore from it
+ We will add the option for the user to add a description to the Snapshot modal so they will remember what this snapshot contains when they will restore from it. 
+ The description for the VM Snapshot will be added to the Details Page as well.
 
 ![Create Snapshot Modal](img/snapshot-modal.png)
 
