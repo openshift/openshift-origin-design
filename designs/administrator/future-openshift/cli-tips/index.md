@@ -18,6 +18,10 @@ Users can copy the command to their clickboard using the copy icon or may click 
 
 ![3](img/project.png)
 
+CLI commands can also be accessed from the sidebar when viewing the YAML of a resource.
+
+![4](img/sidebar.png)
+
 ### Resources
 For the MVP version of this feature, CLI commands will be added to a specific subset of resources. They are:
 * Pods
