@@ -10,33 +10,44 @@ A number of teams are interested in contributing quick starts to the OpenShift c
 ## Part I: How do quick starts work?
 A quick start is like a guided tutorial that walks users through a set of tasks to achieve a particular goal. Quick starts in the OpenShift console will live in the Help Menu and are surfaced through a side panel on the right side of the console. The following describes the interactions of a quick start.
 ![quick starts gif](../images/quickstarts.gif)
-
 ### Behavior / interaction
 
 #### Task headers
 Task headers can be clicked to navigate through the quick start. Task headers should represent the status of that task through its color and icon.
 
+![task headers](../images/qs-taskheaders.png)
+
 #### Next and Back buttons
 Each screen (with the exceptions of the first and last screens) should have both **Next** and **Back** buttons.
 
-The Next button will take users to the next state. That is, if a user is on a task’s initial state, clicking Next will reveal the Check your work feature (review state). Clicking Next again will take users to the next task’s initial state. The Back button will always take users back to the previous panel in the review state.
+When the user first clicks the Next button, a Check your work section appears. The user is prompted to check their work before they can proceed to the next task. After the user has checked their work, they can click the Next button to proceed to the next task.
+
+The Back button will always be present and take users back to the review state of the previous task. The only exception is the first task in the quick start. If the user clicks the Back button when they are on the first task, they will be taken back to the quick start introduction.
+
+![buttons](../images/qs-buttons.png)
 
 #### Check your work
-Check your work is intended to help the user validate that they have correctly followed the steps in a task. They typically ask users a question that validates the task completion.
+Check your work is intended to help the user validate that they have correctly followed the steps in a task. They typically ask the user to validate that the task is complete.
 
 If a user clicks **Yes**, the feature will turn green. If a user clicks **No**, the feature will turn red and an error message will be shown.
 
-In future, we want to explore how we can show more specific troubleshooting help if users choose **No**.
+In the future, we want to explore how we can show more specific troubleshooting help if users choose **No**.
 
 Whichever state the Check your work feature is in (neutral – blue, yes – green, or no – red) will be reflected in the task header’s color and icon when users click Next.
 
+![check your work](../images/qs-checkyourwork.png)
+
 #### Final screen buttons
 The last screen should have a primary **Close** button, a secondary **Back** button, and a link to **View all quick starts**. If applicable, also show a link to the next quick start in the “bundle”.
+
+![final screen buttons](../images/qs-finalscreenbuttons.png)
 
 #### Hints (4.7+)
 When the user is in the quick start and the quick start mentions a location in the vertical navigation or masthead, the navigation point will look like a link and the user can click on it to reveal the hint animation. The animation would go through one cycle and then stop. A solid blue rectangle would remain around the navigation point after the animation stops or until the user moves onto the next step in the quick start or quits the quick start.
 
 If the user clicks on a sub navigation point hint in a quick start, the main navigation section should be highlighted.
+
+![hint](../images/qs-hint.png)
 
 ## Part II: What kind of content do I need to contribute a quick start?
 All items are required unless otherwise specified.
@@ -45,7 +56,7 @@ All items are required unless otherwise specified.
 Each quick start will have a tile that users can click to open the quick start.
 ![catalog tile](../images/qs-tile.png)
 1. **Quick start name:** Each quick start should have a straightforward and succinct name.
-2. **Icon / image:** Quick starts should have an icon or other image to surface on the quick starts catalog page. If no icon is provided, a default quick starts icon will be shown for the quick start.
+2. **Icon / image:** Quick starts should have an icon or other image to surface on the quick starts catalog page. If no icon is provided, a default quick starts icon will be used.
 3. **Description:** A one or two sentence description should be available to surface on the quick start tiles that appear on the quick starts catalog page.
 4. **Time estimate:** Quick starts should have a time estimate that will be shown on the quick start tile and in the heading of the side panel. Quick starts should typically be no longer than 20-30 minutes.
 5. **Badges:** Quick start tiles can have a number of badges. Each quick start should have the time estimate in a badge. If a quick start has been started or completed, show the relevant badge: In progress or Completed.
@@ -65,7 +76,7 @@ Each quick start will walk a user through a set number of tasks.
 
 ### Additional components
 The following are additional quick start components.
-1. **Metadata:** Quick starts should have metadata to be used for sorting and filtering. This can include product names, keywords, users, etc.
+1. **Metadata:** Quick starts should have metadata that can be used for sorting and filtering. This can include product names, keywords, users, etc.
 2. **Version, timestamp:** If quick starts are only compatible with certain versions of OpenShift, this should be noted on the quick start tile, in the quick start description, and in the quick start instructions.
 3. **RBAC specs:** Quick starts should be appropriately flagged to determine which perspectives they may be accessible from.
 4. **Next quick start (Optional):** When applicable, upon completion of a quick start, surface a link to the next quick start in the “bundle”.
@@ -86,6 +97,7 @@ When writing out UI elements in the quick start instructions, follow these guide
 * **Buttons, dropdowns, tabs, fields, and other UI controls:** As it’s written in the UI + bolded.
 * **Everything else, including page, window, and panel names:** As it’s written in the UI. If sentence case, use double quotes.
 * **Code or user-entered text:** Monospaced font
+* **Hints:** If a hint to a navigation or masthead element is included, the text should be styled like a link.
 * **CLI commands:** Monospaced font. “In running text, use a bold monospaced font for a command. If a parameter or option is a variable value, use an italic monospaced font; otherwise, use a bold monospaced font for the parameter and a monospaced font for the option.”
 
 ## (WIP) Part IV: How can I contribute a quick start?
