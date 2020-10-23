@@ -120,10 +120,11 @@ This section is a work in progress. Keep an eye out for more detailed contributi
     * OpenShift or Kubernetes documentation
     * Features we want to highlight or push more to entice users to try
     * Areas we want to offer more opinionated views or flows. For example, there are likely cases where there are multiple ways for users to accomplish a task, but we’re recommending a method or suggesting how to get up and running with XYZ.
+  * Note that regardless of where the quick start idea originates, quick starts should always be a part of an epic.
   * **Team responsible:** Product Management; UXD Design; possibly UXD Research
   * **Time frame:** Before epic prioritization
   * **Definition of done:** Product Management, UXD Design, UXD Research, and any other groups in this step agree on the product area to prioritize for a quick start.
-2. Plan user flows and interaction design.
+2. Plan user flows and interaction design. (Optional)
   * UXD Designer, UXD Content Strategist, and CCS Content Strategist and/or Writer meet with Product Manager to determine the quick start’s goal and where we need to reduce friction or confusion in completing some tasks.
   * Collaborate on what the ideal user flow would look like. For example, what are the tasks and the sub tasks that users need to do in order to complete the quick start?
   * Work with Abi to figure out who we work with in CCS and tag in JIRA story.
@@ -174,16 +175,16 @@ Abi conducts a content review of the draft.
 #### Phase 5: Implementation
 UXD Developer implements the quick start design and written content in OpenShift.
 
-* **Team responsible:** UXD Design; UXD Development
+* **Team responsible:** UXD Design; UXD Development; Product Management
 * **Time frame:** Initial Development Sprint (Sprint 4)
 * **Definition of done:**
   * Implementation addresses the main goals of the design and quick start draft.
-  * PR is reviewed and approved to be merged.
+  * PR is reviewed by UX and PM and approved to be merged.
 
 #### Phase 6: QE
 QE does a review. UXD reviews and files bugs as needed.
 
-* **Team responsible:** UXD Design; UXD Development
+* **Team responsible:** QE; UXD Design; UXD Development
 * **Time frame:** Before feature freeze
 * **Definition of done:**
   * High-severity bugs are resolved.
