@@ -1,6 +1,6 @@
 ---
 parent: Virtualization
-version: 4.6
+version: 4.7
 ---
 # Snapshots - updates
 
@@ -40,12 +40,12 @@ Or click the ‘Try again’ and create a new one and continue the restore proce
 
 ## Adding a description
 
- We will add the option for the user to add a description to the Snapshot modal so they will remember what this snapshot contains when they will restore from it. 
+ We will add the option for the user to add a description to the Snapshot modal so they will remember what this snapshot contains when they will restore from it.
  The description for the VM Snapshot will be added to the Details Page as well.
 
 ![Create Snapshot Modal](img/snapshot-modal.png)
 
-And also on the details page
+The details page will also include the status of the snapshot and the last restored time.
 
 ![Snapshot Details page](img/Snapshot-details-page.png)
 
