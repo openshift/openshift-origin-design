@@ -1,6 +1,6 @@
 ---
 parent: Virtualization
-version: 4.6
+version: 4.7
 ---
 # Add V4 and V6 IP Addresses
 
@@ -11,15 +11,17 @@ Currently we would not be able to show both types together though.
 
 ## List view
 
+The column header will change to IP address(es) to match multiple addresses.
+
 ![List view](img/VM-list.png)
 
-In cases a Virtual Machine has more than one IP address, we will show the IP address and the +X more and add a popover that will include all the IP addresses for that VM.
+In cases where a Virtual Machine has more than one IP address, we will show the first IP address and the +X more action and add a popover that will include all the IP addresses for that VM.
 
 ## Popover
 
 ![Popover](img/VM-list-long-IP-list.png)
 
-That will also reflect in the Virtual Macine's details page
+That will also reflect in the Virtual Machine's details page
 
 ![VM Details page](img/VM-details.png)
 
