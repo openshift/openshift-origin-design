@@ -81,24 +81,102 @@ The following are additional quick start components.
 3. **RBAC specs:** Quick starts should be appropriately flagged to determine which perspectives they may be accessible from.
 4. **Next quick start (Optional):** When applicable, upon completion of a quick start, surface a link to the next quick start in the “bundle”.
 
-## (WIP) Part III: How do I write quick start content?
-This section is a work in progress. Keep an eye out for a more detailed style guide!
+## Part III: How do I write quick start content?
+**Follow these existing style resources for quick start content:**
+* For technical content stylistic requirements, refer to the [CCS product documentation guide](https://redhat-documentation.github.io/supplementary-style-guide/).
+* For product naming, refer to the [Red Hat Official Product Naming List](https://docs.google.com/spreadsheets/u/2/d/1DLS_lS3VKidgZIvcLmLp9BoiqptkvqHWfe1D5FD2kfk/pubhtml?gid=1259317633&single=true).
+* For voice and tone requirements, refer to [PatternFly’s brand voice and tone guidelines](https://www.patternfly.org/v4/ux-writing/brand-voice-and-tone).
+    * For other UX content guidance, refer to all areas of [PatternFly’s UX writing style guide](https://www.patternfly.org/v4/ux-writing/about).
+    * For any UX content guidance that’s not covered in PatternFly, refer to [IBM Carbon’s UX content guidelines](https://www.carbondesignsystem.com/guidelines/content/guidance).
 
-### How to write a task
-In order to write a task well, try to answer the following questions first:
-1. What is the goal of the task? Why should the user do this?
-2. What are the required steps to take in order to complete the task?
-3. Are there any optional steps?
-4. Can the user validate they’ve completed the task? How?
+The following guidelines provide some more information specific to quick starts, but be sure to refer to the style resources linked above when writing quick start content.
 
-### Calling out UI elements
-When writing out UI elements in the quick start instructions, follow these guidelines:
+**Main content areas of a quick start:**
+* Card copy
+* Introduction
+* Task steps
+* Modals and in-app messaging
+* Check your work module
+* Completion confirmation
 
-* **Buttons, dropdowns, tabs, fields, and other UI controls:** As it’s written in the UI + bolded.
-* **Everything else, including page, window, and panel names:** As it’s written in the UI. If sentence case, use double quotes.
-* **Code or user-entered text:** Monospaced font
-* **Hints:** If a hint to a navigation or masthead element is included, the text should be styled like a link.
-* **CLI commands:** Monospaced font. “In running text, use a bold monospaced font for a command. If a parameter or option is a variable value, use an italic monospaced font; otherwise, use a bold monospaced font for the parameter and a monospaced font for the option.”
+### Card copy
+You can customize the title and description on a quick start card, but you cannot customize the status.
+* Keep your description to 1 – 2 sentences.
+* Start with a verb and communicate the user's goal. Example: *Create a Serverless application*.
+
+### Introduction
+After clicking a quick start card, a side panel slides in that introduces the quick start and lists the tasks within it.
+* Make your introduction copy clear, concise, informative, and friendly.
+* State the outcome of the quick start—a user should know what they’ll get out of a quick start before diving in.
+* Give action to the user, not the quick start.
+  * DO: *In this quick start, you'll deploy a sample application to OpenShift.*
+  * DON’T: *This Quick Start shows you how to deploy a sample application to OpenShift.*
+* The introduction should be a max of 4 – 5 sentences, depending on how complex the feature is. A long introduction may overwhelm the user.
+* List the quick start tasks after the introduction copy, and start each task with a verb. Don’t specify the number of tasks because the copy would need to be updated every time a task is added/removed.
+  * DO: *Tasks to complete: Create a serverless application; Connect an event source; Force a new revision*
+  * DON’T: *You’ll complete these 5 tasks: Creating a serverless application; Connecting an event source; Forcing a new revision*
+
+### Task steps
+Once the user clicks *Start*, a series of steps appears that they must perform to complete the quick start.
+
+Follow these general guidelines when writing task steps, in addition to the linked style guides at the beginning of this section:
+* Use "Click" for buttons and labels. Use "Select" for checkboxes, radio buttons, and dropdown menus.
+* Use "Click" instead of "Click on"
+  * DO: *Click **OK**.*
+  * DON'T: *Click on the **OK button**.*
+* Tell users how to navigate between admin and dev perspectives. Even if you think a user might already be in the appropriate perspective, give them instructions on how to get there anyways so that they’re definitely where they need to be. Examples:
+  * *Enter the Developer perspective: In the main navigation, click the dropdown menu and select **Developer**.*
+  * *Enter the Admin perspective: In the main navigation, click the dropdown menu and select **Admin**.*
+* Use the "Location, action" structure. Tell a user where to go before telling them what to do.
+  * DO: *In the node.js deployment, hover over the icon.*
+  * DON’T: *Hover over the icon in the node.js deployment.*
+* Keep your product terminology capitalization consistent. Refer to the [CCS product documentation guide](https://redhat-documentation.github.io/supplementary-style-guide/) and [Red Hat’s Corporate Style Guide](https://source.redhat.com/groups/public/word-nerds/red_hat_word_nerds_wiki/corporate_style_guide).
+* If you need to specify a menu type or list as a dropdown, write "dropdown” as one word without a hyphen.
+* Clearly distinguish between a user action and additional information on product functionality.   
+  * User action: *Change the time range of the dashboard by clicking the dropdown menu and selecting **Time range**.*
+  * Additional information: *To look at data in a specific time frame, you can change the time range of the dashboard.*
+* [Avoid directional language](https://www.patternfly.org/v4/ux-writing/writing-for-all-audiences), like *In the top-right corner, click the icon*. Directional language becomes outdated every time UI layouts change. Also, a direction for desktop users may not be accurate for users with a different screen size. Instead, identify something using its name.
+  * DO: *In the navigation menu, click **Settings**.*
+  * DON’T: *In the left-hand menu, click **Settings**.*
+* [Don’t identify items by color alone](https://www.patternfly.org/v4/ux-writing/writing-for-all-audiences), like *Click the gray circle*. Color identifiers  aren’t useful for sight-limited users, especially colorblind users. Instead, identify an item using its name or copy (like button copy).
+  * DO: *The *Success* message indicates a connection.*
+  * DON’T: *The message with a green icon indicates a connection.*
+* Use the second-person point of view (“you”) consistently:
+  * DO: *Set up your environment.*
+  * DON’T: *Let’s set up our environment.*
+* Format UI elements accordingly:
+  * **Copy for buttons, dropdowns, tabs, fields, and other UI controls:** Write the copy as it appears in the UI and bold it.
+  * **All other UI elements—including page, window, and panel names:** Write the copy as it appears in the UI and bold it.
+  * **Code or user-entered text:** Use monospaced font
+  * **Hints:** If a hint to a navigation or masthead element is included, style the text as you would a link.
+  * **CLI commands:** Use monospaced font.
+    * In running text, use a bold monospaced font for a command.
+    * If a parameter or option is a variable value, use an italic monospaced font.
+    * Use a bold monospaced font for the parameter and a monospaced font for the option.
+
+### Modals and in-app messaging
+* For confirmation modals included with the instructions, refer to [PatternFly’s modal guidelines](https://www.patternfly.org/v4/components/modal/design-guidelines#get-required-user-input), specifically the “Validate user decisions” section.
+  * **Headline:** A headline is usually phrased as a question. Include important keywords (like “permanent”) in the headline. Avoid extraneous copy, like *Are you sure?*, which distracts users from the main outcome of the action.
+  * **Body text:** Body text gives information about the action’s consequence.
+  * **Buttons:** Buttons allow a user to answer the headline question. These can simply be “yes” or “no,” but adding some context increases clarity—especially when skimming.
+* For error messages, use [PatternFly’s error messaging guidelines](https://www.patternfly.org/v4/ux-writing/error-messages).
+
+### Check your work module
+Once a user completes a step, a Check your work module appears. This module prompts the user to answer a yes/no question about the step results, which gives them the opportunity to review their work. For this module, you’ll only need to write a single yes/no question.
+
+If the user answers Yes, a check mark will appear.
+
+If the user answers No, an error message appears with a link to relevant documentation, if necessary. The user then has the opportunity to go back and try again.
+
+### Completion confirmation
+After a user completes all the steps in a task, a confirmation message appears. This confirmation automatically includes the status of each step and confirmation copy specific to the quick start outcome.
+* Limit your completion confirmation to 1 – 2 sentences.
+* Use a friendly voice and a tone that conveys excitement.
+  * DO: *Great job! You created a cluster.*
+  * DON’T: *Your cluster was created.*
+
+
+
 
 ## (WIP) Part IV: How can I contribute a quick start?
 This section is a work in progress. Keep an eye out for more detailed contribution processes to come!
