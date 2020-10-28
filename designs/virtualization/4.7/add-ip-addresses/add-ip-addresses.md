@@ -17,6 +17,10 @@ The column header will change to IP address(es) to match multiple addresses.
 
 In cases where a Virtual Machine has more than one IP address, we will show the first IP address and the +X more action and add a popover that will include all the IP addresses for that VM.
 
+## V6 IP addresses are longer
+
+![V6 IP addresses](img/V6-names.png)
+
 ## Popover
 
 ![Popover](img/VM-list-long-IP-list.png)
