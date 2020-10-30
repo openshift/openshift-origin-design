@@ -9,7 +9,7 @@ We know many users leverage the UI to learn more about Kubernetes and understand
 ## Design
 When drilled down into a specific resource from the Explore page, add a tab called **CLI commands**. CLI commands relevant to the current resource will be shown with a name, a short description of the command, and the oc command itself.
 
-Users can copy the command to their clickboard using the copy icon or may click the terminal icon to run the command directly into the console terminal. Users may have to replace parts of the commands to specify resources.
+Users can copy the command to their clipboard using the copy icon or may click the terminal icon to run the command directly into the console terminal. Users may have to replace parts of the commands to specify resources.
 
 ### Examples in context
 ![1](img/node.png)
