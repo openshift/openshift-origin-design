@@ -35,3 +35,8 @@ For the MVP version of this feature, CLI commands will be added to a specific su
 * Storage
 
 To see a full working list of commands, [click here](https://docs.google.com/document/d/18CdJ9DqlU96wdrGpjsi_cuWdEVl8pni7fUVPSwdXNE8/edit#heading=h.xaug5xtl3dna).
+
+### Future considerations
+* We want to consider surfacing this side panel from more than just the YAML tab; perhaps list views or details pages.
+* We also want to expand availability of CLI tips to more resources.
+* We should investigate how to surface Operator based commands.
