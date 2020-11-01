@@ -52,3 +52,7 @@ The details page will also include the status of the snapshot and the last resto
 ## A Restore action is added to the Actions menu
 
 ![Restore from Actions Menu](img/details-page-actions.png)
+
+When a user decides to delete a VM, we'll let them know that all snapshots of this VM will be deleted as well.
+
+![delete-vm-modal](img/delete-vm-modal.png)
