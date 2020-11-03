@@ -168,15 +168,6 @@ If the user answers Yes, a check mark will appear.
 
 If the user answers No, an error message appears with a link to relevant documentation, if necessary. The user then has the opportunity to go back and try again.
 
-### Completion confirmation
-After a user completes all the steps in a task, a confirmation message appears. This confirmation automatically includes the status of each step and confirmation copy specific to the quick start outcome.
-* Limit your completion confirmation to 1 – 2 sentences.
-* Use a friendly voice and a tone that conveys excitement.
-  * DO: *Great job! You created a cluster.*
-  * DON’T: *Your cluster was created.*
-
-
-
 
 ## (WIP) Part IV: How can I contribute a quick start?
 This section is a work in progress. Keep an eye out for more detailed contribution processes to come!
