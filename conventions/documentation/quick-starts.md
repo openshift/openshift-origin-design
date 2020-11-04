@@ -5,83 +5,66 @@ parent: Conventions
 # Quick start guidelines
 
 ## Goal
-A number of teams are interested in contributing quick starts to the OpenShift console. In order to maintain a consistent user experience across all quick starts, we need to create guidelines for teams to follow. This document has four parts: how quick starts work, what you need to contribute a quick start, how to write a quick start, and what the contribution process looks like.
+A number of teams are interested in contributing quick starts to the OpenShift console. If you’re creating quick starts, follow these guidelines to maintain a consistent user experience across all quick starts.
 
-## Part I: How do quick starts work?
-A quick start is like a guided tutorial that walks users through a set of tasks to achieve a particular goal. Quick starts in the OpenShift console will live in the Help Menu and are surfaced through a side panel on the right side of the console. The following describes the interactions of a quick start.
+**Table of contents**
+* [Part I: What is a quick start?](#parti)
+* [Part II: How does a quick start work?](#partii)
+* [Part II: How do I write a quick start?](#partiii)
+* [Part IV: How do I contribute a quick start?](#partiv)
+
+
+## <a name="parti"></a> Part I: What is a quick start?
 ![quick starts gif](../images/quickstarts.gif)
-### Behavior / interaction
+A quick start is a guided tutorial with user tasks. In the OpenShift console, you can access quick starts under the **Help** menu. They’re especially useful for getting up and running with a product.
 
-#### Task headers
-Task headers can be clicked to navigate through the quick start. Task headers should represent the status of that task through its color and icon.
+A quick start primarily consists of tasks and steps. Each task has multiple steps, and each quick start has multiple tasks. Example:
+* Quick start
+  * Task 1
+    * Step 1
+    * Step 2
+    * Step 3
+  * Task 2
+    * Step 1
+    * Step 2
+    * Step 3
+  * Task 3
+    * Step 1
+    * Step 2
+    * Step 3
 
-![task headers](../images/qs-taskheaders.png)
+A quick start also includes these areas:  
+(*For instructions on writing the content in these areas, see [How do I write a quick start?](#partiii)*)
+* **Card**: Catalog title that provides the quick start’s basic information—title, description, time commitment, and completion status
+* **Introduction**: Brief overview of the quick start’s goal and tasks
+* **Task headings**: Hyperlinked titles for each task in the quick start
+* **Check your work module**: Module for a user to confirm they completed a task successfully before advancing to the next task in the quick start
+* **Hints**: Animation to help users identify specific areas of the product
+* **Buttons**
+  * **Next and back buttons**: Buttons for navigating the steps and modules within each task of a quick start
+  * **Final screen buttons**: Buttons for closing the quick start, going back to previous tasks within the quick start, and viewing all quick starts
 
-#### Next and Back buttons
-Each screen (with the exceptions of the first and last screens) should have both **Next** and **Back** buttons.
 
-When the user first clicks the Next button, a Check your work section appears. The user is prompted to check their work before they can proceed to the next task. After the user has checked their work, they can click the Next button to proceed to the next task.
+## <a name="partii"></a> Part II: How does a quick start work?
+This is the typical flow a user follows to complete a quick start:
+1. In the Administrator or Developer perspective, click the **Help** icon and select **Quick starts**.
+<img src=“./img/qs-help-menu.png” alt=“help menu with Quick starts item” width=“788”/>
+2. Click a quick start card.
+<img src=“./img/qs-click-card.png” alt=“Quick starts card example” width=“1302”/>
+3. In the panel that appears, click **Start**.
+<img src=“./img/qs-introduction.png” alt=“Quick starts introduction screen with description, task headings, and Start button” width=“864”/>
+4. Complete the on-screen instructions.
+5. Click **Next**.
+6. In the **Check your work** module that appears, answer the question to confirm if you've successfully completed the task.
+  * If you select **Yes**, click **Next** to continue to the next task.
+  * If you select **No**, repeat the task instructions and check your work again.
+<img src=“./img/qs-check-your-work.png” alt=“check your work module” width=“874”/>
+7. Repeat steps 1-6 above to complete the remaining tasks in the quick start.
+8. After completing the final task, click **Close** to close the quick start.
+<img src=“./img/qs-clast-screen.png” alt=“last screen with completed task headings, Close button, and Back button” width=“878”/>
 
-The Back button will always be present and take users back to the review state of the previous task. The only exception is the first task in the quick start. If the user clicks the Back button when they are on the first task, they will be taken back to the quick start introduction.
 
-![buttons](../images/qs-buttons.png)
-
-#### Check your work
-Check your work is intended to help the user validate that they have correctly followed the steps in a task. They typically ask the user to validate that the task is complete.
-
-If a user clicks **Yes**, the feature will turn green. If a user clicks **No**, the feature will turn red and an error message will be shown.
-
-In the future, we want to explore how we can show more specific troubleshooting help if users choose **No**.
-
-Whichever state the Check your work feature is in (neutral – blue, yes – green, or no – red) will be reflected in the task header’s color and icon when users click Next.
-
-![check your work](../images/qs-checkyourwork.png)
-
-#### Final screen buttons
-The last screen should have a primary **Close** button, a secondary **Back** button, and a link to **View all quick starts**. If applicable, also show a link to the next quick start in the “bundle”.
-
-![final screen buttons](../images/qs-finalscreenbuttons.png)
-
-#### Hints (4.7+)
-When the user is in the quick start and the quick start mentions a location in the vertical navigation or masthead, the navigation point will look like a link and the user can click on it to reveal the hint animation. The animation would go through one cycle and then stop. A solid blue rectangle would remain around the navigation point after the animation stops or until the user moves onto the next step in the quick start or quits the quick start.
-
-If the user clicks on a sub navigation point hint in a quick start, the main navigation section should be highlighted.
-
-![hint](../images/qs-hint.png)
-
-## Part II: What kind of content do I need to contribute a quick start?
-All items are required unless otherwise specified.
-
-### Catalog tile
-Each quick start will have a tile that users can click to open the quick start.
-![catalog tile](../images/qs-tile.png)
-1. **Quick start name:** Each quick start should have a straightforward and succinct name.
-2. **Icon / image:** Quick starts should have an icon or other image to surface on the quick starts catalog page. If no icon is provided, a default quick starts icon will be used.
-3. **Description:** A one or two sentence description should be available to surface on the quick start tiles that appear on the quick starts catalog page.
-4. **Time estimate:** Quick starts should have a time estimate that will be shown on the quick start tile and in the heading of the side panel. Quick starts should typically be no longer than 20-30 minutes.
-5. **Badges:** Quick start tiles can have a number of badges. Each quick start should have the time estimate in a badge. If a quick start has been started or completed, show the relevant badge: In progress or Completed.
-6. **Prerequisites (Optional):** When applicable, detail what prerequisites users / clusters have to meet before completing the quick start. The prerequisites should appear underneath the description.
-
-### Overview / details
-The first screen of any quick start should give an overview of the quick start. The overview can include information about the benefits of completing the quick start (e.g., why you should use Serverless) and / or a summary of the tasks to be completed.
-![details](../images/qs-details.png)
-
-### Task screens
-Each quick start will walk a user through a set number of tasks.
-![task](../images/qs-task.png)
-1. **Numbered tasks:** Each quick start should consist of a set of high-level tasks. These should represent the overarching steps that users will need to complete in order to successfully finish the quick start. It is recommended that each quick start have at least two tasks, but no more than five or six. Next to the task header that is currently open / active, show the task number out of the total number of tasks. Example: 2 of 3.
-2. **Substeps:** Substeps provide the specific, granular details of how users can complete each numbered task. UI elements should be formatted to match the guidelines below.
-3. **Check your work:** After clicking Next on a task screen, users are presented with a Check your work feature. Each task should have a validation question to present for the Check your work feature. Users can choose to skip this step by clicking the Next button again.
-4. **Context (optional):** When needed, tasks and substeps should provide context to the user. Be clear as to why the user is taking the actions, how it helps them, etc. Don’t be afraid to add content that isn’t strictly instructional!
-
-### Additional components
-The following are additional quick start components.
-1. **Metadata:** Quick starts should have metadata that can be used for sorting and filtering. This can include product names, keywords, users, etc.
-2. **Version, timestamp:** If quick starts are only compatible with certain versions of OpenShift, this should be noted on the quick start tile, in the quick start description, and in the quick start instructions.
-3. **RBAC specs:** Quick starts should be appropriately flagged to determine which perspectives they may be accessible from.
-4. **Next quick start (Optional):** When applicable, upon completion of a quick start, surface a link to the next quick start in the “bundle”.
-
-## Part III: How do I write quick start content?
+## <a name="partiii"></a> Part III: How do I write a quick start?
 **Follow these existing style resources for quick start content:**
 * For technical content stylistic requirements, refer to the [CCS product documentation guide](https://redhat-documentation.github.io/supplementary-style-guide/).
 * For product naming, refer to the [Red Hat Official Product Naming List](https://docs.google.com/spreadsheets/u/2/d/1DLS_lS3VKidgZIvcLmLp9BoiqptkvqHWfe1D5FD2kfk/pubhtml?gid=1259317633&single=true).
@@ -169,8 +152,7 @@ If the user answers Yes, a check mark will appear.
 If the user answers No, an error message appears with a link to relevant documentation, if necessary. The user then has the opportunity to go back and try again.
 
 
-## (WIP) Part IV: How can I contribute a quick start?
-This section is a work in progress. Keep an eye out for more detailed contribution processes to come!
+## <a name="partiv"></a> Part IV: How can I contribute a quick start?
 
 ### Internal contributions
 
