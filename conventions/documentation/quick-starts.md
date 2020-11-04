@@ -49,15 +49,15 @@ A quick start also includes these areas:
 This is the typical flow a user follows to complete a quick start:
 1. In the Administrator or Developer perspective, click the **Help** icon and select **Quick starts**.
 
-<img src=“../images/qs-help-menu.png” alt=“help menu with Quick starts item” width=“788”/>
+<img src="../images/qs-help-menu.png" alt="help menu with Quick starts item" width="450"/>
 
 2. Click a quick start card.
 
-<img src=“../images/qs-click-card.png” alt=“Quick starts card example” width=“1302”/>
+<img src="../images/qs-click-card.png" alt="Quick starts card example" width="450"/>
 
 3. In the panel that appears, click **Start**.
 
-<img src=“../images/qs-introduction.png” alt=“Quick starts introduction screen with description, task headings, and Start button” width=“864”/>
+<img src="../images/qs-introduction.png" alt="Quick starts introduction screen with description, task headings, and Start button" width="450"/>
 
 4. Complete the on-screen instructions.
 5. Click **Next**.
@@ -65,12 +65,12 @@ This is the typical flow a user follows to complete a quick start:
   * If you select **Yes**, click **Next** to continue to the next task.
   * If you select **No**, repeat the task instructions and check your work again.
 
-<img src=“../images/qs-check-your-work.png” alt=“check your work module” width=“874”/>
+<img src="../images/qs-check-your-work.png" alt="check your work module" width="450"/>
 
 7. Repeat steps 1-6 above to complete the remaining tasks in the quick start.
 8. After completing the final task, click **Close** to close the quick start.
 
-<img src=“../images/qs-clast-screen.png” alt=“last screen with completed task headings, Close button, and Back button” width=“878”/>
+<img src="../images/qs-last-screen.png" alt="last screen with completed task headings, Close button, and Back button" width="450"/>
 
 
 ## <a name="partiii"></a> Part III: How do I write a quick start?
