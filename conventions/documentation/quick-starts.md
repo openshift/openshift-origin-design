@@ -10,7 +10,7 @@ A number of teams are interested in contributing quick starts to the OpenShift c
 **Table of contents**
 * [Part I: What is a quick start?](#parti)
 * [Part II: How does a quick start work?](#partii)
-* [Part II: How do I write a quick start?](#partiii)
+* [Part III: How do I write a quick start?](#partiii)
 * [Part IV: How do I contribute a quick start?](#partiv)
 
 
@@ -48,20 +48,29 @@ A quick start also includes these areas:
 ## <a name="partii"></a> Part II: How does a quick start work?
 This is the typical flow a user follows to complete a quick start:
 1. In the Administrator or Developer perspective, click the **Help** icon and select **Quick starts**.
-<img src=“./img/qs-help-menu.png” alt=“help menu with Quick starts item” width=“788”/>
+
+<img src=“../images/qs-help-menu.png” alt=“help menu with Quick starts item” width=“788”/>
+
 2. Click a quick start card.
-<img src=“./img/qs-click-card.png” alt=“Quick starts card example” width=“1302”/>
+
+<img src=“../images/qs-click-card.png” alt=“Quick starts card example” width=“1302”/>
+
 3. In the panel that appears, click **Start**.
-<img src=“./img/qs-introduction.png” alt=“Quick starts introduction screen with description, task headings, and Start button” width=“864”/>
+
+<img src=“../images/qs-introduction.png” alt=“Quick starts introduction screen with description, task headings, and Start button” width=“864”/>
+
 4. Complete the on-screen instructions.
 5. Click **Next**.
 6. In the **Check your work** module that appears, answer the question to confirm if you've successfully completed the task.
   * If you select **Yes**, click **Next** to continue to the next task.
   * If you select **No**, repeat the task instructions and check your work again.
-<img src=“./img/qs-check-your-work.png” alt=“check your work module” width=“874”/>
+
+<img src=“../images/qs-check-your-work.png” alt=“check your work module” width=“874”/>
+
 7. Repeat steps 1-6 above to complete the remaining tasks in the quick start.
 8. After completing the final task, click **Close** to close the quick start.
-<img src=“./img/qs-clast-screen.png” alt=“last screen with completed task headings, Close button, and Back button” width=“878”/>
+
+<img src=“../images/qs-clast-screen.png” alt=“last screen with completed task headings, Close button, and Back button” width=“878”/>
 
 
 ## <a name="partiii"></a> Part III: How do I write a quick start?
