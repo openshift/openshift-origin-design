@@ -183,7 +183,7 @@ If the user answers No, an error message appears with a link to relevant documen
   * Note that regardless of where the quick start idea originates, quick starts should always be a part of an epic.
   * **Team responsible:** Product Management; UXD Design; possibly UXD Research
   * **Time frame:** Before epic prioritization
-  * **Definition of done:** Product Management, UXD Design, UXD Research, and any other groups in this step agree on the product area to prioritize for a quick start.
+  * **Definition of done:** Product Management, UXD Design, UXD Research, and any other groups in this step agree on the product area to prioritize for a quick start. Epics are created in the relevant development project.
 2. Plan user flows and interaction design. (Optional)
   * UXD Designer, UXD Content Strategist, and CCS Content Strategist and/or Writer meet with Product Manager to determine the quick start’s goal and where we need to reduce friction or confusion in completing some tasks.
   * Collaborate on what the ideal user flow would look like. For example, what are the tasks and the sub tasks that users need to do in order to complete the quick start?
@@ -199,17 +199,17 @@ If the user answers No, an error message appears with a link to relevant documen
     * Stakeholder review (by Product Management and Dev Lead) is complete and all feedback is applied.
 
 #### Phase 2: First draft
-UXD Designer writes the first draft of the quick start, using the following as references:
+The contributing team writes the first draft of the quick start, using the following as references:
 * Interaction design plans (to align with user flow)
 * Technical documentation (to avoid contradiction and duplication of effort)
 * Red Hat brand standards/PatternFly UX writing style guide (to align with brand voice and UX writing best practices)
 * CCS style resources (to align with docs best practices)
 * Quick start writing template (to maintain consistency)
-* **Team responsible:** UXD Design
+* **Team responsible:** Contributing team; UXD team
 * **Time frame:** After conceptual design story (Sprint 2)
 * **Definition of done:**
   * All steps, descriptions, messaging, and other content is completely written.
-  * Draft is ready for CCS review.
+  * A UXD-reviewed draft is ready for CCS review.
 
 #### Phase 3: CCS review
 CCS Technical Writer conducts a review of the draft.
