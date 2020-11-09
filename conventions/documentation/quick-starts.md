@@ -180,8 +180,7 @@ If the user answers No, an error message appears with a link to relevant documen
     * Features we want to highlight or push more to entice users to try.
     * Areas we want to offer more opinionated views or flows. For example, there are likely cases where there are multiple ways for users to accomplish a task, but we’re recommending a method or suggesting how to get up and running with XYZ.
   * Note that regardless of where the quick start idea originates, quick starts should always be a part of an epic.
-<br/>
-<br/>
+
   * **Team responsible:** Product Management; UXD Design; possibly UXD Research
   * **Time frame:** Before epic prioritization
   * **Definition of done:** Product Management, UXD Design, UXD Research, and any other groups in this step agree on the product area to prioritize for a quick start. Epics are created in the relevant development project.
@@ -192,8 +191,7 @@ If the user answers No, an error message appears with a link to relevant documen
     * Track prioritizations in JIRA.
     * UXD Content and CCS may not have bandwidth to review quick starts for external teams. If a full editorial review isn't possible, they might be able to provide a quick review and high-level feedback, or the external team can do a self-review using the writing guidelines in this doc as a reference.
   * At this point, the UXD Designer is putting designs into Sketch and Marvel and getting feedback on interactions (not content yet). These will not be hi-fi designs.
-<br/>
-<br/>
+
   * **Team responsible:** UXD Design (including Dev Tools UXD); Product Management; UXD Content Strategy; CCS
   * **Time frame:** Conceptual design story (Sprint 1)
   * **Definition of done:**
@@ -208,8 +206,7 @@ The contributing team writes the first draft of the quick start, using the follo
 * Red Hat brand standards/PatternFly UX writing style guide (to align with brand voice and UX writing best practices)
 * CCS style resources (to align with docs best practices)
 * Quick start writing template (to maintain consistency)
-<br/>
-<br/>
+
 * **Team responsible:** Contributing team; UXD team
 * **Time frame:** After conceptual design story (Sprint 2)
 * **Definition of done:**
