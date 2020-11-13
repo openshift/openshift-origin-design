@@ -12,6 +12,12 @@ A number of teams are interested in contributing quick starts to the OpenShift c
 * [Part II: How does a quick start work?](#partii)
 * [Part III: How do I write a quick start?](#partiii)
 * [Part IV: How do I contribute a quick start?](#partiv)
+  * [Phase I: Planning](#phasei)
+  * [Phase II: First draft](#phaseii)
+  * [Phase III: CCS review](#phaseiii)
+  * [Phase IV: UXD content review](#phaseiv)
+  * [Phase V: Implementation](#phasev)
+  * [Phase VI: QE](#phasevi)
 
 
 ## <a name="parti"></a> Part I: What is a quick start?
@@ -170,7 +176,7 @@ If the user answers No, an error message appears with a link to relevant documen
 * To define which teams are involved at each step of the quick start effort so that the end result is organized, clean, and in final form for users
 * To respect the bandwidth and input of each team
 
-#### Phase 1: Planning
+#### <a name="phasei"></a> Phase 1: Planning
 1. Determine which product area needs a quick start.
   * Identify stumbling blocks or complex areas where we can enable user success with as little friction as possible. This information will be gathered from:
     * UXD user research.
@@ -199,7 +205,7 @@ If the user answers No, an error message appears with a link to relevant documen
     * Product Manager reviews the interactions and provides feedback.
     * Stakeholder review (by Product Management and Dev Lead) is complete and all feedback is applied.
 
-#### Phase 2: First draft
+#### <a name="phaseii"></a> Phase 2: First draft
 The contributing team writes the first draft of the quick start, using the following as references:
 * Interaction design plans (to align with user flow)
 * Technical documentation (to avoid contradiction and duplication of effort)
@@ -213,7 +219,7 @@ The contributing team writes the first draft of the quick start, using the follo
   * All steps, descriptions, messaging, and other content is completely written.
   * A draft has been reviewed by a UXD Designer and is ready for CCS review.
 
-#### Phase 3: CCS review
+#### <a name="phaseiii"></a> Phase 3: CCS review
 CCS Technical Writer conducts a review of the draft.
 
 During this step, have a checkpoint/feedback loop with CCS to give UX feedback on existing documentation. A smaller group can work together and identify what it will take to make existing documentation consumable for quick starts.
@@ -224,7 +230,7 @@ During this step, have a checkpoint/feedback loop with CCS to give UX feedback o
   * CCS Technical Writer reviewed all content and left edits/comments.
   * UXD Designer addressed all feedback.
 
-#### Phase 4: UXD Content review
+#### <a name="phaseiv"></a> Phase 4: UXD content review
 Abi conducts a content review of the draft.
 
 * **Team responsible:** UXD Content Strategy; UXD Design
@@ -234,7 +240,7 @@ Abi conducts a content review of the draft.
   * UXD Designer addressed all feedback.
   * Stakeholder review (by Product Management and Dev Lead) is complete and all feedback is applied.
 
-#### Phase 5: Implementation
+#### <a name="phasev"></a> Phase 5: Implementation
 UXD Developer implements the quick start design and written content in OpenShift.
 
 * **Team responsible:** UXD Design; UXD Development; Product Management
@@ -243,7 +249,7 @@ UXD Developer implements the quick start design and written content in OpenShift
   * Implementation addresses the main goals of the design and quick start draft.
   * PR is reviewed by UX and PM and approved to be merged.
 
-#### Phase 6: QE
+#### <a name="phasevi"></a> Phase 6: QE
 QE does a review. UXD reviews and files bugs as needed.
 
 * **Team responsible:** QE; UXD Design; UXD Development
