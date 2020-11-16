@@ -3,7 +3,7 @@ parent: Administrator
 version: 4.7
 ---
 
-# Optional operand delete with operator uninstall
+# Optional operand delete during operator uninstall
 
 Today when uninstalling an operator, any created operands are not removed with the operator. The uninstall dialog message warns the user that they will need to clean these up manually if they want them removed.
 
