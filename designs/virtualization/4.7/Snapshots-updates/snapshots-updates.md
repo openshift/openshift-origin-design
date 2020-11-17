@@ -18,7 +18,7 @@ Restore can be done either from the kebab menu or from the secondary button at e
 
 ![Restoring](img/Restore-from-kebab.png)
 
-### Restoring popover
+## Restoring popover
 
 ![Restore popover](img/Restoring.png)
 
@@ -43,7 +43,26 @@ Or click the ‘Try again’ and create a new one and continue the restore proce
  We will add the option for the user to add a description to the Snapshot modal so they will remember what this snapshot contains when they will restore from it.
  The description for the VM Snapshot will be added to the Details Page as well.
 
-![Create Snapshot Modal](img/snapshot-modal.png)
+## Showing which disks will be included in a snapshot
+
+Snapshots will always include all disks which are snapshot-capable. But, there are 2 main reasons for why a disk will not be part of the snapshot:
+
+1. The disk is not a persistentVolumeClaim or dataVolume type. Unsupported types cannot be snapshotted because the data does not reside on a PVC.
+2. The disk belongs to a storage class which is not configured to enable snapshots.
+
+We will let users know which of the VM's disks are included and which aren’t in the snapshot they are about to take.
+
+![Create Snapshot Modal all disks included](img/snapshot-modal.png)
+
+When only part of the disks are included in the snapshot we'll show the included disks are in a collapse/ expand drawer and the excluded ones in a warning notification.
+We'll add a confirmation check box so users will be aware of the excluded disk(s) and confirm that they still want to continue to take the snapshot.
+We'll allow the users to fix the excluded disks issues by sending them to the edit disk page or to the YAML.
+
+![Create Snapshot Modal collapse](img/Confirmation-1a.png)
+
+![Create Snapshot Modal expand](img/Confirmation-1b.png)
+
+## Details page
 
 The details page will also include the status of the snapshot and the last restored time.
 
@@ -52,6 +71,8 @@ The details page will also include the status of the snapshot and the last resto
 ## A Restore action is added to the Actions menu
 
 ![Restore from Actions Menu](img/details-page-actions.png)
+
+## Alerting before a VM is deleted
 
 When a user decides to delete a VM, we'll let them know that all snapshots of this VM will be deleted as well.
 
