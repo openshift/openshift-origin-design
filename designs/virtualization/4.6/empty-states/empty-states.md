@@ -56,6 +56,6 @@ The goals of this task:
 Exploring various ways to push Quick Starts in the empty states.
 
 ### Screen 1
-![Virtual machine empty state screen 2](img/virtual-machines-empty-state-v5.png)
+![Virtual machine empty state screen 2](img/virtual-machines-empty-state-v6.png)
 
 
