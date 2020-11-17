@@ -54,11 +54,15 @@ We will let users know which of the VM's disks are included and which aren’t i
 
 ![Create Snapshot Modal all disks included](img/snapshot-modal.png)
 
-When only part of the disks are included in the snapshot we'll show the included disks are in a collapse/ expand drawer and the excluded ones in a warning notification.
+When only part of the disks are included in the snapshot we'll show the included disks in a collapse/ expand drawer and the excluded ones in a warning notification.
+Users will be able to click the excluded disk(s) to edit it or contact the cluster admin to fix the issue.
 We'll add a confirmation check box so users will be aware of the excluded disk(s) and confirm that they still want to continue to take the snapshot.
-We'll allow the users to fix the excluded disks issues by sending them to the edit disk page or to the YAML.
+
+### Collapse
 
 ![Create Snapshot Modal collapse](img/Confirmation-1a.png)
+
+### Expand
 
 ![Create Snapshot Modal expand](img/Confirmation-1b.png)
 
