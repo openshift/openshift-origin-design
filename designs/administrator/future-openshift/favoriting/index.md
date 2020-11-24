@@ -8,7 +8,7 @@ version: 4.x
 ## Introduction
 Today, our project selector includes favoriting and setting default projects. PatternFly now has a favoriting component for both select menus and tables that we want to replace OpenShift's favoriting with. In addition, there are often many system projects in the project selector/project list view, which are unnecessary for most users. The following documentation explains how we will combine the effort of hiding system projects and favoriting. The design will be broken down into sections:
 1. [Favoriting and hiding system projects within the project selector](#Favoriting-and-hiding-system-projects-in-the-project-selector)
-2. [Favoriting and hiding system projects within the projects and namepsaces list views](#Favoriting-and-hiding-system-projects-in projects-and namespaces)
+2. [Favoriting and hiding system projects within the projects and namepsaces list views](#Favoriting-and-hiding-system-projects-in-projects-and-namespaces)
 
 ## Favoriting and hiding system projects in the project selector
 The project selector will be replaced by PatternFly select with favorites so that it can make use of the newest PF favoriting functionality. We will remove the ability to default a project. A switch will be added to be able to hide and show system projects. The switch will be off by default, hiding system projects. A selected project will be reflected within the toggle and obtain a gray background within the menu (same as today). Lastly, we will move the Create project action to a footer within the menu so that the action is more obvious.
