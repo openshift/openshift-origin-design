@@ -67,6 +67,7 @@ version: 4.7
 - Categories and subcategories that are empty should be hidden. For example, the event sources mockups at the bottom of this document show what it looks like when there are no categories and/or no filters.
 - When the user has selected a category or subcategory that subcategory should remain when the user drills down into type. If the user navigates away from Event sources and clicks into Helm charts card on the dev console the same category should be applied, unless the category is unavailable, and then no category selection is made.
 - Both the categories and types should have hover states. For example:
+
 ![Helm charts catalog](img/8-hover-state.jpg)
 
 - When the user selects a category or subcategory the categories below the selected category should not disappear (as they do today).
@@ -160,18 +161,18 @@ These screens appear once the user has selected the type. For example, the user 
 
 ![Side panel empty states](img/14-event-source-empty-state.png)
 
-- See Form/YAML story for the user’s 4.7 for next steps
+- See Form/YAML story for the user’s next steps in 4.7
 
 ### Related design stories
 - The user searches for event source and clicks Install.
 
 ![Quick search from topology](img/15-create-event-source.png)
 
-- See Form/YAML story for the user’s 4.7 for next steps
+- See Form/YAML story for the user’s next steps in 4.7
 
 ### Adding event sources from topology - right-click menu
 - User selects event sources
 
 ![Select Event Source](img/16-topology.png)
 
-- See Form/YAML story for the user’s 4.7 for next steps
+- See Form/YAML story for the user’s next steps in 4.7
