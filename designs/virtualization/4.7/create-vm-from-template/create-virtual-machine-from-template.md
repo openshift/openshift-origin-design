@@ -47,22 +47,22 @@ The details on the virtual machine template cards are as follows:
 
 ## The general flow
 ### The Add screen
-![Add screen](img/screen-1-add-resources.png "Add screen")
+![Add screen](img/screen-1-add-resources.png)
 1. **Add screen** - Developer starts their navigation here. If OpenShift Virtualization is installed, the user will see the Virtual Machines card
 
 ### The Virtual Machine screen
-![Add screen](img/screen-2-virtual-machine-templates.png "Add screen")
+![Add screen](img/screen-2-virtual-machine-templates.png)
 2. **Virtual Machines screen** Developer sees virtual machine template cards and Template Providers filter
 
 ### Dev Catalog screen
-![Add screen](img/screen-3-dev-catalog.png "Add screen")
+![Add screen](img/screen-3-dev-catalog.png)
 a. **Dev Catalog screen** alternatively, they could get here by:
 Clicking on the “From Catalog” card
 - Then clicking on the “Virtual Machines” filter option
 - Selects a template to create from *(these are templates that have a source available, either a Red Hat template that ships with a source OR a template that has a source that the admin added)*
 
 ### The details drawer
-![Add screen](img/screen-4-template-details-drawer.png "Add screen")
+![Add screen](img/screen-4-template-details-drawer.png)
 3. **The details drawer** - This drawer opens from the right side with the various template details:
 - Create from template button (CTA)
 - Provider
@@ -77,7 +77,7 @@ Clicking on the “From Catalog” card
 - Namespace
 
 ### Review and create screen
-![Add screen](img/screen-5-review-and-create-virtual-machine.png "Add screen")
+![Add screen](img/screen-5-review-and-create-virtual-machine.png)
 4. **Review and create screen** - the developer lands here after clicking the “Select template button. Here the user will see a short form with 2 pre-filled fields:
 - Input field 1: Virtual Machine name (auto generated name)
 - Input field 2: Flavor (a default size will be pre-filled)
