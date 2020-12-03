@@ -15,7 +15,7 @@ Giving developers the ability to quickly and seamlessly create virtual machines 
 - The ability to create VMs on the developer console
 - A “Virtual Machines” card to the “Add” page
 - Virtual machine template cards in the developer catalog
-- The ability to see a virtual machine template option in the main filter on   the developer catalog page
+- The ability to see a virtual machine template option in the main filter on the developer catalog page
 
 
 
