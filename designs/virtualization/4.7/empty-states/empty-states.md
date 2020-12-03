@@ -19,7 +19,7 @@ The goals of this task:
 3. Title text
 4. Body text
 5. Call to action button
-6. Secondary call to action (optional)
+6. Secondary call to action button to relevant quick starts
 
 ## Discussion
 1. Tabs: Are we ok with the title on this tab? Yes (Resolved)
