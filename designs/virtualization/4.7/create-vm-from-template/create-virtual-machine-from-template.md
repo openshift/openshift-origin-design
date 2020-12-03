@@ -25,9 +25,9 @@ Giving developers the ability to quickly and seamlessly create virtual machines 
 - Templates can not be customized
 - There are 4 types of templates:
 - Red Hat supported
-    - Red Hat provided
-    - User provided
-    - User supported
+- Red Hat provided
+- User provided
+- User supported
 - Template filtering mechanism will be according to template type only 
 - The developer can select Flavor size from the following:
     - Tiny
