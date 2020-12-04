@@ -11,13 +11,13 @@ A number of teams are interested in contributing quick starts to the OpenShift c
 * [Part I: What is a quick start?](#part-i-what-is-a-quick-start)
 * [Part II: How does a quick start work?](#part-ii-how-does-a-quick-start-work)
 * [Part III: How do I write a quick start?](#part-iii-how-do-i-write-a-quick-start)
-* [Part IV: How do I contribute a quick start?](#part-iv-how-can-i-contribute-a-quick-start)
-  * [Phase I: Planning](#-phase-1-planning)
-  * [Phase II: First draft](#phase-2-first-draft)
-  * [Phase III: CCS review](#phase-3-ccs-review)
-  * [Phase IV: UXD content review](#phase-4-uxd-content-review)
-  * [Phase V: Implementation](#phase-5-implementation)
-  * [Phase VI: QE](#phase-6-qe)
+* [Part IV: How do I contribute a quick start?](#part-iv-how-do-i-contribute-a-quick-start)
+  * [Phase 1: Planning](#phase-1-planning)
+  * [Phase 2: First draft](#phase-2-first-draft)
+  * [Phase 3: CCS review](#phase-3-ccs-review)
+  * [Phase 4: UXD content review](#phase-4-uxd-content-review)
+  * [Phase 5: Implementation](#phase-5-implementation)
+  * [Phase 6: QE](#phase-6-qe)
 
 
 ## Part I: What is a quick start?
@@ -166,7 +166,7 @@ If the user answers Yes, a check mark will appear.
 If the user answers No, an error message appears with a link to relevant documentation, if necessary. The user then has the opportunity to go back and try again.
 
 
-## Part IV: How can I contribute a quick start?
+## Part IV: How do I contribute a quick start?
 
 ### Internal contributions
 
