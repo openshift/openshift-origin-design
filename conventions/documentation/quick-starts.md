@@ -192,7 +192,7 @@ Plan user flows and interaction design.
   * Work with Abi to figure out who we work with in CCS and tag in JIRA story.
     * Track prioritizations in JIRA.
     * UXD Content and CCS may not have bandwidth to review quick starts for external teams. If a full editorial review isn't possible, they might be able to provide a quick review and high-level feedback, or the external team can do a self-review using the writing guidelines in this doc as a reference.
-  * At this point, the UXD Designer is putting designs into Sketch and Marvel and getting feedback on interactions (not content yet). These will not be hi-fi designs. (Optional)
+  * (Optional) At this point, the UXD Designer is putting designs into Sketch and Marvel and getting feedback on interactions (not content yet). These will not be hi-fi designs.
 
   * **Team responsible:** UXD Design (including Dev Tools UXD); Product Management; UXD Content Strategy; CCS
   * **Time frame:** Conceptual design story (Sprint 1)
