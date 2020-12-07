@@ -26,6 +26,8 @@ After the user clicks **Create**, the console will do a dry run of resource crea
 
 The **Creating resources** page will show a table with all the resources the user is creating. The table will display the resource name, namespace, and creation status. When the resources are successfully created, they should turn into a blue link that redirects users to the resource's details page.
 
+Resource creation should be nearly instantaneous, so users will likely not get a chance to navigate away in the middle of the creation process. However, if they do, the resource creation should continue in the background.
+
 Because of the dry run, there typically should not be any errors on this page, and the resources should successfully create.
 
 ![4](img/import-successful.png)
