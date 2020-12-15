@@ -1,8 +1,9 @@
 ---
-has_children: true
-nav_order: 2
+parent: Designs
 ---
 
-# Designs
+# Developer
+The Developer Perspective provides developers with the features and workflows they’re most likely to need to be productive.
 
-Select a category to view designs related to that topic.
+
+# Releases
