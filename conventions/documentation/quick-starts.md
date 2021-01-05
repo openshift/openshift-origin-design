@@ -8,19 +8,19 @@ parent: Conventions
 A number of teams are interested in contributing quick starts to the OpenShift console. If you’re creating quick starts, follow these guidelines to maintain a consistent user experience across all quick starts.
 
 **Table of contents**
-* [Part I: What is a quick start?](#parti)
-* [Part II: How does a quick start work?](#partii)
-* [Part III: How do I write a quick start?](#partiii)
-* [Part IV: How do I contribute a quick start?](#partiv)
-  * [Phase I: Planning](#phasei)
-  * [Phase II: First draft](#phaseii)
-  * [Phase III: CCS review](#phaseiii)
-  * [Phase IV: UXD content review](#phaseiv)
-  * [Phase V: Implementation](#phasev)
-  * [Phase VI: QE](#phasevi)
+* [Part I: What is a quick start?](#part-i-what-is-a-quick-start)
+* [Part II: How does a quick start work?](#part-ii-how-does-a-quick-start-work)
+* [Part III: How do I write a quick start?](#part-iii-how-do-i-write-a-quick-start)
+* [Part IV: How do I contribute a quick start?](#part-iv-how-do-i-contribute-a-quick-start)
+  * [Phase 1: Planning](#phase-1-planning)
+  * [Phase 2: First draft](#phase-2-first-draft)
+  * [Phase 3: CCS review](#phase-3-ccs-review)
+  * [Phase 4: UXD content review](#phase-4-uxd-content-review)
+  * [Phase 5: Implementation](#phase-5-implementation)
+  * [Phase 6: QE](#phase-6-qe)
 
 
-## <a name="parti"></a> Part I: What is a quick start?
+## Part I: What is a quick start?
 ![quick starts gif](../images/quickstarts.gif)
 A quick start is a guided tutorial with user tasks. In the OpenShift console, you can access quick starts under the **Help** menu. They’re especially useful for getting up and running with a product.
 
@@ -51,35 +51,35 @@ A quick start also includes these areas:
   * **Final screen buttons**: Buttons for closing the quick start, going back to previous tasks within the quick start, and viewing all quick starts
 
 
-## <a name="partii"></a> Part II: How does a quick start work?
+## Part II: How does a quick start work?
 This is the typical flow a user follows to complete a quick start:
-1. In the Administrator or Developer perspective, click the **Help** icon and select **Quick starts**.
+* In the Administrator or Developer perspective, click the **Help** icon and select **Quick starts**.
 
 <img src="../images/qs-help-menu.png" alt="help menu with Quick starts item" width="450"/>
 
-2. Click a quick start card.
+* Click a quick start card.
 
 <img src="../images/qs-click-card.png" alt="Quick starts card example" width="450"/>
 
-3. In the panel that appears, click **Start**.
+* In the panel that appears, click **Start**.
 
 <img src="../images/qs-introduction.png" alt="Quick starts introduction screen with description, task headings, and Start button" width="450"/>
 
-4. Complete the on-screen instructions.
-5. Click **Next**.
-6. In the **Check your work** module that appears, answer the question to confirm if you've successfully completed the task.
+* Complete the on-screen instructions.
+* Click **Next**.
+* In the **Check your work** module that appears, answer the question to confirm if you've successfully completed the task.
   * If you select **Yes**, click **Next** to continue to the next task.
   * If you select **No**, repeat the task instructions and check your work again.
 
 <img src="../images/qs-check-your-work.png" alt="check your work module" width="450"/>
 
-7. Repeat steps 1-6 above to complete the remaining tasks in the quick start.
-8. After completing the final task, click **Close** to close the quick start.
+* Repeat steps 1-6 above to complete the remaining tasks in the quick start.
+* After completing the final task, click **Close** to close the quick start.
 
 <img src="../images/qs-last-screen.png" alt="last screen with completed task headings, Close button, and Back button" width="450"/>
 
 
-## <a name="partiii"></a> Part III: How do I write a quick start?
+## Part III: How do I write a quick start?
 **Follow these existing style resources for quick start content:**
 * For technical content stylistic requirements, refer to the [CCS product documentation guide](https://redhat-documentation.github.io/supplementary-style-guide/).
 * For product naming, refer to the [Red Hat Official Product Naming List](https://docs.google.com/spreadsheets/u/2/d/1DLS_lS3VKidgZIvcLmLp9BoiqptkvqHWfe1D5FD2kfk/pubhtml?gid=1259317633&single=true).
@@ -151,13 +151,6 @@ Follow these general guidelines when writing task steps, in addition to the link
     * If a parameter or option is a variable value, use an italic monospaced font.
     * Use a bold monospaced font for the parameter and a monospaced font for the option.
 
-### Modals and in-app messaging
-* For confirmation modals included with the instructions, refer to [PatternFly’s modal guidelines](https://www.patternfly.org/v4/components/modal/design-guidelines#get-required-user-input), specifically the “Validate user decisions” section.
-  * **Headline:** A headline is usually phrased as a question. Include important keywords (like “permanent”) in the headline. Avoid extraneous copy, like *Are you sure?*, which distracts users from the main outcome of the action.
-  * **Body text:** Body text gives information about the action’s consequence.
-  * **Buttons:** Buttons allow a user to answer the headline question. These can simply be “yes” or “no,” but adding some context increases clarity—especially when skimming.
-* For error messages, use [PatternFly’s error messaging guidelines](https://www.patternfly.org/v4/ux-writing/error-messages).
-
 ### Check your work module
 Once a user completes a step, a "Check your work" module appears. This module prompts the user to answer a yes/no question about the step results, which gives them the opportunity to review their work. For this module, you’ll only need to write a single yes/no question.
 
@@ -166,7 +159,7 @@ If the user answers Yes, a check mark will appear.
 If the user answers No, an error message appears with a link to relevant documentation, if necessary. The user then has the opportunity to go back and try again.
 
 
-## <a name="partiv"></a> Part IV: How can I contribute a quick start?
+## Part IV: How do I contribute a quick start?
 
 ### Internal contributions
 
@@ -176,8 +169,9 @@ If the user answers No, an error message appears with a link to relevant documen
 * To define which teams are involved at each step of the quick start effort so that the end result is organized, clean, and in final form for users
 * To respect the bandwidth and input of each team
 
-#### <a name="phasei"></a> Phase 1: Planning
-1. Determine which product area needs a quick start.
+#### Phase 1: Planning
+Step 1:
+Determine which product area needs a quick start.
   * Identify stumbling blocks or complex areas where we can enable user success with as little friction as possible. This information will be gathered from:
     * UXD user research.
     * Pain points shared from internal feedback sessions (Solution Architects, Technical Marketing, CEE/Customer Support, etc.).
@@ -190,13 +184,15 @@ If the user answers No, an error message appears with a link to relevant documen
   * **Team responsible:** Product Management; UXD Design; possibly UXD Research
   * **Time frame:** Before epic prioritization
   * **Definition of done:** Product Management, UXD Design, UXD Research, and any other groups in this step agree on the product area to prioritize for a quick start. Epics are created in the relevant development project.
-2. Plan user flows and interaction design. (Optional)
+
+Step 2:
+Plan user flows and interaction design.
   * UXD Designer, UXD Content Strategist, and CCS Content Strategist and/or Writer meet with Product Manager to determine the quick start’s goal and where we need to reduce friction or confusion in completing some tasks.
   * Collaborate on what the ideal user flow would look like. For example, what are the tasks and the sub tasks that users need to do in order to complete the quick start?
   * Work with Abi to figure out who we work with in CCS and tag in JIRA story.
     * Track prioritizations in JIRA.
     * UXD Content and CCS may not have bandwidth to review quick starts for external teams. If a full editorial review isn't possible, they might be able to provide a quick review and high-level feedback, or the external team can do a self-review using the writing guidelines in this doc as a reference.
-  * At this point, the UXD Designer is putting designs into Sketch and Marvel and getting feedback on interactions (not content yet). These will not be hi-fi designs.
+  * (Optional) At this point, the UXD Designer is putting designs into Sketch and Marvel and getting feedback on interactions (not content yet). These will not be hi-fi designs.
 
   * **Team responsible:** UXD Design (including Dev Tools UXD); Product Management; UXD Content Strategy; CCS
   * **Time frame:** Conceptual design story (Sprint 1)
@@ -205,13 +201,13 @@ If the user answers No, an error message appears with a link to relevant documen
     * Product Manager reviews the interactions and provides feedback.
     * Stakeholder review (by Product Management and Dev Lead) is complete and all feedback is applied.
 
-#### <a name="phaseii"></a> Phase 2: First draft
+#### Phase 2: First draft
 The contributing team writes the first draft of the quick start, using the following as references:
 * Interaction design plans (to align with user flow)
 * Technical documentation (to avoid contradiction and duplication of effort)
 * Red Hat brand standards/PatternFly UX writing style guide (to align with brand voice and UX writing best practices)
 * CCS style resources (to align with docs best practices)
-* Quick start writing template (to maintain consistency)
+Quick start [writing guidelines](#part-iii-how-do-i-write-a-quick-start) (to maintain consistency)
 
 * **Team responsible:** Contributing team; UXD team
 * **Time frame:** After conceptual design story (Sprint 2)
@@ -219,7 +215,7 @@ The contributing team writes the first draft of the quick start, using the follo
   * All steps, descriptions, messaging, and other content is completely written.
   * A draft has been reviewed by a UXD Designer and is ready for CCS review.
 
-#### <a name="phaseiii"></a> Phase 3: CCS review
+#### Phase 3: CCS review
 CCS Technical Writer conducts a review of the draft.
 
 During this step, have a checkpoint/feedback loop with CCS to give UX feedback on existing documentation. A smaller group can work together and identify what it will take to make existing documentation consumable for quick starts.
@@ -230,7 +226,7 @@ During this step, have a checkpoint/feedback loop with CCS to give UX feedback o
   * CCS Technical Writer reviewed all content and left edits/comments.
   * UXD Designer addressed all feedback.
 
-#### <a name="phaseiv"></a> Phase 4: UXD content review
+#### Phase 4: UXD content review
 Abi conducts a content review of the draft.
 
 * **Team responsible:** UXD Content Strategy; UXD Design
@@ -240,16 +236,17 @@ Abi conducts a content review of the draft.
   * UXD Designer addressed all feedback.
   * Stakeholder review (by Product Management and Dev Lead) is complete and all feedback is applied.
 
-#### <a name="phasev"></a> Phase 5: Implementation
+#### Phase 5: Implementation
 UXD Developer implements the quick start design and written content in OpenShift.
 
 * **Team responsible:** UXD Design; UXD Development; Product Management
 * **Time frame:** Initial Development Sprint (Sprint 4)
 * **Definition of done:**
   * Implementation addresses the main goals of the design and quick start draft.
+  * #quickstart-ux-content team is tagged on GitHub for final review of content.
   * PR is reviewed by UX and PM and approved to be merged.
 
-#### <a name="phasevi"></a> Phase 6: QE
+#### Phase 6: QE
 QE does a review. UXD reviews and files bugs as needed.
 
 * **Team responsible:** QE; UXD Design; UXD Development
@@ -269,4 +266,4 @@ NOTE: There needs to be a flag and QE process to review and sign off on quick st
 ### External contributions
 * External teams may contribute quick starts to the console through a CR in 4.7 and later versions of OpenShift.
 * The teams should contribute their quick start to the relevant quick start GitHub repo.
-* The GitHub should have the quick start template and the required tag to get UX feedback.
+* The GitHub should have the required tag to get UX feedback.
