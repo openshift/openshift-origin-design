@@ -1,6 +1,6 @@
 ---
 parent: Administrator
-version: 4.7
+version: 4.x
 ---
 
 # Optional operand delete during operator uninstall
