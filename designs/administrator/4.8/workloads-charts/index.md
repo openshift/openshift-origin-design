@@ -49,10 +49,3 @@ The second screenshot includes a legend for each chart to help distinguish betwe
 
 
 
-## Future enhancements
-
-The three column view of these charts makes it difficult to understand the data when you think about the number of pods that could be running and displayed on these charts. Additionally the  Details content area with editable fields is pushed further down the page making the user scroll through a long page.
-
-Other areas of the console such as Pipelines are in a tech preview for a **Dashboard** tab to separate the  metrics from the main Details page. This gives the space the user needs to read  the data more easily.
-
-![Workloads deployment details charts on tab 4.9](img/workloads-charts-tab-4-9.png "Workloads charts with legends for 4.9")
