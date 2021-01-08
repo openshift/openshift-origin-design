@@ -18,10 +18,6 @@ Marvel prototype (4.8 release):
 [https://marvelapp.com/prototype/fg10a04/screen/75532540](https://marvelapp.com/prototype/fg10a04/screen/75532540)
 
 
-Link to Google doc: 
-[https://docs.google.com/document/d/1GdMapBB-WnTwQx3zJTlxU8qfrM24BSqf4j4TBeK68S0/edit?usp=sharing](https://docs.google.com/document/d/1GdMapBB-WnTwQx3zJTlxU8qfrM24BSqf4j4TBeK68S0/edit?usp=sharing)
-
-
 # Background
 
 When moving to OCP 4 metrics charts for Deployments, Deployment Configs, StatefulSets, DaemonSets, ReplicaSets, and ReplicationControllers. These should be the same charts that we show on the Pods page: Memory, CPU, Filesystem, Network In and Out. Currently, in the 4.7 release, this was only completed for the Pods page.
@@ -40,11 +36,11 @@ The first screenshot (below) introduces multi-line charts on a Deployments page.
 ![Workloads deployment details charts ](img/workloads-charts-4-8.png "Workloads charts for 4.8")
 
 
-The second screenshot includes a legend for each chart to help distinguish between datasets. 
+The second screenshot includes a tooltip hover state on a chart to help distinguish between datasets. This tooltip should use a side arrow (carrot) and float beyond the bounding box of the chart in order to uncover the data as much as possible. 
 
 
 
-![Workloads deployment details charts with legends](img/workloads-charts-legend-4-8.png "Workloads charts with legends for 4.8")
+![Workloads deployment details charts with legends](img/workloads-charts-tooltip-4-8.png "Workloads charts with legends for 4.8")
 
 
 
