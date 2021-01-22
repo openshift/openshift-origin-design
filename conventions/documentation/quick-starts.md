@@ -7,159 +7,38 @@ parent: Conventions
 ## Goal
 A number of teams are interested in contributing quick starts to the OpenShift console. If you’re creating quick starts, follow these guidelines to maintain a consistent user experience across all quick starts.
 
-**Table of contents**
-* [Part I: What is a quick start?](#part-i-what-is-a-quick-start)
-* [Part II: How does a quick start work?](#part-ii-how-does-a-quick-start-work)
-* [Part III: How do I write a quick start?](#part-iii-how-do-i-write-a-quick-start)
-* [Part IV: How do I contribute a quick start?](#part-iv-how-do-i-contribute-a-quick-start)
+## What is a quick start?
+![quick starts gif](../images/quickstarts.gif)
+A quick start is a guided tutorial with user tasks. In the OpenShift console, you can access quick starts under the **Help** menu. They’re especially useful for getting up and running with a product.
+
+### Designs
+See the links below to view the latest quick start designs. New designs will be posted here each release.
+
+**Quick starts in 4.6**
+* [Admin side](http://openshift.github.io/openshift-origin-design/designs/administrator/4.6/quick-starts/)
+* [Dev side](http://openshift.github.io/openshift-origin-design/designs/developer/4.6/quick-starts/)
+
+**Quick starts in 4.7**
+* [Navigation hints](http://openshift.github.io/openshift-origin-design/designs/developer/4.7/quick-starts-navigation-hints/)
+* [Catalog page](http://openshift.github.io/openshift-origin-design/designs/developer/4.7/quick-starts-catalog/)
+
+## How does a quick start work?
+See [documentation]().
+
+## How do I write a quick start?
+See [documentation]().
+
+## How do I contribute a quick start?
+
+This section goes over the following:
+* [Internal contributions](#internal-contributions)
   * [Phase 1: Planning](#phase-1-planning)
   * [Phase 2: First draft](#phase-2-first-draft)
   * [Phase 3: CCS review](#phase-3-ccs-review)
   * [Phase 4: UXD content review](#phase-4-uxd-content-review)
   * [Phase 5: Implementation](#phase-5-implementation)
   * [Phase 6: QE](#phase-6-qe)
-
-
-## Part I: What is a quick start?
-![quick starts gif](../images/quickstarts.gif)
-A quick start is a guided tutorial with user tasks. In the OpenShift console, you can access quick starts under the **Help** menu. They’re especially useful for getting up and running with a product.
-
-A quick start primarily consists of tasks and steps. Each task has multiple steps, and each quick start has multiple tasks. Example:
-* Quick start
-  * Task 1
-    * Step 1
-    * Step 2
-    * Step 3
-  * Task 2
-    * Step 1
-    * Step 2
-    * Step 3
-  * Task 3
-    * Step 1
-    * Step 2
-    * Step 3
-
-A quick start also includes these areas:  
-(*For instructions on writing the content in these areas, see [How do I write a quick start?](#partiii)*)
-* **Card**: Catalog tile that provides the quick start’s basic information—title, description, time commitment, and completion status
-* **Introduction**: Brief overview of the quick start’s goal and tasks
-* **Task headings**: Hyperlinked titles for each task in the quick start
-* **Check your work module**: Module for a user to confirm they completed a task successfully before advancing to the next task in the quick start
-* **Hints**: Animation to help users identify specific areas of the product
-* **Buttons**
-  * **Next and back buttons**: Buttons for navigating the steps and modules within each task of a quick start
-  * **Final screen buttons**: Buttons for closing the quick start, going back to previous tasks within the quick start, and viewing all quick starts
-
-
-## Part II: How does a quick start work?
-This is the typical flow a user follows to complete a quick start:
-* In the Administrator or Developer perspective, click the **Help** icon and select **Quick starts**.
-
-<img src="../images/qs-help-menu.png" alt="help menu with Quick starts item" width="450"/>
-
-* Click a quick start card.
-
-<img src="../images/qs-click-card.png" alt="Quick starts card example" width="450"/>
-
-* In the panel that appears, click **Start**.
-
-<img src="../images/qs-introduction.png" alt="Quick starts introduction screen with description, task headings, and Start button" width="450"/>
-
-* Complete the on-screen instructions.
-* Click **Next**.
-* In the **Check your work** module that appears, answer the question to confirm if you've successfully completed the task.
-  * If you select **Yes**, click **Next** to continue to the next task.
-  * If you select **No**, repeat the task instructions and check your work again.
-
-<img src="../images/qs-check-your-work.png" alt="check your work module" width="450"/>
-
-* Repeat steps 1-6 above to complete the remaining tasks in the quick start.
-* After completing the final task, click **Close** to close the quick start.
-
-<img src="../images/qs-last-screen.png" alt="last screen with completed task headings, Close button, and Back button" width="450"/>
-
-
-## Part III: How do I write a quick start?
-**Follow these existing style resources for quick start content:**
-* For technical content stylistic requirements, refer to the [CCS product documentation guide](https://redhat-documentation.github.io/supplementary-style-guide/).
-* For product naming, refer to the [Red Hat Official Product Naming List](https://docs.google.com/spreadsheets/u/2/d/1DLS_lS3VKidgZIvcLmLp9BoiqptkvqHWfe1D5FD2kfk/pubhtml?gid=1259317633&single=true).
-* For voice and tone requirements, refer to [PatternFly’s brand voice and tone guidelines](https://www.patternfly.org/v4/ux-writing/brand-voice-and-tone).
-    * For other UX content guidance, refer to all areas of [PatternFly’s UX writing style guide](https://www.patternfly.org/v4/ux-writing/about).
-    * For any UX content guidance that’s not covered in PatternFly, refer to [IBM Carbon’s UX content guidelines](https://www.carbondesignsystem.com/guidelines/content/guidance).
-
-The following guidelines provide some more information specific to quick starts, but be sure to refer to the style resources linked above when writing quick start content.
-
-**Main content areas of a quick start:**
-* Card copy
-* Introduction
-* Task steps
-* Modals and in-app messaging
-* Check your work module
-
-### Card copy
-You can customize the title and description on a quick start card, but you cannot customize the status.
-* Keep your description to 1 – 2 sentences.
-* Start with a verb and communicate the user's goal. Example: *Create a Serverless application*.
-
-### Introduction
-After clicking a quick start card, a side panel slides in that introduces the quick start and lists the tasks within it.
-* Make your introduction copy clear, concise, informative, and friendly.
-* State the outcome of the quick start—a user should know what they’ll get out of a quick start before diving in.
-* Give action to the user, not the quick start.
-  * DO: *In this quick start, you'll deploy a sample application to OpenShift.*
-  * DON’T: *This Quick Start shows you how to deploy a sample application to OpenShift.*
-* The introduction should be a max of 4 – 5 sentences, depending on how complex the feature is. A long introduction may overwhelm the user.
-* List the quick start tasks after the introduction copy, and start each task with a verb. Don’t specify the number of tasks because the copy would need to be updated every time a task is added/removed.
-  * DO: *Tasks to complete: Create a serverless application; Connect an event source; Force a new revision*
-  * DON’T: *You’ll complete these 3 tasks: Creating a serverless application; Connecting an event source; Forcing a new revision*
-
-### Task steps
-Once the user clicks *Start*, a series of steps appears that they must perform to complete the quick start.
-
-Follow these general guidelines when writing task steps, in addition to the linked style guides at the beginning of this section:
-* Use "Click" for buttons and labels. Use "Select" for checkboxes, radio buttons, and dropdown menus.
-* Use "Click" instead of "Click on"
-  * DO: *Click **OK**.*
-  * DON'T: *Click on the **OK button**.*
-* Tell users how to navigate between admin and dev perspectives. Even if you think a user might already be in the appropriate perspective, give them instructions on how to get there anyways so that they’re definitely where they need to be. Examples:
-  * *Enter the Developer perspective: In the main navigation, click the dropdown menu and select **Developer**.*
-  * *Enter the Admin perspective: In the main navigation, click the dropdown menu and select **Admin**.*
-* Use the "Location, action" structure. Tell a user where to go before telling them what to do.
-  * DO: *In the node.js deployment, hover over the icon.*
-  * DON’T: *Hover over the icon in the node.js deployment.*
-* Keep your product terminology capitalization consistent. Refer to the [CCS product documentation guide](https://redhat-documentation.github.io/supplementary-style-guide/) and [Red Hat’s Corporate Style Guide](https://source.redhat.com/groups/public/word-nerds/red_hat_word_nerds_wiki/corporate_style_guide).
-* If you need to specify a menu type or list as a dropdown, write "dropdown” as one word without a hyphen.
-* Clearly distinguish between a user action and additional information on product functionality.   
-  * User action: *Change the time range of the dashboard by clicking the dropdown menu and selecting **Time range**.*
-  * Additional information: *To look at data in a specific time frame, you can change the time range of the dashboard.*
-* [Avoid directional language](https://www.patternfly.org/v4/ux-writing/writing-for-all-audiences), like *In the top-right corner, click the icon*. Directional language becomes outdated every time UI layouts change. Also, a direction for desktop users may not be accurate for users with a different screen size. Instead, identify something using its name.
-  * DO: *In the navigation menu, click **Settings**.*
-  * DON’T: *In the left-hand menu, click **Settings**.*
-* [Don’t identify items by color alone](https://www.patternfly.org/v4/ux-writing/writing-for-all-audiences), like *Click the gray circle*. Color identifiers  aren’t useful for sight-limited users, especially colorblind users. Instead, identify an item using its name or copy (like button copy).
-  * DO: *The *success* message indicates a connection.*
-  * DON’T: *The message with a green icon indicates a connection.*
-* Use the second-person point of view (“you”) consistently:
-  * DO: *Set up your environment.*
-  * DON’T: *Let’s set up our environment.*
-* Format UI elements accordingly:
-  * **Copy for buttons, dropdowns, tabs, fields, and other UI controls:** Write the copy as it appears in the UI and bold it.
-  * **All other UI elements—including page, window, and panel names:** Write the copy as it appears in the UI and bold it.
-  * **Code or user-entered text:** Use monospaced font.
-  * **Hints:** If a hint to a navigation or masthead element is included, style the text as you would a link.
-  * **CLI commands:** Use monospaced font.
-    * In running text, use a bold monospaced font for a command.
-    * If a parameter or option is a variable value, use an italic monospaced font.
-    * Use a bold monospaced font for the parameter and a monospaced font for the option.
-
-### Check your work module
-Once a user completes a step, a "Check your work" module appears. This module prompts the user to answer a yes/no question about the step results, which gives them the opportunity to review their work. For this module, you’ll only need to write a single yes/no question.
-
-If the user answers Yes, a check mark will appear.
-
-If the user answers No, an error message appears with a link to relevant documentation, if necessary. The user then has the opportunity to go back and try again.
-
-
-## Part IV: How do I contribute a quick start?
+* [External contributions](#external-contributions)
 
 ### Internal contributions
 
