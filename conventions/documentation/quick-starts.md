@@ -23,10 +23,10 @@ See the links below to view the latest quick start designs. New designs will be 
 * [Catalog page](http://openshift.github.io/openshift-origin-design/designs/developer/4.7/quick-starts-catalog/)
 
 ## How does a quick start work?
-See [documentation]().
+See [documentation](https://docs.openshift.com/container-platform/4.7/web_console/creating-quick-start-tutorials.html).
 
 ## How do I write a quick start?
-See [documentation]().
+See [documentation](https://docs.openshift.com/container-platform/4.7/web_console/creating-quick-start-tutorials.html).
 
 ## How do I contribute a quick start?
 
@@ -114,6 +114,7 @@ Abi conducts a content review of the draft.
   * Abi reviewed all content and left edits/comments.
   * UXD Designer addressed all feedback.
   * Stakeholder review (by Product Management and Dev Lead) is complete and all feedback is applied.
+  * The quick start was tested in a live console using ConsoleQuickStart CRD.
 
 #### Phase 5: Implementation
 UXD Developer implements the quick start design and written content in OpenShift.
