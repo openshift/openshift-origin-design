@@ -97,6 +97,17 @@ Once the deletion has completed for the items that it can be, the final state of
 
 If the user navigates back to the list view, the items that were able to be removed will be removed from the list (or in the process of being removed) and no longer selected. The items that failed to be removed will still be selected within the list view.
 
+## Future design considerations
+As of today, the Admin perspective does not use toast notifications. Ideally, we would like to use toast notifications to update the user on successes and failures related to bulk actions. That way, they can continue navigating and still be updated on their actions.
+![success-toast](img/success-toast.png)
+
+An issue has been raised in PatternFly to enhance toast alerts to be able to include supportive descriptive text. This is something we could use to list specific resource failures and successes.
+![failure-and-success-toasts](img/failure-and-success-toasts.png)
+
+The addition of a "toast modal" component in PatternFly is also in consideration. This would be a small modal that floats on top of the page, that can be collapsed or hidden from view, that captures in progress actions.
+![toast-modal](img/toast-modal.png)
+![toast-modal-collapsed](img/toast-modal-collapsed.png)
+
 ## Relevant resources
 We want the above behavior to be available on the following resource list views:
 - Workloads
