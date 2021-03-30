@@ -8,7 +8,7 @@ This convention covers capitalization guidelines for the OpenShift console.
 
 ## Types of capitalization
 
-The following guidelines will document when to use **sentence case** and when to use **title case** in the OpenShift console UI. To read more about the difference between them, refer to the [PatternFly capitalization documentation](https://www.patternfly.org/v4/design-guidelines/content/capitalization).
+The following guidelines will document when to use **sentence case** and when to use **title case** in the OpenShift console UI. To read more about the difference between them, refer to the [PatternFly capitalization documentation](https://www.patternfly.org/v4/ux-writing/capitalization).
 
 ## Guidelines
 
