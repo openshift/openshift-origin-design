@@ -5,7 +5,7 @@ version: 4.8
 
 # Code snippets in Quick Starts
 
-## Overview 
+## Overview
 
 ![Inline code snippet in Quick Starts](img/1-inline-code-snippet.png)
 
