@@ -5,7 +5,7 @@ version: 4.8
 
 # Quick Starts from the Quick Add menu
 
-## General search
+## General search 
 
 ![Quick Starts from the quick add menu](img/1-quickstarts-quick-add-menu.png)
 
