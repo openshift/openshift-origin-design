@@ -5,7 +5,7 @@ version: 4.7
 
 # Adding language preferences to the OpenShift Console
 
-In OpenShift 4.7, we introduced support for two new languages - Simplified Chinese and Japanese - with more to come in the future. As a part of this effort, we added the ability to configure and manage language preferences in the console.
+In OpenShift 4.7, we introduced support for three new languages - Simplified Chinese, Japanese and Korean - with more to come in the future. As a part of this effort, we added the ability to configure and manage language preferences in the console.
 
 ## Where to access the new language settings 
 
