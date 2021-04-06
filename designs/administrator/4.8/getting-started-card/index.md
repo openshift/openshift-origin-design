@@ -37,12 +37,12 @@ There should be no more than two items per category, in an attempt to not comple
 A kebab in the top right corner of the card will allow the user to hide the card.
 
 ![add-page-dismiss](img/add-page-dismiss.png)
-![cluster-overview-dismissible](img/cluster-overview-dismissible.png)
+![cluster-overview-hidden](img/cluster-overview-hidden.png)
 
 Once the card is hidden, a label will appear in the page header, allowing the user to bring it back. This label acts more as a "hint" and is dismissible itself, in case the user has zero interest in seeing anything getting started related.
 
 ![add-page-label](img/add-page-label.png)
-![cluster-overview-hidden](img/cluster-overview-hidden.png)
+![cluster-overview-dismissible](img/cluster-overview-dismissible.png)
 
 Selecting the label will bring the card back onto the dashboard.
 
