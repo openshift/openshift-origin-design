@@ -7,9 +7,7 @@ version: 4.8
 
 ## Overview
 
-In 4.8, the ability to upload a JAR file to create a Spring Boot application was added to the Developer Console. There are couple different ways a user can upload a JAR file to OpenShift. They can drag and drop their JAR file directly onto the Topology, go to the +Add page to select the 'Upload JAR file' option, or right click in the Topology to access the Add to Project menu and select "Upload JAR file".
-
-The user can also go back and make edits to their application by re-uploading or updating the attached JAR file.   
+In 4.8, the ability to upload a JAR file to create a Spring Boot application was added to the Developer Console. There are couple different ways a user can upload a JAR file. They can drag and drop their JAR file directly onto the Topology, go to the +Add page to select the 'Upload JAR file' option, or right click in the Topology to access the Add to Project menu and select "Upload JAR file".  
 
 ## Entry points
 
@@ -50,10 +48,19 @@ After the user clicks the 'Create' button, the JAR file begins to upload and the
 
 ## Edit form
 
-![Edit application with a JAR file](img/8-populated-upload-form.png)
+![Edit application with a JAR file](img/8-edit-jar-file-app.png)
 
 If a user wants to make edits to the JAR file they uploaded to a deployment, the user can select ‘Edit my-app’ from the Actions dropdown.
 
 ![Edit form](img/9-edit-form.png)
 
 The upload a JAR file form appears and the user can make edits to the fields that are available. The user can re-upload their original JAR file, upload an updated JAR file with the original file name, or upload a new JAR file.
+
+![Re-upload JAR file](img/10-reupload-JAR-file.png)
+If the user wants to make edits to the existing .Jar file, they would need to edit it locally and then re-upload it to the form. The user can re-upload the JAR file by either dragging and dropping it or browsing and selecting the JAR file from their desktop.
+
+![Save edits](img/11-save-edits.png)
+The user clicks the ‘Save’ button to save their edits.
+
+![Re-upload in progress toast](img/7-populated-upload-form.png)
+Each time the user makes an edit to their JAR file, the JAR file must be uploaded again. This will cause the in progress toast notification to appear again.
