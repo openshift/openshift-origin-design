@@ -28,9 +28,22 @@ A popover next to the card title will explain more about what "Getting Started" 
 
 ![card-interactions](img/card-interactions.png)
 
-### Content guidance
+When certain columns have been completed, the column should disappear and the remaining content will fill the card. This rule should be applied to the following:
 
-There should be no more than two items per category, in an attempt to not completely overwhelm the user. Each item is (and should be) actionable, no matter the users' permissions. The link text at the bottom should be sending the user to a more general space for that category. For example, "Build with guided documentation" lists out quick starts. We added a "View all quick starts" link at the bottom to send the user to our quick start catalog page so that they can see all that exist.
+- Build with guided documentation (if the user completed ALL available quick starts, this column should disappear)
+![admin-dev-completed](img/admin-dev-completed.png)
+
+- Set up your cluster (once identity providers have been added and alert receivers have been configured, this column should disappear)
+![admin-completed](img/admin-completed.png)
+
+### Content guidance
+This card can be used as a getting startted template for landing pages for dynamic plugins. Here are some guidelines to consider:
+
+- There should be no more than two items per category, in an attempt to not completely overwhelm the user.
+- Each item is (and should be) actionable, no matter the users' permissions.
+- The link text at the bottom should be sending the user to a more general space for that category. For example, "Build with guided documentation" lists out quick starts. We added a "View all quick starts" link at the bottom to send the user to our quick start catalog page so that they can see all that exist.
+- There should be a limit of 4 columns in total on the card
+- If it is possible, validation should be included per column. For example, if a user were to complete the items shown in one column, that would disappear. Then the remaining columns would move to fill the card.
 
 ### Hiding and adding the card
 
@@ -58,10 +71,20 @@ PatternFly has a card demo with this type of layout used within a horizontal car
 ![add-page-tablet](img/add-page-tablet.png)
 ![add-page-mobile](img/add-page-mobile.png)
 
-## Future design considerations
+## Future design iterations and considerations
 
-When iterating on this design for future releases, we should think about the following:
-- Refreshing content based on new releases (for example, new features to list on the card depending on what OpenShift version you are using)
-- Make a broader getting started catalog page (this is something that could live in the help menu and allow our getting started content to expand much farther)
-- Allowing for more user customization of the content on the card (include some sort of survey to capture the users' interests and display that content on the card AND/OR allow for admin customization of what is shown on the card)
+The following are ideas for future designs of this card that would make the experience more ideal.
+
+### Hiding/Showing the card
+Instead of using a label to show the card again, creating a broader getting started catalog page would allow the user to visit that page to look at getting started resources again after hiding the card. This could live in the help menu and take over the current quick starts catalog.
+![future-getting-started-page](img/future-getting-started-page.png)
+
+If the catalog idea is too forward-looking, we should look to combine the show getting started resources label and show details switch on the Developer Add page.
+![future-add-page](img/future-add-page.png)
+![future-add-page-2](img/future-add-page-2.png)
+
+### Card content
+Instead of using static content, we could make the content more dynamic and refresh it based on new releases. For example, new features to list on the card depending on what OpenShift version you are using.
+
+We could also allow for the content to be more personalized per user. Meaning we would have to include some sort of survey to capture the users' interests and then display that content on the card AND/OR allow for admin customization of what is shown on the card.
 
