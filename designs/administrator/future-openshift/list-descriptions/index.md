@@ -18,7 +18,7 @@ This can save the user some time as well as exposing the user to further content
 ![ReplicaSets tab](img/List-Description-01.png)
 * These descriptions can be placed within any list dedicated to a specific resource.
 
-## future enhancements
+## Future enhancements
 ![Hyperlinks to descriptions](img/List-Description-02.png)
 * Adding Hyperlinks within the description body can further enhance the discovery and exploration of the "explore content".
 * Each Hyperlink can look for that resource's Explore/details page.
