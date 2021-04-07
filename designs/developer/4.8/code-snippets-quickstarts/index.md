@@ -10,7 +10,7 @@ version: 4.8
 ![Inline code snippet in Quick Starts](img/1-inline-code-snippet.png)
 
 ![Inline code snippet in Quick Starts](img/2-block-code-snippet.png)
-In the 4.8 release, code snippets will be added to Quick Starts. Inline and block code snippets will be supported. The inline and block code snippets will live inside of the Quick Start and support inline actions. By default, the user will be able to click a clipboard icon to copy the code snippet to their clipboard. Depending on if the user has the Web Terminal operator installed, the user will also be able to click a play button to run the code snippet in the Web Terminal.
+In the 4.8 release, code snippets will be added to quick starts. Inline and block code snippets will be supported. The inline and block code snippets will live inside of the quick start and support inline actions. By default, the user will be able to click a clipboard icon to copy the code snippet to their clipboard. Depending on if the user has the Web Terminal operator installed, the user will also be able to click a play button to run the code snippet in the Web Terminal.
 
 ## Inline
 ### Single action
