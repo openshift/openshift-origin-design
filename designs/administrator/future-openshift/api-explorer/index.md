@@ -1,52 +1,26 @@
 ---
 parent: Administrator
-version: 4.2
+version: 4.x
 ---
 
-# API Explorer
+# API Explorer enhancements
+This design covers future enhancements for the API Explorer.
 
-The API Explorer will be available on YAML editors, for both creation and edit flows.
+## Design
 
-## Side panel
-* The explorer will have the following tabs:
-  * **Schema**: A short description of the resource with a 'Learn more' link pointing to full documentation. Also includes a description of resource's elements.
-  * **Samples**: If applicable, samples for the resources. If there are no samples, this tab is hidden.
-  * In future, the Access Review tab may also be surfaced in the side panel.
-* The explorer will be open by default.
-* Users can close the side panel by clicking the 'x'. The panel can be opened by clicking the floating 'View API Explorer' link in the upper right hand corner of the page view.
+The intent of this design is to improve the Explore area to make it easier for users to navigate. In order to achieve this, we should convert the Schema view to use PatternFly's [tree view](https://patternfly-react.surge.sh/components/tree-view/). With the tree view, we also get the **search** field and the ability to **expand and collapse** all sections for free with the component.
 
-### Create flow
-In this example, there are no samples so the Samples tab is hidden.
-![pod schema](img/pod-schema.png)
+As a part of this design, we opened two enhancement requests to the tree view:
+1. Add horizontal dividers and vertical branches ([Issue #1020](https://github.com/patternfly/patternfly-design/issues/1020))
+2. Add a compact version that allows it to be rendered in a sidebar ([Issue #994](https://github.com/patternfly/patternfly-design/issues/994))
 
-![pod](img/pod.png)
+### Full page schema view
+![1](img/schema.png)
 
-### Edit flow
-In this example, there are samples so the tab is available.
-![build config](img/buildconfig-schema.png)
+### Sidebar view
+![2](img/sidebar.png)
 
-![build config](img/buildconfig-samples.png)
-
-![build config](img/buildconfig.png)
-
-## Full page
-* A full page view of the API Explorer will be available in the Administration section.
-* Users can select a resource from the list to view more details.
-* The details page will have the following tabs:
-  * **Overview**: Details the kind, group, and version.
-  * **Schema**: Full page view of the schema information.
-  * **Samples**: Full page view of the samples if applicable.
-  * **Instances**: List view of the instances of that resource.
-  * **Access Review**: Overview of access for that resource in a specific namespace or all namespaces.
-
-![full](img/full.png)
-
-![full overview](img/full-overview.png)
-
-![full schema](img/full-schema.png)
-
-![full samples](img/full-samples.png)
-
-![full instances](img/full-instances.png)
-
-![full access](img/full-access.png)
+### Future considerations
+Future enhancements should be considered to:
+* Add the ability to link to specific items within the tree (anchor links).
+* Make the sidebar resizable.
