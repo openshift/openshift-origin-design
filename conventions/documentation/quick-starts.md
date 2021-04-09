@@ -22,6 +22,14 @@ See the links below to view the latest quick start designs. New designs will be 
 * [Navigation hints](http://openshift.github.io/openshift-origin-design/designs/developer/4.7/quick-starts-navigation-hints/)
 * [Catalog page](http://openshift.github.io/openshift-origin-design/designs/developer/4.7/quick-starts-catalog/)
 
+**Quick starts in 4.8**
+* [Code snippets](http://openshift.github.io/openshift-origin-design/designs/administrator/4.8/code-snippets-quickstarts/)
+* [Getting started card on Add page and Cluster Overview](http://openshift.github.io/openshift-origin-design/designs/administrator/4.8/getting-started-card/)
+* [Quick starts from the Quick add menu](http://openshift.github.io/openshift-origin-design/designs/administrator/4.8/quickstarts-quick-add/)
+
+**Quick starts in 4.x**
+* [Surfacing resource-related quick starts](http://openshift.github.io/openshift-origin-design/designs/administrator/4.x/resource-related-quick-starts/)
+
 ## How does a quick start work?
 See [documentation](https://docs.openshift.com/container-platform/4.7/web_console/creating-quick-start-tutorials.html).
 
