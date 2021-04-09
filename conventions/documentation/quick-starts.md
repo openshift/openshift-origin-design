@@ -23,6 +23,7 @@ See the links below to view the latest quick start designs. New designs will be 
 * [Catalog page](http://openshift.github.io/openshift-origin-design/designs/developer/4.7/quick-starts-catalog/)
 
 **Quick starts in 4.8**
+* [Card actions](http://openshift.github.io/openshift-origin-design/designs/administrator/4.8/quick-start-actions/)
 * [Code snippets](http://openshift.github.io/openshift-origin-design/designs/administrator/4.8/code-snippets-quickstarts/)
 * [Getting started card on Add page and Cluster Overview](http://openshift.github.io/openshift-origin-design/designs/administrator/4.8/getting-started-card/)
 * [Quick starts from the Quick add menu](http://openshift.github.io/openshift-origin-design/designs/administrator/4.8/quickstarts-quick-add/)
