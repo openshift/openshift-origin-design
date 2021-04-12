@@ -32,7 +32,7 @@ At the end of the list, there should be a link to view all quick starts associat
 If a quick start exists that will help the user create a resource type, it should be made available within the empty state of the list view.
 ![empty-list](img/empty-list.png)
 
-Selecting the button will immediately start the quick start on the page.
+Clicking the button opens the quick start in a side panel. The user can then click the side panel button to begin the quick start.
 ![empty-list-click-single](img/empty-list-click-single.png)
 
 If multiple quick starts exist that will help the user create a resource type, a side panel should list the quick starts.
