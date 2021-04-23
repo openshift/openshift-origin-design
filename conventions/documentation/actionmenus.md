@@ -6,11 +6,12 @@ parent: Conventions
 
 ## Kebab and resource Actions menus
 
-- A resource's Actions menu are accessible from a number of places, such as:
+- A resource's Actions menu is accessible from a number of places, such as:
   1. List view kebab
   2. Details page actions dropdown
   3. Topology side panel
-  4. Topology right click action on a resource
+  4. Topology right-click action on a resource
+- By default, submenus will open to the right of the main menu. In cases where there is no space to the right, they can open to the left.
 
 **List view kebab**
 ![action menus kebab](../images/action-menus-kebab.png)
@@ -24,8 +25,8 @@ parent: Conventions
 **Topology right click action on a resource**
 ![action menus topology](../images/action-menus-topology.png)
 
-- When the actions are accessible from an Actions dropdown, the dropdown should be styled as a primary blue dropdown.
-- Exceptions are acceptable in the cases where a different action(s) have been identified as the view's primary action. In these cases, the primary action is usually pulled out of the dropdown and is styled as a primary button or dropdown to the left of the Actions dropdown, which will have secondary styling. (E.g., Secrets details pages)
+- Actions dropdowns should be styled as primary blue dropdowns.
+- Exceptions are acceptable in the cases where a different action(s) has been identified as the view's primary action. In these cases, the primary action(s) is usually pulled out of the dropdown and is styled as a primary button or dropdown to the left of the Actions dropdown, which will then have secondary styling. (E.g., Secrets details pages)
 
 ## Organization of Actions menu items
 <img src="../images/action-menus-1.png" alt="Action menus order" width="662"/>
