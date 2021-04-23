@@ -31,24 +31,24 @@ parent: Conventions
 <img src="../images/action-menus-1.png" alt="Action menus order" width="662"/>
 
 Action menus should be separated into multiple sections. The ordering of sections and actions in the menu should follow the following pattern:
-1. Resource specific actions
+1. **Resource specific actions**
   * These should be ordered with standalone actions listed first, followed by flyouts (i.e., if there is more than one flyout, they should be grouped at the bottom of this section). The default logic for ordering both the standalone actions and flyouts is alphabetical.
   * Exceptions are acceptable in the cases where an action may be dynamic. (E.g., `Pause rollouts` becomes `Resume rollouts`, but the action should not move from its original position)
-2. "Universal" actions that every resource has
+2. **"Universal" actions**
   * These actions are available for every resource in the console. These should be listed in the following order:
     1. `Edit labels`
     2. `Edit annotations`
-    3. `Edit {resource_type}``
-3. Delete resource action
+    3. `Edit {resource_type}`
+3. **Delete resource action**
   * The last section of each Actions menu should have the `Delete {resource_type}` action
-4. Submenus
+4. **Submenus**
   * In this example, the resource has more than two actions that are Edit actions, and are thus put into an Edit submenu.
   * Resources may have more than one submenu.
   * The default logic for ordering these actions is alphabetical.
 
 <img src="../images/action-menus-2.png" alt="Action menus order" width="329"/>
 
-5. Additional Edit action
+5. **Additional Edit action**
   * In cases where a resource was created via an import flow, they may have an additional Edit action.
   * The Edit action should be listed below the default `Edit {resource_type}` action.
   * The Edit action name will reflect the import flow used to create the resource. The following are the possible Edit labels for this action:
