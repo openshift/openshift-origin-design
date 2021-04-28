@@ -19,7 +19,7 @@ The goal is to bring the utilization charts back into the OCP console while impr
 ## Designs for 4.x release
 
 The utilization charts will receive the following revisions:
-* The charts will be moved into their own **Metrics tab** __Strong__ and use a format more inline with the monitoring pages. Moving these charts off the details page allows more space for things like HPAs in the future.  
+* The charts will be moved into their own **Metrics tab** and use a format more inline with the monitoring pages. Moving these charts off the details page allows more space for things like HPAs in the future.  
 * Updating the tooltip format to be consistent with Monitoring.
 * Using multi-line charts will show activity from multiple pods in a Deployment to help show comparisons and lower performing assets
 
