@@ -41,3 +41,15 @@ This could also reduce confusion around acronyms.
 ![img](img/Clickable-Badge-03.png)
 * Once in page description bellow resources lists will be introduced, we can enhance this behaviour by making the "Learn more" to open an Explore side panel.
 * This side panel can be considered the "Extended view" of  the explore info, while the popover is the "Quick view" (keeping the user as close to the content).
+
+![img](img/Clickable-Badge-04.jpg)
+* The 'Explore badge' side panel is a stand-alone panel.
+* It should not appear side by side with the workload page.
+* Firing one of these panel types should close the other.
+* The Quickstart panel should remain open, like it is in the workload side panel
+
+![img](img/Clickable-Badge-04.png)
+* Currently, on the Developer perspective > Topology menu item > List view, the name of the workload is coupled with the workload badge. Meaning, both of them link to the workload side panel.
+This is different from the Admin perspective, where they are decoupled.
+A part of this suggestion is to align both, decoupling the badge from the workload name.
+By doing so, firing the 'Explore Badge' side panel will not conflict with the workload side panel.
