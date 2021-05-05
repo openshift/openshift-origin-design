@@ -26,28 +26,40 @@ parent: Conventions
 ![action menus topology](../images/action-menus-topology.png)
 
 - Actions dropdowns should be styled as primary blue dropdowns.
-- Exceptions are acceptable in the cases where a different action(s) has been identified as the view's primary action. In these cases, the primary action(s) is usually pulled out of the dropdown and is styled as a primary button or dropdown to the left of the Actions dropdown, which will then have secondary styling. (E.g., Secrets details pages)
+- Exceptions are acceptable in cases where a different action(s) has been identified as the view's primary action. In these cases, the primary action(s) is usually pulled out of the dropdown and is styled as a primary button or dropdown to the left of the Actions dropdown, which will thus have secondary styling (e.g., Secrets details pages).
 
 ## Organization of Actions menu items
-<img src="../images/action-menus-1.png" alt="Action menus order" width="662"/>
 
-Action menus should be separated into multiple sections. The ordering of sections and actions in the menu should follow the following pattern:
+**Basic action menus**
+
+<img src="../images/action-menus-1.png" alt="Action menus order" width="294"/>
+
+The majority of resource action menus will be a basic action menu. These menus have "universal" actions and the `Delete {resource_type}` action separated by a horizontal divider.
+
+**Complex action menus**
+
+Some resource action menus will have more actions than those included in the basic action menu. The following documentation uses a Deployment as an example, but the logic to each section should be applied to any other complex action menu.
+
+<img src="../images/action-menus-2.png" alt="Action menus order" width="1239"/>
+
+Action menus should be separated into multiple sections. The ordering of sections and actions in the menu should adhere to the following pattern:
 1. **Resource specific actions**
-  * These should be ordered with standalone actions listed first, followed by flyouts (i.e., if there is more than one flyout, they should be grouped at the bottom of this section). The default logic for ordering both the standalone actions and flyouts is alphabetical.
-  * Exceptions are acceptable in the cases where an action may be dynamic. (E.g., `Pause rollouts` becomes `Resume rollouts`, but the action should not move from its original position)
+  * These should be ordered with standalone actions listed first followed by flyouts, with each separate group ordered alphabetically by default.
+  * Exceptions are acceptable in the cases where an action may be dynamic (e.g., `Pause rollouts` becomes `Resume rollouts`, but the action should not move from its original position).
 2. **"Universal" actions**
   * These actions are available for every resource in the console. These should be listed in the following order:
     1. `Edit labels`
     2. `Edit annotations`
     3. `Edit {resource_type}`
 3. **Delete resource action**
-  * The last section of each Actions menu should have the `Delete {resource_type}` action
+  * The last section of each Actions menu should have the `Delete {resource_type}` action.
 4. **Submenus**
-  * In this example, the resource has more than two actions that are Edit actions, and are thus put into an Edit submenu.
+  * In this example, the resource has two or more actions that are Edit actions, and are thus put into an Edit submenu.
   * Resources may have more than one submenu.
   * The default logic for ordering these actions is alphabetical.
+  * A special note on the Autoscale submenu: Resources that have autoscaling actions will have a separate submenu for Autoscale. If the resource doesn't yet have a HorizontalPodAutoscaler, the only action in the submenu will be `Add HorizontalPodAutoscaler`. If one exists already, the Add action will be replaced by `Edit HorizontalPodAutoscaler` and `Delete HorizontalPodAutoscaler`. (In the future, VerticalPodAutoscalers may be added to this submenu, with the same dynamic actions used for HPAs – Add, Edit, and Delete.)
 
-<img src="../images/action-menus-2.png" alt="Action menus order" width="329"/>
+<img src="../images/action-menus-3.png" alt="Action menus order" width="329"/>
 
 5. **Additional Edit action**
   * In cases where a resource was created via an import flow, they may have an additional Edit action.
@@ -58,7 +70,7 @@ Action menus should be separated into multiple sections. The ordering of section
     * `Edit Container import`
 
 Naming of actions:
-- Actions for resources do not need to include the resource’s name they affect, unless many resource types can be affected in the actions menu.
+- Actions for resources do not need to include the resource’s name they affect, unless many resource types can be affected in the actions menu (e.g. taking action on HorizontalPodAutoscalers from Deployment action menu).
 - Create, Edit, Delete are the exceptions in that they always include the full name of the resource they affect.
 - Action labels should follow the [capitalization convention](http://openshift.github.io/openshift-origin-design/conventions/documentation/capitalization.html).
 
