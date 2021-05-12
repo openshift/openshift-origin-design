@@ -11,16 +11,10 @@ When enabling or disabling a dynamic plugin, the user will need to be prompted t
 
 ## Enabling/disabling dynamic plugins from cluster settings
 
-![cluster settings configuration](img/1-0.png)
-- Because the enablement of dynamic plugins happens on the Console operator configuration resource Console [operator.openshift.io/v1], there will now be a way to access this resource in Cluster Settings (previously only global configuration resources Console [config.openshift.io/v1] were shown).
-- A new column will be added to the Configuration tab (formerly Global Configuration) that links to the equivalent operator configuration resource for each item (as available.)
-- Resources badges should be added to both columns to better convey that these are (different) resources.
-
-
 ![cluster settings configuration](img/1-1.png)
-- Column header help should be added to the two columns to help the user better understand what the purpose is for each resource.
-- Global popover text: Global configuration resources (config.openshift.io) generally affect other components.
-- Operator popover text: Operator configuration resources (operator.openshift.io) generally affect only this cluster operator.
+- Because the enablement of dynamic plugins happens on the Console operator configuration resource Console [operator.openshift.io/v1], there will now be a way to access this resource in Cluster Settings (previously only global configuration resources Console [config.openshift.io/v1] were shown).
+- All operator config resources will now also be shown in the Configuration tab (renamed from Global Configuration.)
+- Any resources that have both a operator and global configuration version will have the API displayed beneath the resource.
 
 ![console operator configuration resource details](img/1-2.png)
 - The Console operator configuration resource is shown.
