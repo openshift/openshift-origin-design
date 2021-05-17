@@ -13,6 +13,7 @@ This can save the user some time as well as exposing the user to further content
 ![Deployment page](img/List-Description-00.png)
 * Pulling the resource description from the Explore page and placing it below the list (table) title.
 * Adding a "Read more" link to the full Explore/resource page.
+* This description preview should be no more than [120] characters. After that, the text should be broken with "...Read more"
 
 ## Resource list tab
 ![ReplicaSets tab](img/List-Description-01.png)
