@@ -40,6 +40,8 @@ This could also reduce confusion around acronyms.
 ## Future expansions
 ![img](img/Clickable-Badge-03.png)
 * Once in page description bellow resources lists will be introduced, we can enhance this behaviour by making the "Learn more" to open an Explore side panel.
+![img](img/Explore-panel.png)
+* This side panel is the same one as the "Explore panel", and is an addition on top of it, pulling more content from the "eXplore" page.
 * This side panel can be considered the "Extended view" of  the explore info, while the popover is the "Quick view" (keeping the user as close to the content).
 
 
@@ -48,7 +50,7 @@ This could also reduce confusion around acronyms.
 This is different from the Admin perspective, where they are decoupled.
 A part of this suggestion is to align both, decoupling the badge from the workload name.
 By doing so, firing the 'Explore Badge' side panel will not conflict with the workload side panel.
-* The 'Explore badge' side panel is a stand-alone panel.
+* The 'Explore panel' side panel is an enhancement on the original "Explore panel". It is a different side panel from the workload panel
 * It should not appear side by side with the workload page.
 * Firing one of these panel types should close the other.
 * The Quickstart panel should remain open, like it is in the workload side panel.
