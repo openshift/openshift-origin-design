@@ -5,7 +5,7 @@ version: 4.x
 
 # Network policy form
 
-# Background
+## Background
 Setting Network policies is a critical part of the security of applications on a cluster. In OCP 4.7 the only way to manage Network policy in the console is to edit the yaml of these resources. It's a common and important enough operation that we should make this easier for administrators to work with.
 
 ## Goal
@@ -37,6 +37,8 @@ Users have the option to add multiple Ingress/Egress rules that allow traffic fr
 
 ![Adding allowed sources from peers](img/4-add-allowed-peers.png "Adding allowed sources from peers")
 
+![Adding allowed sources from peers dropdown](img/5-peers-dropdown.png "Adding allowed sources from peers dropdown menu")
+
 The ingress/egress rules are blocked into three categories of allowed peers:
 * Allowing peers from/to the same namespace
 ![Allow peers from same namespace dropdown menu](img/6-peers-same-namespace.png "network policy same namespace peers menu")
@@ -51,3 +53,9 @@ The ingress/egress rules are blocked into three categories of allowed peers:
 
 Each ingress/egress rule has an Accessible Ports section. Users can add multiple ports if needed. The default behaviour when a rule is created is to allow traffic from all ports.
 ![Allow traffic over ports](img/9-allowed-ports.png "Allow traffic over ports")
+
+### Full view of policy fields
+
+The screenshot below shows all ingress and egress options in one view.
+
+![Full field list for ingress/egress](img/0-network-policy-full-view.png "Full field list for ingress/egress")
