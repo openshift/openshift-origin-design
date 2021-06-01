@@ -12,7 +12,7 @@ Why is this information important: Deployments using  Kata containers may requir
 
 ## Goal
 
-Adding a method to filter by Runtime Class in the Pods list view would give a higher level view of these pods improving observability. 
+Adding a method to filter by Runtime Class in the Pods list view would give a higher level view of these pods improving observability.
 
 ## Designs for a future release
 
@@ -24,4 +24,4 @@ When clicking on the columns icon a modal will show the available options that c
 
 ![Select RuntimeClass option](img/2-pods-columns-options-modal.png "Select RuntimeClass option")
 
-When apploed the RuntimeClass column will show either runC or kata on their respective pods. The sorting option on the runtime class should be alphabetical.
+When applied the RuntimeClass column will show either runC or kata on their respective pods. The sorting option on the runtimeClass should be alphabetical.
