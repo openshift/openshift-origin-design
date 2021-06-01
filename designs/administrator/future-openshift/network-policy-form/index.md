@@ -47,7 +47,7 @@ The ingress/egress rules are blocked into three categories of allowed peers:
 * Allowing peers from/to an IP block.  
 ![Allow peers from IPBlock dropdown menu](img/8-peers-ipblock.png "network policy ipblock peers menu")
 
-**Note:** Each additional Peer section on the form starts with a dropdown option that determines what fields are required. The decision to hide fields was made to avoid showing empty form fields that take up more vertical space. All dropdowns are arranged from the most allowed traffic to the least allowed (see Allowed Peer screenshots).  
+**Note:** Fields in the Peer sections above have helper text that explains interactions and how to achieve the desired outcome of the Network Policy.  
 
 ### Ingress/egress traffic over specified ports
 
