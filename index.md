@@ -18,8 +18,8 @@ This site includes [designs](./designs), [conventions](./conventions), and [rese
 
 ### For Sketch
 
-- [PatternFly Sketch library](https://sketch.cloud/s/gb1ka)
-- [OpenShift Sketch library](https://sketch.cloud/s/mwdww)
+- [PatternFly Sketch library](https://www.sketch.com/s/b49e7291-ce0e-492b-92ae-a2e81c469af6)
+- [OpenShift Sketch library](https://www.sketch.com/s/71ad55fd-414a-4136-bac6-a95aacb8a839)
 
 ## How to contribute
 
