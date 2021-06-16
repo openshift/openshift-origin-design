@@ -22,9 +22,7 @@ The enhancements focus on improving the following scenarios:
     1. The new message under **Update status** lets users know the impact of not configuring a channel and directly states under the **Channel** selector that one is "Not configured."
     2. An informational alert was added to inform users that they are not requesting update recommendations and provides the action necessary for users to resolve. 
 
-- In addition to the improvements on the **Cluster setting details page** the **Input channel model** provides an input field for the channel.
-
-To verify if the current cluster version exists in the channel a user inputs, they must save and check the update status. 
+- In addition to the improvements on the **Cluster setting details page** the **Input channel model** provides an input field for the channel. To verify if the current cluster version exists in the channel a user inputs, they must save and check the update status. 
 
 ![Proposed - No Channel Selected Modal](img/inputchannel.png)
 
