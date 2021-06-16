@@ -1,6 +1,6 @@
 ---
 parent: Administrator
-version: 4.x
+version: 4.8
 ---
 
 # Improvements to channel states and statuses
@@ -15,17 +15,22 @@ The enhancements focus on improving the following scenarios:
 ## Scenario 01 | Create a more informative empty state for when a channel is not configured
 
 ![Current – No Channel Selected](img/Original-NoChannelSelected.png)
-- The current implementation for when a channel is not configured falls short in informing users the value of configuring a channel.
+- The current implementation (pictured above) for when a channel is not configured falls short in informing users the value of configuring a channel.
 
 ![Proposed - No Channel Selected](img/New-NoChannelSelected-1.png)
 - The new design (picutred above) improves how we handle 'I'm not in any channels': 
     1. The new message under **Update status** lets users know the impact of not configuring a channel and directly states under the **Channel** selector that one is "Not configured."
     2. An informational alert was added to inform users that they are not requesting update recommendations and provides the action necessary for users to resolve. 
 
-![Proposed - No Channel Selected Modal](img/New-NoChannelSelected-4.png)
+- In addition to the improvements on the **Cluster setting details page** the **Input channel model** provides an input field for the channel.
 
-- In addition to the improvements on the **Cluster setting details page** the **Update channel model** now explicitly states that we have found your current version in the channels listed in the dropdown. 
-- The channels in the dropdown now contain corresponding description strings. By exposing channel descriptions we are able to provide more context about the current channel and possible channel choices.
+To verify if the current cluster version exists in the channel a user inputs, they must save and check the update status. 
+
+![Proposed - No Channel Selected Modal](img/inputchannel.png)
+
+![Proposed - No Channel Selected Modal](img/inputchannel-2.png)
+
+![Proposed - No Channel Selected Modal](img/updatestatus.png)
 
 ## Scenario 02 | Help users who subscribe to nightly builds understand why they have no channel choices available
 
@@ -52,7 +57,7 @@ In those situations, tooling will not be able to determine the channels to which
     - An inline alert to let users know that their current version is not found in the current channel they have configured, resulting in an **Update status** of "Current version not found." 
     - Clear actions users can to take in order to request update recommendations for the current version.
 
-![Proposed - Version not found modal](img/Proposed-VersionNotFound-2.png)
-- The error is repeated in the modal and the channels listed in the dropdown support the current version. 
+![Proposed - Version not found modal](img/Input-channel-error.png)
+- The error is repeated in the **Input channel modal**. 
 
 
