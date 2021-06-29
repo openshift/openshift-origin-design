@@ -1,6 +1,6 @@
 ---
 parent: Administrator
-version: 4.x
+version: 4.9
 ---
 
 # Favoriting and hiding system projects
@@ -11,7 +11,7 @@ Today, our project selector includes favoriting and setting default projects. Pa
 2. [Favoriting and hiding system projects within the projects and namepsaces list views](#Favoriting-and-hiding-system-projects-in-projects-and-namespaces)
 
 ## Favoriting and hiding system projects in the project selector
-The project selector will be replaced by PatternFly select with favorites so that it can make use of the newest PF favoriting functionality. We will remove the ability to default a project. A switch will be added to be able to hide and show system projects. The switch will be off by default, hiding system projects. A selected project will be reflected within the toggle and obtain a gray background within the menu (same as today). Lastly, we will move the Create project action to a footer within the menu so that the action is more obvious.
+In OpenShift 4.9, the project selector will be replaced by PatternFly select with favorites so that it can make use of the newest PF favoriting functionality. We will remove the ability to default a project. A switch will be added to be able to hide and show system projects. The switch will be off by default, hiding system projects. A selected project will be reflected within the toggle and obtain a gray background within the menu (same as today). Lastly, we will move the Create project action to a footer within the menu so that the action is more obvious.
 
 ![project-selector](img/ProjectSelector.png)
 
@@ -39,7 +39,7 @@ For example, if the user were to select the first pod listed in the openshift-ma
 
 ## Favoriting and hiding system projects in projects and namespaces
 
-On the projects list view and namespaces list view pages, we will include a favorites column to be able to sort by favorites and customize favorites. We will also pre-filter the view so that it is only showing projects requested by “me” and “users”, which ultimately hides system projects.
+In a future version of OpenShift, the projects list view and namespaces list view pages will include a favorites column to be able to sort by favorites and customize favorites. We will also pre-filter the view so that it is only showing projects requested by “me” and “users”, which ultimately hides system projects.
 
 ![favorites-column](img/FavoritesColumn.png)
 
