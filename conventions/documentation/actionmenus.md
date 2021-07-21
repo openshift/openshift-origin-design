@@ -93,7 +93,7 @@ Actions in the menu should follow the following pattern:
 ---
 
 ## Hiding and disabling actions
-The decision of whether to hide or disable an unavailable action is a complicated one to make, and the answer is usually "it depends". The goal of this convention is to provide guidelines and questions that designers can ask themselves to aide in their decision, and document recommendations based on current interactions in the console.
+The following convention describes when to hide or disable an action in the console and provides examples for each scenario. Note that while these guidelines should be the default behavior, exceptions may be made where necessary.
 
 1. If an action isn’t recommended or encouraged, but the action technically can be performed, **use a modal** to ask the user “Are you sure?” and explain the potential consequences rather than hide or disable the action.
     * Example: *A user wants to start maintenance on a master node*
