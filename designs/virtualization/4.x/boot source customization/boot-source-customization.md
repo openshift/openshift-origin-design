@@ -4,14 +4,13 @@ version: 4.x
 ---
 
 # VM Templates - Boot Source Customization
-
+![About this process modal](img/BS-00.jpg)
 Updating the flow of the boot source customization.
 Removing the complexity of surfacing to the user the backend implementation of cloning the origin template first.
 Removing the option of resuming the customization process from the template clone to a notification at the top of the VM templates list.
 This PR will display the delta from the current implementation.
 
 ## Entering the customization flow
-
 ![About this process modal](img/BS-01.jpg)
 On clicking 'Customize boot source' the user will enter the creation flow.
 First, a modal will present itself, explaining to the user that BS custominzation will apply on a new template, cloned from the original one.
