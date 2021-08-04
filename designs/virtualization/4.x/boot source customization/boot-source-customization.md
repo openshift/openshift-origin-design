@@ -53,9 +53,10 @@ On clicking "Discard all"/"Discard item" the user will be presented with a confi
 ## Boot source customization - manual process
 ![VMI page](img/BS-40.jpg)
 This is a manual, mandatory step of viewing (and customizing) boot source within a temp VMI.
-The user is required to manually confirm when the process is done by clicking  the "Save BS to a new template"
+The user is required to manually confirm when the process is done by clicking  the "Save BS to a new template".
+The CTA is implemented as a sticky footer. 
 
-The micro-copy of this step has been modified to align with the new flo.
+The micro-copy of this step has been modified to align with the new flow.
 
 ![Save to a new template modal](img/BS-41.jpg)
 The micro-copy and required fields of this modal, were modified to match the new flow.
