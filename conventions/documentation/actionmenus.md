@@ -91,3 +91,18 @@ Actions in the menu should follow the following pattern:
 - Delete [Resource Name(s)]
 
 ---
+
+## Hiding and disabling actions
+The following convention describes when to hide or disable an action in the console and provides examples for each scenario. Note that while these guidelines should be the default behavior, exceptions may be made where necessary.
+
+1. If an action isn’t recommended or encouraged, but the action technically can be performed, **use a modal** to ask the user “Are you sure?” and explain the potential consequences rather than hide or disable the action.
+    * Example: *A user wants to start maintenance on a master node*
+2. If an action isn’t available because a user doesn’t have the correct RBAC, **disable** those actions.
+    * Example: *A user with view-only privileges looks at a Pod’s details page and the options within the Actions dropdown are disabled*
+3. If an action isn’t available because the user needs to do something else in the UI first, **disable** the action with a tooltip explaining what they need to do to enable the action. This aids in discoverability of actions within the console.
+    * Example: *A user can’t perform bulk actions until they select resources in the list*
+4. If an action is dependent on a condition or status in the console, **disable** the action with a tooltip explaining why the action currently is unavailable.
+    * Example: *A user cannot view past logs because this container hasn’t restarted*
+5. If an action cannot be taken because of a product / K8s constraint or rule, **hide** the action.
+    * Example: *A user can’t delete a Red Hat template or remove an Environment variable from a managed resource*
+    * Exception: *Environment variables themselves should be shown but disabled, so that users can see a read-only view of the related variables*
