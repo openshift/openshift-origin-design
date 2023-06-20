@@ -6,7 +6,7 @@ nav_order: 1
 
 # Content migrated to new site
 
-Our OpenShift conventions and designs have moved to a new website. The [UXD Design Hub](https://www.uxd-hub) is a new tool that documents the work of our multi-displined team to support the larger ecosystem of Red Hat products. This OpenShift design site is no longer maintained and content is being migrated to the Design Hub.
+Our OpenShift conventions and designs have moved to a new website. The [UXD Design Hub](https://uxd-hub.com) is a new tool that documents the work of our multi-disciplinary team to support the larger ecosystem of Red Hat products. This OpenShift design site is no longer maintained and content is being migrated to the Design Hub.
 
 # OpenShift Design
 
